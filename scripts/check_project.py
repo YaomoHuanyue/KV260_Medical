@@ -19,7 +19,9 @@ def main():
   check(t['source']);assert t['clock_ns']==10 and t['part']=='xck26-sfvc784-2LV-c',key
   if t.get('testbench'):check(t['testbench'])
  rms=json.loads(check('hardware/rm_targets.json').read_bytes())
- for key,t in rms.items():check(t['create']);assert all(n in hls for n in t['hls']),key
+ for key,t in rms.items():
+  check(t['create']);assert all(n in hls for n in t['hls']),key
+  for n in t.get('auxiliary_inputs',[]):check(n)
  native=json.loads(check('hardware/native_targets.json').read_bytes())
  for t in native.values():
   for n in t['sources']:check(n)
