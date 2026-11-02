@@ -20,6 +20,17 @@ def main():
  assert exe and Path(exe).is_file(),'Set --tools or AMD_VITIS_ROOT to Vitis 2025.2.1'
  cmd=[str(exe),*(['--compile','--mode','hls']if a.stage=='csynth'else['--mode','hls','--'+a.stage]),'--config',str(cfg),'--work_dir',str(out)]
  env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1',PROCESSOR_ARCHITECTURE='AMD64')
+ if a.target=='smooth' and a.stage in ('csim','cosim') and sys.platform.startswith('linux'):
+  compiler=shutil.which('g++')
+  if not compiler and base:
+   compiler=next((str(p) for p in [base/'tps/lnx64/gcc-9.3.0/bin/g++',base/'tps/lnx64/gcc-8.3.0/bin/g++'] if p.is_file()),None)
+  assert compiler,'A native g++ is required for the independent smooth std::fma oracle'
+  import shlex
+  oracle=out/'native_smooth_reference.so'
+  native=[compiler,'-std=c++14','-O2','-fPIC','-shared','-fno-fast-math','-ffp-contract=off','-Wno-unknown-pragmas',*shlex.split(extra_cflags),*shlex.split(extra_ldflags),str((ROOT/t['testbench']).parent/'oracle_posix.cpp'),'-o',str(oracle),'-lm']
+  with(out/'oracle_build.log').open('wb')as f:subprocess.run(native,cwd=ROOT,env=env,stdout=f,stderr=subprocess.STDOUT,check=True)
+  env['FULL_SMOOTH_REFERENCE_SO']=str(oracle)
+  (out/'oracle_build.json').write_text(json.dumps(dict(argv=native,independent_native_math=True),indent=2)+'\n')
  if a.target=='hu32':
   lut=out/'synthetic_lut.bin';lut.write_bytes(bytes((i*37+19)&255 for i in range(1401)));env['HU_AXIS_LUT_FILE']=str(lut)
  start=time.monotonic()

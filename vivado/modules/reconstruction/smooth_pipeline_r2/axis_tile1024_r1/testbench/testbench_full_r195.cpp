@@ -38,7 +38,7 @@ int main(){
     if(r[0]!=1)return 3;
     for(unsigned i=1;i<16;++i)if(r[i]!=0)return 3;
     std::puts("PASS invalid nv=0 report exact");
-#ifdef _WIN32
+#if defined(_WIN32) || defined(__linux__)
     if(accepted::oracle_calls_r150!=6)return 9;
     std::puts("PASS six independent native oracle invocations plus explicit invalid case");
 #endif

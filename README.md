@@ -2,7 +2,7 @@
 
 作者：**YaomoHuanyue**。本项目原创代码采用 [MIT License](LICENSE)。
 
-公有仓库：[YaomoHuanyue/KV260_Medical](https://github.com/YaomoHuanyue/KV260_Medical)。默认分支为 `main`。
+公有仓库：[YaomoHuanyue/KV260_Medical](https://github.com/YaomoHuanyue/KV260_Medical)。默认分支为 `main`。当前 `vivado` 分支额外保存完整 Vivado 工程和构建候选；竞赛轻量源码位于 `main`。
 
 在一块 AMD Kria KV260 上**脱机完成支气管镜术前规划的完整流程**：原始胸部 CT → 肺 / 气道 / 病灶候选分割 → 三维重建 → 按器械直径约束的路径规划 → 实时虚拟支气管镜。关键计算由 **8 个已部署的自研 PL 加速模块**承担，借助 **DFX 动态部分重配置**按处理阶段分时复用同一块可重配置区域。PS负责病例读取、任务调度、部分前后处理和界面交互；不使用 AMD DPU，运行时不静默回退到 PS。
 

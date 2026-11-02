@@ -5,6 +5,8 @@
 #include <cstdlib>
 #ifdef _WIN32
 #include <windows.h>
+#elif defined(__linux__)
+#include <dlfcn.h>
 #endif
 #include <cmath>
 #include <queue>
@@ -18,6 +20,8 @@
 namespace accepted {
 #ifdef _WIN32
 #include "oracle_bridge_r150.inc"
+#elif defined(__linux__)
+#include "oracle_posix_bridge.inc"
 #else
 #include "oracle_reference.inc"
 #endif
