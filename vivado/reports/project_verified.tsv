@@ -1,9 +1,0 @@
-tool	2025.2.1
-project	KV260_Medical
-top	system_top
-BD_count	1
-IP_count	11
-external_source_count	0
-RTL_elaboration	PASS
-RP_interface_blackbox	1
-BD_global_synthesis	1

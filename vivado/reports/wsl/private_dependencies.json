@@ -1,8 +1,0 @@
-{
-  "download_exit": 0,
-  "download_log": "Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 make amd64 4.3-4.1build2 [180 kB]\nFetched 180 kB in 2s (115 kB/s)\n",
-  "host_stdio_present": false,
-  "host_crt_present": false,
-  "make_version": "GNU Make 4.3",
-  "retry_PID": 2927
-}

@@ -1,8 +1,0 @@
-{
-  "download_exit": 0,
-  "log": "Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.9 [2126 kB]\nGet:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-147.147 [1595 kB]\nFetched 3721 kB in 5s (791 kB/s)\n",
-  "retry_PID": 3520,
-  "only_owned_prefix_changed": true,
-  "private_include": "/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/deps/prefix/usr/include:/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/deps/prefix/usr/include/x86_64-linux-gnu",
-  "private_library": "/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/deps/prefix/usr/lib/x86_64-linux-gnu"
-}

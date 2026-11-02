@@ -65,7 +65,6 @@
 | `dfx/` | 各 DFX 模块的 HLS 源码、主机桥接与已验收固件（LFS） |
 | `accelerators/` | C5 突发读取 reader |
 | `hardware/` | HLS / RM 目标清单、RM 创建与实现脚本、AMD Ross 导出的静态工程、冻结静态检查点（LFS） |
-| `vivado/` | 可直接打开的独立 Vivado 工程、主平台及 MC 接口 BD、本轮 MC 候选与真实构建报告 |
 | `scripts/` | 工程检查、前端 / 原生库构建、HLS 流程、病例配置 |
 | `docs/` | 构建说明、验证记录、来源与第三方说明 |
 | `results/` | 已验收版本的精简验证记录 |
@@ -115,9 +114,7 @@ sudo .venv/bin/python -B ui/v3/runtime.py --input "$PWD/data/CT.nrrd"
 
 器件 `xck26-sfvc784-2LV-c`，AMD Vivado / Vitis HLS **2025.2.1**，PL 100 MHz。
 
-直接打开 `vivado/project/KV260_Medical.xpr` 可查看主平台 `system_ps.bd` 和 MC 接口 `algorithm_mc.bd`。独立工程的验证范围见 `vivado/reports/VALIDATION.md`：静态源综合和本轮 MC 综合布线已通过，其余 RM 的完整重建及 Project-Mode DFX 配置集成仍在继续；已验收固件不因本次工程整理而改变。
-
-源码清单包含11个HLS核和9个RM构建目标，包含导航表面渲染的不同实现版本；这与运行时8个处理模块的口径不同。主BD展示静态平台，算法位于 `rp` 动态分区。`algorithm_mc.bd`展示MC接口，生产RM仍使用RTL边界适配器。工程目录自带冻结静态检查点，后续实现优先复用该静态区。
+完整 Vivado 工程、检查点和新增构建候选位于独立的 [vivado 分支](https://github.com/YaomoHuanyue/KV260_Medical/tree/vivado)。`main` 保留系统最小构建源码、原有必要发布输入和硬件重建脚本，不包含完整 Vivado 工程目录。竞赛提交上限为500 MB；大小按受控文件解压后、LFS文件实际内容计算，不计本地Git缓存或构建输出。
 
 ```bash
 python scripts/run_hls.py hu32 csim    --tools /opt/amd/2025.2.1/Vitis
