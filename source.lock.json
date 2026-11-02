@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7703,
-      "SHA256": "31df2bd18aa97a094282929a5dab12880f39c3fafa2af919dbfdc1ced81b730f"
+      "bytes": 7681,
+      "SHA256": "24af4d4e589dce766026e321ebc0d7d0b40821df5cd34c44b8077868cc1c371f"
     },
     {
       "path": "accelerators/ct_reader/kernel.cpp",
