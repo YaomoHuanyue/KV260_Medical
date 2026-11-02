@@ -12,9 +12,14 @@
       "SHA256": "d682a7eff192999f2e0a1de4b267252be1567368afbfd7e88bb66f6dc540dc8f"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "SHA256": "cf619cd149a36d671092652b191858e3ce5e8da59f726656c185637a41ce83a0"
+    },
+    {
       "path": "README.md",
-      "bytes": 6913,
-      "SHA256": "e1471dda8ac2f08d4389be613c29c4e9105f2623550637624e1342b56cdaeccf"
+      "bytes": 7703,
+      "SHA256": "31df2bd18aa97a094282929a5dab12880f39c3fafa2af919dbfdc1ced81b730f"
     },
     {
       "path": "accelerators/ct_reader/kernel.cpp",
@@ -1893,8 +1898,8 @@
     },
     {
       "path": "docs/THIRD_PARTY.md",
-      "bytes": 761,
-      "SHA256": "b7f7a2a95f57a0115aeb5de1c15e83a4cf245d34b988847a9fdeecd88afdcee4"
+      "bytes": 867,
+      "SHA256": "59aa86aea12b300476e0d2c8a0d82ae459c2c62bb0e4b7e5a2f08c9978172b86"
     },
     {
       "path": "docs/VALIDATION.md",

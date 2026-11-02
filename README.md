@@ -1,6 +1,10 @@
 # 基于 KV260 动态部分重配置的支气管镜导航工作站
 
-在一块 AMD Kria KV260 上**脱机完成支气管镜术前规划的完整流程**：原始胸部 CT → 肺 / 气道 / 病灶候选分割 → 三维重建 → 按器械直径约束的路径规划 → 实时虚拟支气管镜。计算密集环节全部由 **8 个自研 PL 加速器**承担，借助 **DFX 动态部分重配置**按处理阶段分时复用同一块可重配置区域；不使用 AMD DPU，运行时不静默回退到 PS。
+作者：**YaomoHuanyue**。本项目原创代码采用 [MIT License](LICENSE)。
+
+公有仓库：[YaomoHuanyue/KV260_Medical](https://github.com/YaomoHuanyue/KV260_Medical)。当前开发分支为 `codex/minimal-system`。
+
+在一块 AMD Kria KV260 上**脱机完成支气管镜术前规划的完整流程**：原始胸部 CT → 肺 / 气道 / 病灶候选分割 → 三维重建 → 按器械直径约束的路径规划 → 实时虚拟支气管镜。关键计算由 **8 个已部署的自研 PL 加速模块**承担，借助 **DFX 动态部分重配置**按处理阶段分时复用同一块可重配置区域。PS负责病例读取、任务调度、部分前后处理和界面交互；不使用 AMD DPU，运行时不静默回退到 PS。
 
 > 研究原型，结果仅供参考，不用于临床诊断。病灶为模型候选。
 
@@ -8,7 +12,7 @@
 
 ## 主要特性
 
-- **全流程 PL 加速**：HU 预处理（D6）、INT8 卷积（C5）、移动立方体（D7）、Taubin 网格平滑（D9）、体距离场（C8）、路径与镜头审核（C4）、虚拟支气管镜渲染（C6）、精确透明合成（C7），全部为 Vitis HLS 自研内核。
+- **关键计算环节 PL 加速**：HU 预处理（D6）、INT8 卷积（C5）、移动立方体（D7）、Taubin 网格平滑（D9）、体距离场（C8）、路径与镜头审核（C4）、虚拟支气管镜渲染（C6）、精确透明合成（C7），全部为 Vitis HLS 自研内核。
 - **DFX 分时复用**：8 个模块共用一块可重配置分区，统一 AXI-Lite / M_AXI / AXIS 接口；切换时排空总线、加载局部位流、校验 RM 身份与 DDR 哨兵，完整切换约 155 ms，失败即报错。
 - **网络—引擎协同设计**：2.5D 三头 U-Net（156,947 参数），18 个卷积层全部映射到同一 C5 引擎，每周期 512 次乘加，阵列利用率约 94%。
 - **无独立显卡的实时可视化**：PL 光线步进虚拟支气管镜（640×512），GPU 深度剥离 + PL 逐像素排序的最多 32 层精确透明。
@@ -17,7 +21,7 @@
 
 ## 实测指标
 
-KV260 板上实测，139 张真实胸部 CT（512×512）。
+以下为已验收固件的历史KV260板测数据，139张胸部CT（512×512）；不是本轮独立源码重建的新测试结果。
 
 | 指标 | 结果 |
 |---|---|
@@ -113,6 +117,8 @@ sudo .venv/bin/python -B ui/v3/runtime.py --input "$PWD/data/CT.nrrd"
 
 直接打开 `vivado/project/KV260_Medical.xpr` 可查看主平台 `system_ps.bd` 和 MC 接口 `algorithm_mc.bd`。独立工程的验证范围见 `vivado/reports/VALIDATION.md`：静态源综合和本轮 MC 综合布线已通过，其余 RM 的完整重建及 Project-Mode DFX 配置集成仍在继续；已验收固件不因本次工程整理而改变。
 
+源码清单包含11个HLS核和9个RM构建目标，包含导航表面渲染的不同实现版本；这与运行时8个处理模块的口径不同。主BD展示静态平台，算法位于 `rp` 动态分区。`algorithm_mc.bd`展示MC接口，生产RM仍使用RTL边界适配器。工程目录自带冻结静态检查点，后续实现优先复用该静态区。
+
 ```bash
 python scripts/run_hls.py hu32 csim    --tools /opt/amd/2025.2.1/Vitis
 python scripts/run_hls.py hu32 csynth  --tools /opt/amd/2025.2.1/Vitis
@@ -126,4 +132,4 @@ python scripts/run_hls.py hu32 csynth  --tools /opt/amd/2025.2.1/Vitis
 
 ## 第三方与许可
 
-AMD Ross（固定提交 `2cdc9eef`）用于工程导出与 HLS 流程；字体、图标等第三方资源保留各自 LICENSE。详见 [第三方说明](docs/THIRD_PARTY.md)。本仓库暂未声明整体开源许可证。
+AMD Ross（固定提交 `2cdc9eef`）用于工程导出与 HLS 流程；字体、图标、AMD IP及工具生成产物等第三方内容继续适用各自原有许可，根目录MIT许可证不替换这些许可。详见 [第三方说明](docs/THIRD_PARTY.md)。
