@@ -1,0 +1,36 @@
+{
+  "original_worker_source": "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py",
+  "original_worker_file_SHA256": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b",
+  "original_worker_function_SHA256": "3a6b79e485e235091de40a6670b740f740f16550362f27f38fc16679825fba56",
+  "derived_worker_function_SHA256": "aa994b703113b6139aa8fc9b62da0cf740c5d85fa3b6b803f8535384d6899341",
+  "exact_literal_edits": [
+    {
+      "before": "            pred=sitk.GetImageFromArray(mask);pred.CopyInformation(image)\n            masks[name]=sitk.GetArrayFromImage(sitk.Resample(pred,original,sitk.Transform(),sitk.sitkNearestNeighbor,0,sitk.sitkUInt8))",
+      "after": "            masks[name]=restore_mask(mask,image,original)"
+    },
+    {
+      "before": "    finally:b.close()",
+      "after": "    finally:b.close()\n    del prepare\n    prepared.pop(\"quantized\")\n    gc.collect()"
+    },
+    {
+      "before": "    post=time.perf_counter()-tick",
+      "after": "    post=time.perf_counter()-tick\n    if not a.save_airway_logits:raw_airway=None\n    gc.collect()"
+    }
+  ],
+  "exact_reverse_verified": true,
+  "original_all18_PL_conv_PL_HU_context_quantization_thresholds_full_volume_loops_unchanged": true,
+  "original_logits_preview_references_and_same_grid_audit_not_disabled_or_replaced": true,
+  "original_mismatched_grid_audit_explicit_not_run_policy_retained": true,
+  "only_required_CT_pixel_owners_and_readonly_views_retained_no_full_numpy_CT_copy": true,
+  "raw_airway_retained_until_original_audit_consumes_it_and_graph_retained_until_report": true,
+  "no_new_bitstream_or_board_run_or_RSS_or_acceleration_claimed": true,
+  "source_and_evidence_SHA256": {
+    "tools/prepare_CT_bounded_full_outputs_20261020.py": "9b63872801ccd2e4d262c432bc45b7113be3b0862cadb1cdaf2e964d33590a75",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runtime.py": "399f2410ed6538c67345b67f76b54943b098cd40786cfa4726c9c4521254ee3f",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r2/runtime.py": "032e5e312af64dbe32761e9433c4f0d44f2dad3d84c26d9234b85f75ac1eef16",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

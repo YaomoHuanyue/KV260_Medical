@@ -1,0 +1,42 @@
+{
+  "status": "surface_export_strict_roundtrip_passed",
+  "unit_tests": 4,
+  "structures": {
+    "lung": {
+      "points": 430918,
+      "triangles": 860680,
+      "source_coordinates_normals_and_triangles_exact": true,
+      "third_party_VTK_reader_exact": false,
+      "all_attribute_arrays_exact": false,
+      "original_UI_expanded_attributes_exact": null
+    },
+    "airway": {
+      "points": 23280,
+      "triangles": 46520,
+      "source_coordinates_normals_and_triangles_exact": true,
+      "third_party_VTK_reader_exact": false,
+      "all_attribute_arrays_exact": false,
+      "original_UI_expanded_attributes_exact": true
+    },
+    "nodule": {
+      "points": 3516,
+      "triangles": 6996,
+      "source_coordinates_normals_and_triangles_exact": true,
+      "third_party_VTK_reader_exact": false,
+      "all_attribute_arrays_exact": false,
+      "original_UI_expanded_attributes_exact": null
+    }
+  },
+  "third_party_VTK_required": false,
+  "source_sha256": {
+    "modules/surface_export/test_vtp.py": "2073174f95e76902c1097b7643e0aed6864d72688f87cdf9e3c56d0053d602e8",
+    "modules/surface_export/readback.py": "565c9ff1aae92415f1abc5fcc59c10d3a713d837fc7bc663adcbaac1ca810b6d",
+    "modules/surface_export/export.py": "2c1cbab7bf84981e0d162a410f9370c0103dc240d42f7f718f1b4f073926b740",
+    "modules/surface_export/vtp.py": "8f0600c9befc333e07f12046f99e55ac6fbe8ab364db0973a70f892de9568622",
+    "ui/features/analysis.py": "1a61969935b989e259778f89a248dccc29e715a0af3644c98dfebcc907a6521a"
+  },
+  "bundle_report_sha256": "d0128d859e1e21252e4451b24d80bfd6ffbfd164b29fbec7f56421196e449742",
+  "additional_PL_resources": 0,
+  "existing_UI_unchanged": true,
+  "UI_attribute_file_sha256": "abd6e728f43841a22e81a5bc8df57ecec5ae2559cc4f30cb42c68274038c307a"
+}

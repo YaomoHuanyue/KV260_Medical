@@ -1,0 +1,110 @@
+{
+  "status": "passed_actual_PL_numeric_DFX_and_paired_audit_faster_than_optimized_PS;native_UI_pending",
+  "release_manifest_sha256": "842de8d2a4347f5639d4d296298d635c6ab4b5edea80aaf7ee47d93b894f2d44",
+  "source_sha256": {
+    "tools/record_route_audit_fast_board_r14.py": "f85e1aa777d631b7057d76a8b6ddbdfab1535eedc757f6ec229ebb40042e04b9",
+    "tools/run_route_audit_fast_trial_r14.sh": "3a4e197c5f77b0c407b28c07f2eddf5b040d1891845ad73c5cb7743d5c3ad2a8",
+    "tools/launch_route_audit_fast_trial_r14.sh": "81eadacd964cd291b7ac6dbc4de4175934c68843e32a6b178fce692db6ded02c",
+    "tools/accepted_native_ui.py": "b5f9cc1e9643e085312a5b082d2194275f2a2c909b30e2eebb85a88c154ac8a8"
+  },
+  "evidence_sha256": {
+    "docs/board_r14/report.json": "c75f6369843c844ade66d8ec7f2285b9c6ef24c9a60a4386f846361fa723fa05",
+    "docs/board_r14/own_audited_pl.bin": "6246dd311d5cbda1a6e30863fb0df55f5344ee4c64d8bb4edaf8a174ec4f314f",
+    "docs/board_r14/candidate_session.json": "da42535c84ffff8aafe9958a44dfbf4d031a16b383e5871cdfa9a9a567d0d8d2",
+    "docs/board_r14/baseline_session.json": "155c82749965b37e13ac3d00acea391d8e86af3c82ccae31bd8308cad7899dc4",
+    "docs/board_r14/surface_restore_session.json": "9369d69d14e3703b62a21a958c7fc89159e77f4bae92717d1f8b14d3a5ba9490",
+    "docs/board_trial_r14.json": "d0c16e64cbb26c22f1c46809a9251660f8a02109965e16011f6e97a2b7cec472",
+    "docs/board_trial_r14.log": "1d4dfea431ca09491e0da5359f3c354eab44030d379c3a5f7dee044b7cdb7e9e",
+    "docs/accepted_UI_before_r14.json": "7c393bfc9bee41ad6760089a489c1366ffcc1679706ed6d4a4fae44ac1736088"
+  },
+  "numerical_cases": 22,
+  "original_CT_points": 1161,
+  "roundtrips": 3,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "restored_ui_pid": 207030,
+  "restored_accepted_UI_binary_sha256": "fcbd8fd79a892e06b4bb7aa4486abd304e4de22cc424f3117c6cf209ee1f7d3a",
+  "scope_restored": true,
+  "device_written_cacheable_output_and_zero_tail_verified": true,
+  "resources": {
+    "system_top": {
+      "lut": 91696,
+      "ff": 97604,
+      "dsp": 192,
+      "bram36_equivalent": 59.5,
+      "uram": 58
+    },
+    "rp": {
+      "lut": 77856,
+      "ff": 71722,
+      "dsp": 192,
+      "bram36_equivalent": 59.5,
+      "uram": 58
+    }
+  },
+  "timing": {
+    "wns_ns": 0.129,
+    "whs_ns": 0.01,
+    "wpws_ns": 3.5,
+    "clock_hz": 100000000
+  },
+  "paired_increment": {
+    "hardware_seconds": {
+      "median_seconds": 0.00043139000000000025,
+      "minimum_seconds": 0.00032067399999999996,
+      "maximum_seconds": 0.00048297500000000007,
+      "paired_samples_seconds": [
+        0.0004298949999999996,
+        0.00046465499999999785,
+        0.0004483549999999975,
+        0.0003540239999999979,
+        0.00048297500000000007,
+        0.00047556399999999777,
+        0.00032067399999999996,
+        0.0004328850000000009,
+        0.00041026499999999994,
+        0.0003726039999999986,
+        0.00038069400000000087,
+        0.0004554339999999976
+      ]
+    },
+    "host_run_seconds": {
+      "median_seconds": 0.00041922449999999903,
+      "minimum_seconds": 0.0002943130000000009,
+      "maximum_seconds": 0.0005117739999999996,
+      "paired_samples_seconds": [
+        0.0004154840000000007,
+        0.0004401839999999997,
+        0.000457614000000002,
+        0.0002943130000000009,
+        0.00046463400000000196,
+        0.0005117739999999996,
+        0.0003017639999999995,
+        0.00042296499999999737,
+        0.00036528400000000044,
+        0.00036668399999999907,
+        0.000404454000000002,
+        0.00044921399999999986
+      ]
+    }
+  },
+  "optimized_PS_audit_seconds": 0.00048804498510435224,
+  "identical_actual_route_and_instrument_parameters": {
+    "source": "actual fused PL route output and identical query parameters",
+    "points": 1161,
+    "window_mm": 10.0,
+    "resolution_margin_mm": 1.3611053995406497,
+    "required_radius_mm": 0.7,
+    "minimum_bend_radius_mm": 2.0,
+    "packed_input_sha256": "389892e1a7daa09a2d8854a92f4920bdee2f7b8905f3013f896499651d6e7e2f",
+    "optimized_PS_output_matches_actual_PL": true
+  },
+  "optimized_PS_library_sha256": "0b763dc0fc69809fedbdc0f97471e584277583c8a62b3aff3e076f049411863a",
+  "PL_audit_is_faster_than_optimized_PS": true,
+  "PS_over_PL_incremental_host": 1.1641614101856008,
+  "existing_Python_planning_plus_hud_seconds": 0.12542926899106785,
+  "candidate_planning_plus_hud_seconds": 0.04400565947455776,
+  "speedup_vs_existing_Python_flow": 2.8502985863349197,
+  "production_UI_replaced": false,
+  "HDMI_integration_tested": false,
+  "comparison_limit": "PL audit cost is measured by paired warm fused-minus-ordinary queries on the same RM/cache. Full-flow improvement is separate. It is not a raw standalone audit speedup or a rendering FPS claim."
+}

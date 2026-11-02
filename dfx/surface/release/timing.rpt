@@ -1,0 +1,380 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date              : Sun Oct  4 01:53:28 2026
+| Host              : NYANKO-YUE running 64-bit major release  (build 9200)
+| Command           : report_timing_summary -file D:/Xilinx_Project/2026FPGA/kv260_system/dfx/surface/build/timing.rpt
+| Design            : system_top
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.31 12-08-2025
+| Design State      : Routed
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      1.268        0.000                      0               168949        0.010        0.000                      0               168949        3.500        0.000                       0                 52533  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock     Waveform(ns)       Period(ns)      Frequency(MHz)
+-----     ------------       ----------      --------------
+clk_pl_0  {0.000 5.000}      10.000          100.000         
+clk_pl_1  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_pl_0            1.268        0.000                      0               168949        0.010        0.000                      0               168949        3.500        0.000                       0                 52533  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.268ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.010ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.268ns  (required time - arrival time)
+  Source:                 rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/slot_fu_888_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/SP/I
+                            (rising edge-triggered cell RAMS64E clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pl_0 rise@10.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        8.243ns  (logic 4.171ns (50.603%)  route 4.072ns (49.397%))
+  Logic Levels:           15  (CARRY8=3 DSP_A_B_DATA=1 DSP_ALU=2 DSP_M_DATA=1 DSP_MULTIPLIER=1 DSP_OUTPUT=2 DSP_PREADD_DATA=1 LUT2=1 LUT3=2 LUT4=1)
+  Clock Path Skew:        -0.190ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.944ns = ( 12.944 - 10.000 ) 
+    Source Clock Delay      (SCD):    3.377ns
+    Clock Pessimism Removal (CPR):    0.243ns
+  Clock Uncertainty:      0.160ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.312ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      3.110ns (routing 1.584ns, distribution 1.526ns)
+  Clock Net Delay (Destination): 2.728ns (routing 1.450ns, distribution 1.278ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      PBlock               Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------------------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                                      
+    PS8_X0Y0             PS8                          0.000     0.000 r  static                              platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.229     0.229    static                              platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  static                              platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=53611, routed)       3.110     3.377    boundary                            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/ap_clk
+    SLICE_X53Y155        FDRE                                         r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/slot_fu_888_reg[0]/C
+  -------------------------------------------------------------------    -------------------------------------------------------
+    SLICE_X53Y155        FDRE (Prop_HFF_SLICEM_C_Q)
+                                                      0.114     3.491 f  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/slot_fu_888_reg[0]/Q
+                         net (fo=27, routed)          0.722     4.213    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/flow_control_loop_pipe_sequential_init_U/slot_fu_888_reg[0]_0
+    SLICE_X50Y136        LUT3 (Prop_D5LUT_SLICEL_I2_O)
+                                                      0.133     4.346 f  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/flow_control_loop_pipe_sequential_init_U/tmp_product__0_i_2/O
+                         net (fo=28, routed)          1.428     5.774    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/A[2]
+    DSP48E2_X7Y55        DSP_A_B_DATA (Prop_DSP_A_B_DATA_DSP48E2_A[2]_A2_DATA[2])
+                                                      0.258     6.032 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_A_B_DATA_INST/A2_DATA[2]
+                         net (fo=1, routed)           0.000     6.032    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_A_B_DATA.A2_DATA<2>
+    DSP48E2_X7Y55        DSP_PREADD_DATA (Prop_DSP_PREADD_DATA_DSP48E2_A2_DATA[2]_A2A1[2])
+                                                      0.114     6.146 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_PREADD_DATA_INST/A2A1[2]
+                         net (fo=1, routed)           0.000     6.146    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_PREADD_DATA.A2A1<2>
+    DSP48E2_X7Y55        DSP_MULTIPLIER (Prop_DSP_MULTIPLIER_DSP48E2_A2A1[2]_U[23])
+                                                      0.700     6.846 f  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_MULTIPLIER_INST/U[23]
+                         net (fo=1, routed)           0.000     6.846    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_MULTIPLIER.U<23>
+    DSP48E2_X7Y55        DSP_M_DATA (Prop_DSP_M_DATA_DSP48E2_U[23]_U_DATA[23])
+                                                      0.067     6.913 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_M_DATA_INST/U_DATA[23]
+                         net (fo=1, routed)           0.000     6.913    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_M_DATA.U_DATA<23>
+    DSP48E2_X7Y55        DSP_ALU (Prop_DSP_ALU_DSP48E2_U_DATA[23]_ALU_OUT[47])
+                                                      0.727     7.640 f  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_ALU_INST/ALU_OUT[47]
+                         net (fo=1, routed)           0.000     7.640    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_ALU.ALU_OUT<47>
+    DSP48E2_X7Y55        DSP_OUTPUT (Prop_DSP_OUTPUT_DSP48E2_ALU_OUT[47]_PCOUT[47])
+                                                      0.167     7.807 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__0/DSP_OUTPUT_INST/PCOUT[47]
+                         net (fo=1, routed)           0.038     7.845    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__1/PCIN[47]
+    DSP48E2_X7Y56        DSP_ALU (Prop_DSP_ALU_DSP48E2_PCIN[47]_ALU_OUT[0])
+                                                      0.739     8.584 f  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__1/DSP_ALU_INST/ALU_OUT[0]
+                         net (fo=1, routed)           0.000     8.584    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__1/DSP_ALU.ALU_OUT<0>
+    DSP48E2_X7Y56        DSP_OUTPUT (Prop_DSP_OUTPUT_DSP48E2_ALU_OUT[0]_P[0])
+                                                      0.146     8.730 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__1/DSP_OUTPUT_INST/P[0]
+                         net (fo=2, routed)           0.358     9.087    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__1_n_114
+    SLICE_X28Y137        LUT2 (Prop_B6LUT_SLICEM_I0_O)
+                                                      0.152     9.239 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product_carry_i_7__8/O
+                         net (fo=1, routed)           0.022     9.261    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product_carry_i_7__8_n_9
+    SLICE_X28Y137        CARRY8 (Prop_CARRY8_SLICEM_S[1]_O[3])
+                                                      0.183     9.444 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product_carry/O[3]
+                         net (fo=2, routed)           0.434     9.878    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/tmp_product__45_0[19]
+    SLICE_X30Y137        LUT3 (Prop_D5LUT_SLICEL_I1_O)
+                                                      0.133    10.011 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_5__10/O
+                         net (fo=2, routed)           0.290    10.301    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_5__10_n_9
+    SLICE_X30Y137        LUT4 (Prop_E6LUT_SLICEL_I3_O)
+                                                      0.187    10.488 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_13__10/O
+                         net (fo=1, routed)           0.011    10.499    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_13__10_n_9
+    SLICE_X30Y137        CARRY8 (Prop_CARRY8_SLICEL_S[4]_CO[7])
+                                                      0.232    10.731 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_1__6/CO[7]
+                         net (fo=1, routed)           0.030    10.761    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_16_16_i_1__6_n_9
+    SLICE_X30Y138        CARRY8 (Prop_CARRY8_SLICEL_CI_O[4])
+                                                      0.119    10.880 r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/grp_trace_Pipeline_VITIS_LOOP_112_3_fu_1718/mul_32s_32s_32_1_1_U97/ram_reg_0_63_24_24_i_1__6/O[4]
+                         net (fo=1, routed)           0.739    11.619    reconfigurable                      rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/D
+    SLICE_X32Y133        RAMS64E                                      r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/SP/I
+  -------------------------------------------------------------------    -------------------------------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                     10.000    10.000 r                                      
+    PS8_X0Y0             PS8                          0.000    10.000 r  static                              platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.181    10.181    static                              platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035    10.216 r  static                              platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=53611, routed)       2.728    12.944    boundary                            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/WCLK
+    SLICE_X32Y133        RAMS64E                                      r  reconfigurable pblock_rp            rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/SP/CLK
+                         clock pessimism              0.243    13.187                                            
+                         clock uncertainty           -0.160    13.027                                            
+    SLICE_X32Y133        RAMS64E (Setup_D6LUT_SLICEM_CLK_I)
+                                                     -0.139    12.888    reconfigurable   pblock_rp              rp/algorithm/algorithm_scope_i/core/inst/grp_render_fu_842/trace_U0/dy_U/ram_reg_0_63_28_28/SP
+  -------------------------------------------------------------------
+                         required time                         12.888                                            
+                         arrival time                         -11.619                                            
+  -------------------------------------------------------------------
+                         slack                                  1.268                                            
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.010ns  (arrival time - required time)
+  Source:                 platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.234ns  (logic 0.112ns (47.793%)  route 0.122ns (52.207%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.121ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    3.189ns
+    Source Clock Delay      (SCD):    2.837ns
+    Clock Pessimism Removal (CPR):    0.230ns
+  Clock Net Delay (Source):      2.621ns (routing 1.450ns, distribution 1.171ns)
+  Clock Net Delay (Destination): 2.922ns (routing 1.584ns, distribution 1.338ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.181     0.181    static         platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035     0.216 r  static         platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=53611, routed)       2.621     2.837    static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/ap_clk
+    SLICE_X37Y32         FDRE                                         r  static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X37Y32         FDRE (Prop_HFF_SLICEM_C_Q)
+                                                      0.112     2.949 r  static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/Q
+                         net (fo=2, routed)           0.122     3.071    static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/D[523]
+    SLICE_X36Y31         FDRE                                         r  static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.229     0.229    static         platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  static         platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=53611, routed)       2.922     3.189    static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/aclk
+    SLICE_X36Y31         FDRE                                         r  static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/C
+                         clock pessimism             -0.230     2.958                     
+    SLICE_X36Y31         FDRE (Hold_HFF2_SLICEL_C_D)
+                                                      0.103     3.061    static           platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]
+  -------------------------------------------------------------------
+                         required time                         -3.061                     
+                         arrival time                           3.071                     
+  -------------------------------------------------------------------
+                         slack                                  0.010                     
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { platform/system_ps_i/ps/inst/PS8_i/PLCLK[0] }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PS8/MAXIGP2ACLK  n/a            3.000         10.000      7.000      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+Low Pulse Width   Slow    PS8/MAXIGP2ACLK  n/a            1.500         5.000       3.500      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+High Pulse Width  Slow    PS8/MAXIGP2ACLK  n/a            1.500         5.000       3.500      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+
+
+

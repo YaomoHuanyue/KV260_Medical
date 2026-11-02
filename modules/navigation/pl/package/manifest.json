@@ -1,0 +1,54 @@
+{
+  "bit_sha256": "b1d7fffe5bac2c42b5a8106abf3102a7110c2e405149bb37f89f06f601e309f4",
+  "hwh_sha256": "7d3101679c5f9ce52783e6a0fc38749c018b7ad630718ef8b59e661c1edb19b6",
+  "bit_bin_sha256": "8e29133bfc6b0b11a3753357e6b420f8e5bdce322f8689760e55c3708bf6df37",
+  "xclbin_sha256": "a6ff08dd7528cd83177487355923e7b2b381df31f59adfb576bf80e441b58088",
+  "dtbo_sha256": "091fbf3740862fa9a13532391db19a5e1d3f7bf22cbabcd5a94ae2b17d2fa251",
+  "clock_hz": 100000000,
+  "lanes": 8,
+  "edt_compute_lanes": 4,
+  "q_fraction_bits": 20,
+  "ips": [
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80000000",
+      "m_name": "nav_reader_split:nav_reader_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80010000",
+      "m_name": "nav_edt:nav_edt_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80020000",
+      "m_name": "nav_writer_merge:nav_writer_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80040000",
+      "m_name": "nav_route:nav_route_0"
+    }
+  ],
+  "route_core": "nav_route.v1",
+  "route_protocol": "compact.v2",
+  "route_dma": "shared.v1",
+  "route_target_lanes": 4,
+  "route_nodes": 4096,
+  "route_points": 4096,
+  "route_bricks": 4096,
+  "route_field_precision": "float32",
+  "route_geometry_precision": "float64"
+}

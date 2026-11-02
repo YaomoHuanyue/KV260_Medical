@@ -1,0 +1,11 @@
+{
+  "PID": 24794,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+    "-X",
+    "utf8",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/tools/selected_trial_r13.py"
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "supervisor_sha256": "91476579aa17cc5c164b11c7a10ce79a94a6ce9530bda0a3f71f61acda7a5c73"
+}

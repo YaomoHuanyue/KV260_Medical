@@ -1,0 +1,19 @@
+{
+  "stage": "csim",
+  "target": "mc",
+  "passed": false,
+  "exit_code": 1,
+  "argv": [
+    "/opt/Xilinx/2025.2.1/Vitis/bin/vitis-run",
+    "--mode",
+    "hls",
+    "--csim",
+    "--config",
+    "/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/hls/mc/design.cfg",
+    "--work_dir",
+    "/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/hls/mc"
+  ],
+  "seconds": 7.965912107999998,
+  "official_skill": "hls-run-flow 1.0.0",
+  "bitstream_or_board_verified": false
+}

@@ -1,0 +1,1224 @@
+{
+  "status": "R5_retained_source_arc_restores_displaced_junction_guidance_Windows_ARM_actual_C9_exact_PS_PL_compared",
+  "goal_turn_classification": "progress",
+  "whole_goal_completed": false,
+  "board_UI": {
+    "PID": 517617,
+    "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+    "release": "complete_feature_UI_with_interactive_xray_surface_preset_r1",
+    "restore_receipt": "modules/surface_route/results/state_after_board_guidance_r5.json",
+    "original_default_UI_and_C6_restored": true,
+    "new_geometry_or_guidance_default_promoted": false
+  },
+  "source_sha256": {
+    "modules/surface_route/curve_guidance_r5.py": "c21bf21dc3c0a7f74c4f8581ee7caae63a99552e362114da7c26ddba2db3c858",
+    "modules/surface_route/curve_guidance_derivation_r5.json": "e9f9464b4336e5fb3559b049f46a05950e25241223b9bc4cbc1831e064aa61a1",
+    "modules/surface_route/guidance_r5.py": "1ab1679f7cdbaf714548951071946e1847b546c6e947c6d5f005792f2b309289",
+    "modules/surface_route/test_guidance_r5.py": "306445c506e65eab5f81eecb7b30cdc95afce860c69a58bb41f3fb8285947094",
+    "modules/surface_route/own_guidance_trial_r5.py": "63995d53b99cd83fb936c7b9173fd9210f8629bda81f32f77b17a41445c41534",
+    "modules/surface_route/compare_guidance_receipts_r5.py": "846b47925e97e4c3487ca35c584e5bc89c41a3e9ba381c75331e64a0ae7c5b1c",
+    "modules/surface_route/compare_guidance_board_r5.py": "4b9423ca87d30bb8f527baf61fcff62e7e6413d619d4a9f92d34ac2cf4ec65cd",
+    "modules/surface_route/with_guidance_UI_restore_r5.py": "c4cef11c1c6fe9a8445027fb7259335c29c055410f587635b28d682a12dd34c7",
+    "modules/surface_route/guidance_board_derivation_r5.json": "cf3536325c93e6dda3884537acd0588fcc3829be62c8ecbfe08d31dffab1a0ff",
+    "modules/surface_route/record_guidance_r5.py": "7ed8d4f25262c104e20d9d05edab941e23bd4d262700a45da0ba6ffdbe075673",
+    "modules/surface_route/README_GUIDANCE_r5.md": "9d1e4693a984f1b9b6d7898636cf883eecf0c158b898c641f5cb0be95894694b"
+  },
+  "evidence_sha256": {
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_10p0_guidance.json": "9b193b3ebe9b5f081390b3239dad9c696c16cbcaa61488dfd87cf79d7b28a7da",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_10p0_report.json": "449122237c3039d52397ba2cc74cc27f78a7b326d5c37ddada0efd82c5a25ed0",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_1p0_guidance.json": "ed5550dbd1859202deb7070b4b427186177ac30c6597b27d540239e562090761",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_10p0_route.npz": "20ff1c70606b483fc989c1cf9a45115d51f6fd72635df8d86e605390c3355db9",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_10p0_route.npz": "20ff1c70606b483fc989c1cf9a45115d51f6fd72635df8d86e605390c3355db9",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p0_targets.npz": "56eee4ebf43403eae6de986676e2f5619dd2e727944872d20a8a3a4da6edf518",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p0_guidance.json": "cb20423da2c9189fbf898781b6ec8f6d0c1528e3551f3866c5d76db7c88200e7",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_10p0_guidance.json": "036b17c1524de86235ad48b960bad0ded92103694d49b0d930acc9fd6b2a91a6",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p05_camera.npz": "963e5f2e33e327ab0efe75e64a13c762d37880e61a505552e73d7501c6704f1f",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p0_report.json": "3f0a1aecc47cc2ece953470d5215415835d7ec4adb9e5b0f91a99669aee7b6d5",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p05_camera.npz": "963e5f2e33e327ab0efe75e64a13c762d37880e61a505552e73d7501c6704f1f",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_10p0_camera.npz": "914e3c1159b41951b29bcd2f6135f4f8ba5b099f6c5ccefa00831615b4dfd931",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p0_report.json": "4183524309dafb7882534f9a2cd14a0591c5f4df4e70ba4f0aba5082f0039838",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_1p0_targets.npz": "4933ff21ff2a93381ddb78458d56f45e3e1a8a18be9da1623ae5b5664bd707c9",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_1p0_camera.npz": "54e15b485c53c36a39ca0cd48a056aff6b6391c1c8dc6b7b4ac3d21bf57bdced",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_1p0_camera.npz": "54e15b485c53c36a39ca0cd48a056aff6b6391c1c8dc6b7b4ac3d21bf57bdced",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p0_targets.npz": "56eee4ebf43403eae6de986676e2f5619dd2e727944872d20a8a3a4da6edf518",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_1p0_guidance.json": "8f276a048a2b4a892425f25f2562953702c5d0c327196b3f7aef9f46255a201a",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p05_route.npz": "e37c8b83699109e95c296862a5cd362850a9987f184319e8d5258956b324e7a6",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_1p0_route.npz": "09e90686cc11c3000a57aaa0f9d98485e09fb043ca3976220ea18a1e1309b054",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p0_route.npz": "87a4fd446faf40f1a1902ce39059c154262f00ecb42c582d4df99ef9f7bd51f0",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/acceptance.json": "59ac017c72d1dec059e112a7e2996851abe7a1c7811b23149dd6a147293c4bcc",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p05_report.json": "0b1f9323a19061b3aa2a4b54874bcd6bee42302e03118a160954825f4a5d8d70",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_10p0_targets.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p0_guidance.json": "71fb5a714e6e2c68f07a30f34cc558a2745f11b2d53693bc0c30261e86da784e",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_1p0_targets.npz": "4933ff21ff2a93381ddb78458d56f45e3e1a8a18be9da1623ae5b5664bd707c9",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_10p0_camera.npz": "914e3c1159b41951b29bcd2f6135f4f8ba5b099f6c5ccefa00831615b4dfd931",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p0_route.npz": "e37c8b83699109e95c296862a5cd362850a9987f184319e8d5258956b324e7a6",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p05_report.json": "a72ab6b7bcf473504d62297d46584899fe6a4b825b467d3bb9ecd2f13a31242a",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p05_targets.npz": "56eee4ebf43403eae6de986676e2f5619dd2e727944872d20a8a3a4da6edf518",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_10p0_targets.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_1p0_report.json": "6b3d6b7db74323a7cd5ded2314fd725a7a744f2608032d9a57bd9c1b9ee8ab39",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_1p0_route.npz": "366478e6c54f042d0439fdb93142b60d2c2e3a4c827dc3a1a5c4636462d23282",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_10p0_report.json": "d73ec92008745c9b148193b842d9b5fd710f9edccfcbce37a27cb440ec81e811",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_1p0_report.json": "c14c8f07242026cb29e74a3b39ca9c4ff88657aab6febdb55c8344e7f559d5ae",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p0_camera.npz": "963e5f2e33e327ab0efe75e64a13c762d37880e61a505552e73d7501c6704f1f",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p0_camera.npz": "963e5f2e33e327ab0efe75e64a13c762d37880e61a505552e73d7501c6704f1f",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p05_targets.npz": "56eee4ebf43403eae6de986676e2f5619dd2e727944872d20a8a3a4da6edf518",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p05_guidance.json": "cb20423da2c9189fbf898781b6ec8f6d0c1528e3551f3866c5d76db7c88200e7",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q5_bend_0p05_route.npz": "87a4fd446faf40f1a1902ce39059c154262f00ecb42c582d4df99ef9f7bd51f0",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/Q6_bend_0p05_guidance.json": "71fb5a714e6e2c68f07a30f34cc558a2745f11b2d53693bc0c30261e86da784e",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_0.request.bin": "9116dc35c2f889f3a9334e4baad86a734d5c919942fbde69149806b586571ac8",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_0.scene.bin": "c893dc619b3e9d93cb543a268071849cf5cea420cb00a91b5c86d7168fb99e44",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_1.scene.bin": "885f499a8e06989c40e45029b566240cea1c77394854b64e7b37989f1c63d4b6",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_2.expected.bin": "eaa8f73bad86029f085067ce53b2fa0de096d6611407aaca1c3f8f31f700cd9a",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_2.scene.bin": "624b7455561a4f495c3dc924aca8f09b27fa37ba12be152c19acf7b8e14d0f59",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_1.request.bin": "5bee80f5ab1025956cef0518ace96924f412293ffe8567b93a681c1ac22f8202",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_0.scene.bin": "5ff4173596aeca9fecd5379c6c6f07f0b2c9487c97eb53aeef3edafd08bc5281",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_1.scene.bin": "7d4b0fa2ce9fc4c2dd79f1becf219c3f9efcd1f90f46fba3c78a8f738ace2d43",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_0.request.bin": "c3097741fe2ae4f8e4f7b1065a9278ecfcd3139c44abf8352dc8afb2f5bc718c",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_0.expected.bin": "9062557d51c47f95f3f4e52a5cb9ce9236d09964c56ff208a7e58fdac8d45242",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_1.expected.bin": "e5c459114541bbddba97783a7e942914d39e89bbecb5a2ec0ced151901be0952",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_2.expected.bin": "c2d69272b3a37056ae261241440c883fc42497fd253329711e049d0fc02f0d76",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_1.expected.bin": "3528c3bd88968ddb28d727385f70a96c061940fdd87a5016db056b102c3b5a5f",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_1.request.bin": "a451d74515ab4bfdcaf217bb24d5743d4674a85b91d98c6a5116d4b206b4f7d5",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_2.scene.bin": "4fa3776c06269e7c4bf2be5440790095159fb9af4916c2fef4aadba395d9c644",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_2.request.bin": "99e93cb3215859094e4b2fb6719f69fa222ff2ffca829cfda9faef3fed462d23",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q5_bend_1p0_event_0.expected.bin": "70adc3200f9c89ddf435462703b5a21fee775d2503a79ae431afb86981eba4fb",
+    "modules/surface_route/results/guidance_own_CT_Windows_r5/render_cases/Q6_bend_1p0_event_2.request.bin": "1734c38b55703ed09136fef5edec72932fdab5cc99a93c849d18611fcbcac2c9",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_10p0_guidance.json": "9b193b3ebe9b5f081390b3239dad9c696c16cbcaa61488dfd87cf79d7b28a7da",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_10p0_report.json": "34b46d545356467ada10e41982067a27066c9983ad30c6047a763cb35e05b62e",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_1p0_guidance.json": "b0e8c0afff154b1a426eeb6e5270838ae500cd50c6f66e0f623c62ad00f7e157",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_10p0_route.npz": "22d7453d01350eb7ab2f0fe7583d7cf1d76bd72fb4326ff2c6e5934e5b404ada",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_10p0_route.npz": "22d7453d01350eb7ab2f0fe7583d7cf1d76bd72fb4326ff2c6e5934e5b404ada",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p0_targets.npz": "75c6636ec9066e9bda7cec024a5e5ab8132f3538571460eab2583bb56951549d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p0_guidance.json": "6bc3519ce1779332122a6597f387fec29447128ddb922342b795f81c9dcd5b92",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_10p0_guidance.json": "036b17c1524de86235ad48b960bad0ded92103694d49b0d930acc9fd6b2a91a6",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p05_camera.npz": "570a5b53f45d897865cd647d27937fd97589f87ae22adcb97d2641243597868d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p0_report.json": "b3e170b9741da7906b21ccd7848d48f1eed1c980ef4e13cea80dd70ec0a6c72f",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p05_camera.npz": "570a5b53f45d897865cd647d27937fd97589f87ae22adcb97d2641243597868d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_10p0_camera.npz": "e9ed9ab58e7710ca93a5ab6b53a5f182281649e2ddbc884c96cedfb1006e5031",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p0_report.json": "f3e56b33c1fcf9fedd9800d4fd3421ee084be67cfd1a9f49ffbcc9b74151a11c",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_1p0_targets.npz": "3f6e4758ccef95fcb11129b22785d4ce744f8ee3aeeca758ad624635602cc133",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_1p0_camera.npz": "574800e50f679d52599877d22f8812a896141e20310cd5ef97d267e45cca9c19",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_1p0_camera.npz": "574800e50f679d52599877d22f8812a896141e20310cd5ef97d267e45cca9c19",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p0_targets.npz": "75c6636ec9066e9bda7cec024a5e5ab8132f3538571460eab2583bb56951549d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_1p0_guidance.json": "22d0b25664f49069ff30c5f0d7a8609e5aff965eadcebb83d1b59edc2143428e",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p05_route.npz": "30283d0f850f10e9b2f1d7ace56d14f85af3260d99b03fd1e29df16eb5503693",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_1p0_route.npz": "8d6fe936bc6819302b4e7ccaa3a9375580fd0a460302d95cea6f7e72f767bd06",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p0_route.npz": "add2ff9efa1d6ad662e9c027993d53f68b613f8e3bfbe3acf39297774dbd6ddd",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/acceptance.json": "1f17a385f7e753f25c8fa4178b1f1c24b41f2d13ec2737d60cd7a063c58859e7",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p05_report.json": "b6c7136e6a2a1bfd222ebeee3995b7b6d26e4d684da5ef24f0981313063051ed",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_10p0_targets.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p0_guidance.json": "dd8945aa140bbe722dd7870380f159a0a0e69a30f738eec35ee71faf11de8e74",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_1p0_targets.npz": "3f6e4758ccef95fcb11129b22785d4ce744f8ee3aeeca758ad624635602cc133",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_10p0_camera.npz": "e9ed9ab58e7710ca93a5ab6b53a5f182281649e2ddbc884c96cedfb1006e5031",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p0_route.npz": "30283d0f850f10e9b2f1d7ace56d14f85af3260d99b03fd1e29df16eb5503693",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p05_report.json": "4f55d85b9f78cf889cf3f420eb96d25da0f3d6f1c5fe658ba534b3954b90918c",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p05_targets.npz": "75c6636ec9066e9bda7cec024a5e5ab8132f3538571460eab2583bb56951549d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_10p0_targets.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_1p0_report.json": "63ae4cbdc6bf4a070120de2974d1f56b18e4a8f2493a29f329af17fab224ae1e",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_1p0_route.npz": "18ef22c3748ff738f0bd8ed312ae0c13e2eb4e126cd6e884de756f9135774fc5",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_10p0_report.json": "9b750ac578043a60428352a78e7a1f5e73ba1fa711ae9d50a7ca7754cf7c4355",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_1p0_report.json": "21addec0b41eb8a1ed303b9f0281faaa402cd5acdeb67ee1e019ea168934e87b",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p0_camera.npz": "570a5b53f45d897865cd647d27937fd97589f87ae22adcb97d2641243597868d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p0_camera.npz": "570a5b53f45d897865cd647d27937fd97589f87ae22adcb97d2641243597868d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p05_targets.npz": "75c6636ec9066e9bda7cec024a5e5ab8132f3538571460eab2583bb56951549d",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p05_guidance.json": "6bc3519ce1779332122a6597f387fec29447128ddb922342b795f81c9dcd5b92",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q5_bend_0p05_route.npz": "add2ff9efa1d6ad662e9c027993d53f68b613f8e3bfbe3acf39297774dbd6ddd",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/Q6_bend_0p05_guidance.json": "dd8945aa140bbe722dd7870380f159a0a0e69a30f738eec35ee71faf11de8e74",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_0.request.bin": "9116dc35c2f889f3a9334e4baad86a734d5c919942fbde69149806b586571ac8",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_0.scene.bin": "c893dc619b3e9d93cb543a268071849cf5cea420cb00a91b5c86d7168fb99e44",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_1.scene.bin": "885f499a8e06989c40e45029b566240cea1c77394854b64e7b37989f1c63d4b6",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_2.expected.bin": "eaa8f73bad86029f085067ce53b2fa0de096d6611407aaca1c3f8f31f700cd9a",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_2.scene.bin": "624b7455561a4f495c3dc924aca8f09b27fa37ba12be152c19acf7b8e14d0f59",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_1.request.bin": "5bee80f5ab1025956cef0518ace96924f412293ffe8567b93a681c1ac22f8202",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_0.scene.bin": "5ff4173596aeca9fecd5379c6c6f07f0b2c9487c97eb53aeef3edafd08bc5281",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_1.scene.bin": "7d4b0fa2ce9fc4c2dd79f1becf219c3f9efcd1f90f46fba3c78a8f738ace2d43",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_0.request.bin": "c3097741fe2ae4f8e4f7b1065a9278ecfcd3139c44abf8352dc8afb2f5bc718c",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_0.expected.bin": "9062557d51c47f95f3f4e52a5cb9ce9236d09964c56ff208a7e58fdac8d45242",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_1.expected.bin": "e5c459114541bbddba97783a7e942914d39e89bbecb5a2ec0ced151901be0952",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_2.expected.bin": "c2d69272b3a37056ae261241440c883fc42497fd253329711e049d0fc02f0d76",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_1.expected.bin": "3528c3bd88968ddb28d727385f70a96c061940fdd87a5016db056b102c3b5a5f",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_1.request.bin": "a451d74515ab4bfdcaf217bb24d5743d4674a85b91d98c6a5116d4b206b4f7d5",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_2.scene.bin": "4fa3776c06269e7c4bf2be5440790095159fb9af4916c2fef4aadba395d9c644",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_2.request.bin": "99e93cb3215859094e4b2fb6719f69fa222ff2ffca829cfda9faef3fed462d23",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q5_bend_1p0_event_0.expected.bin": "70adc3200f9c89ddf435462703b5a21fee775d2503a79ae431afb86981eba4fb",
+    "modules/surface_route/results/guidance_own_CT_ARM_r5/render_cases/Q6_bend_1p0_event_2.request.bin": "1734c38b55703ed09136fef5edec72932fdab5cc99a93c849d18611fcbcac2c9",
+    "modules/surface_route/results/guidance_unit_Windows_r5.json": "0610f1782dd86ecbc26be2d0361fe34ef81240e84422dd183f9f36340c36ad4c",
+    "modules/surface_route/results/guidance_unit_ARM_r5.json": "577ddf834c17d2ceaee65705f821ed82a669dfafab802df9be39d6e042e628c3",
+    "modules/surface_route/results/guidance_cross_platform_r5.json": "f306aa0b45205d3ae197460d75d2e89276a4ca78c5e0b3a6e7b9bdf5d6e9f3b6",
+    "modules/surface_route/results/own_board_guidance_r5.json": "018689a9c053a905930d0c39f4428fdc915be0de69281ea7c828c1490ac764b0",
+    "modules/surface_route/results/state_after_board_guidance_r5.json": "818fb04d1e54dc4f188c9855f34ea27c3ec4920a576cd40583c6904aee944ce2",
+    "modules/surface_route/results/board_guidance_trial_started_r5.json": "517846c90b03b54400e81c28020e85d5331bb410ef99c467a6a413bb5e0d7236"
+  },
+  "own_CT": {
+    "scenarios": 8,
+    "Windows_and_ARM_geometry_camera_audit_unchanged_from_R4": true,
+    "displaced_one_mm_bend_curve_old_guidance_events": 0,
+    "displaced_one_mm_bend_curve_new_guidance_events": 3,
+    "selected_branches": [
+      80,
+      51,
+      52
+    ],
+    "scalar_geometry_used_for_apertures_visibility_and_target_clipping": true,
+    "root_only_route_never_generates_forward_exit_cue": true,
+    "one_mm_curve_length_mm": 166.76242827012666,
+    "one_mm_curve_candidate_gap_mm": 81.35641843023643,
+    "reach_status": "limited_reach_remains_not_candidate_reached"
+  },
+  "same_input_C9_PS_PL": {
+    "cases": [
+      {
+        "case": "Q5_bend_1p0_event_0",
+        "event_id": 0,
+        "selected_branch_id": 80,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "6a7e847baa0e84ea3e1bd43030b0c85eb03ae59b891638ebd203faa88462cbf7",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          8091379,
+          4181312,
+          14348990,
+          -19461,
+          10918,
+          -4256,
+          57,
+          1,
+          -9,
+          -2,
+          -42,
+          -15
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 18458,
+        "outline_pixels": 3455,
+        "output_sha256": "36792c08ec0e0e2253c5e2a53b4e2f5e9cb118df63ecbcd68a35833ea5596f7e",
+        "PS_median_full_API_seconds": {
+          "1": 3.667424689978361,
+          "4": 0.919504226942081
+        },
+        "PL_median_full_API_seconds": 0.0851046810275875,
+        "PL_speedup_over_strongest_PS": 10.80439073197413,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.000953629,
+          "host_run_seconds": 0.167818809,
+          "total_seconds": 0.1681034520152025,
+          "phases": {
+            "validation": 0.005418715,
+            "allocation_copy_guards": 0.004382434,
+            "sync_to": 0.000172981,
+            "partial_select": 0.155234213,
+            "hardware": 0.000953629,
+            "sync_from": 0.000124531,
+            "guard_check_readback_copy": 0.001440845
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 3.6685590720153414,
+                "compute_seconds": 3.668281158024911
+              },
+              "4": {
+                "total_seconds": 0.9239240000024438,
+                "compute_seconds": 0.9236854880000465
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083151981,
+              "host_run_seconds": 0.087280373,
+              "total_seconds": 0.08755069499602541,
+              "phases": {
+                "validation": 8.47e-06,
+                "allocation_copy_guards": 0.002803958,
+                "sync_to": 0.000206352,
+                "partial_select": 8.48e-06,
+                "hardware": 0.083151981,
+                "sync_from": 0.000126572,
+                "guard_check_readback_copy": 0.000913719
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.919504226942081,
+                "compute_seconds": 0.9192698539700359
+              },
+              "1": {
+                "total_seconds": 3.6666446430026554,
+                "compute_seconds": 3.6664204400149174
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083195332,
+              "host_run_seconds": 0.084828989,
+              "total_seconds": 0.0851046810275875,
+              "phases": {
+                "validation": 8.8e-06,
+                "allocation_copy_guards": 0.000237293,
+                "sync_to": 0.000159351,
+                "partial_select": 3.66e-06,
+                "hardware": 0.083195332,
+                "sync_from": 0.000131781,
+                "guard_check_readback_copy": 0.001036241
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.9178416200447828,
+                "compute_seconds": 0.9176196480402723
+              },
+              "1": {
+                "total_seconds": 3.667424689978361,
+                "compute_seconds": 3.6671978179947473
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083164672,
+              "host_run_seconds": 0.084735928,
+              "total_seconds": 0.08501078997505829,
+              "phases": {
+                "validation": 8.73e-06,
+                "allocation_copy_guards": 0.000267823,
+                "sync_to": 0.000161401,
+                "partial_select": 4.14e-06,
+                "hardware": 0.083164672,
+                "sync_from": 0.000130561,
+                "guard_check_readback_copy": 0.00094218
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      },
+      {
+        "case": "Q5_bend_1p0_event_1",
+        "event_id": 1,
+        "selected_branch_id": 51,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "6a7e847baa0e84ea3e1bd43030b0c85eb03ae59b891638ebd203faa88462cbf7",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          7790221,
+          5432241,
+          11329844,
+          -15826,
+          14361,
+          -8286,
+          57,
+          -7,
+          10,
+          -1,
+          -39,
+          -22
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 38306,
+        "outline_pixels": 5216,
+        "output_sha256": "698ff7cdc365ec3018b333ace92fd41f9cc372aadfebd5a072edf3455ee9bacb",
+        "PS_median_full_API_seconds": {
+          "1": 4.445553982979618,
+          "4": 1.1131935630110092
+        },
+        "PL_median_full_API_seconds": 0.10173695697449148,
+        "PL_speedup_over_strongest_PS": 10.941879884318935,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.00097086,
+          "host_run_seconds": 0.008592826,
+          "total_seconds": 0.008843468967825174,
+          "phases": {
+            "validation": 0.005317263,
+            "allocation_copy_guards": 0.000648187,
+            "sync_to": 0.000137461,
+            "partial_select": 6.06e-06,
+            "hardware": 0.00097086,
+            "sync_from": 0.000102691,
+            "guard_check_readback_copy": 0.001349213
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 4.445520732959267,
+                "compute_seconds": 4.445255669008475
+              },
+              "4": {
+                "total_seconds": 1.1187652490334585,
+                "compute_seconds": 1.1185082669835538
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099830389,
+              "host_run_seconds": 0.101391165,
+              "total_seconds": 0.10169984702952206,
+              "phases": {
+                "validation": 8.861e-06,
+                "allocation_copy_guards": 0.000236722,
+                "sync_to": 0.000160062,
+                "partial_select": 4.13e-06,
+                "hardware": 0.099830389,
+                "sync_from": 0.000131751,
+                "guard_check_readback_copy": 0.00094114
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 1.1130277719930746,
+                "compute_seconds": 1.1128012100234628
+              },
+              "1": {
+                "total_seconds": 4.445759714988526,
+                "compute_seconds": 4.445492722035851
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099876899,
+              "host_run_seconds": 0.101468185,
+              "total_seconds": 0.10173695697449148,
+              "phases": {
+                "validation": 8.34e-06,
+                "allocation_copy_guards": 0.000270603,
+                "sync_to": 0.000162391,
+                "partial_select": 4.2e-06,
+                "hardware": 0.099876899,
+                "sync_from": 0.000129001,
+                "guard_check_readback_copy": 0.00096117
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 1.1131935630110092,
+                "compute_seconds": 1.1129285410279408
+              },
+              "1": {
+                "total_seconds": 4.445553982979618,
+                "compute_seconds": 4.445325869950466
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099877569,
+              "host_run_seconds": 0.101490605,
+              "total_seconds": 0.10176087799482048,
+              "phases": {
+                "validation": 8.6e-06,
+                "allocation_copy_guards": 0.000236362,
+                "sync_to": 0.000192772,
+                "partial_select": 4.14e-06,
+                "hardware": 0.099877569,
+                "sync_from": 0.000129451,
+                "guard_check_readback_copy": 0.00098113
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      },
+      {
+        "case": "Q5_bend_1p0_event_2",
+        "event_id": 2,
+        "selected_branch_id": 52,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "6a7e847baa0e84ea3e1bd43030b0c85eb03ae59b891638ebd203faa88462cbf7",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          10371746,
+          6744604,
+          7191307,
+          14364,
+          8619,
+          -15353,
+          -6,
+          -14,
+          56,
+          -13,
+          -41,
+          -12
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 68036,
+        "outline_pixels": 6030,
+        "output_sha256": "2aad49a7e3a0ead08b833800dc24a8b4db854c3c83f33d9249fc4a54c1fd91ab",
+        "PS_median_full_API_seconds": {
+          "1": 2.6811642560060136,
+          "4": 0.6724782859673724
+        },
+        "PL_median_full_API_seconds": 0.06200020998949185,
+        "PL_speedup_over_strongest_PS": 10.846387231290795,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.00094036,
+          "host_run_seconds": 0.008622836,
+          "total_seconds": 0.008872509002685547,
+          "phases": {
+            "validation": 0.005340893,
+            "allocation_copy_guards": 0.000641016,
+            "sync_to": 0.000138732,
+            "partial_select": 6.48e-06,
+            "hardware": 0.00094036,
+            "sync_from": 0.000102361,
+            "guard_check_readback_copy": 0.001391114
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 2.680731971981004,
+                "compute_seconds": 2.680485298973508
+              },
+              "4": {
+                "total_seconds": 0.6776540380087681,
+                "compute_seconds": 0.6774297159863636
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.06000512,
+              "host_run_seconds": 0.061731098,
+              "total_seconds": 0.06200020998949185,
+              "phases": {
+                "validation": 8.87e-06,
+                "allocation_copy_guards": 0.000274633,
+                "sync_to": 0.000161182,
+                "partial_select": 4.21e-06,
+                "hardware": 0.06000512,
+                "sync_from": 0.000129311,
+                "guard_check_readback_copy": 0.001092241
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.6719232099712826,
+                "compute_seconds": 0.6716060370090418
+              },
+              "1": {
+                "total_seconds": 2.6811642560060136,
+                "compute_seconds": 2.680938314006198
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.06003743,
+              "host_run_seconds": 0.061585036,
+              "total_seconds": 0.06185345898848027,
+              "phases": {
+                "validation": 8.64e-06,
+                "allocation_copy_guards": 0.000236833,
+                "sync_to": 0.000160591,
+                "partial_select": 3.94e-06,
+                "hardware": 0.06003743,
+                "sync_from": 0.000128962,
+                "guard_check_readback_copy": 0.000953669
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.6724782859673724,
+                "compute_seconds": 0.6722570530255325
+              },
+              "1": {
+                "total_seconds": 2.6820751749910414,
+                "compute_seconds": 2.6818470529979095
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.06006744,
+              "host_run_seconds": 0.061785328,
+              "total_seconds": 0.06205500999931246,
+              "phases": {
+                "validation": 8.65e-06,
+                "allocation_copy_guards": 0.000236932,
+                "sync_to": 0.000161722,
+                "partial_select": 4.07e-06,
+                "hardware": 0.06006744,
+                "sync_from": 0.000152202,
+                "guard_check_readback_copy": 0.001097991
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      },
+      {
+        "case": "Q6_bend_1p0_event_0",
+        "event_id": 0,
+        "selected_branch_id": 80,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "b4d985c342fcc11de920c73e709f89a3ffd6b1fa08366be74b4aef850e0d9b53",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          8091379,
+          4181312,
+          14348990,
+          -19461,
+          10918,
+          -4256,
+          57,
+          1,
+          -9,
+          -2,
+          -42,
+          -15
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 18458,
+        "outline_pixels": 3455,
+        "output_sha256": "0a3688a1019eefe024e59eeb3e40a0b614a3086d9eb3bd181820798fff8afc65",
+        "PS_median_full_API_seconds": {
+          "1": 3.6683117079664953,
+          "4": 0.9195504069793969
+        },
+        "PL_median_full_API_seconds": 0.0851170610403642,
+        "PL_speedup_over_strongest_PS": 10.803361814188202,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.00096562,
+          "host_run_seconds": 0.008604066,
+          "total_seconds": 0.008865278970915824,
+          "phases": {
+            "validation": 0.005358534,
+            "allocation_copy_guards": 0.000654876,
+            "sync_to": 0.000139742,
+            "partial_select": 6.15e-06,
+            "hardware": 0.00096562,
+            "sync_from": 0.000102401,
+            "guard_check_readback_copy": 0.001314853
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 3.6683117079664953,
+                "compute_seconds": 3.6680577560327947
+              },
+              "4": {
+                "total_seconds": 0.918507125985343,
+                "compute_seconds": 0.9182198640191928
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083130501,
+              "host_run_seconds": 0.084736237,
+              "total_seconds": 0.08500615996308625,
+              "phases": {
+                "validation": 8.6e-06,
+                "allocation_copy_guards": 0.000236142,
+                "sync_to": 0.000189242,
+                "partial_select": 4.15e-06,
+                "hardware": 0.083130501,
+                "sync_from": 0.000129071,
+                "guard_check_readback_copy": 0.00098186
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.9240431919461116,
+                "compute_seconds": 0.923817369970493
+              },
+              "1": {
+                "total_seconds": 3.6681389269651845,
+                "compute_seconds": 3.667868604999967
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083120701,
+              "host_run_seconds": 0.084847789,
+              "total_seconds": 0.0851170610403642,
+              "phases": {
+                "validation": 8.72e-06,
+                "allocation_copy_guards": 0.000236722,
+                "sync_to": 0.000191422,
+                "partial_select": 3.95e-06,
+                "hardware": 0.083120701,
+                "sync_from": 0.000130622,
+                "guard_check_readback_copy": 0.001100021
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.9195504069793969,
+                "compute_seconds": 0.9192886350210756
+              },
+              "1": {
+                "total_seconds": 3.6685627219849266,
+                "compute_seconds": 3.6682967479573563
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.083191293,
+              "host_run_seconds": 0.084879259,
+              "total_seconds": 0.08515408204402775,
+              "phases": {
+                "validation": 8.81e-06,
+                "allocation_copy_guards": 0.000286033,
+                "sync_to": 0.000162312,
+                "partial_select": 3.59e-06,
+                "hardware": 0.083191293,
+                "sync_from": 0.000155231,
+                "guard_check_readback_copy": 0.00100775
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      },
+      {
+        "case": "Q6_bend_1p0_event_1",
+        "event_id": 1,
+        "selected_branch_id": 51,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "b4d985c342fcc11de920c73e709f89a3ffd6b1fa08366be74b4aef850e0d9b53",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          7790221,
+          5432241,
+          11329844,
+          -15826,
+          14361,
+          -8286,
+          57,
+          -7,
+          10,
+          -1,
+          -39,
+          -22
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 38306,
+        "outline_pixels": 5216,
+        "output_sha256": "1ed4f2fa01e04dfeb554fe7d99558340ce63b0346688c8751e4d6a7c272630b8",
+        "PS_median_full_API_seconds": {
+          "1": 4.451306200004183,
+          "4": 1.1198559500044212
+        },
+        "PL_median_full_API_seconds": 0.10161985695594922,
+        "PL_speedup_over_strongest_PS": 11.02005044634006,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.000969949,
+          "host_run_seconds": 0.008632236,
+          "total_seconds": 0.00885909900534898,
+          "phases": {
+            "validation": 0.005322803,
+            "allocation_copy_guards": 0.000619507,
+            "sync_to": 0.000139191,
+            "partial_select": 5.81e-06,
+            "hardware": 0.000969949,
+            "sync_from": 0.000120242,
+            "guard_check_readback_copy": 0.001391323
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 4.451306200004183,
+                "compute_seconds": 4.451064778026193
+              },
+              "4": {
+                "total_seconds": 1.114667278015986,
+                "compute_seconds": 1.1143999750493094
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099787118,
+              "host_run_seconds": 0.101348193,
+              "total_seconds": 0.10161985695594922,
+              "phases": {
+                "validation": 9.23e-06,
+                "allocation_copy_guards": 0.000237102,
+                "sync_to": 0.000160182,
+                "partial_select": 4.27e-06,
+                "hardware": 0.099787118,
+                "sync_from": 0.000129272,
+                "guard_check_readback_copy": 0.000965449
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 1.1198559500044212,
+                "compute_seconds": 1.1196304479963146
+              },
+              "1": {
+                "total_seconds": 4.4510737080127,
+                "compute_seconds": 4.450847134983633
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099753498,
+              "host_run_seconds": 0.101332853,
+              "total_seconds": 0.10163766704499722,
+              "phases": {
+                "validation": 8.99e-06,
+                "allocation_copy_guards": 0.000236832,
+                "sync_to": 0.000159942,
+                "partial_select": 4.22e-06,
+                "hardware": 0.099753498,
+                "sync_from": 0.000130922,
+                "guard_check_readback_copy": 0.000979299
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 1.1199454909656197,
+                "compute_seconds": 1.119631147943437
+              },
+              "1": {
+                "total_seconds": 4.451630584022496,
+                "compute_seconds": 4.4513628910062835
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.099759087,
+              "host_run_seconds": 0.101296663,
+              "total_seconds": 0.1015696760150604,
+              "phases": {
+                "validation": 8.64e-06,
+                "allocation_copy_guards": 0.000236832,
+                "sync_to": 0.000161132,
+                "partial_select": 3.8e-06,
+                "hardware": 0.099759087,
+                "sync_from": 0.000130502,
+                "guard_check_readback_copy": 0.000940139
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      },
+      {
+        "case": "Q6_bend_1p0_event_2",
+        "event_id": 2,
+        "selected_branch_id": 52,
+        "route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+        "scalar_sha256": "b4d985c342fcc11de920c73e709f89a3ffd6b1fa08366be74b4aef850e0d9b53",
+        "width": 640,
+        "height": 363,
+        "maximum_ray_steps": 1023,
+        "request_int32": [
+          640,
+          363,
+          1023,
+          1000,
+          10371746,
+          6744604,
+          7191307,
+          14364,
+          8619,
+          -15353,
+          -6,
+          -14,
+          56,
+          -13,
+          -41,
+          -12
+        ],
+        "full_232320_depth_normal_target_and_outline_pixels_exact": true,
+        "full_four_4096_byte_DMA_guards_passed": true,
+        "selected_pixels": 68036,
+        "outline_pixels": 6030,
+        "output_sha256": "609faf878c4dc843547083cf3508192c1097bb5c87553afab4d86fae821bb453",
+        "PS_median_full_API_seconds": {
+          "1": 2.6824043079977855,
+          "4": 0.6718753500026651
+        },
+        "PL_median_full_API_seconds": 0.061909838987048715,
+        "PL_speedup_over_strongest_PS": 10.852480978721632,
+        "performance_gate_passed": true,
+        "scene_load": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.00095802,
+          "host_run_seconds": 0.008759948,
+          "total_seconds": 0.008985630003735423,
+          "phases": {
+            "validation": 0.005501245,
+            "allocation_copy_guards": 0.000646947,
+            "sync_to": 0.000158242,
+            "partial_select": 6.38e-06,
+            "hardware": 0.00095802,
+            "sync_from": 0.000102941,
+            "guard_check_readback_copy": 0.001323443
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        },
+        "samples": [
+          {
+            "repeat": 0,
+            "execution_order": [
+              1,
+              4,
+              "PL"
+            ],
+            "PS": {
+              "1": {
+                "total_seconds": 2.682462268974632,
+                "compute_seconds": 2.6822168969665654
+              },
+              "4": {
+                "total_seconds": 0.6718753500026651,
+                "compute_seconds": 0.6716520580230281
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.059986,
+              "host_run_seconds": 0.061590016,
+              "total_seconds": 0.061909838987048715,
+              "phases": {
+                "validation": 8.78e-06,
+                "allocation_copy_guards": 0.000236802,
+                "sync_to": 0.000180812,
+                "partial_select": 4.13e-06,
+                "hardware": 0.059986,
+                "sync_from": 0.000129201,
+                "guard_check_readback_copy": 0.00098917
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 1,
+            "execution_order": [
+              "PL",
+              4,
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.6716930079855956,
+                "compute_seconds": 0.6714693649555556
+              },
+              "1": {
+                "total_seconds": 2.6824043079977855,
+                "compute_seconds": 2.682176765985787
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.05996699,
+              "host_run_seconds": 0.061689807,
+              "total_seconds": 0.06200619996525347,
+              "phases": {
+                "validation": 8.82e-06,
+                "allocation_copy_guards": 0.000236692,
+                "sync_to": 0.000189192,
+                "partial_select": 4.05e-06,
+                "hardware": 0.05996699,
+                "sync_from": 0.000128041,
+                "guard_check_readback_copy": 0.001100041
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          },
+          {
+            "repeat": 2,
+            "execution_order": [
+              4,
+              "PL",
+              1
+            ],
+            "PS": {
+              "4": {
+                "total_seconds": 0.6719559009652585,
+                "compute_seconds": 0.6717358090099879
+              },
+              "1": {
+                "total_seconds": 2.682241136964876,
+                "compute_seconds": 2.682017815008294
+              }
+            },
+            "PL": {
+              "backend": "PL_C9_R7",
+              "hardware_seconds": 0.060054061,
+              "host_run_seconds": 0.061636367,
+              "total_seconds": 0.061907358991447836,
+              "phases": {
+                "validation": 8.72e-06,
+                "allocation_copy_guards": 0.000265673,
+                "sync_to": 0.000158132,
+                "partial_select": 3.98e-06,
+                "hardware": 0.060054061,
+                "sync_from": 0.000127141,
+                "guard_check_readback_copy": 0.00096322
+              },
+              "four_4096_byte_DMA_guards_passed": true,
+              "input_and_tokens_checked": true,
+              "production_accepted": true
+            }
+          }
+        ]
+      }
+    ],
+    "all_six_cases_faster_than_strongest_PS": true,
+    "timing_scope": "Warm complete640x363frames,1023maximumsteps, identical scalar/labels/camera. PL transfer/sync/full guards/readback included; strongest PS1/PS4 integer renderer API. Cold scene upload/DFX and once-per-route preparation reported separately. Not complete UI FPS.",
+    "peak_process_RSS_MiB": 146.61328125,
+    "new_bitstream": false,
+    "resource_usage_changed": false,
+    "existing_C9_resources": {
+      "system_top": {
+        "LUT": 46292,
+        "FF": 49672,
+        "DSP": 328,
+        "BRAM36": 121,
+        "BRAM18": 0,
+        "BRAM36_equivalent": 121.0,
+        "URAM": 64
+      },
+      "rp": {
+        "LUT": 32452,
+        "FF": 23790,
+        "DSP": 328,
+        "BRAM36": 121,
+        "BRAM18": 0,
+        "BRAM36_equivalent": 121.0,
+        "URAM": 64
+      }
+    },
+    "existing_C9_remaining_RP": {
+      "LUT": 55868,
+      "FF": 152850,
+      "DSP": 632,
+      "BRAM36_equivalent": 11.0,
+      "URAM": 0
+    }
+  },
+  "computation_split": {
+    "PS": "Retained graph decisions, physical source-arc mapping, once-per-route labels and camera input",
+    "PL": "Accepted C9 exact scalar ray traversal, depth, normals, selected target and outline per frame"
+  },
+  "remaining": [
+    "Original probability/isotropic SDF surface extraction and geometry-filtered replan",
+    "Complete new scalar/mesh/route/camera/guidance UI bundle and physical review",
+    "Original remaining visual/export features and profile/smoothing full-API acceleration"
+  ],
+  "production_promoted": false,
+  "PS_Marching_Cubes_used": false,
+  "clinical_safety_certified": false
+}

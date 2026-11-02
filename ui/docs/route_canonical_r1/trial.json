@@ -1,0 +1,17 @@
+{
+  "trial_terminal": true,
+  "trial_exit_code": 0,
+  "trial_passed": true,
+  "restored_ui_pid": 209292,
+  "restored_UI_alive": true,
+  "restored_UI_binary_sha256": "fcbd8fd79a892e06b4bb7aa4486abd304e4de22cc424f3117c6cf209ee1f7d3a",
+  "boot_id_before": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "boot_id_after": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "script_sha256": "2ab86946f32ba1ce537af8f5e298f88a2e739b8b1b53378dee16cb2c98f84425",
+  "before_sha256": "ca78894fa91a6970a8c32c475526e87544dc7458b33c17502734e3b904db42b2",
+  "adapters_sha256": {
+    "ui/features/analysis.py": "c4e58291dcf2066f42418e43d901c62851d10102666745b2dd15b86678bd3814",
+    "ui/features/navigation_task.py": "1b918207df974f2e58670d7116c0778d2a7c2d1d943f1db9b8e6f21f0e382a20"
+  },
+  "rollback_performed": false
+}

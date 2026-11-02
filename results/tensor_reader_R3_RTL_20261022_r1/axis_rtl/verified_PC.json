@@ -1,0 +1,92 @@
+{
+  "UTC": "2026-10-21T21:52:41.410778+00:00",
+  "actual_generated40RTL_full159_original_domains_both_schedules_passed": true,
+  "all330_full_frames_and8_actual_global_resets_verified": true,
+  "total_complete_output_packet_words": 4361304,
+  "all_original_three_full_model_join_dimensions_and_LUTs_retained": true,
+  "all_full_packet_data_padding_keep_strb_last_and_next_frames_checked": true,
+  "original_AXIL_controls_actual_AXI_lowDDR_4K_ID_bounds_and_no_writes_preserved": true,
+  "actual_AXIL_AXI_AXIS_stalled_payload_monitors_preserved": true,
+  "actual_results": {
+    "ordinary": {
+      "complete_frames": 165,
+      "actual_resets": 4,
+      "full_packet_words": 2180652,
+      "counters": {
+        "frames": 165,
+        "resets": 4,
+        "read_requests": 3441705,
+        "read_beats": 3444821,
+        "AXIS_stall_cycles": 80,
+        "AR_stall_cycles": 1248729,
+        "R_stall_cycles": 0
+      },
+      "stages": {
+        "setup": {
+          "seconds": 8.98686910001561,
+          "peak_job_bytes": 777142272
+        },
+        "compile": {
+          "seconds": 0.6684224000200629,
+          "peak_job_bytes": 81903616
+        },
+        "elaborate": {
+          "seconds": 4.41834979999112,
+          "peak_job_bytes": 292941824
+        },
+        "simulate": {
+          "seconds": 212.58417589997407,
+          "peak_job_bytes": 259125248
+        }
+      }
+    },
+    "random": {
+      "complete_frames": 165,
+      "actual_resets": 4,
+      "full_packet_words": 2180652,
+      "counters": {
+        "frames": 165,
+        "resets": 4,
+        "read_requests": 3441701,
+        "read_beats": 3444817,
+        "AXIS_stall_cycles": 845403,
+        "AR_stall_cycles": 8172869,
+        "R_stall_cycles": 0
+      },
+      "stages": {
+        "setup": {
+          "seconds": 8.945886400004383,
+          "peak_job_bytes": 778338304
+        },
+        "compile": {
+          "seconds": 0.566611299989745,
+          "peak_job_bytes": 82808832
+        },
+        "elaborate": {
+          "seconds": 3.4853476000134833,
+          "peak_job_bytes": 289869824
+        },
+        "simulate": {
+          "seconds": 232.35307240003021,
+          "peak_job_bytes": 259354624
+        }
+      }
+    }
+  },
+  "all_retained_members_and_canonical_aliases_reopened": true,
+  "all_owned_server_bytes_collected_and_exact_root_removed": true,
+  "archive_SHA256": "ab9593e0472460ed8de1f20695f5c2149c3aa9d84382abac75ad2a82d42d510f",
+  "source_HLS_archive_SHA256": "58ca840387e7936a191d95b38f64d5912d0a596d200eea5502242294d039a7fa",
+  "source_and_evidence_SHA256": {
+    "tools/verify_tensor_R3_RTL_20261022_r1.py": "67a7fd5047894516d8e98d5b8ec96f48a09708375292676f424beddf365b4d80",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/admission.json": "e9e0741057bf68c031aba9d8b1716172073fe23dc4617eb17ff79dd04882423d",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/collect.py": "903b624b7a311412be657d54617b1b4b8cd20a487ae92a8f3a3f575833d0c38e",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/run.py": "1ff2f862f09d335d7b0733174a9ef42e53edd56af70c653a81dd2050c6dfd827",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/generate.py": "0b9b16b8af40a2100f71ae9666239587a5aad7ff01af9c4dc03c335227350d53",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/testbench.sv.in": "0fd0bde423d96c8bd52eb9643a4c29ac3b123d71446c922699d209f899c7f553"
+  },
+  "standalone_RTL_not_whole_C5_100MHz_5PR_ARM139_system_qualification": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

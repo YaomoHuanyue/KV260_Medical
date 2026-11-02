@@ -1,0 +1,16 @@
+{
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "PID": null,
+  "tested_formal_default_UI_running": false,
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "composite_worker_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+  "overlays": [
+    "kv260-xrt-zocl",
+    "k26-starter-kits_image_1"
+  ],
+  "medical_shell_marker_present": false,
+  "PL_access_this_milestone": false,
+  "new_static_or_partial_loaded": false
+}

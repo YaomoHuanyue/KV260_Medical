@@ -1,0 +1,20 @@
+{
+  "status": "accepted_default_UI_and_C6_restored_after_independent_original_field_C1_mesh_trial",
+  "PID": 519311,
+  "previous_UI_PID": 517617,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "trial_exit_code": 0,
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "composite_worker_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+  "accepted_volume_lifecycle_and_C6_restore_passed": true,
+  "PL_lock_free_before_UI_launch": true,
+  "static_shell_reloaded": false,
+  "ZOCL_unloaded": false,
+  "forced_kill_or_reset": false,
+  "source_sha256": {
+    "with_original_surface_UI_restore_r6b.py": "51e97e1aa3d1d779674d6a5fadac3dbd921d11c081a40692d625c92732d4c942",
+    "original_surface_mesh_r6.py": "0fa176e3541be2f25bf9f091f22bfc78efacccc4be7c7727e5a1850e91f3d981"
+  }
+}

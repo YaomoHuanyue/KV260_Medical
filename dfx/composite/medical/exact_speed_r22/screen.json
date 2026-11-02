@@ -1,0 +1,916 @@
+{
+  "status": "passed_complete_identifiers_colors_and_final_exact",
+  "error": null,
+  "events": [
+    {
+      "event": "ready",
+      "native_worker": true,
+      "protocol": 1
+    },
+    {
+      "captured_evidence": "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/composite/medical/exact_speed_r22/screen/full",
+      "event": "frame",
+      "frame_path": "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/composite/medical/exact_speed_r22/screen/frame.rgba",
+      "full_lung": true,
+      "height": 288,
+      "orientation_column_major": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        20.72357177734375,
+        174.73532104492188,
+        -803.0935668945312,
+        1
+      ],
+      "pitch_degrees": 0,
+      "projection_column_major": [
+        1.1722899675369263,
+        0,
+        0,
+        0,
+        0,
+        2.605088949203491,
+        0,
+        0,
+        0,
+        0,
+        -7.141958236694336,
+        -1,
+        0,
+        0,
+        -5688.12109375,
+        0
+      ],
+      "report": {
+        "CPU_color_layer_captures_present": true,
+        "CPU_color_layer_readback_seconds": 0.16149920399999998,
+        "analysis_attributes_sha256": "",
+        "batch_vertices": 96000,
+        "board_PL_test": true,
+        "color_draw_seconds": 2.0692918539999994,
+        "controls": {
+          "center_lps_mm": [
+            -20.72357177734375,
+            9.269908905029297,
+            -174.73532104492188
+          ],
+          "clipping": {
+            "axis": 2,
+            "enabled": false,
+            "value_mm": -105.86690521240234
+          },
+          "color_mode": 0,
+          "focus": true,
+          "full_lung": true,
+          "height": 288,
+          "layers": {
+            "airway": true,
+            "lung": true,
+            "nodule": true
+          },
+          "lung_opacity_byte": 51,
+          "pitch_degrees": 0,
+          "radius_mm": 290.12982177734375,
+          "required_radius_mm": 0.800000011920929,
+          "resolution_margin_mm": 1.3611054420471191,
+          "width": 640,
+          "yaw_degrees": 0,
+          "zoom": 1
+        },
+        "ct_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "depth_order_policy": "24-bit fixed-function depth; exact byte triangle identifiers; rank keys",
+        "exact_cache_geometry_recomputed": true,
+        "exact_geometry_cache_hit": false,
+        "exact_selection_mode": 0,
+        "far_mm": 926.1087036132812,
+        "fragment_float_depth_comparison": false,
+        "full_lung": true,
+        "gpu_geometry_seconds": 3.209874151,
+        "height": 288,
+        "hidden_mesh_reprojection_skipped": true,
+        "identifier_readback_seconds": 0.160378153,
+        "identifier_shader_caps": [
+          4,
+          8,
+          16,
+          32
+        ],
+        "interleaved_upload_reuse_draws": 177,
+        "kind": "actual_own_CT_GPU_medical_identifier_peeling",
+        "live_shared_composition": {
+          "CPU_color_layer_captures_present": true,
+          "GPU_prepare_seconds": 0.020686437,
+          "GPU_sample_seconds": 0.001374904,
+          "HDMI_UI_integration": false,
+          "PL_compute_and_sync_seconds": 0.02304879,
+          "PL_core_seconds": 0.022924370000000003,
+          "all_pixels_exact": true,
+          "batches": 4,
+          "complete_composition_seconds": 0.045111921,
+          "composite_kept_loaded": true,
+          "guards_unchanged": true,
+          "rank_keys": "constant GPU clear; alpha-zero is exact neutral blend",
+          "readback_and_validation_seconds_separate": 0.022491395,
+          "reference_seconds_separate": 0.026243723,
+          "setup_seconds": 2.458102575,
+          "shared_allocation_count": 1,
+          "shared_allocation_reused": false,
+          "status": "passed_actual_single_medical_shared_C7_frame",
+          "surface_restored": false,
+          "transparent_layers": 12
+        },
+        "lung_identifier_draw_seconds": 0.8880188400000006,
+        "lung_layers": [
+          {
+            "geometry_seconds": 0.360629366,
+            "hits": 12394,
+            "rank": 1
+          },
+          {
+            "geometry_seconds": 0.5268262,
+            "hits": 12253,
+            "rank": 2
+          },
+          {
+            "geometry_seconds": 0.423775268,
+            "hits": 4076,
+            "rank": 3
+          },
+          {
+            "geometry_seconds": 0.361739038,
+            "hits": 4018,
+            "rank": 4
+          },
+          {
+            "geometry_seconds": 0.369042561,
+            "hits": 1196,
+            "rank": 5
+          },
+          {
+            "geometry_seconds": 0.28607212,
+            "hits": 1176,
+            "rank": 6
+          },
+          {
+            "geometry_seconds": 0.270799578,
+            "hits": 292,
+            "rank": 7
+          },
+          {
+            "geometry_seconds": 0.165108331,
+            "hits": 282,
+            "rank": 8
+          },
+          {
+            "geometry_seconds": 0.162299324,
+            "hits": 67,
+            "rank": 9
+          },
+          {
+            "geometry_seconds": 0.12833261299999998,
+            "hits": 64,
+            "rank": 10
+          },
+          {
+            "geometry_seconds": 0.089711407,
+            "hits": 7,
+            "rank": 11
+          },
+          {
+            "geometry_seconds": 0.036870168,
+            "hits": 7,
+            "rank": 12
+          }
+        ],
+        "maximum_lung_layers_per_pixel": 12,
+        "mesh_cache_hits": 0,
+        "mesh_cache_misses": 3,
+        "mesh_sha256": {
+          "airway": "8b3ee41dc0aace416a5ab7683814e1c873f1b867b0c58f84ab046ca7924fec41",
+          "lung": "bbbcd3186bb60ad5d65f9c185f66883a6759e6b797af50c18220c4a5564969ba",
+          "nodule": "eb6963d3731d4e5afa1126e57623e7aa25d6604757459a6869e4ba2e0cf01ce9"
+        },
+        "near_mm": 698.6182861328125,
+        "opaque_depth_seed_seconds": 0.16131304099999993,
+        "paired_ID_color_without_intermediate_CPU_wait": true,
+        "peak_rss_mib": 241.0703125,
+        "pitch_degrees": 0,
+        "pixels_exceeding_three_lung_layers": 4018,
+        "preparation_seconds": 3.024623071,
+        "production_UI_replaced": false,
+        "projection_column_major": [
+          1.1722899675369263,
+          0,
+          0,
+          0,
+          0,
+          2.605088949203491,
+          0,
+          0,
+          0,
+          0,
+          -7.141958236694336,
+          -1,
+          0,
+          0,
+          -5688.12109375,
+          0
+        ],
+        "projection_threads": 4,
+        "readback_and_validation_excluded": true,
+        "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+        "scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+        "screen_culling_edge": 1,
+        "screen_tile_culling": true,
+        "selected_triangle_prepare_seconds": 0,
+        "shader_cache_reused": false,
+        "shader_setup_seconds": 0.075723709,
+        "single_VBO_interleaved_ID_color": true,
+        "status": "complete_extraction_and_live_composition_pending_geometry_oracle",
+        "strong_PS_comparison": {
+          "GPU_completion_included": true,
+          "GPU_input_PS_over_PL": 1.7427045147616909,
+          "HDMI_UI_integration": false,
+          "PL_seconds": 0.044446975,
+          "backend_median_seconds": {
+            "PL_shared_GPU": 0.044446975,
+            "PS_GPU_readback_NEON1": 0.182698647,
+            "PS_GPU_readback_NEON4": 0.161070941,
+            "PS_GPU_readback_fused1": 0.225684748,
+            "PS_GPU_readback_fused4": 0.171524875,
+            "PS_GPU_shared_BO_NEON4": 0.077457944,
+            "PS_existing_colors_NEON1": 0.032290643,
+            "PS_existing_colors_NEON4": 0.010572846,
+            "PS_existing_colors_fused1": 0.074626577,
+            "PS_existing_colors_fused4": 0.02098914
+          },
+          "best_GPU_input_PS_backend": "PS_GPU_shared_BO_NEON4",
+          "best_GPU_input_PS_seconds": 0.077457944,
+          "best_existing_CPU_colors_PS_backend": "PS_existing_colors_NEON4",
+          "best_existing_CPU_colors_PS_seconds": 0.010572846,
+          "common_geometry_excluded": true,
+          "diagnostic_run_reads_all_color_layers": true,
+          "existing_colors_PS_over_PL": 0.23787549096423324,
+          "frames": 60,
+          "full_original_geometry": true,
+          "interpretation": "Existing-color baseline applies to diagnostic CPU captures. Production keeps colors on GPU; its PS alternatives include GPU readback and shared-BO NEON, with all copies and GPU completion timed.",
+          "production_worker_reads_all_color_layers": false,
+          "status": "passed_exact_fused_PS_GPU_completion_comparison",
+          "trials": [
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.044791168,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.072155321,
+              "complete_seconds": 0.075509165,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.003353184
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018223603,
+              "complete_seconds": 0.021145292,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.002921249
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072422065,
+              "complete_seconds": 0.225715048,
+              "round": 0,
+              "source_readback_seconds": 0.150270693,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.00302139
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018402154,
+              "complete_seconds": 0.171829058,
+              "round": 0,
+              "source_readback_seconds": 0.150385404,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.0030406
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029349794,
+              "complete_seconds": 0.032205432,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.002855078
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007819158,
+              "complete_seconds": 0.010654226,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.002834488
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029620126,
+              "complete_seconds": 0.182850769,
+              "round": 0,
+              "source_readback_seconds": 0.150294933,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.00293478
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.007912529,
+              "complete_seconds": 0.161031021,
+              "round": 0,
+              "source_readback_seconds": 0.150243123,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0.002874519
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.076239523,
+              "round": 0,
+              "source_readback_seconds": 0,
+              "timed": false,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.071831889,
+              "complete_seconds": 0.074626577,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002793408
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018186292,
+              "complete_seconds": 0.020923929,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002737147
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072483165,
+              "complete_seconds": 0.225555596,
+              "round": 1,
+              "source_readback_seconds": 0.150300133,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002771318
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018822178,
+              "complete_seconds": 0.171910029,
+              "round": 1,
+              "source_readback_seconds": 0.150266273,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002820558
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029577436,
+              "complete_seconds": 0.032331203,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002753357
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007855078,
+              "complete_seconds": 0.010495475,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002639937
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029580896,
+              "complete_seconds": 0.182657167,
+              "round": 1,
+              "source_readback_seconds": 0.150295104,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002779847
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.00800031,
+              "complete_seconds": 0.161127492,
+              "round": 1,
+              "source_readback_seconds": 0.150379905,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002746357
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.077457944,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.044499915,
+              "round": 1,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018349354,
+              "complete_seconds": 0.021201823,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002851749
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072415665,
+              "complete_seconds": 0.225640957,
+              "round": 2,
+              "source_readback_seconds": 0.150341513,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002882909
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018396644,
+              "complete_seconds": 0.171609606,
+              "round": 2,
+              "source_readback_seconds": 0.150294873,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002917199
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029302193,
+              "complete_seconds": 0.032182212,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002879549
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007766578,
+              "complete_seconds": 0.010659627,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002892559
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029530715,
+              "complete_seconds": 0.182685708,
+              "round": 2,
+              "source_readback_seconds": 0.150287844,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002866349
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.007987009,
+              "complete_seconds": 0.161084701,
+              "round": 2,
+              "source_readback_seconds": 0.150208713,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002888049
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.077203592,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.044250123,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.071820028,
+              "complete_seconds": 0.074595376,
+              "round": 2,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002774908
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072487085,
+              "complete_seconds": 0.227217743,
+              "round": 3,
+              "source_readback_seconds": 0.151898629,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002831039
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018356793,
+              "complete_seconds": 0.171524875,
+              "round": 3,
+              "source_readback_seconds": 0.150368824,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002798258
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029525166,
+              "complete_seconds": 0.032290643,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002764417
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007820618,
+              "complete_seconds": 0.010572846,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002751768
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029693157,
+              "complete_seconds": 0.182836958,
+              "round": 3,
+              "source_readback_seconds": 0.150388344,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002754287
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.008142331,
+              "complete_seconds": 0.161063671,
+              "round": 3,
+              "source_readback_seconds": 0.150188332,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002732128
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.077579956,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.044446975,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.0720464,
+              "complete_seconds": 0.074831228,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002783928
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018254522,
+              "complete_seconds": 0.02098914,
+              "round": 3,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002734078
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018283683,
+              "complete_seconds": 0.171521386,
+              "round": 4,
+              "source_readback_seconds": 0.150350174,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002886539
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029321414,
+              "complete_seconds": 0.032199833,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002877839
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007781268,
+              "complete_seconds": 0.010841428,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.00305927
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029566496,
+              "complete_seconds": 0.18293145,
+              "round": 4,
+              "source_readback_seconds": 0.150337254,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.00302674
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.007899299,
+              "complete_seconds": 0.161070941,
+              "round": 4,
+              "source_readback_seconds": 0.150341083,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002829599
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.076831488,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.045101561,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.071785168,
+              "complete_seconds": 0.074575486,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002789578
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018200462,
+              "complete_seconds": 0.020909749,
+              "round": 4,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002708817
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072494305,
+              "complete_seconds": 0.225684748,
+              "round": 4,
+              "source_readback_seconds": 0.150352624,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002836959
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON1",
+              "blend_seconds": 0.029535445,
+              "complete_seconds": 0.032378703,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002842768
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_NEON4",
+              "blend_seconds": 0.007883569,
+              "complete_seconds": 0.010510456,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002626197
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON1",
+              "blend_seconds": 0.029645206,
+              "complete_seconds": 0.182698647,
+              "round": 5,
+              "source_readback_seconds": 0.150430635,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002621636
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_NEON4",
+              "blend_seconds": 0.0079714,
+              "complete_seconds": 0.160830878,
+              "round": 5,
+              "source_readback_seconds": 0.150137051,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002721647
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_shared_BO_NEON4",
+              "blend_seconds": 0,
+              "complete_seconds": 0.077790288,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PL_shared_GPU",
+              "blend_seconds": 0,
+              "complete_seconds": 0.044268853,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused1",
+              "blend_seconds": 0.072094242,
+              "complete_seconds": 0.07490937,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002814478
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_existing_colors_fused4",
+              "blend_seconds": 0.018229892,
+              "complete_seconds": 0.021081531,
+              "round": 5,
+              "source_readback_seconds": 0,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002851069
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused1",
+              "blend_seconds": 0.072444534,
+              "complete_seconds": 0.225819179,
+              "round": 5,
+              "source_readback_seconds": 0.150418615,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.00295494
+            },
+            {
+              "all_pixels_exact": true,
+              "backend": "PS_GPU_readback_fused4",
+              "blend_seconds": 0.018300663,
+              "complete_seconds": 0.171447725,
+              "round": 5,
+              "source_readback_seconds": 0.150218383,
+              "timed": true,
+              "upload_and_GPU_complete_seconds": 0.002927539
+            }
+          ],
+          "validation_and_capture_IO_excluded": true
+        },
+        "submitted_triangles": 11213744,
+        "thirty_two_layer_overflow": false,
+        "triangles": {
+          "airway": 46520,
+          "lung": 860680,
+          "nodule": 6996
+        },
+        "view_column_major": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          20.72357177734375,
+          174.73532104492188,
+          -803.0935668945312,
+          1
+        ],
+        "width": 640,
+        "yaw_degrees": 0
+      },
+      "round_trip_seconds": 20.503989572,
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+      "sequence": 1,
+      "width": 640,
+      "yaw_degrees": 0
+    },
+    {
+      "event": "stopped",
+      "normal_completion": true,
+      "surface_restored": true
+    }
+  ],
+  "returncode": 0,
+  "baseline_receipt_sha256": "abc63a9a73f629cb56d364e90bd8c8d3dfb932211e38e37651782a12d5878336",
+  "binary_sha256": "92e7893616871c300b4676fe01f241a947ca62fd0f741e934bf90ab796f8f3fe",
+  "source_sha256": "21b892e0809032e9728bd13a8c7410d5cc6eb053401554b1d338e767306f8a3e"
+}

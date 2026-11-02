@@ -1,0 +1,269 @@
+{
+  "schema_version": 9,
+  "date": "2026-09-30",
+  "part": "xck26-sfvc784-2LV-c",
+  "clock_hz": 100000000,
+  "new_macs_per_cycle": 768,
+  "source_sha256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+  "pointwise_streaming": true,
+  "spatial_streaming": true,
+  "pl_requantization": true,
+  "line_buffer_memory": "2 BRAM line buffers",
+  "control_register_abi_unchanged": true,
+  "board_measured": true,
+  "diagnostic_bit_pending_clean_boot": false,
+  "implemented_resources": {
+    "LUT": {
+      "used": 89090.0,
+      "available": 117120,
+      "percent": 76.07
+    },
+    "FF": {
+      "used": 115729.0,
+      "available": 234240,
+      "percent": 49.41
+    },
+    "BRAM36_equivalent": {
+      "used": 107.0,
+      "available": 144,
+      "percent": 74.31
+    },
+    "URAM": {
+      "used": 0.0,
+      "available": 64,
+      "percent": 0.0
+    },
+    "DSP": {
+      "used": 1115.0,
+      "available": 1248,
+      "percent": 89.34
+    }
+  },
+  "implemented_timing": {
+    "clock_hz": 100000000,
+    "WNS_ns": 0.423,
+    "WHS_ns": 0.01,
+    "timing_passed": true
+  },
+  "release": {
+    "ct_segmentation.bit": "4510043f1916b20cbd86e8e84ee7c2e78ed588135d0e9087002c777bd093c5d1",
+    "ct_segmentation.hwh": "4a96eeeff8219ae6baf07d78edaf8c5b9b93196cd3d791d5459bfcad2a11e172"
+  },
+  "writer_quantization": {
+    "native_boundary_cases_passed": 149,
+    "real_model_layers_native_passed": 36,
+    "rtl_random_stall_cases_passed": 45,
+    "mode_register": "0x40",
+    "raw_mode": 0,
+    "int8_mode": 1,
+    "parameters_register": "0x30",
+    "channels_register": "0x48",
+    "scale_register": "0x50",
+    "zero_register": "0x58",
+    "math": "INT32 bias add, float32 multiply, float32 divide, nearest even INT8 saturation",
+    "output_ddr_bytes_ratio": 0.25,
+    "board_real_layers_exact": 36
+  },
+  "pointwise": {
+    "pixel_fifo_depth": 16,
+    "input_packet_bits": 256,
+    "internal_pixel_bits": 512,
+    "output_packet_bits": 256,
+    "compute_initiation_interval": 1,
+    "compute_pipeline_depth": 7,
+    "macs_per_cycle": 256,
+    "across_pixels_continuous": true,
+    "three_by_three_path_preserved": false,
+    "wide_input_groups": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "generic_channel_tail_supported": true
+  },
+  "spatial": {
+    "window_fifo_count": 6,
+    "window_fifo_depth": 2,
+    "window_fifo_bits": 2304,
+    "output_fifo_depth": 4,
+    "output_fifo_bits": 1536,
+    "compute_initiation_interval": 1,
+    "compute_pipeline_depth": 13,
+    "output_parallelism": 16,
+    "input_parallelism": 16,
+    "macs_per_cycle": 768,
+    "across_pixels_continuous": true,
+    "weight_cache_ports": 2,
+    "external_axis_bits": [
+      256,
+      256
+    ],
+    "pixel_parallelism": 3,
+    "window_initiation_interval": 1,
+    "window_pipeline_depth": 4,
+    "output_initiation_interval": 1,
+    "output_pipeline_depth": 3,
+    "window_input_continuous": true,
+    "arithmetic_lanes": 3,
+    "line_buffer_memory": "bram"
+  },
+  "validation": {
+    "native_pipeline_cases": 61,
+    "native_tripixel_cases": 33,
+    "model_layer_cases": 36,
+    "rtl_conv_deterministic_cases": 33,
+    "rtl_conv_random_stall_cases": 33,
+    "board_raw_layers": 36,
+    "board_quantized_layers": 36,
+    "full_volume_repeats": 3,
+    "unchanged_reader_writer_proof": "ct_pl/build/release_wide_input/build_info.json",
+    "board_fused_graph_slices": 6,
+    "board_fused_graph_inputs": 108,
+    "single_volume_repeats": 1,
+    "raw_masks_bit_exact": true,
+    "final_masks_pc_bit_exact": true,
+    "board_tripixel_cases": 32,
+    "ps_pool_lut_cases": 576,
+    "host_graph_inputs_exact": 108,
+    "direct_mask_slices": 6,
+    "dirty_ps_rewrites": 32,
+    "clean_pl_chains": 32
+  },
+  "pl_activation_lut": true,
+  "activation_fusion": {
+    "writer_mode": 2,
+    "table_bytes": 256,
+    "table_ports": 8,
+    "table_storage": "LUTRAM",
+    "fused_layers": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      12,
+      15,
+      16
+    ],
+    "original_quantization_preserved": true
+  },
+  "convolution_ip_source_sha256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+  "writer_hls_estimate": {
+    "BRAM_18K": 64,
+    "DSP": 24,
+    "FF": 8221,
+    "LUT": 14839,
+    "URAM": 0
+  },
+  "slice_pipeline": {
+    "max_inflight_graphs": 2,
+    "hardware_transactions_serialized": true,
+    "software_only_baseline_verified": true,
+    "coherency_sync_preserved": true
+  },
+  "hls_component": "ct_pl/build/tripixel/ct_conv",
+  "hls_synthesis_source_snapshot_sha256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+  "writer_ip_source_sha256": "a26ba08df7067d16e6da760157f3dbc39cf63e008174c30e041ba290773d754c",
+  "reader_ip_source_sha256": "f64f06455c493a8a91c726792feac825cec16605fb29b122ddcda7aae18506a4",
+  "wide_input": {
+    "ddr_read_bits": 256,
+    "axis_bits": 256,
+    "spatial_valid_bytes_per_beat": 8,
+    "host_dma_alignment_bytes": 32,
+    "arithmetic_unchanged": true
+  },
+  "hardware_sources": {
+    "conv.cpp": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+    "stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf",
+    "tripixel_testbench.cpp": "9d61cffddc3e3804c3b0efc1535cd5eff1039a547dadbea9d7ba3342e809a97d",
+    "build_tripixel.ps1": "bb6a7d3162e7c0b0625a00455ac432a35b8415579d5fd4eab0c51320526ab47d",
+    "rebuild_tripixel.tcl": "e5d424203da6b0da6f03fa1b592bd26a2fc07f4783599ece6339409755096313"
+  },
+  "hls_estimate": {
+    "ct_reader": {
+      "BRAM_18K": 30,
+      "DSP": 1,
+      "FF": 3517,
+      "LUT": 3875,
+      "URAM": 0
+    },
+    "ct_conv": {
+      "BRAM_18K": 282,
+      "DSP": 1033,
+      "FF": 97684,
+      "LUT": 150014,
+      "URAM": 0
+    }
+  },
+  "loaded_bit_bin_sha256": "433fbe51e4ac7628ff6d18583573b2331e1dedcf95f04cbf654b3444cfc54df2",
+  "verified_boot_id": "a49c0ed2-31cd-4baf-a275-1d519da8b4ef",
+  "benchmark": "outputs/ct_accuracy_v2/board_pl_host_overlap/report.json",
+  "single_run": "outputs/ct_accuracy_v2/board_pl_host_overlap_single/report.json",
+  "benchmark_runner_sha256": "8dfd8f63e3ad638b0ac30f4806aa51d35c832eef2fd176df0be73ed6b0a7b599",
+  "benchmark_runner_snapshot": "benchmark_run.py",
+  "host_sources": {
+    "ct_pl/run.py": "8dfd8f63e3ad638b0ac30f4806aa51d35c832eef2fd176df0be73ed6b0a7b599",
+    "ct_pl/runtime.py": "3dda80beffe3c4786972c4820ec4162bbcaf99da29a50ebe77db1a92e602405d",
+    "ct_pl/xrt_bridge.cpp": "2be7104e28cc75e0311b6ba6053d40a840e8cf66e2464ea7b7c8d20aed706f82",
+    "ct_pl/quantized_runtime.py": "e19e1246ed8f9bd110d85bb603af1b9d77aef514b835d1390311fbd6a473769c",
+    "ct_pl/native_graph.py": "e7c4b4df3aec9383cc60feca89d381250b343156d322d44a2b9e952edbb798f3",
+    "ct_pl/stream_graph.py": "09696b4e8948db47577e83f3a88967c52c2e2812f81b384acf515391533f7c0e",
+    "ct_pl/fused_graph.py": "10aec95cc24c3320c962668031390e616da6d117e8902ac450a453f9d35f723f",
+    "ct_pl/slice_pipeline.py": "c61422a0c7b0e29bf5b50aae22cca43a88f46d135c3e2e8bbf438ff1b233d473",
+    "ct_pl/graph_ops.cpp": "5f2bb8bb614b28a1fbb596abd5bf4558134f272dede607685c4445d734b09d62",
+    "ct_pl/build/libct_xrt.so": "da5862779e9ffb5598b04ee645f5da095d752f8e17925274e53276c47d39fe51",
+    "ct_pl/build/libct_graph_ops.so": "6c18ce5d354993b0c3a168b7a342a2428dde34e23734d59c36b0933cc52295fa",
+    "ct_pl/verify_host_overlap.py": "682c3096736c696631bc841c2e80d8f69d872e2f2140f15cfbff5de00abf60e0",
+    "ct_pl/verify_host_buffers.py": "df45642bcdc4c3aaa61bb4695226a88f1bc272dc6556930bca8d464bbde657e5",
+    "ct_pl/benchmark_host_overlap.py": "1f74626e2dfdce809d0ab7d192e89008acad8228b35544234ac61388381907e4",
+    "ct_pl/benchmark_host_final.py": "0b44fe1ca2d311d832b8cb8c2111462413e89b77cc13edb979022c89eb1d84f8",
+    "airway/ct_notebook.py": "da0322007eb25be2f4c75b962c8eebb82a0127f58324295a53d219bbba7724d2",
+    "airway/ct_segmentation.py": "b60722e3e7639f3b5409ac72a24ee760b4cba33e65ba9a8b3ed79f181f9e5eb6"
+  },
+  "host_optimization": {
+    "hardware_changed": false,
+    "model_changed": false,
+    "clock_changed": false,
+    "parent_hardware_release": "ct_pl/build/release_tripixel",
+    "release": "ct_pl/build/release_host_overlap",
+    "previous_inference_seconds": 20.490611927999993,
+    "contemporary_baseline_seconds": 20.523455046997697,
+    "current_inference_seconds": 18.839993768997374,
+    "inference_reduction_fraction": 0.08055484945020519,
+    "previous_pl_wait_seconds": 14.04610414,
+    "current_pl_wait_seconds": 13.898154233999946,
+    "previous_process_cpu_seconds": 20.689396416999998,
+    "current_process_cpu_seconds": 14.766467442,
+    "pool_quantize_fusions": 3,
+    "context_pixels_per_neon_iteration": 16,
+    "completion_wait": "adaptive with <=80us tail spin, then 10us sleep",
+    "clean_bo_sync_elision": true,
+    "pl_outputs_read_only": true,
+    "direct_int8_mask": true,
+    "raw_masks_bit_exact": true,
+    "final_masks_pc_bit_exact": true,
+    "single_worker_seconds": 30.05735703999744,
+    "previous_single_worker_seconds": 31.80630785300002,
+    "source_sha256": {
+      "ct_pl/run.py": "8dfd8f63e3ad638b0ac30f4806aa51d35c832eef2fd176df0be73ed6b0a7b599",
+      "ct_pl/runtime.py": "3dda80beffe3c4786972c4820ec4162bbcaf99da29a50ebe77db1a92e602405d",
+      "ct_pl/xrt_bridge.cpp": "2be7104e28cc75e0311b6ba6053d40a840e8cf66e2464ea7b7c8d20aed706f82",
+      "ct_pl/quantized_runtime.py": "e19e1246ed8f9bd110d85bb603af1b9d77aef514b835d1390311fbd6a473769c",
+      "ct_pl/native_graph.py": "e7c4b4df3aec9383cc60feca89d381250b343156d322d44a2b9e952edbb798f3",
+      "ct_pl/stream_graph.py": "09696b4e8948db47577e83f3a88967c52c2e2812f81b384acf515391533f7c0e",
+      "ct_pl/fused_graph.py": "10aec95cc24c3320c962668031390e616da6d117e8902ac450a453f9d35f723f",
+      "ct_pl/slice_pipeline.py": "c61422a0c7b0e29bf5b50aae22cca43a88f46d135c3e2e8bbf438ff1b233d473",
+      "ct_pl/graph_ops.cpp": "5f2bb8bb614b28a1fbb596abd5bf4558134f272dede607685c4445d734b09d62",
+      "ct_pl/build/libct_xrt.so": "da5862779e9ffb5598b04ee645f5da095d752f8e17925274e53276c47d39fe51",
+      "ct_pl/build/libct_graph_ops.so": "6c18ce5d354993b0c3a168b7a342a2428dde34e23734d59c36b0933cc52295fa",
+      "ct_pl/verify_host_overlap.py": "682c3096736c696631bc841c2e80d8f69d872e2f2140f15cfbff5de00abf60e0",
+      "ct_pl/verify_host_buffers.py": "df45642bcdc4c3aaa61bb4695226a88f1bc272dc6556930bca8d464bbde657e5",
+      "ct_pl/benchmark_host_overlap.py": "1f74626e2dfdce809d0ab7d192e89008acad8228b35544234ac61388381907e4",
+      "ct_pl/benchmark_host_final.py": "0b44fe1ca2d311d832b8cb8c2111462413e89b77cc13edb979022c89eb1d84f8",
+      "airway/ct_notebook.py": "da0322007eb25be2f4c75b962c8eebb82a0127f58324295a53d219bbba7724d2",
+      "airway/ct_segmentation.py": "b60722e3e7639f3b5409ac72a24ee760b4cba33e65ba9a8b3ed79f181f9e5eb6"
+    }
+  },
+  "parent_release": "ct_pl/build/release_tripixel"
+}

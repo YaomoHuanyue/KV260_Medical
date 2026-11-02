@@ -1,0 +1,11 @@
+{
+  "source_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/entry.py": "de41e0534998931e446be7854ac11de71a4234c8a7356012109154d038072f71",
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/assignment.py": "caf92b78e0d3257205f4908ed9243b4e1647752e2f84bc4b34ff0b4db5df073c",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py": "0c7f6e2026d0761519d31efcab7955414be1284625b83f96fe7ca63f78f03268",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+    "modules/segmentation/axis_tensor_reader_r3/operator_roles_r1/verified.json": "aea2006260af92211789a43c4193d0921e5e23f501717b0a621803420c6cf6c1",
+    "results/R3_native_system_ARM_20261022_r1/verified_PC.json": "1f3ba752779212675a4ee982f57cbc60989f3549b613cb5a1cef2ade3a5fb00f"
+  },
+  "metadata_only_no_numeric_worker_change": true
+}

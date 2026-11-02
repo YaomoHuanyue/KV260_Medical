@@ -1,0 +1,59 @@
+{
+  "status": "actual_ARM_PC_full_output_HU_prepare_worker16_configurations32_runs_paired_mocked_compute_no_PL",
+  "actual_owner": {
+    "PID": 158722,
+    "start_ticks": 13597430,
+    "argv": [
+      "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+      "-B",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runner_ARM_r2.py"
+    ]
+  },
+  "actual_ARM_receipt": {
+    "exit_code": 0,
+    "seconds": 25.249419553991174,
+    "traceback": null,
+    "storage_admission": [
+      {
+        "requested_reserve_bytes": 165000000,
+        "actual_board_available_bytes": 11833274368,
+        "board_free_headroom_bytes": 100000000,
+        "method": "POSIX_statvfs_actual_fixture_filesystem"
+      }
+    ],
+    "PC25GB_workspace_and165MB_stage_collect_reservation_not_bypassed": true,
+    "forbidden_events": [],
+    "actual_CPU_affinity": [
+      3
+    ],
+    "nice": 19,
+    "ITK_threads": 4,
+    "actual_HU_and_network_transports_mocked_no_PL_or_UI_signal": true
+  },
+  "all16_case_flags_retention_and_output_checks_paired": true,
+  "all_source_SHA256_exactly_paired_PC_ARM": true,
+  "actual_CPU3_nice19_original_ITK4_request_and_no_hardware_or_process_mutation": true,
+  "all_owned_files": 11,
+  "every_owned_byte_collected_then_only_exact_owned_scopes_removed": true,
+  "ARM_mock_process_RSS_not_production_inference_RSS_or_speed": true,
+  "full_ownCT_actual_PL_all_outputs_baseline_pair_RSS_and_formal_integration_still_required": true,
+  "formal_UI_before_after": {
+    "PID": 148757,
+    "ticks": 12711739,
+    "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+    "ELF": "79cdabc53c89d2ad905cc0e8e70f27cea6fa3d942ace7bb148c7922301aaec02",
+    "identity_SHA256": "b6bed7cc99707fb1f3aba194e569e7d2d83d181e64b119108a094b66d3cce500"
+  },
+  "source_and_evidence_SHA256": {
+    "tools/test_CT_bounded_full_outputs_ARM_r3_20261020.py": "a227ad41540b4d538d9bd46b2d5f824393d9a8a0dce73fec0755f4073adc3b51",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runner_ARM_r2.py": "9a8c7658dd877e8afb5777051b6cdaa9a0283a9206149d1744c3f454c58fd1e0",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_evidence_r3/stage.json": "7cf89feb255d3825d0a102ca8a622e1418f0ab4e16bd724b6e6d2b3a0a2d5c48",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_evidence_r3/all_owned_board_files.json": "ee357ecee9d6c4b3cba38199f68607cfcf44b0e4b7963793c51315bed7a6fbca",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_evidence_r3/cleanup_verified.json": "26a7b5b3fb5e0c918d075fcf098930410ffb4244975f52a6fe6853b260c66c99",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_evidence_r3/files/result/verified.json": "e9e79613c9cb50b3a93ec5dde5f9112097f7fece13ca923aef43b6ffd68c9513",
+    "results/CT_bounded_full_outputs_preparation_native_20261020_r1/verified.json": "de7115270dbfb379b96dd686d792cbe5bfb0b70d555fac621cf8c31a2e5c7398"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

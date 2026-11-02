@@ -1,0 +1,12 @@
+{
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/prepare.py": "c9ad81dd115e0f75fc384e502eae77ec0bdd9f46c957a0f4a1d98f625ef134a0",
+    "dfx/medical/host_extended/ct_bridge.cpp": "dd6b7f7f170f8237fd18d1c5ac16bda4eb134e6b71e79ff24aac2bbf5a319580",
+    "dfx/medical/host_extended/shared_session.hpp": "8f448ceb69244a55cdff91effcc0e5928135c57109802d2dfd180c5aa7b39ffc",
+    "dfx/medical/host_extended/runtime.hpp": "41a40a87e012e64e9e169ba2c148e4643e23eaff9477d5e078a17d3e207e86db",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ct_pool_bridge.cpp": "3b84e18a1ea939ea38e34deed0dc6deb7c0f8a8c33c3bee6aea39b5ae020cd61",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/compile_ARM.py": "3884ee95a3646995c646937a8184421f4fe3b0dd9a5f323ddda44297ff180f10",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/derivation.json": "8d5ba4750a13e3b67fa6e05a3a427da9e2e9556a837bb9705de83a97e06a72f6",
+    "dfx/medical/host_extended/postprocess.hpp": "1c121affd52be624d985f40b4bae89e81f3c8d754f19c42b84fa1ecb41bede2c"
+  }
+}

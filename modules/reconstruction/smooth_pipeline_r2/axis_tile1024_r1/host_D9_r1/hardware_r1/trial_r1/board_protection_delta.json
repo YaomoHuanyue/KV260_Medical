@@ -1,0 +1,9 @@
+{
+  "previous_map_SHA256": "43dc5dfdf128d2c54b3f2ee72e61822fb7cdda5dc549b8156db4eb9b78c4faea",
+  "changes": {
+    "tools/storage_runtime_identity.json": {
+      "before": "54d59dc396070b6690947b4f1d3844a8485bf0ea2be7cd11d52af221c7e3bdc5",
+      "after": "2c98e811a7f90810b37eafe9841038f1eedd25a19469e1caa3409347c8620fbd"
+    }
+  }
+}

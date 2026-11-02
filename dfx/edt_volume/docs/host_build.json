@@ -1,0 +1,28 @@
+{
+  "status": "compiled_no_PL_access",
+  "library_sha256": "d484db6f430a6627abb0cb303c6d3cbd26f61a38139a31eb0e84eb5ce4326802",
+  "source_sha256": {
+    "host/bridge.cpp": "4f52046264e5d3f337bbe78719689f140072c8833b5539d5660f354b892e846c",
+    "host/dma_guard.hpp": "eda5e35887a12a1931f445cf62b225b2914aa99e9d91095279addf03ff2756d5",
+    "host/file_io.hpp": "220457e666d2981443a55ead1f856f15b9c86bf4a7634dd049793ff57d540f9e",
+    "host/navigation_bridge.cpp": "a7e1601877c7371da22dea023cfef041e1734aa9a3bc53a6bc33f9c3fb117da2",
+    "host/route_output.hpp": "43c5e7cc0377d2904ee7cd1562a366b74f9962ef2718cbe44bda1b9ae7278045",
+    "host/route_readback.hpp": "b7dc6975851baca29be72d068e6b2e242e9372f52ea111713b94ecf82c1ba967",
+    "host/runtime.hpp": "e396a56bbfc29253d4e94598ef38053732639fa4832d94002cd02b93e11cf0d1",
+    "host/shared_session.hpp": "9fdd94f1c58d1750be2cd520ff8738689b277eb79b0fa444695b8dd9ad4f6aa7",
+    "host/test_dma_guard.cpp": "87e9a31376850511ad5e0191f2a790e53c3cf44c66b196bcb924255cbdbdbfe0",
+    "host/test_route_readback.cpp": "15c21ecfba188601c51b9ae4bec9657bde9d561338f16701c1ee5898993ef39d"
+  },
+  "flags": "-O3 -ffp-contract=off -std=c++17 -fPIC -shared -pthread -I/usr/include/xrt -lxrt_coreutil",
+  "board_execution": false,
+  "route_readback_test": {
+    "status": "passed",
+    "evidence_sha256": "5f370f6f38c064e66fc6729a1d5b5c2e7527e0ac4464ff0b372ec9ed981880b6"
+  },
+  "full_DMA_guard_test": {
+    "status": "passed",
+    "evidence_sha256": "4f6fc2b1dc44d62f3d4d8fe529b95424113297813a8d591c77976390baecf265"
+  },
+  "shared_volume_and_route_XRT_context": true,
+  "isolated_CXX_namespace": "edtvolume8"
+}

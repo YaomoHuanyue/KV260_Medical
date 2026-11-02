@@ -1,0 +1,25 @@
+{
+  "status": "independent_geometry_and_full_original_node_PS1_PS4_R4_C_model_tests_passed",
+  "platform": "linux",
+  "tests": [
+    "triangle_oracle_matches_independent_inside_and_outside_box_formula",
+    "bounded_memo_deduplicates_exact_coordinates_without_rounding",
+    "all_original_nodes_internal_endpoints_80_candidate_cap_8_Pareto_and_single_resolution_margin",
+    "invalid_parent_cycle_and_corrupt_cost_are_refused",
+    "raw_26_neighbor_cycles_preserved_and_PS1_PS4_R4_C_model_exact",
+    "source_mask_root_failure_never_manufactures_zero_length_reachable_route",
+    "background_source_mask_barrier_cannot_be_bridged",
+    "active_scalar_negative_node_blocks_old_large_radius_route",
+    "invalid_queries_refused"
+  ],
+  "tests_passed": 9,
+  "PL_access": false,
+  "R4_C_model_library_sha256": "c72606ee5f4e5c27f034dd37e79eb1cd1f8a13ba8986f664bd8d6922f9866e3d",
+  "source_sha256": {
+    "modules/surface_route/comparison_r11.py": "29ae334141ec12080fd6d1d6e2196a3f3ef43cca71bfe60aa0026aeeea70aa5e",
+    "modules/surface_route/test_comparison_r11.py": "bb1bab081d406dd6906e5e057d396e5f6256be6f395f4268b0017b23d56937ce",
+    "modules/navigation_comparison/profile_ps_r1.cpp": "a69e6acdb19f2c50904e7555a2a957129fb9ba547829cf47be5ae05bb442e444",
+    "modules/navigation_comparison/legacy_pareto_r1.py": "8766ed911959372d258086d7790e88d344adc4528154560a8ce8553b8a1ecfbf"
+  },
+  "production_promoted": false
+}

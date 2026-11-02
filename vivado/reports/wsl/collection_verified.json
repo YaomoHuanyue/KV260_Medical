@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "full_archive_SHA256": "289afc94d149417d5f5277a25ff0ca1651189d931928b0c5ea97d5e00cf94f86",
+  "all_owned_members_stream_verified": 3791,
+  "all_regular_files_SHA256_verified": 3130,
+  "compact_bytes": 53168444,
+  "kept_files": 117,
+  "complete_compiler_workspace_extracted": false
+}

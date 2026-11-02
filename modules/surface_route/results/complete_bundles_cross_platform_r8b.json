@@ -1,0 +1,88 @@
+{
+  "status": "eight_complete_original_surface_bundles_cross_platform_passed",
+  "cases": [
+    {
+      "label": "accepted_binary_high_ported_bend_1p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 8.881784197001252e-16,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "9f5098dd4b4d328efc8004a305bd90fcf565d7c0ea8ff24018809b059c434a64",
+      "arm_revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a"
+    },
+    {
+      "label": "accepted_binary_high_ported_bend_10p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 0.0,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "7018026f0c28c414eb08e61d405825bb3d606b17f56f54b5fd0161142b5e4948",
+      "arm_revision": "05bbd588176568275cae35f955827ed5599f0dd7f936b68123fcadad6c933603"
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 1.7763568394002505e-15,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "e494bcc83e8043f0e5e6980685feefc73b458c05f1febe5e2ba9d8cf616a81b7",
+      "arm_revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873"
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_10p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 0.0,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "73d744fca353672499e4defbcf7d63a9b34ec0fea2e9a8b1870937324d8e65c3",
+      "arm_revision": "792e38c1c431aa43e3e20a3837ad5dd6d7d872560af24c1e15b4241fabaadff2"
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 2.6645352591003757e-15,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "db2b8b8815020ea89ab88b42758222e950badf7b86b4aa278d99bf757f89e6dd",
+      "arm_revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9"
+    },
+    {
+      "label": "network_probability_high_ported_bend_10p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 0.0,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "e7f3fb61d5d455a4853b520016806a28909a6c51cd77cba330a0732a09dbe4dc",
+      "arm_revision": "a36e3687e4c754c93658a4ad9b16e49a4ac972be78d59b600116e73ac8443fb8"
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 2.6645352591003757e-15,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "ebdc036d6e598d8f4057fefc61cb7083719664beed0d3811aa3e349349444818",
+      "arm_revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d"
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_10p0",
+      "scene_packets_scalar_targets_normals_byte_exact": true,
+      "mesh_triangle_coordinates_and_indices_exact": true,
+      "route_camera_maximum_difference": 0.0,
+      "overview_normal_maximum_difference": 0.0,
+      "windows_revision": "b3d29243157c5601093123c118dc1ed446ce036b2eebe89c3695ccf45e23d4b6",
+      "arm_revision": "7a531ed7932ca3b0e59002c280fc264b1f734c7be233538853753601478f344f"
+    }
+  ],
+  "input_sha256": {
+    "modules\\surface_route\\results\\complete_bundles_Windows_r8\\acceptance.json": "3935506c62741b8a76b2e8087b9aff44a0c1fb426c81aef388679b4eff31528f",
+    "modules\\surface_route\\results\\complete_bundles_ARM_r8\\acceptance.json": "fdebb4e5ca5ebc7fbcd9a4e7c291430d91b10da24923783c61624a5b5db33123"
+  },
+  "source_sha256": {
+    "modules/surface_route/compare_bundles_r8b.py": "8d336ffb7121c37e216adbcb4ac2a2bc1bd18e9be2a7c970b683ac269623bfb6",
+    "modules/surface_route/bundle_r8.py": "15e9160225bb2541e94f5e2e59c7d90e311a20bc2113e3c68b3e6c936dbac357",
+    "modules/surface_route/bundle_reader_r8b.py": "bb56ad96508225f74bdec97c57ab1c4f73fc2b0306dcb8f39e703902a6b3f78a"
+  },
+  "PL_access": false,
+  "production_promoted": false
+}

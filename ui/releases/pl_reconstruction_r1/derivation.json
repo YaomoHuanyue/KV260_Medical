@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "parent": "ui/releases/pl_preprocess_r1/main.cpp",
+      "parent_SHA256": "ca94ddbe166b85939c6ae82803bc1937b4750f53083b079fc576e3bde109b18a",
+      "output": "ui/releases/pl_reconstruction_r1/main.cpp",
+      "output_SHA256": "7e32e46f5e04109e08705b33378d4c03263eb9e9b32814ca36a96f63fa601b51",
+      "literal_edits": [
+        [
+          "ui/releases/pl_preprocess_r1/backend.py",
+          "ui/releases/pl_reconstruction_r1/backend.py"
+        ]
+      ]
+    }
+  ],
+  "dispatcher": {
+    "parent": "ui/releases/pl_preprocess_r1/dispatch.py",
+    "parent_SHA256": "66e28a0473c9f5854d55775795d97d1346fe278d894bd43c8ba60b2ace63d93a",
+    "literal_edits": [
+      [
+        "'reconstruction': ['run_reconstruction_extended.py','--mask-dir'",
+        "'reconstruction': [str(ROOT/'modules/reconstruction/axis_mc_r1/integrated_r1/run_reconstruction.py'),'--ct',str(input_path),'--mask-dir'"
+      ],
+      [
+        "str(Path(__file__).parent/'reconstruction_partial.py')",
+        "str(ROOT/'modules/reconstruction/axis_mc_r1/integrated_r1/run_partial.py')"
+      ]
+    ],
+    "output_SHA256": "d110dabc477ee6fddfd8f807f7806673d4f84434b56b6262ba679a1bd17740da"
+  },
+  "all_UI_logic_and_widgets_unchanged": true,
+  "only_two_reconstruction_commands_changed": true,
+  "generator_SHA256": "f527274c48e8a2da2f594029585b6459c2b256fa0b83ceaa8eb999dad86cfdec",
+  "production_promoted": false
+}

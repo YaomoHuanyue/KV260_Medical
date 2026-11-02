@@ -1,0 +1,6 @@
+{
+  "path": "scripts/run_hls.py",
+  "old_SHA256": "4fba3ec87bd1ca8d2c79b6c40ee1789314aadcb6eef8140adde25a19d350cfe5",
+  "new_SHA256": "0695ae553081db5748ec540fa65fdb362ed6560c7536136204ee5364fbd7e65c",
+  "change": "optional compile/link flags for private development headers; algorithm files unchanged"
+}

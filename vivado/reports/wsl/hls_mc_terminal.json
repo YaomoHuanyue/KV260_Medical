@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stages": [
+    {
+      "stage": "csim",
+      "exit_code": 0
+    },
+    {
+      "stage": "csynth",
+      "exit_code": 0
+    },
+    {
+      "stage": "package",
+      "exit_code": 0
+    }
+  ]
+}

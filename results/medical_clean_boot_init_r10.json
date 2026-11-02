@@ -1,0 +1,75 @@
+{
+  "status": "accepted_medical_static_initialized_from_clean_starter_without_ZOCL_unload",
+  "before": {
+    "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+    "firmware": "k26-starter-kits.bit.bin",
+    "CUs": [],
+    "render_clients": [],
+    "UI": [],
+    "xclbin": "",
+    "overlays": [
+      "kv260-xrt-zocl",
+      "k26-starter-kits_image_1"
+    ],
+    "medical_marker": false
+  },
+  "after": {
+    "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+    "firmware": "dfx_medical.bin",
+    "CUs": [],
+    "render_clients": [],
+    "UI": [],
+    "xclbin": "",
+    "overlays": [
+      "kv260-dfx-medical_image_1",
+      "kv260-xrt-zocl"
+    ],
+    "medical_marker": true
+  },
+  "commands": [
+    {
+      "argv": [
+        "modprobe",
+        "kv260_mc_platform"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "xmutil",
+        "unloadapp"
+      ],
+      "stdout": "remove from slot 0 returns: 0 (Ok)\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "xmutil",
+        "loadapp",
+        "kv260-dfx-medical"
+      ],
+      "stdout": "kv260-dfx-medical: Loaded with slot_handle 0\n",
+      "stderr": ""
+    }
+  ],
+  "PL0_clock": [
+    "pl0_ref",
+    "1",
+    "1",
+    "0",
+    "99999999",
+    "0",
+    "0",
+    "50000",
+    "Y",
+    "axi:dfx_medical_platform",
+    "pl0"
+  ],
+  "static_sha256": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "driver_source_sha256": "392c9016006b1c7584faf98d932c489cf858819d7edfa14ed416c335bc74ce17",
+  "PL_register_access": false,
+  "CU_created": false,
+  "ZOCL_unloaded": false,
+  "auto_start_changed": false
+}

@@ -1,0 +1,86 @@
+{
+  "status": "two_host_native_full_CT_and_vendor80_and_wrapped80_each_mode_verified",
+  "each_host_native_cases": 79,
+  "each_host_native_invalid_calls": 8,
+  "all65536_HU_exact": true,
+  "own_CT_voxels": 36438016,
+  "raw_and_inference_grid_exact_each_host": true,
+  "each_wrapped_RTL_mode_cases": 80,
+  "actual_RTL_transaction_comparisons": {
+    "output_r_V_data_V": {
+      "c_SHA256": "6962feab074934f4d801aab579515c58d613dfcd1bca96ec26adb0dbcb654070",
+      "RTL_SHA256": "0c6f13f9ecc270f53176887201733402b0e6cbf4792e14a98a35f7dae34923e3",
+      "compared_words": 3281
+    },
+    "output_r_V_keep_V": {
+      "c_SHA256": "e0e9f456a243e52f78305a5c1468897f2e3724ad6385ba5f00ca8958af3bcb8a",
+      "RTL_SHA256": "3a0d1abcf7bd695369dba9e2dbc4948112391c883e2ea407a0c66da173df6ba6",
+      "compared_words": 3281
+    },
+    "output_r_V_strb_V": {
+      "c_SHA256": "e0e9f456a243e52f78305a5c1468897f2e3724ad6385ba5f00ca8958af3bcb8a",
+      "RTL_SHA256": "3a0d1abcf7bd695369dba9e2dbc4948112391c883e2ea407a0c66da173df6ba6",
+      "compared_words": 3281
+    },
+    "output_r_V_last_V": {
+      "c_SHA256": "465a13872e45f2f829bee9d84b6d7216f0a79a33ba7b6d8f94e983ff26503f00",
+      "RTL_SHA256": "72b397c05ac240b981665d3148632e1dbb36a418361d4af47dda7ceaeef572b8",
+      "compared_words": 3281
+    },
+    "output_r_V_user_V": {
+      "c_SHA256": "3cc3bec480b0c7972e95201d4479b2bc55bbf1dea0b4b142624c364cbedd6c55",
+      "RTL_SHA256": "66d0be1294293d462b4b87ea171c36b3270c3583deafdccf36192d4bb2dc5c9c",
+      "compared_words": 3281
+    },
+    "memory": {
+      "c_SHA256": "505516be0611b5c017daf175032986bcd096c05113c760abe3e54140ee51bb40",
+      "RTL_SHA256": "505516be0611b5c017daf175032986bcd096c05113c760abe3e54140ee51bb40",
+      "compared_bytes": 115848
+    }
+  },
+  "actual_backpressure": {
+    "ordinary": {
+      "receipt_SHA256": "a85cef14d831980cecd940e9f41f24c84dcee3f5b151616c20261d2ded6b7e62",
+      "observed": {
+        "stress": 0,
+        "cycles": 126487,
+        "input_stalls": 87544,
+        "output_stalls": 0,
+        "ar_stalls": 0,
+        "aw_stalls": 0,
+        "w_stalls": 80,
+        "r_stalls": 0
+      }
+    },
+    "random": {
+      "receipt_SHA256": "7f81c0fc469396583795a482b38ce17a2f4418ff2f996b1610b830707c4083a7",
+      "observed": {
+        "stress": 1,
+        "cycles": 136484,
+        "input_stalls": 87417,
+        "output_stalls": 3232,
+        "ar_stalls": 447,
+        "aw_stalls": 88,
+        "w_stalls": 238,
+        "r_stalls": 0
+      }
+    }
+  },
+  "original_stale_tail_regression_confirmed_from_actual_RTL": true,
+  "original_failure_artifacts_SHA256": {
+    "modules/ct_preprocess/axis_hu_r1/HLS_r1/component/hls/sim/tv/cdatafile/c.ct_hu_axis.autotvout_output_r_V_data_V.dat": "6962feab074934f4d801aab579515c58d613dfcd1bca96ec26adb0dbcb654070",
+    "modules/ct_preprocess/axis_hu_r1/HLS_r1/component/hls/sim/tv/rtldatafile/rtl.ct_hu_axis.autotvout_output_r_V_data_V.dat": "72549196d4d73e439ace2e93295923ce75b571e7aa74089972ea821356b4b3b0"
+  },
+  "HLS_estimates": {
+    "LUT": 9297,
+    "FF": 3091,
+    "DSP": 0,
+    "BRAM_18K": 32,
+    "URAM": 0
+  },
+  "actual_PL_board_tested": false,
+  "full_PR_passed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "verifier_SHA256": "c5b07002a4956510cc331f09955b1887f4edd4d4645b7b971cda2696cd142cb4"
+}

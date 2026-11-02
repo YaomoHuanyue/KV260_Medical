@@ -1,0 +1,14 @@
+{
+  "parent": "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py",
+  "parent_SHA256": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b",
+  "literal_edits": [
+    {
+      "before": "from modules.ct_preprocess.axis_hu_32_r2.integrated_r1.prepare import prepare_ct",
+      "after": "from modules.ct_preprocess.axis_hu_32_r2.bounded_volume_r3.runtime import prepare_ct,worker"
+    }
+  ],
+  "main_body_SHA256": "81155c35cf45312a09a9e79bcbeee02251c9801e44eddcd049739c5965680d04",
+  "original_CLI_parser_options_defaults_repeats_two_slice_workers_fused_logits_preview_policy_session_and_error_status_retained": true,
+  "qualified_prepare_and_worker_selected_by_explicit_local_import_no_global_monkeypatch_or_PS_fallback": true,
+  "actual_full_output_PL_pair_original_all_data_and_both_memory_sampling_gates_required": true
+}

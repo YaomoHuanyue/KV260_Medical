@@ -1,0 +1,59 @@
+{
+  "status": "actual_ARM_PC_full_output_HU_prepare_worker16_configurations32_runs_paired_mocked_compute_no_PL",
+  "actual_owner": {
+    "PID": 160188,
+    "start_ticks": 13670489,
+    "argv": [
+      "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+      "-B",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runner_ARM_int32.py"
+    ]
+  },
+  "actual_ARM_receipt": {
+    "exit_code": 0,
+    "seconds": 20.00416880301782,
+    "traceback": null,
+    "storage_admission": [
+      {
+        "requested_reserve_bytes": 165000000,
+        "actual_board_available_bytes": 11833208832,
+        "board_free_headroom_bytes": 100000000,
+        "method": "POSIX_statvfs_actual_fixture_filesystem"
+      }
+    ],
+    "PC25GB_workspace_and165MB_stage_collect_reservation_not_bypassed": true,
+    "forbidden_events": [],
+    "actual_CPU_affinity": [
+      3
+    ],
+    "nice": 19,
+    "ITK_threads": 4,
+    "actual_HU_and_network_transports_mocked_no_PL_or_UI_signal": true
+  },
+  "all16_case_flags_retention_and_output_checks_paired": true,
+  "all_source_SHA256_exactly_paired_PC_ARM": true,
+  "actual_CPU3_nice19_original_ITK4_request_and_no_hardware_or_process_mutation": true,
+  "all_owned_files": 13,
+  "every_owned_byte_collected_then_only_exact_owned_scopes_removed": true,
+  "ARM_mock_process_RSS_not_production_inference_RSS_or_speed": true,
+  "full_ownCT_actual_PL_all_outputs_baseline_pair_RSS_and_formal_integration_still_required": true,
+  "formal_UI_before_after": {
+    "PID": 148757,
+    "ticks": 12711739,
+    "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+    "ELF": "79cdabc53c89d2ad905cc0e8e70f27cea6fa3d942ace7bb148c7922301aaec02",
+    "identity_SHA256": "b6bed7cc99707fb1f3aba194e569e7d2d83d181e64b119108a094b66d3cce500"
+  },
+  "source_and_evidence_SHA256": {
+    "tools/test_CT_bounded_int32_full_outputs_ARM_20261020.py": "5a4d6a9e681a55006cbbb3fff1fa74cc79af79132970a61afad393f9700d74d8",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runner_ARM_int32.py": "6849edf41b35afe8b93564d8046808457247bc94df5bc6cff5bca6d05438d22a",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_int32_evidence_r1/stage.json": "1e772494beb6608a5b1bcc212ac11f5a5eaff893840d98b6449a9316fc341c31",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_int32_evidence_r1/all_owned_board_files.json": "f50596229c0219f6733b66b01dacc84842853dce54b97ecb89fd57b8b85b8206",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_int32_evidence_r1/cleanup_verified.json": "a9c45a14b35bb4d72e14ebbe11ae44baa1d1f1cbeae7f1c393bc5827f8715940",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/ARM_int32_evidence_r1/files/result/verified.json": "02a4543d35a328843c49eaafa2f3c5bba0ed9cb91e4a76c7be7b1adaffe96580",
+    "results/CT_bounded_full_outputs_int32_native_20261020_r1/verified.json": "de1f63cd571e2dc24c916833e620aba56dfff443e40c4a376de9e20eb54f10e4"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

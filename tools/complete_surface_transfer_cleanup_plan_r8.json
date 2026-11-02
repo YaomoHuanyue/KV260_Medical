@@ -1,0 +1,13 @@
+{
+  "archives_sha256": {
+    "tools/complete_surface_sources_r8.zip": "05ea707d7bde645eb43501db6628136960274bb14d573dac6b896a5950b21084",
+    "tools/complete_surface_reference_sources_r8.zip": "437c67bd6a53b3ce3ffd7c55dfb08bfe7b6c083798a30934ab76a028cd80d0db",
+    "tools/complete_surface_portable_sources_r8b.zip": "f52045cf09a20e0a1dd5fb9f7c2a420588d30cf0762a2b99050d231611d5a211",
+    "tools/complete_surface_finish_sources_r8.zip": "9bf67a9faf66fbbb83c1f705c0bd0e198c6996f3ddd6ca65451b2e4b82414ee9",
+    "tools/complete_surface_ARM_results_r8.zip": "e26c07bda41c998af5569b92136a6aa2daca2021cedf3ca86d794f4af52e54f5",
+    "tools/complete_surface_ARM_proofs_r8.zip": "7405f2811a06187185633abcc794195075e54a96aba3238eb72d6b1d2c18f68d",
+    "tools/complete_surface_publication_r8.zip": "61c25fa968b457972eac87bed15c9fb05da91751612e1b219023f1844848a105",
+    "tools/complete_surface_progress_r8.zip": "2c21411674b5a1f1dea0e6a0d1ca550ceb534ad0a76ce69f5b0bb4a2572aa042"
+  },
+  "all_sources_packets_reference_pixels_and_proofs_retained": true
+}

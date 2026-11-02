@@ -1,0 +1,4 @@
+{
+ global: mc_error; mc_open_root; mc_upload; mc_stream; mc_close; mc_smooth_job; mc_session_report;
+ local: *;
+};

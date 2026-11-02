@@ -1,0 +1,76 @@
+{
+  "clock_MHz": 100,
+  "WNS_ns": 0.573,
+  "WHS_ns": 0.01,
+  "whole_resources": {
+    "LUT": 91954,
+    "FF": 126226,
+    "DSP": 168,
+    "BRAM36": 99,
+    "BRAM18": 6,
+    "URAM": 40
+  },
+  "RP_resources": {
+    "LUT": 78114,
+    "FF": 100344,
+    "DSP": 168,
+    "BRAM36": 99,
+    "BRAM18": 6,
+    "URAM": 40
+  },
+  "remaining_RP": {
+    "LUT": 10206,
+    "FF": 76296,
+    "DSP": 792,
+    "BRAM36_equivalent": 30.0,
+    "URAM": 24
+  },
+  "five_reference_full_PR": [
+    {
+      "reference": "mc",
+      "full_check_passed": true
+    },
+    {
+      "reference": "smooth",
+      "full_check_passed": true
+    },
+    {
+      "reference": "edt",
+      "full_check_passed": true
+    },
+    {
+      "reference": "route",
+      "full_check_passed": true
+    },
+    {
+      "reference": "ct",
+      "full_check_passed": true
+    }
+  ],
+  "status": "independent_PC_D9_actual100MHz_route_five_fullPR_and_five_artifacts_verified",
+  "candidate_DCP_SHA256": "745a365df14b98c252a2107c1b292e10e71e8f54c6f02794ee04e19a5a32fe42",
+  "frozen_static_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "artifact_SHA256": {
+    "config_smooth_D9_r1.dcp": "5dc8771e7c0ef77aadc76998a89a66cdb416b03fccf987ca0da8b48c191ef68f",
+    "config_smooth_D9_r1.bit": "f8e192dab8f639384535b961a8b194c47004e1173858ce3eae89b2f2f25480a2",
+    "config_smooth_D9_r1.bin": "8ffc65bfa3595361742566c73ba7544859978730d728035db116023777200580",
+    "config_smooth_D9_r1_pblock_rp_partial.bit": "90cdbcbab9b4a1ed7d32df4e2321f59142fac0d67e5ffa9bae7030210192abcb",
+    "config_smooth_D9_r1_pblock_rp_partial.bin": "78f5df1c9126562ada48fe281c42aa8d32b816fc5c6e1e04c157deae97d1c61e",
+    "OFFLINE_COMPLETE_D9_r1.txt": "b717431b14000ce71c79b65dd300a8b2718c689b4a9dd6ada45e3d43a2d320df"
+  },
+  "archive_SHA256": "2f27615c1a71bd5089f2b292f60dfce6b4aaaa940b8272bb08f58c63f3f1dc37",
+  "all_owned_bytes_stream_verified_and_exact_remote_root_absent": true,
+  "original_native_Csim_official_monitored14_and40_flow_gates_preserved": true,
+  "actual_route_seconds": 4346.192922600021,
+  "actual_route_peak_job_bytes": 11404222464,
+  "ARM_XRT_board_correctness_PS4_performance_and_release_still_required": true,
+  "source_and_evidence_SHA256": {
+    "dfx/smooth_speed/route_D9_r1/verify_collected.py": "ad5c1f9521e877e43674d31adb7e212efe3cd58b8cd7bf37e79ac899fa035a1e",
+    "dfx/smooth_speed/route_D9_r1/check_reports.py": "66867502aff4aaf23bf8e014438e91a6dae796180986e3c0c6109567fb0a7cd8",
+    "results/smooth_AXIS_D9_PR_r1/smooth/stream_collection_verified.json": "5b3074843c6c04eb552896c429fd30f211e07ad1b753e7c1e489721795120e93",
+    "results/smooth_AXIS_D9_PR_r1/smooth/cleanup_verified_stream.json": "011d0ded75a4a3894a44ee5a5892e313d9e4d6271c5ee625e911805e4902dca1"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

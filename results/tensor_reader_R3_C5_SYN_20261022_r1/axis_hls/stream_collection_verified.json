@@ -1,0 +1,27 @@
+{
+  "all_original_members_stream_SHA_verified_locally": true,
+  "closed_logs": {
+    "stderr.log": {
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "stdout.log": {
+      "SHA256": "76f60b1b5ce85f0b4eedfc15e4d7a68f57eed70e68a8f70173d6e93a5de37488",
+      "bytes": 77
+    }
+  },
+  "collector_SHA256": "bd7370ca8867464c705b750c218302e350acffd748d4ba1d06e35101f46ea3b6",
+  "compact_archive_SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+  "compact_archive_bytes": 50165185,
+  "exact_disk_peak_archive_bound_bytes": 50165185,
+  "original_archive_metadata": {
+    "archive": "result.zip",
+    "bytes": 263426014,
+    "compiler_terminal": true,
+    "count": 1522,
+    "sha256": "c76a6d0301afa02c953607be1cc0decbf3e0a393fca10968fc80f9b798736249"
+  },
+  "original_complete_archive_not_written_locally": true,
+  "original_worker_and_all_owned_compilers_terminal": true,
+  "retained_original_members": 58
+}

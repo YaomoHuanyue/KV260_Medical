@@ -1,0 +1,124 @@
+{
+  "derivations": [
+    {
+      "source": "modules/segmentation/streaming_functional_r2/entry.py",
+      "source_SHA256": "41edd740937fd58fcee851f9f7ba31a0242a856e1e9658a76995f52290d1e2a4",
+      "target": "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py",
+      "target_SHA256": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+      "literal_edits": [
+        [
+          "ROOT=HERE.parents[2]",
+          "ROOT=HERE.parents[3]"
+        ],
+        [
+          "'kv260.streaming.functional.segmentation.v1'",
+          "'kv260.streaming.R3_reader.functional.segmentation.v1'"
+        ],
+        [
+          "actual.get('all139_actual_ARM_PL_2502_layer_inputs139_logits417_pools_exact') is not True",
+          "(actual.get('all139_actual_ARM_PL_2502_inputs139_full_float32_logits417_pools_exact') is not True or actual.get('actual834_PL_reader_transform_calls_verified') is not True)"
+        ],
+        [
+          "hardware.get('schema')!='kv260.ct_pool.unique_log_hardware_trial.v1'",
+          "hardware.get('schema')!='kv260.ct_tensor_reader.R3.hardware_trial.v1'"
+        ],
+        [
+          "hardware.get('pool_shape_offset')!=128",
+          "hardware.get('reader_ABI')!=0xc5030001 or hardware.get('reader_control_address_bits')!=8"
+        ],
+        [
+          "after='        from modules.segmentation.ct_pool_fusion_r1.integration_r1.pool_graph import PoolGraph\\n        graph_type=PoolGraph'",
+          "after='        from modules.segmentation.axis_tensor_reader_r3.graph_r1.reader_graph import ReaderGraph\\n        graph_type=ReaderGraph'"
+        ],
+        [
+          "    from modules.runtime_audit.C5_pool_host_r1.backend import PoolXRT",
+          "    from modules.segmentation.axis_tensor_reader_r3.host_r1.backend import ReaderXRT"
+        ],
+        [
+          "class CandidatePool(PoolXRT):",
+          "class CandidateReader(ReaderXRT):"
+        ],
+        [
+          "real_PL_pool_calls=self.pool_calls",
+          "real_PL_pool_calls=self.pool_calls,real_PL_reader_calls=self.reader_calls"
+        ],
+        [
+          "backend=CandidatePool",
+          "backend=CandidateReader"
+        ],
+        [
+          "counts['real_PL_pool_calls']!=3*(1+args.repeats*slices)",
+          "counts['real_PL_pool_calls']!=3*(1+args.repeats*slices) or counts['real_PL_reader_calls']!=6*(1+args.repeats*slices)"
+        ],
+        [
+          "functional_candidate='DFX_D6_HU32_C5_three_PL_pools_r1'",
+          "functional_candidate='DFX_D6_HU32_C5_R3_reader_LUT_resize_concat_three_PL_pools_r1'"
+        ],
+        [
+          "all_operators_on_pl=False,pl_pool_calls=counts['real_PL_pool_calls'],",
+          "all_operators_on_pl=False,pl_pool_calls=counts['real_PL_pool_calls'],pl_reader_calls=counts['real_PL_reader_calls'],"
+        ],
+        [
+          "known_performance_regression_vs_formal_C5=True,",
+          "prior_candidate_failed_speed_gate_preserved_new_reader_not_yet_speed_qualified=True,"
+        ],
+        [
+          "report['pl_operators']+='; all three original max-pool/ReLU/requantize chains fused into C5 AXIS writer'",
+          "report['pl_operators']+='; three max-pool/ReLU/requantize chains in C5 AXIS writer; six LUT/nearest-resize/concat transforms in C5 AXIS reader'"
+        ],
+        [
+          "report['ps_operators']=report['ps_operators'].replace(', pooling,',',')",
+          "report['ps_operators']=report['ps_operators'].replace(', pooling,',',')\n    report['PS_layer_transform_status']='ReaderGraph sends all six transformed tensors directly to qualified PL reader; no PS transform fallback'\n    report['cross_DFX_DDR_boundaries']='D6 to C5 context volume; C5 to following medical stages; C5 internal source BOs retained for skip branches'"
+        ]
+      ],
+      "exact_reverse_verified": true
+    },
+    {
+      "source": "modules/segmentation/streaming_stage_r1/entry.py",
+      "source_SHA256": "2ea6e1c5f8f99bebaef82dfd5f5ef8b2819aaf25a412e492016962e505b10aab",
+      "target": "modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py",
+      "target_SHA256": "0c7f6e2026d0761519d31efcab7955414be1284625b83f96fe7ca63f78f03268",
+      "literal_edits": [
+        [
+          "ROOT=HERE.parents[2]",
+          "ROOT=HERE.parents[3]"
+        ],
+        [
+          "'kv260.streaming.general_stage.v1'",
+          "'kv260.streaming.R3_reader.general_stage.v1'"
+        ],
+        [
+          "from modules.segmentation.streaming_functional_r2 import entry as qualified",
+          "from modules.segmentation.axis_tensor_reader_r3.streaming_r1 import functional as qualified"
+        ],
+        [
+          "from modules.runtime_audit.C5_pool_host_r1 import backend as pool_module",
+          "from modules.segmentation.axis_tensor_reader_r3.host_r1 import backend as pool_module"
+        ],
+        [
+          "base=pool_module.PoolXRT",
+          "base=pool_module.ReaderXRT"
+        ],
+        [
+          "pool_module.PoolXRT=TrackedPool",
+          "pool_module.ReaderXRT=TrackedPool"
+        ],
+        [
+          "pool_module.PoolXRT=base",
+          "pool_module.ReaderXRT=base"
+        ]
+      ],
+      "exact_reverse_verified": true
+    }
+  ],
+  "original_complete_bounded_D6_worker_masks_logits_postprocessing_audit_and_outputs_preserved": true,
+  "actual_original_R3_full139_834_reader_calls_required_before_candidate_admission": true,
+  "same_C5_reader_conv_writer_AXIS_no_PS_reader_transform_fallback": true,
+  "original_D6_DDR_context_C5_warmup_and139_inference_and_two_file_durable_restore_preserved": true,
+  "original_complete139_partial7_and_both9_file_recovery_qualification_gates_preserved": true,
+  "actual_R3_system_execution_native_GUI_and_release_still_pending": true,
+  "source_only_no_admission_or_firmware_created": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

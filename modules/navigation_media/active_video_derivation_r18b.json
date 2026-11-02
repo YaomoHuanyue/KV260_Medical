@@ -1,0 +1,98 @@
+{
+  "edits": [
+    {
+      "parent": "modules/navigation_media/active_binding_r18.hpp",
+      "parent_sha256": "65648db417b95c8ed5f40681c3efde57040870ec2e03fd98dfba624a77039e33",
+      "child": "modules/navigation_media/active_binding_r18b.hpp",
+      "child_sha256": "8e4498ec044be6f53bbef4ab9b38ca226449783233143a535ed2689a77f0d0e0",
+      "changes": [
+        [
+          "// The UI scene has already passed",
+          "inline bool sameSavedVideoScene(const QJsonObject&saved,const QJsonObject&displayed,QStringList*extraNulls=nullptr){\n // QJsonObject non-const operator[] inserts null for a missing read. Only\n // these additional top-level nulls are ignored; all saved values stay exact.\n for(auto it=saved.begin();it!=saved.end();++it)\n  if(!displayed.contains(it.key())||displayed.value(it.key())!=it.value())return false;\n for(auto it=displayed.begin();it!=displayed.end();++it)if(!saved.contains(it.key())){\n  if(!it.value().isNull())return false;\n  if(extraNulls)extraNulls->append(it.key());\n }\n return true;\n}\n// The UI scene has already passed"
+        ],
+        [
+          " if(mediaObject(scenePath)!=scene)throw std::runtime_error(\"Displayed and saved video scene differ\");",
+          " QStringList extraNulls;if(!sameSavedVideoScene(mediaObject(scenePath),scene,&extraNulls))throw std::runtime_error(\"Displayed and saved video scene differ\");"
+        ],
+        [
+          "{\"render_backend\",\"PL_C9\"},{\"quality\",quality}",
+          "{\"render_backend\",\"PL_C9\"},{\"extra_UI_null_keys\",QJsonArray::fromStringList(extraNulls)},{\"quality\",quality}"
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r18.cpp",
+      "parent_sha256": "98cdb92022e398fc257dddb1153cfea90bcf3c26863040936803b09d5c114110",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r18b.cpp",
+      "child_sha256": "824ccdd4e8dba8b8c456bd516108f47d2243e830a243b8bd42dffe68261f6b94",
+      "changes": [
+        [
+          "active_binding_r18.hpp",
+          "active_binding_r18b.hpp"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r18.py",
+      "parent_sha256": "3b3c8a54fb513e6319ce6560adae61361f281f82cafb3ddd6bc964319a31330b",
+      "child": "modules/surface_route/board_native_build_r18b.py",
+      "child_sha256": "60bd9f90b8864f1163a7a18ff47163f407a34ff76eb111258296cac7c2302fbd",
+      "changes": [
+        [
+          "out=folder/'build_complete_scene_r18'",
+          "out=folder/'build_complete_scene_r18b'"
+        ],
+        [
+          "parent=folder/'build_complete_scene_r17'",
+          "parent=folder/'build_complete_scene_r18'"
+        ],
+        [
+          "native_UI_source_closure_r18.json",
+          "native_UI_source_closure_r18b.json"
+        ],
+        [
+          "obj=out/'main_complete_scene_r18.o'",
+          "obj=out/'main_complete_scene_r18b.o'"
+        ],
+        [
+          "src/main_complete_scene_r18.cpp",
+          "src/main_complete_scene_r18b.cpp"
+        ],
+        [
+          "out/'main_complete_scene_r18.log'",
+          "out/'main_complete_scene_r18b.log'"
+        ],
+        [
+          "R18 native adapter",
+          "R18b native adapter"
+        ]
+      ]
+    },
+    {
+      "parent": "tools/active_video_trial_r18.py",
+      "parent_sha256": "c09e6f3e5f0bfd11ad025101d7a7cafe0d7f9665951a85f82736f8ed02b9d0cb",
+      "child": "tools/active_video_trial_r18b.py",
+      "child_sha256": "cd782d5fd82a1a2b333ee73c3faf420781871aa4175521d9c906cedf698acf28",
+      "changes": [
+        [
+          "active_C9_video_ARM_r18'",
+          "active_C9_video_ARM_r18b'"
+        ],
+        [
+          "old=state['UI'];ready(old);",
+          "old=json.loads((ROOT/'modules/navigation_media/results/active_C9_video_ARM_r18/fallback_review/live.json').read_text());ready(old);"
+        ],
+        [
+          "build_complete_scene_r18/",
+          "build_complete_scene_r18b/",
+          3
+        ],
+        [
+          "R18 current C9",
+          "R18b current C9"
+        ]
+      ]
+    }
+  ],
+  "new_bitstream": false
+}

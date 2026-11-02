@@ -1,0 +1,11 @@
+{
+  "status": "candidate_prepared_and_rejected_starter_static_before_QualitySession",
+  "worker_sha256": "d773d33b572b1935dfa94b1bac9ad3fc64709e9248b0ef8e7a8323a593f04311",
+  "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+  "error": "Manual medical static initialization required; no PL access",
+  "static_firmware": "k26-starter-kits.bit.bin",
+  "total_seconds": 29.49408863700046,
+  "PL_access": false,
+  "frame_files_created": false,
+  "new_bitstream": false
+}

@@ -1,0 +1,42 @@
+{
+  "status": "original_PL_surfaces_independent_Windows_ARM_routes_cameras_and_guidance_match",
+  "cases": [
+    {
+      "name": "accepted_binary_high_ported",
+      "same_mesh_refusal_retained": true
+    },
+    {
+      "name": "accepted_binary_ultra_ported",
+      "same_mesh_refusal_retained": true
+    },
+    {
+      "name": "network_probability_high_ported",
+      "same_mesh_refusal_retained": true
+    },
+    {
+      "label": "network_probability_ultra_bend_0p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_ultra_bend_1p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_ultra_bend_10p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    }
+  ],
+  "evidence_sha256": {
+    "Windows": "e01c203e3ed49a9885c88773b382d8dc9cb394c481b9a2864094f8635cd1b968",
+    "ARM": "1201178e66992c62df80c3741b09f8d9a047a23cac460f38f688dace021b4d18"
+  },
+  "source_sha256": "37be28f1f363b6e156248aa4e3fb5f1448533ef22f263db9acb7517305c2a566",
+  "PL_access": false,
+  "production_promoted": false
+}

@@ -1,0 +1,2637 @@
+{
+  "version": 1,
+  "input": "ct_context",
+  "output": "logits",
+  "nodes": [
+    {
+      "name": "/up2/Constant",
+      "op": "Constant",
+      "inputs": [],
+      "outputs": [
+        "/up2/Constant_output_0"
+      ],
+      "attrs": {
+        "value": {
+          "tensor": "/up2/Constant/value"
+        }
+      }
+    },
+    {
+      "name": "/up1/Constant",
+      "op": "Constant",
+      "inputs": [],
+      "outputs": [
+        "/up1/Constant_output_0"
+      ],
+      "attrs": {
+        "value": {
+          "tensor": "/up1/Constant/value"
+        }
+      }
+    },
+    {
+      "name": "/up0/Constant",
+      "op": "Constant",
+      "inputs": [],
+      "outputs": [
+        "/up0/Constant_output_0"
+      ],
+      "attrs": {
+        "value": {
+          "tensor": "/up0/Constant/value"
+        }
+      }
+    },
+    {
+      "name": "ct_context_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "ct_context",
+        "ct_context_scale",
+        "ct_context_zero_point"
+      ],
+      "outputs": [
+        "ct_context_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "enc0.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc0.0.bias_quantized",
+        "enc0.0.bias_quantized_scale",
+        "enc0.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc0.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc0.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc0.0.weight_quantized",
+        "enc0.0.weight_scale",
+        "enc0.0.weight_zero_point"
+      ],
+      "outputs": [
+        "enc0.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc0.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc0.3.bias_quantized",
+        "enc0.3.bias_quantized_scale",
+        "enc0.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc0.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc0.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc0.3.weight_quantized",
+        "enc0.3.weight_scale",
+        "enc0.3.weight_zero_point"
+      ],
+      "outputs": [
+        "enc0.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc1.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc1.0.bias_quantized",
+        "enc1.0.bias_quantized_scale",
+        "enc1.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc1.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc1.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc1.0.weight_quantized",
+        "enc1.0.weight_scale",
+        "enc1.0.weight_zero_point"
+      ],
+      "outputs": [
+        "enc1.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc1.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc1.3.bias_quantized",
+        "enc1.3.bias_quantized_scale",
+        "enc1.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc1.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc1.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc1.3.weight_quantized",
+        "enc1.3.weight_scale",
+        "enc1.3.weight_zero_point"
+      ],
+      "outputs": [
+        "enc1.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc2.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc2.0.bias_quantized",
+        "enc2.0.bias_quantized_scale",
+        "enc2.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc2.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc2.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc2.0.weight_quantized",
+        "enc2.0.weight_scale",
+        "enc2.0.weight_zero_point"
+      ],
+      "outputs": [
+        "enc2.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc2.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc2.3.bias_quantized",
+        "enc2.3.bias_quantized_scale",
+        "enc2.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc2.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc2.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc2.3.weight_quantized",
+        "enc2.3.weight_scale",
+        "enc2.3.weight_zero_point"
+      ],
+      "outputs": [
+        "enc2.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc3.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc3.0.bias_quantized",
+        "enc3.0.bias_quantized_scale",
+        "enc3.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc3.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc3.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc3.0.weight_quantized",
+        "enc3.0.weight_scale",
+        "enc3.0.weight_zero_point"
+      ],
+      "outputs": [
+        "enc3.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc3.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc3.3.bias_quantized",
+        "enc3.3.bias_quantized_scale",
+        "enc3.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "enc3.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "enc3.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "enc3.3.weight_quantized",
+        "enc3.3.weight_scale",
+        "enc3.3.weight_zero_point"
+      ],
+      "outputs": [
+        "enc3.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "head.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "head.bias_quantized",
+        "head.bias_quantized_scale",
+        "head.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "head.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "head.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "head.weight_quantized",
+        "head.weight_scale",
+        "head.weight_zero_point"
+      ],
+      "outputs": [
+        "head.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.conv.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.conv.0.bias_quantized",
+        "up0.conv.0.bias_quantized_scale",
+        "up0.conv.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up0.conv.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.conv.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.conv.0.weight_quantized",
+        "up0.conv.0.weight_scale",
+        "up0.conv.0.weight_zero_point"
+      ],
+      "outputs": [
+        "up0.conv.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.conv.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.conv.3.bias_quantized",
+        "up0.conv.3.bias_quantized_scale",
+        "up0.conv.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up0.conv.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.conv.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.conv.3.weight_quantized",
+        "up0.conv.3.weight_scale",
+        "up0.conv.3.weight_zero_point"
+      ],
+      "outputs": [
+        "up0.conv.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.reduce.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.reduce.bias_quantized",
+        "up0.reduce.bias_quantized_scale",
+        "up0.reduce.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up0.reduce.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up0.reduce.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up0.reduce.weight_quantized",
+        "up0.reduce.weight_scale",
+        "up0.reduce.weight_zero_point"
+      ],
+      "outputs": [
+        "up0.reduce.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.conv.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.conv.0.bias_quantized",
+        "up1.conv.0.bias_quantized_scale",
+        "up1.conv.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up1.conv.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.conv.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.conv.0.weight_quantized",
+        "up1.conv.0.weight_scale",
+        "up1.conv.0.weight_zero_point"
+      ],
+      "outputs": [
+        "up1.conv.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.conv.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.conv.3.bias_quantized",
+        "up1.conv.3.bias_quantized_scale",
+        "up1.conv.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up1.conv.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.conv.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.conv.3.weight_quantized",
+        "up1.conv.3.weight_scale",
+        "up1.conv.3.weight_zero_point"
+      ],
+      "outputs": [
+        "up1.conv.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.reduce.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.reduce.bias_quantized",
+        "up1.reduce.bias_quantized_scale",
+        "up1.reduce.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up1.reduce.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up1.reduce.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up1.reduce.weight_quantized",
+        "up1.reduce.weight_scale",
+        "up1.reduce.weight_zero_point"
+      ],
+      "outputs": [
+        "up1.reduce.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.conv.0.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.conv.0.bias_quantized",
+        "up2.conv.0.bias_quantized_scale",
+        "up2.conv.0.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up2.conv.0.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.conv.0.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.conv.0.weight_quantized",
+        "up2.conv.0.weight_scale",
+        "up2.conv.0.weight_zero_point"
+      ],
+      "outputs": [
+        "up2.conv.0.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.conv.3.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.conv.3.bias_quantized",
+        "up2.conv.3.bias_quantized_scale",
+        "up2.conv.3.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up2.conv.3.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.conv.3.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.conv.3.weight_quantized",
+        "up2.conv.3.weight_scale",
+        "up2.conv.3.weight_zero_point"
+      ],
+      "outputs": [
+        "up2.conv.3.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.reduce.bias_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.reduce.bias_quantized",
+        "up2.reduce.bias_quantized_scale",
+        "up2.reduce.bias_quantized_zero_point"
+      ],
+      "outputs": [
+        "up2.reduce.bias"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "up2.reduce.weight_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "up2.reduce.weight_quantized",
+        "up2.reduce.weight_scale",
+        "up2.reduce.weight_zero_point"
+      ],
+      "outputs": [
+        "up2.reduce.weight_DequantizeLinear_Output"
+      ],
+      "attrs": {
+        "axis": 0
+      }
+    },
+    {
+      "name": "ct_context_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "ct_context_QuantizeLinear_Output",
+        "ct_context_scale",
+        "ct_context_zero_point"
+      ],
+      "outputs": [
+        "ct_context_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "ct_context_DequantizeLinear_Output",
+        "enc0.0.weight_DequantizeLinear_Output",
+        "enc0.0.bias"
+      ],
+      "outputs": [
+        "/enc0/enc0.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 0,
+        "input": "ct_context_QuantizeLinear_Output",
+        "weights": "enc0.0.weight_quantized",
+        "bias": "enc0.0.bias_quantized",
+        "input_scale": "ct_context_scale",
+        "weight_scale": "enc0.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc0/enc0.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc0/enc0.0/Conv_output_0",
+        "/enc0/enc0.0/Conv_output_0_scale",
+        "/enc0/enc0.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc0/enc0.0/Conv_output_0_QuantizeLinear_Output",
+        "/enc0/enc0.0/Conv_output_0_scale",
+        "/enc0/enc0.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc0/enc0.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc0/enc0.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc0/enc0.2/Relu_output_0",
+        "/enc0/enc0.2/Relu_output_0_scale",
+        "/enc0/enc0.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc0/enc0.2/Relu_output_0_QuantizeLinear_Output",
+        "/enc0/enc0.2/Relu_output_0_scale",
+        "/enc0/enc0.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/enc0/enc0.2/Relu_output_0_DequantizeLinear_Output",
+        "enc0.3.weight_DequantizeLinear_Output",
+        "enc0.3.bias"
+      ],
+      "outputs": [
+        "/enc0/enc0.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 1,
+        "input": "/enc0/enc0.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "enc0.3.weight_quantized",
+        "bias": "enc0.3.bias_quantized",
+        "input_scale": "/enc0/enc0.2/Relu_output_0_scale",
+        "weight_scale": "enc0.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc0/enc0.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc0/enc0.3/Conv_output_0",
+        "/enc0/enc0.3/Conv_output_0_scale",
+        "/enc0/enc0.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc0/enc0.3/Conv_output_0_QuantizeLinear_Output",
+        "/enc0/enc0.3/Conv_output_0_scale",
+        "/enc0/enc0.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc0/enc0.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc0/enc0.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc0/enc0.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc0/enc0.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool/MaxPool",
+      "op": "MaxPool",
+      "inputs": [
+        "/enc0/enc0.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/pool/MaxPool_output_0"
+      ],
+      "attrs": {
+        "ceil_mode": 0,
+        "dilations": [
+          1,
+          1
+        ],
+        "kernel_shape": [
+          2,
+          2
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "name": "/pool/MaxPool_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/pool/MaxPool_output_0",
+        "/pool/MaxPool_output_0_scale",
+        "/pool/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool/MaxPool_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool/MaxPool_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/pool/MaxPool_output_0_QuantizeLinear_Output",
+        "/pool/MaxPool_output_0_scale",
+        "/pool/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool/MaxPool_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/pool/MaxPool_output_0_DequantizeLinear_Output",
+        "enc1.0.weight_DequantizeLinear_Output",
+        "enc1.0.bias"
+      ],
+      "outputs": [
+        "/enc1/enc1.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 2,
+        "input": "/pool/MaxPool_output_0_QuantizeLinear_Output",
+        "weights": "enc1.0.weight_quantized",
+        "bias": "enc1.0.bias_quantized",
+        "input_scale": "/pool/MaxPool_output_0_scale",
+        "weight_scale": "enc1.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc1/enc1.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc1/enc1.0/Conv_output_0",
+        "/enc1/enc1.0/Conv_output_0_scale",
+        "/enc1/enc1.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc1/enc1.0/Conv_output_0_QuantizeLinear_Output",
+        "/enc1/enc1.0/Conv_output_0_scale",
+        "/enc1/enc1.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc1/enc1.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc1/enc1.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc1/enc1.2/Relu_output_0",
+        "/enc1/enc1.2/Relu_output_0_scale",
+        "/enc1/enc1.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc1/enc1.2/Relu_output_0_QuantizeLinear_Output",
+        "/enc1/enc1.2/Relu_output_0_scale",
+        "/enc1/enc1.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/enc1/enc1.2/Relu_output_0_DequantizeLinear_Output",
+        "enc1.3.weight_DequantizeLinear_Output",
+        "enc1.3.bias"
+      ],
+      "outputs": [
+        "/enc1/enc1.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 3,
+        "input": "/enc1/enc1.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "enc1.3.weight_quantized",
+        "bias": "enc1.3.bias_quantized",
+        "input_scale": "/enc1/enc1.2/Relu_output_0_scale",
+        "weight_scale": "enc1.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc1/enc1.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc1/enc1.3/Conv_output_0",
+        "/enc1/enc1.3/Conv_output_0_scale",
+        "/enc1/enc1.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc1/enc1.3/Conv_output_0_QuantizeLinear_Output",
+        "/enc1/enc1.3/Conv_output_0_scale",
+        "/enc1/enc1.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc1/enc1.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc1/enc1.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc1/enc1.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc1/enc1.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool_1/MaxPool",
+      "op": "MaxPool",
+      "inputs": [
+        "/enc1/enc1.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/pool_1/MaxPool_output_0"
+      ],
+      "attrs": {
+        "ceil_mode": 0,
+        "dilations": [
+          1,
+          1
+        ],
+        "kernel_shape": [
+          2,
+          2
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "name": "/pool_1/MaxPool_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/pool_1/MaxPool_output_0",
+        "/pool_1/MaxPool_output_0_scale",
+        "/pool_1/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool_1/MaxPool_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool_1/MaxPool_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/pool_1/MaxPool_output_0_QuantizeLinear_Output",
+        "/pool_1/MaxPool_output_0_scale",
+        "/pool_1/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool_1/MaxPool_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/pool_1/MaxPool_output_0_DequantizeLinear_Output",
+        "enc2.0.weight_DequantizeLinear_Output",
+        "enc2.0.bias"
+      ],
+      "outputs": [
+        "/enc2/enc2.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 4,
+        "input": "/pool_1/MaxPool_output_0_QuantizeLinear_Output",
+        "weights": "enc2.0.weight_quantized",
+        "bias": "enc2.0.bias_quantized",
+        "input_scale": "/pool_1/MaxPool_output_0_scale",
+        "weight_scale": "enc2.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc2/enc2.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc2/enc2.0/Conv_output_0",
+        "/enc2/enc2.0/Conv_output_0_scale",
+        "/enc2/enc2.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc2/enc2.0/Conv_output_0_QuantizeLinear_Output",
+        "/enc2/enc2.0/Conv_output_0_scale",
+        "/enc2/enc2.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc2/enc2.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc2/enc2.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc2/enc2.2/Relu_output_0",
+        "/enc2/enc2.2/Relu_output_0_scale",
+        "/enc2/enc2.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc2/enc2.2/Relu_output_0_QuantizeLinear_Output",
+        "/enc2/enc2.2/Relu_output_0_scale",
+        "/enc2/enc2.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/enc2/enc2.2/Relu_output_0_DequantizeLinear_Output",
+        "enc2.3.weight_DequantizeLinear_Output",
+        "enc2.3.bias"
+      ],
+      "outputs": [
+        "/enc2/enc2.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 5,
+        "input": "/enc2/enc2.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "enc2.3.weight_quantized",
+        "bias": "enc2.3.bias_quantized",
+        "input_scale": "/enc2/enc2.2/Relu_output_0_scale",
+        "weight_scale": "enc2.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc2/enc2.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc2/enc2.3/Conv_output_0",
+        "/enc2/enc2.3/Conv_output_0_scale",
+        "/enc2/enc2.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc2/enc2.3/Conv_output_0_QuantizeLinear_Output",
+        "/enc2/enc2.3/Conv_output_0_scale",
+        "/enc2/enc2.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc2/enc2.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc2/enc2.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc2/enc2.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc2/enc2.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool_2/MaxPool",
+      "op": "MaxPool",
+      "inputs": [
+        "/enc2/enc2.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/pool_2/MaxPool_output_0"
+      ],
+      "attrs": {
+        "ceil_mode": 0,
+        "dilations": [
+          1,
+          1
+        ],
+        "kernel_shape": [
+          2,
+          2
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "name": "/pool_2/MaxPool_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/pool_2/MaxPool_output_0",
+        "/pool_2/MaxPool_output_0_scale",
+        "/pool_2/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool_2/MaxPool_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/pool_2/MaxPool_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/pool_2/MaxPool_output_0_QuantizeLinear_Output",
+        "/pool_2/MaxPool_output_0_scale",
+        "/pool_2/MaxPool_output_0_zero_point"
+      ],
+      "outputs": [
+        "/pool_2/MaxPool_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/pool_2/MaxPool_output_0_DequantizeLinear_Output",
+        "enc3.0.weight_DequantizeLinear_Output",
+        "enc3.0.bias"
+      ],
+      "outputs": [
+        "/enc3/enc3.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 6,
+        "input": "/pool_2/MaxPool_output_0_QuantizeLinear_Output",
+        "weights": "enc3.0.weight_quantized",
+        "bias": "enc3.0.bias_quantized",
+        "input_scale": "/pool_2/MaxPool_output_0_scale",
+        "weight_scale": "enc3.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc3/enc3.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc3/enc3.0/Conv_output_0",
+        "/enc3/enc3.0/Conv_output_0_scale",
+        "/enc3/enc3.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc3/enc3.0/Conv_output_0_QuantizeLinear_Output",
+        "/enc3/enc3.0/Conv_output_0_scale",
+        "/enc3/enc3.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc3/enc3.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc3/enc3.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc3/enc3.2/Relu_output_0",
+        "/enc3/enc3.2/Relu_output_0_scale",
+        "/enc3/enc3.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc3/enc3.2/Relu_output_0_QuantizeLinear_Output",
+        "/enc3/enc3.2/Relu_output_0_scale",
+        "/enc3/enc3.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/enc3/enc3.2/Relu_output_0_DequantizeLinear_Output",
+        "enc3.3.weight_DequantizeLinear_Output",
+        "enc3.3.bias"
+      ],
+      "outputs": [
+        "/enc3/enc3.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 7,
+        "input": "/enc3/enc3.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "enc3.3.weight_quantized",
+        "bias": "enc3.3.bias_quantized",
+        "input_scale": "/enc3/enc3.2/Relu_output_0_scale",
+        "weight_scale": "enc3.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/enc3/enc3.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/enc3/enc3.3/Conv_output_0",
+        "/enc3/enc3.3/Conv_output_0_scale",
+        "/enc3/enc3.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/enc3/enc3.3/Conv_output_0_QuantizeLinear_Output",
+        "/enc3/enc3.3/Conv_output_0_scale",
+        "/enc3/enc3.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/enc3/enc3.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/enc3/enc3.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/enc3/enc3.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/enc3/enc3.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/Resize",
+      "op": "Resize",
+      "inputs": [
+        "/enc3/enc3.5/Relu_output_0",
+        "",
+        "/up2/Constant_output_0"
+      ],
+      "outputs": [
+        "/up2/Resize_output_0"
+      ],
+      "attrs": {
+        "coordinate_transformation_mode": "asymmetric",
+        "cubic_coeff_a": -0.75,
+        "mode": "nearest",
+        "nearest_mode": "floor"
+      }
+    },
+    {
+      "name": "/up2/Resize_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/Resize_output_0",
+        "/up2/Resize_output_0_scale",
+        "/up2/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/Resize_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/Resize_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/Resize_output_0_QuantizeLinear_Output",
+        "/up2/Resize_output_0_scale",
+        "/up2/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/Resize_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/reduce/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up2/Resize_output_0_DequantizeLinear_Output",
+        "up2.reduce.weight_DequantizeLinear_Output",
+        "up2.reduce.bias"
+      ],
+      "outputs": [
+        "/up2/reduce/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          1,
+          1
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 8,
+        "input": "/up2/Resize_output_0_QuantizeLinear_Output",
+        "weights": "up2.reduce.weight_quantized",
+        "bias": "up2.reduce.bias_quantized",
+        "input_scale": "/up2/Resize_output_0_scale",
+        "weight_scale": "up2.reduce.weight_scale",
+        "kernel": 1
+      }
+    },
+    {
+      "name": "/up2/reduce/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/reduce/Conv_output_0",
+        "/up2/reduce/Conv_output_0_scale",
+        "/up2/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/reduce/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/reduce/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/reduce/Conv_output_0_QuantizeLinear_Output",
+        "/up2/reduce/Conv_output_0_scale",
+        "/up2/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/reduce/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/Concat",
+      "op": "Concat",
+      "inputs": [
+        "/up2/reduce/Conv_output_0_DequantizeLinear_Output",
+        "/enc2/enc2.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/up2/Concat_output_0"
+      ],
+      "attrs": {
+        "axis": 1
+      }
+    },
+    {
+      "name": "/up2/Concat_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/Concat_output_0",
+        "/up2/Concat_output_0_scale",
+        "/up2/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/Concat_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/Concat_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/Concat_output_0_QuantizeLinear_Output",
+        "/up2/Concat_output_0_scale",
+        "/up2/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/Concat_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up2/Concat_output_0_DequantizeLinear_Output",
+        "up2.conv.0.weight_DequantizeLinear_Output",
+        "up2.conv.0.bias"
+      ],
+      "outputs": [
+        "/up2/conv/conv.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 9,
+        "input": "/up2/Concat_output_0_QuantizeLinear_Output",
+        "weights": "up2.conv.0.weight_quantized",
+        "bias": "up2.conv.0.bias_quantized",
+        "input_scale": "/up2/Concat_output_0_scale",
+        "weight_scale": "up2.conv.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up2/conv/conv.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.0/Conv_output_0",
+        "/up2/conv/conv.0/Conv_output_0_scale",
+        "/up2/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.0/Conv_output_0_QuantizeLinear_Output",
+        "/up2/conv/conv.0/Conv_output_0_scale",
+        "/up2/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up2/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up2/conv/conv.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.2/Relu_output_0",
+        "/up2/conv/conv.2/Relu_output_0_scale",
+        "/up2/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "/up2/conv/conv.2/Relu_output_0_scale",
+        "/up2/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up2/conv/conv.2/Relu_output_0_DequantizeLinear_Output",
+        "up2.conv.3.weight_DequantizeLinear_Output",
+        "up2.conv.3.bias"
+      ],
+      "outputs": [
+        "/up2/conv/conv.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 10,
+        "input": "/up2/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "up2.conv.3.weight_quantized",
+        "bias": "up2.conv.3.bias_quantized",
+        "input_scale": "/up2/conv/conv.2/Relu_output_0_scale",
+        "weight_scale": "up2.conv.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up2/conv/conv.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.3/Conv_output_0",
+        "/up2/conv/conv.3/Conv_output_0_scale",
+        "/up2/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up2/conv/conv.3/Conv_output_0_QuantizeLinear_Output",
+        "/up2/conv/conv.3/Conv_output_0_scale",
+        "/up2/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up2/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up2/conv/conv.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up2/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up2/conv/conv.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/Resize",
+      "op": "Resize",
+      "inputs": [
+        "/up2/conv/conv.5/Relu_output_0",
+        "",
+        "/up1/Constant_output_0"
+      ],
+      "outputs": [
+        "/up1/Resize_output_0"
+      ],
+      "attrs": {
+        "coordinate_transformation_mode": "asymmetric",
+        "cubic_coeff_a": -0.75,
+        "mode": "nearest",
+        "nearest_mode": "floor"
+      }
+    },
+    {
+      "name": "/up1/Resize_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/Resize_output_0",
+        "/up1/Resize_output_0_scale",
+        "/up1/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/Resize_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/Resize_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/Resize_output_0_QuantizeLinear_Output",
+        "/up1/Resize_output_0_scale",
+        "/up1/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/Resize_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/reduce/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up1/Resize_output_0_DequantizeLinear_Output",
+        "up1.reduce.weight_DequantizeLinear_Output",
+        "up1.reduce.bias"
+      ],
+      "outputs": [
+        "/up1/reduce/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          1,
+          1
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 11,
+        "input": "/up1/Resize_output_0_QuantizeLinear_Output",
+        "weights": "up1.reduce.weight_quantized",
+        "bias": "up1.reduce.bias_quantized",
+        "input_scale": "/up1/Resize_output_0_scale",
+        "weight_scale": "up1.reduce.weight_scale",
+        "kernel": 1
+      }
+    },
+    {
+      "name": "/up1/reduce/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/reduce/Conv_output_0",
+        "/up1/reduce/Conv_output_0_scale",
+        "/up1/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/reduce/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/reduce/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/reduce/Conv_output_0_QuantizeLinear_Output",
+        "/up1/reduce/Conv_output_0_scale",
+        "/up1/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/reduce/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/Concat",
+      "op": "Concat",
+      "inputs": [
+        "/up1/reduce/Conv_output_0_DequantizeLinear_Output",
+        "/enc1/enc1.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/up1/Concat_output_0"
+      ],
+      "attrs": {
+        "axis": 1
+      }
+    },
+    {
+      "name": "/up1/Concat_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/Concat_output_0",
+        "/up1/Concat_output_0_scale",
+        "/up1/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/Concat_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/Concat_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/Concat_output_0_QuantizeLinear_Output",
+        "/up1/Concat_output_0_scale",
+        "/up1/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/Concat_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up1/Concat_output_0_DequantizeLinear_Output",
+        "up1.conv.0.weight_DequantizeLinear_Output",
+        "up1.conv.0.bias"
+      ],
+      "outputs": [
+        "/up1/conv/conv.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 12,
+        "input": "/up1/Concat_output_0_QuantizeLinear_Output",
+        "weights": "up1.conv.0.weight_quantized",
+        "bias": "up1.conv.0.bias_quantized",
+        "input_scale": "/up1/Concat_output_0_scale",
+        "weight_scale": "up1.conv.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up1/conv/conv.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.0/Conv_output_0",
+        "/up1/conv/conv.0/Conv_output_0_scale",
+        "/up1/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.0/Conv_output_0_QuantizeLinear_Output",
+        "/up1/conv/conv.0/Conv_output_0_scale",
+        "/up1/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up1/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up1/conv/conv.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.2/Relu_output_0",
+        "/up1/conv/conv.2/Relu_output_0_scale",
+        "/up1/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "/up1/conv/conv.2/Relu_output_0_scale",
+        "/up1/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up1/conv/conv.2/Relu_output_0_DequantizeLinear_Output",
+        "up1.conv.3.weight_DequantizeLinear_Output",
+        "up1.conv.3.bias"
+      ],
+      "outputs": [
+        "/up1/conv/conv.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 13,
+        "input": "/up1/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "up1.conv.3.weight_quantized",
+        "bias": "up1.conv.3.bias_quantized",
+        "input_scale": "/up1/conv/conv.2/Relu_output_0_scale",
+        "weight_scale": "up1.conv.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up1/conv/conv.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.3/Conv_output_0",
+        "/up1/conv/conv.3/Conv_output_0_scale",
+        "/up1/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up1/conv/conv.3/Conv_output_0_QuantizeLinear_Output",
+        "/up1/conv/conv.3/Conv_output_0_scale",
+        "/up1/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up1/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up1/conv/conv.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up1/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up1/conv/conv.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/Resize",
+      "op": "Resize",
+      "inputs": [
+        "/up1/conv/conv.5/Relu_output_0",
+        "",
+        "/up0/Constant_output_0"
+      ],
+      "outputs": [
+        "/up0/Resize_output_0"
+      ],
+      "attrs": {
+        "coordinate_transformation_mode": "asymmetric",
+        "cubic_coeff_a": -0.75,
+        "mode": "nearest",
+        "nearest_mode": "floor"
+      }
+    },
+    {
+      "name": "/up0/Resize_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/Resize_output_0",
+        "/up0/Resize_output_0_scale",
+        "/up0/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/Resize_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/Resize_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/Resize_output_0_QuantizeLinear_Output",
+        "/up0/Resize_output_0_scale",
+        "/up0/Resize_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/Resize_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/reduce/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up0/Resize_output_0_DequantizeLinear_Output",
+        "up0.reduce.weight_DequantizeLinear_Output",
+        "up0.reduce.bias"
+      ],
+      "outputs": [
+        "/up0/reduce/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          1,
+          1
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 14,
+        "input": "/up0/Resize_output_0_QuantizeLinear_Output",
+        "weights": "up0.reduce.weight_quantized",
+        "bias": "up0.reduce.bias_quantized",
+        "input_scale": "/up0/Resize_output_0_scale",
+        "weight_scale": "up0.reduce.weight_scale",
+        "kernel": 1
+      }
+    },
+    {
+      "name": "/up0/reduce/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/reduce/Conv_output_0",
+        "/up0/reduce/Conv_output_0_scale",
+        "/up0/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/reduce/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/reduce/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/reduce/Conv_output_0_QuantizeLinear_Output",
+        "/up0/reduce/Conv_output_0_scale",
+        "/up0/reduce/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/reduce/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/Concat",
+      "op": "Concat",
+      "inputs": [
+        "/up0/reduce/Conv_output_0_DequantizeLinear_Output",
+        "/enc0/enc0.5/Relu_output_0"
+      ],
+      "outputs": [
+        "/up0/Concat_output_0"
+      ],
+      "attrs": {
+        "axis": 1
+      }
+    },
+    {
+      "name": "/up0/Concat_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/Concat_output_0",
+        "/up0/Concat_output_0_scale",
+        "/up0/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/Concat_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/Concat_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/Concat_output_0_QuantizeLinear_Output",
+        "/up0/Concat_output_0_scale",
+        "/up0/Concat_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/Concat_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.0/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up0/Concat_output_0_DequantizeLinear_Output",
+        "up0.conv.0.weight_DequantizeLinear_Output",
+        "up0.conv.0.bias"
+      ],
+      "outputs": [
+        "/up0/conv/conv.0/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 15,
+        "input": "/up0/Concat_output_0_QuantizeLinear_Output",
+        "weights": "up0.conv.0.weight_quantized",
+        "bias": "up0.conv.0.bias_quantized",
+        "input_scale": "/up0/Concat_output_0_scale",
+        "weight_scale": "up0.conv.0.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up0/conv/conv.0/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.0/Conv_output_0",
+        "/up0/conv/conv.0/Conv_output_0_scale",
+        "/up0/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.0/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.0/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.0/Conv_output_0_QuantizeLinear_Output",
+        "/up0/conv/conv.0/Conv_output_0_scale",
+        "/up0/conv/conv.0/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.2/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up0/conv/conv.0/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up0/conv/conv.2/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.2/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.2/Relu_output_0",
+        "/up0/conv/conv.2/Relu_output_0_scale",
+        "/up0/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.2/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.2/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "/up0/conv/conv.2/Relu_output_0_scale",
+        "/up0/conv/conv.2/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.2/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.3/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up0/conv/conv.2/Relu_output_0_DequantizeLinear_Output",
+        "up0.conv.3.weight_DequantizeLinear_Output",
+        "up0.conv.3.bias"
+      ],
+      "outputs": [
+        "/up0/conv/conv.3/Conv_output_0"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          3,
+          3
+        ],
+        "pads": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 16,
+        "input": "/up0/conv/conv.2/Relu_output_0_QuantizeLinear_Output",
+        "weights": "up0.conv.3.weight_quantized",
+        "bias": "up0.conv.3.bias_quantized",
+        "input_scale": "/up0/conv/conv.2/Relu_output_0_scale",
+        "weight_scale": "up0.conv.3.weight_scale",
+        "kernel": 3
+      }
+    },
+    {
+      "name": "/up0/conv/conv.3/Conv_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.3/Conv_output_0",
+        "/up0/conv/conv.3/Conv_output_0_scale",
+        "/up0/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.3/Conv_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.3/Conv_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.3/Conv_output_0_QuantizeLinear_Output",
+        "/up0/conv/conv.3/Conv_output_0_scale",
+        "/up0/conv/conv.3/Conv_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.5/Relu",
+      "op": "Relu",
+      "inputs": [
+        "/up0/conv/conv.3/Conv_output_0_DequantizeLinear_Output"
+      ],
+      "outputs": [
+        "/up0/conv/conv.5/Relu_output_0"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.5/Relu_output_0_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.5/Relu_output_0",
+        "/up0/conv/conv.5/Relu_output_0_scale",
+        "/up0/conv/conv.5/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.5/Relu_output_0_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/up0/conv/conv.5/Relu_output_0_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "/up0/conv/conv.5/Relu_output_0_QuantizeLinear_Output",
+        "/up0/conv/conv.5/Relu_output_0_scale",
+        "/up0/conv/conv.5/Relu_output_0_zero_point"
+      ],
+      "outputs": [
+        "/up0/conv/conv.5/Relu_output_0_DequantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "/head/Conv",
+      "op": "Conv",
+      "inputs": [
+        "/up0/conv/conv.5/Relu_output_0_DequantizeLinear_Output",
+        "head.weight_DequantizeLinear_Output",
+        "head.bias"
+      ],
+      "outputs": [
+        "logits_QuantizeLinear_Input"
+      ],
+      "attrs": {
+        "dilations": [
+          1,
+          1
+        ],
+        "group": 1,
+        "kernel_shape": [
+          1,
+          1
+        ],
+        "pads": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strides": [
+          1,
+          1
+        ]
+      },
+      "integer": {
+        "id": 17,
+        "input": "/up0/conv/conv.5/Relu_output_0_QuantizeLinear_Output",
+        "weights": "head.weight_quantized",
+        "bias": "head.bias_quantized",
+        "input_scale": "/up0/conv/conv.5/Relu_output_0_scale",
+        "weight_scale": "head.weight_scale",
+        "kernel": 1
+      }
+    },
+    {
+      "name": "logits_QuantizeLinear",
+      "op": "QuantizeLinear",
+      "inputs": [
+        "logits_QuantizeLinear_Input",
+        "logits_scale",
+        "logits_zero_point"
+      ],
+      "outputs": [
+        "logits_QuantizeLinear_Output"
+      ],
+      "attrs": {}
+    },
+    {
+      "name": "logits_DequantizeLinear",
+      "op": "DequantizeLinear",
+      "inputs": [
+        "logits_QuantizeLinear_Output",
+        "logits_scale",
+        "logits_zero_point"
+      ],
+      "outputs": [
+        "logits"
+      ],
+      "attrs": {}
+    }
+  ],
+  "conv_count": 18,
+  "source_sha256": "7efb3b35fb2ffd0d49270be0e4cb7a42622ca5330ddbdd98ae22fb2422464865",
+  "arithmetic": "symmetric signed INT8, exact INT32 MAC; PS bias/scale/round-even/clamp and non-convolution ops",
+  "preprocessing": {
+    "orientation": "LPS",
+    "xy_spacing_mm": 0.7617189884185791,
+    "preserve_native_z": true,
+    "context_offsets_mm": [
+      -5,
+      -2.5,
+      0,
+      2.5,
+      5
+    ]
+  },
+  "airway_postprocess": "largest_26_connected"
+}

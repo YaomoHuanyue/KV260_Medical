@@ -1,0 +1,12 @@
+accepted_binary_high_bend_0p0 limited_reach points 1104 cues 3
+accepted_binary_high_bend_1p0 limited_reach points 891 cues 3
+accepted_binary_high_bend_10p0 unreachable points 1 cues 0
+accepted_binary_ultra_bend_0p0 limited_reach points 1104 cues 3
+accepted_binary_ultra_bend_1p0 limited_reach points 891 cues 3
+accepted_binary_ultra_bend_10p0 unreachable points 1 cues 0
+network_probability_high_bend_0p0 limited_reach points 1104 cues 3
+network_probability_high_bend_1p0 limited_reach points 891 cues 3
+network_probability_high_bend_10p0 unreachable points 1 cues 0
+network_probability_ultra_bend_0p0 limited_reach points 1104 cues 3
+network_probability_ultra_bend_1p0 limited_reach points 891 cues 3
+network_probability_ultra_bend_10p0 unreachable points 1 cues 0

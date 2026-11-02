@@ -1,0 +1,73 @@
+{
+  "dispatcher": {
+    "parent": "ui/releases/ct_bounded_outputs_r1/dispatch.py",
+    "parent_SHA256": "506f1111a4afbd912a505c38cee34e2d79cd5f0c71b1560fb82de42c1b62f716",
+    "output": "ui/releases/streaming_functional_r1/dispatch.py",
+    "output_SHA256": "209b4a82a2662aa8a3208db782c4223e16595f40f0b12cb445ebd58f27abcc35",
+    "literal_edits": [
+      {
+        "before": "    output = RUNS/(",
+        "after": "    CANDIDATE_RUNS.mkdir(parents=True,exist_ok=True)\n    output = CANDIDATE_RUNS/(",
+        "count": 1
+      },
+      {
+        "before": "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/entry_r1.py",
+        "after": "modules/segmentation/streaming_stage_r1/entry.py",
+        "count": 1
+      },
+      {
+        "before": "'--input',str(input_path),'--output',str(output/'segmentation')]",
+        "after": "'--input',str(input_path),'--output',str(output/'segmentation'),'--job-lock-fd',str(_candidate_job_fd)]",
+        "count": 1
+      },
+      {
+        "before": "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_reconstruction.py",
+        "after": "modules/reconstruction/streaming_functional_r1/run_reconstruction.py",
+        "count": 1
+      },
+      {
+        "before": "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_partial.py",
+        "after": "modules/reconstruction/streaming_functional_r2/run_partial.py",
+        "count": 1
+      },
+      {
+        "before": "            with (output/(stage+'.log')).open('w') as log:\n                rc=subprocess.call([sys.executable,str(MEDICAL/command[stage][0]),*command[stage][1:]],\n                                   cwd=MEDICAL,stdout=log,stderr=subprocess.STDOUT)",
+        "after": "            original_logs=_snapshot_candidate_logs()\n            with (output/(stage+'.log')).open('w') as log:\n                argv=[sys.executable,str(MEDICAL/command[stage][0]),*command[stage][1:]]\n                child=subprocess.Popen(argv,cwd=MEDICAL,stdout=log,stderr=subprocess.STDOUT,pass_fds=(_candidate_job_fd,))\n                ticks=int(Path('/proc',str(child.pid),'stat').read_text().rsplit(')',1)[1].split()[19])\n                write(output/(stage+'_process.json'),dict(PID=child.pid,start_ticks=ticks,argv=argv))\n                rc=child.wait()\n            _retain_candidate_stage_logs(output,stage,child.pid,original_logs)",
+        "count": 1
+      },
+      {
+        "before": "input=str(input_path),mode=mode,source_result=str(source) if source else None,stages=phases)",
+        "after": "input=str(input_path),mode=mode,source_result=str(source) if source else None,stages=phases,\n                functional_streaming_candidate=True,performance_qualification_pending=True,all_operators_on_PL=False)",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "catalogue": {
+    "parent": "ui/releases/feature_completion_r6/backend_core_r6.py",
+    "parent_SHA256": "5e0330e65c074d457755e96a04760bc152315fab069e6262fcae71482c42c2f1",
+    "output": "ui/releases/streaming_functional_r1/catalogue.py",
+    "output_SHA256": "e3ec35764cd02b5d669901a89bb4632e8e0ae8b09611b469b103c9e339f01584",
+    "literal_edits": [
+      {
+        "before": "    folders += list(RUNS.glob('*/pipeline.json'))",
+        "after": "    folders += list(RUNS.glob('*/pipeline.json'))\n    folders += list(CANDIDATE_RUNS.glob('*/pipeline.json'))",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "main_UI": {
+    "parent": "ui/releases/ct_bounded_outputs_r1/main.cpp",
+    "parent_SHA256": "16d0a632a81cdf33ecd6cb5850df82a35e9c17e9c6401250a5b4a503eaaa6c37",
+    "candidate_SHA256": "0d1d66bd2bd5b5b20d10a7b8d54e7ebcedc3099c8cbcf1a79957ac49ce7c503b",
+    "literal_edits": [
+      {
+        "before": "root+\"/ui/releases/ct_bounded_outputs_r1/backend.py\"",
+        "after": "root+\"/ui/releases/streaming_functional_r1/backend.py\"",
+        "count": 2
+      }
+    ],
+    "original_all_render_navigation_import_export_and_input_code_preserved": true
+  }
+}

@@ -1,0 +1,1025 @@
+{
+  "all_four_actual_original_tool_stages_exit0": true,
+  "only_exact_tool_simulation_monitor_injection_differs": true,
+  "actual_RTL330_frames8resets_qualified": true,
+  "actual_four_original_tool_stages": [
+    {
+      "stage": "csim_cli",
+      "receipt": {
+        "PID": 43720,
+        "parent_PID": 2560,
+        "command": [
+          "D:\\AMDDesignTools\\2025.2.1\\Vitis\\bin\\vitis-run.bat",
+          "--mode",
+          "hls",
+          "--csim",
+          "--config",
+          "D:\\k26-r2450-9126e2f873ed44b5\\workspace\\modules\\segmentation\\axis_tensor_reader_r3\\HLS_r1\\output\\reader.cfg",
+          "--work_dir",
+          "D:\\k26-r2450-9126e2f873ed44b5\\h\\tensor"
+        ],
+        "job_memory_limit_bytes": 8589934592,
+        "exact_created_process_handle_verified": true,
+        "assigned_before_execution": true,
+        "inherited_descendants_limited": true,
+        "original_processes_assigned": false,
+        "elapsed_time_abort": false,
+        "minimum_system_free_commit_bytes": 1610612736,
+        "preflight_memory": {
+          "free_commit_bytes": 55989993472,
+          "physical_available_bytes": 46181851136,
+          "commit_limit_bytes": 84058402816,
+          "commit_total_bytes": 28068409344
+        },
+        "actual_default_memory_API": true,
+        "exit_code": 0,
+        "elapsed_s": 42.63330449996283,
+        "job_events": [
+          {
+            "message": 6,
+            "PID": 43720
+          },
+          {
+            "message": 6,
+            "PID": 6812
+          },
+          {
+            "message": 6,
+            "PID": 11380
+          },
+          {
+            "message": 7,
+            "PID": 11380
+          },
+          {
+            "message": 6,
+            "PID": 34660
+          },
+          {
+            "message": 6,
+            "PID": 25996
+          },
+          {
+            "message": 6,
+            "PID": 35464
+          },
+          {
+            "message": 6,
+            "PID": 43432
+          },
+          {
+            "message": 6,
+            "PID": 42532
+          },
+          {
+            "message": 7,
+            "PID": 43432
+          },
+          {
+            "message": 7,
+            "PID": 42532
+          },
+          {
+            "message": 6,
+            "PID": 49436
+          },
+          {
+            "message": 7,
+            "PID": 49436
+          },
+          {
+            "message": 6,
+            "PID": 46968
+          },
+          {
+            "message": 6,
+            "PID": 48284
+          },
+          {
+            "message": 7,
+            "PID": 48284
+          },
+          {
+            "message": 6,
+            "PID": 10788
+          },
+          {
+            "message": 6,
+            "PID": 4460
+          },
+          {
+            "message": 6,
+            "PID": 48212
+          },
+          {
+            "message": 6,
+            "PID": 41820
+          },
+          {
+            "message": 6,
+            "PID": 48972
+          },
+          {
+            "message": 6,
+            "PID": 48620
+          },
+          {
+            "message": 7,
+            "PID": 48212
+          },
+          {
+            "message": 7,
+            "PID": 48972
+          },
+          {
+            "message": 7,
+            "PID": 41820
+          },
+          {
+            "message": 7,
+            "PID": 48620
+          },
+          {
+            "message": 7,
+            "PID": 4460
+          },
+          {
+            "message": 6,
+            "PID": 45196
+          },
+          {
+            "message": 6,
+            "PID": 52164
+          },
+          {
+            "message": 6,
+            "PID": 51500
+          },
+          {
+            "message": 7,
+            "PID": 52164
+          },
+          {
+            "message": 7,
+            "PID": 51500
+          },
+          {
+            "message": 7,
+            "PID": 45196
+          },
+          {
+            "message": 6,
+            "PID": 28052
+          },
+          {
+            "message": 7,
+            "PID": 28052
+          },
+          {
+            "message": 6,
+            "PID": 33048
+          },
+          {
+            "message": 7,
+            "PID": 33048
+          },
+          {
+            "message": 6,
+            "PID": 36244
+          },
+          {
+            "message": 6,
+            "PID": 37440
+          },
+          {
+            "message": 7,
+            "PID": 37440
+          },
+          {
+            "message": 7,
+            "PID": 36244
+          },
+          {
+            "message": 6,
+            "PID": 53320
+          },
+          {
+            "message": 7,
+            "PID": 53320
+          },
+          {
+            "message": 6,
+            "PID": 2408
+          },
+          {
+            "message": 6,
+            "PID": 48196
+          },
+          {
+            "message": 7,
+            "PID": 48196
+          },
+          {
+            "message": 7,
+            "PID": 2408
+          },
+          {
+            "message": 6,
+            "PID": 46748
+          },
+          {
+            "message": 7,
+            "PID": 46748
+          },
+          {
+            "message": 6,
+            "PID": 30440
+          },
+          {
+            "message": 6,
+            "PID": 48560
+          },
+          {
+            "message": 6,
+            "PID": 31948
+          },
+          {
+            "message": 7,
+            "PID": 31948
+          },
+          {
+            "message": 7,
+            "PID": 48560
+          },
+          {
+            "message": 7,
+            "PID": 30440
+          },
+          {
+            "message": 7,
+            "PID": 10788
+          },
+          {
+            "message": 6,
+            "PID": 7652
+          },
+          {
+            "message": 7,
+            "PID": 7652
+          },
+          {
+            "message": 6,
+            "PID": 53488
+          },
+          {
+            "message": 7,
+            "PID": 53488
+          },
+          {
+            "message": 6,
+            "PID": 36576
+          },
+          {
+            "message": 7,
+            "PID": 36576
+          },
+          {
+            "message": 6,
+            "PID": 41324
+          },
+          {
+            "message": 6,
+            "PID": 50908
+          },
+          {
+            "message": 7,
+            "PID": 41324
+          },
+          {
+            "message": 7,
+            "PID": 50908
+          },
+          {
+            "message": 7,
+            "PID": 46968
+          },
+          {
+            "message": 7,
+            "PID": 35464
+          },
+          {
+            "message": 6,
+            "PID": 4296
+          },
+          {
+            "message": 7,
+            "PID": 4296
+          },
+          {
+            "message": 8,
+            "PID": 25996
+          },
+          {
+            "message": 7,
+            "PID": 34660
+          },
+          {
+            "message": 7,
+            "PID": 43720
+          },
+          {
+            "message": 7,
+            "PID": 6812
+          },
+          {
+            "message": 4,
+            "PID": null
+          }
+        ],
+        "job_memory_limit_rejection_observed": false,
+        "reported_peak_job_bytes": 1025343488,
+        "reported_peak_process_bytes": 684720128,
+        "job_total_processes": 37,
+        "all_owned_processes_terminal": true,
+        "resource_failure": null,
+        "minimum_observed_free_commit_bytes": 54976983040,
+        "native_memory_observations": 845,
+        "configured_job_memory_limit_bytes": 8589934592,
+        "configured_limit_flags": 8704,
+        "configured_limit_verified": true
+      }
+    },
+    {
+      "stage": "csim_direct",
+      "receipt": {
+        "PID": 24376,
+        "parent_PID": 2560,
+        "command": [
+          "D:\\k26-r2450-9126e2f873ed44b5\\h\\tensor\\hls\\csim\\build\\csim.exe"
+        ],
+        "job_memory_limit_bytes": 8589934592,
+        "exact_created_process_handle_verified": true,
+        "assigned_before_execution": true,
+        "inherited_descendants_limited": true,
+        "original_processes_assigned": false,
+        "elapsed_time_abort": false,
+        "minimum_system_free_commit_bytes": 1610612736,
+        "preflight_memory": {
+          "free_commit_bytes": 55997345792,
+          "physical_available_bytes": 46194851840,
+          "commit_limit_bytes": 84058402816,
+          "commit_total_bytes": 28061057024
+        },
+        "actual_default_memory_API": true,
+        "exit_code": 0,
+        "elapsed_s": 29.934108699962962,
+        "job_events": [
+          {
+            "message": 6,
+            "PID": 24376
+          },
+          {
+            "message": 6,
+            "PID": 54928
+          },
+          {
+            "message": 7,
+            "PID": 24376
+          },
+          {
+            "message": 7,
+            "PID": 54928
+          },
+          {
+            "message": 4,
+            "PID": null
+          }
+        ],
+        "job_memory_limit_rejection_observed": false,
+        "reported_peak_job_bytes": 94957568,
+        "reported_peak_process_bytes": 93831168,
+        "job_total_processes": 2,
+        "all_owned_processes_terminal": true,
+        "resource_failure": null,
+        "minimum_observed_free_commit_bytes": 55889580032,
+        "native_memory_observations": 593,
+        "configured_job_memory_limit_bytes": 8589934592,
+        "configured_limit_flags": 8704,
+        "configured_limit_verified": true
+      }
+    },
+    {
+      "stage": "hls",
+      "receipt": {
+        "PID": 46760,
+        "parent_PID": 2560,
+        "command": [
+          "D:\\AMDDesignTools\\2025.2.1\\Vitis\\bin\\v++.bat",
+          "-c",
+          "--mode",
+          "hls",
+          "--config",
+          "D:\\k26-r2450-9126e2f873ed44b5\\workspace\\modules\\segmentation\\axis_tensor_reader_r3\\HLS_r1\\output\\reader.cfg",
+          "--work_dir",
+          "D:\\k26-r2450-9126e2f873ed44b5\\h\\tensor"
+        ],
+        "job_memory_limit_bytes": 8589934592,
+        "exact_created_process_handle_verified": true,
+        "assigned_before_execution": true,
+        "inherited_descendants_limited": true,
+        "original_processes_assigned": false,
+        "elapsed_time_abort": false,
+        "minimum_system_free_commit_bytes": 1610612736,
+        "preflight_memory": {
+          "free_commit_bytes": 55980683264,
+          "physical_available_bytes": 46192267264,
+          "commit_limit_bytes": 84058402816,
+          "commit_total_bytes": 28077719552
+        },
+        "actual_default_memory_API": true,
+        "exit_code": 0,
+        "elapsed_s": 48.582659099949524,
+        "job_events": [
+          {
+            "message": 6,
+            "PID": 46760
+          },
+          {
+            "message": 6,
+            "PID": 50964
+          },
+          {
+            "message": 6,
+            "PID": 16716
+          },
+          {
+            "message": 7,
+            "PID": 16716
+          },
+          {
+            "message": 6,
+            "PID": 53548
+          },
+          {
+            "message": 6,
+            "PID": 11656
+          },
+          {
+            "message": 6,
+            "PID": 41856
+          },
+          {
+            "message": 6,
+            "PID": 54104
+          },
+          {
+            "message": 6,
+            "PID": 44884
+          },
+          {
+            "message": 7,
+            "PID": 54104
+          },
+          {
+            "message": 7,
+            "PID": 44884
+          },
+          {
+            "message": 6,
+            "PID": 3100
+          },
+          {
+            "message": 7,
+            "PID": 3100
+          },
+          {
+            "message": 6,
+            "PID": 35084
+          },
+          {
+            "message": 6,
+            "PID": 39648
+          },
+          {
+            "message": 7,
+            "PID": 39648
+          },
+          {
+            "message": 6,
+            "PID": 53108
+          },
+          {
+            "message": 7,
+            "PID": 53108
+          },
+          {
+            "message": 6,
+            "PID": 22912
+          },
+          {
+            "message": 7,
+            "PID": 22912
+          },
+          {
+            "message": 6,
+            "PID": 41208
+          },
+          {
+            "message": 7,
+            "PID": 41208
+          },
+          {
+            "message": 6,
+            "PID": 6400
+          },
+          {
+            "message": 7,
+            "PID": 6400
+          },
+          {
+            "message": 6,
+            "PID": 20384
+          },
+          {
+            "message": 7,
+            "PID": 20384
+          },
+          {
+            "message": 6,
+            "PID": 53736
+          },
+          {
+            "message": 7,
+            "PID": 53736
+          },
+          {
+            "message": 6,
+            "PID": 14292
+          },
+          {
+            "message": 7,
+            "PID": 14292
+          },
+          {
+            "message": 6,
+            "PID": 32000
+          },
+          {
+            "message": 7,
+            "PID": 32000
+          },
+          {
+            "message": 6,
+            "PID": 46040
+          },
+          {
+            "message": 7,
+            "PID": 46040
+          },
+          {
+            "message": 6,
+            "PID": 52136
+          },
+          {
+            "message": 7,
+            "PID": 52136
+          },
+          {
+            "message": 6,
+            "PID": 52048
+          },
+          {
+            "message": 7,
+            "PID": 52048
+          },
+          {
+            "message": 6,
+            "PID": 42644
+          },
+          {
+            "message": 7,
+            "PID": 42644
+          },
+          {
+            "message": 6,
+            "PID": 16008
+          },
+          {
+            "message": 7,
+            "PID": 16008
+          },
+          {
+            "message": 6,
+            "PID": 51516
+          },
+          {
+            "message": 7,
+            "PID": 51516
+          },
+          {
+            "message": 6,
+            "PID": 47476
+          },
+          {
+            "message": 6,
+            "PID": 45992
+          },
+          {
+            "message": 7,
+            "PID": 45992
+          },
+          {
+            "message": 7,
+            "PID": 47476
+          },
+          {
+            "message": 6,
+            "PID": 52688
+          },
+          {
+            "message": 7,
+            "PID": 52688
+          },
+          {
+            "message": 7,
+            "PID": 35084
+          },
+          {
+            "message": 7,
+            "PID": 41856
+          },
+          {
+            "message": 6,
+            "PID": 40280
+          },
+          {
+            "message": 7,
+            "PID": 40280
+          },
+          {
+            "message": 8,
+            "PID": 11656
+          },
+          {
+            "message": 7,
+            "PID": 53548
+          },
+          {
+            "message": 7,
+            "PID": 46760
+          },
+          {
+            "message": 7,
+            "PID": 50964
+          },
+          {
+            "message": 4,
+            "PID": null
+          }
+        ],
+        "job_memory_limit_rejection_observed": false,
+        "reported_peak_job_bytes": 1231765504,
+        "reported_peak_process_bytes": 964608000,
+        "job_total_processes": 29,
+        "all_owned_processes_terminal": true,
+        "resource_failure": null,
+        "minimum_observed_free_commit_bytes": 54608928768,
+        "native_memory_observations": 959,
+        "configured_job_memory_limit_bytes": 8589934592,
+        "configured_limit_flags": 8704,
+        "configured_limit_verified": true
+      }
+    },
+    {
+      "stage": "package",
+      "receipt": {
+        "PID": 9592,
+        "parent_PID": 2560,
+        "command": [
+          "D:\\AMDDesignTools\\2025.2.1\\Vitis\\bin\\vitis-run.bat",
+          "--mode",
+          "hls",
+          "--package",
+          "--config",
+          "D:\\k26-r2450-9126e2f873ed44b5\\workspace\\modules\\segmentation\\axis_tensor_reader_r3\\HLS_r1\\output\\reader.cfg",
+          "--work_dir",
+          "D:\\k26-r2450-9126e2f873ed44b5\\h\\tensor"
+        ],
+        "job_memory_limit_bytes": 8589934592,
+        "exact_created_process_handle_verified": true,
+        "assigned_before_execution": true,
+        "inherited_descendants_limited": true,
+        "original_processes_assigned": false,
+        "elapsed_time_abort": false,
+        "minimum_system_free_commit_bytes": 1610612736,
+        "preflight_memory": {
+          "free_commit_bytes": 56112451584,
+          "physical_available_bytes": 46164934656,
+          "commit_limit_bytes": 84058402816,
+          "commit_total_bytes": 27945951232
+        },
+        "actual_default_memory_API": true,
+        "exit_code": 0,
+        "elapsed_s": 17.18770259997109,
+        "job_events": [
+          {
+            "message": 6,
+            "PID": 9592
+          },
+          {
+            "message": 6,
+            "PID": 42228
+          },
+          {
+            "message": 6,
+            "PID": 38992
+          },
+          {
+            "message": 7,
+            "PID": 38992
+          },
+          {
+            "message": 6,
+            "PID": 53400
+          },
+          {
+            "message": 6,
+            "PID": 34004
+          },
+          {
+            "message": 6,
+            "PID": 21080
+          },
+          {
+            "message": 6,
+            "PID": 50036
+          },
+          {
+            "message": 6,
+            "PID": 11004
+          },
+          {
+            "message": 7,
+            "PID": 50036
+          },
+          {
+            "message": 7,
+            "PID": 11004
+          },
+          {
+            "message": 6,
+            "PID": 30360
+          },
+          {
+            "message": 7,
+            "PID": 30360
+          },
+          {
+            "message": 6,
+            "PID": 52068
+          },
+          {
+            "message": 6,
+            "PID": 41600
+          },
+          {
+            "message": 6,
+            "PID": 32940
+          },
+          {
+            "message": 6,
+            "PID": 34720
+          },
+          {
+            "message": 7,
+            "PID": 32940
+          },
+          {
+            "message": 7,
+            "PID": 34720
+          },
+          {
+            "message": 6,
+            "PID": 17492
+          },
+          {
+            "message": 7,
+            "PID": 17492
+          },
+          {
+            "message": 6,
+            "PID": 37068
+          },
+          {
+            "message": 7,
+            "PID": 37068
+          },
+          {
+            "message": 7,
+            "PID": 41600
+          },
+          {
+            "message": 7,
+            "PID": 52068
+          },
+          {
+            "message": 7,
+            "PID": 21080
+          },
+          {
+            "message": 6,
+            "PID": 49612
+          },
+          {
+            "message": 7,
+            "PID": 49612
+          },
+          {
+            "message": 8,
+            "PID": 34004
+          },
+          {
+            "message": 7,
+            "PID": 53400
+          },
+          {
+            "message": 7,
+            "PID": 9592
+          },
+          {
+            "message": 7,
+            "PID": 42228
+          },
+          {
+            "message": 4,
+            "PID": null
+          }
+        ],
+        "job_memory_limit_rejection_observed": false,
+        "reported_peak_job_bytes": 1692790784,
+        "reported_peak_process_bytes": 759525376,
+        "job_total_processes": 16,
+        "all_owned_processes_terminal": true,
+        "resource_failure": null,
+        "minimum_observed_free_commit_bytes": 54426648576,
+        "native_memory_observations": 340,
+        "configured_job_memory_limit_bytes": 8589934592,
+        "configured_limit_flags": 8704,
+        "configured_limit_verified": true
+      }
+    }
+  ],
+  "raw_export_members_SHA256": {
+    "component.xml": "4ea185ece27a5d6f033182e6473c66faa316a924e74e6fe32ea1a6a486d5ef7e",
+    "constraints/ct_tensor_reader_ooc.xdc": "bc275c403c2beeec95b0c3664ecc37842f82207b326bf93c35acb6c465ed2485",
+    "hdl/verilog/ct_tensor_reader_control_s_axi.v": "d7ce50b1575b91fc6f3568ebafb763246ad77989e95e0ce2a9428f99ac519171",
+    "hdl/verilog/ct_tensor_reader_fifo_w32_d2_S.v": "e92b8a1fa654fb5323b954f999cbc6aa7bde14b81248487a3b53844419a94769",
+    "hdl/verilog/ct_tensor_reader_fifo_w32_d2_S_x.v": "2f317ad7fde860844d1f077ecf037a528d20f868113e29c70915a121e6dc3440",
+    "hdl/verilog/ct_tensor_reader_fifo_w256_d64_A.v": "92627517074ea641cc4816fe2999308c15adaf116aebf7f5c1246170316f6d65",
+    "hdl/verilog/ct_tensor_reader_fifo_w256_d64_A_x.v": "7232d97e2a88ccc78001c44e9488db9bd7917dd0be9cfbb427da6f99b9b94bb9",
+    "hdl/verilog/ct_tensor_reader_flow_control_loop_pipe_sequential_init.v": "e19af0b358abc57c21838a0062772c956032b177f678ff6f32e76f1a11d8a168",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_detection_unit.v": "2477163fcc744b19c5c59a2eb76308cd9b20e965627f17a044f2906cec5e302c",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_detector.vh": "bc8006794404a860ae2cd84e584e6039d6fb0e2d8cee6166eea0698bf33fd213",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx0_monitor.v": "6a436eaaa22e0c82a7b71764db383c10b4475428e1f72d6378fb90837e8fe00d",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx1_monitor.v": "0db575ce2c065adf63cccdd384172de2dec5bbe9e97f2ea5c47d81b3f745349a",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx2_monitor.v": "7e93b9a79247b51d907fa383eff6a02a169504ed8e286d0caf58a554edc95e1a",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx3_monitor.v": "6ce10d78fbd704adcbf6e0e70765b16a6a08369b1094396f637a563f1ae5e95f",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx6_monitor.v": "efbdf428666ad821a7b3435a292f5ee0cb7f8d10eee667d577e34539f981c529",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_idx7_monitor.v": "d53b8d82f27aa6c535ec79f7da3692e305064f83fab016c1fac9043ac21600e6",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_kernel_monitor_top.vh": "ea14cb3b11bbdafbf782b6a358e41f2bfaede55cb4d7bf3b101a0daeb17c927a",
+    "hdl/verilog/ct_tensor_reader_hls_deadlock_report_unit.vh": "6e5ec37611ec5f6ab138c1ada2e5456c87f6a9256cdcc46449765a9a25acc8c2",
+    "hdl/verilog/ct_tensor_reader_load_tables.v": "a75dd8a573f4801b176e15becc742f6f0b78e35dd6fba569d9b5d17476ac547e",
+    "hdl/verilog/ct_tensor_reader_load_tables_Pipeline_VITIS_LOOP_52_1_VITIS_LOOP_54_2.v": "c7f9fd20a6d1fbe53a70d5d3f8161b2098b28492395f3e9597a8cab76189d822",
+    "hdl/verilog/ct_tensor_reader_memory_m_axi.v": "68b14490bc63b19007d5c4637bfd900964a2ea78fe49e9b75d4980a6d69670af",
+    "hdl/verilog/ct_tensor_reader_mul_29ns_32s_32_1_1.v": "f57121f0b2ea661756cd44b131282fd9be57780bf46186af07e8e33d0506881c",
+    "hdl/verilog/ct_tensor_reader_mul_32ns_29ns_61_1_1.v": "a7152d9bc0d94b113a18c491e1f77933b5cb7591b40bd896673d33eeb81ab195",
+    "hdl/verilog/ct_tensor_reader_mul_32ns_61ns_93_1_1.v": "6c8f878fc0ebba7cc125caf874162a7b7f454c2f8511bab9f280156b35a6cebd",
+    "hdl/verilog/ct_tensor_reader_mul_32s_4ns_32_1_1.v": "893e8326bb3fbb2d7a6ef36194efbc04569e0a8f74b37b1ac40aa6227d78fb3f",
+    "hdl/verilog/ct_tensor_reader_mul_32s_29ns_32_1_1.v": "488658019e67953203d5c587967834121f01eaf3c606f096b48dbea039e97964",
+    "hdl/verilog/ct_tensor_reader_mul_32s_32s_32_1_1.v": "a3442997463d16b1da26c9d3045894af8f7889a06eea9a245a00f4903862dab6",
+    "hdl/verilog/ct_tensor_reader_partselect_8ns_64ns_6ns_8_1_1.v": "8bb78869c0f477bae8eb316511f00a78af5b0ad667e6b7506cafe63d45b988d0",
+    "hdl/verilog/ct_tensor_reader_partselect_8ns_256ns_8ns_8_1_1.v": "8accdd8aaf394e05ebd222e601373822bf6c77d30ab88e9f207e8de50c24bd3c",
+    "hdl/verilog/ct_tensor_reader_partselect_64ns_256ns_8ns_64_1_1.v": "babb41c33f9216845499bf8b670b94c184778e9e6cd2a0ea577466678acc685a",
+    "hdl/verilog/ct_tensor_reader_partset_256ns_256ns_64ns_8ns_256_1_1.v": "d2d94073320878e7d61e85a5aaf3d3c2b3086fafe3844b5bdae06b7fb38d331e",
+    "hdl/verilog/ct_tensor_reader_read_words.v": "30f66960ddbecd3470452ac47406bd984320800a36cf02bba49f090a69f8c6fd",
+    "hdl/verilog/ct_tensor_reader_read_words_Pipeline_VITIS_LOOP_3_1.v": "a23b2c523e1ae4afad3987fed5d625d1be9bcea9f7bc8f4867dbe74e1085f97b",
+    "hdl/verilog/ct_tensor_reader_reader_packets.v": "f3081aec5d2d973ffa4abe2083c87c3a9fa706cc91e75d9ab499b48686618796",
+    "hdl/verilog/ct_tensor_reader_reader_packets_1.v": "cf30f147f23ac5358a51835ec5f153e3c41cd506c2c7cb9e753ca776d3e2d78d",
+    "hdl/verilog/ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_13_1.v": "44626f15ed787a2027317c4656f90c2e0d6a848a98684d919559146f404f45a7",
+    "hdl/verilog/ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.v": "01caa7f1edca8a49c89e35b5b9d511277a5a864b902168bb41184bc088385465",
+    "hdl/verilog/ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_13_1.v": "745556ce83226fb1ee1042aeb9ccc1718aaadc65648512df622559c52045f405",
+    "hdl/verilog/ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.v": "82803e4aaef7ef99a8456ac3488b00c9f9c73d41d6b85ddf74cca799d47192d8",
+    "hdl/verilog/ct_tensor_reader_reader_pipeline.v": "a4e55090201a80b36892192a56d1c50c1c0ec967d3eb47e490ff830bea3050d1",
+    "hdl/verilog/ct_tensor_reader_reader_pipeline_Block_entry_proc.v": "7b988eff6bd1ea26cb345386eaac030e0ecac9c647857f057d1efdd66fd8ac58",
+    "hdl/verilog/ct_tensor_reader_regslice_both.v": "3d57731342cc5b7f70d158d9e26bb97c5bca78de028d742f3c5e2009610e99df",
+    "hdl/verilog/ct_tensor_reader_sparsemux_7_2_8_1_1.v": "aae30647300bb6c0dc38bc5ff5401e63224881a92b211320ad652e94befe99d7",
+    "hdl/verilog/ct_tensor_reader_start_for_reader_packets_U0.v": "f0c1951a12cfbe674a80111cf62c3dec1b0fc0ef99c685dc765e027092ac609b",
+    "hdl/verilog/ct_tensor_reader_transform_words.v": "f2982e93c33bd4bdbe7f5557eff9075ca3f6f3690f3e6720ec74c670c824975a",
+    "hdl/verilog/ct_tensor_reader_transform_words_Pipeline_VITIS_LOOP_23_1.v": "bab52c57e4d7c6dc23074d25108e05b456f901b69c26925422dd5d992395ea84",
+    "hdl/verilog/ct_tensor_reader_transformed_pipeline.v": "136689388846979dfe85f418708f10da5e9a771cd90d6ccd0f192d6ba9f5862b",
+    "hdl/verilog/ct_tensor_reader_transformed_pipeline_lut_RAM_1P_LUTRAM_1R1W.v": "b22bec1e0fa1123552ac028442ee11d48802fd736f5097e890e897904e21e1af",
+    "hdl/verilog/ct_tensor_reader_transformed_stream.v": "b68d19cc1a03554dc45e0f50721c392386ed26d3c4958ca72cc6afd69c83597e",
+    "hdl/verilog/ct_tensor_reader_transformed_stream_Block_entry_proc.v": "06ffd3a47b74c468d8a2d848e7d3ef20a4f941c4ead3801490215b322c8a101d",
+    "hdl/verilog/ct_tensor_reader_urem_32ns_32ns_32_36_seq_1.v": "4c1d2333a328aee642839bcb486167ad5e39a2e99a74b6a3eecd0dafb5038da2",
+    "hdl/verilog/ct_tensor_reader.v": "9d588c1580e5d8010bc817157a1d33f34570f57a2490092ee03205737dd45dca",
+    "hdl/vhdl/ct_tensor_reader_control_s_axi.vhd": "30c7bd64dcd812869de65aae911fa6d3515aa8b9be14e565d8afbd78506f9b44",
+    "hdl/vhdl/ct_tensor_reader_fifo_w32_d2_S.vhd": "6f06aec5c19c3110126b8ba0b619763d268d901877017512935bdf5923fd8af4",
+    "hdl/vhdl/ct_tensor_reader_fifo_w32_d2_S_x.vhd": "0002bfdeedccc1354ed7275543d8ca857304f143bab3ba0cd32e7e397a755db6",
+    "hdl/vhdl/ct_tensor_reader_fifo_w256_d64_A.vhd": "2d5d93e38724d357d03c37269c57a0129ea3d2766aafb107992bfc3720e11de0",
+    "hdl/vhdl/ct_tensor_reader_fifo_w256_d64_A_x.vhd": "fbfc05be0c290b1ea5a753ddf8f354cfbfda6a9778910e395dbd55f943a396b9",
+    "hdl/vhdl/ct_tensor_reader_flow_control_loop_pipe_sequential_init.vhd": "48a99a164df22bece3517856cec1fce486e852dd100a237620e90c1fd0252d99",
+    "hdl/vhdl/ct_tensor_reader_load_tables.vhd": "a31a3290ccca56db8ed61bbc74c61950d5ec0c77c5736edfe1807d65ccf2509b",
+    "hdl/vhdl/ct_tensor_reader_load_tables_Pipeline_VITIS_LOOP_52_1_VITIS_LOOP_54_2.vhd": "582fdf4da746a04c06111f1fa1abadd5e617f1313faa4d08fc0e386293834cfa",
+    "hdl/vhdl/ct_tensor_reader_memory_m_axi.vhd": "fc391b9876cbd920158978317abacf15cc9560fc6de4a0f9223be1774a8ad6d9",
+    "hdl/vhdl/ct_tensor_reader_mul_29ns_32s_32_1_1.vhd": "82e3d84bb2b2456a61d5b6d8fce83da55d7abcbc0d6269fa362cdd0deea567f7",
+    "hdl/vhdl/ct_tensor_reader_mul_32ns_29ns_61_1_1.vhd": "c340b73e194fd24d0f8bc639ee5d8dfd0b96517e78436c95c10bd4faab0e3d76",
+    "hdl/vhdl/ct_tensor_reader_mul_32ns_61ns_93_1_1.vhd": "39ad01620636562ba46d96af41d4f0601ae60097a0ff87ebbd68ffcbb6a03ac3",
+    "hdl/vhdl/ct_tensor_reader_mul_32s_4ns_32_1_1.vhd": "e6f89544bd18398efe56ffd6fe05abd1ab3aeca8c7273131108cf107fa2567cf",
+    "hdl/vhdl/ct_tensor_reader_mul_32s_29ns_32_1_1.vhd": "7c2378cb9ecefd9f3992e768e4d3c4b313ef3ad9a79fe5addf346202dbe8c099",
+    "hdl/vhdl/ct_tensor_reader_mul_32s_32s_32_1_1.vhd": "4cdd74d44b8f43f303e3ffc5b77b882f7d207bac6950f1bbcac57a612d021b42",
+    "hdl/vhdl/ct_tensor_reader_partselect_8ns_64ns_6ns_8_1_1.vhd": "27b4a6885db95aaec59cb1541271711bf797300482bbae89c3c0f66115d57949",
+    "hdl/vhdl/ct_tensor_reader_partselect_8ns_256ns_8ns_8_1_1.vhd": "6abf2dc68d54e697b1fd124f9c36239dbf57be13eb01cddb857b4bf41ac49cd4",
+    "hdl/vhdl/ct_tensor_reader_partselect_64ns_256ns_8ns_64_1_1.vhd": "c44b5cc499ec8e2fc4ad094cd4e5ec8244e50d9109283090589b05f1ae29c7b2",
+    "hdl/vhdl/ct_tensor_reader_partset_256ns_256ns_64ns_8ns_256_1_1.vhd": "7732bed6bff03627309465f99aa0b994e229ed5132d63d79c6de2f2f7ba2e873",
+    "hdl/vhdl/ct_tensor_reader_read_words.vhd": "bcfd42248302c10d9a73ec15d417e7fdc2838ad7d03af2b5506637c7f6ca69a6",
+    "hdl/vhdl/ct_tensor_reader_read_words_Pipeline_VITIS_LOOP_3_1.vhd": "2de65f7928fd2e1ea180d2189d8f9223ae92fa4364a6d79d40af85fdaa03fe94",
+    "hdl/vhdl/ct_tensor_reader_reader_packets.vhd": "50d3e8ff50c6d97c268285b45a1969bc21e7a4f6de3e476b5b9fd71706c6fb19",
+    "hdl/vhdl/ct_tensor_reader_reader_packets_1.vhd": "94dc2bb365c6ee29eebd32a160c93be9c8a474e2eab477bf3f1acff63b4773e8",
+    "hdl/vhdl/ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_13_1.vhd": "77a82267a0c8a132eaa62bd4c78406acc3b3881bac20bbce22638add483b47c7",
+    "hdl/vhdl/ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.vhd": "39e517d323b5df5c36e3220c9d19d9ec016eb4e96708ffff5bb9ca772b3b7e50",
+    "hdl/vhdl/ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_13_1.vhd": "528dce6f9a5308b68fd5c364ee4e9c4039c2e5a5ab7216a0250a27183417a76b",
+    "hdl/vhdl/ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.vhd": "7cd674775f5edfd6886ce337bba2f671e1cb5ceeea6bbb6b1d137aa89904c3fb",
+    "hdl/vhdl/ct_tensor_reader_reader_pipeline.vhd": "7b0c1f139ca8ce106d4e398ead5a527cb344a845e67e485b3c1a83f80d116adb",
+    "hdl/vhdl/ct_tensor_reader_reader_pipeline_Block_entry_proc.vhd": "f22986415b9652b21d268e9ac5817d0059041e1e9b5f06f74acdf81953dceef2",
+    "hdl/vhdl/ct_tensor_reader_regslice_both.vhd": "0280cfe12231a096e42a23434a030c9cc2ac35718ffef66f70d1567cd5b02d47",
+    "hdl/vhdl/ct_tensor_reader_sparsemux_7_2_8_1_1.vhd": "13ac930a4802338bd13ce4440fd93ea7b3916f98fba3f2d7b790f70cd3cec4b9",
+    "hdl/vhdl/ct_tensor_reader_start_for_reader_packets_U0.vhd": "d7e6504815f800d8ee67bac0d598aa78954356bdc1f4c97da80c8cfa554d2fc8",
+    "hdl/vhdl/ct_tensor_reader_transform_words.vhd": "ff37c4774b8aa6d8b21e7b51b0bb1b18f245251cb37ce377e187087aa809dd69",
+    "hdl/vhdl/ct_tensor_reader_transform_words_Pipeline_VITIS_LOOP_23_1.vhd": "c9d04505b4f62591dadd8883fbb12476db2fa93e29220ad1f222611968cad10a",
+    "hdl/vhdl/ct_tensor_reader_transformed_pipeline.vhd": "3f9228379fdb20d5de9ed70732c1740de808d13121b6a29b6e809a5e3a27fed6",
+    "hdl/vhdl/ct_tensor_reader_transformed_pipeline_lut_RAM_1P_LUTRAM_1R1W.vhd": "65a2ce692f6787cf20b4ad90a033ea62c2997970d349c2e1c8c16112ef25bb8c",
+    "hdl/vhdl/ct_tensor_reader_transformed_stream.vhd": "59a27f12383b3d6125af57e8c6be1b69c8c1032a3d746bee6ef61b113d5f788e",
+    "hdl/vhdl/ct_tensor_reader_transformed_stream_Block_entry_proc.vhd": "712cc0762f72b08b95c9b5d641327abd37ae121dfe6cd6828f0e10eadeb5baaa",
+    "hdl/vhdl/ct_tensor_reader_urem_32ns_32ns_32_36_seq_1.vhd": "49551263bec899773f57578fecd7763c76c5212bb06bafbd32b02e6ac3c040bb",
+    "hdl/vhdl/ct_tensor_reader.vhd": "88a9548edeb89c12e7ff9961b957a7597f3117b6addc03bfb2eb0cba6886fb45",
+    "drivers/ct_tensor_reader_v1_0/data/ct_tensor_reader.mdd": "5a2f77dfca58bf2e8a5861910ccda5b02769777002564a6e3aba1370e8f8e64d",
+    "drivers/ct_tensor_reader_v1_0/data/ct_tensor_reader.tcl": "0dd3484a24d2ddff3b84068dc7fb305d04dc4fe2a4b94b09a561abf936f62028",
+    "drivers/ct_tensor_reader_v1_0/data/ct_tensor_reader.yaml": "74af5edf6d5243dea3c3d081e0a4378beca0d786e794e786d7ba295133ca5b74",
+    "drivers/ct_tensor_reader_v1_0/src/CMakeLists.txt": "ec8bcf6d2aa9e4c5b9663cf934e038c9d286bfcaa3952a6b9d82434157ed63c2",
+    "drivers/ct_tensor_reader_v1_0/src/Makefile": "e093a5772134e159b73ca3cb17adb70ca007ffbffd86dcf2e0b6b8bf3b07ea20",
+    "drivers/ct_tensor_reader_v1_0/src/xct_tensor_reader.c": "0eaedc2fac50d577f7a2940383a1bf76ddf5c323de3cb0085e08d3ef82c69654",
+    "drivers/ct_tensor_reader_v1_0/src/xct_tensor_reader.h": "05d4a5000bbc602927cb38f9ed4955e5b3a627ff93dd3f69f19add2e44e5aeee",
+    "drivers/ct_tensor_reader_v1_0/src/xct_tensor_reader_hw.h": "803bbca044761f7c3b1b8bd23cb67818f84dbb31745a73a8a61d8cdcd552da9b",
+    "drivers/ct_tensor_reader_v1_0/src/xct_tensor_reader_linux.c": "f7561035ec2360ebe53c908b650aa51c18fb0f89e661745e442577419a53a9e3",
+    "drivers/ct_tensor_reader_v1_0/src/xct_tensor_reader_sinit.c": "3db619bc9f76743660abbc53fc6de729ca51a6959908f1e1c783cbee2bdcd1e2",
+    "doc/ReleaseNotes.txt": "86662408b747f0884da8fd731f6a27dc60804813ac9dd265430bdd3bcbd776ed",
+    "misc/logo.png": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "xgui/ct_tensor_reader_v1_0.tcl": "b7fc5971d6fd8b9e3b15a4b4693d30281ced288ee0096ae828d6f0e4aebe86c6"
+  },
+  "expected_RTL_SHA256": {
+    "ct_tensor_reader.v": "9bf856aec8aea5db801000b20aed8ba731abfec0601a2ab2c0251e0c1f52f1af",
+    "ct_tensor_reader_control_s_axi.v": "d7ce50b1575b91fc6f3568ebafb763246ad77989e95e0ce2a9428f99ac519171",
+    "ct_tensor_reader_fifo_w256_d64_A.v": "92627517074ea641cc4816fe2999308c15adaf116aebf7f5c1246170316f6d65",
+    "ct_tensor_reader_fifo_w256_d64_A_x.v": "7232d97e2a88ccc78001c44e9488db9bd7917dd0be9cfbb427da6f99b9b94bb9",
+    "ct_tensor_reader_fifo_w32_d2_S.v": "e92b8a1fa654fb5323b954f999cbc6aa7bde14b81248487a3b53844419a94769",
+    "ct_tensor_reader_fifo_w32_d2_S_x.v": "2f317ad7fde860844d1f077ecf037a528d20f868113e29c70915a121e6dc3440",
+    "ct_tensor_reader_flow_control_loop_pipe_sequential_init.v": "e19af0b358abc57c21838a0062772c956032b177f678ff6f32e76f1a11d8a168",
+    "ct_tensor_reader_load_tables.v": "a75dd8a573f4801b176e15becc742f6f0b78e35dd6fba569d9b5d17476ac547e",
+    "ct_tensor_reader_load_tables_Pipeline_VITIS_LOOP_52_1_VITIS_LOOP_54_2.v": "c7f9fd20a6d1fbe53a70d5d3f8161b2098b28492395f3e9597a8cab76189d822",
+    "ct_tensor_reader_memory_m_axi.v": "68b14490bc63b19007d5c4637bfd900964a2ea78fe49e9b75d4980a6d69670af",
+    "ct_tensor_reader_mul_29ns_32s_32_1_1.v": "f57121f0b2ea661756cd44b131282fd9be57780bf46186af07e8e33d0506881c",
+    "ct_tensor_reader_mul_32ns_29ns_61_1_1.v": "a7152d9bc0d94b113a18c491e1f77933b5cb7591b40bd896673d33eeb81ab195",
+    "ct_tensor_reader_mul_32ns_61ns_93_1_1.v": "6c8f878fc0ebba7cc125caf874162a7b7f454c2f8511bab9f280156b35a6cebd",
+    "ct_tensor_reader_mul_32s_29ns_32_1_1.v": "488658019e67953203d5c587967834121f01eaf3c606f096b48dbea039e97964",
+    "ct_tensor_reader_mul_32s_32s_32_1_1.v": "a3442997463d16b1da26c9d3045894af8f7889a06eea9a245a00f4903862dab6",
+    "ct_tensor_reader_mul_32s_4ns_32_1_1.v": "893e8326bb3fbb2d7a6ef36194efbc04569e0a8f74b37b1ac40aa6227d78fb3f",
+    "ct_tensor_reader_partselect_64ns_256ns_8ns_64_1_1.v": "babb41c33f9216845499bf8b670b94c184778e9e6cd2a0ea577466678acc685a",
+    "ct_tensor_reader_partselect_8ns_256ns_8ns_8_1_1.v": "8accdd8aaf394e05ebd222e601373822bf6c77d30ab88e9f207e8de50c24bd3c",
+    "ct_tensor_reader_partselect_8ns_64ns_6ns_8_1_1.v": "8bb78869c0f477bae8eb316511f00a78af5b0ad667e6b7506cafe63d45b988d0",
+    "ct_tensor_reader_partset_256ns_256ns_64ns_8ns_256_1_1.v": "d2d94073320878e7d61e85a5aaf3d3c2b3086fafe3844b5bdae06b7fb38d331e",
+    "ct_tensor_reader_read_words.v": "30f66960ddbecd3470452ac47406bd984320800a36cf02bba49f090a69f8c6fd",
+    "ct_tensor_reader_read_words_Pipeline_VITIS_LOOP_3_1.v": "a23b2c523e1ae4afad3987fed5d625d1be9bcea9f7bc8f4867dbe74e1085f97b",
+    "ct_tensor_reader_reader_packets.v": "f3081aec5d2d973ffa4abe2083c87c3a9fa706cc91e75d9ab499b48686618796",
+    "ct_tensor_reader_reader_packets_1.v": "cf30f147f23ac5358a51835ec5f153e3c41cd506c2c7cb9e753ca776d3e2d78d",
+    "ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_13_1.v": "44626f15ed787a2027317c4656f90c2e0d6a848a98684d919559146f404f45a7",
+    "ct_tensor_reader_reader_packets_1_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.v": "01caa7f1edca8a49c89e35b5b9d511277a5a864b902168bb41184bc088385465",
+    "ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_13_1.v": "745556ce83226fb1ee1042aeb9ccc1718aaadc65648512df622559c52045f405",
+    "ct_tensor_reader_reader_packets_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4.v": "82803e4aaef7ef99a8456ac3488b00c9f9c73d41d6b85ddf74cca799d47192d8",
+    "ct_tensor_reader_reader_pipeline.v": "a4e55090201a80b36892192a56d1c50c1c0ec967d3eb47e490ff830bea3050d1",
+    "ct_tensor_reader_reader_pipeline_Block_entry_proc.v": "7b988eff6bd1ea26cb345386eaac030e0ecac9c647857f057d1efdd66fd8ac58",
+    "ct_tensor_reader_regslice_both.v": "3d57731342cc5b7f70d158d9e26bb97c5bca78de028d742f3c5e2009610e99df",
+    "ct_tensor_reader_sparsemux_7_2_8_1_1.v": "aae30647300bb6c0dc38bc5ff5401e63224881a92b211320ad652e94befe99d7",
+    "ct_tensor_reader_start_for_reader_packets_U0.v": "f0c1951a12cfbe674a80111cf62c3dec1b0fc0ef99c685dc765e027092ac609b",
+    "ct_tensor_reader_transform_words.v": "f2982e93c33bd4bdbe7f5557eff9075ca3f6f3690f3e6720ec74c670c824975a",
+    "ct_tensor_reader_transform_words_Pipeline_VITIS_LOOP_23_1.v": "bab52c57e4d7c6dc23074d25108e05b456f901b69c26925422dd5d992395ea84",
+    "ct_tensor_reader_transformed_pipeline.v": "136689388846979dfe85f418708f10da5e9a771cd90d6ccd0f192d6ba9f5862b",
+    "ct_tensor_reader_transformed_pipeline_lut_RAM_1P_LUTRAM_1R1W.v": "b22bec1e0fa1123552ac028442ee11d48802fd736f5097e890e897904e21e1af",
+    "ct_tensor_reader_transformed_stream.v": "b68d19cc1a03554dc45e0f50721c392386ed26d3c4958ca72cc6afd69c83597e",
+    "ct_tensor_reader_transformed_stream_Block_entry_proc.v": "06ffd3a47b74c468d8a2d848e7d3ef20a4f941c4ead3801490215b322c8a101d",
+    "ct_tensor_reader_urem_32ns_32ns_32_36_seq_1.v": "4c1d2333a328aee642839bcb486167ad5e39a2e99a74b6a3eecd0dafb5038da2"
+  },
+  "exact_added_bytes_hex": "0d0a7265672066696e645f64665f646561646c6f636b203d20303b0d0a2f2f2073796e746865736973207472616e736c6174655f6f66660d0a60696e636c756465202263745f74656e736f725f7265616465725f686c735f646561646c6f636b5f6465746563746f722e7668220d0a2f2f2073796e746865736973207472616e736c6174655f6f6e0d0a0d0a7265672066696e645f6b65726e656c5f626c6f636b203d20303b0d0a2f2f2073796e746865736973207472616e736c6174655f6f66660d0a60696e636c756465202263745f74656e736f725f7265616465725f686c735f646561646c6f636b5f6b65726e656c5f6d6f6e69746f725f746f702e7668220d0a2f2f2073796e746865736973207472616e736c6174655f6f6e0d0a0d0a",
+  "closed_parent_archive_SHA256": "c5d7a25d0ed79942afc9008b7065365e6daa55cd7bdf919b524ee5aa026a28c0",
+  "original_failed_checker_record_preserved": true,
+  "whole_goal_completed": false
+}

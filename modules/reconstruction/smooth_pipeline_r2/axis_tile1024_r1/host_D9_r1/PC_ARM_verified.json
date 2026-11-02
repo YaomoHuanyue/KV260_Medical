@@ -1,0 +1,114 @@
+{
+  "status": "PC_verified_actual_D9_ARM_complete_XRT_compile_and_paired78_control110_memory_checks",
+  "actual_AArch64_XRT_bridge_ELF_SHA256": "309175b0027cd07dea380fee94cf551da15f64977fb95498b1af6e3aadd57653",
+  "original8_pre_hardware_root_refusals_passed": true,
+  "actual_78_control_and110_memory_cases_paired_Windows_ARM": true,
+  "exact_outputs": [
+    "PASS D9 actual register driver 78 control/ownership/drain/error scenarios; hardware not accessed",
+    "PASS D9 graph/header memory 110 input/tail/guard/ownership scenarios and 1950 header receives; hardware not accessed"
+  ],
+  "all_collected_output_bytes_full_SHA_verified_twice": {
+    "owner": {
+      "PID": 13093,
+      "start_ticks": 1006685,
+      "argv": [
+        "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+        "-B",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/verify_ARM.py"
+      ],
+      "no_PL_or_XRT_device_access": true
+    },
+    "files": {
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/job_started.json": {
+        "SHA256": "4c81ae639aec908abd772a034cd2e2b054b3b63f87c6639c736de0a199dcf79b",
+        "bytes": 311
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/run.log": {
+        "SHA256": "9ddc822af3f35c3922bf4e683a1e645d386d39ab48a1656ec56a82f0d0711a1c",
+        "bytes": 85
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/ARM_job_receipt.json": {
+        "SHA256": "499f786adfb154eb00bb39b42eb1f43e1822cd27aaa0538af719bb9090cdf39b",
+        "bytes": 1075
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/complete_XRT_compile.log": {
+        "SHA256": "7daca32d18ce5ef05500c3d6529fb742dc18b0fef57e9d6629495cbc667d3e42",
+        "bytes": 92
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/control_and_memory.log": {
+        "SHA256": "9ff0023f93f92ff2e7c93c8831beea4ade7f6bea8b2cf3feb99b9fd5ba2935af",
+        "bytes": 230
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/bridge.d": {
+        "SHA256": "2c93ea6db144ca3a42c589f59527c7903031d762ae4b62e0c7338666965ec10a",
+        "bytes": 19821
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/compile.log": {
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/compile_receipt.json": {
+        "SHA256": "8c53aad2420832efdb8550b0bb3fa53157c4948c5073c3c3d59c78f04934b520",
+        "bytes": 5463
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/libD9_XRT.so": {
+        "SHA256": "309175b0027cd07dea380fee94cf551da15f64977fb95498b1af6e3aadd57653",
+        "bytes": 319696
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/verified.json": {
+        "SHA256": "88bcf45356fcf272e02dccb2dd6844100ed8d89e1e99367ca5857ee74ce56d7e",
+        "bytes": 6648
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/control.log": {
+        "SHA256": "495e34bf84b771785e7e34fad3c8deb782ed6be71cdf83b2ab6c8b78ad9179d1",
+        "bytes": 97
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/memory.log": {
+        "SHA256": "f2b2b82d6767bf36f5b05a1e284eb8c89446b5a2913b4e77667a743b7bc9ae8b",
+        "bytes": 117
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/control.elf": {
+        "SHA256": "696c1bf03ff26719f03fa188e68f6c744be4a2742a36416028b68a218d3430be",
+        "bytes": 1674160
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/verified.json": {
+        "SHA256": "a4602fabd91b4093b7bc6ee3fd2418ddbc8b36350c6bdc33974d2c5b0a7aa485",
+        "bytes": 5611
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/memory.elf": {
+        "SHA256": "9bc59978471d7ca258becfea44ca06d5adcef389cbd9147d8448c22de80c5b81",
+        "bytes": 1604944
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/control_compile.log": {
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/memory_compile.log": {
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    "all_actual_children_completed": true
+  },
+  "formal_UI_identity_before_after_equal": {
+    "PID": 5804,
+    "ticks": 264568,
+    "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+    "ELF": "c384f6b71fe7f76e4ac4d0e681ac2832c8e6149653f84188f9eb9a48ed622378",
+    "identity_SHA256": "54d59dc396070b6690947b4f1d3844a8485bf0ea2be7cd11d52af221c7e3bdc5"
+  },
+  "compiler_and_input_plan_SHA256": "73b7663fb78362d7f37c9d3ab75304e5e5fe48b64475a54cfedacb0be24fc628",
+  "source_and_evidence_SHA256": {
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/collect_ARM.py": "c30f572258ba4907fe8006f257d3ad3cd3cb1af60849a82c2e1b7ebad8b9ba04",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/staged.json": "0b4202c7f2a08fe1f76455fd9690d47a405263f02154f43e0a3925cd2ed91a12",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/stage_inputs.json": "1a641f148c708dca8108e50eae08eeb4263186a805d3c098a7657d8a8832870c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/ARM_job_receipt.json": "499f786adfb154eb00bb39b42eb1f43e1822cd27aaa0538af719bb9090cdf39b",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/verified.json": "88bcf45356fcf272e02dccb2dd6844100ed8d89e1e99367ca5857ee74ce56d7e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_Windows_r1/verified.json": "d5e1e9d3ac5c9ee0973fa6e817c0c7b52e5fa94ab1e0a0fcbdc6ae7bd8ce3d36",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/controls_ARM_r1/verified.json": "a4602fabd91b4093b7bc6ee3fd2418ddbc8b36350c6bdc33974d2c5b0a7aa485"
+  },
+  "actual_D9_XRT_device_session_route_PR_board_correctness_and_PS4_speed_still_pending": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

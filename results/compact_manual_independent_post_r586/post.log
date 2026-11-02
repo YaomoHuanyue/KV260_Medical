@@ -1,0 +1,25 @@
+OVERFLOW REPORT word=0 actual=00000000 expected=00000000
+OVERFLOW REPORT word=1 actual=00000000 expected=00000000
+OVERFLOW REPORT word=2 actual=7f800000 expected=7f800000
+OVERFLOW REPORT word=3 actual=7f800000 expected=7f800000
+OVERFLOW REPORT word=4 actual=00000004 expected=00000004
+OVERFLOW REPORT word=5 actual=00000000 expected=00000000
+OVERFLOW REPORT word=6 actual=00000000 expected=00000000
+OVERFLOW REPORT word=7 actual=00000000 expected=00000000
+OVERFLOW REPORT word=8 actual=00000000 expected=00000000
+OVERFLOW REPORT word=9 actual=00000000 expected=00000000
+OVERFLOW REPORT word=10 actual=00000000 expected=00000000
+OVERFLOW REPORT word=11 actual=00000000 expected=00000000
+OVERFLOW REPORT word=12 actual=00000000 expected=00000000
+OVERFLOW REPORT word=13 actual=00000000 expected=00000000
+OVERFLOW REPORT word=14 actual=00000000 expected=00000000
+OVERFLOW REPORT word=15 actual=00000000 expected=00000000
+PASS finite overflow accumulation all five banks and sixteen reports exact
+PASS circular nv=33001 edges=66002 exact coordinate/report
+PASS packed nv=67 edges=329 faces=5 kind=0 accepted=3 attempts=3 exact
+PASS packed nv=129 edges=582 faces=0 kind=1 accepted=1 attempts=5 exact
+PASS packed nv=1031 edges=4684 faces=0 kind=1 accepted=3 attempts=3 exact
+PASS packed nv=33 edges=8481 faces=0 kind=2 accepted=3 attempts=3 exact
+PASS invalid nv=0 report exact
+PASS six independent native oracle invocations plus explicit invalid case
+ALL FULL INTEGER FMA SEVEN STRICT CASES PASSED

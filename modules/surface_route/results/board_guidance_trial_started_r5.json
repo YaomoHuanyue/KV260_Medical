@@ -1,0 +1,11 @@
+{
+  "status": "source_bound_revised_curve_C9_guidance_trial_starting",
+  "UI_PID": 515444,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "wrapper_sha256": "c4cef11c1c6fe9a8445027fb7259335c29c055410f587635b28d682a12dd34c7",
+  "comparison_source_sha256": "4b9423ca87d30bb8f527baf61fcff62e7e6413d619d4a9f92d34ac2cf4ec65cd",
+  "candidate_manifest_sha256": "19f03f956438dc20d8fb4565fe166bdf9d5bac4e7315cfbfedcc38e7019e88bc"
+}

@@ -1,0 +1,89 @@
+{
+  "derivations": [
+    {
+      "parent": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/session.hpp",
+      "parent_SHA256": "b15fdadc185759de9555233d870853f0ec7d7f6021fd20ec7ca7c86a104e7fc4",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/session.hpp",
+      "generated_SHA256": "14280a3f94eab34abf6c1f7f42c95ff5fc22ce3e186ddf4bbb8dad5d2770dae6",
+      "edits": [
+        {
+          "before": "namespace mc_dfx {",
+          "after": "namespace smooth_d8_hw {",
+          "count": 1
+        },
+        {
+          "before": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/release_r1",
+          "after": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/release_r1",
+          "count": 1
+        },
+        {
+          "before": "KV260_MC8_D7_FMA2_POOLED_HOST_OFFLINE",
+          "after": "KV260_D8_AXIS_HARDWARE_OFFLINE",
+          "count": 1
+        },
+        {
+          "before": "modules/reconstruction/axis_mc_8_r2/dfx_r1/release_r1/medical_mc_D7_axis8_r2_partial.bin",
+          "after": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/release_r1/medical_smooth_D8_axis_r1_partial.bin",
+          "count": 1
+        },
+        {
+          "before": "/lib/firmware/medical_mc_D7_axis8_r2_partial.bin",
+          "after": "/lib/firmware/medical_smooth_D8_axis_r1_partial.bin",
+          "count": 1
+        },
+        {
+          "before": "identity==0xd7)",
+          "after": "identity==0xd7||identity==0xd8)",
+          "count": 1
+        },
+        {
+          "before": "name==\"axis_mc\"?0xd7",
+          "after": "name==\"axis_smooth\"?0xd8",
+          "count": 1
+        },
+        {
+          "before": "name==\"axis_mc\"?std::string(\"mc_D7_axis8_r2\")",
+          "after": "name==\"axis_smooth\"?std::string(\"smooth_D8_axis_r1\")",
+          "count": 1
+        },
+        {
+          "before": "../../modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_",
+          "after": "../../modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/results/switches_D8_",
+          "count": 1
+        },
+        {
+          "before": " double execute(double timeout){\n  require(!(gpio->read_register(8)&1)&&(ip->read_register(0)&4),\"RM not ready\");\n  SignalGuard active_dma;auto t=Clock::now();\n  try {ip->write_register(0,1);while(!(ip->read_register(0)&2)){if(seconds(t)>timeout)retain(\"Completion timeout\");std::this_thread::sleep_for(std::chrono::microseconds(100));}}\n  catch(const std::exception& e){retain(e.what());}\n  return seconds(t);\n }\n",
+          "after": " double execute(double)=delete; // D8 must use its header/graph stream scheduler.\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/require.hpp",
+      "parent_SHA256": "e165755b70bbb15c3b78da6cbf43c23cae9a682e76240fdb02941e379e6dfb7b",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/require.hpp",
+      "generated_SHA256": "832be0998bcb7e20dfc233aba5e153162fbb0821562654f26fb36247f49ea58e",
+      "edits": [
+        {
+          "before": "namespace mc_dfx {",
+          "after": "namespace smooth_d8_hw {",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/file_io.hpp",
+      "parent_SHA256": "a28c73960da06ac68d72246c7ae20774920e1ae74ce0522fabfa8af6d521953e",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/file_io.hpp",
+      "generated_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "edits": []
+    }
+  ],
+  "parent_not_modified": true,
+  "root_static_lock_DMA_idle_isolation_sentinel_count_boot_and_low_DDR_checks_preserved": true,
+  "D8_identity216_only_in_new_session": true,
+  "legacy_C2_guards_unchanged": true,
+  "legacy_single_start_execute_removed": true,
+  "PL_accessed": false,
+  "whole_goal_completed": false
+}

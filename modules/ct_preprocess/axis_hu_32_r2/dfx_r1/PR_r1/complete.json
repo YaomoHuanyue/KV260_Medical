@@ -1,0 +1,72 @@
+{
+  "status": "D6_real_100MHz_setup_hold_DRC_all5_full_PR_and_bit_passed",
+  "identity": 214,
+  "clock_MHz": 100,
+  "WNS_ns": 2.755,
+  "WHS_ns": 0.01,
+  "whole_resources": {
+    "LUT": 18689,
+    "FF": 31482,
+    "DSP": 0,
+    "BRAM36": 0,
+    "BRAM18": 32,
+    "URAM": 0
+  },
+  "RP_resources": {
+    "LUT": 4849,
+    "FF": 5600,
+    "DSP": 0,
+    "BRAM36": 0,
+    "BRAM18": 32,
+    "URAM": 0
+  },
+  "remaining_RP": {
+    "LUT": 83471,
+    "FF": 171040,
+    "DSP": 960,
+    "BRAM36_equivalent": 116.0,
+    "URAM": 64
+  },
+  "full_PR_passed": true,
+  "actual_PL_board_tested": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "inputs_SHA256": {
+    "modules/ct_preprocess/axis_hu_32_r2/run_PR.py": "b55dfeb9fc36cbec629f339c016998c9960b2ae14c22daf22ab38c9fce6ec1d1",
+    "modules/ct_preprocess/axis_hu_32_r2/implement_D6.tcl": "ea51a3d6d67d8541d14991fbe98f23338e1d2d25902b234ebbd32b37daeabb65",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/area_r2/rm_hu_D6_synth.dcp": "1c210d29cb4ed9ce306e02e1bab717f375013fd374e23a3f2532ec2f65ab1b07",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/area_r2/complete.json": "42bdc3199b840da67844c9afc4e2f7e9f904f4e10c3d8f9d5522fcc6fafbc725",
+    "modules/ct_preprocess/axis_hu_32_r2/verified_Windows.json": "65702bf8bf9bdf95c4ddda81271e8244875308cbfdb668d601c89b6e829c6f39",
+    "modules/ct_preprocess/axis_hu_32_r2/verified_ARM.json": "ea5a097958e789fb9339e3b014e0a9317e0bc9bd260430df0eba0fde23a7706e",
+    "dfx/medical/build/static_routed.dcp": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+    "dfx/medical/build/config_ct.dcp": "c2c8bd3fc9388ec7fac40412434f8d341753d7acfe927a97971bb75f55ee865c",
+    "dfx/medical/build/config_mc.dcp": "6293f9bb59c16f7144a275b5d50adbf35781c953977464f21ce6ae51696e9a14",
+    "dfx/medical/build/config_smooth.dcp": "159fa568f3071736cb86a30ce6a72fac9eeaa34a24126fa75d7e05fa1c80611f",
+    "dfx/medical/build/config_edt.dcp": "c576a61fc713695660a7c4b7abe6d37454c763bfbf565fa93d644b3d3d30ef49",
+    "dfx/medical/build/config_route.dcp": "f20e2184a3ba57d870d5874252c21c4d06a11f73ce383017c7ec493ab3b74c1f"
+  },
+  "artifacts_SHA256": {
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/admission.json": "c45cbbfa2ca8810b3de6b7c82bef227e6f7f23520f5bdd7499cf45c1266c0b83",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/clockInfo.txt": "7950be74a0451f086b888025f352d48e3f738e5a079150925dd6bb81c4562a46",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/config_hu_D6.bin": "56950d0a3d4e78cfa8a62cb281e7b7ade6dc54d70b3f7566e3705d75e91716e6",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/config_hu_D6.bit": "d8767e27e50c85ac20df1d05b49eb3720b880d5777fe430ea2c86451a647fc65",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/config_hu_D6.dcp": "e28f063d2a64ea0ab233e8c3514b291d3252da89ab987166a501e796942037b5",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/config_hu_D6_pblock_rp_partial.bin": "f697cb89b597d444a4d84d32f59d4ec8beb30038065e2a8f3ba6d95e0816a32e",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/config_hu_D6_pblock_rp_partial.bit": "9619cda4612228fe407ce3d09dd807e4f755c7f136303a9634435a73f8051d8f",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/dfx_runtime.txt": "5e13492fa8cf360c30e9354a479476e082f7557e03cca58abdccd810618f400d",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/drc.rpt": "8f1da9b2eeeb46568730a15757c9f533c1cc0ff69f715f4e4ea32856ac0176d0",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/OFFLINE_COMPLETE.txt": "a55d07dccfd6b600609729d7d8aaff9454fc71d7133806b28fb958f5f7ddd85a",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/pr_verify_ct.log": "3cecae24728e139ffced912ce2634fe7d7ed5ee05688caa40503ac33937fbb89",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/pr_verify_edt.log": "2d575c9245042814d84fa37f5851c1caa53c8d84e72bb887c2939045766ee5ed",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/pr_verify_mc.log": "2e983bfa88ef02c7d10a15876716fe1e8e6af6cf7430aa610e82504853cd4b2b",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/pr_verify_route.log": "274f72fb227835f534297442cd9e808cf76cb65afbee6cce99bd4ca70af9a63d",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/pr_verify_smooth.log": "1c1935815942a4d89e4fa1e6517325b236039cdd46f75b1721f66236d09efcce",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/receipt.json": "7776c448c85f862dfd357d36b84f742e1fe7ad9b6252e73ae85cb8163c63d08c",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/run.log": "da2e778b681b8f4f1cb8521c8096f4ea940d6e94fbaa588e9ec96125f3d62b68",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/started.json": "f3c88688f2b7154f7e64888c9f355e05b570c74c7ec4b95073518c607248656d",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/timing.rpt": "26d252c3e46eef4ae5c8d556132c5ec5cc5726d2005d2401af9ca294438c5aa1",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/utilization.rpt": "c2d48c88696613ee982ce34c3cffa91d4fc30863bd512e741979b2a74a2550dd",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/vivado.jou": "f9c56d76789ac5657681375d540af01a3122cd6ce9875d1cd2f345a47219c4cb",
+    "modules/ct_preprocess/axis_hu_32_r2/dfx_r1/PR_r1/vivado.log": "522515864981199b49c4fb069e256e2743c59b2f2082370a9e10ee5b253c9d76"
+  }
+}

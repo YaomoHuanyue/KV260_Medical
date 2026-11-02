@@ -1,0 +1,2 @@
+active
+52c2543eb80a0ff30b31ef844d6681e1cc328b8c0484da556962cd551ab2dcc0  /home/ubuntu/jupyter_notebooks/KV260_System/ui/v3/bin/medical_ui

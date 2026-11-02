@@ -1,0 +1,309 @@
+{
+  "entries": [
+    {
+      "name": "main.cpp",
+      "parent": "ui/releases/pl_reconstruction_r1/main.cpp",
+      "parent_SHA256": "7e32e46f5e04109e08705b33378d4c03263eb9e9b32814ca36a96f63fa601b51",
+      "output": "ui/releases/pl_reconstruction_r2/main.cpp",
+      "output_SHA256": "6a2a7e0b7e25531fc8f9c612fe040db1f7d63347460e1abee29a822112a66890",
+      "literal_edits": [
+        [
+          "ui/releases/pl_reconstruction_r1/backend.py",
+          "ui/releases/pl_reconstruction_r2/backend.py"
+        ]
+      ]
+    }
+  ],
+  "dispatcher": {
+    "name": "dispatch.py",
+    "parent": "ui/releases/pl_reconstruction_r1/dispatch.py",
+    "parent_SHA256": "d110dabc477ee6fddfd8f807f7806673d4f84434b56b6262ba679a1bd17740da",
+    "output": "ui/releases/pl_reconstruction_r2/dispatch.py",
+    "output_SHA256": "fe539880874e0973c74e81bbe1a47808ceec63b7112481144914106127f99dd2",
+    "literal_edits": [
+      [
+        "modules/reconstruction/axis_mc_r1/integrated_r1/run_reconstruction.py",
+        "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_reconstruction.py"
+      ],
+      [
+        "modules/reconstruction/axis_mc_r1/integrated_r1/run_partial.py",
+        "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_partial.py"
+      ]
+    ]
+  },
+  "all_UI_logic_and_widgets_unchanged": true,
+  "MC8_and_pooled_host_only": true,
+  "no_new_firmware_or_autostart": true,
+  "all_original_native_and_actual_GUI_gates_retained": true,
+  "generator_SHA256": "5ad999b87c80036f7f771edc792adc210a1f0504cca48fa0a8c8e5dfb6e2f7b3",
+  "derived_files": [
+    {
+      "name": "main.cpp",
+      "parent": "ui/releases/pl_reconstruction_r1/main.cpp",
+      "parent_SHA256": "7e32e46f5e04109e08705b33378d4c03263eb9e9b32814ca36a96f63fa601b51",
+      "output": "ui/releases/pl_reconstruction_r2/main.cpp",
+      "output_SHA256": "6a2a7e0b7e25531fc8f9c612fe040db1f7d63347460e1abee29a822112a66890",
+      "literal_edits": [
+        [
+          "ui/releases/pl_reconstruction_r1/backend.py",
+          "ui/releases/pl_reconstruction_r2/backend.py"
+        ]
+      ]
+    },
+    {
+      "name": "test_actual.cpp",
+      "parent": "ui/releases/pl_reconstruction_r1/test_actual.cpp",
+      "parent_SHA256": "0358df08d917ee689c5f4d2ef57aa88ce2f199c59146dcd201d39d3ace2a4b49",
+      "output": "ui/releases/pl_reconstruction_r2/test_actual.cpp",
+      "output_SHA256": "dd02038717d0cf465c2abae3da353479e53010123749cf367b24c147b86dc933",
+      "literal_edits": []
+    },
+    {
+      "name": "backend.py",
+      "parent": "ui/releases/pl_reconstruction_r1/backend.py",
+      "parent_SHA256": "3000a74df6e363094ebf0df365f7a233b106404e622bdaf895c263c31acdd3f0",
+      "output": "ui/releases/pl_reconstruction_r2/backend.py",
+      "output_SHA256": "c9a1c8e44e060a14ba87fb1babdb51de7abdfef983da6007f12471c62c02086f",
+      "literal_edits": [
+        [
+          "modules.reconstruction.axis_mc_r1.host_integrated_r2",
+          "modules.reconstruction.axis_mc_8_r2.host_pooled_r2"
+        ]
+      ]
+    },
+    {
+      "name": "dispatch.py",
+      "parent": "ui/releases/pl_reconstruction_r1/dispatch.py",
+      "parent_SHA256": "d110dabc477ee6fddfd8f807f7806673d4f84434b56b6262ba679a1bd17740da",
+      "output": "ui/releases/pl_reconstruction_r2/dispatch.py",
+      "output_SHA256": "fe539880874e0973c74e81bbe1a47808ceec63b7112481144914106127f99dd2",
+      "literal_edits": [
+        [
+          "modules/reconstruction/axis_mc_r1/integrated_r1/run_reconstruction.py",
+          "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_reconstruction.py"
+        ],
+        [
+          "modules/reconstruction/axis_mc_r1/integrated_r1/run_partial.py",
+          "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/run_partial.py"
+        ]
+      ]
+    },
+    {
+      "name": "compile_ARM.py",
+      "parent": "ui/releases/pl_reconstruction_r1/compile_ARM.py",
+      "parent_SHA256": "6c32445b2d73bb1de3082931e992a0f6edd0b3e6714172de4e5b3dc2e89ea186",
+      "output": "ui/releases/pl_reconstruction_r2/compile_ARM.py",
+      "output_SHA256": "3a4147ec8ee5b37518e2b76d67e6ca281252065e6d7b108076355bb63e2b2542",
+      "literal_edits": [
+        [
+          "medical_ui_PL_D7_FMA2",
+          "medical_ui_PL_MC8_FMA2_pool"
+        ]
+      ]
+    },
+    {
+      "name": "compile_actual_ARM.py",
+      "parent": "ui/releases/pl_reconstruction_r1/compile_actual_ARM.py",
+      "parent_SHA256": "2f3d8db5647d4350ec49ecb39764157d479ab9c4aed8860892525521806f7f71",
+      "output": "ui/releases/pl_reconstruction_r2/compile_actual_ARM.py",
+      "output_SHA256": "e50c948307f48bd27e7382f0d547bcb73d3e6bcc73296e85c1e79e479b27b9d2",
+      "literal_edits": [
+        [
+          "medical_ui_PL_D7_FMA2",
+          "medical_ui_PL_MC8_FMA2_pool"
+        ]
+      ]
+    },
+    {
+      "name": "qualify_publish_ARM.py",
+      "parent": "ui/releases/pl_reconstruction_r1/qualify_publish_ARM.py",
+      "parent_SHA256": "18f627cf021eb367424a3b5375da36e9ca5b2035c9d0cfbbc2af2eefe83acef7",
+      "output": "ui/releases/pl_reconstruction_r2/qualify_publish_ARM.py",
+      "output_SHA256": "7165695ccfe19b13c054d4f80ed6902129de9d8f83d9d8a59e2b4b157dddf7f3",
+      "literal_edits": [
+        [
+          "kv260.manual_PL_D7_FMA2_UI.v1",
+          "kv260.manual_PL_MC8_FMA2_pool_UI.v2"
+        ],
+        [
+          "DFX_PL_MC_D7_AXIS_FMA2",
+          "DFX_PL_MC8_D7_AXIS_FMA2_POOLED"
+        ],
+        [
+          "medical_ui_PL_D7_FMA2",
+          "medical_ui_PL_MC8_FMA2_pool"
+        ],
+        [
+          "native_UI_DFX_PL_HU32_D7_FMA2",
+          "native_UI_DFX_PL_HU32_MC8_FMA2_pool"
+        ],
+        [
+          "modules/reconstruction/axis_mc_r1/host_integrated_r2",
+          "modules/reconstruction/axis_mc_8_r2/host_pooled_r2"
+        ],
+        [
+          "results/MC_FMA2_integrated_board_r1",
+          "results/MC_AXIS8_FMA2_pooled_board_r3"
+        ],
+        [
+          "passed_actual_D7_FMA2_UI_pipeline_and_original_native_suites",
+          "passed_actual_MC8_pooled_FMA2_UI_pipeline_and_original_native_suites"
+        ],
+        [
+          "published_actual_D7_FMA2_UI_with_exact_previous_case",
+          "published_actual_MC8_pooled_FMA2_UI_with_exact_previous_case"
+        ],
+        [
+          "from ui.releases.pl_preprocess_r1.release_runtime import verify as parent_verify",
+          "from ui.releases.pl_reconstruction_r1.release_runtime import verify as parent_verify"
+        ],
+        [
+          "        while proc.exists() and time.monotonic() < deadline:\n            time.sleep(.2)\n        assert not proc.exists(), 'Preserve original GUI still draining; no forced stop'",
+          "        from modules.reconstruction.axis_mc_8_r2.integrated_pooled_r3.board_trial import ui_is_live\n        while ui_is_live(proc,state['UI_start_ticks']) and time.monotonic() < deadline:\n            time.sleep(.2)\n        assert not ui_is_live(proc,state['UI_start_ticks']), 'Preserve original GUI still draining; no forced stop'"
+        ],
+        [
+          "        assert reconstruction['mc_kernel']=='AXIS_D7' and reconstruction['smoothing_kernel']=='FMA2'",
+          "        assert reconstruction['mc_kernel']=='AXIS_D7' and reconstruction['smoothing_kernel']=='FMA2'\n        assert reconstruction['mc_scan_voxels_per_iteration']==8"
+        ],
+        [
+          "            assert current['smooth']['report_words']==layer['smoothing']['report_words']",
+          "            assert current['smooth']['report_words']==layer['smoothing']['report_words']\n            smooth=current['smooth']\n            assert smooth['pool_allocations_this_call']==(11 if name=='lung' else 0)\n            assert smooth['pool_reused_buffers_this_call']==(0 if name=='lung' else 11)\n            assert smooth['intermediate_input_vector_bytes']==0"
+        ],
+        [
+          "            actual_D7_AXIS_MC_and_FMA2_smoothing_used=True,reconstruction_partial_switches=2,",
+          "            actual_D7_AXIS_MC_and_FMA2_smoothing_used=True,reconstruction_partial_switches=2,\n            actual_MC8_scan8_and_pooled_smoothing_used=True,"
+        ],
+        [
+          "def restore_parent(state,before):\n    from modules.mask_evaluation.ui.actual_pl_r3.check_ARM import review_identity\n    from ui.releases.pl_preprocess_r1 import release_runtime as legacy\n    from modules.reconstruction.axis_mc_r1.integrated_r1.reviewed_parent_launcher import launch as restore_exact\n    target=Path(state['actual_selected_result']).resolve()/'pipeline.json'\n    assert target.is_relative_to(ROOT/'ui/runs') and not target.is_symlink()\n    content=sha(target);stat=target.stat()\n    pipeline=json.loads(target.read_text())\n    assert pipeline['status']=='passed' and pipeline['input_sha256']==state['files_sha256']['fixtures/own_ct/CT-chest.nrrd']\n    catalogued=list((ROOT/'ui/runs').glob('*/pipeline.json'))+list((ROOT/'dfx/medical/results').glob('*/whole_case/pipeline.json'))\n    newest=max(p.stat().st_mtime_ns for p in catalogued)\n    write(OUT/'catalogue_before_restore.json',dict(path=str(target),SHA256=content,atime_ns=stat.st_atime_ns,mtime_ns=stat.st_mtime_ns,\n        temporary_priority_needed_because_released_UI_has_no_initial_result_argument=True))\n    restored=None\n    try:\n        os.utime(target,ns=(stat.st_atime_ns,newest+1000000000))\n        restored=restore_exact();review_identity(restored)\n    finally:\n        assert sha(target)==content\n        os.utime(target,ns=(stat.st_atime_ns,stat.st_mtime_ns))\n        after=target.stat();assert (after.st_atime_ns,after.st_mtime_ns)==(stat.st_atime_ns,stat.st_mtime_ns)\n        write(OUT/'catalogue_timestamps_restored.json',dict(original_atime_and_mtime_restored=True,file_contents_unchanged=True,path=str(target),SHA256=content))\n    assert restored is not None\n    identity=ROOT/'tools/storage_runtime_identity.json';after=identity.read_bytes()\n    mapping_path=ROOT/'tools/storage_protected_paths.json';mapping=json.loads(mapping_path.read_text())\n    assert mapping['tools/storage_runtime_identity.json']==hashlib.sha256(before).hexdigest()\n    mapping['tools/storage_runtime_identity.json']=hashlib.sha256(after).hexdigest()\n    temp=mapping_path.with_name(mapping_path.name+'.HU_AXIS_restore_new');assert not temp.exists()\n    temp.write_text(json.dumps(mapping,indent=2)+'\\n');os.replace(temp,mapping_path)\n    (OUT/'runtime_identity_after.json').write_bytes(after)\n    write(OUT/'restored_UI.json',dict(restored=restored,same_selected_case_and_scene=True,\n        old_UI_PID=state['UI_PID'],only_PID_ticks_and_owned_evidence_path_changed=True,\n        no_second_GUI_or_forced_kill=True))\n    return restored\n\n\n",
+          "def restore_parent(state,before):\n    # Use the actual current release's launcher and ownership checks. Older\n    # restore helpers hardcode a different backend prepare command.\n    from ui.releases.pl_reconstruction_r1.release_runtime import launch\n    target=Path(state['actual_selected_result']).resolve()/'pipeline.json'\n    assert target.is_relative_to(ROOT/'ui/runs') and not target.is_symlink()\n    content=sha(target);stat=target.stat();pipeline=json.loads(target.read_text())\n    assert pipeline['status']=='passed' and pipeline['input_sha256']==state['files_sha256']['fixtures/own_ct/CT-chest.nrrd']\n    newest=max(p.stat().st_mtime_ns for pattern in ['ui/runs/*/pipeline.json','dfx/medical/results/*/whole_case/pipeline.json']\n               for p in ROOT.glob(pattern))\n    write(OUT/'selected_case_before_restore.json',dict(path=str(target),SHA256=content,atime_ns=stat.st_atime_ns,mtime_ns=stat.st_mtime_ns))\n    try:\n        os.utime(target,ns=(stat.st_atime_ns,newest+1000000000))\n        current=launch()\n        assert current['actual_selected_result']==state['actual_selected_result']\n        assert current['actual_selected_scene']==state['actual_selected_scene']\n        assert current['boot_id']==state['boot_id'] and current['medical_shell_marker']==state['medical_shell_marker']\n        assert current['binary_sha256']==state['binary_sha256'] and current['files_sha256']==state['files_sha256']\n    finally:\n        assert sha(target)==content\n        os.utime(target,ns=(stat.st_atime_ns,stat.st_mtime_ns))\n        write(OUT/'selected_case_timestamps_restored.json',dict(contents_and_timestamps_restored=True))\n    assert review_identity(current)==[]\n    after=(ROOT/'tools/storage_runtime_identity.json').read_bytes()\n    mapping_path=ROOT/'tools/storage_protected_paths.json';mapping=json.loads(mapping_path.read_text())\n    (OUT/'board_protection_before_restore.json.gz').write_bytes(gzip.compress(mapping_path.read_bytes(),mtime=0))\n    for key in ['tools/storage_runtime_identity.json','kv260_system/tools/storage_runtime_identity.json']:\n        if key in mapping:\n            assert mapping[key]==hashlib.sha256(before).hexdigest();mapping[key]=hashlib.sha256(after).hexdigest()\n    temporary=mapping_path.with_name(mapping_path.name+'.MC_FMA2_new');assert not temporary.exists()\n    temporary.write_text(json.dumps(mapping,indent=2)+'\\n');os.replace(temporary,mapping_path)\n    (OUT/'runtime_identity_after.json').write_bytes(after)\n    write(OUT/'restored_UI.json',dict(runtime=current,same_case_scene_ELF_and_release=True,\n        old_PID=state['UI_PID'],no_auto_start_or_network_change=True))\n    return current\n\n\n\n"
+        ]
+      ]
+    },
+    {
+      "name": "release_runtime.py",
+      "parent": "ui/releases/pl_reconstruction_r1/release_runtime.py",
+      "parent_SHA256": "eb2ee10bd9c7eadf19ed5450b5d88f002dce1faf83cfa7afc2319dd463e15dca",
+      "output": "ui/releases/pl_reconstruction_r2/release_runtime.py",
+      "output_SHA256": "9fcbb69614ed039222a245d52f1d7e6256b84dfe76b1429664f7a01b39d3f254",
+      "literal_edits": [
+        [
+          "ui/releases/pl_reconstruction_r1",
+          "ui/releases/pl_reconstruction_r2"
+        ],
+        [
+          "kv260.manual_PL_D7_FMA2_UI.v1",
+          "kv260.manual_PL_MC8_FMA2_pool_UI.v2"
+        ],
+        [
+          "DFX_PL_MC_D7_AXIS_FMA2",
+          "DFX_PL_MC8_D7_AXIS_FMA2_POOLED"
+        ],
+        [
+          "modules.reconstruction.axis_mc_r1.host_integrated_r2",
+          "modules.reconstruction.axis_mc_8_r2.host_pooled_r2"
+        ],
+        [
+          "passed_actual_D7_FMA2_UI_pipeline_and_original_native_suites",
+          "passed_actual_MC8_pooled_FMA2_UI_pipeline_and_original_native_suites"
+        ],
+        [
+          "from ui.releases.pl_preprocess_r1.release_runtime import verify as parent_verify",
+          "from ui.releases.pl_reconstruction_r1.release_runtime import verify as parent_verify"
+        ],
+        [
+          "assert full['actual_D7_AXIS_MC_and_FMA2_smoothing_used'] and full['reconstruction_partial_switches']==2",
+          "assert full['actual_D7_AXIS_MC_and_FMA2_smoothing_used'] and full['reconstruction_partial_switches']==2\n    assert full['actual_MC8_scan8_and_pooled_smoothing_used']"
+        ]
+      ]
+    },
+    {
+      "name": "review.py",
+      "parent": "ui/releases/pl_reconstruction_r1/review.py",
+      "parent_SHA256": "7836deba15a6a49948f65aa9106f4500b4cf20d9c0ff72c8cf4aea33fed14486",
+      "output": "ui/releases/pl_reconstruction_r2/review.py",
+      "output_SHA256": "b569f705becbd7d90c6e9c5fcb33ad13095ceef26bdc1aa43e7e07259d5c473b",
+      "literal_edits": [
+        [
+          "kv260.manual_PL_D7_FMA2_UI.v1",
+          "kv260.manual_PL_MC8_FMA2_pool_UI.v2"
+        ],
+        [
+          "    assert reconstruction['mc_kernel']=='AXIS_D7' and reconstruction['smoothing_kernel']=='FMA2'",
+          "    assert reconstruction['mc_kernel']=='AXIS_D7' and reconstruction['smoothing_kernel']=='FMA2'\n    assert reconstruction['mc_scan_voxels_per_iteration']==8\n    assert full['actual_MC8_scan8_and_pooled_smoothing_used']"
+        ],
+        [
+          "        MC_AXIS_formally_integrated=True,smoothing_algorithm_AXIS_migration_pending=True,",
+          "        MC_AXIS_formally_integrated=True,MC_scan_voxels_per_iteration=8,\n        smoothing_host_buffer_pool_formally_integrated=True,smoothing_algorithm_AXIS_migration_pending=True,"
+        ]
+      ]
+    },
+    {
+      "name": "adopt_PC.py",
+      "parent": "ui/releases/pl_reconstruction_r1/adopt_PC.py",
+      "parent_SHA256": "5d4118676f6ac3f6134c317a0a660358426f19449e4ee2fc9893bc04f94ac00b",
+      "output": "ui/releases/pl_reconstruction_r2/adopt_PC.py",
+      "output_SHA256": "e016ecdc4d817f76666e180d6534594d2a5d44c707cec30e359ae6ba9f1adf80",
+      "literal_edits": [
+        [
+          "kv260.manual_PL_D7_FMA2_UI.v1",
+          "kv260.manual_PL_MC8_FMA2_pool_UI.v2"
+        ],
+        [
+          "DFX_PL_MC_D7_AXIS_FMA2",
+          "DFX_PL_MC8_D7_AXIS_FMA2_POOLED"
+        ],
+        [
+          "modules/reconstruction/axis_mc_r1/integrated_r1",
+          "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3"
+        ],
+        [
+          "results/MC_FMA2_integrated_board_r1",
+          "results/MC_AXIS8_FMA2_pooled_board_r3"
+        ],
+        [
+          "passed_actual_D7_FMA2_UI_pipeline_and_original_native_suites",
+          "passed_actual_MC8_pooled_FMA2_UI_pipeline_and_original_native_suites"
+        ],
+        [
+          "published_actual_D7_FMA2_UI_with_exact_previous_case",
+          "published_actual_MC8_pooled_FMA2_UI_with_exact_previous_case"
+        ],
+        [
+          "default_MC='DFX_PL_D7_AXIS512'",
+          "default_MC='DFX_PL_D7_AXIS512_SCAN8'"
+        ],
+        [
+          "        physical_retest_pending=True,speed_vs_optimized_PS4_not_claimed=True,whole_goal_completed=False,",
+          "        physical_retest_pending=True,MC_core_PS4_speed_gate_passed=True,\n        full_pipeline_PS4_speed_not_claimed=True,whole_goal_completed=False,"
+        ]
+      ]
+    },
+    {
+      "name": "collect_Windows.py",
+      "parent": "ui/releases/pl_reconstruction_r1/collect_Windows.py",
+      "parent_SHA256": "f91dca8fc310e700ce1c54d29d339577537d3503770c0e46ec2a7ad0d030cd28",
+      "output": "ui/releases/pl_reconstruction_r2/collect_Windows.py",
+      "output_SHA256": "bb500c54f5b03d5213da27157680c24cd36f95f7d760cc2132334c12b2273593",
+      "literal_edits": [
+        [
+          "published_actual_D7_FMA2_UI_with_exact_previous_case",
+          "published_actual_MC8_pooled_FMA2_UI_with_exact_previous_case"
+        ]
+      ]
+    },
+    {
+      "name": "run.sh",
+      "parent": "ui/releases/pl_reconstruction_r1/run.sh",
+      "parent_SHA256": "fec59f528b47e6f8ab078d6631365bcb3c557cff878a89aa63c828ef0e852ccc",
+      "output": "ui/releases/pl_reconstruction_r2/run.sh",
+      "output_SHA256": "0fd9a7e7cf0c8ffd4b5552b18c6850e7f4b0dcbd6ac8705ec05a934519757fe0",
+      "literal_edits": [
+        [
+          "ui/releases/pl_reconstruction_r1",
+          "ui/releases/pl_reconstruction_r2"
+        ]
+      ]
+    }
+  ],
+  "production_promoted": false
+}

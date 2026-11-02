@@ -1,0 +1,36 @@
+{
+  "status": "actual_full_CT_D6_C5_integration_independently_verified",
+  "actual_D6_C5_full_pipeline_passed": true,
+  "full_CT_voxels": 36438016,
+  "full_masks_exact": 4,
+  "all_139_airway_logit_planes_bytes_exact": true,
+  "HU_DFX_switches": 1,
+  "C5_DFX_switches": 1,
+  "intermediate_restore_switches": 0,
+  "exact_selected_UI_case_restored": true,
+  "restored_UI_PID": 1202749,
+  "single_pair_worker_timings": {
+    "PS_HU_C5_process_wall_seconds": 48.08764114102814,
+    "PL_HU_D6_C5_process_wall_seconds": 53.33734382700641,
+    "speed_gate_passed": false,
+    "note": "One run each, includes process launch and file I/O; both entries run without reference checks inside their timed process. Comparison follows both runs; one pair is not a repeated isolated performance benchmark."
+  },
+  "repeated_fair_performance_comparison_qualified": false,
+  "current_HDMI_entry_not_yet_migrated": true,
+  "production_promoted": false,
+  "clinical_ground_truth_accuracy_claimed": false,
+  "whole_goal_completed": false,
+  "evidence_SHA256": {
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/verify.py": "82f89c578e1f3c283288d96e832fa880dc478fe4dd30d9e891b2c2fd87dbf543",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/benchmark_board.py": "93960a9bab0dddd0939260fff216d7ae2e4c6ad5d5a867f3565718621d7cbe8f",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/board_trial.py": "16eb4481f69a1a78b821a4096c52765b678b589be4b746a966108b666de677ca",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/pl_context.py": "ff31e8ceb57c464e902ca95a4a6835425d32efe798363405374ad24dadc40247",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/prepare.py": "9c89d80a7ffe48ddb27150b28bfc5b9b3174ed487569910f6f8c090902b67d7a",
+    "results/HU32_C5_integration_board_r1/benchmark.json": "b02358eacf8ec97aed34b12c3e6a196bfba58f5314a61a1501d2a528408456ca",
+    "results/HU32_C5_integration_board_r1/complete.json": "abcadd88b9f50c99644e3c31efa654e9768dcdb4e3e192dd94278d6a9288f520",
+    "results/HU32_C5_integration_board_r1/benchmark_receipt.json": "be7b7299f476823a6ba1825db23db6536ae78d86f86f3fbf1c1bced2b2d9eb66",
+    "results/HU32_C5_integration_board_r1/stream_collected_Windows.json": "9329a25f1bb63e9f1fdf117d0b948991a9ef45441598d4abef01cd96eb48dac1",
+    "results/HU32_C5_integration_board_r1/runtime_identity_after.json": "3ee53e027374644f835978b85bf6f086148547d459e80d95f36eab5b459cfca1"
+  }
+}

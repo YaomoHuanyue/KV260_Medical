@@ -1,0 +1,45 @@
+{
+  "model_header_SHA256": "5143d6dbde4c0ef165e329e3d4aa60246d5ad69b9488a07424b4453b9bf8998b",
+  "original_native_proof_SHA256": "bfc3f4b4b82a7d53f3d36da0bfba8ea8a1ec39417988d051acca28f01ac06cbe",
+  "exact_model_pool_chains": [
+    {
+      "conv_id": 1,
+      "channels": 16,
+      "pool": "/pool/MaxPool",
+      "table_SHA256": "2acb03ba7520467636273208563f8e733494748f4aa5ac2dba89d9560050da79",
+      "source_scale": 0.06644701212644577,
+      "source_zero": 0,
+      "pool_scale": 0.06644701212644577,
+      "pool_zero": 0
+    },
+    {
+      "conv_id": 3,
+      "channels": 32,
+      "pool": "/pool_1/MaxPool",
+      "table_SHA256": "3ba0e8c8f80a48ac64d6ad9033c237d7a685527b29809af60fde2f31c990eb5e",
+      "source_scale": 0.09002102166414261,
+      "source_zero": 0,
+      "pool_scale": 0.08081571012735367,
+      "pool_zero": 0
+    },
+    {
+      "conv_id": 5,
+      "channels": 32,
+      "pool": "/pool_2/MaxPool",
+      "table_SHA256": "423d5f3afa26db0fd7e8d5d1197b8536c20a5b980e6d2c1591769e9935454054",
+      "source_scale": 0.08303668349981308,
+      "source_zero": 0,
+      "pool_scale": 0.06527189165353775,
+      "pool_zero": 0
+    }
+  ],
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/make_model_tables.py": "fe3abf4a5de9ab2ec4b6164cd6f6193592be6cb5e0e3764ba1e3a909d2b27651",
+    "modules/segmentation/outputs/ct_accuracy_v2/pl_model/graph.json": "038ecc73f6fe6805a64af153f31e222453d2bfe7d90a7cddf076862904329eb3",
+    "modules/segmentation/outputs/ct_accuracy_v2/pl_model/tensors.npz": "9c57169691fe8f961f71d595f2b0acfe03c9742de9e7c222e0d3a2dd9b6898ad"
+  },
+  "original_graph_weights_and_native_proof_unchanged": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

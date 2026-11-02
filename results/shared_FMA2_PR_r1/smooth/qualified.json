@@ -1,0 +1,54 @@
+{
+  "status": "actual16K_same_full14_RTL_and_complete_RM_qualified_original100MHz_PR_pending",
+  "original14_6422850_native144_CT18_7Csim_20ID5banks17controls8DLLs_all_preserved": true,
+  "same_full_RTL_HLS_official_package_and_synthesized_wrapper_RTL_verified": true,
+  "actual_complete_RM_resources": {
+    "LUT": 73883,
+    "FF": 93076,
+    "DSP": 168,
+    "BRAM36": 110,
+    "BRAM18": 7,
+    "URAM": 32
+  },
+  "actual_RM_capacity_qualified": true,
+  "original_RP_budget": {
+    "LUT": 88320,
+    "FF": 176640,
+    "DSP": 960,
+    "BRAM36_equivalent": 132,
+    "URAM": 64
+  },
+  "remaining_RP": {
+    "LUT": 14437,
+    "FF": 83564,
+    "DSP": 792,
+    "BRAM36_equivalent": 18.5,
+    "URAM": 32
+  },
+  "candidate_DCP_SHA256": "38257d38028619e1b85c753428bd527f523f20aa769388614b6710669ec41706",
+  "frozen_static_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "original100MHz_setup_hold_DRC_fullPR_all5_artifacts_required": true,
+  "original_all3_strongest_PS4_board_tests_still_required": true,
+  "source_and_evidence_sha256": {
+    "results/shared_FMA2_full_RTL_r1/smooth_rtl/verified_current_full14_Windows.json": "3e881601f25ce8960dd28dbbfb842b6d4d3d6ad087c76c6da485c9392fc9b26c",
+    "results/shared_FMA2_full_RTL_r1/smooth_rtl/verified_current_full14_ARM.json": "7e686081cf51381b0c965488ddfbe423ede982d22e9127b5c55316303249b1ee",
+    "tools/shared_FMA2_PR_r1.py": "3b4dffe4a2e774308ef3b055ae71ea483118a7e7a29b603523855241f52bab09",
+    "tools/cache_retention_PR_r1.py": "4bcd7ee711143a4dbba2c480e355f0e00385a301d05bbe9cba288173412b8861",
+    "dfx/smooth_speed/shared_fma2_r1/verify_area_current.py": "84b12ce9d38b7b988dfafbe30f8d48655510b6a764092770ab644c682f083b17",
+    "dfx/smooth_speed/shared_fma2_r1/verify_full_RTL_current_r1.py": "3b1f66be486b10d892db278edfeb21175e68df9b3874ef909327a85705c7e7e6",
+    "results/shared_fma2_area_r1/smooth_area/current_candidate.zip": "8eb0a7fd5ce0719c4c19e23bffd083df46f300d0993713025c19b491e3164457",
+    "results/shared_fma2_area_r1/smooth_area/verified_current_area.json": "1722fe34615716d899c8b6a0ba4ec08fd20a659796ebe47e9f16e6b626e4eb64",
+    "results/shared_FMA2_full_RTL_r1/smooth_rtl/current_candidate.zip": "e824be152e4da87120b2cc980390d6f647b55f8333914472f96638b9145d77bf",
+    "results/shared_FMA2_full_RTL_r1/smooth_rtl/current_curation.json": "a34ab91dd9cb0f5f55d7a30332336fa46b93d1e210219757093a7116d4564e8a",
+    "results/shared_FMA2_full_RTL_r1/smooth_rtl/cleanup_verified_r2617.json": "f593e680598322f2486c3cb8eaba39404c7e413c072d2000f6264e210dcdbf77",
+    "dfx/medical/build/rp_ports.json": "efc387572cab0bff968e5f8c02a235e32d792a1dca015abe45e6ee583e64c9c8",
+    "dfx/medical/build/static_routed.dcp": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+    "dfx/medical/build/config_smooth.dcp": "159fa568f3071736cb86a30ce6a72fac9eeaa34a24126fa75d7e05fa1c80611f",
+    "dfx/smooth_speed/route_shared_fma2_r1/check_reports_r1.py": "7bf2e331eb1214c8af51619e8835fb963dd3ad1a3214e8a78a588ae9df0d2a21",
+    "dfx/smooth_speed/route_shared_fma2_r1/derivation.json": "23e8ab9ef1b02861b98facc969d06c9fe33aaafdbdfdfd897082193855ef6ef0",
+    "dfx/smooth_speed/route_shared_fma2_r1/implement_shared_fma2_r1.tcl": "7c04c699d275ea9fb72ff36cff75da898e32502eeaf7addda651da23a5fd7c63"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

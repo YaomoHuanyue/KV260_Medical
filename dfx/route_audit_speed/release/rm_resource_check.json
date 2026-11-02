@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "resources": {
+    "lut": 81397,
+    "ff": 73487,
+    "dsp": 192,
+    "bram36_equivalent": 59.5,
+    "uram": 58
+  },
+  "budget": {
+    "lut": 88320,
+    "ff": 176640,
+    "dsp": 960,
+    "bram36_equivalent": 132,
+    "uram": 64
+  },
+  "remaining": {
+    "lut": 6923,
+    "ff": 103153,
+    "dsp": 768,
+    "bram36_equivalent": 72.5,
+    "uram": 6
+  },
+  "excess": {},
+  "note": "Synthesized RM only; routing, timing and PR still required"
+}

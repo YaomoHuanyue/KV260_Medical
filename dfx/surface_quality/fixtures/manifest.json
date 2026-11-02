@@ -1,0 +1,405 @@
+{
+  "status": "generated_dense_references",
+  "cases": [
+    {
+      "name": "page_boundary_Q5",
+      "bricks": 232,
+      "pages": 8,
+      "shape_xyz": [
+        72,
+        72,
+        160
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false
+    },
+    {
+      "name": "deep_field_Q5",
+      "bricks": 247,
+      "pages": 8,
+      "shape_xyz": [
+        72,
+        72,
+        160
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false
+    },
+    {
+      "name": "page_boundary_Q6",
+      "bricks": 236,
+      "pages": 8,
+      "shape_xyz": [
+        72,
+        72,
+        160
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false
+    },
+    {
+      "name": "deep_field_Q6",
+      "bricks": 249,
+      "pages": 8,
+      "shape_xyz": [
+        72,
+        72,
+        160
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false
+    },
+    {
+      "name": "last_cache_Q5",
+      "bricks": 1,
+      "pages": 1,
+      "shape_xyz": [
+        384,
+        320,
+        512
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "final_brick_id": 10240,
+      "final_page_id": 128,
+      "final_leaf_word": 2047,
+      "final_wire_field_word": 20479,
+      "final_packed_field_word": 16383,
+      "final_packed_slot": 4
+    },
+    {
+      "name": "last_cache_Q6",
+      "bricks": 1,
+      "pages": 1,
+      "shape_xyz": [
+        384,
+        320,
+        512
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "final_brick_id": 10240,
+      "final_page_id": 128,
+      "final_leaf_word": 2047,
+      "final_wire_field_word": 20479,
+      "final_packed_field_word": 16383,
+      "final_packed_slot": 4
+    },
+    {
+      "name": "own_CT_accepted_binary_high",
+      "bricks": 8072,
+      "pages": 93,
+      "shape_xyz": [
+        246,
+        173,
+        295
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "field_sha256": "15b0b5e8bdb45847d67abc4e2d597a195579c9ab8c0eb2a68cd9d80af0f076f0"
+    },
+    {
+      "name": "own_CT_accepted_binary_ultra",
+      "bricks": 8094,
+      "pages": 93,
+      "shape_xyz": [
+        246,
+        173,
+        295
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "field_sha256": "2a30c57203945fba4bbbb22317d880ba28831fa37244ccdba5a5b59aa4d0fe93"
+    },
+    {
+      "name": "own_CT_network_probability_high",
+      "bricks": 7964,
+      "pages": 89,
+      "shape_xyz": [
+        341,
+        293,
+        461
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "field_sha256": "14949d26d8d297ed9dd35ffa964b6e90f81a4aef73a58475eabbd29a18c26040"
+    },
+    {
+      "name": "own_CT_network_probability_ultra",
+      "bricks": 7954,
+      "pages": 89,
+      "shape_xyz": [
+        341,
+        293,
+        461
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "field_sha256": "7c1bc1f9acd0cbadd5d91e4d47249a3430c590a2079906cbb5427aaa50ca828d"
+    },
+    {
+      "name": "own_CT_native_support_Q5",
+      "bricks": 9379,
+      "pages": 96,
+      "shape_xyz": [
+        246,
+        173,
+        295
+      ],
+      "fraction_bits": 5,
+      "field_scale_mm": 0.03125,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "identified_input": {
+        "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "model_sha256": "7efb3b35fb2ffd0d49270be0e4cb7a42622ca5330ddbdd98ae22fb2422464865",
+        "scalar_source": "accepted_binary",
+        "inputs_sha256": {
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\fixtures\\own_ct\\CT-chest.nrrd": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\runs\\20261004_151324_f601e259\\segmentation\\report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\runs\\20261004_151324_f601e259\\segmentation\\airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45"
+        },
+        "input_geometry": {
+          "size_xyz": [
+            512,
+            512,
+            139
+          ],
+          "spacing_xyz_mm": [
+            0.7617189884185791,
+            0.7617189884185791,
+            2.5
+          ],
+          "origin_lps_mm": [
+            -195.0,
+            -171.6999969482422,
+            -347.75
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "probability_mask_gating_applied": false,
+        "accepted_mask_replaced": false
+      },
+      "positive_components_26": 1,
+      "original_path_support": {
+        "centerline": {
+          "points": 863,
+          "nonpositive_points": 0,
+          "nonpositive_indices": [],
+          "minimum_signed_distance_mm": 0.04294610023498535,
+          "minimum_index": 145
+        },
+        "route": {
+          "points": 1207,
+          "nonpositive_points": 0,
+          "nonpositive_indices": [],
+          "minimum_signed_distance_mm": 1.1802395582199097,
+          "minimum_index": 1188
+        }
+      },
+      "source_rule": "native_binary_occupied_cells_nearest_resample_then_physical_gaussian",
+      "synthetic_target_mask_for_sampler_only": true,
+      "native_rule_source_sha256": "3b4316d6c4dc57200b8bdeeed48cf78fda458d2ca8d4d59053a4052fe16a01ea",
+      "field_helpers_sha256": "e00ac0f76e60ce27cb2ed564ab7ef571ddb1fb3f10b5a896d79aff64c9e48414",
+      "support_measurement_sha256": "a9f26461f147fbd65983ce3ba7932c7d81be164182dadf63aaeed0cd47ad52f4"
+    },
+    {
+      "name": "own_CT_native_support_Q6",
+      "bricks": 9379,
+      "pages": 96,
+      "shape_xyz": [
+        246,
+        173,
+        295
+      ],
+      "fraction_bits": 6,
+      "field_scale_mm": 0.015625,
+      "packet_bytes": 1474624,
+      "source_grid_preserved": true,
+      "selected_bits_embedded": true,
+      "production_promoted": false,
+      "identified_input": {
+        "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "model_sha256": "7efb3b35fb2ffd0d49270be0e4cb7a42622ca5330ddbdd98ae22fb2422464865",
+        "scalar_source": "accepted_binary",
+        "inputs_sha256": {
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\fixtures\\own_ct\\CT-chest.nrrd": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\runs\\20261004_151324_f601e259\\segmentation\\report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\runs\\20261004_151324_f601e259\\segmentation\\airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45"
+        },
+        "input_geometry": {
+          "size_xyz": [
+            512,
+            512,
+            139
+          ],
+          "spacing_xyz_mm": [
+            0.7617189884185791,
+            0.7617189884185791,
+            2.5
+          ],
+          "origin_lps_mm": [
+            -195.0,
+            -171.6999969482422,
+            -347.75
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "probability_mask_gating_applied": false,
+        "accepted_mask_replaced": false
+      },
+      "positive_components_26": 1,
+      "original_path_support": {
+        "centerline": {
+          "points": 863,
+          "nonpositive_points": 0,
+          "nonpositive_indices": [],
+          "minimum_signed_distance_mm": 0.04294610023498535,
+          "minimum_index": 145
+        },
+        "route": {
+          "points": 1207,
+          "nonpositive_points": 0,
+          "nonpositive_indices": [],
+          "minimum_signed_distance_mm": 1.1745238304138184,
+          "minimum_index": 1188
+        }
+      },
+      "source_rule": "native_binary_occupied_cells_nearest_resample_then_physical_gaussian",
+      "synthetic_target_mask_for_sampler_only": true,
+      "native_rule_source_sha256": "3b4316d6c4dc57200b8bdeeed48cf78fda458d2ca8d4d59053a4052fe16a01ea",
+      "field_helpers_sha256": "e00ac0f76e60ce27cb2ed564ab7ef571ddb1fb3f10b5a896d79aff64c9e48414",
+      "support_measurement_sha256": "a9f26461f147fbd65983ce3ba7932c7d81be164182dadf63aaeed0cd47ad52f4"
+    }
+  ],
+  "accepted_reference_sha256": "419e30bf84989e48eb5732bf3a18fec2ed138268f124a459fe50e769e66603dc",
+  "candidate_source_sha256": {
+    "prepare.py": "e557637fc86c0df63994e05d248387590309e1cd36948a036b2628640c6a8695",
+    "fixtures_r6.py": "c5ee52904105fb0e15fa8e9a07ae4d7a84ab8470bc76fae05434a9c4a41b784d"
+  },
+  "malformed_guards": [
+    {
+      "name": "bad_magic",
+      "status": 2
+    },
+    {
+      "name": "bad_scale",
+      "status": 2
+    },
+    {
+      "name": "bad_pageID",
+      "status": 5
+    },
+    {
+      "name": "bad_brickID",
+      "status": 5
+    },
+    {
+      "name": "bad_directory_copy",
+      "status": 5
+    },
+    {
+      "name": "bad_reserved",
+      "status": 5
+    },
+    {
+      "name": "bad_target_negative",
+      "status": 5
+    },
+    {
+      "name": "bad_field_range",
+      "status": 5
+    },
+    {
+      "name": "bad_normal_matrix",
+      "status": 6
+    },
+    {
+      "name": "bad_brick_count",
+      "status": 2
+    },
+    {
+      "name": "bad_negative_count",
+      "status": 2
+    },
+    {
+      "name": "bad_page_count",
+      "status": 2
+    },
+    {
+      "name": "bad_header_reserved",
+      "status": 2
+    },
+    {
+      "name": "bad_short_scene",
+      "status": 2
+    },
+    {
+      "name": "bad_extra_scene",
+      "status": 2
+    }
+  ],
+  "production_promoted": false
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": "modules/segmentation/standalone_B7_r1/backend.py",
+      "only_literal_SHA256_pins_changed": true
+    },
+    {
+      "path": "modules/segmentation/reader_burst/admission.py",
+      "only_literal_SHA256_pins_changed": true
+    },
+    {
+      "path": "modules/segmentation/reader_burst/backend.py",
+      "only_literal_SHA256_pins_changed": true
+    }
+  ],
+  "numerical_code_and_firmware_changed": false
+}

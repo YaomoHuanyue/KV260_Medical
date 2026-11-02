@@ -1,0 +1,39 @@
+{
+  "status": "D9_production_wrapper_actual_native_algorithm_exact_reference_and_pre_native_refusals_passed",
+  "host": "Windows",
+  "full5_banks_and16_reports_exact_immutable_reference": true,
+  "final_bank_only_production_path_exact_same_reference": true,
+  "negative_cases": [
+    "invalid_vertices_0",
+    "invalid_vertices_1000001",
+    "invalid_vertices_True",
+    "invalid_vertices_1.5",
+    "invalid_iterations_0",
+    "invalid_iterations_17",
+    "invalid_iterations_True",
+    "invalid_iterations_2.5",
+    "invalid_limit_-1",
+    "invalid_limit_inf",
+    "invalid_limit_nan",
+    "invalid_output_dtype_stride_or_size",
+    "invalid_output_dtype_stride_or_size",
+    "invalid_output_dtype_stride_or_size",
+    "readonly_output",
+    "input_output_alias",
+    "work_bank_alias",
+    "report_alias",
+    "wrong_owner_thread",
+    "closed_session"
+  ],
+  "actual_native_algorithm_used": true,
+  "XRT_and_C_API_adapter_emulated": true,
+  "PL_accessed": false,
+  "source_SHA256": {
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py": "79dbc60501a861421e5a3f554c8bdf71a7135f81d1e524918f2ffe3b828c4992",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime.py": "e2f4fe7783f7271127713fd88748a0092250a5e520af05fb3a97639579e16b8c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/native_r1/build_Windows_r1/candidate.dll": "4ad6c7e7ba419e35ddac8ed7f71466936210efcbbded20e37b3b111cfc3055cc",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/build_Windows/reference.dll": "dddeb8dd61fb9903cea69a0367b3a01e082c2878ad4a7b0686bd0906f95bc76f"
+  },
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "kv260.smooth_speed.BRAM_manual_release.v1",
+  "identity": 194,
+  "offline_verified": true,
+  "route": {
+    "full_PR_passed": true,
+    "physical_recipe": "same_qualified_RM_postroute_fanout_optimization",
+    "archive_sha256": "8018ddff5bbcbeede6feb33d98cb5ec7ff4f151f5adde076d8f78b805af302af",
+    "archive_entry_count": 98,
+    "all_archive_members_full_SHA_verified": true,
+    "qualified_same_source_DCP_sha256": "ab0600d244482e6aaeb011ceb73ae54353888c3e30e4e66fbbdcfa5926845f66",
+    "frozen_static_sha256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+    "primary_PC_full14_6422850_words_both_hosts_exact_source_qualification_pinned": true,
+    "original_setup_hold100MHz_DRC_fullPR_all5_artifact_gates_retained": true,
+    "actual_routed_reports": {
+      "clock_MHz": 100,
+      "WNS_ns": 0.203,
+      "WHS_ns": 0.01,
+      "whole_resources": {
+        "LUT": 96171,
+        "FF": 121134,
+        "DSP": 180,
+        "BRAM36": 110,
+        "BRAM18": 7,
+        "URAM": 64
+      },
+      "RP_resources": {
+        "LUT": 82331,
+        "FF": 95252,
+        "DSP": 180,
+        "BRAM36": 110,
+        "BRAM18": 7,
+        "URAM": 64
+      },
+      "remaining_RP": {
+        "LUT": 5989,
+        "FF": 81388,
+        "DSP": 780,
+        "BRAM36_equivalent": 18.5,
+        "URAM": 0
+      },
+      "timing_constraints_and_DRC_and_full_PR_checked": true
+    },
+    "artifact_sha256": {
+      "workspace/dfx/smooth_speed/postroute_repair/build/config_smooth_BRAM_r2622.dcp": "3abf4e3bed9bdfa28813fc2bba8f4b73dc2daaab69c28bc996f2cd239b348075",
+      "workspace/dfx/smooth_speed/postroute_repair/build/config_smooth_BRAM_r2622.bit": "9a88952605777ad5f0b330a837a52a86ab0e07c6f017a507be690437f0bf6567",
+      "workspace/dfx/smooth_speed/postroute_repair/build/config_smooth_BRAM_r2622.bin": "eb59809fecd86bb3c3d9612a7d26c43bae79156fbaf87fe1a748b1789d67f210",
+      "workspace/dfx/smooth_speed/postroute_repair/build/config_smooth_BRAM_r2622_pblock_rp_partial.bit": "9b4b6b2eda948baf86780b318fbd61fb47bedf546110645977e1381c78e9031f",
+      "workspace/dfx/smooth_speed/postroute_repair/build/config_smooth_BRAM_r2622_pblock_rp_partial.bin": "877753fa4079a3139407e4405f40cdf5e54c0370159e4215f53278c788858168"
+    },
+    "compilation_seconds": 1299.0353097000043,
+    "peak_job_GiB": 8.277729034423828,
+    "exact_server_root_absent": true,
+    "parent_failure_and_compaction_chain_retained": true,
+    "verifier_sha256": "224c8c410eba96228e806a41ad4d25cc3ffadbb757fd874a2b1cfbfc14006931",
+    "strongest_same_input_PS1_PS4_board_speed_still_required": true,
+    "PL_accessed": false,
+    "production_promoted": false,
+    "whole_goal_completed": false
+  },
+  "partial_bin_sha256": "877753fa4079a3139407e4405f40cdf5e54c0370159e4215f53278c788858168",
+  "portable_source_and_evidence_sha256": {
+    "tools/seal_BRAM_smoothing_release_r2634.py": "75a2adb1b8a5d1024abf7bdcb1e2ddf3db5f08ebfb1164998a7d74b0db692ba6",
+    "tools/verify_BRAM_postroute_repair.py": "224c8c410eba96228e806a41ad4d25cc3ffadbb757fd874a2b1cfbfc14006931",
+    "results/BRAM_postroute_verified/verified_Windows.json": "1047028f7a0b3803803a11b85727927d7b017c3889749d2304caf6b8bf1ffe22",
+    "results/BRAM_postroute_verified/verified_ARM.json": "b50d1f93d758cbccac7e307ac16134769ebb8bdcf3cbe170c3aedbc8d108e742",
+    "results/BRAM_RM_full_qualification_r2623/qualified.json": "efa3939ea41155bebaaa2da483d202c46d0fada214412f8a630ce4b6415fb1ce",
+    "results/BRAM_full_RTL_archive_r2621/verified_Windows.json": "50450809bcbed61d1f132674ecb29801e373bdf9c36d07536e3b5937ff89dd7c",
+    "results/BRAM_full_RTL_archive_r2621/verified_ARM.json": "9367b4f82bd263815788d454daaf508155eccf89299672217b94adef746413cf",
+    "dfx/medical/release/manifest.json": "ec51ff6cdf8077005a96c228f61e2d8ab2daa4f0c66f37865bd719c2f1eeefbc",
+    "dfx/smooth_speed/postroute_repair/repair.tcl": "fde33e0bd94173df1af39a7f24b37524faec6b3f18127c4642b78b1815d41fe4",
+    "results/BRAM_route_timing_failure/parent_archive_compaction.json": "082dc81d5425995037f43a6c66870416d7c551fee822a482e9e62744dfb4d017",
+    "results/BRAM_route_timing_failure/parent_input_compaction.json": "b54b069808123cc603e2355d1670c18bcb2459830ca6539b07fbaa64103e6e4d",
+    "results/BRAM_route_timing_failure/verified_failure.json": "65a0a39ca457ca8555136ea1a371ebbd9075c8a24a01e3ac2d03d88b06982513"
+  },
+  "static_base_manifest_sha256": "ec51ff6cdf8077005a96c228f61e2d8ab2daa4f0c66f37865bd719c2f1eeefbc",
+  "full14_RTL_6422850_words_both_hosts_and144plus18_native_and7Csim": true,
+  "source_qualification_verified_on_original_Windows": true,
+  "remaining_original_scopes": [
+    "Original probability/isotropic SDF field algorithms, actual PL mesh, index-only zero fan handling and twelve Windows/ARM geometry-filtered replans/cameras/guidance passed. R10 eight actual C9 frames and PS4 speed/equality evidence reverified; old eight scenes now have current structure-presence metadata and ARM native-reader acceptance. Complete eight-scene navigation GUI and combined physical acceptance still remain; live effects and new cores remain in their original scopes.",
+    "External mask/probability import full and partial: default merged; combined physical review remains",
+    "clinical ground-truth metrics when valid ground truth is available",
+    "Physical review of adjustable playback/step and keyboard controls; default merged",
+    "User PNG, colored VTP, single/linked videos and conditional sixteen/fourteen batch images default merged; complete raw/Pareto/selected-route reports also default merged; physical export review remains",
+    "Recursive DICOM default merged; combined physical review remains",
+    "Xray surface preset default merged; original live exposure/vignette, interactive outline glow and ray-step heatmap, and overview breathing remain",
+    "new profile and smoothing cores: strict offline verification and strongest same-input PS4/PL board speed gates"
+  ],
+  "human_breathing_review_pending": true,
+  "board_geometry_and_speed_verified": false,
+  "production_accepted": false,
+  "PL_accessed": false
+}

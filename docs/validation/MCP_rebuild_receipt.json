@@ -1,0 +1,16 @@
+{
+  "tool": "vivado_execute",
+  "request": {
+    "session_id": "vivado-20261102-074313-11f74c37",
+    "command": "set _final_ok [verify_rebuild {D:/Xilinx_Project/2026FPGA/KV260_Medical_Git/hardware/ross_export/Scripts/verification_manifest.tcl}]; puts [list GIT_EXPORT_REBUILD_VERIFIED $_final_ok TOOL [version -short] IP_COUNT [llength [get_ips -quiet]] TOP [get_property TOP [current_fileset]]]",
+    "verbosity": "digest"
+  },
+  "actual_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"exit_code\": 0,\n  \"output\": \"# set _vm_proj_name  {dfx_medical}\\r\\n# set _vm_top        {system_top}\\r\\n# set _vm_top_is_wrapper 0\\r\\n# set _vm_top_wrapper_was_auto_managed 0\\r\\n# set _vm_bd_names   system_ps\\r\\n# set _vm_run_names  {synth_1 impl_1}\\r\\n# set _vm_ip_count   11\\r\\n─────────────────────────────────────────────────────────────────────\\r\\nREBUILD VERIFICATION: dfx_medical\\r\\n─────────────────────────────────────────────────────────────────────\\r\\n  [PASS] Block Designs: all 1 present\\r\\n  [PASS] Top module: 'system_top'\\r\\n  [PASS] Runs: all 2 present\\r\\n  [PASS] IP count: 11 (expected \\u003e= 11)\\r\\n─────────────────────────────────────────────────────────────────────\\r\\nRESULT: PASS ��? recreated project matches expected structure\\r\\n─────────────────────────────────────────────────────────────────────\\r\\nGIT_EXPORT_REBUILD_VERIFIED 1 TOOL 2025.2.1 IP_COUNT 11 TOP system_top\",\n  \"task_progress\": \"2/3: 隔离验证构建入口和Git文件清单 (active, 31m29s)\"\n}"
+      }
+    ]
+  }
+}

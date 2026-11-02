@@ -1,0 +1,162 @@
+{
+  "status": "D9_exact_original_physical_and_numeric_validator_recipes_derived_not_executed",
+  "records": [
+    {
+      "parent": "dfx/smooth_speed/route_D8_r1/check_reports.py",
+      "parent_SHA256": "d4fdbef4b61fd7305624e6233f84434bed5d34677be347b8a513a722d1b85c08",
+      "candidate": "dfx/smooth_speed/route_D9_r1/check_reports.py",
+      "candidate_SHA256": "66867502aff4aaf23bf8e014438e91a6dae796180986e3c0c6109567fb0a7cd8",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 8
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "dfx/smooth_speed/route_D8_r1/implement_D8_r1.tcl",
+      "parent_SHA256": "728ff90f669b49edd85be4a1af4f0fce4cf5182d08c42dd06739e9389d5e4476",
+      "candidate": "dfx/smooth_speed/route_D9_r1/implement_D9_r1.tcl",
+      "candidate_SHA256": "600d8ed15c38a37adea7d2468bd1e9ecc72a4d3eed6db36c477126cc36d71d36",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 13
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "dfx/smooth_speed/route_D8_r1/run.py",
+      "parent_SHA256": "0dff19e0a1c06563007723d1d03e09000d46bca44dd07c5fd64e1151a7bdf958",
+      "candidate": "dfx/smooth_speed/route_D9_r1/run.py",
+      "candidate_SHA256": "e4df9fcb2a8c7262db5d7b41e9e83b9b6fbd4e1b662e000a396e6691e47c4507",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 9
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "dfx/smooth_speed/route_D8_r1/private.py",
+      "parent_SHA256": "7314e1f11887a0d064b084fb897326bc18b1deed9f681466d8779361cf2d4f4a",
+      "candidate": "dfx/smooth_speed/route_D9_r1/private.py",
+      "candidate_SHA256": "aa841c5d676774ae2ca1aafcc884d272d392bef5f3597ff610874954c95fa4dc",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 11
+        },
+        {
+          "before": "results/smooth_AXIS_DFX_area_r2/smooth_area/current_candidate.zip",
+          "after": "results/smooth_AXIS_D9_tile1024_area_r2/smooth_area/current_candidate_dedup_r1.zip",
+          "count": 1
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "tools/collect_D8_route_r1.py",
+      "parent_SHA256": "84ff865d000ca387448dcd451561b7a4bbf88ce3f1e79f3e37d4e4e01f1db3dd",
+      "candidate": "tools/collect_D9_route_r1.py",
+      "candidate_SHA256": "2f27e1db6ade1690ae50cddf70da068a60abb7315a02c11255b38a546053f04e",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 3
+        },
+        {
+          "before": "results/smooth_AXIS_DFX_area_r2/smooth_area/current_candidate.zip",
+          "after": "results/smooth_AXIS_D9_tile1024_area_r2/smooth_area/current_candidate_dedup_r1.zip",
+          "count": 1
+        },
+        {
+          "before": "    for name in list(selected):\n        if names[name] in direct:\n            path = direct[names[name]]\n            selected.remove(name)\n            parent.COLLECTED_ALIASES['logical_aliases'][name] = dict(kind='canonical_file',\n                path=path.relative_to(ROOT).as_posix(), SHA256=names[name])\n    return selected",
+          "after": "    from canonical_alias_promotion_r1 import promote_files\n    return promote_files(selected, parent.COLLECTED_ALIASES, names, direct, ROOT)",
+          "count": 1
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/flow_RTL_r1/verify_collected.py",
+      "parent_SHA256": "5109234072748abff9d8ed058a084b291003b3314f2fa664c5e0ec9b7da9c37c",
+      "candidate": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/flow_RTL_r1/verify_collected.py",
+      "candidate_SHA256": "b2d9f86060e7fd014f2ad96d044256f9f47358dbe645ab88c7f6b5c55541b56f",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 2
+        },
+        {
+          "before": "results/smooth_AXIS_flow_RTL_r1/axis_rtl",
+          "after": "results/smooth_AXIS_D9_flow_RTL_r1/axis_rtl",
+          "count": 1
+        }
+      ],
+      "reverse_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/full_RTL_monitored_r3/verify_collected.py",
+      "parent_SHA256": "bbe7527a52be45eeb600c027e3aa1a0c6058a565e1b13bd391d0187a0c9fff9a",
+      "candidate": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/full_RTL_monitored_r1/verify_collected.py",
+      "candidate_SHA256": "44a53b9164f9cee01fdb8961d9787e229115790c1a41a488002d1312e4d19321",
+      "literal_edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 2
+        },
+        {
+          "before": "results/smooth_AXIS_monitored_full_RTL_r3/axis_rtl",
+          "after": "results/smooth_AXIS_D9_monitored_full_RTL_r2/axis_rtl",
+          "count": 1
+        },
+        {
+          "before": "HERE.parent/'flow_RTL_r1/verify_collected.py'",
+          "after": "ROOT/'modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/flow_RTL_r1/verify_collected.py'",
+          "count": 2
+        },
+        {
+          "before": "HERE.parent/'full_RTL_r2/fixtures.py'",
+          "after": "ROOT/'modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/full_RTL_r2/fixtures.py'",
+          "count": 2
+        },
+        {
+          "before": "results/smooth_AXIS_official_setup_r1/axis_setup/current_candidate.zip",
+          "after": "results/smooth_AXIS_D9_official_setup_r1/axis_setup/current_candidate.zip",
+          "count": 1
+        },
+        {
+          "before": "official=view_module.View(stack,official_path)",
+          "after": "official=load('exact_D9_plain_setup_view',HERE.parent/'official_setup_r1/archive_view.py').View(stack,official_path)",
+          "count": 1
+        },
+        {
+          "before": "workspace/d8_setup/component/",
+          "after": "workspace/d9_setup/component/",
+          "count": 1
+        }
+      ],
+      "reverse_byte_exact": true
+    }
+  ],
+  "source_SHA256": "5978f7b286a998f7fd7e08ace647118ad6177ad37f543f4815ab016725a2ad5a",
+  "original14_and6422850_words_and_both_C_posts_and4_monitors_unchanged": true,
+  "original40_and18351000_words_and_fault_reset_guards_unchanged": true,
+  "original100MHz_setup_hold_DRC_capacity_five_full_PR_and_five_artifacts_unchanged": true,
+  "plain_fresh_D9_setup_reader_checks_manifest_and_member_SHA256": true,
+  "corrected_prepublication_derivation_order_collision": true,
+  "actual_RTL_route_and_board_gates_not_claimed": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

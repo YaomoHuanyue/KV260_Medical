@@ -1,0 +1,69 @@
+{
+  "schema": "kv260.mc_AXIS8.D7.offline.v1",
+  "identity": 215,
+  "RP_bits": 1830,
+  "clock_MHz": 100,
+  "actual_RM_synthesis_passed": true,
+  "full_PR_passed": true,
+  "WNS_ns": 2.409,
+  "WHS_ns": 0.01,
+  "RP_resources": {
+    "LUT": 11497,
+    "FF": 10248,
+    "DSP": 18,
+    "BRAM36": 17,
+    "BRAM18": 7,
+    "URAM": 0
+  },
+  "whole_resources": {
+    "LUT": 25337,
+    "FF": 36130,
+    "DSP": 18,
+    "BRAM36": 17,
+    "BRAM18": 7,
+    "URAM": 0
+  },
+  "remaining_RP": {
+    "LUT": 76823,
+    "FF": 166392,
+    "DSP": 942,
+    "BRAM36_equivalent": 111.5,
+    "URAM": 64
+  },
+  "complete_original_medical_full_PR_comparisons": [
+    "ct",
+    "mc",
+    "smooth",
+    "edt",
+    "route"
+  ],
+  "partial_SHA256": "f8f9a4f5c0b81f45f9b5ede9f62f53cc8e51302b5d7a6b28028feb753937b4bd",
+  "input_AXIS_bits": 512,
+  "output_AXIS_bits": 512,
+  "bulk_AXI_MM_used": false,
+  "scan_loop_II": 1,
+  "scan_voxels_per_cycle": 8,
+  "serial_vertices_per_cycle": 1,
+  "native_host_compiled_and_refusals_tested": true,
+  "no_new_static_shell_or_XRT_metadata_required": true,
+  "runtime_files_SHA256": {
+    "modules/reconstruction/axis_mc_8_r2/dfx_r1/release_r1/medical_mc_D7_axis8_r2_partial.bin": "f8f9a4f5c0b81f45f9b5ede9f62f53cc8e51302b5d7a6b28028feb753937b4bd",
+    "modules/reconstruction/axis_mc_8_r2/host_r1/release_r1/native_guard.txt": "b0a8658a34f50f4c525539539b365bc32bc0dc9b39d08cb4b61e7cfe5ace2efc",
+    "modules/reconstruction/axis_mc_8_r2/protocol.py": "c38c73ca514a8e7245099270b4d68d6f323b9ff988820dbbc7857903eba1f55d",
+    "modules/reconstruction/axis_mc_8_r2/abi.json": "f76494884cfb6c947334ddefe1995bfd945dcad8b4c18ffc97ad142556f0535a",
+    "modules/reconstruction/axis_mc_8_r2/host_r1/native_ARM_r1/libmc_axis_dfx.so": "fc4c5e3feb0ec6d1f0abdbb1938c65602855b068203a4f7d175ed14f5026f16d"
+  },
+  "offline_proofs_SHA256": {
+    "modules/reconstruction/axis_mc_8_r2/verified_prephysical_Windows.json": "cefbf97dd620664fe39610ee3d2ba4b792648d139fb1495b6c01fa2d6c78dd52",
+    "modules/reconstruction/axis_mc_8_r2/verified_physical.json": "460a8fdef1cc0cac3b75d134c9caef29c5aaa8a669dc33a72fd55bd68fb88cf9",
+    "modules/reconstruction/axis_mc_8_r2/host_r1/native_ARM_r1/verified.json": "da6ebc572931c73f6f5be7c4373a7939ac90ee0a216124b3f11e0fab700ee6b3",
+    "modules/reconstruction/axis_mc_8_r2/seal_candidate.py": "90227119b85a1955fe3c0d9174eea7ba5b5612e125f6fa754a3b6fde14e7d43c",
+    "modules/reconstruction/axis_mc_8_r2/host_r1/runtime_verified_Windows.json": "dff3cbcb5247c28c8dabe530847e36bf76c925f3696ba564660517ecc0a2aa69",
+    "modules/reconstruction/axis_mc_r1/ps_reference_r1/native_Windows_r1/verified.json": "0eec6396691c60161bc9218c4bdc6e4d1402ab6f429f37e4a06742ee7052c3cf",
+    "modules/reconstruction/axis_mc_8_r2/host_r1/runtime_verified_ARM.json": "3b49d996f5a70789aa55ece615eb80c9bb7ed4ca4dbadd7f4182e53fefb625fa",
+    "modules/reconstruction/axis_mc_r1/ps_reference_r1/native_ARM_r1/verified.json": "2e6660e10676549556040d76f54db2d0a1e4ea2ac8bb8ca9e9c96dda8ed4dd37"
+  },
+  "actual_PL_board_tested": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,901 @@
+{
+  "status": "eight_original_CT_new_route_C9_frames_exact_PS4_compared_C6_restored",
+  "cases": [
+    {
+      "label": "accepted_binary_high_ported_bend_1p0_aligned",
+      "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+      "source_reference_report_sha256": "1d04c4d35cc38a04a45c4866ba4b5cf387edec6e8708ac8467397794ba538b05",
+      "scene_sha256": "f87b2788671f2b105783217e61a223b58f5ce205dbf07afa379b955dd52fefd1",
+      "request_sha256": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+      "expected_pixels_sha256": "5064337e722da278db623eb0ac7f2548c5c4d3c38e9a4feed1d6d0e97165a7fd",
+      "actual_PL_pixels_sha256": "5064337e722da278db623eb0ac7f2548c5c4d3c38e9a4feed1d6d0e97165a7fd",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9139776210004129,
+            "full_call_seconds": 0.9141910829994231
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082336593,
+            "host_run_seconds": 0.087446404,
+            "total_seconds": 0.08773186700000224,
+            "phases": {
+              "validation": 8.54e-06,
+              "allocation_copy_guards": 0.003804908,
+              "sync_to": 0.000211122,
+              "partial_select": 8.06e-06,
+              "hardware": 0.082336593,
+              "sync_from": 0.000126632,
+              "guard_check_readback_copy": 0.000889888
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08802481099974102
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.913243574000262,
+            "full_call_seconds": 0.913473695999528
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082391344,
+            "host_run_seconds": 0.08395781,
+            "total_seconds": 0.084229702999437,
+            "phases": {
+              "validation": 8.78e-06,
+              "allocation_copy_guards": 0.000237433,
+              "sync_to": 0.000161281,
+              "partial_select": 3.55e-06,
+              "hardware": 0.082391344,
+              "sync_from": 0.000130691,
+              "guard_check_readback_copy": 0.00097
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08453010499943048
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9130180120000659,
+            "full_call_seconds": 0.913229513999795
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082338804,
+            "host_run_seconds": 0.083881929,
+            "total_seconds": 0.0841521920001469,
+            "phases": {
+              "validation": 9.86e-06,
+              "allocation_copy_guards": 0.000237853,
+              "sync_to": 0.000162391,
+              "partial_select": 3.661e-06,
+              "hardware": 0.082338804,
+              "sync_from": 0.000131101,
+              "guard_check_readback_copy": 0.000943619
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08439350400021794
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.913473695999528,
+      "PL_median_full_call_seconds": 0.08453010499943048,
+      "PL_over_PS4_speedup": 10.80648954601065,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.3565194760003578,
+      "PL_scene_upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.00097266,
+        "host_run_seconds": 0.168054431,
+        "total_seconds": 0.16837822399975266,
+        "phases": {
+          "validation": 0.005333054,
+          "allocation_copy_guards": 0.004110231,
+          "sync_to": 0.000175072,
+          "partial_select": 0.155834618,
+          "hardware": 0.00097266,
+          "sync_from": 0.000126971,
+          "guard_check_readback_copy": 0.001421324
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": false
+    },
+    {
+      "label": "accepted_binary_high_ported_bend_1p0_manual",
+      "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+      "source_reference_report_sha256": "bc4d24ed76e9e8e1797c6d007b450c240594cc1b6d262158bd17c1ca1a8398b7",
+      "scene_sha256": "f87b2788671f2b105783217e61a223b58f5ce205dbf07afa379b955dd52fefd1",
+      "request_sha256": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+      "expected_pixels_sha256": "3f9102a8d69fcf68dbed727dd2c7233d0bbb27ff15e6d49162f81c80cf34d936",
+      "actual_PL_pixels_sha256": "3f9102a8d69fcf68dbed727dd2c7233d0bbb27ff15e6d49162f81c80cf34d936",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9441484830003901,
+            "full_call_seconds": 0.9443774549999944
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083205033,
+            "host_run_seconds": 0.084734718,
+            "total_seconds": 0.08501154999976279,
+            "phases": {
+              "validation": 9.18e-06,
+              "allocation_copy_guards": 0.000275983,
+              "sync_to": 0.000162552,
+              "partial_select": 3.57e-06,
+              "hardware": 0.083205033,
+              "sync_from": 0.000131751,
+              "guard_check_readback_copy": 0.000891749
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08525554300013027
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.941955111000425,
+            "full_call_seconds": 0.9422184730001391
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083214553,
+            "host_run_seconds": 0.08492885,
+            "total_seconds": 0.08520004199999676,
+            "phases": {
+              "validation": 8.94e-06,
+              "allocation_copy_guards": 0.000279103,
+              "sync_to": 0.000162212,
+              "partial_select": 3.57e-06,
+              "hardware": 0.083214553,
+              "sync_from": 0.000130481,
+              "guard_check_readback_copy": 0.001075991
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08546742499947868
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9345229969994762,
+            "full_call_seconds": 0.9347341989996494
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083198862,
+            "host_run_seconds": 0.084718558,
+            "total_seconds": 0.08499031999963336,
+            "phases": {
+              "validation": 8.7e-06,
+              "allocation_copy_guards": 0.000237763,
+              "sync_to": 0.000191482,
+              "partial_select": 3.48e-06,
+              "hardware": 0.083198862,
+              "sync_from": 0.000131602,
+              "guard_check_readback_copy": 0.000891969
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08523120300014853
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9422184730001391,
+      "PL_median_full_call_seconds": 0.08525554300013027,
+      "PL_over_PS4_speedup": 11.051697518350206,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.0,
+      "PL_scene_upload": {},
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": true
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0_aligned",
+      "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+      "source_reference_report_sha256": "da6c2f30c6c835ce186ee68f14d976fe523fc8f93ff1228033e15b7e686ff26a",
+      "scene_sha256": "7f3ca075504fc6b0e08697d4f5cc6b7c2cb7a13ce24f909d72653685803b4b5b",
+      "request_sha256": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+      "expected_pixels_sha256": "1c5b460332655f03a68210da59f1a6e4cde4bc2fda5b6789d73a4c18190f937b",
+      "actual_PL_pixels_sha256": "1c5b460332655f03a68210da59f1a6e4cde4bc2fda5b6789d73a4c18190f937b",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9161990130005506,
+            "full_call_seconds": 0.9164031250002154
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082473285,
+            "host_run_seconds": 0.084157842,
+            "total_seconds": 0.08445990499967593,
+            "phases": {
+              "validation": 9.351e-06,
+              "allocation_copy_guards": 0.000238202,
+              "sync_to": 0.000195282,
+              "partial_select": 3.7e-06,
+              "hardware": 0.082473285,
+              "sync_from": 0.000129892,
+              "guard_check_readback_copy": 0.00105367
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08470512699932442
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9526533279995419,
+            "full_call_seconds": 0.9528679300001386
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082475124,
+            "host_run_seconds": 0.08398095,
+            "total_seconds": 0.08424612199996773,
+            "phases": {
+              "validation": 8.83e-06,
+              "allocation_copy_guards": 0.000237512,
+              "sync_to": 0.000161222,
+              "partial_select": 3.67e-06,
+              "hardware": 0.082475124,
+              "sync_from": 0.000129621,
+              "guard_check_readback_copy": 0.000911159
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.0846134860003076
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9160827519999657,
+            "full_call_seconds": 0.9162929250005618
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082558045,
+            "host_run_seconds": 0.084245862,
+            "total_seconds": 0.08454997500030004,
+            "phases": {
+              "validation": 9.12e-06,
+              "allocation_copy_guards": 0.000237842,
+              "sync_to": 0.000201132,
+              "partial_select": 3.61e-06,
+              "hardware": 0.082558045,
+              "sync_from": 0.000128382,
+              "guard_check_readback_copy": 0.00105272
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08479100800013839
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9164031250002154,
+      "PL_median_full_call_seconds": 0.08470512699932442,
+      "PL_over_PS4_speedup": 10.818744478212333,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.31453087600039,
+      "PL_scene_upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.00097331,
+        "host_run_seconds": 0.008489945,
+        "total_seconds": 0.008776216999649478,
+        "phases": {
+          "validation": 0.005306073,
+          "allocation_copy_guards": 0.000608746,
+          "sync_to": 0.000140151,
+          "partial_select": 6.1e-06,
+          "hardware": 0.00097331,
+          "sync_from": 0.000102451,
+          "guard_check_readback_copy": 0.001292413
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": false
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0_manual",
+      "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+      "source_reference_report_sha256": "e02bbd65b2aa7a751dd31694cf4db17449562bae8105a2d85ffe3c2cf346811b",
+      "scene_sha256": "7f3ca075504fc6b0e08697d4f5cc6b7c2cb7a13ce24f909d72653685803b4b5b",
+      "request_sha256": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+      "expected_pixels_sha256": "e1b7d608ebe677cca2923185a7ed63c1dde17416a4592b8ba93833521ab22b0f",
+      "actual_PL_pixels_sha256": "e1b7d608ebe677cca2923185a7ed63c1dde17416a4592b8ba93833521ab22b0f",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.937474586999997,
+            "full_call_seconds": 0.9377049790000456
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083397594,
+            "host_run_seconds": 0.085124111,
+            "total_seconds": 0.08539930400002049,
+            "phases": {
+              "validation": 8.68e-06,
+              "allocation_copy_guards": 0.000281893,
+              "sync_to": 0.000162701,
+              "partial_select": 4.23e-06,
+              "hardware": 0.083397594,
+              "sync_from": 0.000130671,
+              "guard_check_readback_copy": 0.001084921
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08564629600004992
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9434710460000133,
+            "full_call_seconds": 0.9436864180006523
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083379554,
+            "host_run_seconds": 0.084940399,
+            "total_seconds": 0.0852137430001676,
+            "phases": {
+              "validation": 8.96e-06,
+              "allocation_copy_guards": 0.000238042,
+              "sync_to": 0.000162832,
+              "partial_select": 3.82e-06,
+              "hardware": 0.083379554,
+              "sync_from": 0.000130622,
+              "guard_check_readback_copy": 0.000962639
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08545344400044996
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.937653427999976,
+            "full_call_seconds": 0.9378726599998117
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083437354,
+            "host_run_seconds": 0.085096141,
+            "total_seconds": 0.08536450399969908,
+            "phases": {
+              "validation": 8.93e-06,
+              "allocation_copy_guards": 0.000237453,
+              "sync_to": 0.000164891,
+              "partial_select": 3.61e-06,
+              "hardware": 0.083437354,
+              "sync_from": 0.000132522,
+              "guard_check_readback_copy": 0.00105676
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08561423599985574
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9378726599998117,
+      "PL_median_full_call_seconds": 0.08561423599985574,
+      "PL_over_PS4_speedup": 10.9546344605749,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.0,
+      "PL_scene_upload": {},
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": true
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0_aligned",
+      "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "source_reference_report_sha256": "5f472c6c6494c1ca0fc5e100e35f4841221e7e0a101a5b77bbf038363fe11bb2",
+      "scene_sha256": "a24803710775c3f9582a664c6e6621c937487bec4e47cbe660a4ad90cb44b533",
+      "request_sha256": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+      "expected_pixels_sha256": "5687a81366b8317786d1d096bb845acc4b6437b1085602faf390bbc0d6ac08cc",
+      "actual_PL_pixels_sha256": "5687a81366b8317786d1d096bb845acc4b6437b1085602faf390bbc0d6ac08cc",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9150359520008351,
+            "full_call_seconds": 0.9152388840002459
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082148552,
+            "host_run_seconds": 0.083753817,
+            "total_seconds": 0.08402102099989861,
+            "phases": {
+              "validation": 8.97e-06,
+              "allocation_copy_guards": 0.000270522,
+              "sync_to": 0.000162892,
+              "partial_select": 4.08e-06,
+              "hardware": 0.082148552,
+              "sync_from": 0.000136582,
+              "guard_check_readback_copy": 0.000966989
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08426704299927223
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.915271144000144,
+            "full_call_seconds": 0.9155207469993911
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082136531,
+            "host_run_seconds": 0.083760477,
+            "total_seconds": 0.08402956000008999,
+            "phases": {
+              "validation": 9.07e-06,
+              "allocation_copy_guards": 0.000277753,
+              "sync_to": 0.000162921,
+              "partial_select": 4.18e-06,
+              "hardware": 0.082136531,
+              "sync_from": 0.000127802,
+              "guard_check_readback_copy": 0.000988989
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08426820200020302
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.914956261000043,
+            "full_call_seconds": 0.915165803000491
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082165232,
+            "host_run_seconds": 0.083705107,
+            "total_seconds": 0.08401856999989832,
+            "phases": {
+              "validation": 9.19e-06,
+              "allocation_copy_guards": 0.000238493,
+              "sync_to": 0.000162211,
+              "partial_select": 3.51e-06,
+              "hardware": 0.082165232,
+              "sync_from": 0.000132671,
+              "guard_check_readback_copy": 0.000938979
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08429807300035463
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9152388840002459,
+      "PL_median_full_call_seconds": 0.08426820200020302,
+      "PL_over_PS4_speedup": 10.861023046368556,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.5574018249999426,
+      "PL_scene_upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.000942999,
+        "host_run_seconds": 0.008579546,
+        "total_seconds": 0.008857028999955219,
+        "phases": {
+          "validation": 0.005401044,
+          "allocation_copy_guards": 0.000631407,
+          "sync_to": 0.000141211,
+          "partial_select": 5.85e-06,
+          "hardware": 0.000942999,
+          "sync_from": 0.000102851,
+          "guard_check_readback_copy": 0.001291713
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": false
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0_manual",
+      "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "source_reference_report_sha256": "3d1337d91df363c567d3434d8289d28e84c978a341939ee8425cbdecf9d3b143",
+      "scene_sha256": "a24803710775c3f9582a664c6e6621c937487bec4e47cbe660a4ad90cb44b533",
+      "request_sha256": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+      "expected_pixels_sha256": "333b06903865d68ba6d7d69a7bce96ffe39bb847fe9ec8d80faceb4720892df3",
+      "actual_PL_pixels_sha256": "333b06903865d68ba6d7d69a7bce96ffe39bb847fe9ec8d80faceb4720892df3",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9410130320002281,
+            "full_call_seconds": 0.9412394440005301
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083084871,
+            "host_run_seconds": 0.084636837,
+            "total_seconds": 0.08490929900017363,
+            "phases": {
+              "validation": 8.611e-06,
+              "allocation_copy_guards": 0.000274072,
+              "sync_to": 0.000162362,
+              "partial_select": 3.73e-06,
+              "hardware": 0.083084871,
+              "sync_from": 0.000128112,
+              "guard_check_readback_copy": 0.000922259
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08515094199992745
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9356223969998609,
+            "full_call_seconds": 0.9358355200001824
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.08301341,
+            "host_run_seconds": 0.084641947,
+            "total_seconds": 0.08491506900008972,
+            "phases": {
+              "validation": 8.76e-06,
+              "allocation_copy_guards": 0.000273623,
+              "sync_to": 0.000162772,
+              "partial_select": 3.5e-06,
+              "hardware": 0.08301341,
+              "sync_from": 0.000130112,
+              "guard_check_readback_copy": 0.00099618
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08515315200020268
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9370136919997094,
+            "full_call_seconds": 0.9372255739999673
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083050891,
+            "host_run_seconds": 0.084581995,
+            "total_seconds": 0.08490939999956026,
+            "phases": {
+              "validation": 8.69e-06,
+              "allocation_copy_guards": 0.000237592,
+              "sync_to": 0.000161662,
+              "partial_select": 3.54e-06,
+              "hardware": 0.083050891,
+              "sync_from": 0.000153361,
+              "guard_check_readback_copy": 0.000911259
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08515365200037195
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9372255739999673,
+      "PL_median_full_call_seconds": 0.08515315200020268,
+      "PL_over_PS4_speedup": 11.006352107761513,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.0,
+      "PL_scene_upload": {},
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": true
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0_aligned",
+      "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+      "source_reference_report_sha256": "c05299e15500cc174279d25f193d8c26cc3e880ac8d2b982ed5b74814f1f5483",
+      "scene_sha256": "58e2788f4d682488db3b9161bdff93307ef666e73c2810723e065cb5292f1475",
+      "request_sha256": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+      "expected_pixels_sha256": "82d65a141aaca4e5dce2ddc168bcd0b94994622b61fba1be01d83433ff103786",
+      "actual_PL_pixels_sha256": "82d65a141aaca4e5dce2ddc168bcd0b94994622b61fba1be01d83433ff103786",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.92250079599944,
+            "full_call_seconds": 0.922702059000585
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082320263,
+            "host_run_seconds": 0.083865739,
+            "total_seconds": 0.08413400100016588,
+            "phases": {
+              "validation": 8.52e-06,
+              "allocation_copy_guards": 0.000236972,
+              "sync_to": 0.000186902,
+              "partial_select": 4.04e-06,
+              "hardware": 0.082320263,
+              "sync_from": 0.000130012,
+              "guard_check_readback_copy": 0.000924689
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08437886400042771
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9170444219998899,
+            "full_call_seconds": 0.9172586940003384
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082296243,
+            "host_run_seconds": 0.083804128,
+            "total_seconds": 0.08416118200057099,
+            "phases": {
+              "validation": 8.71e-06,
+              "allocation_copy_guards": 0.000237282,
+              "sync_to": 0.000162132,
+              "partial_select": 3.84e-06,
+              "hardware": 0.082296243,
+              "sync_from": 0.000150512,
+              "guard_check_readback_copy": 0.000892069
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08440053400045144
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9169574210000064,
+            "full_call_seconds": 0.9172084939991691
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.082282643,
+            "host_run_seconds": 0.083840238,
+            "total_seconds": 0.08412234100069327,
+            "phases": {
+              "validation": 8.7e-06,
+              "allocation_copy_guards": 0.000237392,
+              "sync_to": 0.000167482,
+              "partial_select": 3.43e-06,
+              "hardware": 0.082282643,
+              "sync_from": 0.000134991,
+              "guard_check_readback_copy": 0.000926659
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08436795299985533
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9172586940003384,
+      "PL_median_full_call_seconds": 0.08437886400042771,
+      "PL_over_PS4_speedup": 10.87071632056683,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.5519432309993135,
+      "PL_scene_upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.00094149,
+        "host_run_seconds": 0.008614926,
+        "total_seconds": 0.008903638999981922,
+        "phases": {
+          "validation": 0.005382774,
+          "allocation_copy_guards": 0.000643696,
+          "sync_to": 0.000141992,
+          "partial_select": 5.86e-06,
+          "hardware": 0.00094149,
+          "sync_from": 0.000103041,
+          "guard_check_readback_copy": 0.001335263
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": false
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0_manual",
+      "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "renderer_scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+      "source_reference_report_sha256": "48156ddabbe9338ffa7bb73b138f03d94c06ed580994580306ff83c917b1eeb7",
+      "scene_sha256": "58e2788f4d682488db3b9161bdff93307ef666e73c2810723e065cb5292f1475",
+      "request_sha256": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+      "expected_pixels_sha256": "8939dc83f51e9175c4b6c810f20a585f92688853562c78246aa3a4681db70610",
+      "actual_PL_pixels_sha256": "8939dc83f51e9175c4b6c810f20a585f92688853562c78246aa3a4681db70610",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "every_64bit_depth_normal_coverage_outline_word_exact": true,
+      "repeats": 3,
+      "samples": [
+        {
+          "PS4": {
+            "compute_seconds": 0.9391074420000223,
+            "full_call_seconds": 0.9393324650000068
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083216712,
+            "host_run_seconds": 0.084805338,
+            "total_seconds": 0.08507889100019383,
+            "phases": {
+              "validation": 8.66e-06,
+              "allocation_copy_guards": 0.000297593,
+              "sync_to": 0.000161691,
+              "partial_select": 3.66e-06,
+              "hardware": 0.083216712,
+              "sync_from": 0.000131422,
+              "guard_check_readback_copy": 0.000927359
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.0853234030000749
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9483826749992659,
+            "full_call_seconds": 0.948597826999503
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083198142,
+            "host_run_seconds": 0.084731737,
+            "total_seconds": 0.08500768099929701,
+            "phases": {
+              "validation": 8.99e-06,
+              "allocation_copy_guards": 0.000237482,
+              "sync_to": 0.000164062,
+              "partial_select": 3.88e-06,
+              "hardware": 0.083198142,
+              "sync_from": 0.000130962,
+              "guard_check_readback_copy": 0.000934479
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.08525055199970666
+          }
+        },
+        {
+          "PS4": {
+            "compute_seconds": 0.9394942760000049,
+            "full_call_seconds": 0.9397079079999457
+          },
+          "PL": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.083165882,
+            "host_run_seconds": 0.084747237,
+            "total_seconds": 0.0850222399994891,
+            "phases": {
+              "validation": 8.46e-06,
+              "allocation_copy_guards": 0.000238102,
+              "sync_to": 0.000203972,
+              "partial_select": 3.97e-06,
+              "hardware": 0.083165882,
+              "sync_from": 0.000136571,
+              "guard_check_readback_copy": 0.000934389
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true,
+            "measured_full_call_seconds": 0.0852685219997511
+          }
+        }
+      ],
+      "PS4_median_full_call_seconds": 0.9397079079999457,
+      "PL_median_full_call_seconds": 0.0852685219997511,
+      "PL_over_PS4_speedup": 11.020572257634402,
+      "PL_faster_than_PS4": true,
+      "cold_PS_dense_unpack_seconds": 0.0,
+      "PL_scene_upload": {},
+      "normal_computation": "PL_C9",
+      "actual_manual_camera_preserved": true
+    }
+  ],
+  "PL_all_frames_faster_than_PS4": true,
+  "full_static_1MiB_echo_and_C6_restore_passed": true,
+  "PL_access": true,
+  "release_manifest_sha256": "19f03f956438dc20d8fb4565fe166bdf9d5bac4e7315cfbfedcc38e7019e88bc",
+  "source_sha256": {
+    "modules/surface_route/actual_C9_trial_r10.py": "ab2bf8559ef77a900f2ce9d2307b952591db09a3293b248b6a553caab95dee6d",
+    "modules/surface_route/scene_runtime_r9.py": "4ef2eaab02b07d833f2ca5a27777f9acf70cc1019d7a7f18ac1dda47290a40e8",
+    "modules/surface_route/bundle_reader_r9.py": "e9cb84e5ebc117f70469ee2fc9fc1184604752c54e1bc2401628dd28c9f91f68",
+    "dfx/surface_quality/quality_runtime.py": "bd1af25e8acf39ec069beb079fdeacbff91c1cab11f3ae23bedbdca32f2adfcd",
+    "dfx/surface_quality/prepare.py": "e557637fc86c0df63994e05d248387590309e1cd36948a036b2628640c6a8695",
+    "dfx/surface_quality/build/host_compiled_r7.json": "68cc433202fa3c015c85a8819e5c5f76c5a88a391965060f256aef56ea8e22a0"
+  },
+  "original_reference_sha256": "1b1842002672f40e54a06892ec5f8a1bf4a916b36ceee7452a28614c273b9099",
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "peak_test_process_RSS_MiB": 747.12890625,
+  "total_test_seconds": 67.28458813100042,
+  "new_bitstream_generated": false,
+  "static_shell_reloaded_during_trial": false,
+  "production_UI_promoted": false,
+  "performance_scope": "Warm complete 640x363 C9 API vs ARM PS4 API, including copies/sync/guards; excludes scene preparation, file writes and UI display; cold upload/unpack reported separately"
+}

@@ -1,0 +1,162 @@
+{
+  "status": "fourteen_original_fixtures_byte_identical_plus_two_8705_result_boundary_transactions",
+  "source_and_evidence_sha256": {
+    "dfx/navigation_profile/fixture_origin_r4.json": "e9fc69d55758ade0fe0c25e67db5d00cf4e5076eeafef23bf81c959aad5acdcc",
+    "dfx/navigation_profile/rtl_r74/prepare_fixtures.py": "22f005e3339a11c6596104098ff81eef862fc0084929e6915ea05d4900373829",
+    "dfx/navigation_profile/fixtures_r4/00.input.bin": "3fe0e6ec64500b4e75fbd525a644a290371a4515400f72edf0ccdbbf28792589",
+    "dfx/navigation_profile/fixtures_r4/00.expected.bin": "fbc428117d7a7d8deee3b9702dc2369bf1ff6e9370da0cc5a31c803e3985c7c5",
+    "dfx/navigation_profile/fixtures_r4/01.input.bin": "0ab4f52270b20de9f0ae0684898b72ee5b0afc9bf38f042853ab90320213111e",
+    "dfx/navigation_profile/fixtures_r4/01.expected.bin": "e42cf6668aa667eb51de0bea63c7ce4ac5e690fbb39e0bafbdd7a409f889aed5",
+    "dfx/navigation_profile/fixtures_r4/02.input.bin": "878af7960107cc29068062b8847c382c5f2ac35beaa567c8969f52ac85215c17",
+    "dfx/navigation_profile/fixtures_r4/02.expected.bin": "5387c6d4c66675e4e547807e4a3d39d03cd0a681a33efc6bf0a7c8b0bf8691d5",
+    "dfx/navigation_profile/fixtures_r4/03.input.bin": "5e36a203386d1256bdff422e6c4fdaf1f8554b408ffaa5cf19907cd1338a5fb7",
+    "dfx/navigation_profile/fixtures_r4/03.expected.bin": "add8e9f8c9534ab237adb925c2a2b6bdeb220fde62cf6acf9470282a1019a6d7",
+    "dfx/navigation_profile/fixtures_r4/04.input.bin": "f01953e4e2ac91bdfecb80271b90166979c6da16e6edcdd5a6a0c1d82b89a2ee",
+    "dfx/navigation_profile/fixtures_r4/04.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/fixtures_r4/05.input.bin": "0d2f17389679112f16f1ea96801ed1390896eb2bc2c303bd6d4831adeabe58df",
+    "dfx/navigation_profile/fixtures_r4/05.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/fixtures_r4/06.input.bin": "1c42bff2022500fe0a27ecf662d00c992a759f97b0aa2d19cbb28fdf9916fcac",
+    "dfx/navigation_profile/fixtures_r4/06.expected.bin": "f15306167514d9cb8475250a73befcae2c30827bc2add9b2802890061c732864",
+    "dfx/navigation_profile/fixtures_r4/07.input.bin": "18497fbf1abf2f51f322710619b8a48ef68a6b62402e33d2f436c92a189a64d3",
+    "dfx/navigation_profile/fixtures_r4/07.expected.bin": "acdf61210a51d7c56f311370441aeba316be43b4701308b103e664554be27fc6",
+    "dfx/navigation_profile/fixtures_r4/08.input.bin": "b4ba15e1bfe6a1801537fc81d103bc5b80496b7df65066c3ecc2d63c5b4d6025",
+    "dfx/navigation_profile/fixtures_r4/08.expected.bin": "12d1aa3cbc3777016ec66bf6239b22791f06e9ed43851c6f2a6b43c2796031dc",
+    "dfx/navigation_profile/fixtures_r4/09.input.bin": "8f36468010a9442bf375b83a82aacca6963295c5c1237cb9f4d6b9fee5d8fa2e",
+    "dfx/navigation_profile/fixtures_r4/09.expected.bin": "3474464e75c016fddcf86da1d5f9d91fc7f67981bb383820df471ba2de4e1044",
+    "dfx/navigation_profile/fixtures_r4/10.input.bin": "ae1c8ed1767b61df8c167b859b095fd28e7168e5e4c8b0248eb10c010886ff18",
+    "dfx/navigation_profile/fixtures_r4/10.expected.bin": "4598e0cea8c853e64ce1a717f38f9f6b6e9812e62fe164cd141006d26e5396e2",
+    "dfx/navigation_profile/fixtures_r4/11.input.bin": "402fb54cdd69d664add284fc0015b8f4ed1ea3a8e4d2474815ba2a4b1168ba86",
+    "dfx/navigation_profile/fixtures_r4/11.expected.bin": "1468134d2b5826f8234a141324c260ba6ba659cdf46d66b4e29e04af01c3d068",
+    "dfx/navigation_profile/fixtures_r4/12.input.bin": "ef6ff91ecf05dc3d0a75f28672e850ba16e7eae643d72f591cd9a8225378da2d",
+    "dfx/navigation_profile/fixtures_r4/12.expected.bin": "ed9d7be3601b72ec27a778381eff62a82041300332a7f62eb0c096beabcbd586",
+    "dfx/navigation_profile/fixtures_r4/13.input.bin": "5677325acd0a7104ac93fb5eadf0923dde36dbd27501ab8c0f72aea6ed3d2e92",
+    "dfx/navigation_profile/fixtures_r4/13.expected.bin": "a19cce6215c05101019e9f8cde5c2e4329366903b95469b7056ef9ef8033fc64",
+    "dfx/navigation_profile/rtl_r74/fixtures/00.expected.bin": "fbc428117d7a7d8deee3b9702dc2369bf1ff6e9370da0cc5a31c803e3985c7c5",
+    "dfx/navigation_profile/rtl_r74/fixtures/00.input.bin": "3fe0e6ec64500b4e75fbd525a644a290371a4515400f72edf0ccdbbf28792589",
+    "dfx/navigation_profile/rtl_r74/fixtures/01.expected.bin": "e42cf6668aa667eb51de0bea63c7ce4ac5e690fbb39e0bafbdd7a409f889aed5",
+    "dfx/navigation_profile/rtl_r74/fixtures/01.input.bin": "0ab4f52270b20de9f0ae0684898b72ee5b0afc9bf38f042853ab90320213111e",
+    "dfx/navigation_profile/rtl_r74/fixtures/02.expected.bin": "5387c6d4c66675e4e547807e4a3d39d03cd0a681a33efc6bf0a7c8b0bf8691d5",
+    "dfx/navigation_profile/rtl_r74/fixtures/02.input.bin": "878af7960107cc29068062b8847c382c5f2ac35beaa567c8969f52ac85215c17",
+    "dfx/navigation_profile/rtl_r74/fixtures/03.expected.bin": "add8e9f8c9534ab237adb925c2a2b6bdeb220fde62cf6acf9470282a1019a6d7",
+    "dfx/navigation_profile/rtl_r74/fixtures/03.input.bin": "5e36a203386d1256bdff422e6c4fdaf1f8554b408ffaa5cf19907cd1338a5fb7",
+    "dfx/navigation_profile/rtl_r74/fixtures/04.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/rtl_r74/fixtures/04.input.bin": "f01953e4e2ac91bdfecb80271b90166979c6da16e6edcdd5a6a0c1d82b89a2ee",
+    "dfx/navigation_profile/rtl_r74/fixtures/05.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/rtl_r74/fixtures/05.input.bin": "0d2f17389679112f16f1ea96801ed1390896eb2bc2c303bd6d4831adeabe58df",
+    "dfx/navigation_profile/rtl_r74/fixtures/06.expected.bin": "f15306167514d9cb8475250a73befcae2c30827bc2add9b2802890061c732864",
+    "dfx/navigation_profile/rtl_r74/fixtures/06.input.bin": "1c42bff2022500fe0a27ecf662d00c992a759f97b0aa2d19cbb28fdf9916fcac",
+    "dfx/navigation_profile/rtl_r74/fixtures/07.expected.bin": "acdf61210a51d7c56f311370441aeba316be43b4701308b103e664554be27fc6",
+    "dfx/navigation_profile/rtl_r74/fixtures/07.input.bin": "18497fbf1abf2f51f322710619b8a48ef68a6b62402e33d2f436c92a189a64d3",
+    "dfx/navigation_profile/rtl_r74/fixtures/08.expected.bin": "12d1aa3cbc3777016ec66bf6239b22791f06e9ed43851c6f2a6b43c2796031dc",
+    "dfx/navigation_profile/rtl_r74/fixtures/08.input.bin": "b4ba15e1bfe6a1801537fc81d103bc5b80496b7df65066c3ecc2d63c5b4d6025",
+    "dfx/navigation_profile/rtl_r74/fixtures/09.expected.bin": "3474464e75c016fddcf86da1d5f9d91fc7f67981bb383820df471ba2de4e1044",
+    "dfx/navigation_profile/rtl_r74/fixtures/09.input.bin": "8f36468010a9442bf375b83a82aacca6963295c5c1237cb9f4d6b9fee5d8fa2e",
+    "dfx/navigation_profile/rtl_r74/fixtures/10.expected.bin": "4598e0cea8c853e64ce1a717f38f9f6b6e9812e62fe164cd141006d26e5396e2",
+    "dfx/navigation_profile/rtl_r74/fixtures/10.input.bin": "ae1c8ed1767b61df8c167b859b095fd28e7168e5e4c8b0248eb10c010886ff18",
+    "dfx/navigation_profile/rtl_r74/fixtures/11.expected.bin": "1468134d2b5826f8234a141324c260ba6ba659cdf46d66b4e29e04af01c3d068",
+    "dfx/navigation_profile/rtl_r74/fixtures/11.input.bin": "402fb54cdd69d664add284fc0015b8f4ed1ea3a8e4d2474815ba2a4b1168ba86",
+    "dfx/navigation_profile/rtl_r74/fixtures/12.expected.bin": "ed9d7be3601b72ec27a778381eff62a82041300332a7f62eb0c096beabcbd586",
+    "dfx/navigation_profile/rtl_r74/fixtures/12.input.bin": "ef6ff91ecf05dc3d0a75f28672e850ba16e7eae643d72f591cd9a8225378da2d",
+    "dfx/navigation_profile/rtl_r74/fixtures/13.expected.bin": "a19cce6215c05101019e9f8cde5c2e4329366903b95469b7056ef9ef8033fc64",
+    "dfx/navigation_profile/rtl_r74/fixtures/13.input.bin": "5677325acd0a7104ac93fb5eadf0923dde36dbd27501ab8c0f72aea6ed3d2e92",
+    "dfx/navigation_profile/rtl_r74/fixtures/14.expected.bin": "564fd4f3595f9f9d837c9bfbc49e1683f512306376aa8bc260ba785f4af8c10b",
+    "dfx/navigation_profile/rtl_r74/fixtures/14.input.bin": "d2b952a4486f2f716c410ea813b7e5c56a009e7e88f8dfd004bfd24faf7bb3a7",
+    "dfx/navigation_profile/rtl_r74/fixtures/15.expected.bin": "dc7ff238c05d072186f2692a642a4c392bf191b60a780fee81b787d6502391a0",
+    "dfx/navigation_profile/rtl_r74/fixtures/15.input.bin": "6d7c403134dd72987e34d6bff0cd39e20f1675b38c86b4683fa112e347678b37",
+    "dfx/navigation_profile/rtl_r74/fixtures/cases.txt": "59fdd9abb916941d17ac1dc03ead47d0af9bce7b0f7d776b46cba46cfbd4caa8"
+  },
+  "cases": [
+    {
+      "case": 0,
+      "name": "own_863_nodes_five_queries",
+      "original_case_retained": true
+    },
+    {
+      "case": 1,
+      "name": "own_all_4315_outputs",
+      "original_case_retained": true
+    },
+    {
+      "case": 2,
+      "name": "full_4096_nodes_all_edges",
+      "original_case_retained": true
+    },
+    {
+      "case": 3,
+      "name": "full_8192_outputs",
+      "original_case_retained": true
+    },
+    {
+      "case": 4,
+      "name": "wrong_scene_token",
+      "original_case_retained": true
+    },
+    {
+      "case": 5,
+      "name": "capacity_and_count_rejected",
+      "original_case_retained": true
+    },
+    {
+      "case": 6,
+      "name": "private_FIFO_1nodes_64queries_op0",
+      "original_case_retained": true
+    },
+    {
+      "case": 7,
+      "name": "private_FIFO_1nodes_64queries_op1",
+      "original_case_retained": true
+    },
+    {
+      "case": 8,
+      "name": "private_FIFO_64nodes_64queries_op0",
+      "original_case_retained": true
+    },
+    {
+      "case": 9,
+      "name": "private_FIFO_64nodes_64queries_op1",
+      "original_case_retained": true
+    },
+    {
+      "case": 10,
+      "name": "private_FIFO_27nodes_11queries_op0",
+      "original_case_retained": true
+    },
+    {
+      "case": 11,
+      "name": "private_FIFO_27nodes_11queries_op1",
+      "original_case_retained": true
+    },
+    {
+      "case": 12,
+      "name": "private_FIFO_27nodes_1queries_op0",
+      "original_case_retained": true
+    },
+    {
+      "case": 13,
+      "name": "private_FIFO_27nodes_1queries_op1",
+      "original_case_retained": true
+    },
+    {
+      "case": 14,
+      "name": "maximum_8705_isolated_nodes_scene",
+      "original_case_retained": false,
+      "analytical_no_edge_gold": true
+    },
+    {
+      "case": 15,
+      "name": "maximum_8705_complete_results",
+      "original_case_retained": false,
+      "analytical_no_edge_gold": true
+    }
+  ],
+  "original_cases": 14,
+  "total_cases": 16,
+  "maximum_results": 8705,
+  "nodes": 1741,
+  "queries": 5,
+  "spacing_step_words_copied_from_original": true,
+  "candidate_output_used_as_gold": false,
+  "independent_Python_oracle_pending": true,
+  "full_RTL_passed": false,
+  "PL_accessed": false
+}

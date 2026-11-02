@@ -1,0 +1,26 @@
+{
+  "bit_sha256": "4faeac43ac20f2458b7363294d3333c2c2407a362ff4cc1fc40a9629bf76fed0",
+  "bit_bin_sha256": "4e10c80a8c82ba46c600784adf5673f03ca0214e84974c7602d8d71a65ed15f8",
+  "hwh_sha256": "fac9ff593173462f9f13aaa6bbf7305aecf5ecf2b547a225b4600f802c7f012a",
+  "xclbin_sha256": "731720e9942794ca6634cc58d559d34ec005e2892b82fb7b2fd62c17a7730c23",
+  "clock_hz": 100000000,
+  "hwh_clock_hz": 99999001,
+  "ips": [
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80000000",
+      "m_name": "binary_mc:binary_mc_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80010000",
+      "m_name": "mesh_smooth:mesh_smooth_0"
+    }
+  ]
+}

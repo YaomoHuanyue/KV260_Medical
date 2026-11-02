@@ -1,0 +1,14 @@
+{
+  "bit_bin_sha256": "433fbe51e4ac7628ff6d18583573b2331e1dedcf95f04cbf654b3444cfc54df2",
+  "base_address": "0x80030000",
+  "traffic_history": true,
+  "reader_dataflow_fix": true,
+  "pending_clean_boot": false,
+  "pl_requantization": true,
+  "pointwise_streaming": true,
+  "spatial_streaming": true,
+  "pl_activation_lut": true,
+  "spatial_pixels": 3,
+  "conv_macs_per_cycle": 768,
+  "verified_boot_id": "a49c0ed2-31cd-4baf-a275-1d519da8b4ef"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "compact_C2_real_unsealed_release_refusal_and_full_owner_ABI_fixtures_passed",
+  "host": "ARM",
+  "actual_unsealed_release_refused_before_CDLL_or_XRT": true,
+  "artificial_ABI_fixture_only": true,
+  "cases": [
+    {
+      "profile": false,
+      "all23_original_dtype_size_stride_and_output_writeability_refusals": true,
+      "exact14_native_arguments_and10_phase_fields_verified": true,
+      "default_profile_disabled_without_counter_access": true,
+      "all4_foreign_thread_operations_refused": true,
+      "terminal_native_error_reported_without_PS_fallback": true,
+      "close_returned_while_restore_held_then_closed_in_same_owner": true,
+      "process_cwd_unchanged_by_backend": true
+    },
+    {
+      "profile": true,
+      "all23_original_dtype_size_stride_and_output_writeability_refusals": true,
+      "exact14_native_arguments_and10_phase_fields_verified": true,
+      "default_profile_disabled_without_counter_access": false,
+      "all4_foreign_thread_operations_refused": true,
+      "terminal_native_error_reported_without_PS_fallback": true,
+      "close_returned_while_restore_held_then_closed_in_same_owner": true,
+      "process_cwd_unchanged_by_backend": true
+    }
+  ],
+  "original_full144_plus18_actual_native_math_evidence_remains_R2141": true,
+  "source_and_evidence_sha256": {
+    "tools/test_FMA2_smoothing_runtime_r1.py": "9c1ec84f064d1d62a04cefc3c58965a02cd04ef8fd4a5f3e5ae3c877bf1babc9",
+    "dfx/smooth_speed/runtime_FMA2_r1.py": "0f6eeeed353cf9ac53a05f2786f46eb92089b4f21c51a6427889e209afbc713d",
+    "tools/seal_FMA2_smoothing_release_r1.py": "eeebfb9ff0f6a4ca2d3f09cb96ed3360d98d1f7bff5c41f571ff96669af5fb6b",
+    "dfx/smooth_speed/host_streaming_r2140/client.py": "8ec6608dbc29ece50873d6164661599655b749e1e13ea8f1d028a1e4791b8ee9",
+    "dfx/navigation_profile/host_streaming_r1180/async_session.py": "d579ee5643624651dfbce50d49496f490bd58cbeca0b1a6a6b7522a645ad77f3"
+  },
+  "XRT_session_created": false,
+  "PL_accessed": false,
+  "current_UI_or_firmware_changed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

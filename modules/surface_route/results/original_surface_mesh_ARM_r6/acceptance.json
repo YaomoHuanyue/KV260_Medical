@@ -1,0 +1,680 @@
+{
+  "status": "four_original_fields_actual_PL_mesh_extraction_completed_candidate_not_promoted",
+  "cases": [
+    {
+      "name": "accepted_binary_high_ported",
+      "bits": 5,
+      "geometry": {
+        "size_xyz": [
+          246,
+          173,
+          295
+        ],
+        "spacing_xyz": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "origin_lps_mm": [
+          -85.31246566772461,
+          -48.30152082443237,
+          -222.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "scalar_source": "accepted_binary",
+      "original_field_sha256": "15b0b5e8bdb45847d67abc4e2d597a195579c9ab8c0eb2a68cd9d80af0f076f0",
+      "renderer_scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+      "original_reference_INT16_and_geometry_exact": true,
+      "far_negative_floor_q": -128,
+      "far_negative_saturation_preserves_all_crossing_edges": true,
+      "crossing_edges": 47363,
+      "positive_voxels": 99559,
+      "crop_shape_zyx": [
+        277,
+        134,
+        207
+      ],
+      "crop_offset_zyx": [
+        18,
+        19,
+        19
+      ],
+      "source_report": "modules/surface_quality/results/own_CT_board_r2/accepted_binary_high_ported/report.json",
+      "source_report_sha256": "78ac3f698d1b5263d11f5399cfcb4d434680179c589440e96e1fbdfc47048b8d",
+      "source_geometry": {
+        "size_xyz": [
+          512,
+          512,
+          139
+        ],
+        "spacing_xyz_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          2.5
+        ],
+        "origin_lps_mm": [
+          -195.0,
+          -171.6999969482422,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "original_configuration": {
+        "margin_mm": 14.0,
+        "max_distance_mm": 32.0,
+        "isotropic_spacing_mm": 0.75,
+        "threshold": 0.5,
+        "smoothing_sigma_mm": 0.35,
+        "quantization_mm": 0.03125,
+        "gradient_sigma_mm": 0.55,
+        "keep_largest_component": true,
+        "surface_smoothing_sigma_mm": 0.35,
+        "surface_smoothing_strength": 0.55,
+        "axial_smoothing_sigma_mm": 0.8
+      },
+      "scalar_mesh": {
+        "topology_backend": "PL_C1_binary_Marching_Cubes",
+        "edge_interpolation_backend": "PS_vectorized_shared_INT16_zero_crossing",
+        "shared_scalar_edges_checked": 47363,
+        "triangles": 91063,
+        "PL_Lewiner_interior_fan_vertices": 2,
+        "interior_fan_placement": "mean of incident scalar-relocated PL edge vertices",
+        "maximum_interior_fan_trilinear_residual_q": 4.6306522609046326,
+        "PL_triangles_before_zero_endpoint_collapse": 94660,
+        "zero_area_triangles_removed": 3597,
+        "maximum_linear_edge_zero_residual": 3.552713678800501e-15,
+        "maximum_midpoint_relocation_mm": 0.375,
+        "PS_Marching_Cubes_used": false,
+        "mesh_smoothing_applied": false,
+        "sign_topology": "same_positive_rule_as_C9_sampler",
+        "interpolation_scope": "linear scalar on lattice edges; MC faces approximate the trilinear isosurface inside cells"
+      },
+      "region_review": {
+        "status": "refused_for_navigation",
+        "reason": "Nonmanifold edges or inconsistent triangle orientation refused"
+      },
+      "PL_topology_repeats_byte_exact": true,
+      "MC_trials": [
+        {
+          "backend": "dfx_pl",
+          "triangles": 94660,
+          "generation_passes": 1,
+          "compute_seconds": 0.0770254,
+          "partial_seconds": 0.146891,
+          "switch_seconds": 0.154197,
+          "host_seconds": 0.312895,
+          "input_bo": 1157627904,
+          "output_bo": 1166016512
+        },
+        {
+          "backend": "dfx_pl",
+          "triangles": 94660,
+          "generation_passes": 1,
+          "compute_seconds": 0.0769648,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.138412,
+          "input_bo": 1157627904,
+          "output_bo": 1166016512
+        }
+      ],
+      "full_case_seconds": 8.115059952950105,
+      "default_UI_or_source_route_changed": false,
+      "PS_Marching_Cubes_used": false,
+      "files_sha256": {
+        "vertices_0.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+        "report.json": "a14e75ff7e817ec2213f66e8f042b35d06b2b43ba4c13d363b13e2c8ab7f3705",
+        "session.json": "f34bcb7f5afe7bad10dabaa700be279d10da062f911a3a12c502b6dc3d6c39de",
+        "mesh.npz": "d8264521ecd8af7976db93e9a64645914cb9a3e86f960f3ad9eaba00e6761255",
+        "mask.u8": "6e6fbcb98d040bbd87ea5e5268855fcaaaf9bf2638a2537ba992cffc5b896e74",
+        "vertices_1.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+        "mc_1.json": "37f08698a95e21c8471d5065ff60a1f55e34293d5004cdaefd1b6db4c8aff074",
+        "dimensions.txt": "d7ad5f112e84cb9bd9b83dbd28ee0f5c6187191a8bdf27f4407b7e0bd419af83",
+        "mc_0.json": "7747613a55b4be150d36522d2d6cb2142e3e3115ed95295b7dc10e8e42fe6eb2",
+        "renderer_field.npy": "c91ee698b41471383e14f39f337d5c2d96d3e05ea5f5c4807d7a872a872cff4b"
+      }
+    },
+    {
+      "name": "accepted_binary_ultra_ported",
+      "bits": 6,
+      "geometry": {
+        "size_xyz": [
+          246,
+          173,
+          295
+        ],
+        "spacing_xyz": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "origin_lps_mm": [
+          -85.31246566772461,
+          -48.30152082443237,
+          -222.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "scalar_source": "accepted_binary",
+      "original_field_sha256": "2a30c57203945fba4bbbb22317d880ba28831fa37244ccdba5a5b59aa4d0fe93",
+      "renderer_scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+      "original_reference_INT16_and_geometry_exact": true,
+      "far_negative_floor_q": -256,
+      "far_negative_saturation_preserves_all_crossing_edges": true,
+      "crossing_edges": 46753,
+      "positive_voxels": 99715,
+      "crop_shape_zyx": [
+        275,
+        132,
+        207
+      ],
+      "crop_offset_zyx": [
+        20,
+        19,
+        19
+      ],
+      "source_report": "modules/surface_quality/results/own_CT_board_r2/accepted_binary_ultra_ported/report.json",
+      "source_report_sha256": "5121296ab534b74eca04cb454d6396cea7e91877cbda3ae289ff7271a2a8759d",
+      "source_geometry": {
+        "size_xyz": [
+          512,
+          512,
+          139
+        ],
+        "spacing_xyz_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          2.5
+        ],
+        "origin_lps_mm": [
+          -195.0,
+          -171.6999969482422,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "original_configuration": {
+        "margin_mm": 14.0,
+        "max_distance_mm": 32.0,
+        "isotropic_spacing_mm": 0.75,
+        "threshold": 0.5,
+        "smoothing_sigma_mm": 0.35,
+        "quantization_mm": 0.015625,
+        "gradient_sigma_mm": 0.55,
+        "keep_largest_component": true,
+        "surface_smoothing_sigma_mm": 0.5,
+        "surface_smoothing_strength": 0.72,
+        "axial_smoothing_sigma_mm": 1
+      },
+      "scalar_mesh": {
+        "topology_backend": "PL_C1_binary_Marching_Cubes",
+        "edge_interpolation_backend": "PS_vectorized_shared_INT16_zero_crossing",
+        "shared_scalar_edges_checked": 46753,
+        "triangles": 91617,
+        "PL_Lewiner_interior_fan_vertices": 5,
+        "interior_fan_placement": "mean of incident scalar-relocated PL edge vertices",
+        "maximum_interior_fan_trilinear_residual_q": 6.312142690759066,
+        "PL_triangles_before_zero_endpoint_collapse": 93446,
+        "zero_area_triangles_removed": 1829,
+        "maximum_linear_edge_zero_residual": 7.105427357601002e-15,
+        "maximum_midpoint_relocation_mm": 0.375,
+        "PS_Marching_Cubes_used": false,
+        "mesh_smoothing_applied": false,
+        "sign_topology": "same_positive_rule_as_C9_sampler",
+        "interpolation_scope": "linear scalar on lattice edges; MC faces approximate the trilinear isosurface inside cells"
+      },
+      "region_review": {
+        "status": "refused_for_navigation",
+        "reason": "Nonmanifold edges or inconsistent triangle orientation refused"
+      },
+      "PL_topology_repeats_byte_exact": true,
+      "MC_trials": [
+        {
+          "backend": "dfx_pl",
+          "triangles": 93446,
+          "generation_passes": 1,
+          "compute_seconds": 0.0751731,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.161141,
+          "input_bo": 1158676480,
+          "output_bo": 1167065088
+        },
+        {
+          "backend": "dfx_pl",
+          "triangles": 93446,
+          "generation_passes": 1,
+          "compute_seconds": 0.0753284,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.139314,
+          "input_bo": 1158676480,
+          "output_bo": 1167065088
+        }
+      ],
+      "full_case_seconds": 8.140483557013795,
+      "default_UI_or_source_route_changed": false,
+      "PS_Marching_Cubes_used": false,
+      "files_sha256": {
+        "vertices_0.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+        "report.json": "024ce064a4c698caaef7a3d328e4e05cb445fb08ee689e03db0248ba7189df65",
+        "session.json": "f34bcb7f5afe7bad10dabaa700be279d10da062f911a3a12c502b6dc3d6c39de",
+        "mesh.npz": "a03b2d7ead9254ed7bc9c0ef1b49ea9aeda8387e6198f8767e1a3ed164c1301c",
+        "mask.u8": "79e46b42f07355ed4f69923f85372ad064b4c72c7c923ee28e49424c51feb888",
+        "vertices_1.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+        "mc_1.json": "bc246f58419d6d137471d0abc1b05d51635b53b1e83cad52c543119f7ffaaddd",
+        "dimensions.txt": "a0914f32e6e4e9f6b692e5c3b53d03d3fbc664509ae61c20a8132d40f3bbf7dc",
+        "mc_0.json": "3d74235e91a713b4f0a587c0fcc4a983a47c8ab56afbc8a89710b7ad6bdca439",
+        "renderer_field.npy": "9efe3ba47e7a22974b303f36e49c82d25d5ea9e838fed9016891ec8956ef0db7"
+      }
+    },
+    {
+      "name": "network_probability_high_ported",
+      "bits": 5,
+      "geometry": {
+        "size_xyz": [
+          341,
+          293,
+          461
+        ],
+        "spacing_xyz": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "origin_lps_mm": [
+          -93.69137454032898,
+          -119.14138674736023,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "scalar_source": "network_probability",
+      "original_field_sha256": "14949d26d8d297ed9dd35ffa964b6e90f81a4aef73a58475eabbd29a18c26040",
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "original_reference_INT16_and_geometry_exact": true,
+      "far_negative_floor_q": -128,
+      "far_negative_saturation_preserves_all_crossing_edges": true,
+      "crossing_edges": 46637,
+      "positive_voxels": 98629,
+      "crop_shape_zyx": [
+        276,
+        130,
+        199
+      ],
+      "crop_offset_zyx": [
+        185,
+        113,
+        38
+      ],
+      "source_report": "modules/surface_quality/results/own_CT_board_r2/network_probability_high_ported/report.json",
+      "source_report_sha256": "65c4207d5a264519135bd1307deee5c8827c3c765e1085d7118930b8e252674f",
+      "source_geometry": {
+        "size_xyz": [
+          512,
+          512,
+          139
+        ],
+        "spacing_xyz_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          2.5
+        ],
+        "origin_lps_mm": [
+          -195.0,
+          -171.6999969482422,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "original_configuration": {
+        "margin_mm": 14.0,
+        "max_distance_mm": 32.0,
+        "isotropic_spacing_mm": 0.75,
+        "threshold": 0.5,
+        "smoothing_sigma_mm": 0.35,
+        "quantization_mm": 0.03125,
+        "gradient_sigma_mm": 0.55,
+        "keep_largest_component": true,
+        "surface_smoothing_sigma_mm": 0.35,
+        "surface_smoothing_strength": 0.55,
+        "axial_smoothing_sigma_mm": 0.8
+      },
+      "scalar_mesh": {
+        "topology_backend": "PL_C1_binary_Marching_Cubes",
+        "edge_interpolation_backend": "PS_vectorized_shared_INT16_zero_crossing",
+        "shared_scalar_edges_checked": 46637,
+        "triangles": 89553,
+        "PL_Lewiner_interior_fan_vertices": 6,
+        "interior_fan_placement": "mean of incident scalar-relocated PL edge vertices",
+        "maximum_interior_fan_trilinear_residual_q": 6.006278344671298,
+        "PL_triangles_before_zero_endpoint_collapse": 93238,
+        "zero_area_triangles_removed": 3685,
+        "maximum_linear_edge_zero_residual": 3.552713678800501e-15,
+        "maximum_midpoint_relocation_mm": 0.375,
+        "PS_Marching_Cubes_used": false,
+        "mesh_smoothing_applied": false,
+        "sign_topology": "same_positive_rule_as_C9_sampler",
+        "interpolation_scope": "linear scalar on lattice edges; MC faces approximate the trilinear isosurface inside cells"
+      },
+      "region_review": {
+        "status": "refused_for_navigation",
+        "reason": "Nonmanifold edges or inconsistent triangle orientation refused"
+      },
+      "PL_topology_repeats_byte_exact": true,
+      "MC_trials": [
+        {
+          "backend": "dfx_pl",
+          "triangles": 93238,
+          "generation_passes": 1,
+          "compute_seconds": 0.0715869,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.157716,
+          "input_bo": 1158676480,
+          "output_bo": 1166016512
+        },
+        {
+          "backend": "dfx_pl",
+          "triangles": 93238,
+          "generation_passes": 1,
+          "compute_seconds": 0.0716211,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.134172,
+          "input_bo": 1158676480,
+          "output_bo": 1166016512
+        }
+      ],
+      "full_case_seconds": 14.372979362029582,
+      "default_UI_or_source_route_changed": false,
+      "PS_Marching_Cubes_used": false,
+      "files_sha256": {
+        "vertices_0.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+        "report.json": "c808f43449f7d4b0f17b527dfab6f6bba8f042c7879cf5e40c8393f810e31858",
+        "session.json": "0ae69298f2876557a6e92844b7d731971df20f72ff3931dba3d766054e65d53b",
+        "mesh.npz": "5623154d025a7dc4d9e00edf1c15f2f7ebd9897d418ccc7569a65dcb6a19d405",
+        "mask.u8": "28fe8fdaa2c2e340bb9a4c7060ba1517fe65b639db58cd96d44daa0b4dea68fc",
+        "vertices_1.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+        "mc_1.json": "8346c5b8b7effd1bad09b35b2d4a6fb4ecc2c562a4ee5d4b7f41de0fd89dfcea",
+        "dimensions.txt": "36c78cd27cfdb5689801ff0b8493eb0dbb8310e6979ff1548c66cd5b7c50666d",
+        "mc_0.json": "0326b22e48ebe244edee6fb74d1ad66267b0ced128db364061c93bda02fc6b03",
+        "renderer_field.npy": "52c63c6eca13e41e707ff2e9acf717ecf3047c02e8f51ada8560fc242f9de80b"
+      }
+    },
+    {
+      "name": "network_probability_ultra_ported",
+      "bits": 6,
+      "geometry": {
+        "size_xyz": [
+          341,
+          293,
+          461
+        ],
+        "spacing_xyz": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "origin_lps_mm": [
+          -93.69137454032898,
+          -119.14138674736023,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "scalar_source": "network_probability",
+      "original_field_sha256": "7c1bc1f9acd0cbadd5d91e4d47249a3430c590a2079906cbb5427aaa50ca828d",
+      "renderer_scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+      "original_reference_INT16_and_geometry_exact": true,
+      "far_negative_floor_q": -256,
+      "far_negative_saturation_preserves_all_crossing_edges": true,
+      "crossing_edges": 45905,
+      "positive_voxels": 98618,
+      "crop_shape_zyx": [
+        275,
+        129,
+        197
+      ],
+      "crop_offset_zyx": [
+        186,
+        114,
+        39
+      ],
+      "source_report": "modules/surface_quality/results/own_CT_board_r2/network_probability_ultra_ported/report.json",
+      "source_report_sha256": "23f823f2a86eba560cdae77ef17d27c9399ee46b37b902dcc1371919dfbb7b58",
+      "source_geometry": {
+        "size_xyz": [
+          512,
+          512,
+          139
+        ],
+        "spacing_xyz_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          2.5
+        ],
+        "origin_lps_mm": [
+          -195.0,
+          -171.6999969482422,
+          -347.75
+        ],
+        "direction": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "original_configuration": {
+        "margin_mm": 14.0,
+        "max_distance_mm": 32.0,
+        "isotropic_spacing_mm": 0.75,
+        "threshold": 0.5,
+        "smoothing_sigma_mm": 0.35,
+        "quantization_mm": 0.015625,
+        "gradient_sigma_mm": 0.55,
+        "keep_largest_component": true,
+        "surface_smoothing_sigma_mm": 0.5,
+        "surface_smoothing_strength": 0.72,
+        "axial_smoothing_sigma_mm": 1
+      },
+      "scalar_mesh": {
+        "topology_backend": "PL_C1_binary_Marching_Cubes",
+        "edge_interpolation_backend": "PS_vectorized_shared_INT16_zero_crossing",
+        "shared_scalar_edges_checked": 45905,
+        "triangles": 90118,
+        "PL_Lewiner_interior_fan_vertices": 6,
+        "interior_fan_placement": "mean of incident scalar-relocated PL edge vertices",
+        "maximum_interior_fan_trilinear_residual_q": 6.985804535042053,
+        "PL_triangles_before_zero_endpoint_collapse": 91770,
+        "zero_area_triangles_removed": 1652,
+        "maximum_linear_edge_zero_residual": 7.105427357601002e-15,
+        "maximum_midpoint_relocation_mm": 0.375,
+        "PS_Marching_Cubes_used": false,
+        "mesh_smoothing_applied": false,
+        "sign_topology": "same_positive_rule_as_C9_sampler",
+        "interpolation_scope": "linear scalar on lattice edges; MC faces approximate the trilinear isosurface inside cells"
+      },
+      "region_review": {
+        "status": "oriented_manifold_with_only_crop_openings",
+        "triangles": 90118,
+        "boundary_edges": 70,
+        "crop_openings": [
+          {
+            "vertices": 70,
+            "axis": 2,
+            "side": 1
+          }
+        ],
+        "winding_closure": "signed_crop_polygon_integral_only",
+        "real_mesh_changed": false,
+        "virtual_closures_used_for_wall_distance": false,
+        "self_intersection_or_clinical_validation": false,
+        "preparation_seconds": 2.797693680971861
+      },
+      "PL_topology_repeats_byte_exact": true,
+      "MC_trials": [
+        {
+          "backend": "dfx_pl",
+          "triangles": 91770,
+          "generation_passes": 1,
+          "compute_seconds": 0.0700893,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.22224,
+          "input_bo": 1158676480,
+          "output_bo": 1191182336
+        },
+        {
+          "backend": "dfx_pl",
+          "triangles": 91770,
+          "generation_passes": 1,
+          "compute_seconds": 0.0700783,
+          "partial_seconds": 0,
+          "switch_seconds": 0,
+          "host_seconds": 0.148066,
+          "input_bo": 1158676480,
+          "output_bo": 1191182336
+        }
+      ],
+      "full_case_seconds": 14.641180725011509,
+      "default_UI_or_source_route_changed": false,
+      "PS_Marching_Cubes_used": false,
+      "files_sha256": {
+        "vertices_0.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+        "report.json": "6a9a40ca94e87bb9ef7f1c1f0253dea32421eb127d7ea5d6ea1ebfde583cb60b",
+        "session.json": "0ae69298f2876557a6e92844b7d731971df20f72ff3931dba3d766054e65d53b",
+        "mesh.npz": "308cacc1eaac3f11a689433a3be8872c403659ca7279db72051b2fde79457018",
+        "mask.u8": "0ad82be47582ad711e696efb79c1d45e7d440f8988b3cd003b0d0b1e68cb8864",
+        "vertices_1.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+        "mc_1.json": "53b8e17c0761fceb6c365536e01bed78b5d505a93b461e116d9fdd21768c24fd",
+        "dimensions.txt": "d0ebbd4ec0d29b9406f12df13ecff1524e63940e924eb6dd48d1ec2f37735f7d",
+        "mc_0.json": "1e6ec9b129bb68708edebce0365ddff613e737588477685509a3d4b4651dc0a0",
+        "renderer_field.npy": "25dd87ce6322cc7758f3b5d1a6b69f4fc1f8d36ef405d44bd65e63e380ac21bd"
+      }
+    }
+  ],
+  "input_sha256": {
+    "modules/surface_quality/results/own_CT_board_r2/accepted_binary_high_ported/field.npz": "15b0b5e8bdb45847d67abc4e2d597a195579c9ab8c0eb2a68cd9d80af0f076f0",
+    "modules/surface_quality/results/own_CT_board_r2/accepted_binary_high_ported/report.json": "78ac3f698d1b5263d11f5399cfcb4d434680179c589440e96e1fbdfc47048b8d",
+    "modules/surface_quality/results/own_CT_board_r2/acceptance.json": "11bcb18c75cba785d3ef7e282092aed95f94943065df74f16ecbd69f292ff808",
+    "modules/surface_quality/field.py": "e00ac0f76e60ce27cb2ed564ab7ef571ddb1fb3f10b5a896d79aff64c9e48414",
+    "modules/surface_quality/case_io.py": "6f3557d168de5cf96a7fda5b8d1870db3ccfb89e789ec8caafad85fdffe1bd28",
+    "modules/surface_quality/__init__.py": "3dddc84d2a7b58a4a5bfd2a82d4352a0d726a9a18392900e576750bb9827ebfc",
+    "modules/surface_quality/run_surface.py": "c348acb9b4a5caf2dcc5499ab4033b06d6359c50c478c86f3a7087064eeb455f",
+    "modules/surface_quality/validation/reference.py": "556bb3f68777e311a23320d10a67bbc18d4a236459d2b633109b520373ad988b",
+    "modules/surface_quality/validation/test_case_io.py": "1c580828d41be817396cb50aba9ac05ab99c97aff452ba318ab847703c4a95b5",
+    "modules/surface_quality/validation/test_field.py": "e27487ddbd9379a95f223affd6248623fb428fc8b697c9a5a79b07eb0965a35b",
+    "modules/surface_quality/validation/supplied_high_precision.py": "2dd99408c76e866d59c04ea3384fbd47adf0be07b59ee638294cdcebf6d09807",
+    "modules/surface_quality/validation/benchmark_case.py": "4f70d5aa679fb6a07512555430c9836fee3b2fce233a85236a8e2deadbcda50b",
+    "modules/surface_quality/validation/__init__.py": "d4a021fbc2c9d6ccd7140e6bd52ad70c0f975b5df6395a6ce3135d7c1fc47f8a",
+    "fixtures/own_ct/CT-chest.nrrd": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+    "ui/runs/20261004_151324_f601e259/segmentation/report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+    "ui/runs/20261004_151324_f601e259/segmentation/airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+    "modules/surface_quality/results/own_CT_board_r2/accepted_binary_ultra_ported/field.npz": "2a30c57203945fba4bbbb22317d880ba28831fa37244ccdba5a5b59aa4d0fe93",
+    "modules/surface_quality/results/own_CT_board_r2/accepted_binary_ultra_ported/report.json": "5121296ab534b74eca04cb454d6396cea7e91877cbda3ae289ff7271a2a8759d",
+    "modules/surface_quality/results/own_CT_board_r2/network_probability_high_ported/field.npz": "14949d26d8d297ed9dd35ffa964b6e90f81a4aef73a58475eabbd29a18c26040",
+    "modules/surface_quality/results/own_CT_board_r2/network_probability_high_ported/report.json": "65c4207d5a264519135bd1307deee5c8827c3c765e1085d7118930b8e252674f",
+    "ui/runs/20261004_151324_f601e259/segmentation/airway_logits.json": "ac7a6ad7ab8a5f0003b9ae480c17c77342ceaa10840493dedf95e0d35c177f18",
+    "ui/runs/20261004_151324_f601e259/segmentation/airway_logits.npy": "fed907b1cb82080320e08345eb5111569891266928e1fb33c7b1fd85f0acab55",
+    "ui/runs/20261004_151324_f601e259/segmentation/airway_mask_network.nii.gz": "39276e3ba366e56cb1fd46547a2f9d4d0b322e13b4612bb4a29bc863b98b256c",
+    "modules/surface_quality/results/own_CT_board_r2/network_probability_ultra_ported/field.npz": "7c1bc1f9acd0cbadd5d91e4d47249a3430c590a2079906cbb5427aaa50ca828d",
+    "modules/surface_quality/results/own_CT_board_r2/network_probability_ultra_ported/report.json": "23f823f2a86eba560cdae77ef17d27c9399ee46b37b902dcc1371919dfbb7b58"
+  },
+  "source_sha256": {
+    "modules/surface_route/original_surface_mesh_r6.py": "0fa176e3541be2f25bf9f091f22bfc78efacccc4be7c7727e5a1850e91f3d981",
+    "modules/surface_route/own_ct_trial.py": "9f8edd4f1f8dd61d661b8a335912cc2fcf853366b0fde0027e578a2b74d1b6d0",
+    "modules/surface_route/audit.py": "4a66f493db4dbcd3e85cc2a3bb0dbe335215b4abae95e9305ed0733d46ccb483",
+    "modules/surface_quality/scalar_mesh.py": "b39095fc02bcc6b932340e8a8ef23f69d5a3e7952e2eef9fcfb71c8deb4f1213",
+    "modules/reconstruction/fpga/mc_host.py": "0fdf1d03cae5d83da89d016939363bd581f1ac47875a3f1b15336c4481aedaa0",
+    "dfx/surface_quality/prepare.py": "e557637fc86c0df63994e05d248387590309e1cd36948a036b2628640c6a8695",
+    "dfx/surface/prepare.py": "419e30bf84989e48eb5732bf3a18fec2ed138268f124a459fe50e769e66603dc",
+    "dfx/medical/runtime_extended.py": "4f32a9dc0872ce2a920eb7f766987f63e68cd0eac8db5dae71bed886a84335c9",
+    "dfx/medical/host_extended/runtime.hpp": "41a40a87e012e64e9e169ba2c148e4643e23eaff9477d5e078a17d3e207e86db",
+    "dfx/medical/host_extended/reconstruction_bridge.cpp": "775cf2c9d170972f38519a8ee8db53c68fdc48358edec934969481e66d6396e6",
+    "dfx/edt_volume/volume_runtime.py": "39bd7daeaf90c78a0a92bae4cb53f0a605ce7627da033824f3450b5004da6141"
+  },
+  "all_mesh_regions_passed": false,
+  "new_bitstream": false,
+  "PS_Marching_Cubes_used": false,
+  "production_promoted": false,
+  "performance_scope": "Actual C1 extraction and full preparation; no new PS/PL speed claim",
+  "geometry_filtered_replan_and_full_UI_pending": true
+}

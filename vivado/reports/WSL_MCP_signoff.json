@@ -1,0 +1,15 @@
+{
+  "tool": "AMD Ross Vivado MCP",
+  "session": "vivado-20261102-095536-d38d256f",
+  "request": "set _setup [get_property SLACK [get_timing_paths -delay_type max -max_paths 1]]; set _hold [get_property SLACK [get_timing_paths -delay_type min -max_paths 1]]; set _rpclk [get_clocks -of_objects [get_pins rp/clk]]; if {$_setup < 0 || $_hold < 0 || ![llength $_rpclk]} {error {Candidate timing or RP clock failed}}; set _period [get_property PERIOD [lindex $_rpclk 0]]; if {abs($_period-10.0)>0.01} {error {Unexpected RP clock}}; if {![file exists /home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/rm/mc/config_pblock_rp_partial.bin]} {error {Missing candidate partial}}; report_route_status -file /home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/rm/mc/route_status.rpt; report_utilization -cells [get_cells rp] -hierarchical -file /home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/rm/mc/RP_utilization.rpt; puts [list CANDIDATE_SIGNOFF_PASS TOOL [version -short] RP_CLOCK_NS $_period WNS_NS $_setup WHS_NS $_hold PARTIAL_BYTES [file size /home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9/workspace/build/rm/mc/config_pblock_rp_partial.bin]]",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"elapsed_seconds\": 3.165725,\n  \"exit_code\": 0,\n  \"output\": \"CANDIDATE_SIGNOFF_PASS TOOL 2025.2.1 RP_CLOCK_NS 10.000 WNS_NS 2.306 WHS_NS 0.010 PARTIAL_BYTES 7868904\\nINFO: [MCP 00-101]\"\n}"
+      }
+    ]
+  },
+  "full_PR_scope": "one retained complete golden MC configuration",
+  "board_programmed": false
+}

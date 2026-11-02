@@ -1,0 +1,133 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date         : Sun Oct  4 22:29:50 2026
+| Host         : NYANKO-YUE running 64-bit major release  (build 9200)
+| Command      : report_drc -file D:/Xilinx_Project/2026FPGA/kv260_system/dfx/composite/build/drc.rpt
+| Design       : system_top
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_static_routed
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 11
++-----------+----------+------------------------------------------------------+--------+
+| Rule      | Severity | Description                                          | Checks |
++-----------+----------+------------------------------------------------------+--------+
+| HDPR-32   | Warning  | RESET_AFTER_RECONFIG only supported on target device | 1      |
+| RTSTAT-10 | Warning  | No routable loads                                    | 1      |
+| HDPRA-51  | Advisory | Narrow Edge with Location Constraints                | 2      |
+| HDPRA-52  | Advisory | Narrow Edge without Location Constraints             | 1      |
+| HDPRA-55  | Advisory | Narrow Gap with Location Constraints                 | 2      |
+| HDPRA-56  | Advisory | Narrow Gap without Location Constraints              | 3      |
+| HDPRA-57  | Advisory | Gap with Location Constraints                        | 1      |
++-----------+----------+------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+HDPR-32#1 Warning
+RESET_AFTER_RECONFIG only supported on target device  
+Reconfigurable Pblock 'pblock_rp' has RESET_AFTER_RECONFIG property set.  This property is not necessary for this target device.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+25 net(s) have no routable loads. The problem bus(es) and/or net(s) are platform/system_ps_i/control_bus/inst/m00_nodes/m00_ar_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m00_nodes/m00_aw_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m00_nodes/m00_r_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m01_nodes/m01_aw_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m01_nodes/m01_b_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m01_nodes/m01_w_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m02_nodes/m02_aw_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m02_nodes/m02_w_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m03_nodes/m03_ar_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/m03_nodes/m03_w_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/s00_nodes/s00_ar_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/s00_nodes/s00_b_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe,
+platform/system_ps_i/control_bus/inst/s00_nodes/s00_w_node/inst/mi_handler_m_sc_areset_pipe
+ (the first 15 of 25 listed nets/buses).
+Related violations: <none>
+
+HDPRA-51#1 Advisory
+Narrow Edge with Location Constraints  
+Static Logic contains narrow edges with location constraints that may impact implementation results.  It is best to PROHIBIT the CLBs inside the gap to avoid congestion.  Or, create an EXCLUDE_PLACEMENT static pblock to cover the edge which prevents unnecessary logic from getting placed in narrow gap.  TAG='51_LE_S_RP1'.  Sites on edge: SLICE_X0Y225, SLICE_X0Y226, SLICE_X0Y227, SLICE_X0Y228, SLICE_X0Y229,
+SLICE_X0Y230, SLICE_X0Y231, SLICE_X0Y232, SLICE_X0Y233, SLICE_X0Y234,
+SLICE_X0Y235, SLICE_X0Y236, SLICE_X0Y237, SLICE_X0Y238, SLICE_X0Y239
+ (the first 15 of 180 listed)
+Related violations: <none>
+
+HDPRA-51#2 Advisory
+Narrow Edge with Location Constraints  
+Static Logic contains narrow edges with location constraints that may impact implementation results.  It is best to PROHIBIT the CLBs inside the gap to avoid congestion.  Or, create an EXCLUDE_PLACEMENT static pblock to cover the edge which prevents unnecessary logic from getting placed in narrow gap.  TAG='51_RE_S_RP1'.  Sites on edge: SLICE_X60Y105, SLICE_X60Y106, SLICE_X60Y107, SLICE_X60Y108, SLICE_X60Y109,
+SLICE_X60Y110, SLICE_X60Y111, SLICE_X60Y112, SLICE_X60Y113, SLICE_X60Y114,
+SLICE_X60Y115, SLICE_X60Y116, SLICE_X60Y117, SLICE_X60Y118, SLICE_X60Y119
+ (the first 15 of 120 listed)
+Related violations: <none>
+
+HDPRA-52#1 Advisory
+Narrow Edge without Location Constraints  
+Static Logic contains narrow edges that may impact implementation results.  It is best to include these region(s) in the adjacent RP pblock, 'pblock_rp'.  Removing the static edge will allow for continuous placement.  TAG='52_RE_S_RP1'.  Sites on edge: SLICE_X60Y225, SLICE_X60Y226, SLICE_X60Y227, SLICE_X60Y228, SLICE_X60Y229,
+SLICE_X60Y230, SLICE_X60Y231, SLICE_X60Y232, SLICE_X60Y233, SLICE_X60Y234,
+SLICE_X60Y235, SLICE_X60Y236, SLICE_X60Y237, SLICE_X60Y238, SLICE_X60Y239
+ (the first 15 of 120 listed)
+Related violations: <none>
+
+HDPRA-55#1 Advisory
+Narrow Gap with Location Constraints  
+RP pblock 'pblock_rp' contains a narrow gap with location constraints that may impact implementation results.  If possible, it is best to avoid gaps within a RP. If that cannot be done, it is best to PROHIBIT the CLBs inside the gap to avoid congestion.  If additional logic is needed nearby, instead add a static EXCLUDE_PLACEMENT pblock that covers the gap and add only essential logic to this pblock.  TAG='55_G16_RP1_S'.   Sites in gap: SLICE_X23Y105, SLICE_X23Y106, SLICE_X23Y107, SLICE_X23Y108, SLICE_X23Y109,
+SLICE_X23Y110, SLICE_X23Y111, SLICE_X23Y112, SLICE_X23Y113, SLICE_X23Y114,
+SLICE_X23Y115, SLICE_X23Y116, SLICE_X23Y117, SLICE_X23Y118, SLICE_X23Y119
+ (the first 15 of 60 listed)
+Related violations: <none>
+
+HDPRA-55#2 Advisory
+Narrow Gap with Location Constraints  
+RP pblock 'pblock_rp' contains a narrow gap with location constraints that may impact implementation results.  If possible, it is best to avoid gaps within a RP. If that cannot be done, it is best to PROHIBIT the CLBs inside the gap to avoid congestion.  If additional logic is needed nearby, instead add a static EXCLUDE_PLACEMENT pblock that covers the gap and add only essential logic to this pblock.  TAG='55_G7_RP1_S'.   Sites in gap: SLICE_X10Y105, SLICE_X10Y106, SLICE_X10Y107, SLICE_X10Y108, SLICE_X10Y109,
+SLICE_X10Y110, SLICE_X10Y111, SLICE_X10Y112, SLICE_X10Y113, SLICE_X10Y114,
+SLICE_X10Y115, SLICE_X10Y116, SLICE_X10Y117, SLICE_X10Y118, SLICE_X10Y119
+ (the first 15 of 60 listed)
+Related violations: <none>
+
+HDPRA-56#1 Advisory
+Narrow Gap without Location Constraints  
+RP pblock 'pblock_rp' contains a narrow gap that may impact implementation results.  Removing the gap by absorbing the locations into the RP pblock may improve implementation and allow for continuous placement.  TAG='56_G16_RP1_S'.  Use the following command to adjust the RP to include the locations in the gap: 
+	 resize_pblock pblock_rp -add {BIAS_X0Y6:BIAS_X0Y7 SLICE_X23Y180:SLICE_X23Y239 BITSLICE_CONTROL_X0Y24:BITSLICE_CONTROL_X0Y31 BITSLICE_RX_TX_X0Y156:BITSLICE_RX_TX_X0Y207 BITSLICE_TX_X0Y24:BITSLICE_TX_X0Y31 BUFGCE_X0Y72:BUFGCE_X0Y95 MMCM_X0Y3:MMCM_X0Y3 BUFGCE_DIV_X0Y12:BUFGCE_DIV_X0Y15 BUFGCTRL_X0Y24:BUFGCTRL_X0Y31 HPIOBDIFFINBUF_X0Y72:HPIOBDIFFINBUF_X0Y95 HPIOBDIFFOUTBUF_X0Y72:HPIOBDIFFOUTBUF_X0Y95 HPIO_VREF_SITE_X0Y6:HPIO_VREF_SITE_X0Y7 IOB_X1Y156:IOB_X1Y207 PLL_X0Y6:PLL_X0Y7 RIU_OR_X0Y12:RIU_OR_X0Y15 BIAS_X0Y4:BIAS_X0Y5 SLICE_X23Y120:SLICE_X23Y179 BITSLICE_CONTROL_X0Y16:BITSLICE_CONTROL_X0Y23 BITSLICE_RX_TX_X0Y104:BITSLICE_RX_TX_X0Y155 BITSLICE_TX_X0Y16:BITSLICE_TX_X0Y23 BUFGCE_X0Y48:BUFGCE_X0Y71 MMCM_X0Y2:MMCM_X0Y2 BUFGCE_DIV_X0Y8:BUFGCE_DIV_X0Y11 BUFGCTRL_X0Y16:BUFGCTRL_X0Y23 HPIOBDIFFINBUF_X0Y48:HPIOBDIFFINBUF_X0Y71 HPIOBDIFFOUTBUF_X0Y48:HPIOBDIFFOUTBUF_X0Y71 HPIO_VREF_SITE_X0Y4:HPIO_VREF_SITE_X0Y5 IOB_X1Y104:IOB_X1Y155 PLL_X0Y4:PLL_X0Y5 RIU_OR_X0Y8:RIU_OR_X0Y11 }
+Related violations: <none>
+
+HDPRA-56#2 Advisory
+Narrow Gap without Location Constraints  
+RP pblock 'pblock_rp' contains a narrow gap that may impact implementation results.  Removing the gap by absorbing the locations into the RP pblock may improve implementation and allow for continuous placement.  TAG='56_G33_RP1_S'.  Use the following command to adjust the RP to include the locations in the gap: 
+	 resize_pblock pblock_rp -add {SYSMONE4_X0Y0:SYSMONE4_X0Y0 SLICE_X48Y210:SLICE_X48Y239 SLICE_X48Y180:SLICE_X48Y209 CFGIO_SITE_X0Y0:CFGIO_SITE_X0Y0 }
+Related violations: <none>
+
+HDPRA-56#3 Advisory
+Narrow Gap without Location Constraints  
+RP pblock 'pblock_rp' contains a narrow gap that may impact implementation results.  Removing the gap by absorbing the locations into the RP pblock may improve implementation and allow for continuous placement.  TAG='56_G7_RP1_S'.  Use the following command to adjust the RP to include the locations in the gap: 
+	 resize_pblock pblock_rp -add {SLICE_X10Y180:SLICE_X10Y239 HDIO_BIAS_X0Y3:HDIO_BIAS_X0Y3 BUFGCE_HDIO_X0Y6:BUFGCE_HDIO_X1Y7 HDIOBDIFFINBUF_X0Y36:HDIOBDIFFINBUF_X0Y47 HDIOLOGIC_M_X0Y36:HDIOLOGIC_M_X0Y47 HDIOLOGIC_S_X0Y36:HDIOLOGIC_S_X0Y47 HDIO_VREF_X0Y3:HDIO_VREF_X0Y3 IOB_X0Y156:IOB_X0Y193 SLICE_X10Y120:SLICE_X10Y179 HDIO_BIAS_X0Y2:HDIO_BIAS_X0Y2 BUFGCE_HDIO_X0Y4:BUFGCE_HDIO_X1Y5 HDIOBDIFFINBUF_X0Y24:HDIOBDIFFINBUF_X0Y35 HDIOLOGIC_M_X0Y24:HDIOLOGIC_M_X0Y35 HDIOLOGIC_S_X0Y24:HDIOLOGIC_S_X0Y35 HDIO_VREF_X0Y2:HDIO_VREF_X0Y2 IOB_X0Y104:IOB_X0Y141 }
+Related violations: <none>
+
+HDPRA-57#1 Advisory
+Gap with Location Constraints  
+RP pblock 'pblock_rp' contains a gap with location constraints that likely will impact implementation results.  If possible, it is best to avoid gaps within an RP. If that cannot be done, nested pblock may be required in the pblock to minimize crossings. Also, you may need to add a static EXCLUDE_PLACEMENT pblock that covers the gap and add contains only essential logic to this pblock.  TAG='57_G33_RP1_S'.   Sites in gap: SLICE_X48Y116, SLICE_X48Y116, SLICE_X48Y117, SLICE_X48Y117, SLICE_X48Y118,
+SLICE_X48Y118, SLICE_X48Y119, SLICE_X48Y119, SLICE_X49Y116, SLICE_X49Y117,
+SLICE_X49Y117, SLICE_X49Y118, SLICE_X49Y118, SLICE_X49Y119, SLICE_X49Y119
+ (the first 15 of 480 listed)
+Related violations: <none>
+
+

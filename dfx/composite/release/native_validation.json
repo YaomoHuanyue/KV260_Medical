@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "kind": "CPU native numerical model; not PL execution",
+  "blend_component_cases": 16777216,
+  "cases": [
+    {
+      "pixels": 16,
+      "stride_pixels": 1024,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 48,
+      "stride_pixels": 1024,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 512,
+      "stride_pixels": 1024,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 528,
+      "stride_pixels": 1024,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 4096,
+      "stride_pixels": 4096,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 83712,
+      "stride_pixels": 83968,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 232320,
+      "stride_pixels": 232448,
+      "status": "passed",
+      "same_depth_and_empty": true
+    },
+    {
+      "pixels": 327680,
+      "stride_pixels": 327680,
+      "status": "passed",
+      "same_depth_and_empty": true
+    }
+  ],
+  "color": "RGBA8 straight alpha over opaque background",
+  "depth": "24-bit unsigned, layer 0 nearest on ties",
+  "sources": {
+    "hls\\algorithm.hpp": "8e196e02f679e89989db56fdc9ff86e985d800b0a68679dfcb7aa0fd08ef9f27",
+    "host\\reference.cpp": "9db40124b3b728f5b656d825707fea03b2c7743d3b4b7b294a10c706a46169d6",
+    "validate.py": "b865c44730555708ef02ec4846dc2153af7518f0eba31003151ea60010221043"
+  }
+}

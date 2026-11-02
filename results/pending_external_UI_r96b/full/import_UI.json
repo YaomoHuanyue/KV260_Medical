@@ -1,0 +1,23 @@
+{
+    "UI_peak_RSS_MiB": 588.625,
+    "accepted_UI_replaced": false,
+    "detail": "External images declare a different CT SHA256",
+    "imported_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/external_20261009_005259_691ac95c",
+    "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+    "physical_mouse_verified": false,
+    "reconstructed_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261009_005333_66d566e1",
+    "scene_after_rejected_import": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/be7bd42fd42e023c5966a566/scene.json",
+    "source_after_rejected_import": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261009_005333_66d566e1",
+    "status": "passed_external_import_UI_then_actual_PL_reconstruction_and_wrong_CT_rejection",
+    "trace": [
+        "clicked_import_control",
+        "validated_external_masks_loaded_without_inference_or_mesh",
+        {
+            "visible_structures": [
+                "lung"
+            ]
+        },
+        "clicked_reconstruction_control_actual_PL_MC_and_smoothing_completed",
+        "wrong_CT_manifest_rejected_without_replacing_scene"
+    ]
+}

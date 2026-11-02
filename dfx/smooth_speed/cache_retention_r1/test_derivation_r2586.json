@@ -1,0 +1,50 @@
+{
+  "schema": "kv260.smoothing.cache_retention.v1",
+  "parent_source_sha256": {
+    "dfx/smooth_speed/manual_bram_apply_r2585/mesh_smooth.cpp": "01f64c1c6c6f409b92f5cfded52be033b6692403aef7e1ee77652df60744041a",
+    "dfx/smooth_speed/manual_bram_apply_r2585/apply_stream.inc": "29e9c03ea8aca7215102ff75ef6ce4441ba92cd8037de7906fb91fa21705535e",
+    "dfx/smooth_speed/manual_bram_apply_r2585/finite_fma.hpp": "5031fd8890167fcb9143014255cb4ed3cc7abc97a02fd92f4ea956fc68d04d1a",
+    "dfx/smooth_speed/manual_bram_apply_r2585/medical_fma.hpp": "b9fae0f0c09a2f755806e71e73dd946eb1aaf59a25d025a2d9b4dc82eec35bc0",
+    "dfx/smooth_speed/manual_bram_apply_r2585/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "dfx/smooth_speed/manual_bram_apply_r2585/oracle_bridge_r150.inc": "2bf31b4665dfb675ab16954e99ecb95dc4141dc1b05a41c6577e746f78439c5f",
+    "dfx/smooth_speed/manual_bram_apply_r2585/oracle_reference.inc": "260fb6c49eec556baf81e1d1779fd427ae6e81ed8fede9cf9587d4862bd00103",
+    "dfx/smooth_speed/manual_bram_apply_r2585/reference.cpp": "d20161c02597bcdff6e3be8d6c390ec96cfa5b57d818da503982575d627307b2",
+    "dfx/smooth_speed/manual_bram_apply_r2585/test_full_banks_r2586.py": "375e614b5742cfddf0d704ee5af3fd4a07602d5077cf240d5d3122b746b0772f",
+    "dfx/smooth_speed/manual_bram_apply_r2585/test_own_CT_r2586.py": "1214a0cdca7aabe3404c58bf26c7eaebe1035149799d441473d52902d2e3d3da"
+  },
+  "literal_edits": [
+    {
+      "before": "cache_valid=true;cache_lo=lo;cache_hi=hi;",
+      "after": "retain_cache_window(lo,hi,WINDOW,cache_valid,cache_lo,cache_hi);",
+      "occurrences": 2
+    },
+    {
+      "before": "#include \"apply_stream.inc\"",
+      "after": "#include \"cache_window.hpp\"\n#include \"apply_stream.inc\"",
+      "occurrences": 1
+    }
+  ],
+  "source_and_reference_sha256": {
+    "dfx/smooth_speed/manual_bram_apply_r2585/derivation.json": "00baab2a1b75e690edfabbbb520a277181fba65ba99c0781b50cda512328ce1e"
+  },
+  "candidate_source_sha256": {
+    "dfx/smooth_speed/cache_retention_r1/apply_stream.inc": "29e9c03ea8aca7215102ff75ef6ce4441ba92cd8037de7906fb91fa21705535e",
+    "dfx/smooth_speed/cache_retention_r1/finite_fma.hpp": "5031fd8890167fcb9143014255cb4ed3cc7abc97a02fd92f4ea956fc68d04d1a",
+    "dfx/smooth_speed/cache_retention_r1/medical_fma.hpp": "b9fae0f0c09a2f755806e71e73dd946eb1aaf59a25d025a2d9b4dc82eec35bc0",
+    "dfx/smooth_speed/cache_retention_r1/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "dfx/smooth_speed/cache_retention_r1/oracle_bridge_r150.inc": "2bf31b4665dfb675ab16954e99ecb95dc4141dc1b05a41c6577e746f78439c5f",
+    "dfx/smooth_speed/cache_retention_r1/oracle_reference.inc": "260fb6c49eec556baf81e1d1779fd427ae6e81ed8fede9cf9587d4862bd00103",
+    "dfx/smooth_speed/cache_retention_r1/reference.cpp": "d20161c02597bcdff6e3be8d6c390ec96cfa5b57d818da503982575d627307b2",
+    "dfx/smooth_speed/cache_retention_r1/test_full_banks_r2586.py": "375e614b5742cfddf0d704ee5af3fd4a07602d5077cf240d5d3122b746b0772f",
+    "dfx/smooth_speed/cache_retention_r1/test_own_CT_r2586.py": "1214a0cdca7aabe3404c58bf26c7eaebe1035149799d441473d52902d2e3d3da",
+    "dfx/smooth_speed/cache_retention_r1/mesh_smooth.cpp": "90a2f6ebb80a96bb39d3df7a549f7e0258218c2749e1445e24ad3b48e1fdd78d",
+    "dfx/smooth_speed/cache_retention_r1/cache_window.hpp": "3d03a4304193d8bdf6e91778f636c8a65eaa42a1608b207a556c3ee9d6caf668",
+    "dfx/smooth_speed/cache_retention_r1/prepare.py": "99e8f96fa8a40c6d1052666a389fb98686c22f6a1d02501e49595d744e414d5c"
+  },
+  "original144_full_bank_and18_full_CT_calls_required": true,
+  "floating_point_neighbor_order_capacity_ABI_and_fallbacks_unchanged": true,
+  "new_PL_test_ports": false,
+  "PL_speedup_not_yet_proven": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

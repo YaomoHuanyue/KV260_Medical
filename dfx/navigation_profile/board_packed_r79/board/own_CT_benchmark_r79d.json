@@ -1,0 +1,4461 @@
+{
+  "status": "actual_R7_full_original_CT_PS1_PS4_three_policy_comparison",
+  "host": "ARM",
+  "software_contract_only": false,
+  "PL_accessed": true,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "performance_gate_passed": false,
+  "PS4_PL_speedup_established": false,
+  "strongest_PS_full_API_seconds": 0.012227553001139313,
+  "best_PL_policy": "spin2000",
+  "PL_full_API_speedup_over_strongest_PS": 0.8777147492990186,
+  "own_CT_nodes": 863,
+  "undirected_raw_edges": 871,
+  "all_4315_original_FP64_costs_and_parents_exact": true,
+  "all_original_report_fields_checked": true,
+  "raw_fixtures": [
+    {
+      "wait_policy": 0,
+      "case": 0,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_00.bin",
+        "sha256": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 1,
+      "original_words": 4316,
+      "packed_valid_words": 1080,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_01.bin",
+        "sha256": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 2,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_02.bin",
+        "sha256": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 3,
+      "original_words": 8193,
+      "packed_valid_words": 2049,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_03.bin",
+        "sha256": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 4,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_04.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 5,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_05.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 6,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_06.bin",
+        "sha256": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 7,
+      "original_words": 65,
+      "packed_valid_words": 17,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_07.bin",
+        "sha256": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 8,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_08.bin",
+        "sha256": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 9,
+      "original_words": 4097,
+      "packed_valid_words": 1025,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_09.bin",
+        "sha256": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 10,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_10.bin",
+        "sha256": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 11,
+      "original_words": 298,
+      "packed_valid_words": 76,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_11.bin",
+        "sha256": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 12,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_12.bin",
+        "sha256": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 13,
+      "original_words": 28,
+      "packed_valid_words": 8,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_13.bin",
+        "sha256": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 14,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_14.bin",
+        "sha256": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 0,
+      "case": 15,
+      "original_words": 8706,
+      "packed_valid_words": 2178,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_15.bin",
+        "sha256": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 0,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_00.bin",
+        "sha256": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 1,
+      "original_words": 4316,
+      "packed_valid_words": 1080,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_01.bin",
+        "sha256": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 2,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_02.bin",
+        "sha256": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 3,
+      "original_words": 8193,
+      "packed_valid_words": 2049,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_03.bin",
+        "sha256": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 4,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_04.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 5,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_05.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 6,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_06.bin",
+        "sha256": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 7,
+      "original_words": 65,
+      "packed_valid_words": 17,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_07.bin",
+        "sha256": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 8,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_08.bin",
+        "sha256": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 9,
+      "original_words": 4097,
+      "packed_valid_words": 1025,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_09.bin",
+        "sha256": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 10,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_10.bin",
+        "sha256": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 11,
+      "original_words": 298,
+      "packed_valid_words": 76,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_11.bin",
+        "sha256": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 12,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_12.bin",
+        "sha256": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 13,
+      "original_words": 28,
+      "packed_valid_words": 8,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_13.bin",
+        "sha256": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 14,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_14.bin",
+        "sha256": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 15,
+      "original_words": 8706,
+      "packed_valid_words": 2178,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_15.bin",
+        "sha256": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 0,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_00.bin",
+        "sha256": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 1,
+      "original_words": 4316,
+      "packed_valid_words": 1080,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_01.bin",
+        "sha256": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 2,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_02.bin",
+        "sha256": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 3,
+      "original_words": 8193,
+      "packed_valid_words": 2049,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_03.bin",
+        "sha256": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 4,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_04.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 5,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_05.bin",
+        "sha256": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+        "bytes": 139392
+      },
+      "actual_control_status": 2,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 6,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_06.bin",
+        "sha256": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 7,
+      "original_words": 65,
+      "packed_valid_words": 17,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_07.bin",
+        "sha256": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 8,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_08.bin",
+        "sha256": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 9,
+      "original_words": 4097,
+      "packed_valid_words": 1025,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_09.bin",
+        "sha256": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 10,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_10.bin",
+        "sha256": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 11,
+      "original_words": 298,
+      "packed_valid_words": 76,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_11.bin",
+        "sha256": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 12,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_12.bin",
+        "sha256": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 13,
+      "original_words": 28,
+      "packed_valid_words": 8,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_13.bin",
+        "sha256": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 14,
+      "original_words": 1,
+      "packed_valid_words": 1,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_14.bin",
+        "sha256": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 15,
+      "original_words": 8706,
+      "packed_valid_words": 2178,
+      "raw_output": {
+        "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_15.bin",
+        "sha256": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+        "bytes": 139392
+      },
+      "actual_control_status": 0,
+      "full_2178_output_and_zero_padding_checked": true,
+      "exact_original_FP64_parent_and_metadata": true,
+      "exact_invalid_core_status": true
+    }
+  ],
+  "compact_fixtures": [
+    {
+      "wait_policy": 0,
+      "case": 0,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 1,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 2,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 3,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 4,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 5,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 6,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 7,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 8,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 9,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 10,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 11,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 12,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 13,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 14,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 0,
+      "case": 15,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": true
+    },
+    {
+      "wait_policy": 1,
+      "case": 0,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 1,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 2,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 3,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 4,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 5,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 6,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 7,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 8,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 9,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 10,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 11,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 12,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 13,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 14,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 1,
+      "case": 15,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": true
+    },
+    {
+      "wait_policy": 2,
+      "case": 0,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 1,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 2,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 3,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 4,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 5,
+      "expected_status": 2,
+      "expected_rejection": true,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 6,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 7,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 8,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 9,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 10,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 11,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 12,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 13,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 14,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": false
+    },
+    {
+      "wait_policy": 2,
+      "case": 15,
+      "expected_status": 0,
+      "expected_rejection": false,
+      "all_original_cost_bits_and_parent_ids_checked": true,
+      "maximum_8705_case_retained": true
+    }
+  ],
+  "samples": [
+    {
+      "repeat": 0,
+      "execution_order": [
+        1,
+        "PL_sleep20",
+        4,
+        "PL_spin200",
+        "PL_spin2000"
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.014135360994259827,
+        "4": 0.01212889100133907
+      },
+      "PL_full_profile_API_seconds": {
+        "sleep20": 0.01399067000602372,
+        "spin200": 0.013978570001199841,
+        "spin2000": 0.013888998990296386
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.0008136879914673045,
+        "4": 0.0007938480121083558
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "sleep20": 0.0025803760072449222,
+        "spin200": 0.002593316006823443,
+        "spin2000": 0.0024867149913916364
+      },
+      "PL_calls": {
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.8e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120241,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000214522,
+              "full_readback_and_four_full_guards": 8.3841e-05,
+              "mapped_full_validation_and_packed_decode": 1.9e-06,
+              "native_host_total": 0.000475265
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.00020060199999999997,
+              "poll_seconds": 0.000211192,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.4e-07,
+              "full_input_output_and_guard_setup_sync": 8.1361e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000562016,
+              "full_readback_and_four_full_guards": 8.1891e-05,
+              "mapped_full_validation_and_packed_decode": 7.8231e-05,
+              "native_host_total": 0.000839149
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 7
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.000539366,
+              "poll_seconds": 0.000558956,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 9.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000119081,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200492,
+              "full_readback_and_four_full_guards": 8.3231e-05,
+              "mapped_full_validation_and_packed_decode": 1.7e-06,
+              "native_host_total": 0.000458754
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197132,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.1e-07,
+              "full_input_output_and_guard_setup_sync": 8.0591e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000600566,
+              "full_readback_and_four_full_guards": 8.1511e-05,
+              "mapped_full_validation_and_packed_decode": 7.9521e-05,
+              "native_host_total": 0.000878089
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.000385974,
+              "poll_seconds": 0.000597566,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 5.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000122071,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200502,
+              "full_readback_and_four_full_guards": 0.000101491,
+              "mapped_full_validation_and_packed_decode": 1.59e-06,
+              "native_host_total": 0.000478415
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197062,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.1e-07,
+              "full_input_output_and_guard_setup_sync": 8.0261e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000518455,
+              "full_readback_and_four_full_guards": 8.3991e-05,
+              "mapped_full_validation_and_packed_decode": 7.9711e-05,
+              "native_host_total": 0.000797608
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 335,
+                "core": 307
+              },
+              "iterations": 335,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000515465,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "execution_order": [
+        "PL_sleep20",
+        4,
+        "PL_spin200",
+        "PL_spin2000",
+        1
+      ],
+      "PS_full_profile_API_seconds": {
+        "4": 0.012094200996216387,
+        "1": 0.01236735399288591
+      },
+      "PL_full_profile_API_seconds": {
+        "sleep20": 0.01399814999604132,
+        "spin200": 0.013998340000398457,
+        "spin2000": 0.01406249099818524
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "4": 0.0007844780047889799,
+        "1": 0.000980819997494109
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "sleep20": 0.002551686004153453,
+        "spin200": 0.002539326000260189,
+        "spin2000": 0.0025872859987430274
+      },
+      "PL_calls": {
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.2e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121411,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000207712,
+              "full_readback_and_four_full_guards": 8.711e-05,
+              "mapped_full_validation_and_packed_decode": 1.96e-06,
+              "native_host_total": 0.000472084
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000194221,
+              "poll_seconds": 0.000204562,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2e-07,
+              "full_input_output_and_guard_setup_sync": 7.9981e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000565846,
+              "full_readback_and_four_full_guards": 8.1921e-05,
+              "mapped_full_validation_and_packed_decode": 7.8511e-05,
+              "native_host_total": 0.000840679
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005434159999999999,
+              "poll_seconds": 0.0005627859999999999,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140292,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200942,
+              "full_readback_and_four_full_guards": 8.2281e-05,
+              "mapped_full_validation_and_packed_decode": 1.26e-06,
+              "native_host_total": 0.000482345
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197482,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.0321e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000604016,
+              "full_readback_and_four_full_guards": 8.2161e-05,
+              "mapped_full_validation_and_packed_decode": 8.0441e-05,
+              "native_host_total": 0.000882239
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 124,
+                "core": 123
+              },
+              "iterations": 124,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.000389604,
+              "poll_seconds": 0.0006009559999999999,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121271,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200432,
+              "full_readback_and_four_full_guards": 8.2001e-05,
+              "mapped_full_validation_and_packed_decode": 1.3e-06,
+              "native_host_total": 0.000457595
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197112,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.3e-07,
+              "full_input_output_and_guard_setup_sync": 8.0761e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000516945,
+              "full_readback_and_four_full_guards": 7.9381e-05,
+              "mapped_full_validation_and_packed_decode": 7.8991e-05,
+              "native_host_total": 0.000789158
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 347,
+                "core": 307
+              },
+              "iterations": 347,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.0005138650000000001,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "execution_order": [
+        4,
+        "PL_spin200",
+        "PL_spin2000",
+        1,
+        "PL_sleep20"
+      ],
+      "PS_full_profile_API_seconds": {
+        "4": 0.01221333300054539,
+        "1": 0.012323012997512706
+      },
+      "PL_full_profile_API_seconds": {
+        "spin200": 0.01405778099433519,
+        "spin2000": 0.013992629988933913,
+        "sleep20": 0.014074801001697779
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "4": 0.0008100979903247207,
+        "1": 0.0009695089975139126
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin200": 0.0025715660012792796,
+        "spin2000": 0.0024693849991308525,
+        "sleep20": 0.002538664994062856
+      },
+      "PL_calls": {
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120411,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200702,
+              "full_readback_and_four_full_guards": 8.5531e-05,
+              "mapped_full_validation_and_packed_decode": 1.36e-06,
+              "native_host_total": 0.000461814
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.00019743200000000002,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.1e-07,
+              "full_input_output_and_guard_setup_sync": 9.9211e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000605166,
+              "full_readback_and_four_full_guards": 8.2091e-05,
+              "mapped_full_validation_and_packed_decode": 8.0431e-05,
+              "native_host_total": 0.000902659
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.00039036400000000003,
+              "poll_seconds": 0.000602196,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000122091,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200712,
+              "full_readback_and_four_full_guards": 8.265e-05,
+              "mapped_full_validation_and_packed_decode": 1.33e-06,
+              "native_host_total": 0.000461344
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 37,
+                "writer": 116,
+                "core": 37
+              },
+              "iterations": 116,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197281,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.5e-07,
+              "full_input_output_and_guard_setup_sync": 8.1421e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000516985,
+              "full_readback_and_four_full_guards": 8.201e-05,
+              "mapped_full_validation_and_packed_decode": 8.3251e-05,
+              "native_host_total": 0.000798798
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 275,
+                "core": 257
+              },
+              "iterations": 275,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514005,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121762,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000224382,
+              "full_readback_and_four_full_guards": 8.4291e-05,
+              "mapped_full_validation_and_packed_decode": 1.85e-06,
+              "native_host_total": 0.000490485
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000210692,
+              "poll_seconds": 0.000221182,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.6e-07,
+              "full_input_output_and_guard_setup_sync": 8.1961e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000566336,
+              "full_readback_and_four_full_guards": 8.1731e-05,
+              "mapped_full_validation_and_packed_decode": 7.9741e-05,
+              "native_host_total": 0.000845099
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005442260000000001,
+              "poll_seconds": 0.000563306,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "execution_order": [
+        "PL_spin200",
+        "PL_spin2000",
+        1,
+        "PL_sleep20",
+        4
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.012385563008137979,
+        "4": 0.012239132993272506
+      },
+      "PL_full_profile_API_seconds": {
+        "spin200": 0.014038150999112986,
+        "spin2000": 0.01396435899368953,
+        "sleep20": 0.014176391996443272
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.0009690890001365915,
+        "4": 0.0007886379898991436
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin200": 0.002609827002743259,
+        "spin2000": 0.002464313991367817,
+        "sleep20": 0.0025439149903832003
+      },
+      "PL_calls": {
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120591,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200122,
+              "full_readback_and_four_full_guards": 8.2091e-05,
+              "mapped_full_validation_and_packed_decode": 1.43e-06,
+              "native_host_total": 0.000457255
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000196742,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.022e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000595976,
+              "full_readback_and_four_full_guards": 8.1881e-05,
+              "mapped_full_validation_and_packed_decode": 7.852e-05,
+              "native_host_total": 0.000872178
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.00038092400000000004,
+              "poll_seconds": 0.000592946,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121651,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000201122,
+              "full_readback_and_four_full_guards": 8.3381e-05,
+              "mapped_full_validation_and_packed_decode": 1.32e-06,
+              "native_host_total": 0.000480445
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197092,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.6e-07,
+              "full_input_output_and_guard_setup_sync": 8.0541e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000516775,
+              "full_readback_and_four_full_guards": 8.5551e-05,
+              "mapped_full_validation_and_packed_decode": 8.004e-05,
+              "native_host_total": 0.000797568
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 283,
+                "core": 243
+              },
+              "iterations": 283,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000513805,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000139071,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000224862,
+              "full_readback_and_four_full_guards": 8.5151e-05,
+              "mapped_full_validation_and_packed_decode": 1.49e-06,
+              "native_host_total": 0.000505385
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000210812,
+              "poll_seconds": 0.00022171200000000002,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.9e-07,
+              "full_input_output_and_guard_setup_sync": 8.1791e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000556046,
+              "full_readback_and_four_full_guards": 8.4691e-05,
+              "mapped_full_validation_and_packed_decode": 8.011e-05,
+              "native_host_total": 0.000837938
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 7
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005332059999999998,
+              "poll_seconds": 0.0005530359999999999,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "execution_order": [
+        "PL_spin2000",
+        1,
+        "PL_sleep20",
+        4,
+        "PL_spin200"
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.012464024999644607,
+        "4": 0.012329313001828268
+      },
+      "PL_full_profile_API_seconds": {
+        "spin2000": 0.014098530999035574,
+        "sleep20": 0.014134110999293625,
+        "spin200": 0.014540235992171802
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.000972230001934804,
+        "4": 0.0007861880003474653
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin2000": 0.002506995006115176,
+        "sleep20": 0.0025803260068641976,
+        "spin200": 0.0029277299909153953
+      },
+      "PL_calls": {
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120591,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200052,
+              "full_readback_and_four_full_guards": 8.1321e-05,
+              "mapped_full_validation_and_packed_decode": 1.32e-06,
+              "native_host_total": 0.000456385
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 43,
+                "writer": 121,
+                "core": 43
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000196572,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.3e-07,
+              "full_input_output_and_guard_setup_sync": 8.036e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000518385,
+              "full_readback_and_four_full_guards": 8.3741e-05,
+              "mapped_full_validation_and_packed_decode": 8.1841e-05,
+              "native_host_total": 0.000814368
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 347,
+                "core": 307
+              },
+              "iterations": 347,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514485,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120082,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000226512,
+              "full_readback_and_four_full_guards": 0.000104691,
+              "mapped_full_validation_and_packed_decode": 1.46e-06,
+              "native_host_total": 0.000507285
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.00021284199999999998,
+              "poll_seconds": 0.000223242,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.8e-07,
+              "full_input_output_and_guard_setup_sync": 8.0791e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000566346,
+              "full_readback_and_four_full_guards": 8.5301e-05,
+              "mapped_full_validation_and_packed_decode": 7.8861e-05,
+              "native_host_total": 0.000846729
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.000543916,
+              "poll_seconds": 0.0005633459999999999,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000123752,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200542,
+              "full_readback_and_four_full_guards": 8.2291e-05,
+              "mapped_full_validation_and_packed_decode": 1.68e-06,
+              "native_host_total": 0.000461825
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197042,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.3e-07,
+              "full_input_output_and_guard_setup_sync": 8.0751e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000590196,
+              "full_readback_and_four_full_guards": 8.5731e-05,
+              "mapped_full_validation_and_packed_decode": 0.000106561,
+              "native_host_total": 0.000898299
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.000375074,
+              "poll_seconds": 0.000587096,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 5,
+      "execution_order": [
+        1,
+        "PL_sleep20",
+        4,
+        "PL_spin200",
+        "PL_spin2000"
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.012453984003514051,
+        "4": 0.01223926201055292
+      },
+      "PL_full_profile_API_seconds": {
+        "sleep20": 0.014090911005041562,
+        "spin200": 0.01417514099739492,
+        "spin2000": 0.013869489004719071
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.0010153100010938942,
+        "4": 0.0007878380129113793
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "sleep20": 0.002563816000474617,
+        "spin200": 0.0026498060033190995,
+        "spin2000": 0.0024482550070388243
+      },
+      "PL_calls": {
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.9e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120372,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000226102,
+              "full_readback_and_four_full_guards": 8.4121e-05,
+              "mapped_full_validation_and_packed_decode": 1.42e-06,
+              "native_host_total": 0.000486595
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000212632,
+              "poll_seconds": 0.000222902,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.1471e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000561696,
+              "full_readback_and_four_full_guards": 8.1011e-05,
+              "mapped_full_validation_and_packed_decode": 7.9601e-05,
+              "native_host_total": 0.000841899
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 7
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005392859999999999,
+              "poll_seconds": 0.000558736,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 6.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000119721,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200502,
+              "full_readback_and_four_full_guards": 8.2391e-05,
+              "mapped_full_validation_and_packed_decode": 1.86e-06,
+              "native_host_total": 0.000458474
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 43,
+                "writer": 122,
+                "core": 44
+              },
+              "iterations": 122,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197152,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.2111e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000597036,
+              "full_readback_and_four_full_guards": 8.2001e-05,
+              "mapped_full_validation_and_packed_decode": 8.3751e-05,
+              "native_host_total": 0.000884609
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.000381683,
+              "poll_seconds": 0.000593976,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121162,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200812,
+              "full_readback_and_four_full_guards": 8.4921e-05,
+              "mapped_full_validation_and_packed_decode": 1.45e-06,
+              "native_host_total": 0.000461285
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197512,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.4e-07,
+              "full_input_output_and_guard_setup_sync": 8.0581e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000517805,
+              "full_readback_and_four_full_guards": 8.0281e-05,
+              "mapped_full_validation_and_packed_decode": 7.8631e-05,
+              "native_host_total": 0.000791968
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 337,
+                "core": 297
+              },
+              "iterations": 337,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514775,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 6,
+      "execution_order": [
+        "PL_sleep20",
+        4,
+        "PL_spin200",
+        "PL_spin2000",
+        1
+      ],
+      "PS_full_profile_API_seconds": {
+        "4": 0.012228702995344065,
+        "1": 0.012392224001814611
+      },
+      "PL_full_profile_API_seconds": {
+        "sleep20": 0.014125681002042256,
+        "spin200": 0.01402226000209339,
+        "spin2000": 0.013913618997321464
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "4": 0.0007990680023794994,
+        "1": 0.0009856700053205714
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "sleep20": 0.0025999759964179248,
+        "spin200": 0.002453694003634155,
+        "spin2000": 0.0024661450006533414
+      },
+      "PL_calls": {
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120161,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000205952,
+              "full_readback_and_four_full_guards": 0.000101621,
+              "mapped_full_validation_and_packed_decode": 1.57e-06,
+              "native_host_total": 0.000483874
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000192482,
+              "poll_seconds": 0.00020272200000000002,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.9e-07,
+              "full_input_output_and_guard_setup_sync": 8.0811e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000563936,
+              "full_readback_and_four_full_guards": 8.2411e-05,
+              "mapped_full_validation_and_packed_decode": 7.9821e-05,
+              "native_host_total": 0.000857289
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.000541875,
+              "poll_seconds": 0.000560875,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.2e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121561,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200252,
+              "full_readback_and_four_full_guards": 8.2701e-05,
+              "mapped_full_validation_and_packed_decode": 1.47e-06,
+              "native_host_total": 0.000477825
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000196882,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 8.1081e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000519165,
+              "full_readback_and_four_full_guards": 8.2131e-05,
+              "mapped_full_validation_and_packed_decode": 8.096e-05,
+              "native_host_total": 0.000797508
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 134,
+                "core": 134
+              },
+              "iterations": 134,
+              "sleep_calls": 3,
+              "requested_sleep_us": 60,
+              "actual_sleep_seconds": 0.000306603,
+              "poll_seconds": 0.000516085,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000119592,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200572,
+              "full_readback_and_four_full_guards": 8.2821e-05,
+              "mapped_full_validation_and_packed_decode": 1.62e-06,
+              "native_host_total": 0.000457725
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197052,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.5e-07,
+              "full_input_output_and_guard_setup_sync": 8.0171e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000517575,
+              "full_readback_and_four_full_guards": 7.8781e-05,
+              "mapped_full_validation_and_packed_decode": 7.9801e-05,
+              "native_host_total": 0.000789538
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 347,
+                "core": 307
+              },
+              "iterations": 347,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514455,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 7,
+      "execution_order": [
+        4,
+        "PL_spin200",
+        "PL_spin2000",
+        1,
+        "PL_sleep20"
+      ],
+      "PS_full_profile_API_seconds": {
+        "4": 0.012251402993570082,
+        "1": 0.012317833010456525
+      },
+      "PL_full_profile_API_seconds": {
+        "spin200": 0.013997479996760376,
+        "spin2000": 0.013921848993049935,
+        "sleep20": 0.014036579988896847
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "4": 0.0008143180020852014,
+        "1": 0.0009815100056584924
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin200": 0.002576255996245891,
+        "spin2000": 0.0024688639969099313,
+        "sleep20": 0.0025677359953988343
+      },
+      "PL_calls": {
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.2e-07,
+              "full_input_output_and_guard_setup_sync": 0.000123811,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200682,
+              "full_readback_and_four_full_guards": 8.3111e-05,
+              "mapped_full_validation_and_packed_decode": 1.48e-06,
+              "native_host_total": 0.000462704
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 43,
+                "writer": 122,
+                "core": 44
+              },
+              "iterations": 122,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197222,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.8e-07,
+              "full_input_output_and_guard_setup_sync": 9.8031e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000604597,
+              "full_readback_and_four_full_guards": 8.126e-05,
+              "mapped_full_validation_and_packed_decode": 8.0471e-05,
+              "native_host_total": 0.000899579
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.00038915300000000005,
+              "poll_seconds": 0.0006015269999999999,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000122151,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200262,
+              "full_readback_and_four_full_guards": 8.2831e-05,
+              "mapped_full_validation_and_packed_decode": 1.37e-06,
+              "native_host_total": 0.000479135
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.00019686199999999999,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.1e-07,
+              "full_input_output_and_guard_setup_sync": 8.0881e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000517665,
+              "full_readback_and_four_full_guards": 8.0701e-05,
+              "mapped_full_validation_and_packed_decode": 7.889e-05,
+              "native_host_total": 0.000792498
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 334,
+                "core": 307
+              },
+              "iterations": 334,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514715,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120771,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000227872,
+              "full_readback_and_four_full_guards": 0.000113961,
+              "mapped_full_validation_and_packed_decode": 1.54e-06,
+              "native_host_total": 0.000518545
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.00021373199999999998,
+              "poll_seconds": 0.000224522,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.2211e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000564146,
+              "full_readback_and_four_full_guards": 8.2071e-05,
+              "mapped_full_validation_and_packed_decode": 7.8651e-05,
+              "native_host_total": 0.000842279
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 7
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005413859999999999,
+              "poll_seconds": 0.000561216,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 8,
+      "execution_order": [
+        "PL_spin200",
+        "PL_spin2000",
+        1,
+        "PL_sleep20",
+        4
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.012307462995522656,
+        "4": 0.01222640300693456
+      },
+      "PL_full_profile_API_seconds": {
+        "spin200": 0.014090290991589427,
+        "spin2000": 0.013923098988016136,
+        "sleep20": 0.014064079994568601
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.0009677490015747026,
+        "4": 0.0007763280009385198
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin200": 0.0025787859922274947,
+        "spin2000": 0.002475293993484229,
+        "sleep20": 0.0025881949986796826
+      },
+      "PL_calls": {
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120791,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200442,
+              "full_readback_and_four_full_guards": 8.274e-05,
+              "mapped_full_validation_and_packed_decode": 1.48e-06,
+              "native_host_total": 0.000481014
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197252,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2e-07,
+              "full_input_output_and_guard_setup_sync": 8.0751e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000595326,
+              "full_readback_and_four_full_guards": 8.5141e-05,
+              "mapped_full_validation_and_packed_decode": 8.0221e-05,
+              "native_host_total": 0.000876149
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 125,
+                "core": 124
+              },
+              "iterations": 125,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.000380394,
+              "poll_seconds": 0.000592306,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120361,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000201052,
+              "full_readback_and_four_full_guards": 8.2911e-05,
+              "mapped_full_validation_and_packed_decode": 1.44e-06,
+              "native_host_total": 0.000474615
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 121,
+                "core": 44
+              },
+              "iterations": 121,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.00019760199999999998,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.2e-07,
+              "full_input_output_and_guard_setup_sync": 8.028e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000521945,
+              "full_readback_and_four_full_guards": 8.0141e-05,
+              "mapped_full_validation_and_packed_decode": 8.1481e-05,
+              "native_host_total": 0.000801338
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 338,
+                "core": 307
+              },
+              "iterations": 338,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000518905,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120341,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000227023,
+              "full_readback_and_four_full_guards": 8.4921e-05,
+              "mapped_full_validation_and_packed_decode": 1.49e-06,
+              "native_host_total": 0.000487645
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.000213423,
+              "poll_seconds": 0.00022386299999999998,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.4e-07,
+              "full_input_output_and_guard_setup_sync": 8.2331e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000565456,
+              "full_readback_and_four_full_guards": 0.000101131,
+              "mapped_full_validation_and_packed_decode": 7.964e-05,
+              "native_host_total": 0.000863958
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.000542976,
+              "poll_seconds": 0.000562246,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    },
+    {
+      "repeat": 9,
+      "execution_order": [
+        "PL_spin2000",
+        1,
+        "PL_sleep20",
+        4,
+        "PL_spin200"
+      ],
+      "PS_full_profile_API_seconds": {
+        "1": 0.012424953994923271,
+        "4": 0.012164402010967024
+      },
+      "PL_full_profile_API_seconds": {
+        "spin2000": 0.013939148993813433,
+        "sleep20": 0.014104161004070193,
+        "spin200": 0.014049199991859496
+      },
+      "PS_distances_and_parents_API_seconds": {
+        "1": 0.00099045000388287,
+        "4": 0.0007909780106274411
+      },
+      "PL_distances_and_parents_API_seconds": {
+        "spin2000": 0.0024978149886010215,
+        "sleep20": 0.0025381059967912734,
+        "spin200": 0.002536274987505749
+      },
+      "PL_calls": {
+        "spin2000": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000119821,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200402,
+              "full_readback_and_four_full_guards": 8.4361e-05,
+              "mapped_full_validation_and_packed_decode": 1.72e-06,
+              "native_host_total": 0.000458944
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 44,
+                "writer": 105,
+                "core": 44
+              },
+              "iterations": 105,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000197092,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.4e-07,
+              "full_input_output_and_guard_setup_sync": 8.0241e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000517175,
+              "full_readback_and_four_full_guards": 8.0651e-05,
+              "mapped_full_validation_and_packed_decode": 7.8561e-05,
+              "native_host_total": 0.000793468
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 2,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 333,
+                "core": 307
+              },
+              "iterations": 333,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000514095,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "sleep20": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000138132,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000221293,
+              "full_readback_and_four_full_guards": 8.387e-05,
+              "mapped_full_validation_and_packed_decode": 1.74e-06,
+              "native_host_total": 0.000499655
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 2,
+                "writer": 3,
+                "core": 2
+              },
+              "iterations": 3,
+              "sleep_calls": 2,
+              "requested_sleep_us": 40,
+              "actual_sleep_seconds": 0.00020774299999999998,
+              "poll_seconds": 0.000218123,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.1e-07,
+              "full_input_output_and_guard_setup_sync": 8.1651e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000568466,
+              "full_readback_and_four_full_guards": 8.1731e-05,
+              "mapped_full_validation_and_packed_decode": 7.9751e-05,
+              "native_host_total": 0.000846499
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 0,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 7,
+                "core": 6
+              },
+              "iterations": 7,
+              "sleep_calls": 6,
+              "requested_sleep_us": 120,
+              "actual_sleep_seconds": 0.0005463959999999999,
+              "poll_seconds": 0.0005655360000000001,
+              "isolated_PL_cycles": false
+            }
+          }
+        ],
+        "spin200": [
+          {
+            "operation": 0,
+            "input_words": 977,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000121731,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000200272,
+              "full_readback_and_four_full_guards": 8.2511e-05,
+              "mapped_full_validation_and_packed_decode": 1.5e-06,
+              "native_host_total": 0.000459235
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 1,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 64,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 36,
+                "writer": 114,
+                "core": 36
+              },
+              "iterations": 114,
+              "sleep_calls": 0,
+              "requested_sleep_us": 0,
+              "actual_sleep_seconds": 0.0,
+              "poll_seconds": 0.000196772,
+              "isolated_PL_cycles": false
+            }
+          },
+          {
+            "operation": 1,
+            "input_words": 6,
+            "output_capacity_words": 2178,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.5e-07,
+              "full_input_output_and_guard_setup_sync": 8.0921e-05,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000609576,
+              "full_readback_and_four_full_guards": 8.3281e-05,
+              "mapped_full_validation_and_packed_decode": 7.9e-05,
+              "native_host_total": 0.000891269
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true,
+            "full_output_capacity_checked": 2178,
+            "Python_full_output_copy_bytes": 0,
+            "compact_return_bytes": 51844,
+            "wait_policy": 1,
+            "host_wait_metrics": {
+              "register_reads": {
+                "reader": 1,
+                "writer": 135,
+                "core": 134
+              },
+              "iterations": 135,
+              "sleep_calls": 4,
+              "requested_sleep_us": 80,
+              "actual_sleep_seconds": 0.00039446399999999997,
+              "poll_seconds": 0.000606446,
+              "isolated_PL_cycles": false
+            }
+          }
+        ]
+      },
+      "all_4315_original_FP64_bits_and_parents_exact": true,
+      "all_original_report_fields_passed": true,
+      "software_contract_only": false,
+      "answer_trace": {
+        "PL_spin2000": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin2000.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin2000.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "1": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS1.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS1.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_sleep20": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_sleep20.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_sleep20.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "4": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS4.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS4.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        },
+        "PL_spin200": {
+          "distances": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin200.f64",
+            "sha256": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+            "bytes": 34520
+          },
+          "parents": {
+            "path": "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin200.i32",
+            "sha256": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+            "bytes": 17260
+          }
+        }
+      }
+    }
+  ],
+  "complete_output_words_per_call": 2178,
+  "four_full_DMA_guards_checked_in_hardware": true,
+  "original_Python_profile_seconds": 1.2550888330006273,
+  "fixture_sha256": "81c7e7b1d05686212cd6f56283fce6f5cf4813dca5c53dbad84edfe400c26f4f",
+  "source_and_evidence_sha256": {
+    "modules/navigation_comparison/fixtures/own_CT_full_raw_graph_ARM_r2.npz": "81c7e7b1d05686212cd6f56283fce6f5cf4813dca5c53dbad84edfe400c26f4f",
+    "modules/navigation_comparison/build/libprofile_ps_r1.so": "8ee113bcdbc6335eb300256d05fee7995765ece122c2efb9010ca8fc4572964f",
+    "modules/navigation_comparison/profile_session_r2.py": "67601bf616344dc5795b995f8b504a4cc9a3737c16565dabcdbd93c218c36bea",
+    "modules/navigation_comparison/profile_r1.py": "aae7b268e8dd1d2745d14013a74d129b09f0a2042410687e3a7a223ea5f0cac1",
+    "modules/navigation_comparison/legacy_profile_r1.py": "06dd996d081b082f4eeb2b3ee6f42d312573c5d65d7b7ecd3faec833850be5d5",
+    "modules/navigation_comparison/test_profile_r1.py": "c4a0f53877a3757ac340e7d593c4233f64c748ebd0b99836d8dab7ed839d6812",
+    "dfx/navigation_profile/board_packed_r79/benchmark_r79d.py": "305ca35a909469a4a4ea44a1b16bb51770d4495f9dd543cb5310cbc7e4138aad",
+    "dfx/navigation_profile/board_packed_r79/release.py": "4a1674e62790e854425352624bab9290bd4c5c922aa1b1aa985cff69bc8ad57b",
+    "ui/releases/feature_completion_r4/runs/seed_own_CT/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69",
+    "ui/releases/feature_completion_r4/runs/seed_own_CT/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35",
+    "dfx/navigation_profile/host_packed_r7/derive_r75b.py": "ef49131dd5227eb1fbe8add593c1a7e84edcd385997220b4ec324f0a990b262e",
+    "dfx/navigation_profile/host_packed_r7/derive.py": "b9ec2db93764ddab933540a02d30d256b434aa59a79b82308d931b38495f4cdb",
+    "dfx/navigation_profile/host_packed_r7/runtime.hpp": "6def22a2989026c4326d0d5d9e3dbef60ef3c12c52c0374abc5bc9f582b3c9f2",
+    "dfx/navigation_profile/host_compact_r2/bridge.cpp": "1c5e4d287066d86a758a655cac6f470999f5e2e031df3ba9096d39df265f5203",
+    "dfx/navigation_profile/host_r4/runtime.hpp": "5c3c77344a05866894368f85c389ec5e5be296db4580f375c99af23dbafdbba6",
+    "dfx/navigation_profile/host_packed_r7/bridge.cpp": "9df7ddd53e1b9321d7d480c37db700eca6f192221a64e14a29aecae74e05c012",
+    "dfx/navigation_profile/host_packed_r7/runtime_r75b.hpp": "6def22a2989026c4326d0d5d9e3dbef60ef3c12c52c0374abc5bc9f582b3c9f2",
+    "dfx/navigation_profile/host_packed_r7/consume.cpp": "b4722646326a4078f99ece0b43a5e2178dc582db3626f8e4ba7624b921d5215a",
+    "dfx/navigation_profile/host_packed_r7/consume_r75b.cpp": "35df3b839e2ef072634d9df9700596dad4695f92c6b13303348771d048cf04db",
+    "dfx/navigation_profile/host_packed_r7/consume.hpp": "4061f83072ed41c0744e0e9fae47a44871bd4e54df45fcfd369dbb29e89cd860",
+    "dfx/navigation_profile/host_r4/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "dfx/navigation_profile/host_wait_r1/poll.hpp": "f6aaaa10f3a1b63bf76fc1f5f014d59e69080ad17c7ca031f7f8117735d90239",
+    "dfx/navigation_profile/output_pack_r7/decode.cpp": "6f61dcb31b66cdd0d1f21fefaaa99519d3cca0d4dfcdc97f72f7160ace03b616",
+    "dfx/navigation_profile/protocol_r1.py": "2b8d2b865da1ace623d42ae632f82dc2b71649661eab1766bcc20f6dec1502d3",
+    "dfx/navigation_profile/host_packed_r7/build.py": "588f36d8e34663382b140f231d643afe3e4fa1f10b3cbd16ef39c9dd26f475e0",
+    "dfx/navigation_profile/host_packed_r7/derivation.json": "1b062dfacbaac630412b14cdbb3b811954dbd88cc953133e2ffccfe87e399eeb",
+    "dfx/navigation_profile/host_packed_r7/runtime.py": "eedbb843dcbdc8f637dafc008d22826201f3c1e5d47bb0f8a8485abb0c896265",
+    "dfx/navigation_profile/host_packed_r7/test.py": "707d1d5cf7ea28147a59df8c1e15853c3e9c2626d8c6d9f6b361c02bbbe3ebe6",
+    "dfx/navigation_profile/host_packed_r7/build_Windows/consume.dll": "04cf1b38c33dd912bc17f8bb40d1e2110a8552a62dd21ec7a80548a9eac56e6c",
+    "dfx/navigation_profile/host_packed_r7/build_Windows/acceptance.json": "eea3ddd98053d41caa9cca3ffdd87bd7432b7d7845eadd00feafc796b312c4b6",
+    "dfx/navigation_profile/host_compact_r2/build_Windows/acceptance.json": "f9297b260518e2d1afe34c5bf88a54923f1bbf104840adb1a086cdfe74981dda",
+    "dfx/navigation_profile/host_compact_r2/build_Windows/consume.dll": "65aa1f73095fccbc51187f495ebd26a37db5898230ebea006ecb621f2b20a53c",
+    "dfx/navigation_profile/rtl_r74/check_full.py": "620e196aa3429cb2e7db015a80053c18b41329b66fca4230bbc8bbb6dd490188",
+    "dfx/navigation_profile/rtl_r74/fixture_origin.json": "0171fc539f413e1f9719a54af23b0101109dd7ce304dd1e2a8f94d7f3afdb227",
+    "dfx/navigation_profile/rtl_r74/boundary_oracle.json": "c2709c569f94949f3986f858e5798dec5855e4e1a813882a51096a0714fd10f0",
+    "dfx/navigation_profile/fixture_origin_r4.json": "e9fc69d55758ade0fe0c25e67db5d00cf4e5076eeafef23bf81c959aad5acdcc",
+    "dfx/navigation_profile/rtl_r74/prepare_fixtures.py": "22f005e3339a11c6596104098ff81eef862fc0084929e6915ea05d4900373829",
+    "dfx/navigation_profile/fixtures_r4/00.input.bin": "3fe0e6ec64500b4e75fbd525a644a290371a4515400f72edf0ccdbbf28792589",
+    "dfx/navigation_profile/fixtures_r4/00.expected.bin": "fbc428117d7a7d8deee3b9702dc2369bf1ff6e9370da0cc5a31c803e3985c7c5",
+    "dfx/navigation_profile/fixtures_r4/01.input.bin": "0ab4f52270b20de9f0ae0684898b72ee5b0afc9bf38f042853ab90320213111e",
+    "dfx/navigation_profile/fixtures_r4/01.expected.bin": "e42cf6668aa667eb51de0bea63c7ce4ac5e690fbb39e0bafbdd7a409f889aed5",
+    "dfx/navigation_profile/fixtures_r4/02.input.bin": "878af7960107cc29068062b8847c382c5f2ac35beaa567c8969f52ac85215c17",
+    "dfx/navigation_profile/fixtures_r4/02.expected.bin": "5387c6d4c66675e4e547807e4a3d39d03cd0a681a33efc6bf0a7c8b0bf8691d5",
+    "dfx/navigation_profile/fixtures_r4/03.input.bin": "5e36a203386d1256bdff422e6c4fdaf1f8554b408ffaa5cf19907cd1338a5fb7",
+    "dfx/navigation_profile/fixtures_r4/03.expected.bin": "add8e9f8c9534ab237adb925c2a2b6bdeb220fde62cf6acf9470282a1019a6d7",
+    "dfx/navigation_profile/fixtures_r4/04.input.bin": "f01953e4e2ac91bdfecb80271b90166979c6da16e6edcdd5a6a0c1d82b89a2ee",
+    "dfx/navigation_profile/fixtures_r4/04.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/fixtures_r4/05.input.bin": "0d2f17389679112f16f1ea96801ed1390896eb2bc2c303bd6d4831adeabe58df",
+    "dfx/navigation_profile/fixtures_r4/05.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/fixtures_r4/06.input.bin": "1c42bff2022500fe0a27ecf662d00c992a759f97b0aa2d19cbb28fdf9916fcac",
+    "dfx/navigation_profile/fixtures_r4/06.expected.bin": "f15306167514d9cb8475250a73befcae2c30827bc2add9b2802890061c732864",
+    "dfx/navigation_profile/fixtures_r4/07.input.bin": "18497fbf1abf2f51f322710619b8a48ef68a6b62402e33d2f436c92a189a64d3",
+    "dfx/navigation_profile/fixtures_r4/07.expected.bin": "acdf61210a51d7c56f311370441aeba316be43b4701308b103e664554be27fc6",
+    "dfx/navigation_profile/fixtures_r4/08.input.bin": "b4ba15e1bfe6a1801537fc81d103bc5b80496b7df65066c3ecc2d63c5b4d6025",
+    "dfx/navigation_profile/fixtures_r4/08.expected.bin": "12d1aa3cbc3777016ec66bf6239b22791f06e9ed43851c6f2a6b43c2796031dc",
+    "dfx/navigation_profile/fixtures_r4/09.input.bin": "8f36468010a9442bf375b83a82aacca6963295c5c1237cb9f4d6b9fee5d8fa2e",
+    "dfx/navigation_profile/fixtures_r4/09.expected.bin": "3474464e75c016fddcf86da1d5f9d91fc7f67981bb383820df471ba2de4e1044",
+    "dfx/navigation_profile/fixtures_r4/10.input.bin": "ae1c8ed1767b61df8c167b859b095fd28e7168e5e4c8b0248eb10c010886ff18",
+    "dfx/navigation_profile/fixtures_r4/10.expected.bin": "4598e0cea8c853e64ce1a717f38f9f6b6e9812e62fe164cd141006d26e5396e2",
+    "dfx/navigation_profile/fixtures_r4/11.input.bin": "402fb54cdd69d664add284fc0015b8f4ed1ea3a8e4d2474815ba2a4b1168ba86",
+    "dfx/navigation_profile/fixtures_r4/11.expected.bin": "1468134d2b5826f8234a141324c260ba6ba659cdf46d66b4e29e04af01c3d068",
+    "dfx/navigation_profile/fixtures_r4/12.input.bin": "ef6ff91ecf05dc3d0a75f28672e850ba16e7eae643d72f591cd9a8225378da2d",
+    "dfx/navigation_profile/fixtures_r4/12.expected.bin": "ed9d7be3601b72ec27a778381eff62a82041300332a7f62eb0c096beabcbd586",
+    "dfx/navigation_profile/fixtures_r4/13.input.bin": "5677325acd0a7104ac93fb5eadf0923dde36dbd27501ab8c0f72aea6ed3d2e92",
+    "dfx/navigation_profile/fixtures_r4/13.expected.bin": "a19cce6215c05101019e9f8cde5c2e4329366903b95469b7056ef9ef8033fc64",
+    "dfx/navigation_profile/rtl_r74/fixtures/00.expected.bin": "fbc428117d7a7d8deee3b9702dc2369bf1ff6e9370da0cc5a31c803e3985c7c5",
+    "dfx/navigation_profile/rtl_r74/fixtures/00.input.bin": "3fe0e6ec64500b4e75fbd525a644a290371a4515400f72edf0ccdbbf28792589",
+    "dfx/navigation_profile/rtl_r74/fixtures/01.expected.bin": "e42cf6668aa667eb51de0bea63c7ce4ac5e690fbb39e0bafbdd7a409f889aed5",
+    "dfx/navigation_profile/rtl_r74/fixtures/01.input.bin": "0ab4f52270b20de9f0ae0684898b72ee5b0afc9bf38f042853ab90320213111e",
+    "dfx/navigation_profile/rtl_r74/fixtures/02.expected.bin": "5387c6d4c66675e4e547807e4a3d39d03cd0a681a33efc6bf0a7c8b0bf8691d5",
+    "dfx/navigation_profile/rtl_r74/fixtures/02.input.bin": "878af7960107cc29068062b8847c382c5f2ac35beaa567c8969f52ac85215c17",
+    "dfx/navigation_profile/rtl_r74/fixtures/03.expected.bin": "add8e9f8c9534ab237adb925c2a2b6bdeb220fde62cf6acf9470282a1019a6d7",
+    "dfx/navigation_profile/rtl_r74/fixtures/03.input.bin": "5e36a203386d1256bdff422e6c4fdaf1f8554b408ffaa5cf19907cd1338a5fb7",
+    "dfx/navigation_profile/rtl_r74/fixtures/04.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/rtl_r74/fixtures/04.input.bin": "f01953e4e2ac91bdfecb80271b90166979c6da16e6edcdd5a6a0c1d82b89a2ee",
+    "dfx/navigation_profile/rtl_r74/fixtures/05.expected.bin": "0a62671606908d0bc0fa3bebd0fb574cbc5014037a80650c544cfe9936fe2045",
+    "dfx/navigation_profile/rtl_r74/fixtures/05.input.bin": "0d2f17389679112f16f1ea96801ed1390896eb2bc2c303bd6d4831adeabe58df",
+    "dfx/navigation_profile/rtl_r74/fixtures/06.expected.bin": "f15306167514d9cb8475250a73befcae2c30827bc2add9b2802890061c732864",
+    "dfx/navigation_profile/rtl_r74/fixtures/06.input.bin": "1c42bff2022500fe0a27ecf662d00c992a759f97b0aa2d19cbb28fdf9916fcac",
+    "dfx/navigation_profile/rtl_r74/fixtures/07.expected.bin": "acdf61210a51d7c56f311370441aeba316be43b4701308b103e664554be27fc6",
+    "dfx/navigation_profile/rtl_r74/fixtures/07.input.bin": "18497fbf1abf2f51f322710619b8a48ef68a6b62402e33d2f436c92a189a64d3",
+    "dfx/navigation_profile/rtl_r74/fixtures/08.expected.bin": "12d1aa3cbc3777016ec66bf6239b22791f06e9ed43851c6f2a6b43c2796031dc",
+    "dfx/navigation_profile/rtl_r74/fixtures/08.input.bin": "b4ba15e1bfe6a1801537fc81d103bc5b80496b7df65066c3ecc2d63c5b4d6025",
+    "dfx/navigation_profile/rtl_r74/fixtures/09.expected.bin": "3474464e75c016fddcf86da1d5f9d91fc7f67981bb383820df471ba2de4e1044",
+    "dfx/navigation_profile/rtl_r74/fixtures/09.input.bin": "8f36468010a9442bf375b83a82aacca6963295c5c1237cb9f4d6b9fee5d8fa2e",
+    "dfx/navigation_profile/rtl_r74/fixtures/10.expected.bin": "4598e0cea8c853e64ce1a717f38f9f6b6e9812e62fe164cd141006d26e5396e2",
+    "dfx/navigation_profile/rtl_r74/fixtures/10.input.bin": "ae1c8ed1767b61df8c167b859b095fd28e7168e5e4c8b0248eb10c010886ff18",
+    "dfx/navigation_profile/rtl_r74/fixtures/11.expected.bin": "1468134d2b5826f8234a141324c260ba6ba659cdf46d66b4e29e04af01c3d068",
+    "dfx/navigation_profile/rtl_r74/fixtures/11.input.bin": "402fb54cdd69d664add284fc0015b8f4ed1ea3a8e4d2474815ba2a4b1168ba86",
+    "dfx/navigation_profile/rtl_r74/fixtures/12.expected.bin": "ed9d7be3601b72ec27a778381eff62a82041300332a7f62eb0c096beabcbd586",
+    "dfx/navigation_profile/rtl_r74/fixtures/12.input.bin": "ef6ff91ecf05dc3d0a75f28672e850ba16e7eae643d72f591cd9a8225378da2d",
+    "dfx/navigation_profile/rtl_r74/fixtures/13.expected.bin": "a19cce6215c05101019e9f8cde5c2e4329366903b95469b7056ef9ef8033fc64",
+    "dfx/navigation_profile/rtl_r74/fixtures/13.input.bin": "5677325acd0a7104ac93fb5eadf0923dde36dbd27501ab8c0f72aea6ed3d2e92",
+    "dfx/navigation_profile/rtl_r74/fixtures/14.expected.bin": "564fd4f3595f9f9d837c9bfbc49e1683f512306376aa8bc260ba785f4af8c10b",
+    "dfx/navigation_profile/rtl_r74/fixtures/14.input.bin": "d2b952a4486f2f716c410ea813b7e5c56a009e7e88f8dfd004bfd24faf7bb3a7",
+    "dfx/navigation_profile/rtl_r74/fixtures/15.expected.bin": "dc7ff238c05d072186f2692a642a4c392bf191b60a780fee81b787d6502391a0",
+    "dfx/navigation_profile/rtl_r74/fixtures/15.input.bin": "6d7c403134dd72987e34d6bff0cd39e20f1675b38c86b4683fa112e347678b37",
+    "dfx/navigation_profile/rtl_r74/fixtures/cases.txt": "59fdd9abb916941d17ac1dc03ead47d0af9bce7b0f7d776b46cba46cfbd4caa8",
+    "dfx/navigation_profile/rtl_r74/check_boundary_oracle.py": "6223d439b849ebe073d8b9a07efced1e00ade8fa68012b7637b108ec4497ad16",
+    "modules/navigation_comparison/fixtures/own_CT_full_raw_graph_Windows_r2.npz": "ef840acd28aee2b28bf7b4b8a9a1bdb9fd081d6a813237933ed462ee8fe404a7",
+    "dfx/navigation_profile/edge_pack_r6/runtime.py": "fa31f5a029dc6c2280e0a24be6bde399eb858a3f96fed6a40b1bac62bc89e37e",
+    "dfx/navigation_profile/edge_pack_r6/hls/profile.cpp": "56c362a4032219d730b15dcd66c7f6715ab08eb9cbd991c428f8efa4b94ca64d",
+    "dfx/navigation_profile/edge_pack_r6/build/profile_native.dll": "36d9bff82459a669f33b20b736262889dd1aa03bb684eb299e4e736e0e6f1437",
+    "dfx/navigation_profile/host_packed_r7/result_Windows.json": "f168844a29a8cff4e746ef95f9d20871232f126dfe602eeb152676247b9940a3",
+    "dfx/navigation_profile/host_packed_r7/test_runtime.py": "f3f052a43c60b212f552e7e0d1382c711a27b255a7d5304cc727c16da2120e5b",
+    "dfx/navigation_profile/host_prepare_r3/codec_r3b.py": "622cc06b8cceaf3d20177cc8a69fcb05654725f3ec3e745012887714d5b3fd2d",
+    "dfx/navigation_profile/output_pack_r7/protocol.py": "3add053c507018193f08ab74fe424f7b0dc6b55853fffaecbf68e151c3615df7",
+    "dfx/navigation_profile/host_packed_r7/runtime_contract_Windows.json": "ae9615c1be02911d19fbbe60e6214375a4a3e097c3f0a171a3ba60148c414a9e",
+    "dfx/navigation_profile/host_packed_r7/build_ARM/libconsume.so": "ea034e077e57e3cda0911cbb6a085992ce095bbee6c40a06515ff69fddb2851e",
+    "dfx/navigation_profile/host_packed_r7/build_ARM/acceptance.json": "103aef359aa711e10e98072373b34d67dad2069102004e6d85808887dd20ef04",
+    "dfx/navigation_profile/host_compact_r2/build_ARM/acceptance.json": "ca929c79dede35288183fa5fba2b68a928b4214c5a2f6711b45c90ce77439543",
+    "dfx/navigation_profile/host_compact_r2/build_ARM/libconsume.so": "5ca4f9a85d4897f7047d6943bbc5858264525e3e82b9f70a21d3712904d119a3",
+    "dfx/navigation_profile/host_packed_r7/result_ARM.json": "b7fb18dea2ed8775e04d958c061b87e2ba01ebbdedf7c6d6d7cbb6f08689ac72",
+    "dfx/navigation_profile/host_packed_r7/runtime_contract_ARM.json": "b31b6f79f16d5aa5daf936d8cfae6307df754725035e3c01982330664375a91e",
+    "dfx/navigation_profile/host_packed_r7/build_ARM/libprofile_packed_r7.so": "d9ca7d06111639fc9047f6312c4baf89cd328a4d52805f6db53f1ccb12edfec3",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_00.bin": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_01.bin": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_02.bin": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_03.bin": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_04.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_05.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_06.bin": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_07.bin": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_08.bin": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_09.bin": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_10.bin": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_11.bin": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_12.bin": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_13.bin": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_14.bin": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_0/case_15.bin": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_00.bin": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_01.bin": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_02.bin": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_03.bin": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_04.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_05.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_06.bin": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_07.bin": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_08.bin": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_09.bin": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_10.bin": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_11.bin": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_12.bin": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_13.bin": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_14.bin": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_1/case_15.bin": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_00.bin": "d867e18c9fc2e0c9b7ac450b22d3f749c36984721ac0d1f0a5228f0f49a03901",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_01.bin": "ef12a963d80fe142faf35b619a0191618415b50b5c4fb96fbed8e971790b5033",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_02.bin": "7c2eee41f6b8fab776db4696a86111d46139b956759b6efbc818f6d97f0a0cef",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_03.bin": "de5b10bbed4b8c0a746ffac036d5bf5a712e9fa2c54a71b3d72616218e70ced8",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_04.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_05.bin": "c13ac8cd1508b28ddd22ccbe849580fa2dc302bcf9e8399b321921ba7f32a187",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_06.bin": "4d7f9ace68a5ae9c71d8a0b212d83d8fb4eb693bc7279a276b9f761c0db90114",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_07.bin": "f2e90cdcbcb845d98ca3d9315674587238a4bcc0019b45e69de9e69cd64734df",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_08.bin": "53f3d1215c3aa04fe5624561631d6630847904bb14c12643fa663d1b4e5269f0",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_09.bin": "62a235197cbeae2d43ac00bda82a1af48f3e5da9856fc939a40ab054cdd2e5f9",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_10.bin": "764ec7e0eeff432aa31dead1f65f959d5cf69c6468c3cdd408c6dfe78163d516",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_11.bin": "66f4cbc49a83d2cc23dd32b47274c9e5dc617db710e73daa9837349d0b97a652",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_12.bin": "5da0def28f0bf13c8604c0628f5e94ba8537803789de3bff8426c9651079db21",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_13.bin": "124e2931e689d58c815e826b64e610506f770db424ec3f0056e6d78e0d94b342",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_14.bin": "79041e0b99fa9ce502d8ffa8a94677b80d4e71ceaafb52c80e75a376c12ff565",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/raw/policy_2/case_15.bin": "d1fb217a6da2491b84ca132d4536ed7875b3c3a58442b9035f07b01b8c9d2a01",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_00/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_01/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_02/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_03/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_04/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_05/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_06/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_07/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_08/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin2000.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin2000.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS1.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS1.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_sleep20.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_sleep20.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS4.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PS4.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin200.f64": "5d41c2c645ab6c2dac11bd8019c90a3488025d6099f8d7588e02f5054d07cd35",
+    "dfx/navigation_profile/board_packed_r79/board/trace_r79d/answers/round_09/PL_spin200.i32": "66e5164c8d97e3cb5784f723d9a2a53351d57cd15b1db6d86659a2e41cb22f88",
+    "dfx/navigation_profile/board_packed_r79/answer_trace.py": "3ef0da6deb5372353a7082f04e0a76e50c771d4ff994889d1a9d345b5656a1f7"
+  },
+  "timing_scope": "Each full API freshly prepares and uploads the complete original graph, calculates all queries, checks all results and four DMA guards, and formats the same report. Common file IO and shared geometric preparation excluded equally. Two warmups, ten balanced rotating rounds, no cached graph transfer or answers. Host wait is not isolated PL cycles.",
+  "complete_actual_raw_and_provider_answer_files": 148,
+  "median_PS_full_API_seconds": {
+    "1": 0.012388893504976295,
+    "4": 0.012227553001139313
+  },
+  "median_PL_full_API_seconds": {
+    "sleep20": 0.01408285600336967,
+    "spin200": 0.01404367549548624,
+    "spin2000": 0.013931123990914784
+  },
+  "peak_process_RSS_MiB": 323.72265625,
+  "release_manifest_sha256": "86f4cf635431033aaad32c595403085cb42fbe5ac8dd86523ff2a13cf68a4ca1",
+  "boot_id": "190cdae6-b97b-48df-af92-6537f5050591"
+}

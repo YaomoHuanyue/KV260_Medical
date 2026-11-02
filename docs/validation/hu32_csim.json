@@ -1,0 +1,19 @@
+{
+  "stage": "csim",
+  "target": "hu32",
+  "passed": true,
+  "exit_code": 0,
+  "argv": [
+    "F:\\AMDDesignTools\\2025.2.1\\Vitis\\bin\\vitis-run.bat",
+    "--mode",
+    "hls",
+    "--csim",
+    "--config",
+    "D:\\Xilinx_Project\\2026FPGA\\KV260_Medical_Git\\build\\hls\\hu32\\design.cfg",
+    "--work_dir",
+    "D:\\Xilinx_Project\\2026FPGA\\KV260_Medical_Git\\build\\hls\\hu32"
+  ],
+  "seconds": 26.46566879999591,
+  "official_skill": "hls-run-flow 1.0.0",
+  "bitstream_or_board_verified": false
+}

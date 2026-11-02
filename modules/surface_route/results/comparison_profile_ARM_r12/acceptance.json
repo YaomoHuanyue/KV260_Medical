@@ -1,0 +1,916 @@
+{
+  "status": "actual_complete_report_profiled_with_full_output_equivalence",
+  "label": "network_probability_high_ported",
+  "top_cumulative": [
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r12.py",
+      "line": 31,
+      "function": "produce",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.000373464,
+      "cumulative_seconds": 5.276893587
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 188,
+      "function": "produce",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.168387217,
+      "cumulative_seconds": 5.276520123
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/replan_r1.py",
+      "line": 53,
+      "function": "review_curve",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.010461672,
+      "cumulative_seconds": 4.707177039
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/replan_r1.py",
+      "line": 16,
+      "function": "mask_segments_inside",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 2.361752109,
+      "cumulative_seconds": 4.058952623000001
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_index_tricks_impl.py",
+      "line": 346,
+      "function": "__getitem__",
+      "primitive_calls": 6130,
+      "calls": 6130,
+      "self_seconds": 0.46262780400000003,
+      "cumulative_seconds": 0.676281357
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 145,
+      "function": "unique",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.057719137000000004,
+      "cumulative_seconds": 0.5295209280000001
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/refine_r1.py",
+      "line": 10,
+      "function": "_query",
+      "primitive_calls": 47,
+      "calls": 77,
+      "self_seconds": 0.008009176,
+      "cumulative_seconds": 0.45523790500000005
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 40,
+      "function": "distance",
+      "primitive_calls": 47,
+      "calls": 47,
+      "self_seconds": 0.030850492,
+      "cumulative_seconds": 0.445377464
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 339,
+      "function": "_unique1d",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.311488423,
+      "cumulative_seconds": 0.415250012
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 140,
+      "function": "distance",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.012446052,
+      "cumulative_seconds": 0.394383341
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/mesh_clearance_native.py",
+      "line": 30,
+      "function": "distance",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.225271786,
+      "cumulative_seconds": 0.381937289
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/refine_r1.py",
+      "line": 22,
+      "function": "refine_segments",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.043821674000000005,
+      "cumulative_seconds": 0.242603759
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation/navigation/centerline.py",
+      "line": 39,
+      "function": "inside",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.157294065,
+      "cumulative_seconds": 0.21393413900000002
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/mesh_clearance.py",
+      "line": 55,
+      "function": "candidates",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.10916518900000001,
+      "cumulative_seconds": 0.11590241100000001
+    },
+    {
+      "file": "/usr/lib/python3.12/json/__init__.py",
+      "line": 183,
+      "function": "dumps",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.3141000000000006e-05,
+      "cumulative_seconds": 0.10560511600000001
+    },
+    {
+      "file": "/usr/lib/python3.12/json/encoder.py",
+      "line": 183,
+      "function": "encode",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 5.8150000000000004e-05,
+      "cumulative_seconds": 0.105559445
+    },
+    {
+      "file": "/usr/lib/python3.12/json/encoder.py",
+      "line": 205,
+      "function": "iterencode",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.105480975,
+      "cumulative_seconds": 0.105480975
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.arange>",
+      "primitive_calls": 18446,
+      "calls": 18446,
+      "self_seconds": 0.096359044,
+      "cumulative_seconds": 0.096359044
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 83,
+      "function": "smooth_route_constrained",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.035661913,
+      "cumulative_seconds": 0.09132978400000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.array>",
+      "primitive_calls": 24936,
+      "calls": 24936,
+      "self_seconds": 0.082560168,
+      "cumulative_seconds": 0.082560168
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+      "primitive_calls": 2666,
+      "calls": 2666,
+      "self_seconds": 0.08171188600000001,
+      "cumulative_seconds": 0.08171188600000001
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 290,
+      "function": "checked_outputs",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.05185709,
+      "cumulative_seconds": 0.07708941100000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'list' objects>",
+      "primitive_calls": 52071,
+      "calls": 52071,
+      "self_seconds": 0.07612977600000001,
+      "cumulative_seconds": 0.07612977600000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 49946,
+      "calls": 49946,
+      "self_seconds": 0.057537327000000006,
+      "cumulative_seconds": 0.059504735
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.min>",
+      "primitive_calls": 18655,
+      "calls": 18655,
+      "self_seconds": 0.055662790000000004,
+      "cumulative_seconds": 0.055682770000000006
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+      "primitive_calls": 18139,
+      "calls": 18139,
+      "self_seconds": 0.053345984000000006,
+      "cumulative_seconds": 0.053345984000000006
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "primitive_calls": 19732,
+      "calls": 19732,
+      "self_seconds": 0.052634461,
+      "cumulative_seconds": 0.052634461
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 89,
+      "function": "_wrapreduction_any_all",
+      "primitive_calls": 907,
+      "calls": 907,
+      "self_seconds": 0.01075949,
+      "cumulative_seconds": 0.050484394
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.asanyarray>",
+      "primitive_calls": 19109,
+      "calls": 19109,
+      "self_seconds": 0.048798037,
+      "cumulative_seconds": 0.048798037
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 2589,
+      "function": "all",
+      "primitive_calls": 587,
+      "calls": 587,
+      "self_seconds": 0.0041666260000000005,
+      "cumulative_seconds": 0.043569876
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'sort' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.041974773,
+      "cumulative_seconds": 0.041974773
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/scipy/ndimage/_filters.py",
+      "line": 257,
+      "function": "gaussian_filter1d",
+      "primitive_calls": 144,
+      "calls": 144,
+      "self_seconds": 0.0022264010000000002,
+      "cumulative_seconds": 0.041293504
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'extend' of 'list' objects>",
+      "primitive_calls": 24040,
+      "calls": 24040,
+      "self_seconds": 0.039181363000000004,
+      "cumulative_seconds": 0.039181363000000004
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/shape_base.py",
+      "line": 220,
+      "function": "vstack",
+      "primitive_calls": 34,
+      "calls": 34,
+      "self_seconds": 0.011826756,
+      "cumulative_seconds": 0.037648611000000005
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "primitive_calls": 31503,
+      "calls": 31503,
+      "self_seconds": 0.030882066000000003,
+      "cumulative_seconds": 0.030882066000000003
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/profile_r1.py",
+      "line": 86,
+      "function": "report",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 0.025676987000000002,
+      "cumulative_seconds": 0.030400875
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'flatten' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.030277848000000003,
+      "cumulative_seconds": 0.030277848000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.empty>",
+      "primitive_calls": 6232,
+      "calls": 6232,
+      "self_seconds": 0.027894540000000002,
+      "cumulative_seconds": 0.027894540000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.fromiter>",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.026263923,
+      "cumulative_seconds": 0.026263923
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/shape_base.py",
+      "line": 80,
+      "function": "atleast_2d",
+      "primitive_calls": 34,
+      "calls": 34,
+      "self_seconds": 0.015203452000000001,
+      "cumulative_seconds": 0.025746495
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/scipy/ndimage/_filters.py",
+      "line": 125,
+      "function": "correlate1d",
+      "primitive_calls": 144,
+      "calls": 144,
+      "self_seconds": 0.003960318,
+      "cumulative_seconds": 0.023327282
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 69,
+      "function": "resample_polyline",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.004599759,
+      "cumulative_seconds": 0.022628436000000002
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+      "line": 646,
+      "function": "flatnonzero",
+      "primitive_calls": 635,
+      "calls": 635,
+      "self_seconds": 0.006526494000000001,
+      "cumulative_seconds": 0.021628406000000003
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 51,
+      "function": "_wrapfunc",
+      "primitive_calls": 986,
+      "calls": 986,
+      "self_seconds": 0.004953547,
+      "cumulative_seconds": 0.020033973
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 34,
+      "function": "route_curvature",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.009181133000000001,
+      "cumulative_seconds": 0.01807869
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+      "line": 2575,
+      "function": "norm",
+      "primitive_calls": 196,
+      "calls": 196,
+      "self_seconds": 0.008339647,
+      "cumulative_seconds": 0.016974328
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 132,
+      "function": "_unpack_tuple",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.011378837000000001,
+      "cumulative_seconds": 0.016897715
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation/navigation/geometry.py",
+      "line": 40,
+      "function": "to_zyx",
+      "primitive_calls": 74,
+      "calls": 74,
+      "self_seconds": 0.014980052,
+      "cumulative_seconds": 0.016357995
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/audit.py",
+      "line": 96,
+      "function": "crop_clearance",
+      "primitive_calls": 73,
+      "calls": 73,
+      "self_seconds": 0.008442003,
+      "cumulative_seconds": 0.016071476
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.asarray>",
+      "primitive_calls": 1989,
+      "calls": 1989,
+      "self_seconds": 0.015882106,
+      "cumulative_seconds": 0.015882106
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/_methods.py",
+      "line": 67,
+      "function": "_all",
+      "primitive_calls": 688,
+      "calls": 688,
+      "self_seconds": 0.001857857,
+      "cumulative_seconds": 0.015818612
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'all' of 'numpy.ndarray' objects>",
+      "primitive_calls": 522,
+      "calls": 522,
+      "self_seconds": 0.0025975660000000004,
+      "cumulative_seconds": 0.014662029000000002
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 53,
+      "function": "turn_cost",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.0066717090000000005,
+      "cumulative_seconds": 0.014638956000000002
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 2477,
+      "function": "any",
+      "primitive_calls": 320,
+      "calls": 320,
+      "self_seconds": 0.002621809,
+      "cumulative_seconds": 0.013702953
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/scipy/ndimage/_filters.py",
+      "line": 226,
+      "function": "_gaussian_kernel1d",
+      "primitive_calls": 144,
+      "calls": 144,
+      "self_seconds": 0.0077516220000000005,
+      "cumulative_seconds": 0.013204092
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 69,
+      "function": "_wrapreduction",
+      "primitive_calls": 264,
+      "calls": 264,
+      "self_seconds": 0.003285964,
+      "cumulative_seconds": 0.012302729
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py",
+      "line": 78,
+      "function": "_get_output",
+      "primitive_calls": 144,
+      "calls": 144,
+      "self_seconds": 0.00267577,
+      "cumulative_seconds": 0.011499033
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/audit.py",
+      "line": 15,
+      "function": "_points",
+      "primitive_calls": 228,
+      "calls": 228,
+      "self_seconds": 0.004352797,
+      "cumulative_seconds": 0.010939074
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'sum' of 'numpy.ndarray' objects>",
+      "primitive_calls": 384,
+      "calls": 384,
+      "self_seconds": 0.0017816650000000002,
+      "cumulative_seconds": 0.010168141
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6094,
+      "calls": 6094,
+      "self_seconds": 0.008611333,
+      "cumulative_seconds": 0.008611333
+    }
+  ],
+  "top_self": [
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/replan_r1.py",
+      "line": 16,
+      "function": "mask_segments_inside",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 2.361752109,
+      "cumulative_seconds": 4.058952623000001
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_index_tricks_impl.py",
+      "line": 346,
+      "function": "__getitem__",
+      "primitive_calls": 6130,
+      "calls": 6130,
+      "self_seconds": 0.46262780400000003,
+      "cumulative_seconds": 0.676281357
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 339,
+      "function": "_unique1d",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.311488423,
+      "cumulative_seconds": 0.415250012
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/mesh_clearance_native.py",
+      "line": 30,
+      "function": "distance",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.225271786,
+      "cumulative_seconds": 0.381937289
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 188,
+      "function": "produce",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.168387217,
+      "cumulative_seconds": 5.276520123
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation/navigation/centerline.py",
+      "line": 39,
+      "function": "inside",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.157294065,
+      "cumulative_seconds": 0.21393413900000002
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/mesh_clearance.py",
+      "line": 55,
+      "function": "candidates",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.10916518900000001,
+      "cumulative_seconds": 0.11590241100000001
+    },
+    {
+      "file": "/usr/lib/python3.12/json/encoder.py",
+      "line": 205,
+      "function": "iterencode",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.105480975,
+      "cumulative_seconds": 0.105480975
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.arange>",
+      "primitive_calls": 18446,
+      "calls": 18446,
+      "self_seconds": 0.096359044,
+      "cumulative_seconds": 0.096359044
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.array>",
+      "primitive_calls": 24936,
+      "calls": 24936,
+      "self_seconds": 0.082560168,
+      "cumulative_seconds": 0.082560168
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+      "primitive_calls": 2666,
+      "calls": 2666,
+      "self_seconds": 0.08171188600000001,
+      "cumulative_seconds": 0.08171188600000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'list' objects>",
+      "primitive_calls": 52071,
+      "calls": 52071,
+      "self_seconds": 0.07612977600000001,
+      "cumulative_seconds": 0.07612977600000001
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 145,
+      "function": "unique",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.057719137000000004,
+      "cumulative_seconds": 0.5295209280000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 49946,
+      "calls": 49946,
+      "self_seconds": 0.057537327000000006,
+      "cumulative_seconds": 0.059504735
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.min>",
+      "primitive_calls": 18655,
+      "calls": 18655,
+      "self_seconds": 0.055662790000000004,
+      "cumulative_seconds": 0.055682770000000006
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+      "primitive_calls": 18139,
+      "calls": 18139,
+      "self_seconds": 0.053345984000000006,
+      "cumulative_seconds": 0.053345984000000006
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "primitive_calls": 19732,
+      "calls": 19732,
+      "self_seconds": 0.052634461,
+      "cumulative_seconds": 0.052634461
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 290,
+      "function": "checked_outputs",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.05185709,
+      "cumulative_seconds": 0.07708941100000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.asanyarray>",
+      "primitive_calls": 19109,
+      "calls": 19109,
+      "self_seconds": 0.048798037,
+      "cumulative_seconds": 0.048798037
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/refine_r1.py",
+      "line": 22,
+      "function": "refine_segments",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.043821674000000005,
+      "cumulative_seconds": 0.242603759
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'sort' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.041974773,
+      "cumulative_seconds": 0.041974773
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'extend' of 'list' objects>",
+      "primitive_calls": 24040,
+      "calls": 24040,
+      "self_seconds": 0.039181363000000004,
+      "cumulative_seconds": 0.039181363000000004
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 83,
+      "function": "smooth_route_constrained",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.035661913,
+      "cumulative_seconds": 0.09132978400000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "primitive_calls": 31503,
+      "calls": 31503,
+      "self_seconds": 0.030882066000000003,
+      "cumulative_seconds": 0.030882066000000003
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 40,
+      "function": "distance",
+      "primitive_calls": 47,
+      "calls": 47,
+      "self_seconds": 0.030850492,
+      "cumulative_seconds": 0.445377464
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'flatten' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.030277848000000003,
+      "cumulative_seconds": 0.030277848000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.empty>",
+      "primitive_calls": 6232,
+      "calls": 6232,
+      "self_seconds": 0.027894540000000002,
+      "cumulative_seconds": 0.027894540000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.fromiter>",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.026263923,
+      "cumulative_seconds": 0.026263923
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/profile_r1.py",
+      "line": 86,
+      "function": "report",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 0.025676987000000002,
+      "cumulative_seconds": 0.030400875
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.asarray>",
+      "primitive_calls": 1989,
+      "calls": 1989,
+      "self_seconds": 0.015882106,
+      "cumulative_seconds": 0.015882106
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/shape_base.py",
+      "line": 80,
+      "function": "atleast_2d",
+      "primitive_calls": 34,
+      "calls": 34,
+      "self_seconds": 0.015203452000000001,
+      "cumulative_seconds": 0.025746495
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation/navigation/geometry.py",
+      "line": 40,
+      "function": "to_zyx",
+      "primitive_calls": 74,
+      "calls": 74,
+      "self_seconds": 0.014980052,
+      "cumulative_seconds": 0.016357995
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/comparison_r11.py",
+      "line": 140,
+      "function": "distance",
+      "primitive_calls": 30,
+      "calls": 30,
+      "self_seconds": 0.012446052,
+      "cumulative_seconds": 0.394383341
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/shape_base.py",
+      "line": 220,
+      "function": "vstack",
+      "primitive_calls": 34,
+      "calls": 34,
+      "self_seconds": 0.011826756,
+      "cumulative_seconds": 0.037648611000000005
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+      "line": 132,
+      "function": "_unpack_tuple",
+      "primitive_calls": 6010,
+      "calls": 6010,
+      "self_seconds": 0.011378837000000001,
+      "cumulative_seconds": 0.016897715
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 89,
+      "function": "_wrapreduction_any_all",
+      "primitive_calls": 907,
+      "calls": 907,
+      "self_seconds": 0.01075949,
+      "cumulative_seconds": 0.050484394
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/replan_r1.py",
+      "line": 53,
+      "function": "review_curve",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.010461672,
+      "cumulative_seconds": 4.707177039
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/navigation_comparison/path_rules_r1.py",
+      "line": 34,
+      "function": "route_curvature",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 0.009181133000000001,
+      "cumulative_seconds": 0.01807869
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+      "primitive_calls": 6094,
+      "calls": 6094,
+      "self_seconds": 0.008611333,
+      "cumulative_seconds": 0.008611333
+    },
+    {
+      "file": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/audit.py",
+      "line": 96,
+      "function": "crop_clearance",
+      "primitive_calls": 73,
+      "calls": 73,
+      "self_seconds": 0.008442003,
+      "cumulative_seconds": 0.016071476
+    }
+  ],
+  "profiled_seconds": 5.2769838579999995,
+  "profiler_overhead_included": true,
+  "source_closure_sha256": "a7c0b5961078341f4d77165e09211c475628efcd62dfdaf6301d50749cd54d7d",
+  "profiler_source_sha256": "39fa71af93edb3dd64eb8055dded9cd82231bf9e57e3f22e05f781139e770dd2",
+  "raw_profile_sha256": "d3f7a605c3c5532b5ac1ee53402b668b88bc6301786f300563c50003a9c9c678",
+  "PL_access": false,
+  "new_bitstream": false,
+  "production_promoted": false
+}

@@ -1,0 +1,175 @@
+{
+  "entries": [
+    {
+      "parent": "modules/image_import/availability_r1/main.cpp",
+      "parent_SHA256": "dc7d794e7fbab2bb88dcdbdca3cd40b59fec5926942a665cdd04faa5cebcfa44",
+      "output": "ui/releases/pl_preprocess_r1/main.cpp",
+      "output_SHA256": "ca94ddbe166b85939c6ae82803bc1937b4750f53083b079fc576e3bde109b18a",
+      "literal_edits": [
+        [
+          "#include \"../../view_assets_r1/c6_async_HU_spawn_r1/dialog.hpp\"",
+          "#include \"../../../modules/view_assets_r1/c6_async_HU_spawn_r1/dialog.hpp\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/views_breathing_r1.hpp\"",
+          "#include \"../feature_completion_r6/src/views_breathing_r1.hpp\""
+        ],
+        [
+          "#include \"../../mask_evaluation/ui/dialog.hpp\"",
+          "#include \"../../../modules/mask_evaluation/ui/dialog.hpp\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/reachability_chart.hpp\"",
+          "#include \"../feature_completion_r6/reachability_chart.hpp\""
+        ],
+        [
+          "#include \"../../user_capture/capture.hpp\"",
+          "#include \"../../../modules/user_capture/capture.hpp\""
+        ],
+        [
+          "#include \"../../navigation_media/timeline.hpp\"",
+          "#include \"../../../modules/navigation_media/timeline.hpp\""
+        ],
+        [
+          "#include \"../../navigation_media/frame_r2.hpp\"",
+          "#include \"../../../modules/navigation_media/frame_r2.hpp\""
+        ],
+        [
+          "#include \"../../navigation_media/encoder_UI_r3.hpp\"",
+          "#include \"../../../modules/navigation_media/encoder_UI_r3.hpp\""
+        ],
+        [
+          "#include \"../../navigation_media/active_binding_r20.hpp\"",
+          "#include \"../../../modules/navigation_media/active_binding_r20.hpp\""
+        ],
+        [
+          "#include \"../../navigation_media/stream_integrity_r2/file_hash.hpp\"",
+          "#include \"../../../modules/navigation_media/stream_integrity_r2/file_hash.hpp\""
+        ],
+        [
+          "#include \"../../navigation_controls/motion.hpp\"",
+          "#include \"../../../modules/navigation_controls/motion.hpp\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/pl_scope_complete_r9.hpp\"",
+          "#include \"../feature_completion_r6/src/pl_scope_complete_r9.hpp\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/pl_composite.hpp\"",
+          "#include \"../feature_completion_r6/src/pl_composite.hpp\""
+        ],
+        [
+          "#include \"structures.hpp\"",
+          "#include \"../../../modules/image_import/availability_r1/structures.hpp\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/capture_wait_r86.inc\"",
+          "#include \"../feature_completion_r6/src/capture_wait_r86.inc\""
+        ],
+        [
+          "#include \"../../navigation_media/stream_integrity_r2/UI_feature.inc\"",
+          "#include \"../../../modules/navigation_media/stream_integrity_r2/UI_feature.inc\""
+        ],
+        [
+          "#include \"../../batch_images/UI_feature_current_r20_presence_r96.inc\"",
+          "#include \"../../../modules/batch_images/UI_feature_current_r20_presence_r96.inc\""
+        ],
+        [
+          "#include \"../../overview_visuals/xray_UI_r2.inc\"",
+          "#include \"../../../modules/overview_visuals/xray_UI_r2.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/controls_sync_r21.inc\"",
+          "#include \"../feature_completion_r6/src/controls_sync_r21.inc\""
+        ],
+        [
+          "#include \"../../overview_breathing/UI_feature_fps_r327.inc\"",
+          "#include \"../../../modules/overview_breathing/UI_feature_fps_r327.inc\""
+        ],
+        [
+          "#include \"../../overview_breathing/fps_UI_r327.inc\"",
+          "#include \"../../../modules/overview_breathing/fps_UI_r327.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/missing_data_guard_r4.inc\"",
+          "#include \"../feature_completion_r6/src/missing_data_guard_r4.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/catalogue_test_guard_r4.inc\"",
+          "#include \"../feature_completion_r6/src/catalogue_test_guard_r4.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/selected_application_r14_presence_r96.inc\"",
+          "#include \"../feature_completion_r6/src/selected_application_r14_presence_r96.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/active_recovery_UI_r21a.inc\"",
+          "#include \"../feature_completion_r6/src/active_recovery_UI_r21a.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/active_surface_UI_replan_r2266.inc\"",
+          "#include \"../feature_completion_r6/src/active_surface_UI_replan_r2266.inc\""
+        ],
+        [
+          "#include \"../../navigation_replan/UI_test_r2280.inc\"",
+          "#include \"../../../modules/navigation_replan/UI_test_r2280.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/surface_quality_UI_r16.inc\"",
+          "#include \"../feature_completion_r6/src/surface_quality_UI_r16.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/active_surface_test_r14b_presence_r96.inc\"",
+          "#include \"../feature_completion_r6/src/active_surface_test_r14b_presence_r96.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/surface_comparison_dialog_r14d.inc\"",
+          "#include \"../feature_completion_r6/src/surface_comparison_dialog_r14d.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/comparison_dispatch_r14_presence_r96.inc\"",
+          "#include \"../feature_completion_r6/comparison_dispatch_r14_presence_r96.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/dicom_test.inc\"",
+          "#include \"../feature_completion_r6/src/dicom_test.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/export_test_reports_r1.inc\"",
+          "#include \"../feature_completion_r6/src/export_test_reports_r1.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/composite_test.inc\"",
+          "#include \"../feature_completion_r6/src/composite_test.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/transparent_breathing_r1.inc\"",
+          "#include \"../feature_completion_r6/src/transparent_breathing_r1.inc\""
+        ],
+        [
+          "#include \"../../../ui/releases/feature_completion_r6/src/linked_camera_test.inc\"",
+          "#include \"../feature_completion_r6/src/linked_camera_test.inc\""
+        ],
+        [
+          "/modules/view_assets_r1/backend_optimized.py",
+          "/ui/releases/pl_preprocess_r1/backend.py"
+        ]
+      ]
+    }
+  ],
+  "dispatcher": {
+    "parent": "ui/releases/feature_completion_r6/backend_core_r6.py",
+    "parent_SHA256": "5e0330e65c074d457755e96a04760bc152315fab069e6262fcae71482c42c2f1",
+    "function": "_run_locked",
+    "literal_edits": [
+      [
+        "'segmentation': ['run_segmentation.py'",
+        "'segmentation': [str(ROOT/'modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py')"
+      ]
+    ],
+    "output_SHA256": "66e28a0473c9f5854d55775795d97d1346fe278d894bd43c8ba60b2ace63d93a"
+  },
+  "native_renderer_and_controls_unchanged": true,
+  "algorithms_unchanged_except_qualified_32lane_HU_preprocessing": true,
+  "new_static_bitstream": false
+}

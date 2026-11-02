@@ -1,0 +1,125 @@
+{
+  "status": "passed_direct_CSR_PS1_PS4_exact_native_and_strict_actual_PL_geometry",
+  "cases": [
+    {
+      "structure": "lung",
+      "vertices": 430918,
+      "faces": 860680,
+      "PS1_PS4_all_padded_float32_coordinates_and_decision_report_exact_native_oracle": true,
+      "accepted_PL_points_maximum_error_mm": 0.0,
+      "strict_PL_tolerance_mm": 5e-05,
+      "PS_seconds": {
+        "1": [
+          2.9004492289968766,
+          2.8985377099888865,
+          2.897521898994455
+        ],
+        "4": [
+          0.9712165929959156,
+          0.9721480129810516,
+          0.9897748490038794
+        ]
+      },
+      "median_PS_seconds": {
+        "1": 2.8985377099888865,
+        "4": 0.9721480129810516
+      },
+      "original_UI_PL_hardware_seconds": 3.91086,
+      "original_UI_PL_host_seconds": 4.36768,
+      "original_UI_PL_host_speedup_vs_PS4": 0.2225776643392033,
+      "PL_sample_count": 1,
+      "PS_sample_count_per_thread_count": 3,
+      "comparison_scope": "PS validation, scratch allocation and computation included, outside buffer allocation excluded. One prior actual UI PL host sample; not a three-run alternating PL benchmark.",
+      "invalid_CSR_and_neighbor_indices_rejected": true
+    },
+    {
+      "structure": "airway",
+      "vertices": 23280,
+      "faces": 46520,
+      "PS1_PS4_all_padded_float32_coordinates_and_decision_report_exact_native_oracle": true,
+      "accepted_PL_points_maximum_error_mm": 0.0,
+      "strict_PL_tolerance_mm": 5e-05,
+      "PS_seconds": {
+        "1": [
+          0.18196682998677716,
+          0.18143018500995822,
+          0.18153630499728024
+        ],
+        "4": [
+          0.05415986099978909,
+          0.05400520097464323,
+          0.05405189000885002
+        ]
+      },
+      "median_PS_seconds": {
+        "1": 0.18153630499728024,
+        "4": 0.05405189000885002
+      },
+      "original_UI_PL_hardware_seconds": 0.228732,
+      "original_UI_PL_host_seconds": 0.253203,
+      "original_UI_PL_host_speedup_vs_PS4": 0.21347254972828134,
+      "PL_sample_count": 1,
+      "PS_sample_count_per_thread_count": 3,
+      "comparison_scope": "PS validation, scratch allocation and computation included, outside buffer allocation excluded. One prior actual UI PL host sample; not a three-run alternating PL benchmark.",
+      "invalid_CSR_and_neighbor_indices_rejected": true
+    },
+    {
+      "structure": "nodule",
+      "vertices": 3516,
+      "faces": 6996,
+      "PS1_PS4_all_padded_float32_coordinates_and_decision_report_exact_native_oracle": true,
+      "accepted_PL_points_maximum_error_mm": 0.0,
+      "strict_PL_tolerance_mm": 5e-05,
+      "PS_seconds": {
+        "1": [
+          0.017476973996963352,
+          0.017391984001733363,
+          0.017376364005031064
+        ],
+        "4": [
+          0.00526445300783962,
+          0.005318062991136685,
+          0.005588425003224984
+        ]
+      },
+      "median_PS_seconds": {
+        "1": 0.017391984001733363,
+        "4": 0.005318062991136685
+      },
+      "original_UI_PL_hardware_seconds": 0.0286504,
+      "original_UI_PL_host_seconds": 0.0349791,
+      "original_UI_PL_host_speedup_vs_PS4": 0.15203544376889871,
+      "PL_sample_count": 1,
+      "PS_sample_count_per_thread_count": 3,
+      "comparison_scope": "PS validation, scratch allocation and computation included, outside buffer allocation excluded. One prior actual UI PL host sample; not a three-run alternating PL benchmark.",
+      "invalid_CSR_and_neighbor_indices_rejected": true
+    }
+  ],
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fPIC",
+    "-shared",
+    "-fopenmp",
+    "-mcpu=cortex-a53",
+    "-ffp-contract=off",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/benchmarks/smooth_cpu_r1.cpp",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/benchmarks/build/libsmooth_cpu_r1.so"
+  ],
+  "source_sha256": {
+    "modules/reconstruction/benchmarks/smooth_cpu_r1.cpp": "1e47773fb1c732da8677cefc55ca8146666a7c72723bccc3a74464fe8f7fe196",
+    "modules/reconstruction/benchmarks/compare_cpu_r1.py": "fcf1d9319394d2685abec728c6d74e6cda123fb0c42210ec87a99c11f82565ad",
+    "modules/reconstruction/hls/mesh_smooth.hpp": "0003fcee4a18ac4665f86ef0d6b6d8f6ac0bdc2a55febc8cbdaacf377db15907"
+  },
+  "library_sha256": "304355377c09f308c0d26920d21b23b02bba4b955fc05917c2963534e505c575",
+  "oracle_library_sha256": "af58a85e63a95974dc909b802f8b355e080bf49507b8ac92a37228f3e30d6336",
+  "oracle_cpp_sha256": "e0c3347fd79ce819b631f59eb22171f2f495dba6a621f3614211d7648c7584ca",
+  "UI_receipt_sha256": "981eeb3097fdc075923568c76cde694bacf1f54a3e9f9eed193d953628bf751d",
+  "PS_Marching_Cubes_called": false,
+  "PL_access": false,
+  "new_bitstream_installed": false,
+  "peak_benchmark_process_RSS_MiB": 190.1015625,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "new_surface_graph_replan_original_mask_curve_and_camera_tests_passed",
+  "cases": [
+    {
+      "name": "whole_graph_new_curve_and_regenerated_camera",
+      "status": "passed"
+    },
+    {
+      "name": "insufficient_root_has_no_fake_root_path",
+      "status": "passed"
+    },
+    {
+      "name": "nonzero_bend_policy_refused_pending_accepted_controller_integration",
+      "status": "passed"
+    },
+    {
+      "name": "replan_approach_stops_before_reconstructed_chamber_gap",
+      "status": "passed"
+    },
+    {
+      "name": "complete_voxel_interval_review_catches_subsample_background",
+      "status": "passed"
+    },
+    {
+      "name": "nonforest_input_refused_without_topology_repair",
+      "status": "passed"
+    }
+  ],
+  "platform": "linux",
+  "source_sha256": {
+    "modules/surface_route/replan_r1.py": "afa88b5b0b904166abaf0b02de79c36db708d5c99a5b7e21d4e7cec6cddcfdfd",
+    "modules/surface_route/refine_r1.py": "ef31f7f36a2ac887723e967427b301e149aebe10833ea738c79b75402b9c0982",
+    "modules/surface_route/test_replan_r1.py": "c0c816014e01bb987e44e9f7d10fb9fea4370d4bf1a529ccde765bf960d8dd70",
+    "modules/surface_route/audit.py": "4a66f493db4dbcd3e85cc2a3bb0dbe335215b4abae95e9305ed0733d46ccb483",
+    "modules/navigation/navigation/planner.py": "db7c90c9f8da200f20168f5e231621f6fbc0eca18b1b88afd1bef2c00a8d5fff",
+    "modules/navigation/navigation/camera.py": "9440b0da0ca2640cb9fb7b9c27c9111cf3daeb3914e08152ccd1ae43da8cc2a1",
+    "modules/navigation/navigation/centerline.py": "f14db027afed47a5f02f9ad361bce87c9e5bb8c2a9a6e39f9c8cca6fdd529fec",
+    "modules/navigation/navigation/geometry.py": "e7658687125b716bcf897df64f83940231306ec1446a041763f9d5a5e8488df9"
+  },
+  "PL_access": false,
+  "clinical_safety_certified": false
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "kv260.explicit_hybrid.candidate.r30",
+  "source_SHA256": {
+    "modules/segmentation/mixed_r30/admission.py": "a15d4d5b8e66d00df49bf8f0029c56edd4e4de9c356dcff9e841a0d71466c1fe",
+    "modules/segmentation/mixed_r30/backend.py": "50cc1491b6eb6593b733eb1c28c652ac56c7c8de1fb484dd3b37903bd139cdf9",
+    "modules/segmentation/mixed_r30/board_worker.py": "51e3936a309f9e733980f20cca0a647dadbd6f8dac8b0dad1d388eecdd922c3d",
+    "modules/segmentation/mixed_r30/cleanup.py": "2f0208102ba8e91b1551c867d02169996ecbff6301c8f782bac389e41afe206f",
+    "modules/segmentation/mixed_r30/qualification_context.json": "9a8c1923fe363d413aecfcf139d15d0bfc4077691a74d2c9323025395f4be7a9",
+    "modules/segmentation/mixed_r30/segmentation.py": "d90eacb1abfa4881a5d1d335b4a1fce5730a6fcfdc0c405de6a8ad65e276f2e8",
+    "modules/segmentation/mixed_r30/reference/original_clean_airway_tree.py": "6d6c5668864e45af4511260202f303b4ecba0caab589ab658b4c0be0784193b0",
+    "modules/segmentation/standalone_B7_r1/runtime_manifest.json": "5ab86612c8f2deba85d7cdf20091a043a14f9fb00af8becaa8c13df5a16fd9d8",
+    "modules/segmentation/mixed_r30/backend_r2.py": "65fe15fce45b32a5b55348e232db3313a8413e515d33feebe0ae5e62472fcd8d",
+    "modules/segmentation/mixed_r30/backend_r2_derivation.json": "0529d42d16cd6c33dbca5863ffa447a07b02d488e98fb11eddbd39d2073a5d57",
+    "modules/segmentation/mixed_r30/candidate.json": "1d5138e79c469cd6add911ce40b8c8b8c537d011ad679ed2e4238b441e862e1b"
+  },
+  "cleanup_backend": "PS_original_clean_mask",
+  "silent_PS_fallback": false,
+  "production_promoted": false,
+  "parent_runtime_manifest": "modules/segmentation/standalone_B7_r1/runtime_manifest.json",
+  "parent_runtime_manifest_SHA256": "5ab86612c8f2deba85d7cdf20091a043a14f9fb00af8becaa8c13df5a16fd9d8",
+  "new_FPGA_build": false,
+  "selection": "Actual PL D6/C5 convolution, selected PS layers and cleanup, actual existing PL MC/smoothing/navigation",
+  "full_system_qualification_pending": true,
+  "revision": "r30b_option_order",
+  "initial_full139_admission_SHA256": "1d5138e79c469cd6add911ce40b8c8b8c537d011ad679ed2e4238b441e862e1b"
+}

@@ -1,0 +1,505 @@
+{
+  "status": "sparse_PS_full_raw_graph_matches_original_costs_parents_and_profile_fields",
+  "cases": [
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "single",
+      "nodes": 1,
+      "directed_edges": 0,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "line",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "fork",
+      "nodes": 19,
+      "directed_edges": 36,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "dense_cycle",
+      "nodes": 125,
+      "directed_edges": 2072,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "disconnected",
+      "nodes": 15,
+      "directed_edges": 26,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "random_cycle",
+      "nodes": 499,
+      "directed_edges": 978,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 0.1,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.2,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 2.8,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "epsilon_costs",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 4.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "full_4096_nodes_and_93240_directed_edges",
+      "nodes": 4096,
+      "directed_edges": 93240,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    },
+    {
+      "name": "oblique_physical_geometry",
+      "nodes": 15,
+      "directed_edges": 28,
+      "diameter_mm": 1.0,
+      "all_FP64_distances_exact": true,
+      "all_parent_ids_exact": true,
+      "all_original_profile_fields_passed": true
+    }
+  ],
+  "own_CT": {
+    "nodes": 863,
+    "raw_undirected_edges": 871,
+    "production_forest_edges": 862,
+    "all_original_profile_fields_passed": true,
+    "profiles": [
+      {
+        "scope_diameter_mm": 1.0,
+        "reachable": true,
+        "closest_lesion_gap_mm": 49.94576158710465,
+        "closest_endpoint_xyz_mm": [
+          66.26961302757263,
+          9.589122295379639,
+          -120.25
+        ],
+        "path_length_to_closest_point_mm": 259.07009218435496,
+        "reachable_skeleton_voxels": 863,
+        "reachable_centerline_length_mm": 1304.5601606180403,
+        "maximum_geodesic_cost_mm": 299.62205794266157
+      },
+      {
+        "scope_diameter_mm": 1.2,
+        "reachable": true,
+        "closest_lesion_gap_mm": 54.46725286477047,
+        "closest_endpoint_xyz_mm": [
+          76.17195987701416,
+          17.96803116798401,
+          -142.75
+        ],
+        "path_length_to_closest_point_mm": 264.60681352587653,
+        "reachable_skeleton_voxels": 603,
+        "reachable_centerline_length_mm": 942.0497826899942,
+        "maximum_geodesic_cost_mm": 278.6117257703458
+      },
+      {
+        "scope_diameter_mm": 1.8,
+        "reachable": true,
+        "closest_lesion_gap_mm": 54.91875256381104,
+        "closest_endpoint_xyz_mm": [
+          63.222737073898315,
+          8.82740330696106,
+          -125.25
+        ],
+        "path_length_to_closest_point_mm": 252.2109752495875,
+        "reachable_skeleton_voxels": 532,
+        "reachable_centerline_length_mm": 852.7412129034349,
+        "maximum_geodesic_cost_mm": 271.12001739803407
+      },
+      {
+        "scope_diameter_mm": 2.8,
+        "reachable": true,
+        "closest_lesion_gap_mm": 62.18408167612123,
+        "closest_endpoint_xyz_mm": [
+          51.79695224761963,
+          21.014907121658325,
+          -122.75
+        ],
+        "path_length_to_closest_point_mm": 235.0926602857683,
+        "reachable_skeleton_voxels": 298,
+        "reachable_centerline_length_mm": 520.9105792692261,
+        "maximum_geodesic_cost_mm": 265.6899554238487
+      },
+      {
+        "scope_diameter_mm": 4.0,
+        "reachable": true,
+        "closest_lesion_gap_mm": 69.76399275630278,
+        "closest_endpoint_xyz_mm": [
+          49.51179528236389,
+          19.491469144821167,
+          -135.25
+        ],
+        "path_length_to_closest_point_mm": 221.80783421105878,
+        "reachable_skeleton_voxels": 240,
+        "reachable_centerline_length_mm": 420.31774527117454,
+        "maximum_geodesic_cost_mm": 257.03949838563693
+      }
+    ],
+    "measurements_seconds": {
+      "optimized_PS1_profile_API_seconds": 0.012778478034306318,
+      "optimized_PS4_profile_API_seconds": 0.012620796042028815,
+      "original_PS_profile_API_seconds": 1.2491182830417529
+    },
+    "root_shared_with_reference": true,
+    "original_root_selection_or_route_not_changed": true,
+    "crop_preserves_all_original_skeleton_nodes": true,
+    "source_sha256": {
+      "ui/releases/feature_completion_r4/runs/seed_own_CT/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69",
+      "ui/releases/feature_completion_r4/runs/seed_own_CT/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35"
+    },
+    "target_mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce"
+  },
+  "source_sha256": {
+    "profile_r1.py": "aae7b268e8dd1d2745d14013a74d129b09f0a2042410687e3a7a223ea5f0cac1",
+    "profile_ps_r1.cpp": "a69e6acdb19f2c50904e7555a2a957129fb9ba547829cf47be5ae05bb442e444",
+    "legacy_profile_r1.py": "06dd996d081b082f4eeb2b3ee6f42d312573c5d65d7b7ecd3faec833850be5d5",
+    "legacy_profile_origin_r1.json": "04e292be4be6062c173ddec133483714391f4f60fb97215ed16502879b1420b2",
+    "test_profile_r1.py": "c4a0f53877a3757ac340e7d593c4233f64c748ebd0b99836d8dab7ed839d6812"
+  },
+  "library_sha256": "8ee113bcdbc6335eb300256d05fee7995765ece122c2efb9010ca8fc4572964f",
+  "PL_profile_core_tested": false,
+  "same_input_PS_PL_profile_gate_passed": false,
+  "original_Python_profile_is_not_production_conservative_PL_path_clearance": true,
+  "production_UI_changed": false,
+  "new_bitstream_loaded": false
+}

@@ -1,0 +1,12 @@
+{
+  "original_guidance_sha256": "7993b394041c880dd35dd8f5c859387bf9b6f41e0007253e20782a089f14889e",
+  "previous_mapping_receipt_sha256": "93925ab9bfbe9e4aacbce0db0c614344c9661e77fb99dabbd4c08042ac69970d",
+  "new_source_sha256": {
+    "selected_guidance_rules_r2.py": "62590040b8027f62dc60b5519402bf85c1e0290fadad2f598c4e05e360c62395",
+    "selected_guidance_r2.py": "11a80bab88d3361bbd8cff8e919adbc32eaf4fcef0c3fdd6459e70fe1deddf3b",
+    "test_selected_guidance_r2.py": "4f3567f422bc1ffb56cd5495f454e47d303127545bbed5bd41e9b329b796f742"
+  },
+  "selected_branch_identity_and_PL_geometry_unchanged": true,
+  "original_UI_guidance_unchanged": true,
+  "source_sha256": "80e229fc14015ba605aa5ab47b134c8c1593f9ec02e8269a2b0a3b9977bea0bc"
+}

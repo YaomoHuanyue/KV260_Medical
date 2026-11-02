@@ -1,0 +1,3698 @@
+{
+  "status": "actual_surface_complete_original_graph_same_input_comparison_passed",
+  "platform": "ARM",
+  "cases": [
+    {
+      "label": "accepted_binary_high_ported",
+      "binding": {
+        "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+        "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+        "scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+        "mesh_sha256": "bc4e32530edecf97cde1a48452a4ebb5ec523dc0b65fa3778839ec0ed105ee18",
+        "bundle_metadata_sha256": "472bf3a084be0f26f7f2f47c47268918a37266db6ca362836113f3c3a403dfb9",
+        "CT_input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259",
+        "source_files_sha256": {
+          "ui/runs/20261004_151324_f601e259/segmentation/report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "ui/runs/20261004_151324_f601e259/segmentation/airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+          "ui/runs/20261004_151324_f601e259/segmentation/nodule_mask.nii.gz": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69"
+        },
+        "target": {
+          "index": 3,
+          "voxel_count": 245,
+          "centroid_lps_mm": [
+            112.79043434882652,
+            26.971860516801172,
+            -97.83163265306123
+          ],
+          "label_status": "segmentation candidate, not confirmed lesion",
+          "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce"
+        },
+        "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+        "node_id_policy": "complete_original_argwhere_order_no_leaf_substitution",
+        "topology_producer": "PL_C1_binary_Marching_Cubes"
+      },
+      "raw_nodes": 863,
+      "raw_edges": 871,
+      "original_forest_edges": 862,
+      "candidate_counts": [
+        7,
+        7,
+        10,
+        1,
+        1
+      ],
+      "Pareto_counts": [
+        7,
+        7,
+        6,
+        1,
+        1
+      ],
+      "all_FP64_costs_parents_profiles_candidates_and_path_arrays_exact": true,
+      "samples": [
+        {
+          "repeat": 0,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.05727366199971584,
+              "full_report_API_seconds": 4.148241708000569,
+              "candidate_and_report_seconds": 3.985544982000647,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05753748499955691,
+              "full_report_API_seconds": 4.067903854998804,
+              "candidate_and_report_seconds": 3.901504911000302,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.0781357419982669,
+              "full_report_API_seconds": 4.096073296999748,
+              "candidate_and_report_seconds": 3.9093399990015314,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000167592,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000495415,
+                    "full_readback_and_four_full_guards": 0.000114221,
+                    "full_output_copy": 0.000271953,
+                    "native_host_total": 0.001108342
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000152822,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000647766,
+                    "full_readback_and_four_full_guards": 0.000108632,
+                    "full_output_copy": 0.000257892,
+                    "native_host_total": 0.001210022
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000158291,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000476445,
+                    "full_readback_and_four_full_guards": 0.000109531,
+                    "full_output_copy": 0.000274923,
+                    "native_host_total": 0.001067331
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114091,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000655777,
+                    "full_readback_and_four_full_guards": 0.000108301,
+                    "full_output_copy": 0.000238632,
+                    "native_host_total": 0.001157591
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.2e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140452,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480095,
+                    "full_readback_and_four_full_guards": 0.000108661,
+                    "full_output_copy": 0.000252932,
+                    "native_host_total": 0.00102888
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115051,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000587226,
+                    "full_readback_and_four_full_guards": 0.000108861,
+                    "full_output_copy": 0.000239963,
+                    "native_host_total": 0.001090431
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139822,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000485285,
+                    "full_readback_and_four_full_guards": 0.000109141,
+                    "full_output_copy": 0.000251982,
+                    "native_host_total": 0.00103281
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114941,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375684,
+                    "full_readback_and_four_full_guards": 0.000109031,
+                    "full_output_copy": 0.000291203,
+                    "native_host_total": 0.000930719
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141251,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478575,
+                    "full_readback_and_four_full_guards": 0.000108451,
+                    "full_output_copy": 0.000252443,
+                    "native_host_total": 0.00104255
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115892,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375184,
+                    "full_readback_and_four_full_guards": 0.000108421,
+                    "full_output_copy": 0.000259583,
+                    "native_host_total": 0.00090436
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "PL_R4",
+            "PS4",
+            "PS1"
+          ],
+          "providers": {
+            "PL_R4": {
+              "solve_API_seconds": 0.07780522799839673,
+              "full_report_API_seconds": 4.095277749000161,
+              "candidate_and_report_seconds": 3.908694073001243,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000166222,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000495265,
+                    "full_readback_and_four_full_guards": 0.000129002,
+                    "full_output_copy": 0.000281632,
+                    "native_host_total": 0.001132441
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116671,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000650246,
+                    "full_readback_and_four_full_guards": 0.000108591,
+                    "full_output_copy": 0.000237663,
+                    "native_host_total": 0.001155942
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142772,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478005,
+                    "full_readback_and_four_full_guards": 0.000108741,
+                    "full_output_copy": 0.000250083,
+                    "native_host_total": 0.001027151
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116911,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000650736,
+                    "full_readback_and_four_full_guards": 0.000108401,
+                    "full_output_copy": 0.000237803,
+                    "native_host_total": 0.001153872
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.2e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000138141,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000477105,
+                    "full_readback_and_four_full_guards": 0.000112891,
+                    "full_output_copy": 0.000269813,
+                    "native_host_total": 0.00104522
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115801,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000559365,
+                    "full_readback_and_four_full_guards": 0.000107841,
+                    "full_output_copy": 0.000240823,
+                    "native_host_total": 0.001065271
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141571,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000479175,
+                    "full_readback_and_four_full_guards": 0.000108061,
+                    "full_output_copy": 0.000247973,
+                    "native_host_total": 0.00102241
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000145831,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375544,
+                    "full_readback_and_four_full_guards": 0.000113151,
+                    "full_output_copy": 0.000237542,
+                    "native_host_total": 0.000912849
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000138692,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478215,
+                    "full_readback_and_four_full_guards": 0.000108711,
+                    "full_output_copy": 0.000248353,
+                    "native_host_total": 0.001018761
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140751,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000373333,
+                    "full_readback_and_four_full_guards": 0.000108721,
+                    "full_output_copy": 0.000241323,
+                    "native_host_total": 0.000904859
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            },
+            "PS4": {
+              "solve_API_seconds": 0.057477055001072586,
+              "full_report_API_seconds": 4.065104327000881,
+              "candidate_and_report_seconds": 3.897520500999235,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS1": {
+              "solve_API_seconds": 0.05763542599925131,
+              "full_report_API_seconds": 4.087734893999368,
+              "candidate_and_report_seconds": 3.919072197000787,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.0579641089989309,
+              "full_report_API_seconds": 4.095257728999059,
+              "candidate_and_report_seconds": 3.925970125999811,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05794731999958458,
+              "full_report_API_seconds": 4.08870286399906,
+              "candidate_and_report_seconds": 3.91742049000095,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.07829674299864564,
+              "full_report_API_seconds": 4.133745353999984,
+              "candidate_and_report_seconds": 3.9430020569998305,
+              "wall_queries": {
+                "requested_points": 6053,
+                "computed_points": 471,
+                "reused_exact_points": 5582,
+                "retained_points": 471,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000168042,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000495715,
+                    "full_readback_and_four_full_guards": 0.000111601,
+                    "full_output_copy": 0.000283822,
+                    "native_host_total": 0.001118221
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.2e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000152532,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000649676,
+                    "full_readback_and_four_full_guards": 0.000108282,
+                    "full_output_copy": 0.000254912,
+                    "native_host_total": 0.001208472
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000153561,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000476574,
+                    "full_readback_and_four_full_guards": 0.000112492,
+                    "full_output_copy": 0.000248882,
+                    "native_host_total": 0.00103849
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115552,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000648246,
+                    "full_readback_and_four_full_guards": 0.000108492,
+                    "full_output_copy": 0.000238462,
+                    "native_host_total": 0.001151792
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 5.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139641,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478465,
+                    "full_readback_and_four_full_guards": 0.000122672,
+                    "full_output_copy": 0.000248702,
+                    "native_host_total": 0.00103678
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 1.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115831,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000577185,
+                    "full_readback_and_four_full_guards": 0.000108432,
+                    "full_output_copy": 0.000237452,
+                    "native_host_total": 0.001078481
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000137821,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000490465,
+                    "full_readback_and_four_full_guards": 0.000107711,
+                    "full_output_copy": 0.000248312,
+                    "native_host_total": 0.00103114
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117061,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376364,
+                    "full_readback_and_four_full_guards": 0.000107741,
+                    "full_output_copy": 0.000255143,
+                    "native_host_total": 0.000896179
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000137991,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000471924,
+                    "full_readback_and_four_full_guards": 0.000109071,
+                    "full_output_copy": 0.000249593,
+                    "native_host_total": 0.00101823
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115572,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376114,
+                    "full_readback_and_four_full_guards": 0.000108631,
+                    "full_output_copy": 0.000249662,
+                    "native_host_total": 0.000889879
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "medians": {
+        "PS1": {
+          "solve_API_seconds": 0.05763542599925131,
+          "full_report_API_seconds": 4.095257728999059
+        },
+        "PS4": {
+          "solve_API_seconds": 0.05753748499955691,
+          "full_report_API_seconds": 4.067903854998804
+        },
+        "PL_R4": {
+          "solve_API_seconds": 0.0781357419982669,
+          "full_report_API_seconds": 4.096073296999748
+        }
+      },
+      "strongest_full_API_PS": "PS4",
+      "cold_PL": {
+        "seconds": 0.2348414389998652,
+        "calls": [
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 0.001053411,
+              "full_input_output_and_guard_setup_sync": 0.000431014,
+              "partial_load": 0.147618407,
+              "complete_DFX_switch": 0.155144052,
+              "hardware": 0.000499315,
+              "full_readback_and_four_full_guards": 0.000167412,
+              "full_output_copy": 0.000275683,
+              "native_host_total": 0.157845229
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000133862,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000651086,
+              "full_readback_and_four_full_guards": 0.000109052,
+              "full_output_copy": 0.000251962,
+              "native_host_total": 0.001187652
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 894,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.8e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140281,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000476295,
+              "full_readback_and_four_full_guards": 0.000109401,
+              "full_output_copy": 0.000292773,
+              "native_host_total": 0.00106505
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000117382,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000657537,
+              "full_readback_and_four_full_guards": 0.000108011,
+              "full_output_copy": 0.000237062,
+              "native_host_total": 0.001160652
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 891,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000137491,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000480365,
+              "full_readback_and_four_full_guards": 0.000108651,
+              "full_output_copy": 0.000273552,
+              "native_host_total": 0.0010457
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000147231,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000558986,
+              "full_readback_and_four_full_guards": 0.000108531,
+              "full_output_copy": 0.000256793,
+              "native_host_total": 0.001112101
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 887,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000139241,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000483375,
+              "full_readback_and_four_full_guards": 0.000108661,
+              "full_output_copy": 0.000275312,
+              "native_host_total": 0.00105246
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.2e-07,
+              "full_input_output_and_guard_setup_sync": 0.000117291,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000376294,
+              "full_readback_and_four_full_guards": 0.000108181,
+              "full_output_copy": 0.000263743,
+              "native_host_total": 0.000905229
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 882,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000152432,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000479125,
+              "full_readback_and_four_full_guards": 0.000108801,
+              "full_output_copy": 0.000274963,
+              "native_host_total": 0.001062211
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.8e-07,
+              "full_input_output_and_guard_setup_sync": 0.000117672,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000381674,
+              "full_readback_and_four_full_guards": 0.000126631,
+              "full_output_copy": 0.000238342,
+              "native_host_total": 0.000902879
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          }
+        ]
+      },
+      "files_sha256": {
+        "whole_comparison_arrays.npz": "6fb9b9cf3e975af0a20a5f3b9842348530f5f1b874da68c3d4530da9b2f520eb",
+        "whole_instrument_profiles.json": "8645745bddf573753ece29e710b324178e14d4f361701f65d8abb0ed960bd501",
+        "prepared_input.json": "2a0a5683a6f5096aa37e8c5504a8372e18461767968a47137fd2fd5f5139d7b7",
+        "whole_alternative_routes.json": "adb6ec307f7af74693dfe17bc149e84cb40b696986cadef90e389112d56367b0"
+      },
+      "PL_over_strongest_PS_full_API_speedup": 0.993122817889617,
+      "PL_over_strongest_PS_solve_API_speedup": 0.7363785577262852
+    },
+    {
+      "label": "accepted_binary_ultra_ported",
+      "binding": {
+        "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+        "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+        "scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+        "mesh_sha256": "b4498fac2442d91438d26d74fb2bb1497f330012a52050fd1243fe691272cbe2",
+        "bundle_metadata_sha256": "48247a39a5c5197aa93a2146f706dd60be732310528386dae9f0b9c0fe1138a8",
+        "CT_input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259",
+        "source_files_sha256": {
+          "ui/runs/20261004_151324_f601e259/segmentation/report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "ui/runs/20261004_151324_f601e259/segmentation/airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+          "ui/runs/20261004_151324_f601e259/segmentation/nodule_mask.nii.gz": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69"
+        },
+        "target": {
+          "index": 3,
+          "voxel_count": 245,
+          "centroid_lps_mm": [
+            112.79043434882652,
+            26.971860516801172,
+            -97.83163265306123
+          ],
+          "label_status": "segmentation candidate, not confirmed lesion",
+          "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce"
+        },
+        "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+        "node_id_policy": "complete_original_argwhere_order_no_leaf_substitution",
+        "topology_producer": "PL_C1_binary_Marching_Cubes"
+      },
+      "raw_nodes": 863,
+      "raw_edges": 871,
+      "original_forest_edges": 862,
+      "candidate_counts": [
+        7,
+        7,
+        10,
+        1,
+        1
+      ],
+      "Pareto_counts": [
+        7,
+        7,
+        6,
+        1,
+        1
+      ],
+      "all_FP64_costs_parents_profiles_candidates_and_path_arrays_exact": true,
+      "samples": [
+        {
+          "repeat": 0,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.05800176000047941,
+              "full_report_API_seconds": 4.0681502480001654,
+              "candidate_and_report_seconds": 3.897099136998804,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.0580872909995378,
+              "full_report_API_seconds": 4.084502060999512,
+              "candidate_and_report_seconds": 3.913836794999952,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.07853818500007037,
+              "full_report_API_seconds": 4.2279508159990655,
+              "candidate_and_report_seconds": 4.036365599999044,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000165392,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000497255,
+                    "full_readback_and_four_full_guards": 0.000111701,
+                    "full_output_copy": 0.000345744,
+                    "native_host_total": 0.001177822
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000118492,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000652887,
+                    "full_readback_and_four_full_guards": 0.000113591,
+                    "full_output_copy": 0.000268462,
+                    "native_host_total": 0.001196292
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140561,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480015,
+                    "full_readback_and_four_full_guards": 0.000109941,
+                    "full_output_copy": 0.000238363,
+                    "native_host_total": 0.00101679
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115591,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000647686,
+                    "full_readback_and_four_full_guards": 0.000128431,
+                    "full_output_copy": 0.000264083,
+                    "native_host_total": 0.001196072
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141211,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478315,
+                    "full_readback_and_four_full_guards": 0.000108981,
+                    "full_output_copy": 0.000265982,
+                    "native_host_total": 0.00104436
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115801,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000561226,
+                    "full_readback_and_four_full_guards": 0.000108261,
+                    "full_output_copy": 0.000264052,
+                    "native_host_total": 0.00108989
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141062,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000475825,
+                    "full_readback_and_four_full_guards": 0.000108561,
+                    "full_output_copy": 0.000238743,
+                    "native_host_total": 0.001010421
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000145461,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376253,
+                    "full_readback_and_four_full_guards": 0.000108752,
+                    "full_output_copy": 0.000263332,
+                    "native_host_total": 0.000938009
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000143551,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000471414,
+                    "full_readback_and_four_full_guards": 0.000109271,
+                    "full_output_copy": 0.000241903,
+                    "native_host_total": 0.00101183
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114731,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000377274,
+                    "full_readback_and_four_full_guards": 0.000108561,
+                    "full_output_copy": 0.000278692,
+                    "native_host_total": 0.000918369
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "PL_R4",
+            "PS4",
+            "PS1"
+          ],
+          "providers": {
+            "PL_R4": {
+              "solve_API_seconds": 0.07820996200098307,
+              "full_report_API_seconds": 4.105001816000367,
+              "candidate_and_report_seconds": 3.91479817400068,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000166222,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000502525,
+                    "full_readback_and_four_full_guards": 0.000112782,
+                    "full_output_copy": 0.000254942,
+                    "native_host_total": 0.001095441
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117071,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000654586,
+                    "full_readback_and_four_full_guards": 0.000113411,
+                    "full_output_copy": 0.000273913,
+                    "native_host_total": 0.001204652
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141822,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000479505,
+                    "full_readback_and_four_full_guards": 0.000125551,
+                    "full_output_copy": 0.000239333,
+                    "native_host_total": 0.001035241
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 1.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115841,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000654527,
+                    "full_readback_and_four_full_guards": 0.000108191,
+                    "full_output_copy": 0.000261873,
+                    "native_host_total": 0.001180902
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141742,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000474885,
+                    "full_readback_and_four_full_guards": 0.000113661,
+                    "full_output_copy": 0.000240403,
+                    "native_host_total": 0.001017711
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115841,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000562435,
+                    "full_readback_and_four_full_guards": 0.000107931,
+                    "full_output_copy": 0.000274433,
+                    "native_host_total": 0.001100641
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000155172,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000482035,
+                    "full_readback_and_four_full_guards": 0.000108761,
+                    "full_output_copy": 0.000265113,
+                    "native_host_total": 0.001056691
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114491,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000378253,
+                    "full_readback_and_four_full_guards": 0.000128442,
+                    "full_output_copy": 0.000269592,
+                    "native_host_total": 0.000930419
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142122,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000485105,
+                    "full_readback_and_four_full_guards": 0.000108941,
+                    "full_output_copy": 0.000266473,
+                    "native_host_total": 0.001049841
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116701,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000381864,
+                    "full_readback_and_four_full_guards": 0.000108281,
+                    "full_output_copy": 0.000262943,
+                    "native_host_total": 0.000908859
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05758201599928725,
+              "full_report_API_seconds": 4.081372050999562,
+              "candidate_and_report_seconds": 3.909794223998688,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS1": {
+              "solve_API_seconds": 0.05794621899985941,
+              "full_report_API_seconds": 4.076178588000403,
+              "candidate_and_report_seconds": 3.9043271989994537,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.05748042399864062,
+              "full_report_API_seconds": 4.09099435600001,
+              "candidate_and_report_seconds": 3.918756132999988,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05799466000098619,
+              "full_report_API_seconds": 4.221692773000541,
+              "candidate_and_report_seconds": 4.048918054999376,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.0787311870008125,
+              "full_report_API_seconds": 4.125850803999128,
+              "candidate_and_report_seconds": 3.9314089809995494,
+              "wall_queries": {
+                "requested_points": 6045,
+                "computed_points": 466,
+                "reused_exact_points": 5579,
+                "retained_points": 466,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000167882,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000487965,
+                    "full_readback_and_four_full_guards": 0.000111981,
+                    "full_output_copy": 0.000255213,
+                    "native_host_total": 0.001085631
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117201,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000649517,
+                    "full_readback_and_four_full_guards": 0.000109491,
+                    "full_output_copy": 0.000281263,
+                    "native_host_total": 0.001236253
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000155402,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478345,
+                    "full_readback_and_four_full_guards": 0.000109201,
+                    "full_output_copy": 0.000239553,
+                    "native_host_total": 0.001028501
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 1.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115621,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000655487,
+                    "full_readback_and_four_full_guards": 0.000108541,
+                    "full_output_copy": 0.000260183,
+                    "native_host_total": 0.001179772
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140251,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000481485,
+                    "full_readback_and_four_full_guards": 0.000108831,
+                    "full_output_copy": 0.000238913,
+                    "native_host_total": 0.00101469
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115431,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000549706,
+                    "full_readback_and_four_full_guards": 0.000108681,
+                    "full_output_copy": 0.000258193,
+                    "native_host_total": 0.001070081
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 4.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141581,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480315,
+                    "full_readback_and_four_full_guards": 0.000109291,
+                    "full_output_copy": 0.000238642,
+                    "native_host_total": 0.00101548
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 1.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114731,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376964,
+                    "full_readback_and_four_full_guards": 0.000108321,
+                    "full_output_copy": 0.000280763,
+                    "native_host_total": 0.000919859
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000154212,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478245,
+                    "full_readback_and_four_full_guards": 0.000109011,
+                    "full_output_copy": 0.000242103,
+                    "native_host_total": 0.001029421
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 1.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115241,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000380344,
+                    "full_readback_and_four_full_guards": 0.000108761,
+                    "full_output_copy": 0.000287853,
+                    "native_host_total": 0.000930989
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "medians": {
+        "PS1": {
+          "solve_API_seconds": 0.05794621899985941,
+          "full_report_API_seconds": 4.076178588000403
+        },
+        "PS4": {
+          "solve_API_seconds": 0.05799466000098619,
+          "full_report_API_seconds": 4.084502060999512
+        },
+        "PL_R4": {
+          "solve_API_seconds": 0.07853818500007037,
+          "full_report_API_seconds": 4.125850803999128
+        }
+      },
+      "strongest_full_API_PS": "PS1",
+      "cold_PL": {
+        "seconds": 0.0788257389995124,
+        "calls": [
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000169772,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000495215,
+              "full_readback_and_four_full_guards": 0.000135812,
+              "full_output_copy": 0.000262972,
+              "native_host_total": 0.001122551
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.8e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115711,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000579826,
+              "full_readback_and_four_full_guards": 0.000108661,
+              "full_output_copy": 0.000267772,
+              "native_host_total": 0.001120471
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000141481,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000481505,
+              "full_readback_and_four_full_guards": 0.000109191,
+              "full_output_copy": 0.000238163,
+              "native_host_total": 0.00101711
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.8e-07,
+              "full_input_output_and_guard_setup_sync": 0.000116061,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000653106,
+              "full_readback_and_four_full_guards": 0.000109211,
+              "full_output_copy": 0.000265293,
+              "native_host_total": 0.001184282
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 891,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140711,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000484104,
+              "full_readback_and_four_full_guards": 0.000107921,
+              "full_output_copy": 0.000305173,
+              "native_host_total": 0.001083601
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000116631,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000562276,
+              "full_readback_and_four_full_guards": 0.000108481,
+              "full_output_copy": 0.000267313,
+              "native_host_total": 0.001095541
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 887,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140311,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000481924,
+              "full_readback_and_four_full_guards": 0.000109362,
+              "full_output_copy": 0.000238622,
+              "native_host_total": 0.00101669
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115942,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000379524,
+              "full_readback_and_four_full_guards": 0.000108541,
+              "full_output_copy": 0.000264002,
+              "native_host_total": 0.000907629
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 882,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140461,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000494525,
+              "full_readback_and_four_full_guards": 0.000108941,
+              "full_output_copy": 0.000240642,
+              "native_host_total": 0.00103125
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000114511,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000376934,
+              "full_readback_and_four_full_guards": 0.000107921,
+              "full_output_copy": 0.000326564,
+              "native_host_total": 0.00096437
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          }
+        ]
+      },
+      "files_sha256": {
+        "whole_comparison_arrays.npz": "6298d3ca37ccbe1177577f3221489c39708b448f38d8bc2289f0665b65624102",
+        "whole_instrument_profiles.json": "faede32d06860d85aac6af12c5cf1f98f5d6968a71b2e27ca93009e3996252a0",
+        "prepared_input.json": "a2752da69fc6c2aa91c5e60389e4f624b77a8573e22e305421f6385e8fa34276",
+        "whole_alternative_routes.json": "ed0b9a3d5682923e026f5351f469185e28e83cad4775eb4d27637bd04b64944d"
+      },
+      "PL_over_strongest_PS_full_API_speedup": 0.9879607338320185,
+      "PL_over_strongest_PS_solve_API_speedup": 0.7378094999242406
+    },
+    {
+      "label": "network_probability_high_ported",
+      "binding": {
+        "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+        "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+        "scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+        "mesh_sha256": "9e9c06b4c2f2edb5f27f647510480f8e7037a35ae3f0f29ea1ce154bd9b5b0c1",
+        "bundle_metadata_sha256": "46105626a25d56a8213af37fbe39764d0bd9167f8e2ed4b72bd0d625ddc07410",
+        "CT_input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259",
+        "source_files_sha256": {
+          "ui/runs/20261004_151324_f601e259/segmentation/report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "ui/runs/20261004_151324_f601e259/segmentation/airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+          "ui/runs/20261004_151324_f601e259/segmentation/nodule_mask.nii.gz": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69"
+        },
+        "target": {
+          "index": 3,
+          "voxel_count": 245,
+          "centroid_lps_mm": [
+            112.79043434882652,
+            26.971860516801172,
+            -97.83163265306123
+          ],
+          "label_status": "segmentation candidate, not confirmed lesion",
+          "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce"
+        },
+        "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+        "node_id_policy": "complete_original_argwhere_order_no_leaf_substitution",
+        "topology_producer": "PL_C1_binary_Marching_Cubes"
+      },
+      "raw_nodes": 863,
+      "raw_edges": 871,
+      "original_forest_edges": 862,
+      "candidate_counts": [
+        7,
+        7,
+        10,
+        1,
+        1
+      ],
+      "Pareto_counts": [
+        7,
+        7,
+        6,
+        1,
+        1
+      ],
+      "all_FP64_costs_parents_profiles_candidates_and_path_arrays_exact": true,
+      "samples": [
+        {
+          "repeat": 0,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.0577500270010205,
+              "full_report_API_seconds": 4.162531502001002,
+              "candidate_and_report_seconds": 3.9901505580000958,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05762827699982154,
+              "full_report_API_seconds": 4.162435341000673,
+              "candidate_and_report_seconds": 3.991217927999969,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.07792220899864333,
+              "full_report_API_seconds": 4.175449401000151,
+              "candidate_and_report_seconds": 3.9852537690003373,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 6.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000165781,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000493845,
+                    "full_readback_and_four_full_guards": 0.000112091,
+                    "full_output_copy": 0.000252893,
+                    "native_host_total": 0.001088121
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117332,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000652626,
+                    "full_readback_and_four_full_guards": 0.000108882,
+                    "full_output_copy": 0.000234822,
+                    "native_host_total": 0.001156322
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139511,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000476424,
+                    "full_readback_and_four_full_guards": 0.000124401,
+                    "full_output_copy": 0.000241772,
+                    "native_host_total": 0.00102883
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115762,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000567646,
+                    "full_readback_and_four_full_guards": 0.000108161,
+                    "full_output_copy": 0.000234122,
+                    "native_host_total": 0.001065751
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139721,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000479165,
+                    "full_readback_and_four_full_guards": 0.000108671,
+                    "full_output_copy": 0.000238522,
+                    "native_host_total": 0.00101175
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142312,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000558036,
+                    "full_readback_and_four_full_guards": 0.000108901,
+                    "full_output_copy": 0.000250902,
+                    "native_host_total": 0.001099121
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140441,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000483114,
+                    "full_readback_and_four_full_guards": 0.000109692,
+                    "full_output_copy": 0.000239312,
+                    "native_host_total": 0.001034
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115791,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375564,
+                    "full_readback_and_four_full_guards": 0.000108101,
+                    "full_output_copy": 0.000251492,
+                    "native_host_total": 0.000889429
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000156831,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000481084,
+                    "full_readback_and_four_full_guards": 0.000109412,
+                    "full_output_copy": 0.000241172,
+                    "native_host_total": 0.00103447
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115342,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000380314,
+                    "full_readback_and_four_full_guards": 0.000125091,
+                    "full_output_copy": 0.000234982,
+                    "native_host_total": 0.000895609
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "PL_R4",
+            "PS4",
+            "PS1"
+          ],
+          "providers": {
+            "PL_R4": {
+              "solve_API_seconds": 0.07826044200010074,
+              "full_report_API_seconds": 4.173712993000663,
+              "candidate_and_report_seconds": 3.9820583469991107,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000167572,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000500795,
+                    "full_readback_and_four_full_guards": 0.000110531,
+                    "full_output_copy": 0.000255623,
+                    "native_host_total": 0.001094251
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115551,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000649417,
+                    "full_readback_and_four_full_guards": 0.000125321,
+                    "full_output_copy": 0.000235362,
+                    "native_host_total": 0.001168391
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142201,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000469594,
+                    "full_readback_and_four_full_guards": 0.000108431,
+                    "full_output_copy": 0.000258883,
+                    "native_host_total": 0.0010311
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116641,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000651736,
+                    "full_readback_and_four_full_guards": 0.000108571,
+                    "full_output_copy": 0.000234333,
+                    "native_host_total": 0.001152192
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140951,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000482205,
+                    "full_readback_and_four_full_guards": 0.000109671,
+                    "full_output_copy": 0.000238003,
+                    "native_host_total": 0.00101653
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000150241,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000558125,
+                    "full_readback_and_four_full_guards": 0.000108351,
+                    "full_output_copy": 0.000253923,
+                    "native_host_total": 0.001110091
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 4.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140502,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000477905,
+                    "full_readback_and_four_full_guards": 0.000108971,
+                    "full_output_copy": 0.000239303,
+                    "native_host_total": 0.001027571
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115111,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375133,
+                    "full_readback_and_four_full_guards": 0.000108171,
+                    "full_output_copy": 0.000250883,
+                    "native_host_total": 0.000889279
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000159752,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478525,
+                    "full_readback_and_four_full_guards": 0.000109301,
+                    "full_output_copy": 0.000242553,
+                    "native_host_total": 0.001036861
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115071,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376383,
+                    "full_readback_and_four_full_guards": 0.000126411,
+                    "full_output_copy": 0.000234492,
+                    "native_host_total": 0.000891629
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05769847699957609,
+              "full_report_API_seconds": 4.164366799999698,
+              "candidate_and_report_seconds": 3.9927521139998134,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS1": {
+              "solve_API_seconds": 0.05766922699876886,
+              "full_report_API_seconds": 4.170949415998621,
+              "candidate_and_report_seconds": 3.998693972998808,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.057628057000329136,
+              "full_report_API_seconds": 4.2850896380005,
+              "candidate_and_report_seconds": 4.111137128000337,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.057888888999514165,
+              "full_report_API_seconds": 4.159337150000283,
+              "candidate_and_report_seconds": 3.9858153450004465,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.0779378799998085,
+              "full_report_API_seconds": 4.202617382999961,
+              "candidate_and_report_seconds": 4.008805703999315,
+              "wall_queries": {
+                "requested_points": 6068,
+                "computed_points": 484,
+                "reused_exact_points": 5584,
+                "retained_points": 484,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000167521,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000521215,
+                    "full_readback_and_four_full_guards": 0.000112291,
+                    "full_output_copy": 0.000248233,
+                    "native_host_total": 0.001107871
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117851,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000649927,
+                    "full_readback_and_four_full_guards": 0.000108291,
+                    "full_output_copy": 0.000296963,
+                    "native_host_total": 0.001238393
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 894,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142532,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000474415,
+                    "full_readback_and_four_full_guards": 0.000109161,
+                    "full_output_copy": 0.000231622,
+                    "native_host_total": 0.00102012
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116531,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000652047,
+                    "full_readback_and_four_full_guards": 0.000112901,
+                    "full_output_copy": 0.000237882,
+                    "native_host_total": 0.001159491
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000141842,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478215,
+                    "full_readback_and_four_full_guards": 0.000127411,
+                    "full_output_copy": 0.000232003,
+                    "native_host_total": 0.001026171
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115801,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000560886,
+                    "full_readback_and_four_full_guards": 0.000108271,
+                    "full_output_copy": 0.000237403,
+                    "native_host_total": 0.001061921
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 887,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139222,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000481565,
+                    "full_readback_and_four_full_guards": 0.000112571,
+                    "full_output_copy": 0.000229792,
+                    "native_host_total": 0.00100853
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000148331,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000375984,
+                    "full_readback_and_four_full_guards": 0.000108821,
+                    "full_output_copy": 0.000238213,
+                    "native_host_total": 0.000911899
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 882,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140251,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480805,
+                    "full_readback_and_four_full_guards": 0.000108651,
+                    "full_output_copy": 0.000231563,
+                    "native_host_total": 0.0010073
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116761,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000377303,
+                    "full_readback_and_four_full_guards": 0.000112562,
+                    "full_output_copy": 0.000258282,
+                    "native_host_total": 0.000905759
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "medians": {
+        "PS1": {
+          "solve_API_seconds": 0.05766922699876886,
+          "full_report_API_seconds": 4.170949415998621
+        },
+        "PS4": {
+          "solve_API_seconds": 0.05769847699957609,
+          "full_report_API_seconds": 4.162435341000673
+        },
+        "PL_R4": {
+          "solve_API_seconds": 0.0779378799998085,
+          "full_report_API_seconds": 4.175449401000151
+        }
+      },
+      "strongest_full_API_PS": "PS4",
+      "cold_PL": {
+        "seconds": 0.07835084300131712,
+        "calls": [
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 6.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000169492,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000430094,
+              "full_readback_and_four_full_guards": 0.000113412,
+              "full_output_copy": 0.000264352,
+              "native_host_total": 0.00103775
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140891,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000654396,
+              "full_readback_and_four_full_guards": 0.000109101,
+              "full_output_copy": 0.000259933,
+              "native_host_total": 0.001211782
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 894,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000155982,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000477815,
+              "full_readback_and_four_full_guards": 0.000108751,
+              "full_output_copy": 0.000262652,
+              "native_host_total": 0.00105187
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115251,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000654017,
+              "full_readback_and_four_full_guards": 0.000112181,
+              "full_output_copy": 0.000233272,
+              "native_host_total": 0.001153931
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 891,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3.1e-07,
+              "full_input_output_and_guard_setup_sync": 0.000138441,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000481694,
+              "full_readback_and_four_full_guards": 0.000109181,
+              "full_output_copy": 0.000238912,
+              "native_host_total": 0.00101336
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000116282,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000559866,
+              "full_readback_and_four_full_guards": 0.000108811,
+              "full_output_copy": 0.000258282,
+              "native_host_total": 0.001083821
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 887,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 0.000156481,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000480215,
+              "full_readback_and_four_full_guards": 0.000114091,
+              "full_output_copy": 0.000239722,
+              "native_host_total": 0.00103833
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.9e-07,
+              "full_input_output_and_guard_setup_sync": 0.000114001,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000377924,
+              "full_readback_and_four_full_guards": 0.000107941,
+              "full_output_copy": 0.000256353,
+              "native_host_total": 0.000896499
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 882,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 0.000140282,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000480685,
+              "full_readback_and_four_full_guards": 0.000109201,
+              "full_output_copy": 0.000266833,
+              "native_host_total": 0.001044241
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115261,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000380393,
+              "full_readback_and_four_full_guards": 0.000109381,
+              "full_output_copy": 0.000235603,
+              "native_host_total": 0.000881809
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          }
+        ]
+      },
+      "files_sha256": {
+        "whole_comparison_arrays.npz": "35e77d9ec47604c6d9d29366a22e94f9ff592294657dcb2b916c8d9c69d44d3a",
+        "whole_instrument_profiles.json": "edddc99a2a9dc0828636a6c8e0b8811a8230d90d73deb8b9a15c74e444b8ace4",
+        "prepared_input.json": "cb99343544ad2aa6712d0022204d6112cea1734fde3fd25f644af830ef5e16f2",
+        "whole_alternative_routes.json": "aae9aa9d0a9706be0b545d63996053f95a9ffc37d1d77f71c977e7171dfff1a8"
+      },
+      "PL_over_strongest_PS_full_API_speedup": 0.9968831953762006,
+      "PL_over_strongest_PS_solve_API_speedup": 0.7399383585864866
+    },
+    {
+      "label": "network_probability_ultra_ported",
+      "binding": {
+        "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+        "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+        "scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+        "mesh_sha256": "308cacc1eaac3f11a689433a3be8872c403659ca7279db72051b2fde79457018",
+        "bundle_metadata_sha256": "9127223ae538dc9385e76600c2a4bc6530ef32b63e2ea11d5d02061fed137bfa",
+        "CT_input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+        "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259",
+        "source_files_sha256": {
+          "ui/runs/20261004_151324_f601e259/segmentation/report.json": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+          "ui/runs/20261004_151324_f601e259/segmentation/airway_mask.nii.gz": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+          "ui/runs/20261004_151324_f601e259/segmentation/nodule_mask.nii.gz": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.json": "0d8b2fd531f6bd371fbdddbb32cf330c4b3e7078b39d192e38e04ff6a0ab5f35",
+          "ui/runs/20261004_151324_f601e259/navigation/centerline.npz": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69"
+        },
+        "target": {
+          "index": 3,
+          "voxel_count": 245,
+          "centroid_lps_mm": [
+            112.79043434882652,
+            26.971860516801172,
+            -97.83163265306123
+          ],
+          "label_status": "segmentation candidate, not confirmed lesion",
+          "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce"
+        },
+        "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+        "node_id_policy": "complete_original_argwhere_order_no_leaf_substitution",
+        "topology_producer": "PL_C1_binary_Marching_Cubes"
+      },
+      "raw_nodes": 863,
+      "raw_edges": 871,
+      "original_forest_edges": 862,
+      "candidate_counts": [
+        7,
+        7,
+        10,
+        1,
+        1
+      ],
+      "Pareto_counts": [
+        7,
+        7,
+        6,
+        1,
+        1
+      ],
+      "all_FP64_costs_parents_profiles_candidates_and_path_arrays_exact": true,
+      "samples": [
+        {
+          "repeat": 0,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.05835000399929413,
+              "full_report_API_seconds": 4.104287098998611,
+              "candidate_and_report_seconds": 3.9296565130007366,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.058729677000883385,
+              "full_report_API_seconds": 4.113107287001185,
+              "candidate_and_report_seconds": 3.9405333710001287,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.07881421800084354,
+              "full_report_API_seconds": 4.123543702000461,
+              "candidate_and_report_seconds": 3.930782334000469,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000166132,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000490485,
+                    "full_readback_and_four_full_guards": 0.000111501,
+                    "full_output_copy": 0.000279223,
+                    "native_host_total": 0.001105801
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116981,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000655087,
+                    "full_readback_and_four_full_guards": 0.000113531,
+                    "full_output_copy": 0.000266852,
+                    "native_host_total": 0.001196311
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000138312,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478355,
+                    "full_readback_and_four_full_guards": 0.000109611,
+                    "full_output_copy": 0.000231132,
+                    "native_host_total": 0.00100394
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116361,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000651107,
+                    "full_readback_and_four_full_guards": 0.000108991,
+                    "full_output_copy": 0.000278283,
+                    "native_host_total": 0.001196432
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140331,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478865,
+                    "full_readback_and_four_full_guards": 0.000112741,
+                    "full_output_copy": 0.000256143,
+                    "native_host_total": 0.00103435
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114901,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000575675,
+                    "full_readback_and_four_full_guards": 0.000109392,
+                    "full_output_copy": 0.000265812,
+                    "native_host_total": 0.001106511
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 888,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139281,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480135,
+                    "full_readback_and_four_full_guards": 0.000109201,
+                    "full_output_copy": 0.000230202,
+                    "native_host_total": 0.00100557
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000117162,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000380484,
+                    "full_readback_and_four_full_guards": 0.000113471,
+                    "full_output_copy": 0.000263352,
+                    "native_host_total": 0.000914259
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 883,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140071,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480144,
+                    "full_readback_and_four_full_guards": 0.000109922,
+                    "full_output_copy": 0.000231662,
+                    "native_host_total": 0.00100761
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.4e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000148602,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000377404,
+                    "full_readback_and_four_full_guards": 0.000108981,
+                    "full_output_copy": 0.000260622,
+                    "native_host_total": 0.000936379
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "PL_R4",
+            "PS4",
+            "PS1"
+          ],
+          "providers": {
+            "PL_R4": {
+              "solve_API_seconds": 0.0788631589985016,
+              "full_report_API_seconds": 4.1249778759993205,
+              "candidate_and_report_seconds": 3.9326237519999268,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.5e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000167072,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000498055,
+                    "full_readback_and_four_full_guards": 0.000111061,
+                    "full_output_copy": 0.000344113,
+                    "native_host_total": 0.001179482
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000120431,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000653417,
+                    "full_readback_and_four_full_guards": 0.000109001,
+                    "full_output_copy": 0.000268003,
+                    "native_host_total": 0.001199982
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000140231,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000479795,
+                    "full_readback_and_four_full_guards": 0.000108661,
+                    "full_output_copy": 0.000228993,
+                    "native_host_total": 0.00100406
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116331,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000662716,
+                    "full_readback_and_four_full_guards": 0.000112401,
+                    "full_output_copy": 0.000263403,
+                    "native_host_total": 0.001195242
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139481,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000472385,
+                    "full_readback_and_four_full_guards": 0.000108571,
+                    "full_output_copy": 0.000338494,
+                    "native_host_total": 0.001104681
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115241,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000562316,
+                    "full_readback_and_four_full_guards": 0.000108321,
+                    "full_output_copy": 0.000262943,
+                    "native_host_total": 0.001089371
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 888,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000137232,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000482005,
+                    "full_readback_and_four_full_guards": 0.000113751,
+                    "full_output_copy": 0.000228823,
+                    "native_host_total": 0.001007581
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000143271,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000376214,
+                    "full_readback_and_four_full_guards": 0.000107951,
+                    "full_output_copy": 0.000261053,
+                    "native_host_total": 0.000928439
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 883,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000137772,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000483535,
+                    "full_readback_and_four_full_guards": 0.000108821,
+                    "full_output_copy": 0.000230942,
+                    "native_host_total": 0.0010058
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.1e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115581,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000378404,
+                    "full_readback_and_four_full_guards": 0.000108391,
+                    "full_output_copy": 0.000261593,
+                    "native_host_total": 0.000903129
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            },
+            "PS4": {
+              "solve_API_seconds": 0.05875210799968045,
+              "full_report_API_seconds": 4.0980503570008295,
+              "candidate_and_report_seconds": 3.92359812200084,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS1": {
+              "solve_API_seconds": 0.058302293000451755,
+              "full_report_API_seconds": 4.103846435000378,
+              "candidate_and_report_seconds": 3.929250487999525,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            }
+          }
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "PS1",
+            "PS4",
+            "PL_R4"
+          ],
+          "providers": {
+            "PS1": {
+              "solve_API_seconds": 0.058660216998760006,
+              "full_report_API_seconds": 4.11851358199965,
+              "candidate_and_report_seconds": 3.9437017840009503,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PS4": {
+              "solve_API_seconds": 0.058857858000919805,
+              "full_report_API_seconds": 4.121583152000312,
+              "candidate_and_report_seconds": 3.9466460929997993,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": []
+            },
+            "PL_R4": {
+              "solve_API_seconds": 0.07887143900006777,
+              "full_report_API_seconds": 4.130053386999862,
+              "candidate_and_report_seconds": 3.9344100399994204,
+              "wall_queries": {
+                "requested_points": 6049,
+                "computed_points": 469,
+                "reused_exact_points": 5580,
+                "retained_points": 469,
+                "capacity": 200000,
+                "rounded_or_approximate_point_keys": false
+              },
+              "PL_calls": [
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000169122,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000499235,
+                    "full_readback_and_four_full_guards": 0.000110972,
+                    "full_output_copy": 0.000281402,
+                    "native_host_total": 0.001119871
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 7.2e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115791,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000649246,
+                    "full_readback_and_four_full_guards": 0.000108481,
+                    "full_output_copy": 0.000281523,
+                    "native_host_total": 0.001197732
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 895,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000139351,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000475965,
+                    "full_readback_and_four_full_guards": 0.000112611,
+                    "full_output_copy": 0.000271632,
+                    "native_host_total": 0.00104683
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 6.9e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000116291,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000654477,
+                    "full_readback_and_four_full_guards": 0.000108581,
+                    "full_output_copy": 0.000260952,
+                    "native_host_total": 0.001180201
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 891,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.8e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000142132,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000474525,
+                    "full_readback_and_four_full_guards": 0.000109141,
+                    "full_output_copy": 0.000257102,
+                    "native_host_total": 0.00103024
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000143231,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000558956,
+                    "full_readback_and_four_full_guards": 0.000108461,
+                    "full_output_copy": 0.000279283,
+                    "native_host_total": 0.001135131
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 888,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 3.2e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000137312,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000480405,
+                    "full_readback_and_four_full_guards": 0.000109391,
+                    "full_output_copy": 0.000254603,
+                    "native_host_total": 0.001026441
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000115721,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000377163,
+                    "full_readback_and_four_full_guards": 0.000108321,
+                    "full_output_copy": 0.000390254,
+                    "native_host_total": 0.00103049
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 0,
+                  "input_words": 883,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 2.7e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000147672,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000478295,
+                    "full_readback_and_four_full_guards": 0.000113711,
+                    "full_output_copy": 0.000271243,
+                    "native_host_total": 0.001060361
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                },
+                {
+                  "operation": 1,
+                  "input_words": 2,
+                  "output_words": 8706,
+                  "status": 0,
+                  "phases_seconds": {
+                    "BO_capacity_growth": 6e-07,
+                    "full_input_output_and_guard_setup_sync": 0.000114991,
+                    "partial_load": 0.0,
+                    "complete_DFX_switch": 0.0,
+                    "hardware": 0.000391494,
+                    "full_readback_and_four_full_guards": 0.000108361,
+                    "full_output_copy": 0.000265542,
+                    "native_host_total": 0.000921959
+                  },
+                  "all_four_full_4096_byte_DMA_guards_checked": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "medians": {
+        "PS1": {
+          "solve_API_seconds": 0.05835000399929413,
+          "full_report_API_seconds": 4.104287098998611
+        },
+        "PS4": {
+          "solve_API_seconds": 0.05875210799968045,
+          "full_report_API_seconds": 4.113107287001185
+        },
+        "PL_R4": {
+          "solve_API_seconds": 0.0788631589985016,
+          "full_report_API_seconds": 4.1249778759993205
+        }
+      },
+      "strongest_full_API_PS": "PS1",
+      "cold_PL": {
+        "seconds": 0.07869207700059633,
+        "calls": [
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 4e-07,
+              "full_input_output_and_guard_setup_sync": 0.000168982,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000492145,
+              "full_readback_and_four_full_guards": 0.000137161,
+              "full_output_copy": 0.000257713,
+              "native_host_total": 0.001114961
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000117231,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000681027,
+              "full_readback_and_four_full_guards": 0.000108311,
+              "full_output_copy": 0.000293653,
+              "native_host_total": 0.001244422
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 895,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 0.000154822,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000478285,
+              "full_readback_and_four_full_guards": 0.000109631,
+              "full_output_copy": 0.000231292,
+              "native_host_total": 0.00102136
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.6e-07,
+              "full_input_output_and_guard_setup_sync": 0.000117171,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000656737,
+              "full_readback_and_four_full_guards": 0.000108621,
+              "full_output_copy": 0.000264043,
+              "native_host_total": 0.001188202
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 891,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 3e-07,
+              "full_input_output_and_guard_setup_sync": 0.000142691,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000478415,
+              "full_readback_and_four_full_guards": 0.000127412,
+              "full_output_copy": 0.000229432,
+              "native_host_total": 0.00102476
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 1.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115961,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000565365,
+              "full_readback_and_four_full_guards": 0.000108401,
+              "full_output_copy": 0.000263543,
+              "native_host_total": 0.001094901
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 888,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000138961,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000485174,
+              "full_readback_and_four_full_guards": 0.000109122,
+              "full_output_copy": 0.000228952,
+              "native_host_total": 0.00100775
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.5e-07,
+              "full_input_output_and_guard_setup_sync": 0.000120972,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000379044,
+              "full_readback_and_four_full_guards": 0.000108741,
+              "full_output_copy": 0.000283163,
+              "native_host_total": 0.00093301
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 0,
+            "input_words": 883,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000141512,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000485425,
+              "full_readback_and_four_full_guards": 0.000108481,
+              "full_output_copy": 0.000229652,
+              "native_host_total": 0.00101199
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          },
+          {
+            "operation": 1,
+            "input_words": 2,
+            "output_words": 8706,
+            "status": 0,
+            "phases_seconds": {
+              "BO_capacity_growth": 2.7e-07,
+              "full_input_output_and_guard_setup_sync": 0.000115931,
+              "partial_load": 0.0,
+              "complete_DFX_switch": 0.0,
+              "hardware": 0.000378364,
+              "full_readback_and_four_full_guards": 0.000108341,
+              "full_output_copy": 0.000284443,
+              "native_host_total": 0.000926759
+            },
+            "all_four_full_4096_byte_DMA_guards_checked": true
+          }
+        ]
+      },
+      "files_sha256": {
+        "whole_comparison_arrays.npz": "b4c0f6f6ee3e253a845976d53601dd92cd45f37d9d9d3dd03033d7766a61a8f1",
+        "whole_instrument_profiles.json": "e2fd093363e156363c632cf8a82356a1da22e09ecd1560c0fd930ae7197b23e6",
+        "prepared_input.json": "33841ef9ea54fb683fb091f1c2d83b692ba26484a9102d11f1b7b9b9e21b6697",
+        "whole_alternative_routes.json": "78254bb976a8c7773b0040d2a0e39885e4f0b3c67b2497804ef35b7e3270522e"
+      },
+      "PL_over_strongest_PS_full_API_speedup": 0.994984027157795,
+      "PL_over_strongest_PS_solve_API_speedup": 0.7398892555192061
+    }
+  ],
+  "PL_access": true,
+  "full_static_1MiB_echo_and_C6_restore_passed": true,
+  "cold_session_seconds": 0.5113769349991344,
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "source_closure_sha256": "a7c0b5961078341f4d77165e09211c475628efcd62dfdaf6301d50749cd54d7d",
+  "R4_C_model_sha256": "c72606ee5f4e5c27f034dd37e79eb1cd1f8a13ba8986f664bd8d6922f9866e3d",
+  "peak_test_process_RSS_MiB": 776.3046875,
+  "total_trial_seconds": 226.41503992300022,
+  "production_promoted": false,
+  "new_bitstream": false,
+  "performance_scope": "Fresh solve plus complete all-node candidate, actual continuous-wall review and full report API; includes copies, guards and checks; excludes common geometry preparation and file serialization, recorded separately",
+  "further_UI_and_selected_route_integration_pending": true
+}

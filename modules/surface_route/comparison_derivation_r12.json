@@ -1,0 +1,12 @@
+{
+  "parent_sha256": "6b43ef9ad808a15797a6cc50a7929e4008e8139d18ef6b38a0af089c27fa7fa1",
+  "output_sha256": "38318bfb53b5caebd37d51c507a838bc8d87ef44b63f84d77e8ee3f00b42b5d2",
+  "parent_supervisor_sha256": "8fc49e29454b6810683857b92e5aecf8f6245ba35c64833793f4fe4954b901ce",
+  "output_supervisor_sha256": "a13a97a4d6fd866a114582fb64845b41f0efb37cc4ccfa1056ae85b896bf235a",
+  "changes": [
+    "reuse original immutable exact root winding",
+    "exclude optimization counters from semantic report equality",
+    "separate source closure and evidence directories"
+  ],
+  "R11_sources_unchanged": true
+}

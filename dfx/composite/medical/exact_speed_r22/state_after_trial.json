@@ -1,0 +1,11 @@
+{
+  "status": "formal_R14_UI_restored_after_R22",
+  "PID": 456862,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "UI_binary_sha256": "159cf6e628bf3159ac5743c0a0d224be661d6f7d35bb6c5f2af59cae26288d94",
+  "PL_lock_free": true,
+  "full_static_echo_and_C6_restore_passed": true,
+  "static_shell_reloaded": false,
+  "driver_unloaded": false,
+  "auto_start_added": false
+}

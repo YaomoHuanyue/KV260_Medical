@@ -1,0 +1,42 @@
+{
+  "schema": "kv260.streaming.general_stage.v1",
+  "qualified_template": "modules/segmentation/streaming_functional_r2/admission_template.json",
+  "original_asset": "modules/segmentation/streaming_stage_r1/assets/medical_ct_original.bin",
+  "proofs": {
+    "actual_full139_system": {
+      "path": "results/C5_logged_system_ARM_20261021_r1/verified_PC.json",
+      "SHA256": "8f8689287ace2907fc31e3b0f40187128b98bdace906b80246fe1d6f072ffac6"
+    },
+    "actual_partial7_system": {
+      "path": "results/D9_partial_ARM_20261021_r2/verified_PC.json",
+      "SHA256": "72d2bfada5d45e8aa923df54c6bcb56754435a67d9b27d9c1d65d5ef7247af9d"
+    },
+    "file_transaction_windows": {
+      "path": "results/partial_file_transaction_Windows_20261022_r1/verified.json",
+      "SHA256": "55f8c5d2b6d859bf7900d0d957219f898a30e387e6f1fbf18af19527e085ba2f"
+    },
+    "file_transaction_ARM": {
+      "path": "modules/segmentation/streaming_stage_r1/ARM_filesystem_r1/owned_outputs/verified.json",
+      "SHA256": "11d9dc3dd9be53a9677abc486f3b3843ff284da0ac8900eb3b930b726429c029"
+    }
+  },
+  "source_SHA256": {
+    "modules/segmentation/streaming_stage_r1/entry.py": "2ea6e1c5f8f99bebaef82dfd5f5ef8b2819aaf25a412e492016962e505b10aab",
+    "system/partial_transaction_r1.py": "ce12b1fcb018d1e636143734894d186f77978234866f958d64ef56bcafcf58c9",
+    "modules/segmentation/streaming_functional_r2/admission_template.json": "48a0ff29e3c6144e26967fd14088ef2e7432e56ce6ac9937aae4967a71137532",
+    "modules/segmentation/streaming_stage_r1/assets/medical_ct_original.bin": "f6984b755def971a6c5a1c8487c0bc3376fa4ffe69b16cdfb6838857a60d888e",
+    "results/C5_logged_system_ARM_20261021_r1/verified_PC.json": "8f8689287ace2907fc31e3b0f40187128b98bdace906b80246fe1d6f072ffac6",
+    "results/D9_partial_ARM_20261021_r2/verified_PC.json": "72d2bfada5d45e8aa923df54c6bcb56754435a67d9b27d9c1d65d5ef7247af9d",
+    "results/partial_file_transaction_Windows_20261022_r1/verified.json": "55f8c5d2b6d859bf7900d0d957219f898a30e387e6f1fbf18af19527e085ba2f",
+    "modules/segmentation/streaming_stage_r1/ARM_filesystem_r1/owned_outputs/verified.json": "11d9dc3dd9be53a9677abc486f3b3843ff284da0ac8900eb3b930b726429c029",
+    "modules/segmentation/streaming_functional_r2/entry.py": "41edd740937fd58fcee851f9f7ba31a0242a856e1e9658a76995f52290d1e2a4",
+    "modules/reconstruction/streaming_functional_r1/run_reconstruction.py": "a87a527d529cc8d7455a2eac8ad3e104c03891ef021c5b20fcfdeb790418a162",
+    "modules/reconstruction/streaming_functional_r2/run_partial.py": "4f37bdad15600e5f2bcf2c23e5d7bd4e9125fb97f72acc762c2f8f2a685b22d2"
+  },
+  "qualification_only_probe_sessions_removed": true,
+  "normal_C5_sessions": 1,
+  "all_original_worker_outputs_and_reference_preview_options_retained": true,
+  "fixed_own_CT_only_test_restriction_removed_not_inference_generalization_claim": true,
+  "new_general_stage_actual_ARM_and_full_GUI_dispatch_tests_pending": true,
+  "whole_goal_completed": false
+}

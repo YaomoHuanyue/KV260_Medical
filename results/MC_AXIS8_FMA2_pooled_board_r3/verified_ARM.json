@@ -1,0 +1,53 @@
+{
+  "status": "actual_combined_D7_FMA2_full_partial_and_restore_verified",
+  "platform": "ARM",
+  "actual_combined_board_correctness_passed": true,
+  "full_and_airway_only_original_voxel_entries_passed": true,
+  "actual_DFX_switch_log_reconciled": true,
+  "completed_static_MC_DMA_frames": 12,
+  "one_XRT_metadata_context_per_reconstruction": true,
+  "full_reconstruction_partial_switches": 2,
+  "original_5e5_mm_SciPy_tolerance_unchanged": true,
+  "all22_smoothing_DMA_guards_passed": true,
+  "cases": [
+    {
+      "name": "full",
+      "internal_reconstruction_seconds": 12.147508473950438,
+      "process_wall_seconds": 18.72328261192888,
+      "context_open_seconds": 0.09980098798405379,
+      "actual_process_peak_RSS_MiB": 425.2890625,
+      "partial_switches": 2
+    },
+    {
+      "name": "airway_only",
+      "internal_reconstruction_seconds": 1.4186355479760095,
+      "process_wall_seconds": 16.888868605019525,
+      "context_open_seconds": 0.09673226799350232,
+      "actual_process_peak_RSS_MiB": 562.01953125,
+      "partial_switches": 2
+    }
+  ],
+  "restored_UI_PID": 1230369,
+  "same_reviewed_case_scene_and_ELF_restored": true,
+  "MC_external_transport": "AXIS512",
+  "smoothing_external_transport": "AXI-MM",
+  "speed_gate_passed": false,
+  "formal_UI_integration_still_pending": true,
+  "whole_goal_completed": false,
+  "evidence_SHA256": {
+    "modules/reconstruction/axis_mc_8_r2/integrated_pooled_r3/verify_board.py": "3542f3bd24881e155ec626bc74de52941c29801df9e8bf4e9b10a2b45a40e641",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/benchmark.json": "199ade25eaa9a82c6c7daeeb27d2710039a8043633fb5fa12cf27d2118e2bbeb",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/benchmark.log": "1828101bcb29983e1e00fc234788c0a1f83c47f5d000371a324247a96421bc9d",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/benchmark_receipt.json": "5c0ec6e98d965db85378f39a1cf66baa70cb4543a5f6180a959af2aa95d5df99",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/complete.json": "2d4e161a09d645437a75bad42d13c59ea49179804f38c0a73734fa8e825a1866",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/runtime_identity_before.json": "cb349fcb4ef49de68e98aa90123a6ba598d5d658c5ea1393c9ab0a3f587f8785",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/runtime_identity_after.json": "82eab549df50343e1c8480f31201cf9ea73658c74571dc9dc1126784065b1713",
+    "results/MC_AXIS8_FMA2_pooled_board_r3/selected_case_timestamps_restored.json": "7a5339504c56d05190dec2106ba2b1ea75d0b81c456639079de5d7a770b479d4",
+    "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/release_r1/manifest.json": "fbec7c3607d5ef30492fe192c6b7144b3c6cd2c20ee738353046bd353132d9a8",
+    "ui/releases/pl_reconstruction_r1/results/manual_20261017_060812/started.json": "41750d0f216700e9fdabe36bd2926d47e18335ef45ed6245c0e3da8fb5742479",
+    "ui/releases/pl_reconstruction_r1/results/manual_20261017_060812/owned_child.json": "f2b8adaaabc1853986161d48d3aab3e317f2bc878b61809fa10b3db944c5d2af",
+    "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_1230118.csv": "73b6a95e0074935981839a1dd1cd1e4bb5574fdf8e577c3863f01461ee414763",
+    "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_1230138.csv": "229419aedb18a6ba7e48e1c9654844d733016f19fcbbb72eedfbba285423292f",
+    "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_1230260.csv": "6ca3b81df28716e4cc0b11bc0a0cbd619926a0b06e80a57f4c92c1015ed3e424"
+  }
+}

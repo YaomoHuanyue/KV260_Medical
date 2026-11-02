@@ -1,0 +1,18 @@
+{
+  "base_sha256": "15e9160225bb2541e94f5e2e59c7d90e311a20bc2113e3c68b3e6c936dbac357",
+  "reader_sha256": "bb56ad96508225f74bdec97c57ab1c4f73fc2b0306dcb8f39e703902a6b3f78a",
+  "functions_extracted": [
+    "validate_geometry",
+    "verify_bundle"
+  ],
+  "exact_replacement": {
+    "old": "if not np.array_equal(camera[key], wanted):",
+    "new": "if not (np.array_equal(camera[key], wanted) if key == 'position_lps_mm' else np.allclose(camera[key], wanted, rtol=0, atol=1e-12)):"
+  },
+  "observed_maximum_ARM_Windows_up_difference": 2.220446049250313e-16,
+  "position_comparison": "array_equal",
+  "direction_absolute_tolerance": 1e-12,
+  "wall_crop_mask_or_scalar_rules_changed": false,
+  "scene_payload_bytes_changed": false,
+  "old_exact_comparison_rejected_ARM_up_roundoff": true
+}

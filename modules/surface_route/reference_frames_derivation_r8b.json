@@ -1,0 +1,10 @@
+{
+  "original_sha256": "5b4615563b71ebc93efc919676a73808f04540d9a3381e81dfa6ea1eb31d7f47",
+  "corrected_sha256": "403b1576811395e30498b78fb832e792ebe9b3ebe1297daf9bf8a2629168f0ca",
+  "failure": "SyntaxError unmatched closing parenthesis before process initialization; no output directory or PL access",
+  "replacement": {
+    "old": "performance_scope='Warm integer render calls, not UI FPS or PS/PL acceleration; dense unpack separately reported')))",
+    "new": "performance_scope='Warm integer render calls, not UI FPS or PS/PL acceleration; dense unpack separately reported'))"
+  },
+  "arithmetic_geometry_or_reference_algorithm_changed": false
+}

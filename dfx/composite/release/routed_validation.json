@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "timing": {
+    "wns_ns": 1.604,
+    "whs_ns": 0.01,
+    "wpws_ns": 3.5,
+    "clock_hz": 100000000
+  },
+  "resources": {
+    "system_top": {
+      "lut": 21155,
+      "ff": 30993,
+      "dsp": 96,
+      "bram36_equivalent": 24.0,
+      "uram": 0
+    },
+    "rp": {
+      "lut": 7315,
+      "ff": 5111,
+      "dsp": 96,
+      "bram36_equivalent": 24.0,
+      "uram": 0
+    }
+  },
+  "compatibility": {
+    "pr_verify": "passed",
+    "drc": "no_errors_or_critical_warnings"
+  },
+  "board_pl_test": "not_yet_run"
+}

@@ -1,0 +1,23 @@
+{
+  "source_and_evidence_SHA256": {
+    "tools/start_tensor_R3_C5_SYN_20261022_r1.py": "e8b981307597662b62d3e37de0d38767d380ce325335295d3c85cbbc3167d24e",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/generate_wrapper.py": "153739aa6d94b1a824ed1b91b6bf5b2cfcc87701389b8f760d2fa15364d42e3f",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/run.py": "4a822b4491cc808fb15dec5822e06aec1e4753924b8ed4fd3587792f165c44bf",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/synthesize.tcl": "6e901a35f5bc71758f516bf66a7ca602740c335b1cd88942ab3d8522dc4e2801",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/build_ct_rm.tcl": "70ada4015fff216d72696d1b8d3a64dcb453b75d44d184b613f11b27549d0ff6",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/expected_IPs.json": "9a8c546a3ad555587216cee56fc7dc46890eda038636d3a32465c6fa01f2b6df",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/source_derivation.json": "5c2007add2cb88d43e8ce2e23a30960d4efcc33ac204df806f51a10b7d3e9f60",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/inputs/ct_conv.zip": "ec48a8513232be7d0441bdf3f2c771d0a17a14c42212c8f82c1477d4de65febd",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/inputs/ct_tensor_reader.zip": "fec3a81f2651c4030ae3e59c2bf0d006bf77c32c70023f46fadd3ace873a7905",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/inputs/ct_writer_pool.zip": "90ce2af0d7cd07d1a4f58bd2deb1110eddd486e170ac7685d560e98b79e77e72",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/inputs/rp_ports.json": "efc387572cab0bff968e5f8c02a235e32d792a1dca015abe45e6ee583e64c9c8",
+    "results/tensor_reader_R3_IP_R2_20261022_r1/axis_hls/verified_PC.json": "673a4a90f0625e721b7012054c29baab1d983d2faa964a66a83fbfc754ccff5b",
+    "results/tensor_reader_R3_RTL_20261022_r1/axis_rtl/verified_PC.json": "8c4519520e186d8430845e1354f1ca1f0b5e91b133329474f827a5d33f5caa18",
+    "results/CT_pool_C5_writer_IP_20261021_r7/axis_hls/verified_Windows.json": "ebcdf8ae7fb11f7e1dd8c5f118abcf6b821123ada900b389a7ebf64c4270d997",
+    "results/CT_pool_C5_IP_20261021_r3/axis_hls/verified_Windows.json": "51443e13bbe9706342318bae14536a9ea55f33bf629d3423c0f2d314c99453e2",
+    "dfx/navigation_profile/rtl_r74/job_limit_r74.py": "8e0d9c8d80b3bdda6ab54ba4265979a105931bf5f9f4ff29c9c42aa35dfe44a1"
+  },
+  "actual_R3_RTL_IP_and_R7_writer_frozen_conv_gate_preserved": true,
+  "only_whole_C5_synthesis_not_routed_PR_or_board": true,
+  "whole_goal_completed": false
+}

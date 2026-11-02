@@ -1,0 +1,42 @@
+{
+  "bit_sha256": "4510043f1916b20cbd86e8e84ee7c2e78ed588135d0e9087002c777bd093c5d1",
+  "hwh_sha256": "4a96eeeff8219ae6baf07d78edaf8c5b9b93196cd3d791d5459bfcad2a11e172",
+  "xclbin_sha256": "6c3630756bc8cc555615afd7915630b747f1950fb45b0b73d8a7e8eeb5bbe06c",
+  "clock_hz": 100000000,
+  "conv_macs_per_cycle": 768,
+  "spatial_pixels": 3,
+  "pointwise_macs_per_cycle": 256,
+  "pl_requantization": true,
+  "pointwise_streaming": true,
+  "spatial_streaming": true,
+  "pl_activation_lut": true,
+  "line_buffer_memory": "2 BRAM line buffers",
+  "ips": [
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80000000",
+      "m_name": "ct_reader:ct_reader_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80010000",
+      "m_name": "ct_conv:ct_conv_0"
+    },
+    {
+      "m_type": "IP_KERNEL",
+      "m_ip_control": "AP_CTRL_NONE",
+      "m_int_enable": "0",
+      "m_interrupt_id": "0",
+      "m_base_address": "0x80020000",
+      "m_name": "ct_writer:ct_writer_0"
+    }
+  ],
+  "input_axis_bits": 256,
+  "reader_ddr_bits": 256
+}

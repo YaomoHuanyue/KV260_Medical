@@ -1,0 +1,47 @@
+{
+  "schema": "kv260.mc_AXIS.ABI.v1",
+  "candidate_identity": 215,
+  "static_RP_declarations": 67,
+  "static_RP_bits": 1830,
+  "input": {
+    "transport": "AXI4-Stream",
+    "data_bits": 512,
+    "logical_elements": "64 uint8 binary voxels per beat; contiguous Z,Y,X",
+    "keep_and_strb": "all 64 byte lanes asserted, including final physical word",
+    "user": "1 on first beat only",
+    "last": "1 on final declared physical beat only",
+    "logical_tail": "ignored; never treated as tissue",
+    "maximum_physical_words": 2097152
+  },
+  "output": {
+    "transport": "AXI4-Stream",
+    "data_bits": 512,
+    "vertices": "8 packed uint64 Q1 XYZ words per beat; original binary Lewiner cell and triangle order",
+    "coordinate_bits": "X*2[15:0], Y*2[31:16], Z*2[47:32], upper16=0",
+    "keep_and_strb": "all ones",
+    "user": "1 on first output beat only, including footer-only frames",
+    "last": "1 on footer only",
+    "logical_tail": "zero padded",
+    "count_pass_words": 1,
+    "produce_pass_words": "ceil(3*min(capacity,expected)/8)+1",
+    "invalid_scalar_words": 1,
+    "footer_uint32_fields": [
+      "magic_MCA1", "version_1", "status", "triangles_required", "triangles_written",
+      "nx", "ny", "nz", "input_words_consumed", "output_words", "capacity",
+      "count_only", "expected_triangles", "vertex_words_written", "reserved_zero", "reserved_zero"
+    ]
+  },
+  "AXI_Lite_offsets": {
+    "nx": 16, "ny": 24, "nz": 32, "capacity": 40,
+    "count_only": 48, "expected_triangles": 56, "input_words": 64
+  },
+  "AXI_MM": "unused; wrapper ties memory master outputs inactive",
+  "normal_host_policy": "Validate dimensions and allocation budget before DMA. Count first, allocate exact output, then produce. Reject every nonzero status. Reuse the same input BO between passes.",
+  "abnormal_frame_policy": "Consume configured input word budget, preserve fixed output length, report framing/count errors. Count/produce disagreement pads missing words and never exposes the failed output as a mesh.",
+  "invalid_scalar_policy": "Drain min(input_words,2097152) then emit one footer. These diagnostic configurations are refused by the production host plan before DMA.",
+  "internal_pipeline": ["AXIS mask unpack", "packed parity rolling planes", "cell FIFO", "binary Lewiner triangulation", "vertex FIFO", "AXIS packing and footer"],
+  "full_volume_on_chip": false,
+  "debug_top_ports_added": false,
+  "PL_board_tested": false,
+  "formal_UI_entry_replaced": false
+}

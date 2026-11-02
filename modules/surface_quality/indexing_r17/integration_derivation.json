@@ -1,0 +1,111 @@
+{
+  "edits": [
+    {
+      "parent": "modules/surface_route/quality_action_r16.py",
+      "parent_sha256": "1f8979e279f6d5d74f818d502844f721bff7f0595d0aa99feeff36ab69e01812",
+      "child": "modules/surface_route/quality_action_r17.py",
+      "child_sha256": "b52f8a79732eb9ae56695c85f06764c67830abc4cae2001d7cf67eb5cd307966",
+      "replacements": [
+        {
+          "old": "from modules.surface_quality.scalar_mesh_r7 import from_pl_words",
+          "new": "from modules.surface_quality.scalar_mesh_r17 import from_pl_words",
+          "count": 1
+        },
+        {
+          "old": "    points,faces,mesh_proof=from_pl_words(",
+          "new": "    mesh_start=perf_counter()\n    points,faces,mesh_proof=from_pl_words(",
+          "count": 1
+        },
+        {
+          "old": "    del words,binary",
+          "new": "    mesh_seconds=perf_counter()-mesh_start\n    del words,binary",
+          "count": 1
+        },
+        {
+          "old": "        route_guidance_seconds=route_seconds,total_before_UI_seconds=perf_counter()-begin,",
+          "new": "        mesh_preparation_seconds=mesh_seconds,mesh_indexing_backend='PS_native_exact_R17_two_pass',\n        mesh_indexing_source_sha256={n:sha(ROOT/n) for n in (\n            'modules/surface_quality/scalar_mesh_r17.py','modules/surface_quality/scalar_mesh_indexing_r17.py',\n            'modules/surface_quality/indexing_r17/native.py','modules/surface_quality/indexing_r17/split_links.cpp',\n            'modules/surface_quality/indexing_r17/build_ARM/build.json','modules/surface_quality/indexing_r17/build_ARM/libindexing.so')},\n        route_guidance_seconds=route_seconds,total_before_UI_seconds=perf_counter()-begin,",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/active_backend_r16.py",
+      "parent_sha256": "1b710632d34a243f4bba745c6c9ffa259c04176abca96a32d976eb4c99f7be01",
+      "child": "modules/surface_route/active_backend_r17.py",
+      "child_sha256": "468fed34fe1a4566df77e61947c0c4814ce727ec73cae905178b063eea51940c",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.quality_action_r16 import produce",
+          "new": "from modules.surface_route.quality_action_r17 import produce",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r16.cpp",
+      "parent_sha256": "6fd7b25a4fa2b4e39c61933d76dae7090b9c267d5bfc65e8d69e9b693295b761",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r17.cpp",
+      "child_sha256": "4ea50b1d16121c11e6d4c02622f9502f337012030e53059aec3db44cfcd8d290",
+      "replacements": [
+        {
+          "old": "active_backend_r16.py",
+          "new": "active_backend_r17.py",
+          "count": 1
+        },
+        {
+          "old": "active_surface_UI_r16.inc",
+          "new": "active_surface_UI_r17.inc",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/active_surface_UI_r16.inc",
+      "parent_sha256": "c0cb833be61aeab84ec89197940d895bfa2e5fc954524296e05e5164cc5ee46b",
+      "child": "ui/releases/feature_completion_r6/src/active_surface_UI_r17.inc",
+      "child_sha256": "b02315508d8e2fd38a5d345c631811618f4309c35cc2fdabb704d7b97320029f",
+      "replacements": [
+        {
+          "old": "active_backend_r16.py",
+          "new": "active_backend_r17.py",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r16.py",
+      "parent_sha256": "b86789297f88a54b463e8bcaf0f516878827271db3f899de690dc0b0604729ac",
+      "child": "modules/surface_route/board_native_build_r17.py",
+      "child_sha256": "0ed50fa3cdc976f5dfb3b0562c24116a6c966a636632a36c8a055eb8c3cdbb9b",
+      "replacements": [
+        {
+          "old": "build_complete_scene_r16",
+          "new": "build_complete_scene_r17",
+          "count": 1
+        },
+        {
+          "old": "build_complete_scene_r15",
+          "new": "build_complete_scene_r16",
+          "count": 1
+        },
+        {
+          "old": "native_UI_source_closure_r16.json",
+          "new": "native_UI_source_closure_r17.json",
+          "count": 1
+        },
+        {
+          "old": "main_complete_scene_r16",
+          "new": "main_complete_scene_r17",
+          "count": 3
+        },
+        {
+          "old": "R16 native adapter",
+          "new": "R17 native adapter",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_closure_sha256": "af8227d9e81d2122823c46e4b23ac561b5b9dc8149bf3ecef767f989fe885292",
+  "new_bitstream": false
+}

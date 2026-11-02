@@ -1,0 +1,15 @@
+{
+  "all_owned_member_bytes_and_closed_logs_stream_SHA_verified_locally": true,
+  "all_processes_terminal_before_cleanup": true,
+  "exact_remote_root": "/D:/k26-r2450-e9ef3b4b9e424dd7",
+  "necessary_current_candidate_and_original_full_inventory_retained": true,
+  "no_other_server_files_modified": true,
+  "owned_root_confirmed_absent": true,
+  "owner": {
+    "job": "axis_rtl",
+    "name": "k26-r2450-e9ef3b4b9e424dd7",
+    "remote_root": "/D:/k26-r2450-e9ef3b4b9e424dd7",
+    "windows_root": "D:\\k26-r2450-e9ef3b4b9e424dd7"
+  },
+  "whole_goal_completed": false
+}

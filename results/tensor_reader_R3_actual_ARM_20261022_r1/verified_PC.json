@@ -1,0 +1,62 @@
+{
+  "UTC": "2026-10-21T23:48:18.934086+00:00",
+  "all139_actual_ARM_PL_2502_inputs139_full_float32_logits417_pools_exact": true,
+  "no_PS_convolution_or_pool_fallback": true,
+  "one_actual_C5_DFX_session": [
+    {
+      "switch": "1",
+      "rm": "ct",
+      "partial_ms": "148.119",
+      "switch_ms": "155.728",
+      "static_transactions": "8937",
+      "sentinel_address": "1186988032"
+    }
+  ],
+  "actual_R3_partial_SHA256": "5a61448e37b88f023806709b930870f9e9de6eb02ba19415f27ad7b1b9534171",
+  "formal_firmware_map_logs_and_GUI_restored": {
+    "original_firmware_pair_and_dependency_map_exact": true,
+    "original_global_logs_unchanged": true,
+    "only_proven_owned_new_logs_collected": {
+      "dfx/medical/results/switches_extended_316892963682545_0_349941.csv": "8f07b8ff7f709de98c0cce230434bd8db78228d173e2c19ea6e03e7569f00e8c",
+      "dfx/edt_volume/results/switches_350370.csv": "60d38a21bd69b7108ad2a7c2af88ebff06c5d5716f884dce3de7a117a3a33edc",
+      "dfx/edt_volume/results/switches_349932.csv": "df9619c03f25ed7661213b6d82604e28ea578a84f40af3184b203366a6a0bce2"
+    },
+    "firmware_transaction": {
+      "pending": true,
+      "restored_targets": 2,
+      "original_owner_terminal": false,
+      "all_original_bytes_exact": true
+    },
+    "formal": {
+      "PID": 170720,
+      "ticks": 14337682,
+      "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+      "ELF": "7fcf0cc07e4969a26467aa2a15de4bef5a8102a494c0ce5b29ba2d113c7aa733",
+      "identity_SHA256": "f46ed12856016df6f73635c236c1ea3bd4066aa0feddde737191dee79752ce8f"
+    },
+    "accepted_C8_return_to_C6": true,
+    "no_driver_unload_static_reload_reset_or_forced_PL_release": true
+  },
+  "actual_driver_hardware_seconds": 130.65396034900013,
+  "actual_correctness_run_seconds": 350.35853882099036,
+  "actual_correctness_RSS_peak_bytes": 503271424,
+  "validation_hash_seconds": 198.75483037962113,
+  "correctness_timing_is_NOT_fair_PS_PL_performance": true,
+  "original_full139_oracle_SHA256": "1bb0bb3c9288f9a2cc8172dfabf3e3c0bc85bdb279818b8c432ad5a273071913",
+  "archive_SHA256": "74357ae0a5877010d84c045afb2a8c33f2be71946ad9f044c5841f09bcbc81f1",
+  "every_owned_file_SHA_reopened": 24,
+  "actual834_PL_reader_transform_calls_verified": true,
+  "reader_input_request_hash_uses_correctness_only_PS_oracle": true,
+  "production_backend_has_no_PS_transform_fallback": true,
+  "full_system_integration_and_phase2_performance_pending": true,
+  "actual_PL_accessed": true,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "every_owned_byte_collected_and_exact_root_removed": true,
+  "sources_SHA256": {
+    "tools/collect_tensor_R3_board_20261022_r1.py": "4b46871805edd375190478f5d9504349f897edcc09255befc7e60283dfadcabe",
+    "modules/segmentation/axis_tensor_reader_r3/board_r1/worker.py": "7f63bc5f9411b04ca32c81a5a1abcaabe658ffa572f66930aeb3770f670ebf6b",
+    "modules/segmentation/axis_tensor_reader_r3/board_r1/run_full139.py": "00d0cfaf2bb93eb314a8a78bd0a4a547bd58151d9924364fef022c3a25f1e064",
+    "tools/test_tensor_R3_board_20261022_r1.py": "34f9e2b5bade8604ebc77a63bddd3a1f861e0c127273d8505a841caf0ec30092"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "architecture": "aarch64",
+  "recorded_at": "2026-10-04T10:45:42.335232",
+  "library_sha256": "2b3ab39f3f21b6b734ccce8a2e3a3d8069e69b4a9be64dd1873e45fd23e3cc90",
+  "source_sha256": {
+    "compile_host.sh": "5a173ed45ddb8af0d384c52f4cfaf3ee4be4d9fe0804626dd7dd5d65c4615049",
+    "host/navigation_bridge.cpp": "df263c4f7d7c0412c13888af6b48543b0f6d4036d1aecf5f414ed40aabe0b728",
+    "host/runtime.hpp": "6068c6b0eced36fea8d8c8b36807e743d0457bd5aab335757caa21bf1deeb1c0",
+    "host/shared_session.hpp": "445500c3177d8b4b39bcfe44bd6c337a5cef5824ddd6fa472c9de174d1c747a3",
+    "host/route_output.hpp": "43c5e7cc0377d2904ee7cd1562a366b74f9962ef2718cbe44bda1b9ae7278045",
+    "host/route_readback.hpp": "b7dc6975851baca29be72d068e6b2e242e9372f52ea111713b94ecf82c1ba967",
+    "host/test_route_readback.cpp": "15c21ecfba188601c51b9ae4bec9657bde9d561338f16701c1ee5898993ef39d"
+  },
+  "readback_test": {
+    "status": "passed",
+    "protected_page_cases": 5,
+    "evidence_sha256": {
+      "build/host_readback_validation.log": "5f370f6f38c064e66fc6729a1d5b5c2e7527e0ac4464ff0b372ec9ed981880b6",
+      "build/test_route_readback": "237a4c6176b78063863cf510cefbe0ba7ceac0f7ba8b8af70c011328b4dd1a5c"
+    },
+    "actual_PL_partial_sync_and_speed": "not_tested"
+  }
+}

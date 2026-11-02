@@ -1,0 +1,17 @@
+{
+  "exact_runtime_template_edit": [
+    "__QUALIFIED_INPUTS_SHA256__",
+    "f4bcfd28dd508626f945f92e91be82ad5ebf1ed78fd7ea2eeef409d426028835"
+  ],
+  "original_host_and_transfer_code_not_modified": true,
+  "original_legacy_release_and_current_quality_manifest_not_modified": true,
+  "source_SHA256": {
+    "tools/prepare_navigation_current_R1_release_20261022_r1.py": "5bee39c3e8dde4d25e0d42f09de93e5fd3d4d0931d4c7c641160f968428aacbc",
+    "modules/navigation_comparison/current_release_r1/runtime.py": "b70f3ffcbaeb474a08da0719ffb69b795c56767a12ef7b681fe1db71d4862927",
+    "modules/navigation_comparison/current_release_r1/runtime_template.py": "7b2fc27b163b6e0f798d39115fb15ea5e4deab9e0d18da6e049a7dce86bc36ba",
+    "modules/navigation_comparison/current_release_r1/runtime_inputs.json": "f4bcfd28dd508626f945f92e91be82ad5ebf1ed78fd7ea2eeef409d426028835"
+  },
+  "actual_board_tests_required_before_default_promotion": true,
+  "PL_accessed": false,
+  "whole_goal_completed": false
+}

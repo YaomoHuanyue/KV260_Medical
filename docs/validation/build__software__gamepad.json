@@ -1,0 +1,8 @@
+{
+    "PL_access": false,
+    "checks": 181,
+    "kernel_HID_mapping_tested": false,
+    "passed": true,
+    "physical_gamepad_tested": false,
+    "test_kind": "native nonblocking pipe events and offscreen production MeshView"
+}

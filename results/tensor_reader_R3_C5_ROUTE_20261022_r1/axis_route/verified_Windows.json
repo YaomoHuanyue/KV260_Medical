@@ -1,0 +1,92 @@
+{
+  "clock_MHz": 100,
+  "WNS_ns": 0.166,
+  "WHS_ns": 0.01,
+  "whole_resources": {
+    "LUT": 90387,
+    "FF": 125807,
+    "DSP": 903,
+    "BRAM36": 100,
+    "BRAM18": 14,
+    "URAM": 0
+  },
+  "RP_resources": {
+    "LUT": 76547,
+    "FF": 99925,
+    "DSP": 903,
+    "BRAM36": 100,
+    "BRAM18": 14,
+    "URAM": 0
+  },
+  "remaining_RP": {
+    "LUT": 11773,
+    "FF": 76715,
+    "DSP": 57,
+    "BRAM36_equivalent": 25.0,
+    "URAM": 64
+  },
+  "five_reference_full_PR": [
+    {
+      "reference": "mc",
+      "full_check_passed": true
+    },
+    {
+      "reference": "smooth",
+      "full_check_passed": true
+    },
+    {
+      "reference": "edt",
+      "full_check_passed": true
+    },
+    {
+      "reference": "route",
+      "full_check_passed": true
+    },
+    {
+      "reference": "ct",
+      "full_check_passed": true
+    }
+  ],
+  "schema": "kv260.ct_pool.C5.physical.v1",
+  "same_frozen_RP": true,
+  "routed_100MHz": true,
+  "all5_original_static_pr_verify_passed": true,
+  "status": "independent_actual_C5_100MHz_setup_hold_DRC_all5PR_and_partial_firmware_verified_not_board",
+  "candidate_DCP_SHA256": "d5f996619d95a8e38d7b510b909b526a665898d63e26e3d75ef45c64fa7b587a",
+  "frozen_static_DCP_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "artifact_SHA256": {
+    "config_ct_tensor_r3.dcp": "21206919cbb6fd9943c207a5814252e3ff3d224af51b91ea41b8a668fa87a34a",
+    "config_ct_tensor_r3.bit": "2a553535b49099fd55414b1c19f653aadba440724b12eb65785a7072b1dc344e",
+    "config_ct_tensor_r3.bin": "58511fd0c0f3c411e69e53ba0ec09d39656c1d941d1bb1e792e9659c3187de81",
+    "config_ct_tensor_r3_pblock_rp_partial.bit": "1d176c82c09f6e95205b26f4edb8155ccadfd08dfc7f6aab153bb66e4464cec5",
+    "config_ct_tensor_r3_pblock_rp_partial.bin": "5a61448e37b88f023806709b930870f9e9de6eb02ba19415f27ad7b1b9534171",
+    "timing_ct_tensor_r3.rpt": "3317bc9b7cdb4272d61e7c60b5173c7675e55504db622984c1582849dc00d2fc",
+    "drc_ct_tensor_r3.rpt": "005b77a12a9f8b6bd0f1f49816d448a0154d0e064f805dfbf200c92f05051cbd",
+    "utilization_ct_tensor_r3.rpt": "681d2124f5afbedffce7e1cf2eeaa3670ae93742eaf6d369462c6ea0ab66b615",
+    "capacity_ct_tensor_r3.rpt": "f19ce3ad4dccaacc8550b2affe3d155042ecb8042c392acf79d9eee5a07daea2",
+    "pr_verify_ct_tensor_r3_mc.log": "744e8f2fc248d535e3036509a5685451ecaa485ba6e6a52f5eab93ed9dfbd855",
+    "pr_verify_ct_tensor_r3_smooth.log": "b2a4e0aa3ad4eea3e8534fd24aa4646eab7daa13682f385ca9c3e75cbd164976",
+    "pr_verify_ct_tensor_r3_edt.log": "8bd47120e1e23df183a98d7d2ab866960f5659ab7b0904531c7316d7f95b1098",
+    "pr_verify_ct_tensor_r3_route.log": "85b6f7395feeb211ee160e4efb6cdabf2a9f4f445dfc22cabcefb291491921e7",
+    "pr_verify_ct_tensor_r3_ct.log": "02dc4194dfe2efda7f989e2573c65cb5571583da565672cf9da1eb415304b9f9",
+    "OFFLINE_COMPLETE_ct_tensor_r3.txt": "b512393b701300850d027d6f41cac6bf31722a7479ce115255e9a00c8343ff1d"
+  },
+  "partial_SHA256": "5a61448e37b88f023806709b930870f9e9de6eb02ba19415f27ad7b1b9534171",
+  "actual_route_seconds": 3291.0072188000195,
+  "actual_route_peak_job_bytes": 13388619776,
+  "archive_SHA256": "aaecffeecc75ccafee6e17e8853802e5aa2f98a4347cf3d12492139ed364b68d",
+  "all_owned_bytes_and_closed_logs_collected_exact_root_absent": true,
+  "full986_RTL_all8_resets_full139_model_and_ARM_host_prerequisites_preserved": true,
+  "actual_ARM_XRT_DMA_board_full139_strongest_PS1_PS4_and_integration_still_required": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/verify_collected.py": "c2d50ecc7aa5b61bc841f80c4446eeed5beae65eb8af9d13326bb9cc5b454b1d",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/check_reports.py": "2554cfd1380fbf5a2cb3608651eb392bc204b5f17ac18a39dc025bbbb3ab9334",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/preflight.py": "08ad7424617ccd95e8ea5d743961aaab8c9a5998076d3b30bbc0ad7eebf6385a",
+    "results/tensor_reader_R3_C5_ROUTE_20261022_r1/axis_route/stream_collection_verified.json": "db358a70ad69f3d53629c8dc15c4b473e474f5b3d6fbd63f38d4fa6bae462a45",
+    "results/tensor_reader_R3_C5_ROUTE_20261022_r1/axis_route/cleanup_verified_stream.json": "21548ea08c59c60b109faa57e146ea4581ac6c66caf90ac745ba403a4c29627d",
+    "results/CT_pool_full493_RTL_20261021_r7/axis_rtl/verified_Windows.json": "06e1a7a8a55c34ea30dffdbf47b2d9b8a247843d9d070db236f778a47b7c97a2"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

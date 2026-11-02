@@ -1,0 +1,19 @@
+{
+  "schema": "kv260.surface_route.source_derivation.v1",
+  "parents": {
+    "bundle_reader_r8b.py": "bb56ad96508225f74bdec97c57ab1c4f73fc2b0306dcb8f39e703902a6b3f78a",
+    "scene_runtime_r8.py": "f16cfa883b11716f57e331b045f8f85b664a3d1f34b3df57fc7f63f92b5beadb",
+    "quality_worker_r8.py": "d043fa831929301661678b691623815538cefa33f9c4d81ad628d606efab6a2e"
+  },
+  "outputs": {
+    "bundle_reader_r9.py": "e9cb84e5ebc117f70469ee2fc9fc1184604752c54e1bc2401628dd28c9f91f68",
+    "scene_runtime_r9.py": "4ef2eaab02b07d833f2ca5a27777f9acf70cc1019d7a7f18ac1dda47290a40e8",
+    "quality_worker_r9.py": "d773d33b572b1935dfa94b1bac9ad3fc64709e9248b0ef8e7a8323a593f04311"
+  },
+  "PL_access": false,
+  "changes": [
+    "portable axis shape and finite checks",
+    "float32 endpoint progress rounding bounded to 0.1 micrometre",
+    "completed actual-pose and paired-normal Qt protocol"
+  ]
+}

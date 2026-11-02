@@ -1,0 +1,9 @@
+{
+  "name": "mc",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": ["design.cfg"],
+    "work_dir": "."
+  }
+}

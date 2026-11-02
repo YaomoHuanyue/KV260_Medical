@@ -1,0 +1,28 @@
+{
+  "status": "passed_full_original_CT_geometry_camera_audit_in_actual_HLS_C_types",
+  "PL_access": false,
+  "cases": [
+    "own_query",
+    "own_query_audit"
+  ],
+  "points": 1161,
+  "actual_ap_uint_dense_indices_exercised": true,
+  "source_and_evidence_sha256": {
+    "hls/route.cpp": "4b6e30152b973dd8e7344068a718a5cd94cb144ef67594c38bc623b9b5a3f142",
+    "hls/route.hpp": "94ab1fb3935ffff1135d98cf1fe6bbc73dd1f2b6990bcd9621d3337dd78f4fd2",
+    "hls/types.hpp": "4d6e9e64b4416e4db8785eee6c0c51b9d32f72fdd6fa47bff2d9f763b6efc1d3",
+    "hls/audit.hpp": "ddf92a1701a0246f92c3b56bdfee7c03b9101b1006070afc02d3cfc521b65c52",
+    "hls/cordic_constants.hpp": "52d01a4a621e037d087654b4782663dc4371aa1c4ecbbf0a3dfd1113a71e8a79",
+    "hls/reciprocal_constants.hpp": "4fbebeb5da76dea62d385279ce7a3f4d2a5c4023e7f87fdba87ac621a91b1389",
+    "hls/testbench_own_ct.cpp": "74c7789e973c872d127b1e52f4da0e2fcfae56458372ac6434b1d64329493f6a",
+    "build/own_ct_hls_csim_r14.cfg": "8edf5c1a3e8ab2d5f934827fbec20e98170d55f8c8ab913b0fbb35007752f4f2",
+    "build/own_ct_hls_csim_r14.log": "f23ef56d87c43106763a6b09a25aceb426fc3efd6a79675a09c149c6c1f89d06",
+    "record_own_ct_hls_csim.py": "56e971b46671c8b8a77da6a52a4d1868458dc11d5021a65b6b9a6c67d4cf34fa",
+    "fixtures/own_scene.bin": "8310f5f4aa2fbf03ecdd18da44e69f11950711f1947f88eb56a41f2ecdb7e7c7",
+    "fixtures/own_query.input.bin": "a31531b6f51b7341ee4185706ab06e05a89cea9c8d56e4538a62eba045ec1943",
+    "fixtures/own_query.expected.bin": "248cd9f4a3992979e456ae52677df207310d4b389f80ab69340045b97c68a3e4",
+    "fixtures/own_query_audit.input.bin": "828c34165adff8a451ad94b1eb81b9f4778498f1f8cd16edc9eb318f53c6151d",
+    "fixtures/own_query_audit.expected.bin": "6246dd311d5cbda1a6e30863fb0df55f5344ee4c64d8bb4edaf8a174ec4f314f"
+  },
+  "limit": "Independent HLS C simulation; not an RTL timing result or physical-board test"
+}

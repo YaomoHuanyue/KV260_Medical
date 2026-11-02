@@ -1,0 +1,18 @@
+{
+  "status": "actual_scene_adapter_failure_confirmed_candidate_missing_from_results_catalogue",
+  "actual_runtime_trial_completed_but_independent_scene_acceptance_failed": true,
+  "expected_failure": "assert any(v[\"path\"] == scene[\"result\"] for v in scene[\"results\"])",
+  "numerical_or_PL_algorithm_mismatch_not_observed": true,
+  "no_runtime_terminal_or_failed_assertion_reclassified_as_passed": true,
+  "supplementary_owned_index": {
+    "path": "modules/view_assets_r1/nav_reuse_r1/cache_index/bd13f65f0e4853cdd0adcecc13f721be47abf63deaa9607f76aaf6083fce29b1.json",
+    "SHA256": "b803f65e69368feadb891ee70c7ed09067694489509113e801ff41c421f03c1b",
+    "bytes": 3742
+  },
+  "source_and_evidence_SHA256": {
+    "tools/verify_streaming_scene_ARM_20261022_r1.py": "0b76aee2221a2e1c4b7d4a97536a22007e72e48f4da2771f561ea819883ad535",
+    "results/streaming_scene_ARM_20261022_r1/current_candidate.zip": "d88a9ec7e0a5ac31680712a33fd7a750d019a458296b2608a4cabd7d520f9e11",
+    "results/streaming_scene_ARM_20261022_r1/owned_index_before_r2.json": "b803f65e69368feadb891ee70c7ed09067694489509113e801ff41c421f03c1b"
+  },
+  "whole_goal_completed": false
+}

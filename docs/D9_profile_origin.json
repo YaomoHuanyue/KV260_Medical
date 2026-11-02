@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "b6e9634b95f277ca1127ec738c5648fe993913d2bb024bb0a8231fa21109a86b",
+  "selected_members": {
+    "control_bank_r329.sv": {
+      "member": "workspace/dfx/smooth_speed/axi_profile_r312/control_bank_r329.sv",
+      "SHA256": "24df6baec0378729cf7e5e29f6a315cbe7dbd8086bdf9640fd4b9320a2d024dc",
+      "bytes": 5658
+    },
+    "axi_profile_timescale_r316.sv": {
+      "member": "workspace/results/server2_private_jobs_r2401/smooth_area/download/workspace/dfx/smooth_speed/axi_profile_r312/axi_profile_timescale_r316.sv",
+      "SHA256": "ff1cac609c3905195cefa06d2043345d486257b1e6689608d1058c5b7967a8a6",
+      "bytes": 3722
+    },
+    "optional_synth_r333/optional_profile_r332.sv": {
+      "member": "workspace/results/server2_private_jobs_r2401/smooth_area/download/workspace/dfx/smooth_speed/axi_profile_r312/optional_synth_r333/optional_profile_r332.sv",
+      "SHA256": "17c311296c1c956fc0b7b4b70e7a0adb2ea97c382dad059bf13e99a1b438498a",
+      "bytes": 3463
+    }
+  },
+  "complete_workspace_unpacked": false
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "kv260.positive_labels.backend_qualification.r1",
+  "backend_verified": true,
+  "actual_Windows_and_ARM": true,
+  "source_SHA256": "20ecb399ac6844337c78394161873a44683e198a77cbf73cc1570fcf5c2a9453",
+  "tests_each": 20,
+  "groups": {
+    "FullCompatibility": 6,
+    "PartialCompatibility": 7,
+    "PositiveLabels": 7
+  },
+  "same_frozen_original_read_mask_reference": true,
+  "parent_binary_and_probability_regressions_retained": true,
+  "current_default_importer_unchanged": true,
+  "formal_UI_and_firmware_unchanged": true,
+  "all_two_owned_board_task_roots_absent": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "GUI_integrated": false,
+  "PL_reconstruction_retested": false,
+  "previous_failure_retained": "results/positive_labels_r27/ARM/collected/test_process.log",
+  "latest_ARM": "results/positive_labels_r27/ARM_r2/collected/result/verified.json",
+  "latest_Windows": "results/positive_labels_r27/Windows_r2/verified.json",
+  "pending": [
+    "Explicit positive-mask selector backend/GUI dispatch integration",
+    "End-to-end canonical labels through existing PL reconstruction",
+    "Affected input human acceptance only after integration"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "status": "eight_complete_native_Qt_scene_assets_and_actual_camera_protocol_verified",
+  "cases": [
+    {
+      "label": "accepted_binary_high_ported_bend_10p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/accepted_binary_high_ported_bend_10p0/scene.json",
+      "revision": "05bbd588176568275cae35f955827ed5599f0dd7f936b68123fcadad6c933603",
+      "camera_count": 0,
+      "route_count": 1,
+      "mesh_vertices": 273189,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 21.027878242000043,
+      "preparation_and_verification_seconds": 29.054139597000358
+    },
+    {
+      "label": "accepted_binary_high_ported_bend_1p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/accepted_binary_high_ported_bend_1p0/scene.json",
+      "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+      "camera_count": 891,
+      "route_count": 891,
+      "mesh_vertices": 273189,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 15.581480279000061,
+      "preparation_and_verification_seconds": 25.509071831000256
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_10p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/accepted_binary_ultra_ported_bend_10p0/scene.json",
+      "revision": "792e38c1c431aa43e3e20a3837ad5dd6d7d872560af24c1e15b4241fabaadff2",
+      "camera_count": 0,
+      "route_count": 1,
+      "mesh_vertices": 274851,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 13.39296744100011,
+      "preparation_and_verification_seconds": 21.437268136000057
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/accepted_binary_ultra_ported_bend_1p0/scene.json",
+      "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+      "camera_count": 891,
+      "route_count": 891,
+      "mesh_vertices": 274851,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 15.482708362000267,
+      "preparation_and_verification_seconds": 25.38158328499958
+    },
+    {
+      "label": "network_probability_high_ported_bend_10p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/network_probability_high_ported_bend_10p0/scene.json",
+      "revision": "a36e3687e4c754c93658a4ad9b16e49a4ac972be78d59b600116e73ac8443fb8",
+      "camera_count": 0,
+      "route_count": 1,
+      "mesh_vertices": 268659,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 15.903562710999722,
+      "preparation_and_verification_seconds": 26.492704238999977
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/network_probability_high_ported_bend_1p0/scene.json",
+      "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "camera_count": 891,
+      "route_count": 891,
+      "mesh_vertices": 268659,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 21.028316656000243,
+      "preparation_and_verification_seconds": 36.52025561999926
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_10p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/network_probability_ultra_ported_bend_10p0/scene.json",
+      "revision": "7a531ed7932ca3b0e59002c280fc264b1f734c7be233538853753601478f344f",
+      "camera_count": 0,
+      "route_count": 1,
+      "mesh_vertices": 270354,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 16.024899743999413,
+      "preparation_and_verification_seconds": 26.686889720999716
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_scene_ARM_r9/network_probability_ultra_ported_bend_1p0/scene.json",
+      "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+      "camera_count": 891,
+      "route_count": 891,
+      "mesh_vertices": 270354,
+      "generation_kind": "carina_anchored_heuristic_topology_not_confirmed_anatomical_names",
+      "preparation_seconds": 21.721987553999497,
+      "preparation_and_verification_seconds": 37.79248514400024
+    }
+  ],
+  "protocol_checks": 13,
+  "wrong_CT_rejected": true,
+  "native_Qt_requests_accepted": 12,
+  "native_Qt_pose_validation_ms": [
+    1.3424839999061078,
+    1.3888690000385395,
+    2.0887009995931294
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "source_closure_sha256": "2c844a9074c500a95d0547b74e7399ab5d0257fe7087a72578a7d180dd0e3339",
+  "retained_default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "retained_default_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "compiled_binary_sha256": "3c607201bcf57e9d50f7dac9f8c93e06e5ded28c4f8fc5490f2c49bc923c0a22",
+  "compiled_transport_object_sha256": "e2eb5b69319f4114ab09dae3e6f6cfebbe59ecfbff15c3490594dcda591d2c2f",
+  "PL_access": false,
+  "new_bitstream": false,
+  "production_promoted": false,
+  "physical_UI_review": false,
+  "remaining": [
+    "full native UI selection and active-scene export/profile dispatch",
+    "actual C9 same-input full output benchmark and physical HDMI review"
+  ]
+}

@@ -1,0 +1,24 @@
+Command: pr_verify -full_check D:/Xilinx_Project/2026FPGA/kv260_system/dfx/medical/build/config_smooth.dcp D:/Xilinx_Project/2026FPGA/kv260_system/dfx/route_audit_speed/build/config_route_audit_fast.dcp -file D:/Xilinx_Project/2026FPGA/kv260_system/dfx/route_audit_speed/build/pr_verify.log
+Sun Oct  4 19:48:46 2026
+
+INFO: [Constraints 18-13354] HDPRVerify-43: DCP D:/Xilinx_Project/2026FPGA/kv260_system/dfx/medical/build/config_smooth.dcp has unlocked static portion, example: net " data_p1_reg[512]_0[305] ", node " CLEL_L_X11Y0/CLE_CLE_L_SITE_0_BQ "
+INFO: [Constraints 18-1020] PR Verify Summary:
+DCP1: D:/Xilinx_Project/2026FPGA/kv260_system/dfx/medical/build/config_smooth.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 10
+  Number of static tiles compared           = 95700
+  Number of static sites compared           = 2761
+  Number of static cells compared           = 46267
+  Number of static routed nodes compared    = 546838
+  Number of static routed pips compared     = 514020
+
+DCP2: D:/Xilinx_Project/2026FPGA/kv260_system/dfx/route_audit_speed/build/config_route_audit_fast.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 10
+  Number of static tiles compared           = 95700
+  Number of static sites compared           = 2761
+  Number of static cells compared           = 46267
+  Number of static routed nodes compared    = 546838
+  Number of static routed pips compared     = 514020
+INFO: [Constraints 18-13351] HDPRVerify-38 : Following dcps passed to pr_verify have unlocked static:  D:/Xilinx_Project/2026FPGA/kv260_system/dfx/medical/build/config_smooth.dcp
+INFO: [Vivado 12-3253] PR_VERIFY: check points D:/Xilinx_Project/2026FPGA/kv260_system/dfx/medical/build/config_smooth.dcp and D:/Xilinx_Project/2026FPGA/kv260_system/dfx/route_audit_speed/build/config_route_audit_fast.dcp are compatible

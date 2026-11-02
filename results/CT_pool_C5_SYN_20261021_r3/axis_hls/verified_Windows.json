@@ -1,0 +1,36 @@
+{
+  "status": "actual_complete_C5_SYN_and_RP_independently_verified_not_route_or_board",
+  "actual_whole_C5_synthesis_qualified": true,
+  "resources": {
+    "LUT": 70861,
+    "Logic_LUT": 65098,
+    "LUTRAM": 4570,
+    "SRL": 1193,
+    "FF": 92853,
+    "RAMB36": 100,
+    "RAMB18": 14,
+    "URAM": 0,
+    "DSP": 851
+  },
+  "physical_RP_bits": 1830,
+  "failure": null,
+  "all_owned_bytes_and_closed_logs_verified_exact_root_absent": true,
+  "archive_SHA256": "f83152bc335b2b7708ed6fc9c4612761cac58ac4d94a8f0b837fb53469942c00",
+  "original_archive_metadata": {
+    "archive": "result.zip",
+    "bytes": 250346245,
+    "compiler_terminal": true,
+    "count": 1453,
+    "sha256": "c4c9760f3804520df9cf39af7047730f0cdb0af9612f82c9dc11c9a8cb85f6c4"
+  },
+  "still_requires_full_RTL100MHz_route_all5PR_ARM_board139_PS_speed_integration": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/DFX_SYN_r3/verify_collected.py": "768e3e0bc7d3d116b60e2c592df9b2c901d6f537d7ea0ce425b9063850b1435d",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_SYN_r3/admission.json": "a448d113aaf387e12bc8ee25c5d815df1bce77b324777565ff9d67a89f2b6c9e",
+    "results/CT_pool_C5_SYN_20261021_r3/axis_hls/stream_collection_verified.json": "7279d317fe2c8f6d9483191df693453385d37b9f92bd6618dde75d9701fd4f77",
+    "results/CT_pool_C5_SYN_20261021_r3/axis_hls/cleanup_verified_stream.json": "43ea31ae17a30238683cc15c63d895a550bff27cc1768d541f28154035cf80e7"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

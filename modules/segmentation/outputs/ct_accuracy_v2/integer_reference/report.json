@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+  "backend": "PC integer software reference",
+  "inference_seconds": 193.8352197999775,
+  "postprocess_seconds": 5.148619999992661,
+  "agreement_with_onnx": {
+    "lung": {
+      "metric_kind": "agreement_with_model_prediction_not_ground_truth",
+      "dice": 0.9999907975615379,
+      "prediction_voxels": 4346675,
+      "reference_voxels": 4346673
+    },
+    "airway": {
+      "metric_kind": "agreement_with_model_prediction_not_ground_truth",
+      "dice": 1.0,
+      "prediction_voxels": 30188,
+      "reference_voxels": 30188
+    },
+    "nodule": {
+      "metric_kind": "agreement_with_model_prediction_not_ground_truth",
+      "dice": 1.0,
+      "prediction_voxels": 2934,
+      "reference_voxels": 2934
+    }
+  },
+  "math": {
+    "real_model_layers": 18,
+    "slice": 90,
+    "max_abs_logit_difference_vs_ort": 0.43262481689453125,
+    "threshold_disagreement_fraction_vs_ort": 0.0,
+    "note": "Graph implements explicit INT32 accumulation and FP32 scales; optimized ORT may differ at quantization rounding boundaries."
+  },
+  "pl_inference_implemented": false,
+  "generalization_validated": false
+}

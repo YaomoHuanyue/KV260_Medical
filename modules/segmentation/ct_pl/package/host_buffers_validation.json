@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "arm_pool_cases": 576,
+  "all_int16_hu_exact": true,
+  "odd_geometry_context_exact": true,
+  "dirty_ps_rewrites": 32,
+  "clean_pl_chains": 32,
+  "read_only_pl_outputs": true,
+  "live_leases_not_recycled": true
+}

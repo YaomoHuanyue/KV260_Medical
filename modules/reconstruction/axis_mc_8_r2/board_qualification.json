@@ -1,0 +1,115 @@
+{
+  "status": "actual_MC8_correctness_qualified_PS4_speed_gate_passed",
+  "partial_SHA256": "f8f9a4f5c0b81f45f9b5ede9f62f53cc8e51302b5d7a6b28028feb753937b4bd",
+  "actual_board_correctness_passed": true,
+  "actual_runtime_DMA_executed": true,
+  "actual_100MHz_all5_full_PR_passed": true,
+  "WNS_ns": 2.409,
+  "WHS_ns": 0.01,
+  "RP_resources": {
+    "LUT": 11497,
+    "FF": 10248,
+    "DSP": 18,
+    "BRAM36": 17,
+    "BRAM18": 7,
+    "URAM": 0
+  },
+  "remaining_RP": {
+    "LUT": 76823,
+    "FF": 166392,
+    "DSP": 942,
+    "BRAM36_equivalent": 111.5,
+    "URAM": 64
+  },
+  "scan_loop_II": 1,
+  "scan_voxels_per_iteration": 8,
+  "all256_cells": true,
+  "overflow_cases": 254,
+  "additional_primitive_cases": 13,
+  "completed_static_DMA_frames": 828,
+  "full_own_masks": [
+    {
+      "name": "lung",
+      "triangles": 860680,
+      "median_seconds": {
+        "PL": 0.1150881809880957,
+        "PS1": 0.4713806048966944,
+        "PS2": 0.3162681540707126,
+        "PS4": 0.17597069998737425
+      },
+      "PL_vs_PS4_speedup": 1.529007570339269,
+      "source_and_output_exact": true,
+      "hardware_and_DMA_seconds_first": 0.081505776
+    },
+    {
+      "name": "airway",
+      "triangles": 46520,
+      "median_seconds": {
+        "PL": 0.01008519099559635,
+        "PS1": 0.05084139795508236,
+        "PS2": 0.03391353890765458,
+        "PS4": 0.018274712027050555
+      },
+      "PL_vs_PS4_speedup": 1.812034302080161,
+      "source_and_output_exact": true,
+      "hardware_and_DMA_seconds_first": 0.006531605
+    },
+    {
+      "name": "nodule",
+      "triangles": 6996,
+      "median_seconds": {
+        "PL": 0.014430194976739585,
+        "PS1": 0.08516373101156205,
+        "PS2": 0.05598626006394625,
+        "PS4": 0.028939838986843824
+      },
+      "PL_vs_PS4_speedup": 2.0055057491248536,
+      "source_and_output_exact": true,
+      "hardware_and_DMA_seconds_first": 0.010373084000000001
+    }
+  ],
+  "profile": [
+    {
+      "name": "lung",
+      "PL_median_seconds": 0.1150881809880957,
+      "hardware_and_DMA_median_seconds": 0.081495524,
+      "hardware_fraction": 0.708113755038231,
+      "PS4_median_seconds": 0.17597069998737425
+    },
+    {
+      "name": "airway",
+      "PL_median_seconds": 0.01008519099559635,
+      "hardware_and_DMA_median_seconds": 0.006580984999999999,
+      "hardware_fraction": 0.6525394514465374,
+      "PS4_median_seconds": 0.018274712027050555
+    },
+    {
+      "name": "nodule",
+      "PL_median_seconds": 0.014430194976739585,
+      "hardware_and_DMA_median_seconds": 0.010379854,
+      "hardware_fraction": 0.7193148822127188,
+      "PS4_median_seconds": 0.028939838986843824
+    }
+  ],
+  "speed_gate_passed": true,
+  "cold_open_plus_lung_seconds": 0.49185367906466126,
+  "process_peak_RSS_MiB": 264.703125,
+  "memory_scope": "entire combined correctness and PS/PL benchmark process, not PL-only or whole-board peak",
+  "formal_UI_currently_uses_qualified_D7_R1_and_FMA2": true,
+  "formal_MC8_integration_pending": true,
+  "next": [
+    "Execute actual MC8-FMA2-MC8 and complete three-structure reconstruction in one owned context",
+    "Integrate into the formal UI after actual combined/full/partial/native acceptance gates",
+    "Continue true AXIS FMA2 graph/point transport and remaining suitable PS bulk work under DFX",
+    "Retain all original8 functional/manual/error-recovery/clinical requirements"
+  ],
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "evidence_SHA256": {
+    "results/MC_AXIS8_board_r1/verified_Windows.json": "09737992a912141ac28a1d5984bc3b5722ad720f3ef18109e74855406d768ed0",
+    "results/MC_AXIS8_board_r1/verified_ARM.json": "3fd8af5691f2bc2ebe3212fa80d3ee9578a32486a88c81288443daf96d6811c1",
+    "modules/reconstruction/axis_mc_8_r2/verified_physical.json": "460a8fdef1cc0cac3b75d134c9caef29c5aaa8a669dc33a72fd55bd68fb88cf9",
+    "modules/reconstruction/axis_mc_8_r2/dfx_r1/release_r1/manifest.json": "42a22e9ce7e67b1a3830785da3f4c670e446acd7947ad3e1908e8aa8e8446d88",
+    "modules/reconstruction/axis_mc_8_r2/qualify_board.py": "0f9a8b704fe1dac6017f7c014e8daec6312ef1d9354585326b974e0f35af9df9"
+  }
+}

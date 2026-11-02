@@ -1,0 +1,81 @@
+{
+  "status": "D9_actual_ARM_native144_CT18_and_PC_pair_verified_no_PL_access",
+  "original144_complete_bank_cases_exact": true,
+  "original_CT18_full5_banks16_reports_guards_exact": true,
+  "Windows_ARM_same_original_case_results_paired": true,
+  "frozen_FMA_reference_SHA256": "307f20a6b7a5e2e8a64d15c7647fa7334d0228cf054f13292687694270de5768",
+  "actual_AArch64_ELF_verified": true,
+  "source_plan_SHA256": "1665efda0cd0a082d1aa7f1c06f11b7731350b88ce65ae6405b602834f38b8a0",
+  "stages": [
+    {
+      "stage": "compile",
+      "argv": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-O3",
+        "-mcpu=cortex-a53",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "-fPIC",
+        "-shared",
+        "-pthread",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/native_bridge.cpp",
+        "-o",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/build_r1/candidate.so"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 17.732541122999464,
+      "log_SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "full144",
+      "argv": [
+        "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+        "-B",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/checkers/test_full_banks_r2586.py"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 45.36630278299981,
+      "log_SHA256": "c3590d4514d87408dab216b5fb086a9e6ec1e403cd80d0827c410b0f3c9383eb"
+    },
+    {
+      "stage": "CT18",
+      "argv": [
+        "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+        "-B",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/checkers/test_own_CT_r2586.py"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 183.53780424400065,
+      "log_SHA256": "f615b29ee523998974633b94f4c90b97e80aa4132b29fa58c5d52599a52b5cb0"
+    }
+  ],
+  "files_SHA256": {
+    "job_started.json": "46762066c4c5266e8d285f392ead14381fc299e95e196465eb40ebbdd05d3dd9",
+    "run.log": "5a0f29a93d1bea631b92d9f4954dc01af913fca543c6c74e7698185da6ee89dc",
+    "compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full144.log": "c3590d4514d87408dab216b5fb086a9e6ec1e403cd80d0827c410b0f3c9383eb",
+    "CT18.log": "f615b29ee523998974633b94f4c90b97e80aa4132b29fa58c5d52599a52b5cb0",
+    "compile_receipt.json": "08f873dd99d84886847501364f1b68e818f6e0282b19db502f0ca0229d17793c",
+    "full144_receipt.json": "90d277be4fcc4018d59685facf553818f86e638403a7f33ebee246a4ad9bccc1",
+    "CT18_receipt.json": "80bd50553ff778aeaca26fc0be9f3332d7ff4e573e16e844f48c66c738362c6a",
+    "receipt.json": "8d2bb0e943d0323ea1034dc9eb3bfa7ba48bb5b0d28b45fd602d3e93ffc6724f",
+    "build_r1/verified_build.json": "8a3e1f92eb98a932d6c45db6e7dfb1516db36d4b3d1b06effc96613482ddf17d",
+    "build_r1/candidate.so": "1d70152d6f81031bfbfa90a2e305c1f92d1473ef2aa0f778a5e1fb724c7e6464",
+    "results_r1/native_full_banks_ARM_r2586.json": "8e943680b1e72748557f22462b93fed5a125c815ad2420ac51588bf87ff4031c",
+    "results_r1/own_CT_ARM_r2586.json": "2823c73c668947dde0a77ce2dc4ac588a28dfd46b681087a9268523b8043fc14"
+  },
+  "formal_UI_identity_unchanged": {
+    "PID": 5804,
+    "ticks": 264568,
+    "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+    "ELF": "c384f6b71fe7f76e4ac4d0e681ac2832c8e6149653f84188f9eb9a48ed622378",
+    "identity_SHA256": "54d59dc396070b6690947b4f1d3844a8485bf0ea2be7cd11d52af221c7e3bdc5"
+  },
+  "low_priority_nice": 10,
+  "actual_D9_PL_accessed": false,
+  "RTL_PR_and_board_speed_not_claimed": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

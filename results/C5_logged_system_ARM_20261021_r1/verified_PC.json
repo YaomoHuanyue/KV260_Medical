@@ -1,0 +1,442 @@
+{
+  "UTC": "2026-10-21T15:43:39.120683+00:00",
+  "status": "actual_full139_D6_C5_three_PL_pools_D7_D9_AXIS_C8_R14_functional_candidate_verified",
+  "all139_original_CT_and_five_full_masks_logits_three_meshes_and_four_navigation_arrays_exact": true,
+  "all_five_masks_full182190080_voxels_independently_read": {
+    "lung_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 4346675,
+      "raw_SHA256": "5f582f6d2d0b020d821e112ea5922a0b8c2d214a4fad67c9d580f4150b462719",
+      "all_voxels_read": true
+    },
+    "airway_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30188,
+      "raw_SHA256": "6c74bdeb0bd81454c74c8a0b347c79e5b3cd0875cd2b3102c6799ea90dc982c7",
+      "all_voxels_read": true
+    },
+    "nodule_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 2934,
+      "raw_SHA256": "91e7192dfdcc65508a6aa2d1c08b215e7e919d35e393ea3046ca068e8b80cca8",
+      "all_voxels_read": true
+    },
+    "airway_mask_network.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 39781,
+      "raw_SHA256": "67ac1ae360d20ba599a6b9529d10dd586b5c83099c68dec1700bff83dcf97fb9",
+      "all_voxels_read": true
+    },
+    "airway_mask_detail.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30224,
+      "raw_SHA256": "0e17a3e0f9e88bfe0a57ef4513c9f3446198f8d644b7ad3e02f10397d7052feb",
+      "all_voxels_read": true
+    }
+  },
+  "all_three_meshes": {
+    "lung": {
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6",
+      "all_NPY_arrays_read": {
+        "points.npy": "6f1b0b32f4ba0931404af8a8e6990ac143577fa53f3d55007826bf352855e52b",
+        "faces.npy": "20f22ca625e82ba1bd880d26cae00af3695dd6c8ccdb2880153aa22440768b16",
+        "normals.npy": "4d831fd4f3d8fbd496a24e20c0d18dede1e486cbdf737016bb043d6edc13bca2"
+      },
+      "triangles": 860680
+    },
+    "airway": {
+      "SHA256": "1d1c58881d57029dcf1d2b62ff211d545867241af7355e02015761641d530976",
+      "all_NPY_arrays_read": {
+        "points.npy": "13249600e882bb4452fedfd109329f5b8c4cde6f65ae4ec146ffcf7eb9ddb8b7",
+        "faces.npy": "f1091119fbcc55d5fc06d1fbe2c9d5f6504e58ee7ca7328a9f5d9708a54aae4e",
+        "normals.npy": "97337201b813a5b0fb2856997e9d2e9a7987bab442fc7f5f7bb24558df4a48fe"
+      },
+      "triangles": 46520
+    },
+    "nodule": {
+      "SHA256": "420173a3430d7bd2fb44066f0b43f457228e695625fe4a09c69f1b73e5c24163",
+      "all_NPY_arrays_read": {
+        "points.npy": "a0ce3a67ac0dbc76093568538a42a1035bbd8fdf4c67e3112af88bc2d1ba7036",
+        "faces.npy": "8dc9547afe99ca4d41b59cf45733c382b8258ef4f8f9c12b951198707700d1f7",
+        "normals.npy": "07e5e20e85a052a5095a8c8434f2d22d5ee4ee118256eccfca57b8d6059e7c8d"
+      },
+      "triangles": 6996
+    }
+  },
+  "navigation_arrays": {
+    "centerline.npz": {
+      "SHA256": "a3a4f4cfce01d487b5d0872e0ceb5d875a31c0e847e5aec6d854d9f158860e69",
+      "all_NPY_arrays_read": {
+        "offset_zyx.npy": "1d14cef38c03e31d2adf83a25c27c30b06f642bb245901433938058db09a5adf",
+        "mask.npy": "5394684683ad53207e7499b999675ae3d25ed1df2e9b5d96f722e81a0cf01077",
+        "distance_mm.npy": "163327ac17448a7598af7081b7fd5725dbea6bb83876519e3756a583779f0a5d",
+        "indices_zyx.npy": "ab5af6d2e5711b64aa0c819928abf17245aec0a6e48843faeee88ac6a56294ff",
+        "points_lps_mm.npy": "fc0444d7a7ce6ddb9ecda2ac4664011d948bc917e85854445c2be8f651e07761",
+        "radii_mm.npy": "7b8d2f85c9a888f0a54a5729da175b74e37a7b09c71cfd86aa15341736fb525e",
+        "edges.npy": "8cc04b2a48fee841f556aa55530c524ce82722862616ef0fa92879a2fded6e95",
+        "components.npy": "e789cddaedad60770a2e0560855c1d8f472942ddfe54bcb477ea9a43691a23c4",
+        "root.npy": "4e42aad3ec8cec2a0ce97025da9f703dc33478f5007ad1f6ca9a3a7d5a24d168"
+      }
+    },
+    "anatomical_generations.npz": {
+      "SHA256": "2de44a33edeaae86066d97888a6c259458b920d0994ba96ba20fbaf768620193",
+      "all_NPY_arrays_read": {
+        "generation.npy": "dadb2622b3753cd1b32b7a282200ac6ab55624422cd42d5b4b9fcce261126c4c",
+        "active.npy": "4e14f41ca9c894762e15568dfafbd3f55268d7f0032b8e2c304d0a0dd4078427",
+        "junction_labels.npy": "b93708695a4d199c40eda092be46b58fc1d160fff2fa041505c71440459ed341",
+        "root_distance_mm.npy": "ff4b2f9bc18e43c3d24b195d56a02e178933b36e9d95ea61f9aaba415de31627",
+        "indices_zyx.npy": "ab5af6d2e5711b64aa0c819928abf17245aec0a6e48843faeee88ac6a56294ff"
+      }
+    },
+    "route.npz": {
+      "SHA256": "212649d7ad2824d43f6de5fc18c5933af977c6bebab617707cd34519b3d79aff",
+      "all_NPY_arrays_read": {
+        "points_lps_mm.npy": "0e9a215a8d49b7653074281ef7655df872fb6e3779c83695abe82ffba710cda6",
+        "arc_mm.npy": "4aa4c092ea833d0cc7434f38e17a13c254a90b90cbfa2bbb9f583303bc5e60de",
+        "radius_mm.npy": "d100f16a93c819095a9e202e3d0dbe7849fe345587f32ac1c308d24d25b59fb6",
+        "centerline_point_ids.npy": "d2956f77dba675e535efe4ef965b655197cb7ee22cd1cdc56ddd390dc9a1236d",
+        "bend_radius_mm.npy": "a50d9400f42eac3aea9584f5522315355b0ea444adad2fb47268e3d0d141d00d",
+        "forward_adjusted_radius_mm.npy": "c9f3690fb30c61710b0961542a5d8e6f63478b016a4edca1a0314d35074cfaf1",
+        "forward_minimum_bend_radius_mm.npy": "24fd550a5f0fbf674137f149b6979a300922e125f52c8d0612a74d064d1358a9",
+        "spare_radius_mm.npy": "cfe151472103fddb5df5ef0bbccc63ff92055da8cfd030b1e82c6c6c3c153f2e",
+        "clearance_state.npy": "9bdb2c669b9328ad87206978d9758404173d6814f0d8055fa8cab362c7bbeabe"
+      }
+    },
+    "camera.npz": {
+      "SHA256": "492792e6680769ec20dce31908030088cb78f99fede59a8b9d49ad5b066e9216",
+      "all_NPY_arrays_read": {
+        "position_lps_mm.npy": "0e9a215a8d49b7653074281ef7655df872fb6e3779c83695abe82ffba710cda6",
+        "forward_lps.npy": "df266d37941e29a1b9a84c99a91dfef2f9634a1dba844b33c5b96f995c226ef5",
+        "up_lps.npy": "45700d207891413717c614d96e8e3501ed6a83ae22be474c40b50aad51e50c54"
+      }
+    }
+  },
+  "actual_PL_convolution_calls": 2520,
+  "actual_PL_pool_calls": 420,
+  "actual_D6_AXIS_chunks": 5,
+  "actual_MC_AXIS_passes": 6,
+  "actual_C5_and_external_DFX_records": {
+    "C5": [
+      {
+        "switch": "1",
+        "rm": "ct",
+        "partial_ms": "147.845",
+        "switch_ms": "155.336",
+        "static_transactions": "8363",
+        "sentinel_address": "1186988032"
+      },
+      {
+        "switch": "1",
+        "rm": "ct",
+        "partial_ms": "147.45",
+        "switch_ms": "155.072",
+        "static_transactions": "8363",
+        "sentinel_address": "1186988032"
+      },
+      {
+        "switch": "1",
+        "rm": "ct",
+        "partial_ms": "147.482",
+        "switch_ms": "154.857",
+        "static_transactions": "8363",
+        "sentinel_address": "1186988032"
+      }
+    ],
+    "other_logs": [
+      {
+        "path": "dfx/medical/results/switches_extended_287730211289825_1_314517.csv",
+        "PID": 314517,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "147.45",
+            "switch_ms": "155.072",
+            "static_transactions": "8363",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "dfx/medical/results/switches_extended_287728038664286_0_314517.csv",
+        "PID": 314517,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "147.845",
+            "switch_ms": "155.336",
+            "static_transactions": "8363",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "dfx/medical/results/switches_extended_287732556203518_2_314517.csv",
+        "PID": 314517,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "147.482",
+            "switch_ms": "154.857",
+            "static_transactions": "8363",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "dfx/edt_volume/results/switches_314839.csv",
+        "PID": 314839,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "volume",
+            "partial_ms": "147.311",
+            "switch_ms": "154.886",
+            "static_transactions": "8427",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "route",
+            "partial_ms": "152.476",
+            "switch_ms": "159.975",
+            "static_transactions": "8427",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "dfx/edt_volume/results/switches_314848.csv",
+        "PID": 314848,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.115",
+            "switch_ms": "155.677",
+            "static_transactions": "8429",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "146.95",
+            "switch_ms": "154.393",
+            "static_transactions": "8430",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "modules/ct_preprocess/axis_hu_32_r2/host_r1/results/switches_hu_314517.csv",
+        "PID": 314517,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "hu",
+            "partial_ms": "147.064",
+            "switch_ms": "154.542",
+            "static_transactions": "8358",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_314822.csv",
+        "PID": 314822,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "axis_mc",
+            "partial_ms": "147.758",
+            "switch_ms": "155.231",
+            "static_transactions": "8363",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_314822.csv",
+        "PID": 314822,
+        "records": [
+          {
+            "switch": "1",
+            "rm": "axis_smooth",
+            "partial_ms": "156.681",
+            "switch_ms": "164.189",
+            "static_transactions": "8369",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "smooth",
+            "partial_ms": "147.889",
+            "switch_ms": "155.326",
+            "static_transactions": "8427",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      }
+    ]
+  },
+  "actual_full_system_stage_seconds": [
+    {
+      "stage": "segmentation",
+      "wall_seconds": 180.56236474600155,
+      "real_PL_conv_calls": 2520,
+      "real_PL_pool_calls": 420
+    },
+    {
+      "stage": "reconstruction",
+      "wall_seconds": 20.528939790965524
+    },
+    {
+      "stage": "navigation",
+      "wall_seconds": 9.930494549975265
+    }
+  ],
+  "all_operators_on_PL": false,
+  "PS_remaining": "geometry conversion and five-plane context packing, remaining activation LUTs/ReLU, resize, concat, scheduling, airway postprocessing, sparse discarded-airway candidate audit (same-input PL comparison favors PS)",
+  "candidate_smoothing_actual_AXIS_D9": true,
+  "actual_same_process_three_C5_sessions_with_unique_logs_and_fixed_name_preserved": true,
+  "D9_all_five_bank_proofs": {
+    "lung": {
+      "all5_full_raw_banks_exact": [
+        "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+        "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+        "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+        "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+        "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+      ],
+      "all16_status_words_exact": [
+        0,
+        8,
+        1051719757,
+        1042970716,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all6_original_input_files_exact": true,
+      "actual_AXIS_graph_requests": 17,
+      "graph_beats": 5487141,
+      "DMA_red_zones_checked": 24
+    },
+    "airway": {
+      "all5_full_raw_banks_exact": [
+        "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+        "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+        "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+        "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+        "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+      ],
+      "all16_status_words_exact": [
+        0,
+        6,
+        1053291450,
+        1051345166,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all6_original_input_files_exact": true,
+      "actual_AXIS_graph_requests": 21,
+      "graph_beats": 366534,
+      "DMA_red_zones_checked": 24
+    },
+    "nodule": {
+      "all5_full_raw_banks_exact": [
+        "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+        "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+        "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+        "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+        "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+      ],
+      "all16_status_words_exact": [
+        0,
+        8,
+        1050010136,
+        1046972629,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all6_original_input_files_exact": true,
+      "actual_AXIS_graph_requests": 17,
+      "graph_beats": 44608,
+      "DMA_red_zones_checked": 24
+    }
+  },
+  "formal_UI_runtime_unchanged": true,
+  "known_speed_regression_retained_phase2_pending": true,
+  "not_a_complete_streaming_system_delivery_yet": true,
+  "sampled_memory": {
+    "samples": 425,
+    "minimum_MemAvailable_bytes": 2576867328,
+    "minimum_CmaFree_bytes": 4714496,
+    "segmentation_process_peak_RSS_bytes": 647815168,
+    "process_RSS_not_whole_system_allocated_peak": true
+  },
+  "formal_UI_and_original_firmware_fixed_CSV_restored": true,
+  "A01_A10_human_passed_no_repeat": true,
+  "manual_whole_candidate_GUI_and_remaining_original8_coldboot_clinical_GT_pending": true,
+  "source_and_evidence_SHA256": {
+    "tools/verify_C5_logged_system_20261021_r1.py": "0f149204f23557e3948ddc740315343132d214bb575ef6336a74fd83a8b78899",
+    "results/C5_logged_system_ARM_20261021_r1/plan.json": "bef6a6319e7c22e36af14348a3ae636a39e3d0e0dbc7df748f0cf4c3f5df440d",
+    "results/C5_logged_system_ARM_20261021_r1/stream_verified.json": "ee19b64070e85440f1fe615716d47a5b922152f32b8a1a44be5566fa8d59e0ff",
+    "results/C5_logged_system_ARM_20261021_r1/all_owned_inventory.json": "aa02b5068318090379db754398d1747ebf4c85b048d7100b0af451a8513fb665",
+    "results/C5_logged_system_ARM_20261021_r1/current_candidate.zip": "1b4c4b6c0f46bb97f617da6967283e150059aa3750c05670ecb124a3b04753ec",
+    "results/CT_bounded_UI_pipeline_20261020_r2/current_candidate.zip": "15bd1abadb38a93dee701133f59392687cba35e607d21ffe2d086d7e50d9a096"
+  },
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

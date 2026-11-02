@@ -1,0 +1,119 @@
+{
+  "status": "passed_complete_original_CT_controls_layers_final_RGBA_same_input_PS_PL_and_warm_ABBA_speedup",
+  "build": {
+    "status": "compiled_exact_candidate_actual_ARM_no_PL_access",
+    "original_acceptance_sha256": "ea329d2837a025bb50a472a566334cae9b1f8f115e7e5d4d1711aa1bff97ea07",
+    "source_sha256": {
+      "dfx/composite/medical/exact_speed_r6/compile.sh": "63dbc34482d8caae4942fbf8acadf8680dcc83e887e5aab6710e3ae9a68e523d",
+      "dfx/composite/medical/exact_speed_r6/frame_controls.hpp": "d426ac46dab37707e5643ce301e638fb07ed347f6164aa85a98a9a78e0f5b0d8",
+      "dfx/composite/medical/exact_speed_r6/neon_ps.hpp": "a8c926ba8af8a33b2800579102e3f8aa3a05679715e0b9ea5f88c1f565dc8e91",
+      "dfx/composite/medical/exact_speed_r6/render_batches.hpp": "00174a61ac9ea1b32eed36e40f3305c2b1d496212c025dcd5cb49862c44b5af3",
+      "dfx/composite/medical/exact_speed_r6/screen_tiles.hpp": "e7aff6f46706dc3cc105dc8f43f1c80e191aa74163664c9e70701966e7099dd1",
+      "dfx/composite/medical/exact_speed_r6/strong_ps.hpp": "f82fc72fe1d6ab39b65980b36ca7bbe8695ff4fd88afda61935a8eb55ba5a2d3",
+      "dfx/composite/medical/exact_speed_r6/worker.cpp": "d2d8b0ccf4a4ec68f0c829b31a2826020f78367b40541956e32f4722f4e33859"
+    },
+    "shared_source_sha256": {
+      "dfx/composite/medical/gl.hpp": "b27705dee676a0dc486a5e660f4125277d4572f9b71904b7d6853e223033d788",
+      "dfx/composite/medical/shared_batches.hpp": "5eaf07ef4afbfb0798454db67eef68251097afd89be4e31f772b5ea1248721a3",
+      "dfx/composite/medical/interactive/worker.cpp": "88aeaa44a25feae518c279d89e21ca9906eafb30820ddc56b602830d0356761e",
+      "dfx/composite/medical/exact_speed_r1/worker.cpp": "9c04e722a5d85063738c18f5eeb7ac8cb880d6d36c975a81c4ebaee3ee17d71b",
+      "dfx/composite/medical/exact_speed_r4/worker.cpp": "033d790b67f0417d2062733f52d3aa4805167f5cacc8442dcebdfb4c06bb556f"
+    },
+    "library_sha256": {
+      "dfx/composite/host/libcomposite.so": "612db5c059396fa64f6ef5088633e849ded561bc2d3aaca615065ba1f26bc52b",
+      "dfx/composite/host/libcomposite_reference.so": "c02852a5930dd1e2d3b6d0b9fcef88eacd66be64520a1e5b86dc3ae27a082c89"
+    },
+    "new_PL_core": false,
+    "triangle_order_shader_positions_normals_palette_and_32_layer_bounds_unchanged": true,
+    "binary_sha256": "d1453d90bbdbaca850c5e72ff43035f90dcb682a765d0b45a374a295bfb6aa50",
+    "origin_sha256": "32d9bce3efabf89e86fdde3d89f1c66eb9c867e25ec30cfb9029dedaf06501ed"
+  },
+  "chosen": {
+    "mode": "specialized1",
+    "options": [
+      "baseline",
+      "1"
+    ],
+    "same_view_seconds": 4.989269040001091,
+    "rotated_view_seconds": 5.199404131970368,
+    "all_original_layers_and_frames_exact": true,
+    "same_view_speedup": 1.4323743134896356,
+    "rotated_view_speedup": 1.4206716386133058
+  },
+  "baseline_build": {
+    "status": "compiled_no_PL_access",
+    "architecture": "aarch64",
+    "binary_sha256": "1303d48f9a94bab5c319785f8e1c7370e226237628826ae7d0cb751bd4127fab",
+    "source_sha256": {
+      "dfx/composite/medical/interactive/worker.cpp": "88aeaa44a25feae518c279d89e21ca9906eafb30820ddc56b602830d0356761e",
+      "dfx/composite/medical/interactive/render_batches.hpp": "00174a61ac9ea1b32eed36e40f3305c2b1d496212c025dcd5cb49862c44b5af3",
+      "dfx/composite/medical/interactive/strong_ps.hpp": "f82fc72fe1d6ab39b65980b36ca7bbe8695ff4fd88afda61935a8eb55ba5a2d3",
+      "dfx/composite/medical/interactive/neon_ps.hpp": "a8c926ba8af8a33b2800579102e3f8aa3a05679715e0b9ea5f88c1f565dc8e91",
+      "dfx/composite/medical/interactive/frame_controls.hpp": "d426ac46dab37707e5643ce301e638fb07ed347f6164aa85a98a9a78e0f5b0d8",
+      "dfx/composite/medical/interactive/derive_controls.py": "9df9b962e4dc2ac26d0d3319c2cfa6e3e94b428a8689531a6fe5ac8e8f0edec7",
+      "dfx/composite/medical/interactive/derivation.json": "df2985863a12f8f1cfb00a3b8f376b061f5466e8472592c9a0166361497b22d8",
+      "dfx/composite/medical/interactive/derive_worker.py": "f7e920b3f2eb40459d4e16157c819f43b425a814d1ebc9ad008e14834654cbf7",
+      "dfx/composite/medical/shared_batches.hpp": "5eaf07ef4afbfb0798454db67eef68251097afd89be4e31f772b5ea1248721a3",
+      "dfx/composite/medical/gl.hpp": "b27705dee676a0dc486a5e660f4125277d4572f9b71904b7d6853e223033d788",
+      "dfx/composite/medical/screen_tiles.hpp": "7ea48a3e752223d4f6e45f17e11a6acf8ff26e8a5e47583c20f209c370d62d51",
+      "tools/compile_medical_composite_worker.sh": "985797f327b6466e01646341fe0f25a955f95628fab950c3b379529ec01d2d08"
+    },
+    "library_sha256": {
+      "dfx/composite/host/libcomposite.so": "612db5c059396fa64f6ef5088633e849ded561bc2d3aaca615065ba1f26bc52b",
+      "dfx/composite/host/libcomposite_reference.so": "c02852a5930dd1e2d3b6d0b9fcef88eacd66be64520a1e5b86dc3ae27a082c89"
+    },
+    "HDMI_UI_replaced": false
+  },
+  "timing_seconds": {
+    "old": {
+      "same": 7.079893750487827,
+      "rotate": 7.363449895987287
+    },
+    "new": {
+      "same": 4.935006662533851,
+      "rotate": 5.22796789300628
+    }
+  },
+  "speedup": {
+    "same": 1.4346269893083985,
+    "rotate": 1.4084726698183725
+  },
+  "exact_FPS": {
+    "old": {
+      "same": 0.14124505751673136,
+      "rotate": 0.13580590811719248
+    },
+    "new": {
+      "same": 0.2026339716199199,
+      "rotate": 0.19127890998293068
+    }
+  },
+  "controls_compared": 17,
+  "all_complete_layers_and_final_pixels_bit_exact": true,
+  "source_sha256": "8c34e42952dcaee3261ec40bf70622ee1414797e51d0a63d2fd3c4caab0f19ce",
+  "scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+  "screening_sha256": "32e4c11c058dffc46fb3754ca29097b8e8b3387a1f78402dedd38841ded525a2",
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "trials": [
+    {
+      "path": "dfx/composite/medical/exact_speed_r6/acceptance/0_old/receipt.json",
+      "sha256": "5be9bf3536453bfcfd23636b97bc8f8881bd3f784ac921c31b3c3f3387d72527"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r6/acceptance/1_new/receipt.json",
+      "sha256": "6f197b8c9b33a6e2d6fe2de0b0dd753c735097771412c8138e47bd5a3861a3f5"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r6/acceptance/2_new/receipt.json",
+      "sha256": "9167820024c5d1fecf850238174d9a25c60bf6710868763fa984ff2e662f7838"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r6/acceptance/3_old/receipt.json",
+      "sha256": "47f266a0e20fc18d095590ddfdf51b01d78c5020fe85317a9d757f743befd8a0"
+    }
+  ],
+  "cold_start_excluded_from_warm_speedup": true,
+  "no_mesh_layer_or_resolution_reduction": true,
+  "new_PL_bitstream": false,
+  "production_UI_promoted": false
+}

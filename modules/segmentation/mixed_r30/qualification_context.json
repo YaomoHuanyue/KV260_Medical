@@ -1,0 +1,489 @@
+{
+  "B7_ROI_actual_board": {
+    "schema": "kv260.B7.ROI.actual_board_diagnostic.r29",
+    "passed": true,
+    "board_verified": true,
+    "candidate_partial_SHA256": "96296d896d423fa4675d0c051712ac6ec6d118f675c80af1ba5c88c83fd256bd",
+    "firmware_independent_name": true,
+    "accepted_firmware_never_overwritten": true,
+    "cases": [
+      {
+        "name": "canary",
+        "compared_voxels": 8,
+        "hardware_seconds": 0.000183412,
+        "PL_native_process_wall_seconds": 1.5165261880028993,
+        "PS_original_algorithm_seconds": 0.002296373015269637,
+        "DFX_enter_seconds": 0.159012801,
+        "DFX_return_seconds": 0.157941219,
+        "sampled_native_peak_RSS_bytes": 19492864,
+        "counters": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          6,
+          74,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "thin65",
+        "compared_voxels": 65,
+        "hardware_seconds": 0.002366944,
+        "PL_native_process_wall_seconds": 1.5163687960011885,
+        "PS_original_algorithm_seconds": 0.0014979949919506907,
+        "DFX_enter_seconds": 0.15797641,
+        "DFX_return_seconds": 0.157031271,
+        "sampled_native_peak_RSS_bytes": 19558400,
+        "counters": [
+          65,
+          1,
+          65,
+          65,
+          65,
+          65,
+          512,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "roi3d",
+        "compared_voxels": 61440,
+        "hardware_seconds": 1.004297725,
+        "PL_native_process_wall_seconds": 2.529377887956798,
+        "PS_original_algorithm_seconds": 0.05029126303270459,
+        "DFX_enter_seconds": 0.157167232,
+        "DFX_return_seconds": 0.157669627,
+        "sampled_native_peak_RSS_bytes": 19673088,
+        "counters": [
+          3456,
+          2,
+          3456,
+          3456,
+          3456,
+          3584,
+          558390,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "own139",
+        "compared_voxels": 36438016,
+        "hardware_seconds": 120.205379731,
+        "PL_native_process_wall_seconds": 129.86284623097163,
+        "PS_original_algorithm_seconds": 30.998498733970337,
+        "DFX_enter_seconds": 0.176046711,
+        "DFX_return_seconds": 0.157314843,
+        "sampled_native_peak_RSS_bytes": 92409856,
+        "counters": [
+          39781,
+          68,
+          30206,
+          30206,
+          30206,
+          2374274,
+          19082008,
+          3,
+          1,
+          1
+        ]
+      }
+    ],
+    "whole139_exact": true,
+    "new_candidate_loaded_for_test": true,
+    "all4_trials_returned_C6": true,
+    "production_promoted": false,
+    "performance_qualified": false,
+    "one_run_per_case_only": true,
+    "speed_scope": "PS original algorithm; PL hardware+DMA and separate native wall. No complete-system or clinical-accuracy claim.",
+    "original_B7_hardware_seconds": 933.071099926,
+    "old_over_new_hardware_ratio": 7.762307327792323,
+    "PL_native_over_PS_time_ratio": 4.1893269524262085,
+    "Ross_MCP": "2026.9.1",
+    "Vivado": "2025.2.1 SW6403652",
+    "resources_postroute": {
+      "system_top": {
+        "LUT": 35296,
+        "FF": 57796,
+        "RAMB36": 2,
+        "RAMB18": 0,
+        "URAM": 0,
+        "DSP": 38
+      },
+      "rp": {
+        "LUT": 21456,
+        "FF": 31914,
+        "RAMB36": 2,
+        "RAMB18": 0,
+        "URAM": 0,
+        "DSP": 38
+      }
+    },
+    "archive_SHA256": "15526c54b0dcbf25f5485d99c46d0a91639018b7fc59699bd0960524cbbea4a9"
+  },
+  "original_C5_fair_comparison": {
+    "UTC": "2026-10-21T11:10:41.834934+00:00",
+    "all_owned_bytes_independently_reopened": 889,
+    "all16_complete139_volumes_and2224_original_float32_tensors_exact": true,
+    "all40032_measured_convolutions20016_PL20016_PS_and1668_new_PL_pools_preserved": true,
+    "four_Latin_order_complete_volume_samples": {
+      "PS_scalar4": [
+        230.49570728704566,
+        233.2836161699961,
+        230.49770203698426,
+        234.19882244296605
+      ],
+      "PS_NEON4": [
+        230.59159992600325,
+        232.07538538600784,
+        231.56223378394498,
+        230.50746031396557
+      ],
+      "PL_formal_C5": [
+        32.53019538195804,
+        32.53701645100955,
+        32.54021418199409,
+        32.51543245499488
+      ],
+      "PL_pool_C5": [
+        152.34098705701763,
+        152.3690471079899,
+        152.37839282199275,
+        152.3755556329852
+      ]
+    },
+    "median_full139_wall_seconds": {
+      "PS_scalar4": 231.89065910349018,
+      "PS_NEON4": 231.07691685497412,
+      "PL_formal_C5": 32.53360591648379,
+      "PL_pool_C5": 152.37230137048755
+    },
+    "strongest_measured_exact_PS4": "PS_NEON4",
+    "formal_PL_over_strongest_PS_speedup": 7.102714572991568,
+    "pool_PL_over_strongest_PS_speedup": 1.516528363597523,
+    "pool_PL_over_formal_PL_speedup": 0.21351391049334845,
+    "actual_complete139_performance_gate_passed": false,
+    "actual8_C5_DFX_trials": [
+      {
+        "path": "round00/PL_formal_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "158.218",
+            "switch_ms": "165.88",
+            "static_transactions": "8195",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round00/PL_pool_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "148.386",
+            "switch_ms": "155.962",
+            "static_transactions": "8196",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round01/PL_pool_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "158.471",
+            "switch_ms": "166.064",
+            "static_transactions": "8197",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round01/PL_formal_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "157.077",
+            "switch_ms": "164.678",
+            "static_transactions": "8198",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round02/PL_formal_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "157.657",
+            "switch_ms": "165.205",
+            "static_transactions": "8199",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round02/PL_pool_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "158.262",
+            "switch_ms": "165.816",
+            "static_transactions": "8200",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round03/PL_formal_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "155.882",
+            "switch_ms": "163.503",
+            "static_transactions": "8201",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "round03/PL_pool_C5/actual_switches.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "ct",
+            "partial_ms": "158.306",
+            "switch_ms": "165.809",
+            "static_transactions": "8202",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      }
+    ],
+    "additional18_accepted_lifecycle_partial_loads_outside_timing": [
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_292758.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.427",
+            "switch_ms": "156.067",
+            "static_transactions": "8194",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "146.954",
+            "switch_ms": "154.429",
+            "static_transactions": "8195",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_292804.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.034",
+            "switch_ms": "155.555",
+            "static_transactions": "8195",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.172",
+            "switch_ms": "154.575",
+            "static_transactions": "8196",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_293080.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "147.847",
+            "switch_ms": "155.428",
+            "static_transactions": "8196",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.935",
+            "switch_ms": "155.547",
+            "static_transactions": "8197",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_293797.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.213",
+            "switch_ms": "155.744",
+            "static_transactions": "8197",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.822",
+            "switch_ms": "155.269",
+            "static_transactions": "8198",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_294603.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "147.557",
+            "switch_ms": "155.06",
+            "static_transactions": "8198",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.697",
+            "switch_ms": "155.161",
+            "static_transactions": "8199",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_295292.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.624",
+            "switch_ms": "156.098",
+            "static_transactions": "8199",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.196",
+            "switch_ms": "154.6",
+            "static_transactions": "8200",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_295453.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.332",
+            "switch_ms": "156.355",
+            "static_transactions": "8200",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "146.633",
+            "switch_ms": "154.034",
+            "static_transactions": "8201",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_295775.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "147.717",
+            "switch_ms": "155.248",
+            "static_transactions": "8201",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "147.078",
+            "switch_ms": "154.503",
+            "static_transactions": "8202",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      },
+      {
+        "path": "global_CSV_after/dfx/edt_volume/results/switches_295991.csv",
+        "rows": [
+          {
+            "switch": "1",
+            "rm": "mc",
+            "partial_ms": "148.991",
+            "switch_ms": "156.561",
+            "static_transactions": "8202",
+            "sentinel_address": "1186988032"
+          },
+          {
+            "switch": "2",
+            "rm": "scope",
+            "partial_ms": "146.78",
+            "switch_ms": "154.515",
+            "static_transactions": "8203",
+            "sentinel_address": "1186988032"
+          }
+        ]
+      }
+    ],
+    "all26_partial_loads_retained_no_static_reload_or_hidden_per_slice_reconfiguration": true,
+    "no_slow_pool_candidate_formal_promotion": true,
+    "all_original_file_restoration": {
+      "original_partials_all_global_CSV_and_map_SHA256_restored": true,
+      "formal_UI_unchanged": {
+        "PID": 170720,
+        "ticks": 14337682,
+        "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+        "ELF": "7fcf0cc07e4969a26467aa2a15de4bef5a8102a494c0ce5b29ba2d113c7aa733",
+        "identity_SHA256": "f46ed12856016df6f73635c236c1ea3bd4066aa0feddde737191dee79752ce8f"
+      },
+      "accepted_C8_return_C6_after_each_PL_completed": true,
+      "no_reset_driver_unload_static_reload_or_forced_PL_release": true
+    },
+    "whole_network_speed_scope_not_complete_segmentation_MC_navigation_system_or_clinical_GT": true,
+    "archive_SHA256": "ce9d3be3bdfdb18eaa8acac83062b64cf947532a1c076186759cf872848aeeb1",
+    "source_SHA256": "dc7a38f136bed06a98dc34a08bb5de77e17984dfde591b66adcdb999bfc72ad7",
+    "whole_goal_completed": false
+  }
+}

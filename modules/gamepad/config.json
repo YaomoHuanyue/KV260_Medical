@@ -1,0 +1,9 @@
+{
+  "schema": "kv260.gamepad.v1",
+  "device": "",
+  "axes": {"forward": "ABS_Y", "yaw": "ABS_RX", "pitch": "ABS_RY"},
+  "invert": {"forward": true, "yaw": false, "pitch": true},
+  "deadzone": 0.15,
+  "response_exponent": 1.5,
+  "turn_degrees_per_second": 45.0
+}

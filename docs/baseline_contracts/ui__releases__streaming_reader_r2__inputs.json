@@ -1,0 +1,21 @@
+{
+  "source_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/entry.py": "de41e0534998931e446be7854ac11de71a4234c8a7356012109154d038072f71",
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/assignment.py": "caf92b78e0d3257205f4908ed9243b4e1647752e2f84bc4b34ff0b4db5df073c",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py": "0c7f6e2026d0761519d31efcab7955414be1284625b83f96fe7ca63f78f03268",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+    "modules/segmentation/axis_tensor_reader_r3/operator_roles_r1/verified.json": "aea2006260af92211789a43c4193d0921e5e23f501717b0a621803420c6cf6c1",
+    "results/R3_native_system_ARM_20261022_r1/verified_PC.json": "1f3ba752779212675a4ee982f57cbc60989f3549b613cb5a1cef2ade3a5fb00f",
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/inputs.json": "4d7a6ed31b4a534a147c9e64bed96fcc1fc20e0eadb32c475840799c9ba27c34",
+    "ui/releases/streaming_reader_r2/backend.py": "48c53f1fb54184bc402bb0010274aa6865f53c6c2f012acc7a6e603fa3bb01d2",
+    "ui/releases/streaming_reader_r2/main.cpp": "741b0206060a255ed77326b56c25d12c2aae532c05392b9123d63313ccc146a7",
+    "ui/releases/streaming_reader_r2/build_ARM.py": "b3cc7d9bcef8b3b1360e9e981a11dae8da6b1844402f45a9c33f156bb57e5a58",
+    "ui/releases/streaming_reader_r2/derivation.json": "c9f0c83d8ad4402a56685c4e989eee1f12b492004be71a30e7bfa564d84f5133",
+    "ui/releases/streaming_reader_r1/backend.py": "a7b7a918133c82d1323234fec2793c838ba270c9a931b849237d34e2a0a44432",
+    "ui/releases/streaming_reader_r1/inputs.json": "dac26ca8719e128c336f8a59d5a656dd9c12a964a26cb5cc0f8642848929bed2",
+    "tools/prepare_R3_report_GUI_20261022_r2.py": "c68a2f6d4cc55b7af142789add0e608142b033a8f34a6b541f923d57126c4038"
+  },
+  "dispatcher_SHA256": "bf49bf67d777bda4e3f4c2eef2df14f6e6e43292963ff3e633042459c4c3e29a",
+  "complete_R3_backend_with_metadata_only_report_correction": true,
+  "actual_GUI_execution_pending": true
+}

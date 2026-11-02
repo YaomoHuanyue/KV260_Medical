@@ -1,0 +1,25 @@
+{
+  "actual_old_three_case_capture_and_five_corruptions_checked": true,
+  "new_pooled_carry_case_capture_parser_checked": true,
+  "burst_checker_negative_refusals": [
+    "missing_burst_receipt",
+    "duplicate_burst_receipt",
+    "wrong_full_beats",
+    "wrong_pool_beats",
+    "no_full_multibeat",
+    "no_pool_multibeat",
+    "wrong_near4K_full_base",
+    "wrong_near4K_pool_base",
+    "wrong_case",
+    "impossible_request_capacity"
+  ],
+  "new_positive_capture_and_burst_receipt_are_synthetic_checker_tests_not_new_actual_RTL": true,
+  "full986_actual_outputs_and_all8resets_still_required": true,
+  "whole_goal_completed": false,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r3/verify_collected.py": "84a1e623c150849bee98e4df22509ceb9b137f4a4d86b78cf16659b8896b9912",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r3/fixture_view.py": "13ea4035d245c2292dc3e7feb113708cb45d3cb3986c120c7ba74c785e933499",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r3/fixtures_verified_r7.json": "b7daec372bd97d982faec4db66b1406d3f6082c38a2aa02e7cf70c4774ab259c",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r2/verify_collected_r2.py": "4d8b5f144ab0e046a76e67c9a36873c7d114aaf0ec7ccdefcde6d62f8cb591b4"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "UTC": "2026-10-20T21:24:39.554647+00:00",
+  "status": "PC_ARM_same311_host_checks13_refusals84_HLS_C_calls_paired",
+  "result": {
+    "status": "native_host_HLS_C_exact",
+    "numeric_and_lifecycle_checks": 311,
+    "refusals_before_DMA": 13,
+    "actual_HLS_C_convolution_writer_calls": 84,
+    "actual_fake_DFX_loads": 29,
+    "no_real_PL_or_XRT": true
+  },
+  "ARM_stage": {
+    "compiler_argv": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-O2",
+      "-DCT_NATIVE",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-I/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock",
+      "-I/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/source/dfx/medical/host_extended",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/native_test_r2.cpp",
+      "-o",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/output/host_test"
+    ],
+    "compile_exit_code": 0,
+    "compile_seconds": 23.70115742899361,
+    "run_exit_code": 0,
+    "run_seconds": 0.08290153901907615
+  },
+  "ARM_child_peak_RSS_bytes": 314888192,
+  "all_owned_ARM_model_files_collected_and_SHA_verified_then_exact_task_root_removed": true,
+  "actual_root_removed": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1",
+  "no_formal_UI_firmware_driver_network_or_project_files_changed": true,
+  "no_real_XRT_MMIO_or_PL_access": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/board.py": "fbf22dc738cb1b0011e53916657dd082229fd962260fe4325b5a7c41a6a09e46",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/on_board.py": "4859f069c126317f74c5b66410b424954566dfd17eb4aac5b289dc8824811597",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/owner.json": "8afe5a4f8c7914d855b7aba353bcb432237d3d7db32eca3b892d226423e60a60",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/inputs.json": "4f58414d765fd9ec49eb15d4f72d2aa0bd145a858359260ec70ba73021f99fec",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/all_owned_files_verified_before_cleanup.json": "e48cf867151403243ebb9a2832454ace43c562d18ee1b0be108c26d3400868bc",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/native_Windows_r2/verified.json": "642db5daaa20e98881412975f7b39bcab31fbe3f58e2ffea794773dc26cec3c0",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/terminal.json": "73361b204fc75de7505ea3b9111dc7c8e81b3b1ccfb5a7f5c08bd15915758bb4",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/compile_receipt.json": "e26e2fd6a719f04533536684b3b8aafd2c22803fab2bed7693e91e82ae149b58",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/host_test": "ce524349edfdce09d4cb8112e8dd68135a483214e2d32825a8b0ee34635a5ca8",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/run.log": "fc10c16d6949b4bf6eda214fbfb9f9595ff9bbfb20354a0da25f0ce930ef6cbb",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/started.json": "3de303657a5fc893dab391b782914bd1e34b79a1aa42e265c1b14da9c3022504",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/collected/output/verified.json": "ae1e7f8b1f55236c9a1a39ff802fed1cb9751ae71fc97937720a32a5e139ea70"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

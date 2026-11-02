@@ -1,0 +1,29 @@
+{
+  "main_UI": {
+    "parent": "ui/releases/streaming_reader_r1/main.cpp",
+    "parent_SHA256": "52a7539b21795bb548cff334e7b952ac380a963c18013b8bad46b263b3aa6366",
+    "candidate_SHA256": "741b0206060a255ed77326b56c25d12c2aae532c05392b9123d63313ccc146a7",
+    "literal_edits": [
+      {
+        "before": "root+\"/ui/releases/streaming_reader_r1/backend.py\"",
+        "after": "root+\"/ui/releases/streaming_reader_r2/backend.py\"",
+        "count": 2
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "compiler": {
+    "parent": "ui/releases/streaming_reader_r1/build_ARM.py",
+    "parent_SHA256": "d7b669a31fb39d9053584d5fe666b0c484b5528c91da3d7f092054fb76dce3e6",
+    "literal_edits": [
+      [
+        "entry=ROOT/'modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py'",
+        "entry=ROOT/'modules/segmentation/axis_tensor_reader_r3/reporting_r2/entry.py'",
+        1
+      ]
+    ],
+    "exact_reverse_verified": true
+  },
+  "original_medical_math_and_all_UI_controls_unchanged": true,
+  "actual_ARM_build_and_GUI_execution_pending": true
+}

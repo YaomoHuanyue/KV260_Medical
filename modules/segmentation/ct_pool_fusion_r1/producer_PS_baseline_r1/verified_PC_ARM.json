@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-10-21T00:31:28.195780+00:00",
+  "status": "independent_PC_ARM_same_original_CT3_producers_all_weights_inputs_quant_LUT_and_full_output_tests_verified",
+  "actual_ARM_provider_median_seconds": {
+    "mode0_threads1": 1.1794450169836637,
+    "mode0_threads4": 0.3009875490097329,
+    "mode1_threads1": 1.1785265870275907,
+    "mode1_threads4": 0.3031333620310761,
+    "measured_per_case_selection": 0.302014571003383
+  },
+  "strongest_actual_ARM_provider": "mode0_threads4",
+  "strongest_actual_ARM_group_seconds": 0.3009875490097329,
+  "actual_ARM_memory": {
+    "peak_RSS_bytes": 83345408
+  },
+  "all3_producer_inputs_match_original139_slice69_SHA256": true,
+  "all3_weights_bias_scales_and_LUTs_independently_match_frozen_model": true,
+  "all_complete_fullskip_and_pool_outputs_checked_on_actual_ARM_scalar_NEON_PS1_PS4": true,
+  "original_float32_rounding_and_INT32_accumulation_precision_preserved": true,
+  "all_owned_members_received_reopened_and_exact_task_root_removed": true,
+  "no_current_UI_bitstream_or_driver_replacement": true,
+  "endpoint_baseline_not_whole139_PS_model_or_PL_speedup": true,
+  "strongest_available_measured_implementations_not_claim_all_possible_CPU_libraries": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/verify.py": "edaf0c20a1219bbb3dea4390a725d1b0ed0acb24300170ca3a03c0be260cce01",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/producer.cpp": "8ff5129f28aa40bf0b8589803cbb8745c3bacfdcd175936bcd29e398c62a6c1b",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/benchmark.py": "7a89a2f32a9b51c7c5904b8048e969aeac77b87bf80224ba35ea1dcd7608e680",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/on_board.py": "efa7c2c3308bdc10bbfd8985b55176213de24184260e66fe3187c2fc8943810a",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/board.py": "29a646c3d6a2a3923a07b88e8ce6d9bd3754ef8411857447f729c0a2cd25c800",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/fixture.zip": "c9229b2bbde33b402365f0b5f7949c78549f7f4505de484d5c0796c15a37de0d",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/fixture_verified.json": "0ec559ccb2c2e28b5d1d063b59b48cc6476fde139f7be23a6f470d9c76551b74",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/PS_Windows.json": "b1c4213ef984adfce164b5103669219f3419fde57031da328f991b0c8175e380",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/ARM_task_r1/paired_verified.json": "40af195a3ce6fb9fa6c5b74ca1695a68774c4ef14245bbedabff50e2998c20c5",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/ARM_task_r1/owned_evidence.zip": "a326221880afc583cbb7e732ce15606a61dee568eaf53cd0eeff9c0e3703742f",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/ARM_task_r1/all_owned_bytes_verified_before_cleanup.json": "77c77976279db35745f935d4d9ac6bfa5439be6efeeb47c6fc669d349b72e09b",
+    "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/ARM_task_r1/cleanup_verified.json": "74f187e8d1e8abca9476aa5f2e72b03f57301b4118e54c8f0b95f8219b79ba27"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,5 @@
+PASS actual D9 PL tetrahedron all5 banks16 reports and tail/drain {"phases": {"validation": 2.46e-06, "BO_capacity_growth": 0.002579036, "copy_and_guards": 6.939e-05, "input_sync": 4.7401e-05, "partial_load": 0.148105881, "complete_switch": 0.155805798, "hardware_and_header_service": 0.000773748, "readback_and_all24_guard_checks": 0.000369353, "output_copy": 2.8e-06, "native_total": 0.159924709, "graph_single_upload": 3.013e-05, "control": 4.4671e-05}, "graph_requests": 5, "graph_beats": 10, "graph_DMA_bytes": 640, "stream_errors": 0, "allocations": 12, "reuses": 0, "pool_capacity_bytes": 99044, "session_partial_switches": 1, "Python_call_seconds": 0.16029233299923362, "all_five_work_banks_read_back": true, "algorithm_backend": "DFX_PL_D9_AXIS512"}
+PASS actual D9 CT lung PL 1.94309238400092 exact PS4 0.945046631997684 speedup 0.4863621718550447
+PASS actual D9 CT airway PL 0.10833715400076471 exact PS4 0.05256736600131262 speedup 0.4852201120304634
+PASS actual D9 CT nodule PL 0.015213202001177706 exact PS4 0.0052987729977758136 speedup 0.3483009689456314
+PASS actual D9 PL correctness; same precision PS4 speed gate False

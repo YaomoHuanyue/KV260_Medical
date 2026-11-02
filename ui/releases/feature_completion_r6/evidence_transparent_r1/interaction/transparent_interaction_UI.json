@@ -1,0 +1,619 @@
+{
+    "actual_preview_update_fps": 5.6194772941187985,
+    "baseline_RGBA_sha256": "eab74898c32366cd6cd9fd4e686d427a7e82b4d709a7c0832c5954a3e1c2335b",
+    "baseline_exact_round_trip_seconds": 13.259022701,
+    "baseline_request": {
+        "center_lps_mm": [
+            -20.72357177734375,
+            9.269908905029297,
+            -174.73532104492188
+        ],
+        "clipping": {
+            "axis": 2,
+            "enabled": false,
+            "value_mm": -105.86690521240234
+        },
+        "color_mode": 0,
+        "full_lung": true,
+        "height": 288,
+        "layers": {
+            "airway": true,
+            "lung": true,
+            "nodule": true
+        },
+        "lung_opacity": 0.20000000298023224,
+        "pitch_degrees": 0,
+        "radius_mm": 290.12982177734375,
+        "required_radius_mm": 0.800000011920929,
+        "resolution_margin_mm": 1.3611054420471191,
+        "width": 640,
+        "yaw_degrees": 0,
+        "zoom": 1
+    },
+    "detail": "连续拖动预览与停止后完整精确帧已实测",
+    "exact_frames": [
+        {
+            "UI_frame_index": 1,
+            "captured_evidence": "/run/kv260-ui-runtime/composite_worker_bwnIOR",
+            "event": "frame",
+            "frame_path": "/run/kv260-ui-runtime/pl_composite_421403.rgba",
+            "full_lung": true,
+            "height": 288,
+            "orientation_column_major": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                20.72357177734375,
+                174.73532104492188,
+                -803.0935668945312,
+                1
+            ],
+            "pitch_degrees": 0,
+            "pl_module": "composite",
+            "projection_column_major": [
+                1.1722899675369263,
+                0,
+                0,
+                0,
+                0,
+                2.605088949203491,
+                0,
+                0,
+                0,
+                0,
+                -7.141958236694336,
+                -1,
+                0,
+                0,
+                -5688.12109375,
+                0
+            ],
+            "report": {
+                "CPU_color_layer_captures_present": false,
+                "CPU_color_layer_readback_seconds": 0,
+                "analysis_attributes_sha256": "",
+                "batch_vertices": 96000,
+                "board_PL_test": true,
+                "controls": {
+                    "center_lps_mm": [
+                        -20.72357177734375,
+                        9.269908905029297,
+                        -174.73532104492188
+                    ],
+                    "clipping": {
+                        "axis": 2,
+                        "enabled": false,
+                        "value_mm": -105.86690521240234
+                    },
+                    "color_mode": 0,
+                    "focus": true,
+                    "full_lung": true,
+                    "height": 288,
+                    "layers": {
+                        "airway": true,
+                        "lung": true,
+                        "nodule": true
+                    },
+                    "lung_opacity_byte": 51,
+                    "pitch_degrees": 0,
+                    "radius_mm": 290.12982177734375,
+                    "required_radius_mm": 0.800000011920929,
+                    "resolution_margin_mm": 1.3611054420471191,
+                    "width": 640,
+                    "yaw_degrees": 0,
+                    "zoom": 1
+                },
+                "ct_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+                "depth_order_policy": "24-bit fixed-function depth; exact byte triangle identifiers; rank keys",
+                "far_mm": 926.1087036132812,
+                "fragment_float_depth_comparison": false,
+                "full_lung": true,
+                "gpu_geometry_seconds": 6.567766044999999,
+                "height": 288,
+                "identifier_readback_seconds": 0.16537791599999999,
+                "kind": "actual_own_CT_GPU_medical_identifier_peeling",
+                "live_shared_composition": {
+                    "CPU_color_layer_captures_present": false,
+                    "GPU_prepare_seconds": 0.019262493,
+                    "GPU_sample_seconds": 0.001382324,
+                    "HDMI_UI_integration": false,
+                    "PL_compute_and_sync_seconds": 0.023017859,
+                    "PL_core_seconds": 0.022888067999999998,
+                    "all_pixels_exact": false,
+                    "batches": 4,
+                    "complete_composition_seconds": 0.043664886,
+                    "composite_kept_loaded": true,
+                    "guards_unchanged": true,
+                    "rank_keys": "constant GPU clear; alpha-zero is exact neutral blend",
+                    "readback_and_validation_seconds_separate": 0.022488845,
+                    "reference_seconds_separate": 6.9e-07,
+                    "setup_seconds": 2.504308797,
+                    "shared_allocation_count": 1,
+                    "shared_allocation_reused": false,
+                    "status": "completed_actual_medical_C7_frame_without_CPU_layer_captures",
+                    "surface_restored": false,
+                    "transparent_layers": 12
+                },
+                "lung_layers": [
+                    {
+                        "geometry_seconds": 0.564175903,
+                        "hits": 12394,
+                        "rank": 1
+                    },
+                    {
+                        "geometry_seconds": 0.730278693,
+                        "hits": 12253,
+                        "rank": 2
+                    },
+                    {
+                        "geometry_seconds": 0.6136682769999999,
+                        "hits": 4076,
+                        "rank": 3
+                    },
+                    {
+                        "geometry_seconds": 0.671724078,
+                        "hits": 4018,
+                        "rank": 4
+                    },
+                    {
+                        "geometry_seconds": 0.692328754,
+                        "hits": 1196,
+                        "rank": 5
+                    },
+                    {
+                        "geometry_seconds": 0.625347905,
+                        "hits": 1176,
+                        "rank": 6
+                    },
+                    {
+                        "geometry_seconds": 0.559604327,
+                        "hits": 292,
+                        "rank": 7
+                    },
+                    {
+                        "geometry_seconds": 0.53601825,
+                        "hits": 282,
+                        "rank": 8
+                    },
+                    {
+                        "geometry_seconds": 0.515239134,
+                        "hits": 67,
+                        "rank": 9
+                    },
+                    {
+                        "geometry_seconds": 0.42959305699999994,
+                        "hits": 64,
+                        "rank": 10
+                    },
+                    {
+                        "geometry_seconds": 0.42453862500000006,
+                        "hits": 7,
+                        "rank": 11
+                    },
+                    {
+                        "geometry_seconds": 0.16407830099999998,
+                        "hits": 7,
+                        "rank": 12
+                    }
+                ],
+                "maximum_lung_layers_per_pixel": 12,
+                "mesh_cache_hits": 0,
+                "mesh_cache_misses": 3,
+                "mesh_sha256": {
+                    "airway": "8b3ee41dc0aace416a5ab7683814e1c873f1b867b0c58f84ab046ca7924fec41",
+                    "lung": "bbbcd3186bb60ad5d65f9c185f66883a6759e6b797af50c18220c4a5564969ba",
+                    "nodule": "eb6963d3731d4e5afa1126e57623e7aa25d6604757459a6869e4ba2e0cf01ce9"
+                },
+                "near_mm": 698.6182861328125,
+                "peak_rss_mib": 223.05078125,
+                "pitch_degrees": 0,
+                "pixels_exceeding_three_lung_layers": 4018,
+                "preparation_seconds": 3.170087885,
+                "production_UI_replaced": false,
+                "projection_column_major": [
+                    1.1722899675369263,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2.605088949203491,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -7.141958236694336,
+                    -1,
+                    0,
+                    0,
+                    -5688.12109375,
+                    0
+                ],
+                "readback_and_validation_excluded": true,
+                "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+                "scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+                "screen_tile_culling": true,
+                "shader_cache_reused": false,
+                "shader_setup_seconds": 0.103916489,
+                "status": "complete_extraction_and_live_composition_pending_geometry_oracle",
+                "strong_PS_comparison": {
+                },
+                "submitted_triangles": 16875903,
+                "thirty_two_layer_overflow": false,
+                "triangles": {
+                    "airway": 46520,
+                    "lung": 860680,
+                    "nodule": 6996
+                },
+                "view_column_major": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    20.72357177734375,
+                    174.73532104492188,
+                    -803.0935668945312,
+                    1
+                ],
+                "width": 640,
+                "yaw_degrees": 0
+            },
+            "round_trip_seconds": 13.259022701,
+            "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+            "sequence": 1,
+            "transport_round_trip_ms": 13263,
+            "ui_received_ms": 19618,
+            "width": 640,
+            "yaw_degrees": 0
+        },
+        {
+            "UI_frame_index": 2,
+            "captured_evidence": "/run/kv260-ui-runtime/composite_worker_bwnIOR",
+            "event": "frame",
+            "frame_path": "/run/kv260-ui-runtime/pl_composite_421403.rgba",
+            "full_lung": true,
+            "height": 288,
+            "orientation_column_major": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                20.72357177734375,
+                174.73532104492188,
+                -803.0935668945312,
+                1
+            ],
+            "pitch_degrees": 0,
+            "pl_module": "composite",
+            "projection_column_major": [
+                1.1722899675369263,
+                0,
+                0,
+                0,
+                0,
+                2.605088949203491,
+                0,
+                0,
+                0,
+                0,
+                -7.141958236694336,
+                -1,
+                0,
+                0,
+                -5688.12109375,
+                0
+            ],
+            "report": {
+                "CPU_color_layer_captures_present": false,
+                "CPU_color_layer_readback_seconds": 0,
+                "analysis_attributes_sha256": "",
+                "batch_vertices": 96000,
+                "board_PL_test": true,
+                "controls": {
+                    "center_lps_mm": [
+                        -20.72357177734375,
+                        9.269908905029297,
+                        -174.73532104492188
+                    ],
+                    "clipping": {
+                        "axis": 2,
+                        "enabled": false,
+                        "value_mm": -105.86690521240234
+                    },
+                    "color_mode": 0,
+                    "focus": true,
+                    "full_lung": true,
+                    "height": 288,
+                    "layers": {
+                        "airway": true,
+                        "lung": true,
+                        "nodule": true
+                    },
+                    "lung_opacity_byte": 51,
+                    "pitch_degrees": 0,
+                    "radius_mm": 290.12982177734375,
+                    "required_radius_mm": 0.800000011920929,
+                    "resolution_margin_mm": 1.3611054420471191,
+                    "width": 640,
+                    "yaw_degrees": 0,
+                    "zoom": 1
+                },
+                "ct_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+                "depth_order_policy": "24-bit fixed-function depth; exact byte triangle identifiers; rank keys",
+                "far_mm": 926.1087036132812,
+                "fragment_float_depth_comparison": false,
+                "full_lung": true,
+                "gpu_geometry_seconds": 6.216958008,
+                "height": 288,
+                "identifier_readback_seconds": 0.16023248300000004,
+                "kind": "actual_own_CT_GPU_medical_identifier_peeling",
+                "live_shared_composition": {
+                    "CPU_color_layer_captures_present": false,
+                    "GPU_prepare_seconds": 0.019300031999999998,
+                    "GPU_sample_seconds": 0.001096181,
+                    "HDMI_UI_integration": false,
+                    "PL_compute_and_sync_seconds": 0.023172292,
+                    "PL_core_seconds": 0.02304844,
+                    "all_pixels_exact": false,
+                    "batches": 4,
+                    "complete_composition_seconds": 0.043570455,
+                    "composite_kept_loaded": true,
+                    "guards_unchanged": true,
+                    "rank_keys": "constant GPU clear; alpha-zero is exact neutral blend",
+                    "readback_and_validation_seconds_separate": 0.0199653,
+                    "reference_seconds_separate": 8.11e-07,
+                    "setup_seconds": 7.6e-07,
+                    "shared_allocation_count": 1,
+                    "shared_allocation_reused": true,
+                    "status": "completed_actual_medical_C7_frame_without_CPU_layer_captures",
+                    "surface_restored": false,
+                    "transparent_layers": 12
+                },
+                "lung_layers": [
+                    {
+                        "geometry_seconds": 0.533250932,
+                        "hits": 12394,
+                        "rank": 1
+                    },
+                    {
+                        "geometry_seconds": 0.640641558,
+                        "hits": 12253,
+                        "rank": 2
+                    },
+                    {
+                        "geometry_seconds": 0.589383914,
+                        "hits": 4076,
+                        "rank": 3
+                    },
+                    {
+                        "geometry_seconds": 0.650667138,
+                        "hits": 4018,
+                        "rank": 4
+                    },
+                    {
+                        "geometry_seconds": 0.65982395,
+                        "hits": 1196,
+                        "rank": 5
+                    },
+                    {
+                        "geometry_seconds": 0.601994221,
+                        "hits": 1176,
+                        "rank": 6
+                    },
+                    {
+                        "geometry_seconds": 0.56691275,
+                        "hits": 292,
+                        "rank": 7
+                    },
+                    {
+                        "geometry_seconds": 0.50800531,
+                        "hits": 282,
+                        "rank": 8
+                    },
+                    {
+                        "geometry_seconds": 0.507857449,
+                        "hits": 67,
+                        "rank": 9
+                    },
+                    {
+                        "geometry_seconds": 0.398478596,
+                        "hits": 64,
+                        "rank": 10
+                    },
+                    {
+                        "geometry_seconds": 0.376329484,
+                        "hits": 7,
+                        "rank": 11
+                    },
+                    {
+                        "geometry_seconds": 0.149684847,
+                        "hits": 7,
+                        "rank": 12
+                    }
+                ],
+                "maximum_lung_layers_per_pixel": 12,
+                "mesh_cache_hits": 3,
+                "mesh_cache_misses": 3,
+                "mesh_sha256": {
+                    "airway": "8b3ee41dc0aace416a5ab7683814e1c873f1b867b0c58f84ab046ca7924fec41",
+                    "lung": "bbbcd3186bb60ad5d65f9c185f66883a6759e6b797af50c18220c4a5564969ba",
+                    "nodule": "eb6963d3731d4e5afa1126e57623e7aa25d6604757459a6869e4ba2e0cf01ce9"
+                },
+                "near_mm": 698.6182861328125,
+                "peak_rss_mib": 223.05078125,
+                "pitch_degrees": 0,
+                "pixels_exceeding_three_lung_layers": 4018,
+                "preparation_seconds": 8.6731e-05,
+                "production_UI_replaced": false,
+                "projection_column_major": [
+                    1.1722899675369263,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2.605088949203491,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -7.141958236694336,
+                    -1,
+                    0,
+                    0,
+                    -5688.12109375,
+                    0
+                ],
+                "readback_and_validation_excluded": true,
+                "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+                "scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+                "screen_tile_culling": true,
+                "shader_cache_reused": true,
+                "shader_setup_seconds": 4.5131e-05,
+                "status": "complete_extraction_and_live_composition_pending_geometry_oracle",
+                "strong_PS_comparison": {
+                },
+                "submitted_triangles": 16875903,
+                "thirty_two_layer_overflow": false,
+                "triangles": {
+                    "airway": 46520,
+                    "lung": 860680,
+                    "nodule": 6996
+                },
+                "view_column_major": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    20.72357177734375,
+                    174.73532104492188,
+                    -803.0935668945312,
+                    1
+                ],
+                "width": 640,
+                "yaw_degrees": 0
+            },
+            "round_trip_seconds": 7.096409945,
+            "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+            "sequence": 2,
+            "transport_round_trip_ms": 7099,
+            "ui_received_ms": 32728,
+            "width": 640,
+            "yaw_degrees": 0
+        }
+    ],
+    "interactive_last_request": {
+        "center_lps_mm": [
+            -20.72357177734375,
+            9.269908905029297,
+            -174.73532104492188
+        ],
+        "clipping": {
+            "axis": 2,
+            "enabled": false,
+            "value_mm": -105.86690521240234
+        },
+        "color_mode": 0,
+        "full_lung": true,
+        "height": 288,
+        "layers": {
+            "airway": true,
+            "lung": true,
+            "nodule": true
+        },
+        "lung_opacity": 0.20000000298023224,
+        "pitch_degrees": 8.549999237060547,
+        "radius_mm": 290.12982177734375,
+        "required_radius_mm": 0.800000011920929,
+        "resolution_margin_mm": 1.3611054420471191,
+        "width": 640,
+        "yaw_degrees": -14.850000381469727,
+        "zoom": 1
+    },
+    "kind": "actual_KV260_Qt_preview_and_unchanged_precise_PL_C7",
+    "mouse_move_events": 22,
+    "new_PL_core": false,
+    "no_automatic_mesh_or_layer_reduction": true,
+    "no_exact_request_during_continuous_mouse_motion": true,
+    "original_complete_geometry_unchanged": true,
+    "physical_mouse_verified": false,
+    "preview_metrics": {
+        "active": false,
+        "painted": 26,
+        "swapped": 34
+    },
+    "preview_swapped_times_ms": [
+        368.078051,
+        549.781289,
+        740.726128,
+        917.035322,
+        1094.909221,
+        1271.115563,
+        1450.002982,
+        1626.531198,
+        1803.935662,
+        1979.811781,
+        2157.077324,
+        2333.459198,
+        2511.676501,
+        2688.5588,
+        2864.967554,
+        3041.731192,
+        3217.789243,
+        3396.662802,
+        3574.149277,
+        3751.683003,
+        3927.675713,
+        4105.080427
+    ],
+    "quiet_requests": 1,
+    "render_metrics": {
+        "error": "",
+        "frames": 33,
+        "note": "paintGL CPU submission duration, not complete GPU frame latency",
+        "paint_submit_max_ms": 131.027901,
+        "paint_submit_median_ms": 1.513735,
+        "renderer": "Mali-400 MP",
+        "scope_cached_blits": 0,
+        "scope_shading_passes": 0,
+        "shader_linked": true,
+        "valid": true
+    },
+    "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/6714348fb2275d154633f3ae/scene.json",
+    "settled_RGBA_sha256": "eab74898c32366cd6cd9fd4e686d427a7e82b4d709a7c0832c5954a3e1c2335b",
+    "settled_pixels_equal_exact_only_baseline": true,
+    "settled_round_trip_seconds": 7.096409945,
+    "stale_frames_rejected": 0,
+    "status": "passed"
+}

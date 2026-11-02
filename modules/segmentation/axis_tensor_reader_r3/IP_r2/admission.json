@@ -1,0 +1,19 @@
+{
+  "source_SHA256": {
+    "tools/start_tensor_R3_IP_R2_20261022_r1.py": "76ee2946a1b469f84c82493051607be959de0b3db93869310a2e4e7bd2703600",
+    "modules/segmentation/axis_tensor_reader_r3/IP_r2/run.py": "2599e0fb4d10dfbbeaae6b7b894a1b1d28484991c5ba80e202222188c6136483",
+    "modules/segmentation/axis_tensor_reader_r3/IP_r2/refresh.tcl": "6e89e8f602a37245966c4ec25ff30fce1e7b7d59ad835fc2f7a44231b2f7e56d",
+    "modules/segmentation/axis_tensor_reader_r3/IP_r2/parent_closed.json": "23dda78807d73569e6fee8d80e8e920d1687c0d22199e1eda0cd90fff76861a6",
+    "modules/segmentation/axis_tensor_reader_r3/IP_r1/run.py": "eea415239bf0b46d4c7f697cbdd752ccf7dff557a86e41221202996f72a5feba",
+    "results/tensor_reader_R3_RTL_20261022_r1/axis_rtl/verified_PC.json": "8c4519520e186d8430845e1354f1ca1f0b5e91b133329474f827a5d33f5caa18",
+    "results/tensor_reader_R3_IP_20261022_r1/axis_hls/stream_collection_verified.json": "f1cd54f71528689d6f05dc6af4e11d5accca2644aae9e295bbbfc641d9d21c90",
+    "results/tensor_reader_R3_IP_20261022_r1/axis_hls/cleanup_verified_stream.json": "bfefbaf0351cfee7bffe7f1ed3bda42ebf1ec91dad9304bafa5aa298f44e5288",
+    "dfx/navigation_profile/rtl_r74/job_limit_r74.py": "8e0d9c8d80b3bdda6ab54ba4265979a105931bf5f9f4ff29c9c42aa35dfe44a1"
+  },
+  "artifact_SHA256": {
+    "payload/raw_export.zip": "039ae1aad64fd7b5b34df49628efaf237449621c27251696c4bbcfea51ca65ac",
+    "payload/syn_top.v": "9bf856aec8aea5db801000b20aed8ba731abfec0601a2ab2c0251e0c1f52f1af"
+  },
+  "exact_prior_full159_HLS_package_and330_RTL_scope_preserved": true,
+  "whole_goal_completed": false
+}

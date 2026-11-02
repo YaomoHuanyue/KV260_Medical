@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "all_children_reaped": true,
+  "output_SHA256": {
+    "output/defined_symbols.txt": "afa3218783f6e0e06adaf9040352939781e95b975f3c4fe4ea490076da509f29",
+    "output/XRT_compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output/XRT_compile_receipt.json": "59cd0d4156d7e0ba60ef609ef861ba811a94ae1dfeaa109f784aac7d80bd3d26",
+    "output/started.json": "47e938a86bdbd835976874070ddf46b761412e7bcb5183c7a83db5bff778335b",
+    "output/host_test": "77e2f2b27e5bbe0055920b2f2438c38c9a089bfe0810defe0ed08cc4da41696e",
+    "output/verified.json": "a05af5c2021eb8945d74c6d305b611d32942e3af3bded77d85927621e57101b7",
+    "output/dependencies.d": "82a48938aee2e62460e89ce3bf16f23432061b83b8460c66ef14649ad0f3d70b",
+    "output/mock_compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "output/mock_run.log": "e7eecd6697ac50744c7748690bdfceeb5cf18f2777d77dc8f29d577527a05456",
+    "output/libct_tensor_reader.so": "8c431fcaa56948635642aa3fb9016e65662005d04f3ff83f132be8bcd571bbbf",
+    "output/mock_run_receipt.json": "5da31bbeefe7799f362b0bea7898775539602829608e85bfed6e603946de8eef",
+    "output/mock_compile_receipt.json": "f593c9344fd0fd92ced6be102d13f72a6921965b418813465f9a8a5b6920441d"
+  }
+}

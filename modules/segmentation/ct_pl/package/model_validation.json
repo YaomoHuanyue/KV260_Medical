@@ -1,0 +1,618 @@
+{
+  "status": "passed",
+  "source_sha256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+  "layers": [
+    {
+      "model": "ct_pl/model",
+      "layer": 0,
+      "shape": [
+        1,
+        5,
+        8,
+        11
+      ],
+      "weights": [
+        8,
+        5,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 1,
+      "shape": [
+        1,
+        8,
+        8,
+        11
+      ],
+      "weights": [
+        8,
+        8,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 2,
+      "shape": [
+        1,
+        8,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        8,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 3,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 4,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 5,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 6,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        64,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 7,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 8,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        64,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 9,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        64,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 10,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 11,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 12,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 13,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 14,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        8,
+        16,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 15,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        8,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 16,
+      "shape": [
+        1,
+        8,
+        8,
+        11
+      ],
+      "weights": [
+        8,
+        8,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "layer": 17,
+      "shape": [
+        1,
+        8,
+        8,
+        11
+      ],
+      "weights": [
+        3,
+        8,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 0,
+      "shape": [
+        1,
+        5,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        5,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 1,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 2,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 3,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 4,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 5,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 6,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        64,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 7,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 8,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        64,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 9,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        64,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 10,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 11,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 12,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        64,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 13,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 14,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 15,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        32,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 16,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "layer": 17,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights": [
+        3,
+        16,
+        1,
+        1
+      ],
+      "exact": true
+    }
+  ]
+}

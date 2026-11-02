@@ -1,0 +1,7 @@
+{
+  "before_SHA256": "8e9e4f9ae907002ca58cc147809551e04baa26edc155225d4643b1108dd16807",
+  "after_SHA256": "acfa54f6a8b4bd6a700a68faa176e28bd936f15e4cfc705e0f4ff1c8da49ee37",
+  "two_existing_backend_paths_replaced_and_other_MainWindow_logic_unchanged": true,
+  "no_compiled_candidate_modified": true,
+  "tool_SHA256": "51773003fcf029eb2e13a3411ce06d45ac3ee4649c8e000a37e554dc40ee72b0"
+}

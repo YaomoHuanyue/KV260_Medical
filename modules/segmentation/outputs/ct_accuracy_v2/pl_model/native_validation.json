@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "layers": [
+    {
+      "layer": 0,
+      "shape": [
+        1,
+        5,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 1,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 2,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 3,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 4,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 5,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 6,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 7,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 8,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 9,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 10,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 11,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 12,
+      "shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 13,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 14,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 15,
+      "shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 16,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    },
+    {
+      "layer": 17,
+      "shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "max_integer_error": 0
+    }
+  ]
+}

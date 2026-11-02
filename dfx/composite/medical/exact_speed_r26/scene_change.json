@@ -1,0 +1,9 @@
+{
+  "status": "changed_scene_rejected_before_second_frame",
+  "original_scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+  "original_scene_unchanged": true,
+  "source_sha256": "5f4e1b5da6c7b081c1b945d8c4958d31b2c740f9e625e1116b2d38faab2b6d46",
+  "worker_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+  "expected_error": "Scene metadata changed; restart the worker",
+  "no_force_termination": true
+}

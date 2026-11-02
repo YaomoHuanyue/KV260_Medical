@@ -1,0 +1,24 @@
+{
+  "original_worker_source": "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py",
+  "original_worker_file_SHA256": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b",
+  "original_worker_function_SHA256": "3a6b79e485e235091de40a6670b740f740f16550362f27f38fc16679825fba56",
+  "derived_worker_function_SHA256": "af75c7a8bbdff85172e9111b8cbd7021b4e4b33e144185f7078b54e684c7e1ca",
+  "exact_literal_edits": [
+    {
+      "before": "            pred=sitk.GetImageFromArray(mask);pred.CopyInformation(image)\n            masks[name]=sitk.GetArrayFromImage(sitk.Resample(pred,original,sitk.Transform(),sitk.sitkNearestNeighbor,0,sitk.sitkUInt8))",
+      "after": "            masks[name]=restore_mask(mask,image,original)"
+    },
+    {
+      "before": "    finally:b.close()",
+      "after": "    finally:b.close()\n    del prepare\n    prepared.pop(\"quantized\")\n    gc.collect()"
+    },
+    {
+      "before": "    post=time.perf_counter()-tick",
+      "after": "    post=time.perf_counter()-tick\n    del raw_airway\n    gc.collect()"
+    }
+  ],
+  "exact_reverse_verified": true,
+  "all18_PL_conv_and_quantized_context_thresholds_model_and_full_volume_loops_unchanged": true,
+  "diagnostic_logits_and_preview_disabled_as_in_actual_case10_baseline": true,
+  "candidate_not_production_promoted": true
+}

@@ -1,0 +1,22 @@
+{
+  "status": "built_PS_indexing_only",
+  "platform": "linux",
+  "machine": "aarch64",
+  "argv": [
+    "/usr/bin/g++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-shared",
+    "-fPIC",
+    "-mcpu=cortex-a53",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/indexing_r17/split_links.cpp",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_quality/indexing_r17/build_ARM/libindexing.so"
+  ],
+  "source_sha256": "33ed9f32f6bab1a2e6ca663bdf1c398ecd2bfe32c24ff920ff888643aa352bf5",
+  "library_sha256": "1c62b466d5b23f803dabed0e8d365e96ef950711b8b7f2f67099334d81acfe4f",
+  "builder_sha256": "a0936b2021254f01ff100721b761fbab100ce6ccd43e2bfeff84b202b4432866",
+  "PL_access": false,
+  "no_triangulation": true
+}

@@ -1,0 +1,13 @@
+{
+  "files": 1973,
+  "logical_bytes": 262917933,
+  "lfs_files": 60,
+  "unique_lfs_objects": 58,
+  "lfs_logical_bytes": 210041957,
+  "ordinary_bytes": 52875976,
+  "locked_inputs_all_staged": true,
+  "all_index_bytes_and_LFS_objects_verified": true,
+  "credential_pattern_matches": [],
+  "remote_configured": false,
+  "scope": "Index snapshot before final removal of four obsolete GUI binaries and shrinking historical dependency metadata"
+}

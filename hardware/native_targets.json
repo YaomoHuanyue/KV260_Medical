@@ -1,0 +1,569 @@
+{
+  "modules__segmentation__axis_tensor_reader_r3__host_r1__ARM_r1__collected__output__libct_tensor_reader": {
+    "output_reference": "modules/segmentation/axis_tensor_reader_r3/host_r1/ARM_r1/collected/output/libct_tensor_reader.so",
+    "arguments": [
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-Wl,-z,defs",
+      "-I{ROOT}/modules/runtime_audit/C5_pool_host_r1",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/segmentation/axis_tensor_reader_r3/host_r1/ct_tensor_bridge.cpp",
+      "-L/usr/lib/aarch64-linux-gnu",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/segmentation/axis_tensor_reader_r3/host_r1/ct_tensor_bridge.cpp"
+    ],
+    "original_receipt": "modules/segmentation/axis_tensor_reader_r3/host_r1/ARM_r1/paired_verified.json"
+  },
+  "modules__segmentation__ct_pool_fusion_r1__host_dual_r1__ARM__libct_pool_candidate": {
+    "output_reference": "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM/libct_pool_candidate.so",
+    "arguments": [
+      "-std=c++17",
+      "-O2",
+      "-fPIC",
+      "-shared",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-pthread",
+      "-Wl,-z,defs",
+      "-I",
+      "{ROOT}/dfx/medical/host_extended",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ct_pool_bridge.cpp",
+      "-L/usr/lib/aarch64-linux-gnu",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ct_pool_bridge.cpp"
+    ],
+    "original_receipt": "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM/verified.json"
+  },
+  "modules__ct_preprocess__axis_hu_32_r2__host_r1__native_ARM_r2__libhu_dfx": {
+    "output_reference": "modules/ct_preprocess/axis_hu_32_r2/host_r1/native_ARM_r2/libhu_dfx.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-fPIC",
+      "-shared",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/ct_preprocess/axis_hu_32_r2/host_r1/bridge.cpp",
+      "{ROOT}/modules/ct_preprocess/axis_hu_32_r2/host_r1/exports.map",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/ct_preprocess/axis_hu_32_r2/host_r1/bridge.cpp"
+    ],
+    "original_receipt": "modules/ct_preprocess/axis_hu_32_r2/host_r1/native_ARM_r2/verified.json"
+  },
+  "modules__reconstruction__smooth_pipeline_r2__axis_tile1024_r1__host_D9_r1__hardware_r1__build_ARM_r1__libD9_XRT": {
+    "output_reference": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/libD9_XRT.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-fPIC",
+      "-shared",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/bridge.cpp",
+      "-pthread",
+      "-lxrt_coreutil",
+      "-Wl,-z,defs"
+    ],
+    "sources": [
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/bridge.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/compile_receipt.json"
+  },
+  "modules__runtime_audit__C5_pool_host_r1__ARM_r3__owned_outputs__libct_pool_unique_log": {
+    "output_reference": "modules/runtime_audit/C5_pool_host_r1/ARM_r3/owned_outputs/libct_pool_unique_log.so",
+    "arguments": [
+      "-std=c++17",
+      "-O2",
+      "-fPIC",
+      "-shared",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-pthread",
+      "-Wl,-z,defs",
+      "-I",
+      "{ROOT}/dfx/medical/host_extended",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/runtime_audit/C5_pool_host_r1/ct_pool_bridge.cpp",
+      "-L/usr/lib/aarch64-linux-gnu",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/runtime_audit/C5_pool_host_r1/ct_pool_bridge.cpp"
+    ],
+    "original_receipt": "modules/runtime_audit/C5_pool_host_r1/ARM_r3/owned_outputs/compile_receipt.json"
+  },
+  "modules__reconstruction__smooth_pipeline_r2__axis_tile1024_r1__arm_native_r1__build_r1__candidate": {
+    "output_reference": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/build_r1/candidate.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-I{ROOT}/modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1",
+      "{ROOT}/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/native_bridge.cpp"
+    ],
+    "sources": [
+      "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/native_bridge.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/compile_receipt.json"
+  },
+  "modules__reconstruction__smooth_pipeline_r2__axis_load4_r1__host_D8_r1__arm_cross_r1__build_r1__reference": {
+    "output_reference": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/arm_cross_r1/build_r1/reference.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-pthread",
+      "-DSMOOTH_NATIVE",
+      "-fPIC",
+      "-shared",
+      "{ROOT}/modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/reference.cpp"
+    ],
+    "sources": [
+      "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/reference.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/arm_cross_r1/build_r1/verified_cross_only.json"
+  },
+  "dfx__navigation_profile__build__libprofile_xrt_r1": {
+    "output_reference": "dfx/navigation_profile/build/libprofile_xrt_r1.so",
+    "arguments": [
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-std=c++17",
+      "-fPIC",
+      "-shared",
+      "-I/usr/include/xrt",
+      "{ROOT}/dfx/navigation_profile/host/bridge_r1.cpp",
+      "-lxrt_coreutil",
+      "-pthread"
+    ],
+    "sources": [
+      "dfx/navigation_profile/host/bridge_r1.cpp"
+    ],
+    "original_receipt": "dfx/navigation_profile/docs/host_build_ARM_r1.json"
+  },
+  "modules__reconstruction__axis_mc_8_r2__host_pooled_r2__native_ARM_r1__libmc_axis_dfx": {
+    "output_reference": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/native_ARM_r1/libmc_axis_dfx.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-fPIC",
+      "-shared",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/reconstruction/axis_mc_8_r2/host_pooled_r2/bridge.cpp",
+      "{ROOT}/modules/reconstruction/axis_mc_8_r2/host_pooled_r2/exports.map",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/bridge.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/native_ARM_r1/verified.json"
+  },
+  "modules__reconstruction__axis_mc_8_r2__host_r1__native_ARM_r1__libmc_axis_dfx": {
+    "output_reference": "modules/reconstruction/axis_mc_8_r2/host_r1/native_ARM_r1/libmc_axis_dfx.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-fPIC",
+      "-shared",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-I/usr/include/xrt",
+      "{ROOT}/modules/reconstruction/axis_mc_8_r2/host_r1/bridge.cpp",
+      "{ROOT}/modules/reconstruction/axis_mc_8_r2/host_r1/exports.map",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/reconstruction/axis_mc_8_r2/host_r1/bridge.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/axis_mc_8_r2/host_r1/native_ARM_r1/verified.json"
+  },
+  "dfx__smooth_speed__host_FMA2_r1__build_ARM__libsmooth_FMA2_r1": {
+    "output_reference": "dfx/smooth_speed/host_FMA2_r1/build_ARM/libsmooth_FMA2_r1.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-I/usr/include/xrt",
+      "{ROOT}/dfx/smooth_speed/host_FMA2_r1/bridge.cpp",
+      "-lxrt_coreutil",
+      "-pthread"
+    ],
+    "sources": [
+      "dfx/smooth_speed/host_FMA2_r1/bridge.cpp"
+    ],
+    "original_receipt": "dfx/smooth_speed/host_FMA2_r1/build_ARM/compile_receipt.json"
+  },
+  "dfx__smooth_speed__host_BRAM_r2634__build_ARM__libsmooth_BRAM_r2634": {
+    "output_reference": "dfx/smooth_speed/host_BRAM_r2634/build_ARM/libsmooth_BRAM_r2634.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-I/usr/include/xrt",
+      "{ROOT}/dfx/smooth_speed/host_BRAM_r2634/bridge.cpp",
+      "-lxrt_coreutil",
+      "-pthread"
+    ],
+    "sources": [
+      "dfx/smooth_speed/host_BRAM_r2634/bridge.cpp"
+    ],
+    "original_receipt": "dfx/smooth_speed/host_BRAM_r2634/build_ARM/compile_receipt.json"
+  },
+  "modules__reconstruction__benchmarks__build__libsmooth_cpu_r1": {
+    "output_reference": "modules/reconstruction/benchmarks/build/libsmooth_cpu_r1.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-fPIC",
+      "-shared",
+      "-fopenmp",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "{ROOT}/modules/reconstruction/benchmarks/smooth_cpu_r1.cpp"
+    ],
+    "sources": [
+      "modules/reconstruction/benchmarks/smooth_cpu_r1.cpp"
+    ],
+    "original_receipt": "modules/reconstruction/benchmarks/results/own_CT_CPU_board_r1.json"
+  },
+  "results__smoothing_precision_full_r112__libdiagnostic_fma": {
+    "output_reference": "results/smoothing_precision_full_r112/libdiagnostic_fma.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-mcpu=cortex-a53",
+      "-ffp-contract=off",
+      "-fopenmp",
+      "-fPIC",
+      "-shared",
+      "{ROOT}/modules/reconstruction/benchmarks/precision_r111/smooth_fma_r112.cpp"
+    ],
+    "sources": [
+      "modules/reconstruction/benchmarks/precision_r111/smooth_fma_r112.cpp"
+    ],
+    "original_receipt": "results/smoothing_precision_full_r112/acceptance.json"
+  },
+  "modules__surface_quality__indexing_r17__build_ARM__libindexing": {
+    "output_reference": "modules/surface_quality/indexing_r17/build_ARM/libindexing.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-shared",
+      "-fPIC",
+      "-mcpu=cortex-a53",
+      "{ROOT}/modules/surface_quality/indexing_r17/split_links.cpp"
+    ],
+    "sources": [
+      "modules/surface_quality/indexing_r17/split_links.cpp"
+    ],
+    "original_receipt": "modules/surface_quality/indexing_r17/build_ARM/build.json"
+  },
+  "modules__segmentation__ct_pl__build__libct_graph_ops": {
+    "output_reference": "modules/segmentation/ct_pl/build/libct_graph_ops.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/modules/segmentation/ct_pl/graph_ops.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/segmentation/ct_pl/graph_ops.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "modules__segmentation__ct_pl__build__libct_xrt": {
+    "output_reference": "modules/segmentation/ct_pl/build/libct_xrt.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/modules/segmentation/ct_pl/xrt_bridge.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/segmentation/ct_pl/xrt_bridge.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__medical__host_extended__libmedical_dfx": {
+    "output_reference": "dfx/medical/host_extended/libmedical_dfx.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/medical/host_extended/navigation_bridge.cpp",
+      "{ROOT}/dfx/medical/host_extended/ct_bridge.cpp",
+      "{ROOT}/dfx/medical/host_extended/reconstruction_bridge.cpp",
+      "{ROOT}/modules/navigation/pl/packing.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/medical/host_extended/navigation_bridge.cpp",
+      "dfx/medical/host_extended/ct_bridge.cpp",
+      "dfx/medical/host_extended/reconstruction_bridge.cpp",
+      "modules/navigation/pl/packing.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "modules__segmentation__ct_pool_fusion_r1__producer_PS_baseline_r1__producer_PS_ARM": {
+    "output_reference": "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/producer_PS_ARM.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/producer.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/producer.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "modules__navigation__pl__build__libnav_xrt": {
+    "output_reference": "modules/navigation/pl/build/libnav_xrt.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/modules/navigation/pl/xrt_bridge.cpp",
+      "{ROOT}/modules/navigation/pl/packing.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/navigation/pl/xrt_bridge.cpp",
+      "modules/navigation/pl/packing.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "modules__surface_quality__host__build__libmesh_distance": {
+    "output_reference": "modules/surface_quality/host/build/libmesh_distance.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/modules/surface_quality/host/mesh_distance_native.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "modules/surface_quality/host/mesh_distance_native.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__route_audit_speed__host__libroute_audit_fast": {
+    "output_reference": "dfx/route_audit_speed/host/libroute_audit_fast.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/route_audit_speed/host/navigation_bridge.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/route_audit_speed/host/navigation_bridge.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__edt_volume__build__libedt_volume": {
+    "output_reference": "dfx/edt_volume/build/libedt_volume.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/edt_volume/host/bridge.cpp",
+      "{ROOT}/dfx/edt_volume/host/navigation_bridge.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/edt_volume/host/bridge.cpp",
+      "dfx/edt_volume/host/navigation_bridge.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__surface_quality__build__libquality_bridge": {
+    "output_reference": "dfx/surface_quality/build/libquality_bridge.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/surface_quality/host/bridge.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/surface_quality/host/bridge.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__surface_quality__build__libquality_reference": {
+    "output_reference": "dfx/surface_quality/build/libquality_reference.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/surface_quality/host/reference.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/surface_quality/host/reference.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__surface_quality__build__libquality_validator": {
+    "output_reference": "dfx/surface_quality/build/libquality_validator.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/surface_quality/host/validator.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/surface_quality/host/validator.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__surface__host__libscope": {
+    "output_reference": "dfx/surface/host/libscope.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/surface/host/scope_bridge.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/surface/host/scope_bridge.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  },
+  "dfx__surface__host__libsurface_reference": {
+    "output_reference": "dfx/surface/host/libsurface_reference.so",
+    "arguments": [
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fopenmp",
+      "-I/usr/include/xrt",
+      "-I{ROOT}/dfx/medical/host_extended",
+      "{ROOT}/dfx/surface/host/reference.cpp",
+      "-lxrt_coreutil"
+    ],
+    "sources": [
+      "dfx/surface/host/reference.cpp"
+    ],
+    "recipe_basis": "explicit original source composition; candidate output only"
+  }
+}

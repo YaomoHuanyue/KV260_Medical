@@ -1,0 +1,18 @@
+{
+  "PID": 38389,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/build_complete_scene_r15/medical_ui",
+    "--root",
+    "/home/ubuntu/jupyter_notebooks/KV260_System",
+    "--input",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+    "--evidence",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/native_active_surface_review_ARM_r15"
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_fc81e5c4b5934604a4c84b3b544cf588/UI/scene.json",
+  "binary_sha256": "4d118710773ed15bc137c857a52e8d096e5bde190810754f81907a771e11ea33",
+  "launcher_sha256": "9721cb9cba948e491565b1582872b78aacd8ee52af561b3ef66553f13e683af8",
+  "production_promoted": false,
+  "autostart_created": false
+}

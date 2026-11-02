@@ -1,0 +1,20 @@
+{
+  "status": "verified_R17_and_C6_restored_after_new_surface_C4_comparison",
+  "PID": 508834,
+  "previous_UI_PID": 507282,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "trial_exit_code": 0,
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "composite_worker_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+  "accepted_volume_lifecycle_and_C6_restore_passed": true,
+  "PL_lock_free_before_UI_launch": true,
+  "static_shell_reloaded": false,
+  "ZOCL_unloaded": false,
+  "forced_kill_or_reset": false,
+  "source_sha256": {
+    "with_UI_restore.py": "ef83cecfb21770a35f9a4787b937a6823c1384ea0947e21d76b79ceb69b80766",
+    "compare_board.py": "19c14cdd8ceed61c08471572187e13a173ee9d10fa68d642724f57ad377bb6cb"
+  }
+}

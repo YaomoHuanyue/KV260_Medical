@@ -1,0 +1,110 @@
+{
+  "status": "PC_actual_D9_PL31_calls_CT18_full_bank_correctness_and_measured_PS4_speed_verified",
+  "files": {
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/runtime_after.json": "2c98e811a7f90810b37eafe9841038f1eedd25a19469e1caa3409347c8620fbd",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/benchmark.json": "9b89053b7b4c797499779df8a301bd74d75bec6eea8eae23b7e3a661e128f4f5",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/benchmark.log": "b86ff61d0235b966b4128ac1fe5f08c21b4c747d23f49b095c1cef4a0aa6a2e5",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/runtime_before.json": "54d59dc396070b6690947b4f1d3844a8485bf0ea2be7cd11d52af221c7e3bdc5",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/started.json": "452f6d7cdbd2cb856efdf9e681a4126d1e6d0889ae1e0d87635fa5eb073d749a",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/verified.json": "358b3c6ba7025e20e79e2db9608f56f86f4b5eb02b0b30d88aa04df8994e702a",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/restored_UI.json": "b1b236c0c95caaf600f2dc503caaa4646eae4fd94f9d1abc25a00c6a361dd8a6",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/benchmark_receipt.json": "86a9ecde5f01ca5f5e5f4e1ff58b1ba60b69fd1b527c89d237f9c03b83f23a04",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/benchmark_started.json": "a57ed06ad319e99db75bc4c8ff7d6d2eb05cdb56f943f11a1e206e3cf75632a9",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/board_protection_delta.json": "7d0d50536ff4e12de608a94082bdd92aa807ede8cf582c31d5556eed80be7827",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/trial_r1/switches_D9_20103.csv": "f517d02cbe3e3a7a15a9b9dcdedffe2bc7d3931c32f1bf44084ab55c9b7345e9"
+  },
+  "actual31_PL_jobs": true,
+  "all18_original_CT_frozen_full5_banks16_words_and24_DMA_guards_passed": true,
+  "actual_static_transaction_header_count": 586,
+  "only2_DFX_switches_for_entire_session": true,
+  "actual_partial_switches": [
+    {
+      "switch": "1",
+      "rm": "axis_smooth",
+      "partial_ms": "148.106",
+      "switch_ms": "155.806",
+      "static_transactions": "586",
+      "sentinel_address": "1186988032"
+    },
+    {
+      "switch": "2",
+      "rm": "smooth",
+      "partial_ms": "148.916",
+      "switch_ms": "156.625",
+      "static_transactions": "1172",
+      "sentinel_address": "1186988032"
+    }
+  ],
+  "case_summary": [
+    {
+      "structure": "lung",
+      "PL_API_seconds": 1.94309238400092,
+      "exact_FMA_PS4_seconds": 0.945046631997684,
+      "exact_PS4_speedup": 0.4863621718550447,
+      "phase_medians_seconds": {
+        "validation": 0.07594906,
+        "BO_capacity_growth": 1.247e-05,
+        "copy_and_guards": 0.014714527,
+        "input_sync": 0.002146681,
+        "partial_load": 0.0,
+        "complete_switch": 0.0,
+        "hardware_and_header_service": 1.834015313,
+        "readback_and_all24_guard_checks": 0.000818598,
+        "output_copy": 0.003576956,
+        "native_total": 1.942000923,
+        "graph_single_upload": 0.010421114,
+        "control": 3.154e-05
+      },
+      "all6_frozen_medical_full_bank_checks": true
+    },
+    {
+      "structure": "airway",
+      "PL_API_seconds": 0.10833715400076471,
+      "exact_FMA_PS4_seconds": 0.05256736600131262,
+      "exact_PS4_speedup": 0.4852201120304634,
+      "phase_medians_seconds": {
+        "validation": 0.004118061,
+        "BO_capacity_growth": 1.239e-05,
+        "copy_and_guards": 0.000764658,
+        "input_sync": 0.000202982,
+        "partial_load": 0.0,
+        "complete_switch": 0.0,
+        "hardware_and_header_service": 0.100778278,
+        "readback_and_all24_guard_checks": 0.000375914,
+        "output_copy": 0.000169091,
+        "native_total": 0.107261822,
+        "graph_single_upload": 0.000670866,
+        "control": 2.79e-05
+      },
+      "all6_frozen_medical_full_bank_checks": true
+    },
+    {
+      "structure": "nodule",
+      "PL_API_seconds": 0.015213202001177706,
+      "exact_FMA_PS4_seconds": 0.0052987729977758136,
+      "exact_PS4_speedup": 0.3483009689456314,
+      "phase_medians_seconds": {
+        "validation": 0.000592946,
+        "BO_capacity_growth": 1.16e-05,
+        "copy_and_guards": 9.1251e-05,
+        "input_sync": 0.000105271,
+        "partial_load": 0.0,
+        "complete_switch": 0.0,
+        "hardware_and_header_service": 0.01299533,
+        "readback_and_all24_guard_checks": 0.000350934,
+        "output_copy": 2.936e-05,
+        "native_total": 0.014305823,
+        "graph_single_upload": 7.0591e-05,
+        "control": 2.712e-05
+      },
+      "all6_frozen_medical_full_bank_checks": true
+    }
+  ],
+  "peak_process_RSS_MiB": 149.734375,
+  "same_precision_PS4_speed_gate_passed": false,
+  "conservative_fastest_PS4_speed_gate_passed": false,
+  "exact_current_formal_UI_restored_with_checked_child_observer": true,
+  "source_SHA256": "e7f717dd5b99ef2c6a25c684d8b7da07f71a8e986860229bc97d61303c9db3d9",
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

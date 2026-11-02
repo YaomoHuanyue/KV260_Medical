@@ -1,0 +1,16 @@
+{
+  "status": "current_boot_and_default_UI_files_observed_without_PL_access",
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "PID": null,
+  "tested_formal_default_UI_running": false,
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "manual_only": true,
+  "previous_restoration_boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "previous_restored_PID": 519311,
+  "previous_restoration_is_historical": true,
+  "PL_access": false,
+  "static_shell_reloaded": false,
+  "ZOCL_unloaded": false
+}

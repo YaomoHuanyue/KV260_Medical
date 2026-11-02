@@ -1,0 +1,819 @@
+{
+  "status": "eight_original_field_new_route_full_resolution_PS1_PS4_reference_frames_passed",
+  "cases": [
+    {
+      "label": "accepted_binary_high_ported_bend_1p0_aligned",
+      "bundle_label": "accepted_binary_high_ported_bend_1p0",
+      "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+      "bundle_scene_sha256": "472bf3a084be0f26f7f2f47c47268918a37266db6ca362836113f3c3a403dfb9",
+      "scene_sha256": "f87b2788671f2b105783217e61a223b58f5ce205dbf07afa379b955dd52fefd1",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        1,
+        8032429,
+        4291383,
+        14020881,
+        -17490,
+        13685,
+        -5620,
+        52,
+        0,
+        -6,
+        -3,
+        -48,
+        -20
+      ],
+      "request_sha256": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+      "pixels_sha256": "5064337e722da278db623eb0ac7f2548c5c4d3c38e9a4feed1d6d0e97165a7fd",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 51912,
+      "outline_pixels": 5228,
+      "PS1_compute_seconds": 3.659133557000132,
+      "PS4_median_full_call_seconds": 0.9149263260001135,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9149574409998422,
+          "full_call_seconds": 0.915225214000202
+        },
+        {
+          "compute_seconds": 0.9143586850000247,
+          "full_call_seconds": 0.914627438000025
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.34730876399999033,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": false,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 1,
+        "ray_origin_index": [
+          122.56513977050781,
+          65.48130798339844,
+          213.94166564941406
+        ],
+        "ray00_index": [
+          -0.266876220703125,
+          0.2088165283203125,
+          -0.08575439453125
+        ],
+        "raydx_index": [
+          0.00079345703125,
+          0.0,
+          -9.1552734375e-05
+        ],
+        "raydy_index": [
+          -4.57763671875e-05,
+          -0.000732421875,
+          -0.00030517578125
+        ],
+        "forward_lps": [
+          -0.10902824633640612,
+          0.3919953125504382,
+          -0.9134837253280937
+        ],
+        "right_lps": [
+          0.9926669482356425,
+          -0.005324890308512312,
+          -0.12076413136249828
+        ],
+        "up_lps": [
+          0.05220317405430797,
+          0.9199518033471572,
+          0.3885402271798495
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+        "request.json": "ba840769e3ceb62e833a80965de774ce3c3db085a0af404ce2deecbb45ac5061",
+        "reference.u64": "5064337e722da278db623eb0ac7f2548c5c4d3c38e9a4feed1d6d0e97165a7fd"
+      }
+    },
+    {
+      "label": "accepted_binary_high_ported_bend_1p0_manual",
+      "bundle_label": "accepted_binary_high_ported_bend_1p0",
+      "revision": "08ee6c9cec31e2fee12793de0ccf36d2484573370f19cb848da1cb6c324e196a",
+      "bundle_scene_sha256": "472bf3a084be0f26f7f2f47c47268918a37266db6ca362836113f3c3a403dfb9",
+      "scene_sha256": "f87b2788671f2b105783217e61a223b58f5ce205dbf07afa379b955dd52fefd1",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "d62e3f7716a54cea7799efe78792493b7439b1cb112e8eb8c23c361b5456cf18",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        2,
+        8032429,
+        4291383,
+        14020881,
+        -13537,
+        14474,
+        -11491,
+        51,
+        -6,
+        8,
+        -4,
+        -50,
+        -15
+      ],
+      "request_sha256": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+      "pixels_sha256": "3f9102a8d69fcf68dbed727dd2c7233d0bbb27ff15e6d49162f81c80cf34d936",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 68179,
+      "outline_pixels": 6470,
+      "PS1_compute_seconds": 3.7399868960001186,
+      "PS4_median_full_call_seconds": 0.9369656515000315,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9357162689998404,
+          "full_call_seconds": 0.9359996319999482
+        },
+        {
+          "compute_seconds": 0.9376651279999351,
+          "full_call_seconds": 0.9379316710001149
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.0,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": true,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 2,
+        "ray_origin_index": [
+          122.56513977050781,
+          65.48130798339844,
+          213.94166564941406
+        ],
+        "ray00_index": [
+          -0.2065582275390625,
+          0.220855712890625,
+          -0.1753387451171875
+        ],
+        "raydx_index": [
+          0.0007781982421875,
+          -9.1552734375e-05,
+          0.0001220703125
+        ],
+        "raydy_index": [
+          -6.103515625e-05,
+          -0.000762939453125,
+          -0.0002288818359375
+        ],
+        "forward_lps": [
+          0.17948805231388196,
+          0.275103954189452,
+          -0.9445114363870334
+        ],
+        "right_lps": [
+          0.9811688979293628,
+          -0.11970055570070545,
+          0.15158948083894916
+        ],
+        "up_lps": [
+          0.07135567820887834,
+          0.9539337457886005,
+          0.2914082631516835
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+        "request.json": "16ab13940011b7cd48db4abff43036d8199cbc99597aea9df3fd68c56b5277eb",
+        "reference.u64": "3f9102a8d69fcf68dbed727dd2c7233d0bbb27ff15e6d49162f81c80cf34d936"
+      }
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0_aligned",
+      "bundle_label": "accepted_binary_ultra_ported_bend_1p0",
+      "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+      "bundle_scene_sha256": "48247a39a5c5197aa93a2146f706dd60be732310528386dae9f0b9c0fe1138a8",
+      "scene_sha256": "7f3ca075504fc6b0e08697d4f5cc6b7c2cb7a13ce24f909d72653685803b4b5b",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        1,
+        8032429,
+        4291383,
+        14020881,
+        -17490,
+        13685,
+        -5620,
+        52,
+        0,
+        -6,
+        -3,
+        -48,
+        -20
+      ],
+      "request_sha256": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+      "pixels_sha256": "1c5b460332655f03a68210da59f1a6e4cde4bc2fda5b6789d73a4c18190f937b",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 51934,
+      "outline_pixels": 5227,
+      "PS1_compute_seconds": 3.673831984000117,
+      "PS4_median_full_call_seconds": 0.9220590575000642,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.91904649099979,
+          "full_call_seconds": 0.9192939750000733
+        },
+        {
+          "compute_seconds": 0.9246023979999336,
+          "full_call_seconds": 0.9248241400000552
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.33542186399972707,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": false,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 1,
+        "ray_origin_index": [
+          122.56513977050781,
+          65.48130798339844,
+          213.94166564941406
+        ],
+        "ray00_index": [
+          -0.266876220703125,
+          0.2088165283203125,
+          -0.08575439453125
+        ],
+        "raydx_index": [
+          0.00079345703125,
+          0.0,
+          -9.1552734375e-05
+        ],
+        "raydy_index": [
+          -4.57763671875e-05,
+          -0.000732421875,
+          -0.00030517578125
+        ],
+        "forward_lps": [
+          -0.10902824633640612,
+          0.3919953125504382,
+          -0.9134837253280937
+        ],
+        "right_lps": [
+          0.9926669482356425,
+          -0.005324890308512312,
+          -0.12076413136249828
+        ],
+        "up_lps": [
+          0.05220317405430797,
+          0.9199518033471572,
+          0.3885402271798495
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "777ba98d1e3fed221199ee8074cc135a95e6ae9628a1debd853677754f2afcde",
+        "request.json": "6d482bc991a12c0ab5210a7279331ec5e4ce28682d708b18c3f848f30a8e0d6b",
+        "reference.u64": "1c5b460332655f03a68210da59f1a6e4cde4bc2fda5b6789d73a4c18190f937b"
+      }
+    },
+    {
+      "label": "accepted_binary_ultra_ported_bend_1p0_manual",
+      "bundle_label": "accepted_binary_ultra_ported_bend_1p0",
+      "revision": "cb35c4e37188fcd4e3f50a7148cf54a8c7d3dfec7306da854431d0e9ef72b873",
+      "bundle_scene_sha256": "48247a39a5c5197aa93a2146f706dd60be732310528386dae9f0b9c0fe1138a8",
+      "scene_sha256": "7f3ca075504fc6b0e08697d4f5cc6b7c2cb7a13ce24f909d72653685803b4b5b",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "e918fe29405e46da8e2d478a6f28aa526e0daca0d9f3ee371016a56fa4a54707",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        2,
+        8032429,
+        4291383,
+        14020881,
+        -13537,
+        14474,
+        -11491,
+        51,
+        -6,
+        8,
+        -4,
+        -50,
+        -15
+      ],
+      "request_sha256": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+      "pixels_sha256": "e1b7d608ebe677cca2923185a7ed63c1dde17416a4592b8ba93833521ab22b0f",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 68201,
+      "outline_pixels": 6480,
+      "PS1_compute_seconds": 3.757530281000072,
+      "PS4_median_full_call_seconds": 0.9466169575002823,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9407062189998214,
+          "full_call_seconds": 0.9409510610003053
+        },
+        {
+          "compute_seconds": 0.9520551820000946,
+          "full_call_seconds": 0.9522828540002592
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.0,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": true,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 2,
+        "ray_origin_index": [
+          122.56513977050781,
+          65.48130798339844,
+          213.94166564941406
+        ],
+        "ray00_index": [
+          -0.2065582275390625,
+          0.220855712890625,
+          -0.1753387451171875
+        ],
+        "raydx_index": [
+          0.0007781982421875,
+          -9.1552734375e-05,
+          0.0001220703125
+        ],
+        "raydy_index": [
+          -6.103515625e-05,
+          -0.000762939453125,
+          -0.0002288818359375
+        ],
+        "forward_lps": [
+          0.17948805231388196,
+          0.275103954189452,
+          -0.9445114363870334
+        ],
+        "right_lps": [
+          0.9811688979293628,
+          -0.11970055570070545,
+          0.15158948083894916
+        ],
+        "up_lps": [
+          0.07135567820887834,
+          0.9539337457886005,
+          0.2914082631516835
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "1057fd60abbf56aae7d67c9f3c0ed58c5bfbd654adb7cdec6a0a49349b1b8282",
+        "request.json": "28a4aea684f8ca070b865f004a6d4b71b8703ba8dd11bf947a1c3fbb213bc757",
+        "reference.u64": "e1b7d608ebe677cca2923185a7ed63c1dde17416a4592b8ba93833521ab22b0f"
+      }
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0_aligned",
+      "bundle_label": "network_probability_high_ported_bend_1p0",
+      "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "bundle_scene_sha256": "46105626a25d56a8213af37fbe39764d0bd9167f8e2ed4b72bd0d625ddc07410",
+      "scene_sha256": "a24803710775c3f9582a664c6e6621c937487bec4e47cbe660a4ad90cb44b533",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        1,
+        8764590,
+        10481465,
+        24943548,
+        -17490,
+        13685,
+        -5620,
+        52,
+        0,
+        -6,
+        -3,
+        -48,
+        -20
+      ],
+      "request_sha256": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+      "pixels_sha256": "5687a81366b8317786d1d096bb845acc4b6437b1085602faf390bbc0d6ac08cc",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 36483,
+      "outline_pixels": 4814,
+      "PS1_compute_seconds": 3.6609282850004092,
+      "PS4_median_full_call_seconds": 1.18463084300015,
+      "PS4_samples": [
+        {
+          "compute_seconds": 1.133324475000336,
+          "full_call_seconds": 1.1335674070001005
+        },
+        {
+          "compute_seconds": 1.235466887000257,
+          "full_call_seconds": 1.2356942790001995
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.5961644530002559,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": false,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 1,
+        "ray_origin_index": [
+          133.73703002929688,
+          159.93446350097656,
+          380.60833740234375
+        ],
+        "ray00_index": [
+          -0.266876220703125,
+          0.2088165283203125,
+          -0.08575439453125
+        ],
+        "raydx_index": [
+          0.00079345703125,
+          0.0,
+          -9.1552734375e-05
+        ],
+        "raydy_index": [
+          -4.57763671875e-05,
+          -0.000732421875,
+          -0.00030517578125
+        ],
+        "forward_lps": [
+          -0.10902824633640612,
+          0.3919953125504382,
+          -0.9134837253280937
+        ],
+        "right_lps": [
+          0.9926669482356425,
+          -0.005324890308512312,
+          -0.12076413136249828
+        ],
+        "up_lps": [
+          0.05220317405430797,
+          0.9199518033471572,
+          0.3885402271798495
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+        "request.json": "2b31f78c0f585e7d1b8eb45754f9be6751ffd3030615d88353b27b0793d2c59b",
+        "reference.u64": "5687a81366b8317786d1d096bb845acc4b6437b1085602faf390bbc0d6ac08cc"
+      }
+    },
+    {
+      "label": "network_probability_high_ported_bend_1p0_manual",
+      "bundle_label": "network_probability_high_ported_bend_1p0",
+      "revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "bundle_scene_sha256": "46105626a25d56a8213af37fbe39764d0bd9167f8e2ed4b72bd0d625ddc07410",
+      "scene_sha256": "a24803710775c3f9582a664c6e6621c937487bec4e47cbe660a4ad90cb44b533",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        2,
+        8764590,
+        10481465,
+        24943548,
+        -13537,
+        14474,
+        -11491,
+        51,
+        -6,
+        8,
+        -4,
+        -50,
+        -15
+      ],
+      "request_sha256": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+      "pixels_sha256": "333b06903865d68ba6d7d69a7bce96ffe39bb847fe9ec8d80faceb4720892df3",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 44943,
+      "outline_pixels": 5286,
+      "PS1_compute_seconds": 3.743590862000019,
+      "PS4_median_full_call_seconds": 0.9364532609999969,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9363638250001713,
+          "full_call_seconds": 0.9366111369999999
+        },
+        {
+          "compute_seconds": 0.9360762820001582,
+          "full_call_seconds": 0.936295384999994
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.0,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": true,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 2,
+        "ray_origin_index": [
+          133.73703002929688,
+          159.93446350097656,
+          380.60833740234375
+        ],
+        "ray00_index": [
+          -0.2065582275390625,
+          0.220855712890625,
+          -0.1753387451171875
+        ],
+        "raydx_index": [
+          0.0007781982421875,
+          -9.1552734375e-05,
+          0.0001220703125
+        ],
+        "raydy_index": [
+          -6.103515625e-05,
+          -0.000762939453125,
+          -0.0002288818359375
+        ],
+        "forward_lps": [
+          0.17948805231388196,
+          0.275103954189452,
+          -0.9445114363870334
+        ],
+        "right_lps": [
+          0.9811688979293628,
+          -0.11970055570070545,
+          0.15158948083894916
+        ],
+        "up_lps": [
+          0.07135567820887834,
+          0.9539337457886005,
+          0.2914082631516835
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+        "request.json": "5298a6d71251e5100d697f6c98b2748aece22e819df9f8c49e8aefdbfe9c43f4",
+        "reference.u64": "333b06903865d68ba6d7d69a7bce96ffe39bb847fe9ec8d80faceb4720892df3"
+      }
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0_aligned",
+      "bundle_label": "network_probability_ultra_ported_bend_1p0",
+      "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+      "bundle_scene_sha256": "9127223ae538dc9385e76600c2a4bc6530ef32b63e2ea11d5d02061fed137bfa",
+      "scene_sha256": "58e2788f4d682488db3b9161bdff93307ef666e73c2810723e065cb5292f1475",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        1,
+        8764590,
+        10481465,
+        24943548,
+        -17490,
+        13685,
+        -5620,
+        52,
+        0,
+        -6,
+        -3,
+        -48,
+        -20
+      ],
+      "request_sha256": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+      "pixels_sha256": "82d65a141aaca4e5dce2ddc168bcd0b94994622b61fba1be01d83433ff103786",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 50978,
+      "outline_pixels": 5083,
+      "PS1_compute_seconds": 3.667871545000253,
+      "PS4_median_full_call_seconds": 0.9183207295000102,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9183117050001783,
+          "full_call_seconds": 0.9185816670001259
+        },
+        {
+          "compute_seconds": 0.9178382600002806,
+          "full_call_seconds": 0.9180597919998945
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.5949746900000719,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": false,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 1,
+        "ray_origin_index": [
+          133.73703002929688,
+          159.93446350097656,
+          380.60833740234375
+        ],
+        "ray00_index": [
+          -0.266876220703125,
+          0.2088165283203125,
+          -0.08575439453125
+        ],
+        "raydx_index": [
+          0.00079345703125,
+          0.0,
+          -9.1552734375e-05
+        ],
+        "raydy_index": [
+          -4.57763671875e-05,
+          -0.000732421875,
+          -0.00030517578125
+        ],
+        "forward_lps": [
+          -0.10902824633640612,
+          0.3919953125504382,
+          -0.9134837253280937
+        ],
+        "right_lps": [
+          0.9926669482356425,
+          -0.005324890308512312,
+          -0.12076413136249828
+        ],
+        "up_lps": [
+          0.05220317405430797,
+          0.9199518033471572,
+          0.3885402271798495
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "3acb46a3eef0255e7af9d39a2f14dd22f2690920a72bfae1aa2e5903accbd058",
+        "request.json": "486adce0ec4790ea581ddb4ff42bc56569991b1a9587dcc04223dfee294674a3",
+        "reference.u64": "82d65a141aaca4e5dce2ddc168bcd0b94994622b61fba1be01d83433ff103786"
+      }
+    },
+    {
+      "label": "network_probability_ultra_ported_bend_1p0_manual",
+      "bundle_label": "network_probability_ultra_ported_bend_1p0",
+      "revision": "7dce03f812dd28ddd7c922c2da68fdf51b76aa30de14cb02677007ee940a3b8d",
+      "bundle_scene_sha256": "9127223ae538dc9385e76600c2a4bc6530ef32b63e2ea11d5d02061fed137bfa",
+      "scene_sha256": "58e2788f4d682488db3b9161bdff93307ef666e73c2810723e065cb5292f1475",
+      "scene_event": 0,
+      "route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "scalar_sha256": "3470be473ff52c0960150ec17b0e8f07a59ec21492c7bb40fe915f9b0b1c1e33",
+      "request_int32": [
+        640,
+        363,
+        1023,
+        2,
+        8764590,
+        10481465,
+        24943548,
+        -13537,
+        14474,
+        -11491,
+        51,
+        -6,
+        8,
+        -4,
+        -50,
+        -15
+      ],
+      "request_sha256": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+      "pixels_sha256": "8939dc83f51e9175c4b6c810f20a585f92688853562c78246aa3a4681db70610",
+      "width": 640,
+      "height": 363,
+      "max_steps": 1023,
+      "surface_hit_pixels": 232320,
+      "target_coverage_pixels": 67827,
+      "outline_pixels": 6189,
+      "PS1_compute_seconds": 3.7476659930002825,
+      "PS4_median_full_call_seconds": 0.9381455430002461,
+      "PS4_samples": [
+        {
+          "compute_seconds": 0.9379143609999119,
+          "full_call_seconds": 0.938159793000068
+        },
+        {
+          "compute_seconds": 0.9379113909999433,
+          "full_call_seconds": 0.9381312930004242
+        }
+      ],
+      "cold_dense_unpack_seconds": 0.0,
+      "every_depth_normal_target_outline_word_exact_PS1_PS4": true,
+      "actual_manual_camera_preserved": true,
+      "view": {
+        "step_mm": 0.1419638974030547,
+        "field": 0.7673269879789604,
+        "width": 640,
+        "height": 363,
+        "sequence": 2,
+        "ray_origin_index": [
+          133.73703002929688,
+          159.93446350097656,
+          380.60833740234375
+        ],
+        "ray00_index": [
+          -0.2065582275390625,
+          0.220855712890625,
+          -0.1753387451171875
+        ],
+        "raydx_index": [
+          0.0007781982421875,
+          -9.1552734375e-05,
+          0.0001220703125
+        ],
+        "raydy_index": [
+          -6.103515625e-05,
+          -0.000762939453125,
+          -0.0002288818359375
+        ],
+        "forward_lps": [
+          0.17948805231388196,
+          0.275103954189452,
+          -0.9445114363870334
+        ],
+        "right_lps": [
+          0.9811688979293628,
+          -0.11970055570070545,
+          0.15158948083894916
+        ],
+        "up_lps": [
+          0.07135567820887834,
+          0.9539337457886005,
+          0.2914082631516835
+        ]
+      },
+      "files_sha256": {
+        "request.i32": "44e0ed2b378c8a5beb2330895462e5d33408eb87fae4e4fb21f1edaccf15ffbe",
+        "request.json": "69ea911417318da119c14405080ba0ce5f42090171743f897c24220394875a0f",
+        "reference.u64": "8939dc83f51e9175c4b6c810f20a585f92688853562c78246aa3a4681db70610"
+      }
+    }
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "source_sha256": {
+    "modules/surface_route/reference_frames_r8b.py": "403b1576811395e30498b78fb832e792ebe9b3ebe1297daf9bf8a2629168f0ca",
+    "modules/surface_route/bundle_r8.py": "15e9160225bb2541e94f5e2e59c7d90e311a20bc2113e3c68b3e6c936dbac357",
+    "modules/surface_route/scene_runtime_r8.py": "f16cfa883b11716f57e331b045f8f85b664a3d1f34b3df57fc7f63f92b5beadb",
+    "dfx/surface/prepare.py": "419e30bf84989e48eb5732bf3a18fec2ed138268f124a459fe50e769e66603dc",
+    "dfx/surface_quality/quality_runtime.py": "bd1af25e8acf39ec069beb079fdeacbff91c1cab11f3ae23bedbdca32f2adfcd",
+    "dfx/surface_quality/prepare.py": "e557637fc86c0df63994e05d248387590309e1cd36948a036b2628640c6a8695"
+  },
+  "reference_build_sha256": "68cc433202fa3c015c85a8819e5c5f76c5a88a391965060f256aef56ea8e22a0",
+  "reference_bound_files": {
+    "dfx/surface_quality/host/bridge.cpp": "877c484b5c95de323835572dccd3eacd323e1e632d1f8a9877c6877ed9deb104",
+    "dfx/surface_quality/host/file_io.hpp": "a28c73960da06ac68d72246c7ae20774920e1ae74ce0522fabfa8af6d521953e",
+    "dfx/surface_quality/host/packet_validator.hpp": "1c9290402ad62ad1356adb305d95adb22646c3fb4b721aadb28f9b07360d0138",
+    "dfx/surface_quality/host/provenance.json": "1c250dcd219fcd39b2b47b5526c020e30676ed2b29fd3df5ae0de1938f8861e6",
+    "dfx/surface_quality/host/reference.cpp": "9568fdeff133272249dca8ec1143c35a129d003a71c3fbe2058db9ba69a676cd",
+    "dfx/surface_quality/host/runtime.hpp": "a259287f9f1b0710bbe8809f0482656fb5b9d9c564b149cb4a11c38f974842a7",
+    "dfx/surface_quality/host/validator.cpp": "a53e456f6d69b70ac7f0c86bcde0ac027f85a74424b3bdd5b9df6ef0a621121e",
+    "dfx/surface_quality/compile_host.sh": "a29b9ab6ebcd1aa65fca6d3f529360043f0c04e09edd6fd566803f52f0c5a281",
+    "dfx/surface_quality/build/libquality_bridge.so": "b0ccf23c31ff930b91e249029db2df5b2193f13c39c81ddfedf94c1fe397e526",
+    "dfx/surface_quality/build/libquality_reference.so": "4b66cfc3cf60c9508dfb5980b48f1ca2504d778017c914d22c41ad398068ae02",
+    "dfx/surface_quality/build/libquality_validator.so": "536dc8256dbcdd8512dcc9780257fec56a28792b5bdb3d8b9527f85b77d2654a"
+  },
+  "bundles_acceptance_sha256": "fdebb4e5ca5ebc7fbcd9a4e7c291430d91b10da24923783c61624a5b5db33123",
+  "PL_access": false,
+  "new_bitstream": false,
+  "production_promoted": false,
+  "maximum_test_process_RSS_MiB": 557.79296875,
+  "actual_C9_same_input_and_UI_integration_pending": true,
+  "performance_scope": "Warm integer render calls, not UI FPS or PS/PL acceleration; dense unpack separately reported"
+}

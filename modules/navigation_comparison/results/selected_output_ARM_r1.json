@@ -1,0 +1,493 @@
+{
+  "status": "all_30_selected_paths_serialized_PS1_PS4_and_actual_C4_geometry_camera_guidance_passed",
+  "host": "ARM",
+  "cases": [
+    {
+      "group": 0,
+      "candidate": 5,
+      "threads": 1,
+      "points": 1124,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 5,
+      "threads": 4,
+      "points": 1124,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 9,
+      "threads": 1,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 9,
+      "threads": 4,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 8,
+      "threads": 1,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 8,
+      "threads": 4,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 7,
+      "threads": 1,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 7,
+      "threads": 4,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 6,
+      "threads": 1,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 6,
+      "threads": 4,
+      "points": 1134,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 15,
+      "threads": 1,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 15,
+      "threads": 4,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 12,
+      "threads": 1,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 12,
+      "threads": 4,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 11,
+      "threads": 1,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 0,
+      "candidate": 11,
+      "threads": 4,
+      "points": 1135,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 5,
+      "threads": 1,
+      "points": 1124,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 5,
+      "threads": 4,
+      "points": 1124,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 9,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 9,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 8,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 8,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 7,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 7,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 6,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 6,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 15,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 15,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 12,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 12,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 11,
+      "threads": 1,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 1,
+      "candidate": 11,
+      "threads": 4,
+      "points": 1130,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 4,
+      "threads": 1,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 4,
+      "threads": 4,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 3,
+      "threads": 1,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 3,
+      "threads": 4,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 2,
+      "threads": 1,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 2,
+      "threads": 4,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "threads": 1,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 1,
+      "threads": 4,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 6,
+      "threads": 1,
+      "points": 1036,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 6,
+      "threads": 4,
+      "points": 1036,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 5,
+      "threads": 1,
+      "points": 1036,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 5,
+      "threads": 4,
+      "points": 1036,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "threads": 1,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 2,
+      "candidate": 0,
+      "threads": 4,
+      "points": 1052,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 3,
+      "threads": 1,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 3,
+      "threads": 4,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 2,
+      "threads": 1,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 2,
+      "threads": 4,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "threads": 1,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 1,
+      "threads": 4,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "threads": 1,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 3,
+      "candidate": 0,
+      "threads": 4,
+      "points": 1028,
+      "cues": 3,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 2,
+      "threads": 1,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 2,
+      "threads": 4,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "threads": 1,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 1,
+      "threads": 4,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "threads": 1,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    },
+    {
+      "group": 4,
+      "candidate": 0,
+      "threads": 4,
+      "points": 270,
+      "cues": 0,
+      "all_serialized_fields_match_actual_C4": true
+    }
+  ],
+  "new_actual_PL_run": false,
+  "actual_C4_receipt_sha256": "7a583c1d9d8a457930b118be914578a747c30ae887e97f9c9a072f814a603bf1",
+  "source_sha256": {
+    "selected_output_r1.py": "5e9d7664bfe4deb548ba6791de33557595086a124b34b6169e02a1ce9d35610a",
+    "test_selected_output_r1.py": "5a86d366921372c14b4565544e95740fe9ced79489de4a45edff55c389360be0"
+  },
+  "actual_UI_application_verified": false
+}

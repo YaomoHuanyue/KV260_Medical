@@ -1,0 +1,20 @@
+{
+  "schema": "kv260.external.images.v2",
+  "ct_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+  "provenance": {
+    "origin": "existing own-CT experimental segmentation result",
+    "source_segmentation_report_sha256": "6d549e2d37eb7447359cd3a2a1aec3e3c96a638c7f06062cfbeebf81b81b2ad2",
+    "model_sha256": "7efb3b35fb2ffd0d49270be0e4cb7a42622ca5330ddbdd98ae22fb2422464865",
+    "manual_ground_truth": false
+  },
+  "images": {
+    "airway": {
+      "selection": "probability_threshold",
+      "probability": {
+        "file": "airway_probability.nrrd",
+        "sha256": "a457a028ec37e16ad31035c9d677609c3b3e998608d31ee8851ba289906a1e30",
+        "threshold": 0.5
+      }
+    }
+  }
+}

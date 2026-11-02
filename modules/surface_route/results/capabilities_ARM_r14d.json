@@ -1,0 +1,15 @@
+{
+  "status": "packed_scene_capabilities_empty_reserved_overlap_and_type_checked",
+  "tests": [
+    "empty",
+    "reserved_probability_bits",
+    "overlapping_structures",
+    "wrong_type",
+    "wrong_shape"
+  ],
+  "source_sha256": {
+    "modules/surface_route/capabilities_r14c.py": "bb7c09205d6cafd88c19577eb56bda09b01a4d45448b2367e173ea9368e70d67",
+    "modules/surface_route/test_capabilities_r14c.py": "16e9ff4d108df9633bacc82cfae3e362eefd05a4a8dd1050328907ba263fe349"
+  },
+  "PL_access": false
+}

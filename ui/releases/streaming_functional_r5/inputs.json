@@ -1,0 +1,22 @@
+{
+  "source_SHA256": {
+    "modules/navigation_comparison/current_release_r1/task.py": "341228ce51b512de4b565465e25440788ee9889055ff50cfed9f3f3f90abe9ab",
+    "modules/navigation_comparison/current_release_r1/runtime.py": "b70f3ffcbaeb474a08da0719ffb69b795c56767a12ef7b681fe1db71d4862927",
+    "modules/navigation_comparison/current_release_r1/runtime_inputs.json": "f4bcfd28dd508626f945f92e91be82ad5ebf1ed78fd7ea2eeef409d426028835",
+    "modules/navigation_comparison/current_release_r1/runtime_derivation.json": "24c1ebd5eee0163b879d38f635f18987d80deb9e8f46dc4eedb0f98062e43937",
+    "ui/releases/streaming_functional_r1/dispatch.py": "209b4a82a2662aa8a3208db782c4223e16595f40f0b12cb445ebd58f27abcc35",
+    "ui/releases/streaming_functional_r2/backend.py": "b8a757d1b6b58687c01928f26381f58fb0e3036d386ecbe60b9a96b85b63fbae",
+    "ui/releases/streaming_functional_r2/inputs.json": "e2319be71156f512a0ce57d1b7323b6baeb2efd10ec6adba0e74133d410c617f",
+    "modules/surface_route/pl_default_r1/actions.py": "b0da43a0a262064898696a0230eaf78f6138c67b6b769634735dc0ecbd05db62",
+    "modules/surface_route/pl_default_r1/active_actions.py": "248b96734459dd5a5bc067ade906719930f4af90682c4cc92815ed8d2d93b4ec",
+    "modules/surface_route/pl_default_r1/active_backend.py": "9323078a92214cfda70518b25fa7c77dbfc975b82a107a7335d57d6316bd0c51",
+    "modules/surface_route/pl_default_r1/admission.py": "39596ef56a0c1ab3e045d0c5764c9517c45f3e1458a4713d2df33840a252b08a",
+    "modules/surface_route/pl_default_r1/backend.py": "39d29830ffc9db488990026d70022dd53ac985b0aec051ba848e8c99f91e315f",
+    "modules/surface_route/pl_default_r1/derivation.json": "eb9cfa8a14050f616753c9edbefcf1ff5dcf2262636f3a5065cae024ee6644f0",
+    "modules/surface_route/pl_default_r1/inputs.json": "69b85ee5b5ad149ab6cca73a874e5fcdb2ad4c07b0faff545501e8a199c91ff2",
+    "ui/releases/feature_completion_r6/src/active_surface_UI_replan_r2266.inc": "1079048bf391bd9e2a8e5e4af7350afb6b0178dbfa3bc66e1273ddcd5b4a6148",
+    "ui/releases/streaming_functional_r5/surface_actions.inc": "4c5f03165f1f00eb608ce23c2d30419089d37e2c460fd4f404eb801fe3905a3d"
+  },
+  "dispatcher": "ui/releases/streaming_functional_r1/dispatch.py",
+  "formal_UI_unchanged": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent_sha256": "7c26340516ccc178422e5611b7d4cb4dad3b9c4c1e87707b460d30cee2115500",
+  "output_sha256": "54dbb7209f10dabfbb16e0b0b5c08fcc35263e582b00332163f40db0f70089f8",
+  "change": "Explicit QStringList type resolves Qt5 ambiguous brace assignment; no behavior change",
+  "failed_R9_source_preserved": true
+}

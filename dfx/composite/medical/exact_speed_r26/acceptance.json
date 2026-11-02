@@ -1,0 +1,176 @@
+{
+  "status": "passed_exact_layers_opacity_recomposition_speedup",
+  "build": {
+    "status": "compiled_exact_candidate_actual_ARM_no_PL_access",
+    "source_sha256": {
+      "dfx/composite/medical/exact_speed_r26/worker.cpp": "5e714bb794e543b7cd506f98f088a7e4c9750751646d3a6e3b5327a4aef832fc",
+      "dfx/composite/medical/exact_speed_r26/frame_controls.hpp": "d426ac46dab37707e5643ce301e638fb07ed347f6164aa85a98a9a78e0f5b0d8",
+      "dfx/composite/medical/exact_speed_r26/neon_ps.hpp": "a8c926ba8af8a33b2800579102e3f8aa3a05679715e0b9ea5f88c1f565dc8e91",
+      "dfx/composite/medical/exact_speed_r26/render_batches.hpp": "00174a61ac9ea1b32eed36e40f3305c2b1d496212c025dcd5cb49862c44b5af3",
+      "dfx/composite/medical/exact_speed_r26/screen_tiles.hpp": "e7aff6f46706dc3cc105dc8f43f1c80e191aa74163664c9e70701966e7099dd1",
+      "dfx/composite/medical/exact_speed_r26/strong_ps.hpp": "f82fc72fe1d6ab39b65980b36ca7bbe8695ff4fd88afda61935a8eb55ba5a2d3",
+      "dfx/composite/medical/exact_speed_r26/compile.sh": "2936b7b9c174ebbd6745e166b2fee0b5c7f5577664d6d1d843fb6a15a2c94684",
+      "dfx/composite/medical/exact_speed_r26/exact_cache.hpp": "ef381941007070fe4894eb5c3b6bf093eb67bb98b0e6a8e82ee48b9de043a197",
+      "dfx/composite/medical/exact_speed_r26/exact_cache_run.hpp": "f09199507b9d13ed78b38ef4aac1f67eee44bcb97037897e84f5d67d84e8cf88"
+    },
+    "shared_source_sha256": {
+      "dfx/composite/medical/gl.hpp": "b27705dee676a0dc486a5e660f4125277d4572f9b71904b7d6853e223033d788",
+      "dfx/composite/medical/shared_batches.hpp": "5eaf07ef4afbfb0798454db67eef68251097afd89be4e31f772b5ea1248721a3",
+      "dfx/composite/medical/interactive/worker.cpp": "88aeaa44a25feae518c279d89e21ca9906eafb30820ddc56b602830d0356761e",
+      "dfx/composite/medical/exact_speed_r1/worker.cpp": "9c04e722a5d85063738c18f5eeb7ac8cb880d6d36c975a81c4ebaee3ee17d71b",
+      "dfx/composite/medical/exact_speed_r4/worker.cpp": "033d790b67f0417d2062733f52d3aa4805167f5cacc8442dcebdfb4c06bb556f",
+      "dfx/composite/medical/exact_speed_r6/worker.cpp": "d2d8b0ccf4a4ec68f0c829b31a2826020f78367b40541956e32f4722f4e33859",
+      "dfx/composite/medical/prepare_exact_speed_r9.py": "6735815d9a8196034124c16e6a376fd665a5ce3804dc2f3a17b15f9d95e31468",
+      "dfx/composite/medical/exact_frame_cache.inc": "c03cded75a26498ff48463c3500c0bf7dcc88a385e84ac6eb390155b4b5c85bf",
+      "dfx/composite/medical/exact_frame_cache_run.inc": "34334863c57e85b8a9c0630bf51b349ef0b57e57d857d3d5450816b8fb981e39",
+      "dfx/composite/medical/exact_speed_r9/worker.cpp": "08da2c8206be025182ed2bef107f60562053dfa28b9d09f57342249b1bdae45a",
+      "dfx/composite/medical/prepare_exact_speed_r10.py": "67b6882343da4a81d34e1b3a5d831a094569a77f418cb1b75092f56eb5588664",
+      "dfx/composite/medical/exact_speed_r10/worker.cpp": "86dc71887570144a9860a25dbc3b976ca9dbe277000419ea9cd42cb53d2a5bd6",
+      "dfx/composite/medical/prepare_exact_speed_r14.py": "df9eba41475491498540a766e5f2548230ae24aff324461a97d75c195230b653",
+      "dfx/composite/medical/exact_speed_r14/worker.cpp": "853641939a23b088848f3c706a449b93268ec16c089af4e6ff17eb3c202c5065",
+      "dfx/composite/medical/prepare_exact_speed_r21.py": "bcdd3993155e35547342c7b81b71c2a56608a9d5c6305107fe24b16d96604ebd",
+      "dfx/composite/medical/exact_speed_r21/worker.cpp": "c80802cfa3e88f8b66d06e31d9d3019d6bfb6d508d7a5b2698e0e61e1cda55d6",
+      "dfx/composite/medical/prepare_exact_speed_r22.py": "25cefe26a5263428b0a8488ed5809fe8de74e775838001faf1544a98477c22fb",
+      "dfx/composite/medical/exact_speed_r22/worker.cpp": "a4b7734b6f1dcb5bf851d16b46530663b370f9b6554820362452c1729dfb0ac8",
+      "dfx/composite/medical/prepare_exact_speed_r25.py": "3b4a63b62afda84368f0e370956dde780526570f571e026215c3b4d072def0d8",
+      "dfx/composite/medical/exact_speed_r25/worker.cpp": "cbde72734812a3ac6844609f8a1615f38a0d867b90110cbc5e6bfb7b74039ebe",
+      "dfx/composite/medical/prepare_exact_speed_r26.py": "81ed172739f00cc1b857aac3208dd7db6ff591bd7126f06a94c37fee31bd96d2"
+    },
+    "library_sha256": {
+      "dfx/composite/host/libcomposite.so": "612db5c059396fa64f6ef5088633e849ded561bc2d3aaca615065ba1f26bc52b",
+      "dfx/composite/host/libcomposite_reference.so": "c02852a5930dd1e2d3b6d0b9fcef88eacd66be64520a1e5b86dc3ae27a082c89"
+    },
+    "new_PL_core": false,
+    "original_shaders_ID_triangle_order_and_96k_vertex_groups_unchanged": true,
+    "full_model_and_all_32_layers_preserved": true,
+    "source_buffer_reuse_only_after_completed_color": true,
+    "same_GL_context_ID_texture_write_to_color_sample_dependency": true,
+    "maximum_original_vertices_per_draw": 96000,
+    "draws_between_CPU_completion_waits": 4,
+    "two_slot_grouped_ID_color": true,
+    "extra_geometry_VBO_storage_bytes_limit": 8064000,
+    "extra_analysis_VBO_storage_bytes_limit": 4608000,
+    "normal_UI_color_layers_remain_on_GPU": true,
+    "GPU_cached_opacity_updates": true,
+    "color_winner_updated_after_each_two_ID_batch_group": true,
+    "maximum_extra_opacity_scratch_bytes": 1310720,
+    "binary_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+    "origin_sha256": "1923458b609793b9cb4902e76ffbeaa63b2ebf7b2098be3f151a1cc59718cdd7"
+  },
+  "chosen": {
+    "mode": "two_slot_ID_color_GPU_opacity_cache",
+    "options": [
+      "baseline",
+      "1"
+    ],
+    "batch_vertices": 96000
+  },
+  "baseline_build": {
+    "status": "compiled_exact_candidate_actual_ARM_no_PL_access",
+    "source_sha256": {
+      "dfx/composite/medical/exact_speed_r22/worker.cpp": "a4b7734b6f1dcb5bf851d16b46530663b370f9b6554820362452c1729dfb0ac8",
+      "dfx/composite/medical/exact_speed_r22/frame_controls.hpp": "d426ac46dab37707e5643ce301e638fb07ed347f6164aa85a98a9a78e0f5b0d8",
+      "dfx/composite/medical/exact_speed_r22/neon_ps.hpp": "a8c926ba8af8a33b2800579102e3f8aa3a05679715e0b9ea5f88c1f565dc8e91",
+      "dfx/composite/medical/exact_speed_r22/render_batches.hpp": "00174a61ac9ea1b32eed36e40f3305c2b1d496212c025dcd5cb49862c44b5af3",
+      "dfx/composite/medical/exact_speed_r22/screen_tiles.hpp": "e7aff6f46706dc3cc105dc8f43f1c80e191aa74163664c9e70701966e7099dd1",
+      "dfx/composite/medical/exact_speed_r22/strong_ps.hpp": "f82fc72fe1d6ab39b65980b36ca7bbe8695ff4fd88afda61935a8eb55ba5a2d3",
+      "dfx/composite/medical/exact_speed_r22/compile.sh": "e85337c960d1304882ad6aa786eb4e6d016bc8aca53ac7fa0191699788a5c2c4"
+    },
+    "shared_source_sha256": {
+      "dfx/composite/medical/gl.hpp": "b27705dee676a0dc486a5e660f4125277d4572f9b71904b7d6853e223033d788",
+      "dfx/composite/medical/shared_batches.hpp": "5eaf07ef4afbfb0798454db67eef68251097afd89be4e31f772b5ea1248721a3",
+      "dfx/composite/medical/interactive/worker.cpp": "88aeaa44a25feae518c279d89e21ca9906eafb30820ddc56b602830d0356761e",
+      "dfx/composite/medical/exact_speed_r1/worker.cpp": "9c04e722a5d85063738c18f5eeb7ac8cb880d6d36c975a81c4ebaee3ee17d71b",
+      "dfx/composite/medical/exact_speed_r4/worker.cpp": "033d790b67f0417d2062733f52d3aa4805167f5cacc8442dcebdfb4c06bb556f",
+      "dfx/composite/medical/exact_speed_r6/worker.cpp": "d2d8b0ccf4a4ec68f0c829b31a2826020f78367b40541956e32f4722f4e33859",
+      "dfx/composite/medical/prepare_exact_speed_r9.py": "6735815d9a8196034124c16e6a376fd665a5ce3804dc2f3a17b15f9d95e31468",
+      "dfx/composite/medical/exact_frame_cache.inc": "c03cded75a26498ff48463c3500c0bf7dcc88a385e84ac6eb390155b4b5c85bf",
+      "dfx/composite/medical/exact_frame_cache_run.inc": "34334863c57e85b8a9c0630bf51b349ef0b57e57d857d3d5450816b8fb981e39",
+      "dfx/composite/medical/exact_speed_r9/worker.cpp": "08da2c8206be025182ed2bef107f60562053dfa28b9d09f57342249b1bdae45a",
+      "dfx/composite/medical/prepare_exact_speed_r10.py": "67b6882343da4a81d34e1b3a5d831a094569a77f418cb1b75092f56eb5588664",
+      "dfx/composite/medical/exact_speed_r10/worker.cpp": "86dc71887570144a9860a25dbc3b976ca9dbe277000419ea9cd42cb53d2a5bd6",
+      "dfx/composite/medical/prepare_exact_speed_r14.py": "df9eba41475491498540a766e5f2548230ae24aff324461a97d75c195230b653",
+      "dfx/composite/medical/exact_speed_r14/worker.cpp": "853641939a23b088848f3c706a449b93268ec16c089af4e6ff17eb3c202c5065",
+      "dfx/composite/medical/prepare_exact_speed_r21.py": "bcdd3993155e35547342c7b81b71c2a56608a9d5c6305107fe24b16d96604ebd",
+      "dfx/composite/medical/exact_speed_r21/worker.cpp": "c80802cfa3e88f8b66d06e31d9d3019d6bfb6d508d7a5b2698e0e61e1cda55d6",
+      "dfx/composite/medical/prepare_exact_speed_r22.py": "25cefe26a5263428b0a8488ed5809fe8de74e775838001faf1544a98477c22fb"
+    },
+    "library_sha256": {
+      "dfx/composite/host/libcomposite.so": "612db5c059396fa64f6ef5088633e849ded561bc2d3aaca615065ba1f26bc52b",
+      "dfx/composite/host/libcomposite_reference.so": "c02852a5930dd1e2d3b6d0b9fcef88eacd66be64520a1e5b86dc3ae27a082c89"
+    },
+    "new_PL_core": false,
+    "original_shaders_ID_triangle_order_and_96k_vertex_groups_unchanged": true,
+    "color_winner_updated_after_each_ID_batch_and_retained_until_final_depth_winner": true,
+    "extra_geometry_VBO_storage_bytes": 0,
+    "full_model_and_all_32_layers_preserved": true,
+    "source_buffer_reuse_only_after_completed_color": true,
+    "same_GL_context_ID_texture_write_to_color_sample_dependency": true,
+    "maximum_original_vertices_per_draw": 96000,
+    "draws_between_CPU_completion_waits": 2,
+    "binary_sha256": "92e7893616871c300b4676fe01f241a947ca62fd0f741e934bf90ab796f8f3fe",
+    "origin_sha256": "22a8541059dfe5b9c8fc3ffef8b73a00859338af488e04b8e5835e8f2662618f"
+  },
+  "timing_seconds": {
+    "old": {
+      "same": 0.0726401214778889,
+      "rotate": 3.748200017493218,
+      "opacity_warm": 0.1009963504911866
+    },
+    "new": {
+      "same": 0.07351881547947414,
+      "rotate": 3.3818204430281185,
+      "opacity_warm": 0.08706294596777298
+    }
+  },
+  "speedup": {
+    "same": 0.9880480391875931,
+    "rotate": 1.108337973773983,
+    "opacity_warm": 1.1600382845828716
+  },
+  "exact_FPS": {
+    "old": {
+      "same": 13.766496801693709,
+      "rotate": 0.2667947268910148,
+      "opacity_warm": 9.90134787184478
+    },
+    "new": {
+      "same": 13.601960171395742,
+      "rotate": 0.2956987270159705,
+      "opacity_warm": 11.485942600313086
+    }
+  },
+  "controls_compared": 17,
+  "additional_transparent_geometry_cases": 6,
+  "opacity_boundary_cases": 7,
+  "unchanged_camera_timing_reuses_full_exact_layers": true,
+  "rotation_timing_always_recomputes_geometry": true,
+  "all_complete_layers_and_final_pixels_bit_exact": true,
+  "source_sha256": "36a8c127b88c9a77b11315293e0e8db2561ca024878693a89926123c00fa208f",
+  "scene_sha256": "ed253dc88855bf17b5b4391175d1f2c2d0c01c5cb3ee862b6c6601728addb957",
+  "baseline_acceptance_sha256": "588d36229cf5a92101b7cb9ace1f84a05bcde79732ff6e0f6456456e462a0cdc",
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "trials": [
+    {
+      "path": "dfx/composite/medical/exact_speed_r26/acceptance/0_old/receipt.json",
+      "sha256": "239b975e688b31336cf84375a1a8b6f99949913589a9bfde9d1deefcca78ebc4"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r26/acceptance/1_new/receipt.json",
+      "sha256": "6e714979b1c8421c06b33a9f900af65d65275f4ebf9dba31507248a590c83385"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r26/acceptance/2_new/receipt.json",
+      "sha256": "05e0a8ff07f15ab95b4a708feb251acbe473779ec6b6a1dd65fd1db8b96aa6b8"
+    },
+    {
+      "path": "dfx/composite/medical/exact_speed_r26/acceptance/3_old/receipt.json",
+      "sha256": "8aadfbe3765327836646c72a8911b83fc33d6ec665c70acc184043ba6a6a3751"
+    }
+  ],
+  "cold_start_excluded_from_warm_speedup": true,
+  "warm_transport": "actual_UI_tmpfs_after_capture_sync",
+  "no_mesh_layer_or_resolution_reduction": true,
+  "new_PL_bitstream": false,
+  "production_UI_promoted": false
+}

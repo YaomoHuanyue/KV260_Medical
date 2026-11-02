@@ -1,0 +1,138 @@
+{
+  "schema": "kv260.FMA2.host.derivation.v1",
+  "derivations": [
+    {
+      "parent": "dfx/smooth_speed/host_BRAM_r2634/bridge.cpp",
+      "parent_SHA256": "b411b73507235970ad71e5d057c5f3cb939430d5c2bf5fccb991c8806a33a10d",
+      "candidate": "dfx/smooth_speed/host_FMA2_r1/bridge.cpp",
+      "candidate_SHA256": "0178e5371613c2650f8ce4f08e62632b8f68ab877f3f78baa12b3577e3ab54c6",
+      "literal_edits": [
+        {
+          "before": "../manual_bram_apply_r2585/mesh_smooth.hpp",
+          "after": "../shared_fma2_r1/mesh_smooth.hpp",
+          "occurrences": 1
+        },
+        {
+          "before": "    try{auto& s=static_cast<Context*>(handle)->session;",
+          "after": "    try{require(handle,\"Null smoothing context\");auto& s=static_cast<Context*>(handle)->session;",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "parent": "dfx/smooth_speed/host_BRAM_r2634/runtime.hpp",
+      "parent_SHA256": "7b727faa8e3dd6d862c00e483d4a123647b89988edd9e8e06e9a372e95672fd5",
+      "candidate": "dfx/smooth_speed/host_FMA2_r1/runtime.hpp",
+      "candidate_SHA256": "ac6df3cce3815534fa6fd0734eb54efcabc7201be354e6a8340c48b936da7df5",
+      "literal_edits": [
+        {
+          "before": "BRAM_r2634",
+          "after": "FMA2_r1",
+          "occurrences": 6
+        },
+        {
+          "before": "  auto path=project_root?std::filesystem::path(project_root)/\"dfx\"/\"medical\":std::filesystem::current_path();\n  require(path.is_absolute()&&std::filesystem::is_directory(path),\"Absolute medical project root required\");\n  return path;",
+          "after": "  require(project_root&&*project_root,\"Explicit FMA2 project root required before hardware access\");\n  std::filesystem::path project(project_root);\n  require(project.is_absolute()&&project.lexically_normal()==project&&std::filesystem::is_directory(project)&&std::filesystem::canonical(project)==project,\"Canonical absolute FMA2 root required before hardware access\");\n  auto release=project/\"dfx/smooth_speed/release_FMA2_r1\";\n  require(std::filesystem::is_regular_file(release/\"manifest.json\")&&std::filesystem::is_regular_file(release/\"native_guard.txt\"),\"Qualified FMA2 release required before hardware access\");\n  require(readfile(release/\"native_guard.txt\")==\"KV260_FMA2_100MHZ_FULLPR_PAIRED_MANUAL_RELEASE\\n\",\"Qualified FMA2 marker required before hardware access\");\n  require(same_file(release/\"medical_smooth_speed_FMA2_r1_partial.bin\",\"/lib/firmware/medical_smooth_speed_FMA2_r1_partial.bin\"),\"Qualified FMA2 partial identity required before hardware access\");\n  auto path=project/\"dfx\"/\"medical\";\n  require(std::filesystem::is_directory(path),\"Absolute medical project root required before hardware access\");\n  return path;",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "parent": "dfx/smooth_speed/host_BRAM_r2634/file_io.hpp",
+      "parent_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "candidate": "dfx/smooth_speed/host_FMA2_r1/file_io.hpp",
+      "candidate_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "literal_edits": []
+    },
+    {
+      "parent": "tools/build_BRAM_smoothing_host_r2634.py",
+      "parent_SHA256": "e7f4742bbf0e8ecfa7a879478b53e42d69e33e94c313e4163539e740824537d1",
+      "candidate": "tools/build_FMA2_smoothing_host_r1.py",
+      "candidate_SHA256": "dd074e2dc46e1dbf19ab1327c4c29bd1c87fd57f99afe2b017b77771e2854ed1",
+      "literal_edits": [
+        {
+          "before": "BRAM_r2634",
+          "after": "FMA2_r1",
+          "occurrences": 2
+        },
+        {
+          "before": "    started=time.perf_counter()",
+          "after": "    os.nice(10);os.sched_setaffinity(0,{2})\n    started=time.perf_counter()",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "parent": "dfx/smooth_speed/runtime_BRAM_r2634.py",
+      "parent_SHA256": "99cc495ad5576ae699820e12401514909c7f8f4fb4a09485f5987dc963c7fa8e",
+      "candidate": "dfx/smooth_speed/runtime_FMA2_r1.py",
+      "candidate_SHA256": "0f6eeeed353cf9ac53a05f2786f46eb92089b4f21c51a6427889e209afbc713d",
+      "literal_edits": [
+        {
+          "before": "BRAM_r2634",
+          "after": "FMA2_r1",
+          "occurrences": 3
+        },
+        {
+          "before": "seal_BRAM_smoothing_release_r2634",
+          "after": "seal_FMA2_smoothing_release_r1",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "parent": "dfx/smooth_speed/trial_backend_BRAM_r2634.py",
+      "parent_SHA256": "e083ef3e8eed7f084dda6c5a97919d7bcd03abc0314ae55550508b5382d7577c",
+      "candidate": "dfx/smooth_speed/trial_backend_FMA2_r1.py",
+      "candidate_SHA256": "7e5782bd0ecf4b3567668d883959e15fcc047fdf54ef7827d1037367fc1a6208",
+      "literal_edits": [
+        {
+          "before": "BRAM_r2634",
+          "after": "FMA2_r1",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "parent": "dfx/smooth_speed/test_board_BRAM_r2634.py",
+      "parent_SHA256": "3d24884860f2bac50b3ee1c05bff5f4a739fdbcd53aa21d6e65a8ca7f7bfa9a7",
+      "candidate": "dfx/smooth_speed/test_board_FMA2_r1.py",
+      "candidate_SHA256": "12262509f3f15347addbf6153fb21e5506a357f32bfdf732dd51780ccea68aac",
+      "literal_edits": [
+        {
+          "before": "BRAM_r2634",
+          "after": "FMA2_r1",
+          "occurrences": 6
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "dfx/smooth_speed/host_BRAM_r2634/bridge.cpp": "b411b73507235970ad71e5d057c5f3cb939430d5c2bf5fccb991c8806a33a10d",
+    "dfx/smooth_speed/host_FMA2_r1/bridge.cpp": "0178e5371613c2650f8ce4f08e62632b8f68ab877f3f78baa12b3577e3ab54c6",
+    "dfx/smooth_speed/host_BRAM_r2634/runtime.hpp": "7b727faa8e3dd6d862c00e483d4a123647b89988edd9e8e06e9a372e95672fd5",
+    "dfx/smooth_speed/host_FMA2_r1/runtime.hpp": "ac6df3cce3815534fa6fd0734eb54efcabc7201be354e6a8340c48b936da7df5",
+    "dfx/smooth_speed/host_BRAM_r2634/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "dfx/smooth_speed/host_FMA2_r1/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "tools/build_BRAM_smoothing_host_r2634.py": "e7f4742bbf0e8ecfa7a879478b53e42d69e33e94c313e4163539e740824537d1",
+    "tools/build_FMA2_smoothing_host_r1.py": "dd074e2dc46e1dbf19ab1327c4c29bd1c87fd57f99afe2b017b77771e2854ed1",
+    "dfx/smooth_speed/runtime_BRAM_r2634.py": "99cc495ad5576ae699820e12401514909c7f8f4fb4a09485f5987dc963c7fa8e",
+    "dfx/smooth_speed/runtime_FMA2_r1.py": "0f6eeeed353cf9ac53a05f2786f46eb92089b4f21c51a6427889e209afbc713d",
+    "dfx/smooth_speed/trial_backend_BRAM_r2634.py": "e083ef3e8eed7f084dda6c5a97919d7bcd03abc0314ae55550508b5382d7577c",
+    "dfx/smooth_speed/trial_backend_FMA2_r1.py": "7e5782bd0ecf4b3567668d883959e15fcc047fdf54ef7827d1037367fc1a6208",
+    "dfx/smooth_speed/test_board_BRAM_r2634.py": "3d24884860f2bac50b3ee1c05bff5f4a739fdbcd53aa21d6e65a8ca7f7bfa9a7",
+    "dfx/smooth_speed/test_board_FMA2_r1.py": "12262509f3f15347addbf6153fb21e5506a357f32bfdf732dd51780ccea68aac",
+    "dfx/smooth_speed/shared_fma2_r1/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "dfx/smooth_speed/axi_profile_r312/host_snapshot_r354.hpp": "b95b248208e331e64cdc393ff6ca7b974c7ff24ed2fcb70f30eb3750be39e71e",
+    "tools/prepare_FMA2_smoothing_host_r1.py": "5c02ee3c380c0dff11244ae63d48c5c9dcc6edc91ca75e23bd8aa1a79d122280"
+  },
+  "original_speed_run_body_and22_DMA_guards_and17_register_fields_unchanged": true,
+  "explicit_pre_FileLock_MMIO_XRT_release_gate_added": true,
+  "null_restore_refused": true,
+  "original_three_structure_SciPy5e5_strongestPS1_PS4_trial_preserved": true,
+  "original_queue2_single_background_XRT_owner_preserved": true,
+  "source_full_RTL_and100MHz_PR_proofs_already_available": true,
+  "native_compilation_and_actual_board_speed_still_required": true,
+  "PL_accessed": false,
+  "production_promoted": false
+}

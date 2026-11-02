@@ -1,0 +1,10 @@
+{
+  "parent_sha256": "54dbb7209f10dabfbb16e0b0b5c08fcc35263e582b00332163f40db0f70089f8",
+  "output_sha256": "e3828fb974cf5db84db4972754f68014df068cd033e4190e7636518e7fa4f210",
+  "production_sources_unchanged": true,
+  "changes": [
+    "enable current-scene export after cooperative graphics drain",
+    "bind export adapter to selected CT/result and exact scene revision",
+    "verify actual Qt export event and active airway VTP identity"
+  ]
+}

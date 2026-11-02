@@ -1,0 +1,32 @@
+{
+  "status": "both_actual_hosts_original144_and18_whole_core_exact",
+  "full_native_cases_per_host": 144,
+  "complete_own_CT_calls_per_host": 18,
+  "source_sha256": {
+    "dfx/smooth_speed/shared_fma2_r1/mesh_smooth.cpp": "94a196bdaee2574d458615004a00ca875a7b2e16354bfebadf72d2c99cb9f836",
+    "dfx/smooth_speed/shared_fma2_r1/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "dfx/smooth_speed/shared_fma2_r1/medical_fma.hpp": "b9fae0f0c09a2f755806e71e73dd946eb1aaf59a25d025a2d9b4dc82eec35bc0",
+    "dfx/smooth_speed/shared_fma2_r1/apply_stream.inc": "29e9c03ea8aca7215102ff75ef6ce4441ba92cd8037de7906fb91fa21705535e",
+    "dfx/smooth_speed/shared_fma2_r1/cache_window.hpp": "3d03a4304193d8bdf6e91778f636c8a65eaa42a1608b207a556c3ee9d6caf668",
+    "dfx/smooth_speed/shared_fma2_r1/oracle_bridge_r150.inc": "2bf31b4665dfb675ab16954e99ecb95dc4141dc1b05a41c6577e746f78439c5f",
+    "dfx/smooth_speed/shared_fma2_r1/oracle_reference.inc": "260fb6c49eec556baf81e1d1779fd427ae6e81ed8fede9cf9587d4862bd00103",
+    "dfx/smooth_speed/shared_fma2_r1/reference.cpp": "d20161c02597bcdff6e3be8d6c390ec96cfa5b57d818da503982575d627307b2",
+    "dfx/smooth_speed/shared_fma2_r1/finite_fma.hpp": "a891475025fcf867efa26a888aa534795cf13498d33045783ee3a7c65fc7253f"
+  },
+  "evidence_sha256": {
+    "dfx/smooth_speed/shared_fma2_r1/build_Windows/reference.dll": "c454ad3e211a5b503432c25097bd2f728be6f493e4d44e64da34c40a0e24eef9",
+    "dfx/smooth_speed/shared_fma2_r1/build_Windows/candidate.dll": "771ed78faee6f07ae5685154a6e4f73f931f3b460a4fad7ac8fda75af7fc3f5c",
+    "dfx/smooth_speed/shared_fma2_r1/results/native_full_banks_Windows_r2586.json": "688f80922725f37c32a318452150f7d5f0db18c02cff52eb22e27727bcd5d258",
+    "dfx/smooth_speed/shared_fma2_r1/results/own_CT_Windows_r2586.json": "d58bb44d10a10204b3c0be519390f01cfe35c5b680b8123ef2586629843a649f",
+    "dfx/smooth_speed/shared_fma2_r1/results/native_Windows.json": "9d15d02524b22b7c2e6d25cd157882bb08a8c1fd537dc2bbc8cff3e019c09099",
+    "dfx/smooth_speed/shared_fma2_r1/build_ARM/reference.so": "ea2498ecbee9b90222b379d9a742ef8843a6c180bd7f1e196d79455ef70b865c",
+    "dfx/smooth_speed/shared_fma2_r1/build_ARM/candidate.so": "33c96b9736e1e020f6c47fd3dc53d781b4fe6a1d326a4a1c2af8da901fe92bea",
+    "dfx/smooth_speed/shared_fma2_r1/results/native_full_banks_ARM_r2586.json": "303b0ea421fd8e21152904d2b1bb0d6b0df46f1fec7b70f5af346939c83d17a8",
+    "dfx/smooth_speed/shared_fma2_r1/results/own_CT_ARM_r2586.json": "05fcd4b46624f82a5c13743244f22381717b392a191bf4a3f9a4b60e80cf1a9c",
+    "dfx/smooth_speed/shared_fma2_r1/results/native_ARM.json": "fea48ef96ea62c266a8f4078ac30b32c887d47fac26768baded26661624c4005"
+  },
+  "all_original_case_generators_and_oracles_unchanged": true,
+  "full_HLS_RTL_PR_and_board_speed_pending": true,
+  "PL_access": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,1375 @@
+{
+  "schema": "kv260.vivado.inputs.v1",
+  "files": [
+    {
+      "path": "hardware/boards/kv260_som/1.4/board.xml",
+      "bytes": 20328,
+      "SHA256": "edebd35cff91551842b06603426d0478d9ef6bc92106ff0b9eb0c741b8d354fd"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/changelog.txt",
+      "bytes": 318,
+      "SHA256": "b5c340b48135e8947ee37b9b35be063993e9a943dfd182ead251b8987e003de7"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/kv260_board.png",
+      "bytes": 492629,
+      "SHA256": "48406f9a97db70fe13e47e5c2794f3eed59d29b6eb134400cc30d1bec9ea664e"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/LICENSE",
+      "bytes": 736,
+      "SHA256": "e1aa6325b5df2cd95c0b70194dafe2080c961d52901010b584c6617a0bdd3956"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/part0_pins.xml",
+      "bytes": 4841,
+      "SHA256": "3b83bbf8d0969ca31d989650d6e2d71305d028915eaf7633b12d8ec283ce8ca4"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/preset_s4.xml",
+      "bytes": 20903,
+      "SHA256": "26d44b28017b59e6d31d1292d1436d68a24ee67fef45885c524e6873ff99be3a"
+    },
+    {
+      "path": "hardware/boards/kv260_som/1.4/xitem.json",
+      "bytes": 838,
+      "SHA256": "ce7aa16ed7a40bf867009b486b16a133c4d8f4da21cb436d30faad294d78dc1b"
+    },
+    {
+      "path": "hardware/frozen/reference_mc.dcp",
+      "bytes": 24920742,
+      "SHA256": "6293f9bb59c16f7144a275b5d50adbf35781c953977464f21ce6ae51696e9a14"
+    },
+    {
+      "path": "hardware/frozen/static_routed.dcp",
+      "bytes": 17023741,
+      "SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9"
+    },
+    {
+      "path": "hardware/hls_targets.json",
+      "bytes": 2873,
+      "SHA256": "12e0ea85590807b0c6e3c5302d08af380a4b0c9c82e2942bf18cc3bf09cc8c86"
+    },
+    {
+      "path": "hardware/implement_rm.tcl",
+      "bytes": 1545,
+      "SHA256": "466873c31f8cb80d923d0a4209a22fa034fedef8b4a92faa4226a0683b6eeabe"
+    },
+    {
+      "path": "hardware/rm/composite.tcl",
+      "bytes": 2773,
+      "SHA256": "7aee4e51fb7d35b861af58853886fb67072085ae508a8abaf9eed814f3ccded4"
+    },
+    {
+      "path": "hardware/rm/ct.tcl",
+      "bytes": 4482,
+      "SHA256": "0707e4b2a5a2adde71dcb1af5a48abde1295a76105db08b7d84269520589eab0"
+    },
+    {
+      "path": "hardware/rm/edt.tcl",
+      "bytes": 2748,
+      "SHA256": "38cc4287263a5223074f9f21d2bfc105e29070b8fc8cc7e0cee0bb269537e322"
+    },
+    {
+      "path": "hardware/rm/hu32.tcl",
+      "bytes": 904,
+      "SHA256": "28041996df047b6e36d770c264186263eaca796da1e0e7975fae8e4a61791438"
+    },
+    {
+      "path": "hardware/rm/mc.tcl",
+      "bytes": 892,
+      "SHA256": "13918cc8c4da29dbaf3c280a3746761e99a079b8ea76cdf701699c83052235cb"
+    },
+    {
+      "path": "hardware/rm/profile/axi_profile_timescale_r316.sv",
+      "bytes": 3722,
+      "SHA256": "ff1cac609c3905195cefa06d2043345d486257b1e6689608d1058c5b7967a8a6"
+    },
+    {
+      "path": "hardware/rm/profile/control_bank_r329.sv",
+      "bytes": 5658,
+      "SHA256": "24df6baec0378729cf7e5e29f6a315cbe7dbd8086bdf9640fd4b9320a2d024dc"
+    },
+    {
+      "path": "hardware/rm/profile/optional_synth_r333/optional_profile_r332.sv",
+      "bytes": 3463,
+      "SHA256": "17c311296c1c956fc0b7b4b70e7a0adb2ea97c382dad059bf13e99a1b438498a"
+    },
+    {
+      "path": "hardware/rm/quality.tcl",
+      "bytes": 2524,
+      "SHA256": "acb260d69602e43eaa755cc68e3a3553d99881c11db1224c44bd13a8852956cd"
+    },
+    {
+      "path": "hardware/rm/route.tcl",
+      "bytes": 3155,
+      "SHA256": "1c9ec4b24123ba71c9db982370b7e32bd5a089dcfc0d848f0cc9bc11bb7e3a78"
+    },
+    {
+      "path": "hardware/rm/smooth.tcl",
+      "bytes": 4068,
+      "SHA256": "0cedd6d4d26f04fcffbc6eb83261e5b15cc4612f9d06b1c7c5ec48a1f3775df2"
+    },
+    {
+      "path": "hardware/rm/surface.tcl",
+      "bytes": 2510,
+      "SHA256": "54cabf183f2514e217d20b3ce171888e23c6b57938ce26b01ef677279bcfd6c7"
+    },
+    {
+      "path": "hardware/rm_targets.json",
+      "bytes": 1584,
+      "SHA256": "40a7a7e49411cf3875f89eac82988b848377a34c3bf2011b4988831ce08a7647"
+    },
+    {
+      "path": "hardware/ross_export/.gitignore",
+      "bytes": 178,
+      "SHA256": "e1df1252cfb90b761b0472e7829c17b09d38c3fbcc04239333d63feb36a03acb"
+    },
+    {
+      "path": "hardware/ross_export/README.md",
+      "bytes": 847,
+      "SHA256": "5bdc66a8eee87d66c88bb02de996f10936e3eb5e1e74de456689b737d88e2773"
+    },
+    {
+      "path": "hardware/ross_export/Scripts/build.tcl",
+      "bytes": 21665,
+      "SHA256": "c39b7b01650ae957d30d5dd5cb56082463fb20106a8d564003fb438fa77391d6"
+    },
+    {
+      "path": "hardware/ross_export/Scripts/project_settings.tcl",
+      "bytes": 3342,
+      "SHA256": "aa06630fb3312b5a228148e6fd6dfa9eb223de3e26c17d453bf300fd7acee509"
+    },
+    {
+      "path": "hardware/ross_export/Scripts/verification_manifest.tcl",
+      "bytes": 535,
+      "SHA256": "7515cf221bb5c82ff02b854bc1c033ed190e51e3e9d5f8a7f7058641d7b7a42d"
+    },
+    {
+      "path": "hardware/ross_export/Sources/BD/algorithm_mc.tcl",
+      "bytes": 10628,
+      "SHA256": "f03d51421cdc9bb88c1b1000e62dc441e54a602a774fe33adb79cea4f3803d0c"
+    },
+    {
+      "path": "hardware/ross_export/Sources/BD/system_ps.tcl",
+      "bytes": 43126,
+      "SHA256": "d4e9d8ba53a14b276fd8312296199157e6ba34b13430e78b6477cdf9b323c443"
+    },
+    {
+      "path": "hardware/ross_export/Sources/RTL/medical_guard.v",
+      "bytes": 846,
+      "SHA256": "1d3960bde28213600af651d6ad97cae8acf7745586be4c772f37fffc81d8c823"
+    },
+    {
+      "path": "hardware/ross_export/Sources/RTL/rm_stub.v",
+      "bytes": 2123,
+      "SHA256": "3d42bf77b4b82aa725fb7d88a944640f36d06efde27467e149f11eb6e5493148"
+    },
+    {
+      "path": "hardware/ross_export/Sources/RTL/system_top.v",
+      "bytes": 6839,
+      "SHA256": "7c88dce28854be577da9b62a3797e5780bef0c69497516eec7e699aededb892a"
+    },
+    {
+      "path": "hardware/static/create_project.tcl",
+      "bytes": 7393,
+      "SHA256": "ba176a7e65e6b2dc6c027df54ecc162061a2c9a8e85bc043b27dd4bd61071205"
+    },
+    {
+      "path": "hardware/static/floorplan.tcl",
+      "bytes": 1042,
+      "SHA256": "b67f8a9f8a713d953a5ef24f7a96f579ae3e8e14549075483fb3e7d0e7725884"
+    },
+    {
+      "path": "hardware/static/generate_wrapper.py",
+      "bytes": 4057,
+      "SHA256": "94f87f8dababa7b5f342157727dd1ce8997f32ea4266828cdd6b5a971decc8c9"
+    },
+    {
+      "path": "hardware/static/rp_ports.json",
+      "bytes": 3819,
+      "SHA256": "efc387572cab0bff968e5f8c02a235e32d792a1dca015abe45e6ee583e64c9c8"
+    },
+    {
+      "path": "hardware/static/rp_stub.v",
+      "bytes": 2123,
+      "SHA256": "3d42bf77b4b82aa725fb7d88a944640f36d06efde27467e149f11eb6e5493148"
+    },
+    {
+      "path": "hardware/synthesize_rm.tcl",
+      "bytes": 832,
+      "SHA256": "cb10f3a63052d06734dd327b872de66a93444391e4e153dc6ac2006a61b41bef"
+    },
+    {
+      "path": "scripts/prepare_axis_rm.py",
+      "bytes": 1156,
+      "SHA256": "bf746d79f936bb51514c3fbcf4d7c58bce96a27961d42f2858b03f6a3ddd72bd"
+    },
+    {
+      "path": "scripts/run_hls.py",
+      "bytes": 2981,
+      "SHA256": "0695ae553081db5748ec540fa65fdb362ed6560c7536136204ee5364fbd7e65c"
+    },
+    {
+      "path": "dfx/composite/build_rm.tcl",
+      "bytes": 3130,
+      "SHA256": "038f426329effe3473026e9e2da75b946fb87782401f30ad1e9b1da34e779ca0"
+    },
+    {
+      "path": "dfx/composite/generate_wrapper.py",
+      "bytes": 1904,
+      "SHA256": "add9c20ffaef40e300f916a9bad58a54027ddfe6f501b96cde413150581a5ba7"
+    },
+    {
+      "path": "dfx/composite/hls/algorithm.hpp",
+      "bytes": 1583,
+      "SHA256": "8e196e02f679e89989db56fdc9ff86e985d800b0a68679dfcb7aa0fd08ef9f27"
+    },
+    {
+      "path": "dfx/composite/hls/composite.cpp",
+      "bytes": 4172,
+      "SHA256": "b5a1ea4e8ec45bb4c73b3c878d56bfab301c1b62e9dfc51659d107484fcbeb59"
+    },
+    {
+      "path": "dfx/composite/hls/composite.hpp",
+      "bytes": 353,
+      "SHA256": "541e2000039ec393ba1ecd4332be595bb2751a0fec53df86b1822150f99c6cb2"
+    },
+    {
+      "path": "dfx/composite/hls/testbench.cpp",
+      "bytes": 2669,
+      "SHA256": "aff542bae40db582937a7a9a21af63011c86142e661a6987c7686723fe3f7a03"
+    },
+    {
+      "path": "dfx/edt_volume/build_rm.tcl",
+      "bytes": 3110,
+      "SHA256": "ff5ef2424a101a3a03d71c39547633509d9f40bc27ec407f37522940bc0e281d"
+    },
+    {
+      "path": "dfx/edt_volume/generate_wrapper.py",
+      "bytes": 1901,
+      "SHA256": "face7ab59c61755934dcf5d334159e1eaaa3d63eedebf2d50fab616950cb70ef"
+    },
+    {
+      "path": "dfx/edt_volume/hls/edt_volume.cpp",
+      "bytes": 13221,
+      "SHA256": "7413bebbcf29e3c3b0c4bb0d454f54d8e19bd82511bfc09b5bc86531b0947425"
+    },
+    {
+      "path": "dfx/edt_volume/hls/testbench.cpp",
+      "bytes": 4246,
+      "SHA256": "c0d62834dd7a29cbce7a033ebea3a8d22d44bef3a2956c961a3cdb4bd8884c14"
+    },
+    {
+      "path": "dfx/edt_volume/hls/types.hpp",
+      "bytes": 1877,
+      "SHA256": "910d994993cdfaf12ff63e3a245a5d50c9f6c414b9b15abd87b7c63f5b97673d"
+    },
+    {
+      "path": "dfx/medical/algorithms/segmentation/stream_types.hpp",
+      "bytes": 2684,
+      "SHA256": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/component.xml",
+      "bytes": 134559,
+      "SHA256": "ceb10f6f6f9d6a849a4bde6129defebb98956a1b89a3c01f94d7a6c2dd9f045e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/constraints/dfx_reader_ooc.xdc",
+      "bytes": 395,
+      "SHA256": "bc275c403c2beeec95b0c3664ecc37842f82207b326bf93c35acb6c465ed2485"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/doc/ReleaseNotes.txt",
+      "bytes": 117,
+      "SHA256": "86662408b747f0884da8fd731f6a27dc60804813ac9dd265430bdd3bcbd776ed"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/data/dfx_reader.mdd",
+      "bytes": 610,
+      "SHA256": "e6917d7fff3355042dee697fc963e09261e4f6e7eb45643967529fce171b162e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/data/dfx_reader.tcl",
+      "bytes": 908,
+      "SHA256": "1a9bc58f0522e57b5bb3fe947134b134178733d4ae17790833a166f65bf32a82"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/data/dfx_reader.yaml",
+      "bytes": 659,
+      "SHA256": "1cae947f56d0a23f466ed0b2671e92800b2177df298477d5d517c858cdb7d3d4"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/CMakeLists.txt",
+      "bytes": 1201,
+      "SHA256": "371306fa2d17550572937911c5179999d8dab0c9678ce52af395ab29ca6395b8"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/Makefile",
+      "bytes": 1505,
+      "SHA256": "3d44d8d43e86b7fa4488dce1ec32281c1d44f098c3e070fbf42151084708ebc8"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/xdfx_reader.c",
+      "bytes": 6676,
+      "SHA256": "93852b8f8ef4a6a7bb0b8b9ce7612f079409c5106b1133ba18d5aed9d0590c7d"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/xdfx_reader.h",
+      "bytes": 3909,
+      "SHA256": "975e90b4962b9cf05992bd75df428d7c321d19b428506a29696779aab96e4cc9"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/xdfx_reader_hw.h",
+      "bytes": 1971,
+      "SHA256": "d3bede85400d828c6896c9efd9329f578f2676b509ac22504db275060bf2b4c8"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/xdfx_reader_linux.c",
+      "bytes": 4835,
+      "SHA256": "68c35d27dae5f0e6b4899362a8674f24a541ac5faa3307d6ed416ed64f37f24e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/drivers/dfx_reader_v1_0/src/xdfx_reader_sinit.c",
+      "bytes": 2061,
+      "SHA256": "3c5bd727dd14a6a101d0d639552fe641abb5d0c2b4088c2b2f2b1205c12ad030"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader.v",
+      "bytes": 35971,
+      "SHA256": "3ca3f37443ef20c650c0e506f4e7e6af7db184780201f122b69a4e15ed0b08df"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_control_s_axi.v",
+      "bytes": 13464,
+      "SHA256": "e35cecd5ce93a0f03401bc10ae6833513341ec4bcd4f96ad5c92f3e54df74623"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_flow_control_loop_pipe.v",
+      "bytes": 1935,
+      "SHA256": "ce6b0f8d945c10f2a0f711d8c5f860c6123c3a3718fa7d8878a692e320b3c32e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_hls_deadlock_idx0_monitor.v",
+      "bytes": 1036,
+      "SHA256": "a23065e846f8e6879f16605e0a8cf081336652ec11755ea50de4becebca90fbb"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_hls_deadlock_kernel_monitor_top.vh",
+      "bytes": 975,
+      "SHA256": "541fd06bf77aa833fa4619eba09043a1792d3c727cfebf2a7eb054049cee1898"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_memory_m_axi.v",
+      "bytes": 92759,
+      "SHA256": "47ecfd43a63ad45b191594b0f066a663adfed61cc3800683767b6f212a1b6537"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/verilog/dfx_reader_regslice_both.v",
+      "bytes": 3363,
+      "SHA256": "a1439431f20e98f8be8d1b6957f0def1232a77aaae2be2ce34e1dcf12ad705f4"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/vhdl/dfx_reader.vhd",
+      "bytes": 57692,
+      "SHA256": "f10734e94091369704ed06c6b6fa515f3816246953bb4374b57995f8457ee7f5"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/vhdl/dfx_reader_control_s_axi.vhd",
+      "bytes": 18186,
+      "SHA256": "f4c90773142da0a74ae09f43b130609d7a8d06b566145bda2d6e8318d88cf736"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/vhdl/dfx_reader_flow_control_loop_pipe.vhd",
+      "bytes": 2269,
+      "SHA256": "d67864fa6dde2635384b0a5975adc317d2ef26b2658adb73f5cee043c36c430b"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/vhdl/dfx_reader_memory_m_axi.vhd",
+      "bytes": 128240,
+      "SHA256": "2b0546a2e182db7f058381e65f0746d21e0f809e11e74d369e59298d1b43edd2"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/hdl/vhdl/dfx_reader_regslice_both.vhd",
+      "bytes": 4722,
+      "SHA256": "cdeccb707ed386c4d44600d44101a15f3018b629128ba1fb75c8b8901f47f57c"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/misc/logo.png",
+      "bytes": 2297,
+      "SHA256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_reader/xgui/dfx_reader_v1_0.tcl",
+      "bytes": 10381,
+      "SHA256": "82681fcbe4aea6e40914dd2b71ead0afd85dc5884932679949b8322f8039cc97"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/component.xml",
+      "bytes": 138224,
+      "SHA256": "58032ceb26cc3e8fa23c8b93983cc2dbde7318bfc26091393e4987fef9f4620f"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/constraints/dfx_writer_ooc.xdc",
+      "bytes": 395,
+      "SHA256": "bc275c403c2beeec95b0c3664ecc37842f82207b326bf93c35acb6c465ed2485"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/doc/ReleaseNotes.txt",
+      "bytes": 117,
+      "SHA256": "86662408b747f0884da8fd731f6a27dc60804813ac9dd265430bdd3bcbd776ed"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/data/dfx_writer.mdd",
+      "bytes": 610,
+      "SHA256": "e39dc09a773372c907d253cf329e44bf4cbd05366fea35c1538477f4caa0ac3e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/data/dfx_writer.tcl",
+      "bytes": 908,
+      "SHA256": "26825f18a9f5c153dca4edeb9180e1bcc699050858940e0ea5a9a1c91f322c82"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/data/dfx_writer.yaml",
+      "bytes": 659,
+      "SHA256": "8a298595e07dc385bfc3661e07d1dad3e17cd1e4ee2f01ad0f4564693ead3ddb"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/CMakeLists.txt",
+      "bytes": 1201,
+      "SHA256": "2e6062ae80eb4aa06d049c45c79f6d14297125fa7024baa006500a127c5875c2"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/Makefile",
+      "bytes": 1505,
+      "SHA256": "03000bf24b71f0379bce9b93aa3dce2bb04cf6290efaa9b23081154f76c47b43"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/xdfx_writer.c",
+      "bytes": 7332,
+      "SHA256": "7ad23cc3560dadafdd4e3be227576498d7d4f2a0d8ca1cc5c756302aa391c779"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/xdfx_writer.h",
+      "bytes": 4025,
+      "SHA256": "eaeeed113a5eaf2ff795ecbeb6addcc2343e5812bd9bbc49bf0d377d5518a863"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/xdfx_writer_hw.h",
+      "bytes": 2325,
+      "SHA256": "dc13bb22be94a3bbfe38d53dd2811c9aa6e66d09f1067bb2b9fcb43ea8bcaec9"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/xdfx_writer_linux.c",
+      "bytes": 4835,
+      "SHA256": "5dfc7c8597cdb86e063fd0f295c4ffdd27d55e4bb5e8b948138bf7cbae9035ec"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/drivers/dfx_writer_v1_0/src/xdfx_writer_sinit.c",
+      "bytes": 2061,
+      "SHA256": "eefc263f378ed63fa1faa1f78e28c83f7499128c1e3ad8027909636c47b2d145"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer.v",
+      "bytes": 33782,
+      "SHA256": "1d6887cfb305a1c721bb8f2f369797515ee747c10e150ae72e8cf62bc2b775fc"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_control_s_axi.v",
+      "bytes": 14721,
+      "SHA256": "a1213d7a957a5c7ff92e832c58e7e6698e72018310c45c0ab4384b514d3b2688"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_flow_control_loop_delay_pipe.v",
+      "bytes": 2689,
+      "SHA256": "fa67c2904b87479aff0405df8f5e43c6ccd73ecf5da80c3cc5b92fe20fac7b38"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_hls_deadlock_idx0_monitor.v",
+      "bytes": 1036,
+      "SHA256": "1655f3993e70832aa749b74f6c45c2db23f0f63ece3077fc27d60c8212f4a383"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_hls_deadlock_kernel_monitor_top.vh",
+      "bytes": 974,
+      "SHA256": "b0ea632fcb016602d185ad5718bcd3962f6cfe48ca1306d1d37c96982cf3d9a7"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_memory_m_axi.v",
+      "bytes": 119743,
+      "SHA256": "241f8ee1ad33a18fbf1c2d00ffa81e17746720733aa8386af4ed04fbe0c05b5e"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/verilog/dfx_writer_regslice_both.v",
+      "bytes": 3363,
+      "SHA256": "05153d69984aca3ed87831b1a8246663d556c851b99c1b644a722013571e16ad"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/vhdl/dfx_writer.vhd",
+      "bytes": 53869,
+      "SHA256": "ad913442235061c50a3978d1d5c4522dcaa4cdb296e62ff17648f5a90f283b69"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/vhdl/dfx_writer_control_s_axi.vhd",
+      "bytes": 19859,
+      "SHA256": "181b9bf61df2a650683d1b2bb7a992460e19dd2e49d3d219d020e26306549c4f"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/vhdl/dfx_writer_flow_control_loop_delay_pipe.vhd",
+      "bytes": 3256,
+      "SHA256": "132d881b309af9c70826622441944875762130ba264af75d4b6e3b46d4cc4b27"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/vhdl/dfx_writer_memory_m_axi.vhd",
+      "bytes": 163579,
+      "SHA256": "466db7ea218c6812d0ddf02363bb4fb908f94777d637b88f058d8d76ef1b036b"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/hdl/vhdl/dfx_writer_regslice_both.vhd",
+      "bytes": 4722,
+      "SHA256": "8d966d0a12aa479f9fcb3e827816a6ba270daf59df4357df2ece41804fcd78f3"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/misc/logo.png",
+      "bytes": 2297,
+      "SHA256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af"
+    },
+    {
+      "path": "dfx/medical/ip/dfx_writer/xgui/dfx_writer_v1_0.tcl",
+      "bytes": 10381,
+      "SHA256": "82681fcbe4aea6e40914dd2b71ead0afd85dc5884932679949b8322f8039cc97"
+    },
+    {
+      "path": "dfx/medical/rtl/medical_guard.v",
+      "bytes": 846,
+      "SHA256": "1d3960bde28213600af651d6ad97cae8acf7745586be4c772f37fffc81d8c823"
+    },
+    {
+      "path": "dfx/route_audit_speed/build_rm.tcl",
+      "bytes": 3611,
+      "SHA256": "17f08784ffbebd3f6a7630b85735e87ae7e82f913ae7996ac2da2595e51e9a29"
+    },
+    {
+      "path": "dfx/route_audit_speed/generate_wrapper.py",
+      "bytes": 1554,
+      "SHA256": "5e24a1028af58cde42b448064d32b560dda42863c3953a62521d656011f6747e"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/audit.hpp",
+      "bytes": 10069,
+      "SHA256": "ddf92a1701a0246f92c3b56bdfee7c03b9101b1006070afc02d3cfc521b65c52"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/cordic_constants.hpp",
+      "bytes": 939,
+      "SHA256": "52d01a4a621e037d087654b4782663dc4371aa1c4ecbbf0a3dfd1113a71e8a79"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/reciprocal_constants.hpp",
+      "bytes": 5418,
+      "SHA256": "4fbebeb5da76dea62d385279ce7a3f4d2a5c4023e7f87fdba87ac621a91b1389"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/route.cpp",
+      "bytes": 26506,
+      "SHA256": "4b6e30152b973dd8e7344068a718a5cd94cb144ef67594c38bc623b9b5a3f142"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/route.hpp",
+      "bytes": 517,
+      "SHA256": "94ab1fb3935ffff1135d98cf1fe6bbc73dd1f2b6990bcd9621d3337dd78f4fd2"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/testbench.cpp",
+      "bytes": 5051,
+      "SHA256": "45d93465c83ba7a56cd65240ef8548901b916ae8e0dc3f3fe56fdc86149e4c0a"
+    },
+    {
+      "path": "dfx/route_audit_speed/hls/types.hpp",
+      "bytes": 1726,
+      "SHA256": "4d6e9e64b4416e4db8785eee6c0c51b9d32f72fdd6fa47bff2d9f763b6efc1d3"
+    },
+    {
+      "path": "dfx/surface/build_rm.tcl",
+      "bytes": 2680,
+      "SHA256": "6d81b27b0d746e2379ef7d41ab943cb44d144d99179050507400da3974c8bc88"
+    },
+    {
+      "path": "dfx/surface/generate_wrapper.py",
+      "bytes": 944,
+      "SHA256": "07b21726b80b9a67fc8e773a56f746de272b038f1344ddf9274c41af9344f917"
+    },
+    {
+      "path": "dfx/surface/hls/scope.cpp",
+      "bytes": 16755,
+      "SHA256": "efe9dd02c2f338007045f9f5c7584baae98c9216f329bc38239c663956490ae1"
+    },
+    {
+      "path": "dfx/surface/hls/scope.hpp",
+      "bytes": 660,
+      "SHA256": "8fbcdd4f5644aeacded3165caaff3b0404b8c4301d24b35ab840756392970fb3"
+    },
+    {
+      "path": "dfx/surface/hls/testbench.cpp",
+      "bytes": 2469,
+      "SHA256": "055b6ba0d8df412da4228fc676bf287ef75a710c4585fed82fb69c5b9279811a"
+    },
+    {
+      "path": "dfx/surface_quality/build_rm.tcl",
+      "bytes": 2641,
+      "SHA256": "3c8980e46bd2e47feb70e03600c68a473a9f4fc685fdd8e709fc8fcb5a4ed4da"
+    },
+    {
+      "path": "dfx/surface_quality/generate_wrapper.py",
+      "bytes": 926,
+      "SHA256": "1f33e7224af8891ba35b8f323c01d711852bda8b142294c43ea243457fd7c7fd"
+    },
+    {
+      "path": "dfx/surface_quality/hls/scope.cpp",
+      "bytes": 19341,
+      "SHA256": "a4217224c270b58b1216824b5a19c05e022095787dcc7ea4ade7512889e637f7"
+    },
+    {
+      "path": "dfx/surface_quality/hls/scope.hpp",
+      "bytes": 695,
+      "SHA256": "c6e8d83899a8d0fffad5c47707fd0c4055561cbba5e06c4b7fc2896665c09e01"
+    },
+    {
+      "path": "dfx/surface_quality/hls/testbench.cpp",
+      "bytes": 5241,
+      "SHA256": "8dbb0fc453cea28cd684cea39cdc61597e3b92e1769b4e894d56e464bf36fecb"
+    },
+    {
+      "path": "modules/ct_preprocess/axis_hu_32_r2/generate_rm.py",
+      "bytes": 6953,
+      "SHA256": "00711b07f86d5d68946ffca22ffa256624d0701e52720784f304f9d0d13e4b80"
+    },
+    {
+      "path": "modules/ct_preprocess/axis_hu_32_r2/hu_axis.cpp",
+      "bytes": 5473,
+      "SHA256": "547d4464aad209d59e482631099ef987cc11469ad8d2e7ffee4bfb55fdc1f4fc"
+    },
+    {
+      "path": "modules/ct_preprocess/axis_hu_32_r2/hu_axis.hpp",
+      "bytes": 1427,
+      "SHA256": "71917b8d38f2b7673814c3cb1e8f524ea657c480d945351407f1b51519497dd3"
+    },
+    {
+      "path": "modules/ct_preprocess/axis_hu_32_r2/testbench.cpp",
+      "bytes": 4039,
+      "SHA256": "9371c57819f589f9263f5ca397fda4a94c95d88264e8f345237d96486db2fafb"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/binary_lewiner.hpp",
+      "bytes": 17636,
+      "SHA256": "61e086ac2955e25764e7e362a1c7566ce7097448ab6473b5493aef6579338f1d"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/generate_rm.py",
+      "bytes": 4916,
+      "SHA256": "0a3d0fca2d1959674d621b9fe92c44b51e301ff5b1521652f58d208d0baba7cd"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/mc_axis.cpp",
+      "bytes": 6077,
+      "SHA256": "20571a245dffb69d39f003071bbf0cfd733f898fa41e474a7101ac3dc668952d"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/mc_axis.hpp",
+      "bytes": 1696,
+      "SHA256": "da93087ddb4c7b0e9e972deb5041f649237a651f0d3441b9d5c29c9c5789d933"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/scan8.inc",
+      "bytes": 5417,
+      "SHA256": "3362aeba728e4243005e5b406f895b389057622271e2b3a56aca55420d7fc1a4"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/testbench.cpp",
+      "bytes": 5354,
+      "SHA256": "08e18f3e357a799d18464cfbd28e7343dcb97df2ba441286090289ddaede3459"
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/triangulate8.inc",
+      "bytes": 1695,
+      "SHA256": "306c112e4c2f7ddbffc8d017fe9b582c5c331b9c762261416b1495ae9bf00811"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/apply_stream.inc",
+      "bytes": 8142,
+      "SHA256": "da1af0317568b3b02c88f92dae429eeca55d4607abd32e757b658ce4a58dfbab"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/axis_graph_reader.hpp",
+      "bytes": 3432,
+      "SHA256": "c88b678a1d10a37211654441658e3f3d4a3d9a65f8d5ee7b0251b9241f7b1d7a"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/axis_kernel.hpp",
+      "bytes": 429,
+      "SHA256": "4b58d0b2aa2045c28cb6386c4db2e05a52072907a63acbaf2695320709707e1d"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/cache_window.hpp",
+      "bytes": 1090,
+      "SHA256": "3d03a4304193d8bdf6e91778f636c8a65eaa42a1608b207a556c3ee9d6caf668"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/dfx_candidate_r2/build_rm.tcl",
+      "bytes": 4399,
+      "SHA256": "7f92a0f04e24414cc82db85c384636ec8cdf32854feb1bc6ba6108e5fddfada3"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/dfx_candidate_r2/generate_wrapper.py",
+      "bytes": 4756,
+      "SHA256": "508e8891560672c2d850f94673ffea8a6af4da09e7ca4518f332aa5dbe45296e"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/finite_fma.hpp",
+      "bytes": 3536,
+      "SHA256": "a891475025fcf867efa26a888aa534795cf13498d33045783ee3a7c65fc7253f"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/graph_task.hpp",
+      "bytes": 3777,
+      "SHA256": "046fe0993944c0111c1e3cad9cf4837ad5961c420b62228c688ed2a2c22240da"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/medical_fma.hpp",
+      "bytes": 851,
+      "SHA256": "b9fae0f0c09a2f755806e71e73dd946eb1aaf59a25d025a2d9b4dc82eec35bc0"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/mesh_smooth.cpp",
+      "bytes": 41814,
+      "SHA256": "f3ba9d5a5bc4bd042c5a212ffce26e629510ef2371e79cd998046ac6fecc90df"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/mesh_smooth.hpp",
+      "bytes": 1918,
+      "SHA256": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/native_abi.inc",
+      "bytes": 3204,
+      "SHA256": "911470d768be4908c723cab6d4b4337d2d705ea0cadaaf6602b122b836966a77"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/testbench/fixture_axis.hpp",
+      "bytes": 2526,
+      "SHA256": "9d9fcf1699f5222b70b4adde8664985afb1cf31f111691f7664396980edb37e4"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/testbench/oracle_bridge_r150.inc",
+      "bytes": 1533,
+      "SHA256": "2bf31b4665dfb675ab16954e99ecb95dc4141dc1b05a41c6577e746f78439c5f"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/testbench/oracle_reference.inc",
+      "bytes": 15467,
+      "SHA256": "260fb6c49eec556baf81e1d1779fd427ae6e81ed8fede9cf9587d4862bd00103"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/testbench/testbench_all_banks_r150.cpp",
+      "bytes": 7312,
+      "SHA256": "433711d91f638820750a447ca6177d2cfa77229e797672c03e661a0bd234d119"
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/testbench/testbench_full_r195.cpp",
+      "bytes": 3233,
+      "SHA256": "400467aed14dbab25f6bc9e3b4088dc91fa7c287ffd4331f97f0972692ae1d4d"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/build_ct_rm.tcl",
+      "bytes": 5148,
+      "SHA256": "70ada4015fff216d72696d1b8d3a64dcb453b75d44d184b613f11b27549d0ff6"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/generate_wrapper.py",
+      "bytes": 1627,
+      "SHA256": "153739aa6d94b1a824ed1b91b6bf5b2cfcc87701389b8f760d2fa15364d42e3f"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/HLS_r1/test_model_tables.hpp",
+      "bytes": 4908,
+      "SHA256": "f256e4d3d0a82b667845525367f647f42e1a382e376680c97830cb3b6f921937"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/HLS_r1/testbench.cpp",
+      "bytes": 5920,
+      "SHA256": "a2cd1dc4f02b9a7583469b724c9904fcacf51805652336d113593604ff250e1c"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/kernel.hpp",
+      "bytes": 369,
+      "SHA256": "c239ea0ca87397276e243568c23ed109bea8938c0981f252dc671db7dda36543"
+    },
+    {
+      "path": "modules/segmentation/axis_tensor_reader_r3/legacy_framing.hpp",
+      "bytes": 1532,
+      "SHA256": "ef8fe4d145408646fdfed138500f31f1fe6363c9552a02d1ebfb8d31ba69f41c"
+    },
+    {
+      "path": "modules/segmentation/ct_pl/conv.cpp",
+      "bytes": 21545,
+      "SHA256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7"
+    },
+    {
+      "path": "modules/segmentation/ct_pl/stream_types.hpp",
+      "bytes": 2684,
+      "SHA256": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+    },
+    {
+      "path": "modules/segmentation/ct_pl/testbench.cpp",
+      "bytes": 2367,
+      "SHA256": "3b8753ba0569bd2796534292e8fce27638f0ce1c3c5e446d7991c8014a8058eb"
+    },
+    {
+      "path": "modules/segmentation/ct_pool_fusion_r1/adapter_r6/writer_pool.cpp",
+      "bytes": 2327,
+      "SHA256": "c5206105f556b89d158ec3518cb97af504edf81f819cf00adc98d6c82a54f869"
+    },
+    {
+      "path": "modules/segmentation/ct_pool_fusion_r1/pool_stream.hpp",
+      "bytes": 2533,
+      "SHA256": "ee5e78b9e3263fb8ff0e15f54ddb655b02e306c8da5dc3e166b352a0866dbcbe"
+    },
+    {
+      "path": "modules/segmentation/ct_pool_fusion_r1/shared_pipeline_r6.hpp",
+      "bytes": 3975,
+      "SHA256": "3f177e8abe662080c93559f2669c503a5c189b8699e351650b08385fcfa7e420"
+    },
+    {
+      "path": "accelerators/ct_reader/kernel.cpp",
+      "bytes": 8729,
+      "SHA256": "53735e4b1977d6da554913b42691f674321b646da5deb9e2573c1f81c83a3c30"
+    },
+    {
+      "path": "accelerators/ct_reader/testbench.cpp",
+      "bytes": 5214,
+      "SHA256": "2bae2ce3364418a985b47982f2a02acc1f5a37f560cf9846c5de8ac4ba158ed2"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/component.xml",
+      "bytes": 108901,
+      "SHA256": "7eb56395fd603aae6008f048333461b5cbcdf790a7bc3dffb9c0bc1e4d104b1a"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/constraints/binary_mc_axis_ooc.xdc",
+      "bytes": 390,
+      "SHA256": "ac55fd04dad925390a4f8ef9a64730326d792f4291b8816df4a562ef1bbb792b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/doc/ReleaseNotes.txt",
+      "bytes": 111,
+      "SHA256": "ceda31ecb9df61a347754d02613037c623e9aef5d97b9aac0a875a755f02a0ea"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/data/binary_mc_axis.mdd",
+      "bytes": 603,
+      "SHA256": "056ba99d46bccb56165a55f58abb821e2660cef9b3945705a0b91a8ffd28ef65"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/data/binary_mc_axis.tcl",
+      "bytes": 900,
+      "SHA256": "82dc644ffe0ba93ab5e150747d9ba8dc43cd47b6210e34e760613fbf9421eb40"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/data/binary_mc_axis.yaml",
+      "bytes": 647,
+      "SHA256": "cbce5c6a86b273e75a3c0cf1674ed450ee01b71cf8adca56e19e52064d7c8b3b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/CMakeLists.txt",
+      "bytes": 1212,
+      "SHA256": "1762d7ec33924f496578ad62958c7e67ac637fc04270a08c1769ed8497cc31f6"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/Makefile",
+      "bytes": 1449,
+      "SHA256": "b1572571de957fdaed8677dda4356eb39c95a3c524a76cfa4b6ce60335949f37"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/xbinary_mc_axis.c",
+      "bytes": 9778,
+      "SHA256": "e97793ede306e4918365e69df232fea0fb6772ee0470250bcc836d92bc36e43e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/xbinary_mc_axis.h",
+      "bytes": 4739,
+      "SHA256": "93f14216c255b1ec23a1e798eb3d5ce17ad483d6111447fbc3a1d6e1f8d4ffe0"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/xbinary_mc_axis_hw.h",
+      "bytes": 3145,
+      "SHA256": "37e72d67ef9a5b09edf740304f55a0d2800ace810f55a6a0efcd58751fa6a8a7"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/xbinary_mc_axis_linux.c",
+      "bytes": 4745,
+      "SHA256": "08d1421da60dd10422b6d2c254cb40d62aa8d45ca4ebfe49d760f263275f9bf0"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/drivers/binary_mc_axis_v1_0/src/xbinary_mc_axis_sinit.c",
+      "bytes": 2082,
+      "SHA256": "dd22931eb13afeccc6777c08b4738bcc13a19675da48fee2a30cee27c7a91742"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis.v",
+      "bytes": 32204,
+      "SHA256": "f3967671da066ca4a07db08a652968e326de28bfcab339b611921aa8883dcfc9"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_binary_mc_axis_Pipeline_drain_invalid.v",
+      "bytes": 10420,
+      "SHA256": "6fd6a0a76eca0af38fd5feaac8664abdacd26ce57a210af2297a9ecf7f361469"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_control_s_axi.v",
+      "bytes": 16490,
+      "SHA256": "1018ac8e97db7e08be9cc77181f823a160cd5c9de0845ddbd0cfb394f0d81b26"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_execute.v",
+      "bytes": 11909,
+      "SHA256": "80ae4b55ddc8fe89c24225828a02571450d72017977252dcc76c958c5da71a7d"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_execute_Block_entry_proc.v",
+      "bytes": 3316,
+      "SHA256": "36f0020db9e980a74adc5271521e4c59c81eedbbf2706303a678a5ad464a5f05"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_fifo_w161_d64_A.v",
+      "bytes": 6444,
+      "SHA256": "b62d9e152205f822641f0b86ebd57862cebf330fa56811efb052686852d64f96"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_fifo_w185_d64_A.v",
+      "bytes": 6444,
+      "SHA256": "b57f4f54a18d9e24f070e9a04bf513a51f30bf87f185fd9a74c2a97d29343c5e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_fifo_w1_d2_S.v",
+      "bytes": 4154,
+      "SHA256": "7f522a2ad6ee95be4eafcf9e27aafe10e11e002136cf572b82ecd0ab4bf8a50b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_flow_control_loop_pipe_sequential_init.v",
+      "bytes": 2826,
+      "SHA256": "555731dd4f5331e793dfd57b2966dff32f0a85a1cbb03f97e6a965b4f013c25e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_detection_unit.v",
+      "bytes": 3166,
+      "SHA256": "723b6f9f2ccec2c0d7c0b053f9aca3810cd45f255d381dfa2725d985f9678dbb"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_detector.vh",
+      "bytes": 11540,
+      "SHA256": "206137918b408e8f316989a13f321aa0a6473c89157876c2fe0efc7f51ed5e05"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_idx0_monitor.v",
+      "bytes": 1513,
+      "SHA256": "5aec7ba7b4d918e8967fb3ae34be6402b5e404fcc75f303ee84690ca7499d43e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_idx2_monitor.v",
+      "bytes": 2505,
+      "SHA256": "d65429c4e1c5a8753060e6847ee7a2182900ff5c311ce3eed545f5168af8abd2"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_idx3_monitor.v",
+      "bytes": 1208,
+      "SHA256": "2eba82e62485c6239013f9ed8c2e2c06606e5b1020d135a0577bc25696c4aeb8"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_idx6_monitor.v",
+      "bytes": 1229,
+      "SHA256": "cd51e5af01079deb4906e3e843de4c0f31aa9899acd8a8f5807b410c350823ae"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_kernel_monitor_top.vh",
+      "bytes": 3590,
+      "SHA256": "ba4280247d1ab94f4b2104f24f489b4ef2fe16dbd3b0b1da54773e433eb45161"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_hls_deadlock_report_unit.vh",
+      "bytes": 25699,
+      "SHA256": "bdde5272a0cad343690ab3d7eb38a1c1924ecac3a53d467ea9039356da401688"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_mul_32ns_29ns_61_1_1.v",
+      "bytes": 633,
+      "SHA256": "7df994ffc465bdd4ac2a59ea854e7543642f049bd7b0898a064903e9b28f2255"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_mul_32ns_61ns_93_1_1.v",
+      "bytes": 633,
+      "SHA256": "ae89e595abc9143bf824c25a02a28c2349ee5edc7cd15c4ea656cfed18fc1ad3"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_mul_32s_32s_32_1_1.v",
+      "bytes": 615,
+      "SHA256": "5894a7e2c0fe6ba28a284eec0303873f05422e9cc3af14be4ee8f74d5c2275e5"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_mul_8ns_6ns_13_1_1.v",
+      "bytes": 631,
+      "SHA256": "552948688567188db77edabccae7c0fe48533fd0fe6ff6421fd67891113745b6"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_pack.v",
+      "bytes": 26530,
+      "SHA256": "2ce7b23ed3472cb62f67abb4df4c4feb3af7f14b1cae2f0f3462ebd4f41e911c"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_pack_Pipeline_pad_missing.v",
+      "bytes": 11999,
+      "SHA256": "245001d68cb2f729b5fba5bbcee4f6d554d574ecc9f005e6b4405e69357b1f33"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_pack_Pipeline_VITIS_LOOP_97_1.v",
+      "bytes": 15404,
+      "SHA256": "6c5e3dd0677a44745625b04e5f64db6c45487abea9f6c70d7cf6dc9810d54198"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_partset_512ns_512ns_64ns_9ns_512_1_1.v",
+      "bytes": 970,
+      "SHA256": "154214389b20cae652a13cbdb103dd404a3693f204c093ac73542ffbeab8b0b9"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_regslice_both.v",
+      "bytes": 3257,
+      "SHA256": "4d65ea636d94ce07f9a041593f6e701c568773b1d616bf0963e80f8d008dc5bb"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan.v",
+      "bytes": 19352,
+      "SHA256": "4609d7296e59bf13b7b18d71f4183838d6b09f92626b3269d25eee1d18948ca0"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_drain_extra.v",
+      "bytes": 10490,
+      "SHA256": "85e2f98bbcdc0237ee9ad5c2f1387a791984436aeb379e434a4285d9323205c3"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups.v",
+      "bytes": 174451,
+      "SHA256": "9496cf71b8519bcd6a97c2878dc7d22a1f8a39ef05674839cfb2be11bfb79450"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_MC_COUNTS_ROM_AUTO_1R.dat",
+      "bytes": 512,
+      "SHA256": "1a80fad5ad8b6c3eed3ae7521be29d36b074d6b7a6566efe542eca545b67f5dc"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_MC_COUNTS_ROM_AUTO_1R.v",
+      "bytes": 2921,
+      "SHA256": "16b2f7594f72d0f537c41138ed72cf51ec560dbe8942442245f947a1e55d2986"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stbkb.dat",
+      "bytes": 2048,
+      "SHA256": "209a151d73facd213f692299a3069420c8733e4800d4c544c381e793af852352"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stbkb.v",
+      "bytes": 1332,
+      "SHA256": "c61b92358511d39c6b3d27170feb1a7a89e372c838f3352ddc48474f5b32cf5c"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stcud.dat",
+      "bytes": 2048,
+      "SHA256": "209a151d73facd213f692299a3069420c8733e4800d4c544c381e793af852352"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stcud.v",
+      "bytes": 1250,
+      "SHA256": "2b64ff3862b57e003bfd54f586d8d42a5a8e3b9f4ee13290315a17c0c8a10b21"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_start_for_pack_U0.v",
+      "bytes": 3970,
+      "SHA256": "28e94995374dd7279923fc816a85f7b16cf95b6d2982187204278a7fb9313894"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_start_for_triangulate_U0.v",
+      "bytes": 3998,
+      "SHA256": "c4b509d2d2df1b141df04b8a253ec7b02566d74a5a2c5c445a0385244d39ad78"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate.v",
+      "bytes": 28915,
+      "SHA256": "ffa6eec59df0cf2fc9fb9298c22e9ca5a189f86e07765db0e492eef5b2324d0a"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_group_code_RAM_AUTO_1R1W.v",
+      "bytes": 1171,
+      "SHA256": "2cf2e66e9775e1d1993aba63901accf5ebd9f727bdec63a4a8f027210d79d799"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_MC_COUNTS1_ROM_AUTO_1R.dat",
+      "bytes": 512,
+      "SHA256": "1a80fad5ad8b6c3eed3ae7521be29d36b074d6b7a6566efe542eca545b67f5dc"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_MC_COUNTS1_ROM_AUTO_1R.v",
+      "bytes": 915,
+      "SHA256": "8197545645dfc2044c91e9767efe45324a4db948024b2a5ce370ea3d6a7f68e7"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_Pipeline_emit_vertices.v",
+      "bytes": 11317,
+      "SHA256": "a3ca16b6d7495e4822a74a5c9a3358a3b434537ba601ad4c2c696e39a53eba4a"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_Pipeline_emit_vertices_MC_VERTICES_ROM_AUTO_1R.dat",
+      "bytes": 20736,
+      "SHA256": "2c65818ae6a2c9a760173dd5e25922ef47b3188d0cda06c9f360ebcec7dc693e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/verilog/binary_mc_axis_triangulate_Pipeline_emit_vertices_MC_VERTICES_ROM_AUTO_1R.v",
+      "bytes": 965,
+      "SHA256": "9dc8e7044449f569ff2148819a8c7a5299d1e35c32bad64bb13917f05d6303f4"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis.vhd",
+      "bytes": 50817,
+      "SHA256": "273794a5df39da47b88975fa2acefea338ec9f88b3ac83ab439c58cc523d6a84"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_binary_mc_axis_Pipeline_drain_invalid.vhd",
+      "bytes": 17749,
+      "SHA256": "5cf30aaf2e44065c029a7edb0204ca2a3257c8898cc794ad1c53d61221f84fac"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_control_s_axi.vhd",
+      "bytes": 22505,
+      "SHA256": "4ead0416dcb8e0866d52ecfc7742d85a17d4f6cf5185fcb3bc0d69a538a575d0"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_execute.vhd",
+      "bytes": 22383,
+      "SHA256": "d07d96d8c6eecbec113ac7e43c3e859bca2f60c0d3795c958b7c1ffb4790df2c"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_execute_Block_entry_proc.vhd",
+      "bytes": 5554,
+      "SHA256": "e26c28a65b52b35e5c09f2448dc1b62ac4a96926299db77728e1c5717d08cd22"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_fifo_w161_d64_A.vhd",
+      "bytes": 9965,
+      "SHA256": "09da97eefa50cc46634c129c2ebcf0d40dcbd4a2212623ee2d8585dac17f5b0c"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_fifo_w185_d64_A.vhd",
+      "bytes": 9965,
+      "SHA256": "3bfb8101d0547c461de8758ddd1c99b60b41abd0fc056a2083adee2bdc4292f7"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_fifo_w1_d2_S.vhd",
+      "bytes": 6315,
+      "SHA256": "8d24105f52e3a647608b00633ac6f422bfcbb5039ec91b6c9e054fa467993c51"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_flow_control_loop_pipe_sequential_init.vhd",
+      "bytes": 3484,
+      "SHA256": "edba7018b483c121a0e13d6c63bb14efdf15c7c5782d8f9352b298a988b71a5d"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_mul_32ns_29ns_61_1_1.vhd",
+      "bytes": 1262,
+      "SHA256": "d23bba939be98a0ad163036ad595c302a767bfded6f6c7a2000ab7edcbbf65e6"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_mul_32ns_61ns_93_1_1.vhd",
+      "bytes": 1262,
+      "SHA256": "16c095af73ac6abcf64bb956697c75703b58dd3b713ca4a86420d301302542c8"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_mul_32s_32s_32_1_1.vhd",
+      "bytes": 1282,
+      "SHA256": "dc59f4bbc3dca17099da947ad43149294a11bffb19220c0859846aaee936746b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_mul_8ns_6ns_13_1_1.vhd",
+      "bytes": 1258,
+      "SHA256": "53abdde1429403b6fdbbcb84f0c7aa82f63a7ee25016893cdc2a97201144456e"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_pack.vhd",
+      "bytes": 43593,
+      "SHA256": "d91a90b2b87f4fdb76e45aefc591b289e30012d76d1a2b0e66264ff8a62eebaa"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_pack_Pipeline_pad_missing.vhd",
+      "bytes": 21855,
+      "SHA256": "6cbf7164c72aff6522fd412eec123d4921e08adf8ac42008342e4d4a10006798"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_pack_Pipeline_VITIS_LOOP_97_1.vhd",
+      "bytes": 26466,
+      "SHA256": "ceaebff879fd0aa1bb8a6205acf225b8855f627151f741d0bac2526d6d9b5b34"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_partset_512ns_512ns_64ns_9ns_512_1_1.vhd",
+      "bytes": 1638,
+      "SHA256": "a0069c7d4e709bb0e74a8626c5c1ded9ddc41a7faffd469c39119b254f56c4ec"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_regslice_both.vhd",
+      "bytes": 4600,
+      "SHA256": "7c41f26cfad9868b005ff85085c49712005e703780865e9e914acb149b59a416"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan.vhd",
+      "bytes": 32532,
+      "SHA256": "836d1b8e485ca9a867005d60e77bf03cd612af27144d48c8a17dc25e7b46d924"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan_Pipeline_drain_extra.vhd",
+      "bytes": 17703,
+      "SHA256": "af7d34e90c85dae2f1ba79b56b05170a250a4db99f05d7d0d10e57f3c27f100a"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups.vhd",
+      "bytes": 270109,
+      "SHA256": "8bc85cac64d4823e61a693476eeab0aca66ed91ac8422daa6298e034ae767669"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_MC_COUNTS_ROM_AUTO_1R.vhd",
+      "bytes": 22900,
+      "SHA256": "2d826624f4dc81d7b008768063e0585f525f1246a87ceddc35916b11ee8681c5"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stbkb.vhd",
+      "bytes": 3049,
+      "SHA256": "45d226911fcf035018743295cef2720600d803a1c45246f88e8daac6d9177f03"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_scan_Pipeline_VITIS_LOOP_27_4_VITIS_LOOP_27_5_scan_groups_p_ZZL4scanRN3hls6stcud.vhd",
+      "bytes": 2543,
+      "SHA256": "84170a8f7e2479759e1a54643f9e2201699b88d1c6e9fae4e5a17471fac8de98"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_start_for_pack_U0.vhd",
+      "bytes": 5994,
+      "SHA256": "fec894180e04ff49d9ed986625bd65cc5c95f6aef08a76e0cd5d7ba0ff625c2b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_start_for_triangulate_U0.vhd",
+      "bytes": 6050,
+      "SHA256": "91c2024105cf6bd97727b0d557e918a8025a0531be4910eca54502d9ab71ec1f"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_triangulate.vhd",
+      "bytes": 52364,
+      "SHA256": "4a7fef3c334191635650b723356bc3e248731c11f0fa0233c70cde532ba51c21"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_triangulate_group_code_RAM_AUTO_1R1W.vhd",
+      "bytes": 2648,
+      "SHA256": "e3db43d318245ca4b9fc94f215695ec39fa10da2bc1acbaede2199943132e4fb"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_triangulate_MC_COUNTS1_ROM_AUTO_1R.vhd",
+      "bytes": 5880,
+      "SHA256": "d9bcc28b3cb245729bfe7d3fa3fcde8fd2a59cd36e33964b6c2084011264838b"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_triangulate_Pipeline_emit_vertices.vhd",
+      "bytes": 19783,
+      "SHA256": "dddaaba19341204e2f4c41f46d44be11f8785a626a54221ed96a25f9b11834bd"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/hdl/vhdl/binary_mc_axis_triangulate_Pipeline_emit_vertices_MC_VERTICES_ROM_AUTO_1R.vhd",
+      "bytes": 133826,
+      "SHA256": "57ff25ed74b5c38582585ccddc3950faafe24f4c79d6a0ff0aff30250cd487a9"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/misc/logo.png",
+      "bytes": 2297,
+      "SHA256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af"
+    },
+    {
+      "path": "ip_repo/binary_mc_axis/xgui/binary_mc_axis_v1_0.tcl",
+      "bytes": 605,
+      "SHA256": "fb8743070ace27a8184541007d94e1493076be241a5e16be52e4b77250610280"
+    },
+    {
+      "path": "checkpoints/ct_cf5_routed.dcp",
+      "bytes": 114802046,
+      "SHA256": "9c5a7481103b60e9746adba711c4ca5bfbedbd05d57d65236b8a3dc61a589dcd"
+    },
+    {
+      "path": "checkpoints/mc_axis8_candidate.dcp",
+      "bytes": 27037805,
+      "SHA256": "144402f7fde1bf5417f36f1c7090468eed534ef9d31f01580b5eba931996e700"
+    },
+    {
+      "path": "checkpoints/static_source_synth.dcp",
+      "bytes": 9021831,
+      "SHA256": "3e8c75826c404dc1c8aeeb07b6103caff3e930b8363ab83aa70db45657ff2c23"
+    },
+    {
+      "path": "firmware_candidates/MC_axis8/config.bin",
+      "bytes": 7797692,
+      "SHA256": "3482e0dfdf603e88a615ce7c27369c2603fe5b4ed2480e997a339efb17404c0d"
+    },
+    {
+      "path": "firmware_candidates/MC_axis8/config.bit",
+      "bytes": 7797824,
+      "SHA256": "3eb4ab5ca37491096e66ee6c225b5838329d167288441d76ee6a8789b4734aa8"
+    },
+    {
+      "path": "firmware_candidates/MC_axis8/config_pblock_rp_partial.bin",
+      "bytes": 7868904,
+      "SHA256": "76a90caad0732994f953a2f32c81a913ec0247d0f4a6432f5df49f247b3328d6"
+    },
+    {
+      "path": "firmware_candidates/MC_axis8/config_pblock_rp_partial.bit",
+      "bytes": 7869049,
+      "SHA256": "5fc4dbef18424616136e8d21dcd120d93ddbe43a756a094ad799c3a367863c73"
+    },
+    {
+      "path": "tools/amd_ross/helper_scripts.tcl",
+      "bytes": 208036,
+      "SHA256": "dd8ac81697f780b81ab2e1c7b502896134cdb149b12ee41023b6f07349252e8d"
+    },
+    {
+      "path": "tools/amd_ross/LICENSE",
+      "bytes": 1085,
+      "SHA256": "3de7fea911353980067e0f943d332dd74cbd2b610d4421318aaef25d8103f11d"
+    },
+    {
+      "path": "add_mc_bd.tcl",
+      "bytes": 1384,
+      "SHA256": "427c846d7171a26d24cca70136c69ac734863bf2d7dc519ea86e6d829d3eb0d5"
+    },
+    {
+      "path": "create_project.tcl",
+      "bytes": 692,
+      "SHA256": "233bfc561f032d7f4408b4d6f9d17bdbb88fbbb510a70f6169d5dea7c7bf10b7"
+    },
+    {
+      "path": "generate_current_CT_bit.tcl",
+      "bytes": 673,
+      "SHA256": "45fde862341bcc4a66b64b4e5072858c946b65758b43ba6142f698f276d471e5"
+    },
+    {
+      "path": "open_current_CT.tcl",
+      "bytes": 430,
+      "SHA256": "cd25cb7c208e39d1ce909148960d79bcfdd58cea8c9e6339f558b229e0f996a0"
+    },
+    {
+      "path": "open_project.tcl",
+      "bytes": 542,
+      "SHA256": "a6a12a9478d7fc8362d533dbf5f0501fc1e7d469bce7982b34dd7d973a5a35b4"
+    }
+  ]
+}

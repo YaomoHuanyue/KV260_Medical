@@ -1,0 +1,64 @@
+{
+  "derivations": [
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/session.hpp",
+      "parent_SHA256": "14280a3f94eab34abf6c1f7f42c95ff5fc22ce3e186ddf4bbb8dad5d2770dae6",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/session.hpp",
+      "generated_SHA256": "c816662fa3f87d6eed7aa1ae0a76f80fe13d426f5516e765f6ad7e225f44121a",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 9
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        },
+        {
+          "before": "axis_load4_r1/host_D9_r1",
+          "after": "axis_tile1024_r1/host_D9_r1",
+          "count": 3
+        },
+        {
+          "before": "identity==0xd8)",
+          "after": "identity==0xd8||identity==0xd9)",
+          "count": 1
+        },
+        {
+          "before": "name==\"axis_smooth\"?0xd8",
+          "after": "name==\"axis_smooth\"?0xd9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/require.hpp",
+      "parent_SHA256": "832be0998bcb7e20dfc233aba5e153162fbb0821562654f26fb36247f49ea58e",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/require.hpp",
+      "generated_SHA256": "3243086f9acb8e6c070056e7659ea2f85bd1cdfe09c354ea4415ab4d016b242e",
+      "edits": [
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/file_io.hpp",
+      "parent_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/file_io.hpp",
+      "generated_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "edits": []
+    }
+  ],
+  "original_D8_parent_not_modified": true,
+  "root_static_lock_DMA_idle_isolation_sentinel_count_boot_and_low_DDR_checks_preserved": true,
+  "D9_identity217_only_for_new_partial_selection": true,
+  "old_D8_known_idle_quiesce_still_allowed": true,
+  "legacy_C2_guards_unchanged": true,
+  "PL_accessed": false,
+  "whole_goal_completed": false
+}

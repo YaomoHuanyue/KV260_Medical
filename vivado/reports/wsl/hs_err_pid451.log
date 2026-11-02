@@ -1,0 +1,22 @@
+#
+# An unexpected error has occurred (6) Aborted
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330) [0x76c91ee45330]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c) [0x76c91ee9ec0c]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e) [0x76c91ee4527e]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xdf) [0x76c91ee288ff]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(Tcl_PanicVA+0x15b) [0x76c92694c12b]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(+0x10b1ec) [0x76c92694c1ec]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(Tcl_AsyncDelete+0xb2) [0x76c92687f0b2]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libxv_common.so(tclsigint::disable()+0x15) [0x76c92aa3399e]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libxv_common.so(HTCTclInit::uninit()+0x36) [0x76c92a6ddc14]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libxv_commontasks.so(+0x44e9a7) [0x76c91c64e9a7]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(+0xc8549) [0x76c926909549]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(Tcl_Exit+0x56) [0x76c92690a436]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(+0x524d7) [0x76c9268934d7]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libtcl8.6.so(TclNRRunCallbacks+0x47) [0x76c926884497]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/libxv_commontasks.so(+0x3edb4e) [0x76c91c5edb4e]
+/opt/Xilinx/2025.2.1/Vivado/lib/lnx64.o/Ubuntu/24/libstdc++.so.6(+0xecdb4) [0x76c91f6ecdb4]
+/lib/x86_64-linux-gnu/libc.so.6(+0x9cb84) [0x76c91ee9cb84]
+/lib/x86_64-linux-gnu/libc.so.6(+0x129d6c) [0x76c91ef29d6c]

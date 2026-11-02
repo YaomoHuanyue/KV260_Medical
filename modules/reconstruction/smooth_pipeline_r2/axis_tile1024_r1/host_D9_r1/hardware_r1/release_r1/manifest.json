@@ -1,0 +1,136 @@
+{
+  "schema": "kv260.D9_AXIS.manual_trial.v1",
+  "identity": 217,
+  "ABI": 12,
+  "clock_MHz": 100,
+  "offline_verified": true,
+  "partial_SHA256": "78f5df1c9126562ada48fe281c42aa8d32b816fc5c6e1e04c157deae97d1c61e",
+  "route": {
+    "clock_MHz": 100,
+    "WNS_ns": 0.573,
+    "WHS_ns": 0.01,
+    "whole_resources": {
+      "LUT": 91954,
+      "FF": 126226,
+      "DSP": 168,
+      "BRAM36": 99,
+      "BRAM18": 6,
+      "URAM": 40
+    },
+    "RP_resources": {
+      "LUT": 78114,
+      "FF": 100344,
+      "DSP": 168,
+      "BRAM36": 99,
+      "BRAM18": 6,
+      "URAM": 40
+    },
+    "remaining_RP": {
+      "LUT": 10206,
+      "FF": 76296,
+      "DSP": 792,
+      "BRAM36_equivalent": 30.0,
+      "URAM": 24
+    },
+    "five_reference_full_PR": [
+      {
+        "reference": "mc",
+        "full_check_passed": true
+      },
+      {
+        "reference": "smooth",
+        "full_check_passed": true
+      },
+      {
+        "reference": "edt",
+        "full_check_passed": true
+      },
+      {
+        "reference": "route",
+        "full_check_passed": true
+      },
+      {
+        "reference": "ct",
+        "full_check_passed": true
+      }
+    ],
+    "status": "independent_PC_D9_actual100MHz_route_five_fullPR_and_five_artifacts_verified",
+    "candidate_DCP_SHA256": "745a365df14b98c252a2107c1b292e10e71e8f54c6f02794ee04e19a5a32fe42",
+    "frozen_static_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+    "artifact_SHA256": {
+      "config_smooth_D9_r1.dcp": "5dc8771e7c0ef77aadc76998a89a66cdb416b03fccf987ca0da8b48c191ef68f",
+      "config_smooth_D9_r1.bit": "f8e192dab8f639384535b961a8b194c47004e1173858ce3eae89b2f2f25480a2",
+      "config_smooth_D9_r1.bin": "8ffc65bfa3595361742566c73ba7544859978730d728035db116023777200580",
+      "config_smooth_D9_r1_pblock_rp_partial.bit": "90cdbcbab9b4a1ed7d32df4e2321f59142fac0d67e5ffa9bae7030210192abcb",
+      "config_smooth_D9_r1_pblock_rp_partial.bin": "78f5df1c9126562ada48fe281c42aa8d32b816fc5c6e1e04c157deae97d1c61e",
+      "OFFLINE_COMPLETE_D9_r1.txt": "b717431b14000ce71c79b65dd300a8b2718c689b4a9dd6ada45e3d43a2d320df"
+    },
+    "archive_SHA256": "2f27615c1a71bd5089f2b292f60dfce6b4aaaa940b8272bb08f58c63f3f1dc37",
+    "all_owned_bytes_stream_verified_and_exact_remote_root_absent": true,
+    "original_native_Csim_official_monitored14_and40_flow_gates_preserved": true,
+    "actual_route_seconds": 4346.192922600021,
+    "actual_route_peak_job_bytes": 11404222464,
+    "ARM_XRT_board_correctness_PS4_performance_and_release_still_required": true,
+    "source_and_evidence_SHA256": {
+      "dfx/smooth_speed/route_D9_r1/verify_collected.py": "ad5c1f9521e877e43674d31adb7e212efe3cd58b8cd7bf37e79ac899fa035a1e",
+      "dfx/smooth_speed/route_D9_r1/check_reports.py": "66867502aff4aaf23bf8e014438e91a6dae796180986e3c0c6109567fb0a7cd8",
+      "results/smooth_AXIS_D9_PR_r1/smooth/stream_collection_verified.json": "5b3074843c6c04eb552896c429fd30f211e07ad1b753e7c1e489721795120e93",
+      "results/smooth_AXIS_D9_PR_r1/smooth/cleanup_verified_stream.json": "011d0ded75a4a3894a44ee5a5892e313d9e4d6271c5ee625e911805e4902dca1"
+    },
+    "PL_accessed": false,
+    "production_promoted": false,
+    "whole_goal_completed": false
+  },
+  "static_base_manifest_SHA256": "ec51ff6cdf8077005a96c228f61e2d8ab2daa4f0c66f37865bd719c2f1eeefbc",
+  "portable_source_and_evidence_SHA256": {
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/driver.hpp": "0bf058082fbf863cb2ea96f6021ca08fd9d24f32b608dc0e33ef0e4c1d54f283",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/graph_memory.hpp": "a8cdf9b7a888705f24d387f22e7baa342a04b5878b396a52bf9e0f65a081a9ed",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/bridge.cpp": "13043a46d4a808afee673585bc98566d9182fdac0d51fd45e853e92b978d6a3c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/build_on_board.py": "f4c2e8dc3dbb6ff9af656a6fca64f49507c5cc56a32f572eb18509da0bbf1b73",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/require.hpp": "832be0998bcb7e20dfc233aba5e153162fbb0821562654f26fb36247f49ea58e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/session.hpp": "14280a3f94eab34abf6c1f7f42c95ff5fc22ce3e186ddf4bbb8dad5d2770dae6",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/protocol.hpp": "24c5e633664e4e7b74906e6ece87090f3bc33afa2852bb2e0c904006af1aded0",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/register_port.hpp": "19537262ec39890966a89336c13b13f702bebdd553004afc3b987ec872483b39",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/test_control.cpp": "cb8bb9dcccfec18420f8edd2eeb89ec7c91515f7bb49593ba7f10f6510fc8ecb",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/test_memory.cpp": "cc3b8b621d2fdfbf00cc130d73e81292d8ae63441f3e2f859959d1c333f4d182",
+    "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/xrt_memory.hpp": "af5c87d66553dab6a19fb9d33de34fb652e99039c164526d0a944d3c3000fa77",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/derivation.json": "f2f1b109158178a7e03a27b1b3a10896aa891c6dd7e316d7d4afa3dc7dffcd44",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/driver.hpp": "25809f006bfc79f675e42ff919d8cf505551c4c3fcd948738c17f1260fbdc97e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/graph_memory.hpp": "5d906e70fac8ae5f1a9be75060d54ea295e11db6c73c6cf5f634bd016bb4c95e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/bridge.cpp": "f06f928505a0bed80547609c7bef1f53b633a940999d7a3557d60f396bfe6fd8",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_on_board.py": "42aea56e53e1c9152146efa058d420b49708c6c6bbefc9879372c9fbc974588c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/require.hpp": "3243086f9acb8e6c070056e7659ea2f85bd1cdfe09c354ea4415ab4d016b242e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/session.hpp": "c816662fa3f87d6eed7aa1ae0a76f80fe13d426f5516e765f6ad7e225f44121a",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/session_derivation.json": "2c8055000da781889b3934c1edc6c6e0a20521500e48f3c13a8841b24603fc12",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/prepare.py": "44c5b586688602eff24630abfaf9828e9e4fb0c28a0078ab2f7deea0c65ea051",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/protocol.hpp": "b24f3d7fc87a2a9349c9ffa0e9604bb19a62a0f0b7866830aff64dec81643aad",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/register_port.hpp": "9e8ba85764c14404d3d50e7ee33e5db5aa21e911e9271fd2a234202b551948ad",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/test_control.cpp": "f7bfb063d1898a4a39e3580099a5da38ad9df6f405836220aa5d3583178169f9",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/test_memory.cpp": "a670f77a0c759c2e3e74d4132dd0dce4dd8acd485d92b14af5dafdf7f461232e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/xrt_memory.hpp": "b135bf97e2d886a8bfc2cf0cdb18ebd8825558f7983c650e665dd8d227e56709",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/seal_release.py": "a1d261b32c5650d2971b93580e6d190f18659c77afe57024c22008b893c4bf35",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime.py": "e2f4fe7783f7271127713fd88748a0092250a5e520af05fb3a97639579e16b8c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py": "79dbc60501a861421e5a3f554c8bdf71a7135f81d1e524918f2ffe3b828c4992",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/wrapper_derivation.json": "ecec5c38a59c2c55f851f7d6523f90465db72c82938802e0d38034271c605179",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/wrapper_paired_verified.json": "6b8c1318d4aa80fe084fddb519e479a3445b32a01d3da725cff3869bde974e0e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime_wrapper_Windows_r1.json": "34286f0d98b314bb4c0b1bce6fa8d3e17b1a14aa5557afeb2609d3c41f14c4e8",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime_wrapper_ARM_r1.json": "8e197493b846fe02b1f88f56ff0ad6d83b29d4808cff0b27aa656c977df2c6b7",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/libD9_XRT.so": "309175b0027cd07dea380fee94cf551da15f64977fb95498b1af6e3aadd57653",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_ARM_r1/verified.json": "88bcf45356fcf272e02dccb2dd6844100ed8d89e1e99367ca5857ee74ce56d7e",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_inputs_r1.json": "73b7663fb78362d7f37c9d3ab75304e5e5fe48b64475a54cfedacb0be24fc628",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/PC_ARM_verified.json": "39f9b425e72c11cb3eca596a6a92458788f490578d84f82bbdc8c1428c42f48d",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/arm_native_r1/PC_verified.json": "ab484cf4fca1c697b540836fef3456d96e614e70aafb84ee378c4db2c8590c58",
+    "results/smooth_AXIS_D9_PR_r1/smooth/verified_Windows.json": "1c901d9166427c480fbe170c4b8c8cff61647bd980a17af722d08ddeb86057d2",
+    "dfx/medical/release/manifest.json": "ec51ff6cdf8077005a96c228f61e2d8ab2daa4f0c66f37865bd719c2f1eeefbc"
+  },
+  "original_native144_CT18_Csim_monitored14_malformed40_and_frozen_DFX_gates_preserved": true,
+  "actual_ARM_native_and_complete_XRT_bridge_compilation_verified": true,
+  "actual_D9_PL_execution_and_same_precision_PS4_speed_still_required": true,
+  "board_geometry_and_PS4_speed_verified": false,
+  "production_accepted": false,
+  "no_formal_default_change": true,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "kv260.B7.complete_pipeline.candidate.v1",
+  "performance_qualified": false,
+  "source_SHA256": {
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/admission.py": "bfacdde222be7b200fd47ea0c99128a76cea371925563cb2f1358637c94cb00f",
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/backend.py": "fe30dce04d34a7373f2d4140b8ff8e564a8d976d5e87f066963ece9983c5eb4f",
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/cleanup.py": "307c083c751392bd3afdf5b68d80beef277a0634f16dac8b6e892bb8bf1c82d6",
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/segmentation.py": "1250d0fd5f9023822f164fa441e75831d3afb8f1616f53bc754d22d2b49f2d19",
+    "ui/releases/streaming_reader_r1/inputs.json": "bc2b059fcbe8bfb22ceb37100804dd55a329f30cf73237f11df4704b3424f7d8",
+    "ui/releases/streaming_reader_r2/inputs.json": "8d87c79fecd82a27833065e5be223ee885009d5b926fb4bce6621e9c6d89f987",
+    "ui/releases/streaming_functional_r1/dispatch.py": "209b4a82a2662aa8a3208db782c4223e16595f40f0b12cb445ebd58f27abcc35",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b",
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/runtime.py": "399f2410ed6538c67345b67f76b54943b098cd40786cfa4726c9c4521254ee3f",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py": "0c7f6e2026d0761519d31efcab7955414be1284625b83f96fe7ca63f78f03268",
+    "modules/segmentation/axis_tensor_reader_r3/reporting_r2/assignment.py": "caf92b78e0d3257205f4908ed9243b4e1647752e2f84bc4b34ff0b4db5df073c",
+    "ui/features/airway_audit.py": "87d91739a57cfdd6bc3efea3ed8c3d0c2ebf4ad293506adaf7fdeba7a0248722",
+    "modules/airway_tree_cleanup/volume_axis_r4/host_api_r1/async_job.py": "cc6cdcc61e34337aa1fc9cb1a39f1cda1acea4a8dffce4bcfc446eac5072eff3"
+  },
+  "dispatcher_SHA256": "291a0a85d42cecd7b8e10eee1d007d0ebd940737b8569835eb01689c256b8148",
+  "dispatcher_edits": [
+    [
+      "['segmentation', 'reconstruction', 'navigation'] if mode=='all'",
+      "['segmentation', 'airway-cleanup', 'reconstruction', 'navigation'] if mode=='all'"
+    ],
+    [
+      "str(ROOT/'modules/segmentation/axis_tensor_reader_r3/reporting_r2/entry.py')",
+      "str(_b7_here/'segmentation.py'),'--admission',str(_b7_admission),'--admission-sha256',_b7_admission_sha"
+    ],
+    [
+      "    command = {",
+      "    command = {\n        'airway-cleanup':[str(_b7_here/'cleanup.py'),'--admission',str(_b7_admission),'--admission-sha256',_b7_admission_sha,'--ct',str(input_path),'--segmentation',str(output/'segmentation'),'--job-lock-fd',str(_candidate_job_fd)]+(['--stop-file',str(stop_file)]if stop_file else []),"
+    ],
+    [
+      "child=subprocess.Popen(argv,cwd=MEDICAL,stdout=log,stderr=subprocess.STDOUT,pass_fds=(_candidate_job_fd,))",
+      "child=subprocess.Popen(argv,cwd=MEDICAL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,pass_fds=(_candidate_job_fd,))"
+    ],
+    [
+      "                rc=child.wait()",
+      "                for line in iter(child.stdout.readline,b''):\n                    text=line.decode('utf8',errors='replace');log.write(text);log.flush()\n                    if stage=='airway-cleanup':\n                        try:event=json.loads(text)\n                        except ValueError:continue\n                        if event.get('event')=='progress':emit('progress',text=event['text'])\n                rc=child.wait()"
+    ],
+    [
+      "            emit('stage', stage=stage",
+      "            if stage=='navigation'and mode=='all':\n                availability=_b7_navigation_availability(output)\n                report['navigation_availability']=availability\n                if not availability['available']:\n                    write(output/'navigation_availability.json',availability)\n                    phases.append(dict(stage=stage,status='not_available',reason=availability['reason'],PL_invoked=False,wall_seconds=0.))\n                    emit('progress',text=availability['text'])\n                    emit('stage_done',stage=stage,seconds=0.)\n                    continue\n            emit('stage', stage=stage"
+    ]
+  ],
+  "new_PL_bit": false,
+  "PL_qualification": "modules/airway_tree_cleanup/volume_axis_r4/deployment_r1/runtime_binding.json",
+  "frozen_static_unchanged": true,
+  "formal_UI_promoted": false,
+  "revision": 2,
+  "empty_lesion_refusal_before_PL": true
+}

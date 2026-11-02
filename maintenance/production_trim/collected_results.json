@@ -1,0 +1,816 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/centerline.json",
+      "bytes": 2531,
+      "SHA256": "95efab2ebfaed1c9a65f1c6b78804eba4202fba0743c6ed4fb9d0a21c49b371c"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "8e7cdc7b9341af152d80d07a90d268e4994c6c3aea2170717ea4b187a5c96df3"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/anatomical_generations.json",
+      "bytes": 15334,
+      "SHA256": "7d67f89b75f15859935bd61165eb03790c59abc2ba3ddfc09b87ee0a73f2ad00"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/camera.npz",
+      "bytes": 57593,
+      "SHA256": "14a437bd83e564f388e9897b1807789764bfff3f569cc3ef4dd38a743758db64"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/route.json",
+      "bytes": 67482,
+      "SHA256": "163fbfdc4a35a66a44e056b2411e53342b2b4a9f7c92f14d971cfa8cdaf5b368"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/route.npz",
+      "bytes": 35496,
+      "SHA256": "c5c29b27fa92e8c0a1f7e8d089a2b59b2669425da1f7ba364ba7fca135282a35"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/dfx_report.json",
+      "bytes": 654,
+      "SHA256": "936f80e98d2cd3c2f5f9b96563cae410f266249b778aeeb5dd931bd21394b0b5"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation/route.csv",
+      "bytes": 122067,
+      "SHA256": "ee083ba181e1ac8b95bf92a212fcfa095363bda558470623b1684a055a97fa64"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation.log",
+      "bytes": 654,
+      "SHA256": "936f80e98d2cd3c2f5f9b96563cae410f266249b778aeeb5dd931bd21394b0b5"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "94d843ab8951ffb578c43d125b1b9268301ea3be0c18e996f101f3ebbe38d8a5"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/pipeline.json",
+      "bytes": 711,
+      "SHA256": "2fe6c9672603e1aa5908c84f4fe33e5f79eefa7d4912cadeccca158d1e7d2dcb"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/dfx_audit/navigation/switches.json",
+      "bytes": 740,
+      "SHA256": "35ad7019062ef5ebecf2f7a04b7c82d347450f515f96a7ae4b71a361c2f589b2"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/dfx_audit/navigation/switches_16326.csv",
+      "bytes": 148,
+      "SHA256": "7e508e9b7aa22399ce17b05cbacce38b2d59322c9b1c64396d518104ed033273"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/centerline.json",
+      "bytes": 2530,
+      "SHA256": "cfbb0af29dca6dee89d41826bc697a4a1cbe7afffb25390fa8f22757452ade40"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "7b71b7deac4c23b55cf815da99ae80776f4968837544fc6197361a13049bcd50"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/anatomical_generations.json",
+      "bytes": 15333,
+      "SHA256": "75fe6ba4619107a1eb015f682f639cb70b008f94b010818c038b6fe7a07b5133"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/camera.npz",
+      "bytes": 72657,
+      "SHA256": "bb43faee9d046475090a0f360a0e349dbfbc67b937974b0f7a11fce485291232"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/route.json",
+      "bytes": 82867,
+      "SHA256": "63be21487a93e05640553b29b8222c64e3e9a8f67fc68bbb7c69905caa6b9d0d"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/route.npz",
+      "bytes": 43421,
+      "SHA256": "a1f40fde609f98ff2ce45fd448a7dfdca7bde0217645e576dcb899453a9e4cec"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/dfx_report.json",
+      "bytes": 652,
+      "SHA256": "f2a7d9a9fcf7998e0edd95aead99f4ea5cd75afe70b7f7dbcc9267a955749598"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation/route.csv",
+      "bytes": 151516,
+      "SHA256": "af5f4a8a40c59dd0f23f6d6d6d48c992fad9a72f945e9310295436f35645894d"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation.log",
+      "bytes": 652,
+      "SHA256": "f2a7d9a9fcf7998e0edd95aead99f4ea5cd75afe70b7f7dbcc9267a955749598"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "59ed3514520f0e4bc94cd3ac548b8e8a3e0efecd450b295b3009472db417a884"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/pipeline.json",
+      "bytes": 712,
+      "SHA256": "6ca5df9c433707d427ac52c37506c8c657f2b7827392638ea26fca77c019fc11"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/dfx_audit/navigation/switches_16497.csv",
+      "bytes": 149,
+      "SHA256": "bb5af34fc6ba3c4a7af7f75d12ad2c95024ab30eb2ce961c3695f0cb05a2262b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/dfx_audit/navigation/switches.json",
+      "bytes": 741,
+      "SHA256": "73ab890dbeb2ad4affb18d048492642c9e3112c52f04ff0f004d9a90a77c567a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/centerline.json",
+      "bytes": 2531,
+      "SHA256": "974efb93de68b5636f46797770990b580be1d4539f70c2628f6ba15297f89dc0"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "047dbbf0b293ff742ee9b3708057b5ef061b7f026c5a8689be6392a908502fe7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/anatomical_generations.json",
+      "bytes": 15334,
+      "SHA256": "903e01984967b875f09ab2d6eb70d58de0f87b4e7821e2fea3a73a81a021f8cd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/camera.npz",
+      "bytes": 61823,
+      "SHA256": "352d00260b89591cf0c8b69a74e0e7d3978619090881e3f27bd374fab84b9efe"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/route.json",
+      "bytes": 76848,
+      "SHA256": "139cc80fe13f05d2a207ffe6205c664cfdd6357e0a3f77f5189373478ec90e09"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/route.npz",
+      "bytes": 37897,
+      "SHA256": "b588cfb5bb4d861bc3cd32a6f70633587032240604406aab01d2eb0e6bd62312"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/dfx_report.json",
+      "bytes": 652,
+      "SHA256": "c20b084d5e5ed2c1f2a03895cb33abb52ebe401c86f3f8d351922d8d29b8ea60"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation/route.csv",
+      "bytes": 131846,
+      "SHA256": "6a236e3e7b71fb4dbe33e81cd88e4180b66f3882e8f9610bebd268d844bb68a3"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation.log",
+      "bytes": 652,
+      "SHA256": "c20b084d5e5ed2c1f2a03895cb33abb52ebe401c86f3f8d351922d8d29b8ea60"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "6e98249bf41dd6abb02f4797311258b0d71789f0a89dc608b22c879cee352834"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/pipeline.json",
+      "bytes": 712,
+      "SHA256": "67ca318ad2de3fb096efb0baf0a1421acdb43af90f28bf71de60fd6b8bf7d2de"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/dfx_audit/navigation/switches.json",
+      "bytes": 740,
+      "SHA256": "1f66ad98556b37fbe33643b4232ff0bfbcd405f6e60fd597d2b74daa61ada241"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/dfx_audit/navigation/switches_16695.csv",
+      "bytes": 148,
+      "SHA256": "025d99e5b44bf6b2160264468ec08b33ef02572ce0f6e7b4debd8949b49ad33f"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/centerline.json",
+      "bytes": 2530,
+      "SHA256": "abd44f082087cadcd854bdce347af3df367f268c388b0a948d6ed80c91e38ea6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "0eaf258800f747c0594d9dc2f90f1c67e4bd6097b2f7889dfc0b15243511d95d"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/anatomical_generations.json",
+      "bytes": 15333,
+      "SHA256": "5ba05a6608c00eb5de4e0fd507b4efe25c5be74fef962f08d9b1409998dc9511"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/camera.npz",
+      "bytes": 81994,
+      "SHA256": "519f4323592c33564b24b4f2c6babe603cee07911d52498ca3a172487c3358dd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/route.json",
+      "bytes": 110170,
+      "SHA256": "1f32c7eeab3f0f0766db874a9de34f44f8a435be0e035aa981d884830ca2202b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/route.npz",
+      "bytes": 48798,
+      "SHA256": "8afa1dd45a1f75dfa2629a1f7e0fde1be8c8e1d5e1a253ecdc50f2bba8925437"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/dfx_report.json",
+      "bytes": 652,
+      "SHA256": "0084a9407caf2b001a60233d62c3deb0d8036a5e7343986ac47186087f1a58b8"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation/route.csv",
+      "bytes": 172180,
+      "SHA256": "ce9f09c43fc6ce5ba86063b4180fd4cf6889dba5a34dac8f003f47aace7f0341"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation.log",
+      "bytes": 652,
+      "SHA256": "0084a9407caf2b001a60233d62c3deb0d8036a5e7343986ac47186087f1a58b8"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "26d9dd3b2398328f7204c61a50100c30b60afdc46d3a27e67c0e0f039e5063ea"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/pipeline.json",
+      "bytes": 711,
+      "SHA256": "09a296058b44969ab5a5b9ca45178b7dca7598e791fb08e2b93f002253f950f7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/dfx_audit/navigation/switches.json",
+      "bytes": 738,
+      "SHA256": "65ecd5ad82e0b54d6cce38adba96913d09c9ed0909d19fa7cf3a0c41019482bc"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/dfx_audit/navigation/switches_16726.csv",
+      "bytes": 146,
+      "SHA256": "e9bd77e00bfe0f36e749993ff5d99e57e25bb21aeba14c18d37713c678551ff0"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/centerline.json",
+      "bytes": 2528,
+      "SHA256": "5a4545570da24366c15d3c43ac49aba6cc9dcc0aa53d9662619416c4a97056da"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "d721747e8dd2994efbaa18e5e5abdfce530c00603087834390a1d98daea931ee"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/anatomical_generations.json",
+      "bytes": 15334,
+      "SHA256": "9700952b7b36ae9648b0a899c400289b7e7da2a146bb7c5bb0be11030818329f"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/camera.npz",
+      "bytes": 76906,
+      "SHA256": "c6bb98e356ef5963ac3caf3b8742a6a1e64a48bfac0336068f7d4738fce81c9c"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/route.json",
+      "bytes": 88925,
+      "SHA256": "fcc616ba7ba25d83f88e47537ce2c93f74156dcb4723da3063aa662130cbf068"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/route.npz",
+      "bytes": 45789,
+      "SHA256": "9a974808ca55b26c90c2396bd70354e245abbec56f0a55eded1c88188429d652"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/dfx_report.json",
+      "bytes": 654,
+      "SHA256": "4d6e39a309c2c9d7327b3316f514cb8da1924e26f7981f9e78e6db4533f5e9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation/route.csv",
+      "bytes": 159328,
+      "SHA256": "59749ef1c81a19d583d7a1af7ce7ea87731844ba10abff26a8fa05b41828e690"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation.log",
+      "bytes": 654,
+      "SHA256": "4d6e39a309c2c9d7327b3316f514cb8da1924e26f7981f9e78e6db4533f5e9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "d2a3c7769bb10fc2a60edcf3ea32685301e4216870a84463ef06077e5ae43cfe"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/pipeline.json",
+      "bytes": 712,
+      "SHA256": "2b115c4851e8e306299386d5f65d5c28b02fad45330f1c13007f4181dc4b9792"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/dfx_audit/navigation/switches.json",
+      "bytes": 740,
+      "SHA256": "5af9a4635d1fd0384986ec691fc45ba7b9bdf93416a093e5506e25a6ef8e9b7f"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/dfx_audit/navigation/switches_16810.csv",
+      "bytes": 148,
+      "SHA256": "bd06d354693341fa0cc1fee7dbea81df5b7338a2639f4cb0ce08f929807680f7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/branches.json",
+      "bytes": 56638,
+      "SHA256": "f1b9c00de2d6a930742811077dfefa7e496a6df9c1b4d018e848306713f1e802"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/anatomical_generations.npz",
+      "bytes": 9271,
+      "SHA256": "69059a2da7b41ddcb4d9f75a25dbc06a4b839df3ff518f6ff8fdd282a3b3a9f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/centerline.json",
+      "bytes": 2531,
+      "SHA256": "1e3b0c09fe4b831de4d8dbb7d0de41c09d0d8c5b9d7aa68b1835116f93b3be2d"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/session.json",
+      "bytes": 265,
+      "SHA256": "0eaf258800f747c0594d9dc2f90f1c67e4bd6097b2f7889dfc0b15243511d95d"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/anatomical_generations.json",
+      "bytes": 15334,
+      "SHA256": "d077fb70cc90424b236198a73bdfc1eb3c11459d8f656ff2332bebce4b35e454"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/camera.npz",
+      "bytes": 68724,
+      "SHA256": "2829cba561f466ee076fa7c1e6aed0b2740fd149a02dd4a09f16c1774c2b30d5"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/route.json",
+      "bytes": 97862,
+      "SHA256": "89152b647a4c6203bacb787d60ef2dfcd8338a0b851e7f612bfa454bdff5a277"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/route.npz",
+      "bytes": 41605,
+      "SHA256": "36120a11cfb831ee3f3ba1d51428de9e7d5ec31d8c20be6254df99218f19972a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/centerline.npz",
+      "bytes": 63809,
+      "SHA256": "9b974a5f7816760fa391055438312947a4c3b78269071254bba9bc2036645f1a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/dfx_report.json",
+      "bytes": 653,
+      "SHA256": "546b5cbc2ef7a19a088fd5705bcf5def1876969b5097a9405c97a9578cf9470c"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/anatomical_generation_nodes.csv",
+      "bytes": 33007,
+      "SHA256": "1659e572d9c3f735c8c091b5397eea55fbbba586c72e54e7be8f69011502004e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation/route.csv",
+      "bytes": 144800,
+      "SHA256": "4a77af3e19a20605d97df79246240c23ee6d624b718344132bae04aba062e006"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation.log",
+      "bytes": 653,
+      "SHA256": "546b5cbc2ef7a19a088fd5705bcf5def1876969b5097a9405c97a9578cf9470c"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/navigation_process.json",
+      "bytes": 846,
+      "SHA256": "fb47cf1b77c0e3c13e39ae28348308eed122d3d55a58ddefb75708ec9b6ba700"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/pipeline.json",
+      "bytes": 712,
+      "SHA256": "4e21980b10bab32db2c65eecc7c7d049a37d0eee990be8ef902fd342374d5951"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/MC_session.json",
+      "bytes": 199,
+      "SHA256": "a6cbe17f45cf5ac97570d3ab63160fb65275e3f4703274cbef21585dab89f06b"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/report.json",
+      "bytes": 15779,
+      "SHA256": "820e2d79ea2741b76454630bce9fb4a88d42131c894600c4f4c603e1673926c9"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/session.json",
+      "bytes": 1032,
+      "SHA256": "beac204d5fdfe984447bf3183bc214df9fcf17e94613cbf426013323c6544301"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/airway.npz",
+      "bytes": 1118290,
+      "SHA256": "10e1b7ea1022b66c0ef4cd000e5212d2759cc1d2637ebb345f794b3fbd235122"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/nodule.npz",
+      "bytes": 17266,
+      "SHA256": "115834ffc6a7a7a4a33cd9ee0ef4df431ea293da842ada3cd12b0b0010109de1"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/reconstruction/lung.npz",
+      "bytes": 20670946,
+      "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/dfx_audit/navigation/switches.json",
+      "bytes": 741,
+      "SHA256": "530e615c6df568d68ef4f91bc1ab4c2051e5326f4412dac4fbf81e051492d24a"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/dfx_audit/navigation/switches_16832.csv",
+      "bytes": 149,
+      "SHA256": "13b317fcdf8211efe2f4405c059114b2dc247dece671c878e01c635a35ea5501"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/segmentation/report.json",
+      "bytes": 5794,
+      "SHA256": "f74c7f745335ede7eff6e9416d459c6b105c48fb5c940a6daf73a30d65d802c7"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/segmentation/airway_mask.nii.gz",
+      "bytes": 43370,
+      "SHA256": "325dff4190f486fc7a2350c75e3c17b07dc78347028246e1756f110ab3d73464"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/segmentation/nodule_mask.nii.gz",
+      "bytes": 35664,
+      "SHA256": "c61a5602b769340a17dc5c93570b3cb1b233a3a6b4ab064f4024a750a379fb6e"
+    },
+    {
+      "path": "ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba/segmentation/lung_mask.nii.gz",
+      "bytes": 202117,
+      "SHA256": "dfffca5510b8121a4fd488895dc3f76bb22d1785ea46f52f59e1e19bee635bfd"
+    }
+  ],
+  "bytes": 135848967
+}

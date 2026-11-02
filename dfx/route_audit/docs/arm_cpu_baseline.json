@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "kind": "actual KV260 CPU audit baseline, no PL access",
+  "points": 1161,
+  "native_complete_audit": {
+    "median_seconds": 0.00048795499606058,
+    "min_seconds": 0.00047550500312354416,
+    "max_seconds": 0.0005619159928755835
+  },
+  "numpy_bend_radii": {
+    "median_seconds": 0.0008800490031717345,
+    "min_seconds": 0.0008626779890619218,
+    "max_seconds": 0.0010783200123114511
+  },
+  "python_route_hud": {
+    "median_seconds": 0.10546389500086661,
+    "min_seconds": 0.10537655399821233,
+    "max_seconds": 0.10559524600103032
+  },
+  "normal_renderer_kept_running": true,
+  "precision": "float64 geometry and same cutoff/tolerance",
+  "reference_implementation": "archived float64 half-angle atan and monotone deques, -O2 -ffp-contract=off",
+  "reference_library_sha256": "0b763dc0fc69809fedbdc0f97471e584277583c8a62b3aff3e076f049411863a",
+  "reference_library_archive": "dfx/route_audit/archive/float_atan_r1/host/libaudit_reference.so"
+}

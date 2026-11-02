@@ -1,0 +1,16 @@
+{
+  "status": "exact_root_winding_reuse_full_R11_equivalence_passed",
+  "tests": [
+    "all_reports_paths_arrays_equal_R11_n_1",
+    "all_reports_paths_arrays_equal_R11_n_8",
+    "all_reports_paths_arrays_equal_R11_n_201",
+    "exact_point_only_and_caller_mutation_cannot_change_cached_winding"
+  ],
+  "source_sha256": {
+    "modules/surface_route/comparison_r11.py": "29ae334141ec12080fd6d1d6e2196a3f3ef43cca71bfe60aa0026aeeea70aa5e",
+    "modules/surface_route/comparison_r12.py": "e5fb7d8c36d085d673ee91ef0fd5b3250a7f4a2e38a973bec04303884e26d410",
+    "modules/surface_route/test_comparison_r12.py": "8f4054533c9e32c9ca9353f9704075ca99760c22df655eeeb4a66850415da752"
+  },
+  "PL_access": false,
+  "production_promoted": false
+}

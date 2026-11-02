@@ -1,0 +1,36 @@
+{
+  "status": "compiled_no_PL_access",
+  "command": [
+    "g++",
+    "-O3",
+    "-mcpu=cortex-a53",
+    "-std=c++17",
+    "-fPIC",
+    "-shared",
+    "-I/usr/include/xrt",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/navigation_profile/host/bridge_r1.cpp",
+    "-lxrt_coreutil",
+    "-pthread",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/navigation_profile/build/libprofile_xrt_r1.so"
+  ],
+  "exit_code": 0,
+  "source_sha256": {
+    "host/bridge_r1.cpp": "0c22923827ea197571ffd9b0d1d383e5f67a5d0108d8860285140bb0af38f1e5",
+    "host/runtime.hpp": "9be9cc4e66802e01d7bb3fcbb34687dbc5ad899cd4365f26e038b4846a50e63e",
+    "host/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "host_origin_r1.json": "061d91a6bbd0f074bcf447905384659164c8e4d2f141c2a055b4ff66ea4cf5c5",
+    "prepare_host_r1.py": "ceb7ae46e97e01efec291554af0e4702494c44022a81a31de30d00bcc5eb4fe4",
+    "build_host_ARM_r1.py": "830d7df159f6e0a22a9009ec4c780044fe56f5d747ab50c392d65a448b9c5165"
+  },
+  "library_sha256": "8fdb7e6d0ff0939a29bef21ed25f2d4f1f463c0967695a614d93f004510d7805",
+  "logs_sha256": {
+    "build/host_build_ARM_r1.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "build/host_build_ARM_r1.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "full_four_4096_byte_DMA_guard_checks_implemented": true,
+  "actual_DMA_guards_board_tested": false,
+  "profile_session_constructed": false,
+  "actual_PL_accessed": false,
+  "firmware_or_current_UI_changed": false
+}

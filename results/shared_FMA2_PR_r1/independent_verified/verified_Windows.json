@@ -1,0 +1,54 @@
+{
+  "full_PR_passed": true,
+  "archive_sha256": "ebce8b2fa7df1b786d6491c656cf86cf58af3f99c8ddb2f8e2a8a5f824bc0550",
+  "archive_entry_count": 100,
+  "all_archive_members_full_SHA_verified": true,
+  "qualified_same_source_DCP_sha256": "38257d38028619e1b85c753428bd527f523f20aa769388614b6710669ec41706",
+  "frozen_static_sha256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "primary_PC_full14_6422850_words_both_hosts_exact_source_qualification_pinned": true,
+  "actual_routed_reports": {
+    "clock_MHz": 100,
+    "WNS_ns": 0.763,
+    "WHS_ns": 0.01,
+    "whole_resources": {
+      "LUT": 83755,
+      "FF": 117128,
+      "DSP": 168,
+      "BRAM36": 110,
+      "BRAM18": 7,
+      "URAM": 32
+    },
+    "RP_resources": {
+      "LUT": 69915,
+      "FF": 91246,
+      "DSP": 168,
+      "BRAM36": 110,
+      "BRAM18": 7,
+      "URAM": 32
+    },
+    "remaining_RP": {
+      "LUT": 18405,
+      "FF": 85394,
+      "DSP": 792,
+      "BRAM36_equivalent": 18.5,
+      "URAM": 32
+    },
+    "timing_constraints_and_DRC_and_full_PR_checked": true
+  },
+  "artifact_sha256": {
+    "workspace/dfx/smooth_speed/route_shared_fma2_r1/build/config_smooth_shared_fma2_r1.dcp": "10a42d13803242f9a0c8e8d7f3e7b09e342fc064c7b0c67b175024d349d61638",
+    "workspace/dfx/smooth_speed/route_shared_fma2_r1/build/config_smooth_shared_fma2_r1.bit": "5448ccf944cf9652714b7cfc291fb059933d62601e686dbbb59a602cdb101ddd",
+    "workspace/dfx/smooth_speed/route_shared_fma2_r1/build/config_smooth_shared_fma2_r1.bin": "a62027b4645165705383b178fd9e0c7419bac76e7a99b0763f1cc8f0e5b5ddd6",
+    "workspace/dfx/smooth_speed/route_shared_fma2_r1/build/config_smooth_shared_fma2_r1_pblock_rp_partial.bit": "481ad6ef7a2e41a22de7c9f512fb2807e1b66734f13c967efecebca7a5e02fb8",
+    "workspace/dfx/smooth_speed/route_shared_fma2_r1/build/config_smooth_shared_fma2_r1_pblock_rp_partial.bin": "4b73e07b79a110392a9da0b08b8fa67fd6a9a8a3ab36db2828079959dc0f8316"
+  },
+  "compilation_seconds": 1855.1798731000017,
+  "peak_job_GiB": 8.632301330566406,
+  "exact_server_root_absent": true,
+  "verifier_sha256": "3d8640815bc926427d621f52285193b2fc53b79db73928dc3225044722ddb1f7",
+  "strongest_same_input_PS1_PS4_board_speed_still_required": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "host": "Windows"
+}

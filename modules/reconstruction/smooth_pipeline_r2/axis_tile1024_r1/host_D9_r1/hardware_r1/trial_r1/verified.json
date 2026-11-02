@@ -1,0 +1,9 @@
+{
+  "actual_D9_PL_correctness_passed": true,
+  "same_precision_PS4_speed_gate_passed": false,
+  "conservative_fastest_PS4_speed_gate_passed": false,
+  "exact_formal_HDMI_case_restored": true,
+  "no_forced_kill_driver_unload_reset_network_change_or_autostart": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

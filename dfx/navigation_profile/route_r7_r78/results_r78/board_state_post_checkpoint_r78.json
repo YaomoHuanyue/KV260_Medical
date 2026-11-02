@@ -1,0 +1,73 @@
+{
+  "status": "same_reviewed_HDMI_UI_verified_after_same_core_preparation_trial",
+  "baseline_sha256": "41d920e1515ffbc8d0033cc19535e3affbb0e2dce8cccfa4f7f165a480ca57a8",
+  "checker_sha256": "d63b755dc19dc38e83db6ce019366d2b9d887d54ba518fb417f743a7c032c063",
+  "boot_id": "190cdae6-b97b-48df-af92-6537f5050591",
+  "UI": {
+    "PID": 67323,
+    "argv": [
+      "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/build_breathing_r1/medical_ui",
+      "--root",
+      "/home/ubuntu/jupyter_notebooks/KV260_System",
+      "--input",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+      "--evidence",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/navigation_profile/host_prepare_r3/board_r71/review"
+    ],
+    "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_a39608295d774c238b9d98a06255d0b2/UI/scene.json",
+    "binary_sha256": "204e81844d0a162b879c22e8344b83957a1150c4beeaa5a62e1a4891e510abdc",
+    "boot_id": "190cdae6-b97b-48df-af92-6537f5050591",
+    "previous_boot_id": "e3753b64-bc12-469b-9cf5-545c45d72cb4",
+    "same_reviewed_binary": true,
+    "no_automatic_startup": true,
+    "new_experimental_firmware_loaded": false,
+    "accepted_static_restored_manually": true,
+    "board_reset_issued": false,
+    "Windows_network_modified": false,
+    "production_promoted": false,
+    "status": "same_reviewed_UI_restored_after_same_R4_compact_trial",
+    "files_sha256": {
+      "ui/active_release.json": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+      "ui/run.sh": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+      "ui/releases/feature_completion_r6/build_xray_r2/medical_ui": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+      "dfx/composite/medical/exact_speed_r26/worker": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+      "ui/releases/feature_completion_r6/acceptance_physical_fast_opacity_r3.json": "823bd04f45e3c88f06deac7c57ff6c74c5f87faef0fb75332980469dda28e2b5",
+      "dfx/surface_quality/release/manifest.json": "19f03f956438dc20d8fb4565fe166bdf9d5bac4e7315cfbfedcc38e7019e88bc",
+      "ui/releases/feature_completion_r6/build_breathing_r1/medical_ui": "204e81844d0a162b879c22e8344b83957a1150c4beeaa5a62e1a4891e510abdc"
+    },
+    "medical_shell_marker_content": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+    "physical_display_review_repeated": false,
+    "whole_goal_completed": false,
+    "previous_UI_PID": 63331,
+    "static_shell_reloaded": false,
+    "ZOCL_unloaded": false,
+    "forced_kill_or_reset": false,
+    "trial_exit_code": 0,
+    "source_and_evidence_sha256": {
+      "dfx/navigation_profile/host_prepare_r3/restore_UI_r71.py": "fe14011cfbf1fb1d997878f44a90685cb6079570b7a9f08d11fca272819c6c57",
+      "dfx/navigation_profile/host_prepare_r3/trial_with_UI_restore_r71.py": "08af2c85e5a5af10c52749861b697f9522e79cc316f2b6b39f1da5dea26d7c49",
+      "dfx/navigation_profile/host_prepare_r3/trial_binding_r71.json": "2115ab9dc8ac93bbc5f5bf9087ad734922d13b8a6dfe565a6a5781968b2185a0",
+      "dfx/navigation_profile/rtl_r70/results/board_state_post_checkpoint_r70.json": "f6368f7de24dca2c133cd91833810ee915897290e9026b32e4a00c91c9740da5",
+      "dfx/navigation_profile/host_prepare_r3/board_r71/trial_terminal.json": "84b5b02ce697850db8480e52ef9236e608edcac085cc9022238b6c324b54743f"
+    }
+  },
+  "files_sha256": {
+    "ui/active_release.json": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+    "ui/run.sh": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+    "ui/releases/feature_completion_r6/build_xray_r2/medical_ui": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+    "dfx/composite/medical/exact_speed_r26/worker": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+    "ui/releases/feature_completion_r6/acceptance_physical_fast_opacity_r3.json": "823bd04f45e3c88f06deac7c57ff6c74c5f87faef0fb75332980469dda28e2b5",
+    "dfx/surface_quality/release/manifest.json": "19f03f956438dc20d8fb4565fe166bdf9d5bac4e7315cfbfedcc38e7019e88bc",
+    "ui/releases/feature_completion_r6/build_breathing_r1/medical_ui": "204e81844d0a162b879c22e8344b83957a1150c4beeaa5a62e1a4891e510abdc"
+  },
+  "medical_shell_marker_content": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "medical_shell_marker_file_sha256": "539caa83cb7c90f37880a23b5c429466fabfb7eb81cc501041813a352c95f7ed",
+  "same_accepted_program": true,
+  "only_previously_verified_R4_partial_tested": true,
+  "new_experimental_firmware_loaded": false,
+  "no_automatic_startup": true,
+  "Windows_network_modified": false,
+  "check_itself_PL_accessed": false,
+  "physical_display_review_repeated": false,
+  "active_UI_children": []
+}

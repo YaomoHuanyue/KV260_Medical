@@ -1,0 +1,15 @@
+{
+  "status": "independent_C9_host_sources_not_hardware_tested",
+  "immutable_source_sha256": {
+    "dfx/edt_volume/host/runtime.hpp": "e396a56bbfc29253d4e94598ef38053732639fa4832d94002cd02b93e11cf0d1",
+    "dfx/edt_volume/host/file_io.hpp": "220457e666d2981443a55ead1f856f15b9c86bf4a7634dd049793ff57d540f9e",
+    "dfx/surface/host/reference.cpp": "dd10bd667b33f87ac8f7d4c668552c9a79271972f8e436fa085c49282a69d60b"
+  },
+  "changes": [
+    "C9 identity, independent firmware/results names, known C1 through C9 idle checks",
+    "RAII PL lock on failed construction",
+    "Ignore stop signals only while DMA is active; timeout retains buffers/context",
+    "Independent complete packet validation, overflow checks, four4096byte DMA guards, token/input readback",
+    "ARM dense Q5/Q6 CPU reference; no PS Marching Cubes"
+  ]
+}

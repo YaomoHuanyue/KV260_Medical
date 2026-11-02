@@ -1,0 +1,14 @@
+{
+  "WSL": {
+    "owned_WSL_root": "/home/nyanko_tsuki/kv260_medical_vivado_20261102_981bbe57e9",
+    "removed": true,
+    "all_owned_files_collected_and_verified_before_removal": true,
+    "unrelated_processes_stopped": false
+  },
+  "Windows": {
+    "Windows_staging_root": "D:\\kv260_medical_vivado_20261102_981bbe57e9",
+    "removed": true
+  },
+  "verified_members": 3791,
+  "other_server_files_or_processes_modified": false
+}

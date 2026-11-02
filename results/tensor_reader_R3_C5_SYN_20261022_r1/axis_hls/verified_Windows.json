@@ -1,0 +1,36 @@
+{
+  "status": "actual_complete_C5_SYN_and_RP_independently_verified_not_route_or_board",
+  "actual_whole_C5_synthesis_qualified": true,
+  "resources": {
+    "LUT": 78080,
+    "Logic_LUT": 70911,
+    "LUTRAM": 5890,
+    "SRL": 1279,
+    "FF": 100644,
+    "RAMB36": 100,
+    "RAMB18": 14,
+    "URAM": 0,
+    "DSP": 903
+  },
+  "physical_RP_bits": 1830,
+  "failure": null,
+  "all_owned_bytes_and_closed_logs_verified_exact_root_absent": true,
+  "archive_SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+  "original_archive_metadata": {
+    "archive": "result.zip",
+    "bytes": 263426014,
+    "compiler_terminal": true,
+    "count": 1522,
+    "sha256": "c76a6d0301afa02c953607be1cc0decbf3e0a393fca10968fc80f9b798736249"
+  },
+  "still_requires_full_RTL100MHz_route_all5PR_ARM_board139_PS_speed_integration": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/verify_collected.py": "5f84887fb715a478855a01d144eb3892725c05e2cbb114bab43267dbe8da190a",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_SYN_r1/admission.json": "eef0c6faf6fcda49da85f40171be044d3f81e3e64f3bb1d6a9e3e7c5375c523f",
+    "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/stream_collection_verified.json": "22da5326fd4bcd84bc79963a1638ae65a1796779874f2f9342ee65ee881068a8",
+    "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/cleanup_verified_stream.json": "027272378636ff2599930efd4e05100db3ba13fa6112a41531618b8a21b31f9f"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

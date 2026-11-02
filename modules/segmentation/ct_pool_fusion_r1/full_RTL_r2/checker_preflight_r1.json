@@ -1,0 +1,19 @@
+{
+  "status": "same_full_capture_checker_accepts_real3_case_prefix_refuses5_corruptions_not_full_RTL_pass",
+  "actual_closed_early3_positive": true,
+  "checker_negative_refusals": [
+    "one_output_bit_corrupted",
+    "status_changed",
+    "transaction_reordered",
+    "last_transaction_truncated",
+    "extra_capture_payload"
+  ],
+  "full199_each_mode_not_yet_verified": true,
+  "whole_goal_completed": false,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r2/verify_collected.py": "4f82d5ea845fd4a29a820f54735ed3b5773ff5635367a7ec710260c6c522f7da",
+    "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/flow_RTL_r1/verify_collected.py": "3d81447e18aca6fe77deb71179cfea0369f0d1a3e43128849e7bc5eb010d8889",
+    "results/CT_pool_full199_RTL_20261021_r5/axis_rtl/closed_failure_audit_r2.json": "1e9067f378af66dd26645ad1830de4be406622e62bc836d0738279ea8491bcc7",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r1/fixtures_verified_r1.json": "d0e6441b2a455ddeca4669983a7ee0a08106a38fc05127ff82b4cf37c4f65c2f"
+  }
+}

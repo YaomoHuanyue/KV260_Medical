@@ -1,0 +1,777 @@
+{
+  "status": "complete_full_algorithm_FMA_rounding_diagnostic",
+  "cases": [
+    {
+      "structure": "lung",
+      "vertices": 430918,
+      "faces": 860680,
+      "edges": 2582178,
+      "iterations": 8,
+      "limit_mm": 0.35,
+      "SciPy_accepted_iterations": 8,
+      "original_separate_16_status": [
+        0,
+        8,
+        1051719800,
+        1042970713,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_separate_maximum_SciPy_difference_mm": 0.00018310546875,
+      "original_separate_coordinates_over_5e5": 12993,
+      "trials": [
+        {
+          "repeat": 0,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 1,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "4bb2bbc50da4759bc68df24ea097966e6d5a6bb05dd377bb240ea1c8476e0cfc",
+                "e7ff95a7ccf458d7ec9e3d5784ff612b0efdc17c19b494df880020d14ed24ff7",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd",
+                "ffa9f170739c439ca2cb44a492c11b902fd3a804b2006742b382f056bb0609bd"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1051719757,
+                1042970716,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        }
+      ],
+      "all_original_validation_and_orientation_checks_retained": true
+    },
+    {
+      "structure": "airway",
+      "vertices": 23280,
+      "faces": 46520,
+      "edges": 139630,
+      "iterations": 8,
+      "limit_mm": 0.07617189884185792,
+      "SciPy_accepted_iterations": 6,
+      "original_separate_16_status": [
+        0,
+        6,
+        1053291464,
+        1051345165,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_separate_maximum_SciPy_difference_mm": 6.103515625e-05,
+      "original_separate_coordinates_over_5e5": 3,
+      "trials": [
+        {
+          "repeat": 0,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 1,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "6e2a1219bef6d7d854f35e19237b8371ff52dbc6c783b24d77d9947d4680cad7",
+                "6b88abbaa4bf2af912ecd0425e6ae3758fc2a5f22976b2cb17f7f30f7b219a43",
+                "be4a68d6b796af7712902f21e62d00eae186309eb28196ca2a14bb6120786138",
+                "64c666bc7f0dc1b2dfcfeb87e1c4cd626539142d938baaa8a0a7c3e3be004e64",
+                "94b901e4573def8a373564cd43e0a1f82bcc567deaa9e6f38429209d23cef373"
+              ],
+              "all_16_status_words": [
+                0,
+                6,
+                1053291450,
+                1051345166,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        }
+      ],
+      "all_original_validation_and_orientation_checks_retained": true
+    },
+    {
+      "structure": "nodule",
+      "vertices": 3516,
+      "faces": 6996,
+      "edges": 20988,
+      "iterations": 8,
+      "limit_mm": 0.15,
+      "SciPy_accepted_iterations": 8,
+      "original_separate_16_status": [
+        0,
+        8,
+        1050010195,
+        1046972629,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_separate_maximum_SciPy_difference_mm": 9.1552734375e-05,
+      "original_separate_coordinates_over_5e5": 28,
+      "trials": [
+        {
+          "repeat": 0,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 1,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        },
+        {
+          "repeat": 2,
+          "samples": [
+            {
+              "threads": 1,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            },
+            {
+              "threads": 4,
+              "maximum_SciPy_difference_mm": 0.0,
+              "coordinates_over_original_5e5_mm": 0,
+              "SciPy_FP32_words_exact": true,
+              "all_five_output_sha256": [
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "c0ab1e3e6342f0f9356d489b9fe66177142ad423006575737ab67b134785a09b",
+                "920b0c50a12e3c469281caef2369645da94748e1a4b0663aca00f9dd5d509c97",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8",
+                "bc5e1ce91d21d8e1e55e137e64edaf31edeb669f69d67dd5c10668aef37ae1b8"
+              ],
+              "all_16_status_words": [
+                0,
+                8,
+                1050010136,
+                1046972629,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "complete_guards_passed": true
+            }
+          ]
+        }
+      ],
+      "all_original_validation_and_orientation_checks_retained": true
+    }
+  ],
+  "same_input_three_PS1_PS4_repeats": true,
+  "numpy_version": "2.2.6",
+  "scipy_version": "1.15.3",
+  "build_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-mcpu=cortex-a53",
+    "-ffp-contract=off",
+    "-fopenmp",
+    "-fPIC",
+    "-shared",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/benchmarks/precision_r111/smooth_fma_r112.cpp",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/results/smoothing_precision_full_r112/libdiagnostic_fma.so"
+  ],
+  "library_sha256": "c1b6d69f81d40c9bcd14d936fb1d7704e783cb660a4034a4d8ce0aebe8de0af4",
+  "original_library_sha256": "304355377c09f308c0d26920d21b23b02bba4b955fc05917c2963534e505c575",
+  "source_and_input_sha256": {
+    "results/pending_external_UI_r96b/full/import_UI.json": "36c0315399d2a1ef6725263485f4bba92cb410a854eddf1fb8d3ef6b07919664",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/config.txt": "e585cbd403d7ce1b3fea42e600aa0adfd2ca11bc63fafaaa8edc99c438a52390",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/original.bin": "b736c7c4eee1c6107c2f1eef1357b927986a58fcc7325c0b0a9b74a04cb57fa3",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/rows.bin": "3a4c50cbecab2213261cbacccba6672248f01ab330225c47f4448a0b5c1df6c4",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/edges.bin": "1f5ac42160bf0000f5db4629f74b582dacc0963ffc8523205aee8fa1ce1b5ded",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/frozen.bin": "ed9faf2c2ac7a84146341e9c6e0ba6f9dce6e96448a281f89e01223d9deaa291",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/faces.bin": "c88d10f8d6af935ac39606274cc44477f6d42d4bccab78c4007a3223370f7e60",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/lung/mesh_before.npz": "e2bc64949a81fb9bed7a7b54111ab7935b83e0992d8b97c7d0e4f231d0cdd5cd",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/config.txt": "05290729bd614d3715f9b245f6c2a2e214cf8a151cf95b0497d066414ed16538",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/original.bin": "c76f7efa32ae089d46893542e401ce75a1f1b7ac470ab56cb2772328af773d4c",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/rows.bin": "2ddb5b452d6d3cff0ecf772718e11d8c97015a1d86df4d7f6136007aa77d92ee",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/edges.bin": "40380108066585a0d5dc79bfe8f4571c306486e324ad5d996b1e7fd769f5ff50",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/frozen.bin": "4b616e4cbad4c3cfe79353e8680376e257349acbd4d0edb30de813f94005d4a9",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/faces.bin": "9c52274246557b37184a40056c06a4ecda8b0f6bd47430aa8722680601871b0c",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/airway/mesh_before.npz": "6e6c5e04a455d1bbd93f5cfed48767e57852d89fea387d0f1bf10028091fcd35",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/config.txt": "5692ec7b0c4136c85970453309885bc5e981acf2bc72454faf099db1656495bd",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/original.bin": "1ab823e4c536e7676e9e27450f7c8a59cd1b005f9fb44a6df8c6af3b6bee4526",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/rows.bin": "2ac4dbb6e9ec016aeed5d49aa3f419db0e2d6b2f139e411970e7471bd3b06416",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/edges.bin": "c68a35b50a6cd4899b76e9d37ab214057bddd130dea990a0f4d8d7fdc56b6dc2",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/frozen.bin": "9647e821dde530a68a6ded89e040daddef2ee69985f65c0db983f072dc8908fa",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/faces.bin": "8a6a467735eb1795e035891bb438222f2f37093c2096b92bea25315802550771",
+    "ui/runs/20261009_005333_66d566e1/reconstruction/nodule/mesh_before.npz": "33d89aa54fd6dc687de94879bccb784f638a61050710566b81943a39faa1c000",
+    "modules/reconstruction/benchmarks/precision_r111/diagnose_full_r112.py": "7bea841b36f731e2532984d932730e1ae044f767ffe84398f2ec1e2ee36a349d",
+    "modules/reconstruction/benchmarks/precision_r111/smooth_fma_r112.cpp": "046680f3d396d08c4a714dcb229cf332eb821fc56a49a4c937904440e757f792",
+    "modules/reconstruction/airway/mesh_smoothing.py": "4bbdebf4ce8215d0c397c5fc5cace3ca50f1767e82445696e015883e95b60ea8",
+    "modules/reconstruction/benchmarks/smooth_cpu_r1.cpp": "1e47773fb1c732da8677cefc55ca8146666a7c72723bccc3a74464fe8f7fe196"
+  },
+  "original_5e5_mm_tolerance_unchanged": true,
+  "diagnostic_all_three_within_original_SciPy_tolerance": true,
+  "diagnostic_reference_not_promoted": true,
+  "production_oracle_or_hardware_modified": false,
+  "original_PL_SciPy_gate_still_failed": true,
+  "PL_accessed": false,
+  "PS_Marching_Cubes_called": false,
+  "whole_goal_completed": false,
+  "clinical_accuracy_claimed": false
+}

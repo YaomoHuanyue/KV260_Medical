@@ -1,0 +1,165 @@
+{
+  "UTC": "2026-10-21T15:27:12.459837+00:00",
+  "files": [
+    {
+      "parent": "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/backend.py",
+      "parent_SHA256": "b30dccc0764eb46be0b75252557138b607bde4a2d33aa2e68a6c46dacd3f7371",
+      "output": "modules/runtime_audit/C5_pool_host_r1/backend.py",
+      "output_SHA256": "0558368c9469902b4001ddaacf9180ce985fce20a5e74743f7e1558eef1503ac",
+      "literal_edits": [
+        {
+          "before": "HERE=Path(__file__).resolve().parent;CORE=HERE.parent;ROOT=CORE.parents[2]",
+          "after": "HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]",
+          "count": 1
+        },
+        {
+          "before": "    if record.get('schema')!='kv260.ct_pool.hardware_trial.v1':raise RuntimeError('Unsupported pool trial admission')",
+          "after": "    if record.get('schema')!='kv260.ct_pool.unique_log_hardware_trial.v1':raise RuntimeError('Unsupported logged pool trial admission')\n    from modules.runtime_audit.C5_pool_host_r1.qualification import verify_log_host\n    verify_log_host(record,retained)",
+          "count": 1
+        }
+      ],
+      "exact_original_reverse_verified": true
+    },
+    {
+      "parent": "modules/segmentation/streaming_functional_r1/entry.py",
+      "parent_SHA256": "4915c1574c7e159efffc73eea17ffff3074d54f97dbd0a4e42b2b7b56491a2df",
+      "output": "modules/segmentation/streaming_functional_r2/entry.py",
+      "output_SHA256": "41edd740937fd58fcee851f9f7ba31a0242a856e1e9658a76995f52290d1e2a4",
+      "literal_edits": [
+        {
+          "before": "hardware.get('schema')!='kv260.ct_pool.hardware_trial.v1'",
+          "after": "hardware.get('schema')!='kv260.ct_pool.unique_log_hardware_trial.v1'",
+          "count": 1
+        },
+        {
+          "before": "from modules.segmentation.ct_pool_fusion_r1.host_dual_r1.backend import PoolXRT",
+          "after": "from modules.runtime_audit.C5_pool_host_r1.backend import PoolXRT",
+          "count": 1
+        }
+      ],
+      "exact_original_reverse_verified": true
+    },
+    {
+      "parent": "ui/candidates/streaming_system_r2/pipeline.py",
+      "parent_SHA256": "b52c9ba7a226287592a98d31a33b321b647d3ecf32f123a17f26243e4595bc0a",
+      "output": "ui/candidates/streaming_system_r3/pipeline.py",
+      "output_SHA256": "2fb8bdcb06a198a9661d2ab00d501fce647bbcf039224ee9f6f133b17696a4e6",
+      "literal_edits": [
+        {
+          "before": "                report=worker(args,prepared,record)",
+          "after": "                # Explicit qualification probes: same PID, distinct real native sessions.\n                # They open/drain/close the qualified module; only the full worker computes.\n                from modules.runtime_audit.C5_pool_host_r1.backend import PoolXRT\n                for probe_index in range(2):\n                    probe=PoolXRT(ROOT/record['pool_library'],ROOT/record['proofs']['pool_hardware_admission']['path'])\n                    try:assert probe.calls==0 and probe.pool_calls==0\n                    finally:probe.close()\n                report=worker(args,prepared,record)",
+          "count": 1
+        },
+        {
+          "before": "                    known_trial_csv=sha(fixed);shutil.copyfile(fixed,work/'actual_C5_switches.csv')",
+          "after": "                    assert sha(fixed)==original_csv,'Fixed C5 log changed despite unique logging'\n                    matches=[p for p in (ROOT/'dfx/medical/results').glob('switches_extended_*_'+str(os.getpid())+'.csv')\n                        if p.relative_to(ROOT).as_posix() not in all_csv_before]\n                    assert len(matches)==3,'Expected two probe sessions and one complete worker session'\n                    import csv,io\n                    ordered=sorted(matches,key=lambda p:int(p.name.split('_')[-3]))\n                    records=[]\n                    for p in ordered:\n                        value=list(csv.DictReader(io.StringIO(p.read_text())))\n                        assert len(value)==1 and value[0]['rm']=='ct'\n                        records.extend(value)\n                    with (work/'actual_C5_switches.csv').open('x',newline='') as f:\n                        writer=csv.DictWriter(f,fieldnames=list(records[0]));writer.writeheader();writer.writerows(records)\n                    save(work/'actual_C5_unique_sessions.json',dict(paths=[p.relative_to(ROOT).as_posix() for p in ordered],\n                        full_C5_log_count=3,same_process_three_sessions=True,fixed_name_original_unchanged=True,\n                        probe_sessions_without_algorithm_calls=2,complete_original_worker_sessions=1))",
+          "count": 1
+        },
+        {
+          "before": "actual_original139_CT_masks_logits_meshes_routes_and_cameras_exact=True,stages=stages,",
+          "after": "actual_original139_CT_masks_logits_meshes_routes_and_cameras_exact=True,stages=stages,actual_unique_C5_sessions_without_fixed_log_overwrite=True,",
+          "count": 1
+        }
+      ],
+      "exact_original_reverse_verified": true
+    },
+    {
+      "parent": "tools/test_streaming_axis_smoothing_system_ARM_20261021_r1.py",
+      "parent_SHA256": "78e5232d86e18efbdb972123659645f1cea6cf02e73f8f107125270c63ea4f33",
+      "output": "tools/test_C5_logged_system_ARM_20261021_r1.py",
+      "output_SHA256": "4523cdf5eb0b33467b28c818c5b7083e1bbea198f1107909db6a25dce9707fd4",
+      "literal_edits": [
+        {
+          "before": "ROOT/'modules/reconstruction/streaming_functional_r1'",
+          "after": "ROOT/'modules/segmentation/streaming_functional_r2'",
+          "count": 1
+        },
+        {
+          "before": "modules/reconstruction/streaming_functional_r1/admission_template.json",
+          "after": "modules/segmentation/streaming_functional_r2/admission_template.json",
+          "count": 2
+        },
+        {
+          "before": "modules/segmentation/streaming_functional_r1/entry.py",
+          "after": "modules/segmentation/streaming_functional_r2/entry.py",
+          "count": 3
+        },
+        {
+          "before": "ROOT/'results/streaming_axis_smoothing_system_ARM_20261021_r1'",
+          "after": "ROOT/'results/C5_logged_system_ARM_20261021_r1'",
+          "count": 1
+        },
+        {
+          "before": "ui/candidates/streaming_system_r2/pipeline.py",
+          "after": "ui/candidates/streaming_system_r3/pipeline.py",
+          "count": 1
+        }
+      ],
+      "exact_original_reverse_verified": true
+    },
+    {
+      "parent": "tools/collect_streaming_axis_smoothing_system_20261021_r1.py",
+      "parent_SHA256": "9b07dd36cc01a734ce8eff266a65ff389911e9c5044d5186bc412030f524e571",
+      "output": "tools/collect_C5_logged_system_20261021_r1.py",
+      "output_SHA256": "79deadec4a27cac9d6dbdac6b03b39e943cf04bd4f5db8ee7c1c2284834bf130",
+      "literal_edits": [
+        {
+          "before": "modules/segmentation/streaming_functional_r1/entry.py",
+          "after": "modules/segmentation/streaming_functional_r2/entry.py",
+          "count": 2
+        },
+        {
+          "before": "ui/candidates/streaming_system_r2/pipeline.py",
+          "after": "ui/candidates/streaming_system_r3/pipeline.py",
+          "count": 2
+        }
+      ],
+      "exact_original_reverse_verified": true
+    },
+    {
+      "parent": "tools/verify_streaming_axis_smoothing_system_20261021_r3.py",
+      "parent_SHA256": "aa6e2540ac5581a2d31c6e2ec06bc05c19132314016e77a809697fcaebda6d32",
+      "output": "tools/verify_C5_logged_system_20261021_r1.py",
+      "output_SHA256": "0f149204f23557e3948ddc740315343132d214bb575ef6336a74fd83a8b78899",
+      "literal_edits": [
+        {
+          "before": "from collect_streaming_axis_smoothing_system_20261021_r1 import",
+          "after": "from collect_C5_logged_system_20261021_r1 import",
+          "count": 1
+        },
+        {
+          "before": "modules/segmentation/streaming_functional_r1/entry.py",
+          "after": "modules/segmentation/streaming_functional_r2/entry.py",
+          "count": 1
+        },
+        {
+          "before": "ui/candidates/streaming_system_r2/pipeline.py",
+          "after": "ui/candidates/streaming_system_r3/pipeline.py",
+          "count": 1
+        },
+        {
+          "before": "        assert len(c5)==1 and c5[0]['rm']=='ct'",
+          "after": "        assert len(c5)==3 and all(r['rm']=='ct' for r in c5)\n        assert complete['actual_unique_C5_sessions_without_fixed_log_overwrite']\n        unique=data('actual_C5_unique_sessions.json')\n        assert unique['same_process_three_sessions'] and unique['fixed_name_original_unchanged']\n        assert unique['probe_sessions_without_algorithm_calls']==2 and unique['complete_original_worker_sessions']==1",
+          "count": 1
+        },
+        {
+          "before": "        assert sum(len(row['records']) for row in logs)+len(c5)==9",
+          "after": "        c5_logs=[r for r in logs if r['path'] in unique['paths']]\n        assert len(c5_logs)==3 and {r['PID'] for r in c5_logs}=={process['PID']}\n        assert [r['records'][0] for name in unique['paths'] for r in c5_logs if r['path']==name]==c5\n        assert sum(len(row['records']) for row in logs)==11",
+          "count": 1
+        },
+        {
+          "before": "candidate_smoothing_actual_AXIS_D9=True,",
+          "after": "candidate_smoothing_actual_AXIS_D9=True,actual_same_process_three_C5_sessions_with_unique_logs_and_fixed_name_preserved=True,",
+          "count": 1
+        }
+      ],
+      "exact_original_reverse_verified": true
+    }
+  ],
+  "original_RTL_SYN_100MHz_full5PR_ARM311_proofs_retained": true,
+  "old_hardware_admission_unchanged": true,
+  "original_full139_complete_worker_and_original_D9_system_outputs_retained": true,
+  "qualification_only_two_extra_real_native_sessions": true,
+  "actual_board_runtime_not_yet_verified": true,
+  "whole_goal_completed": false
+}

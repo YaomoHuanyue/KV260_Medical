@@ -1,0 +1,10 @@
+{
+  "status": "compiled_ARM_CPU_geometric_baseline_no_hardware_access",
+  "flags": "-O3 -fopenmp -ffp-contract=off -mcpu=cortex-a53",
+  "files_sha256": {
+    "host/mesh_distance_native.cpp": "f4d732a9ac57fef136798a6fb3deb637e31f2345cced20eefc69959ab62544e6",
+    "host/build_native.sh": "c31f0416ed06a4f4b71d8ff90f4f927bf8e8a5adda8ae3bca8f956f8348c6572",
+    "host/build/libmesh_distance.so": "311434367b4891f9439fbf6aacee4381e7ad1f85c75e8ccfe680dc8f7a16bb36",
+    "mesh_clearance_native.py": "c86bfbdf1535798eef27d926aa610593e7c3e75c1a8334028a073c7cf64b1386"
+  }
+}

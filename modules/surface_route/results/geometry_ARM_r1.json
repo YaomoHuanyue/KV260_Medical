@@ -1,0 +1,58 @@
+{
+  "status": "continuous_surface_route_adversarial_geometry_tests_passed",
+  "cases": [
+    {
+      "name": "closed_cube",
+      "status": "passed"
+    },
+    {
+      "name": "crop_open_cube",
+      "status": "passed"
+    },
+    {
+      "name": "inside_endpoints_do_not_bridge_disconnected_chambers",
+      "status": "passed"
+    },
+    {
+      "name": "exterior_root_rejected_even_with_large_unsigned_distance",
+      "status": "passed"
+    },
+    {
+      "name": "crop_opening_exit_blocked_without_fabricating_a_wall",
+      "status": "passed"
+    },
+    {
+      "name": "orientation",
+      "status": "rejected_as_expected"
+    },
+    {
+      "name": "nonplanar_internal_hole",
+      "status": "rejected_as_expected"
+    },
+    {
+      "name": "duplicate_face",
+      "status": "rejected_as_expected"
+    },
+    {
+      "name": "oblique_physical_affine_crop_and_winding",
+      "status": "passed"
+    },
+    {
+      "name": "100003_protocol_radii_never_round_up",
+      "status": "passed"
+    },
+    {
+      "name": "nonfinite_negative_radii_refused",
+      "status": "passed"
+    }
+  ],
+  "source_sha256": {
+    "modules/surface_route/audit.py": "4a66f493db4dbcd3e85cc2a3bb0dbe335215b4abae95e9305ed0733d46ccb483",
+    "modules/surface_route/test_audit.py": "32bccb195256f40d3719119aeebf83d3a12fd34a1c004bec5a560a338243cb66",
+    "modules/surface_quality/mesh_clearance.py": "0abbce30d1d4b1c776a90d3050e60c31d6340693f8345d76adc90d5428d14b8c"
+  },
+  "platform": "linux",
+  "PL_access": false,
+  "production_changed": false,
+  "PS_Marching_Cubes_used": false
+}

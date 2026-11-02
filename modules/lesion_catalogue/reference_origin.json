@@ -1,0 +1,9 @@
+{
+  "status": "original_Python_component_report_function_extracted_byte_exact_for_independent_oracle",
+  "original_source_path": "D:\\Xilinx_Project\\2026FPGA\\airway_ct_project_v4\\lesion_detection_totalseg.py",
+  "original_source_sha256": "d3d421ea2a3a8175ecc5c34982927053e6668a19cd1f433d2f9bfae7a2434db3",
+  "function_sha256": "6689456ca8734cd32162b7be06922c9d6cd1c64596fbc922fedbc7f5740483a4",
+  "oracle_sha256": "4c2bbfc80c73bdf6e77d98c91d1dfa5a690a76568402a4742d76c9b2583cd035",
+  "model_inference_invoked": false,
+  "runtime_dependency_on_CT_project": false
+}

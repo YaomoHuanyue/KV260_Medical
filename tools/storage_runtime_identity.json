@@ -1,0 +1,29 @@
+{
+  "UI_PID": 1571,
+  "UI_start_ticks": 7970,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/ui/v2/bin/medical_ui",
+    "--root",
+    "/home/ubuntu/jupyter_notebooks/KV260_System",
+    "--input",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+    "--evidence",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/ui/v2/session",
+    "--result",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261028_024533_eb58bf42"
+  ],
+  "binary_sha256": "1d01e4f4a88a1bb32bb78cde032fe5be9fadb0267c0acc3777b7bc48c7248748",
+  "boot_id": "fffa2a04-a6b5-4fd0-8bb2-8aea37d77ba5",
+  "medical_shell_marker": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "files_sha256": {
+    "ui/run.sh": "1ce1e6a50e18b401c369c6b6cec19ce12b13844b316f1bc6e922292fec100599",
+    "ui/active_release.json": "5a9311557b139c389cdd2e0b6fd13b8f98c9c6f3fc3a52faac16187d32027ca0",
+    "ui/v2/bin/medical_ui": "1d01e4f4a88a1bb32bb78cde032fe5be9fadb0267c0acc3777b7bc48c7248748",
+    "ui/v2/runtime.py": "85b73fae162c2ce92955b0d7e07e992372a524fbc1a6ab61e58a3881a8b7e2e9",
+    "ui/v2/manifest.json": "5a9311557b139c389cdd2e0b6fd13b8f98c9c6f3fc3a52faac16187d32027ca0"
+  },
+  "actual_selected_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261028_024533_eb58bf42",
+  "initial_prepare_mode": "explicit_validated_result",
+  "current_release": "native_UI_V2",
+  "autostart_service": "kv260-medical-ui.service"
+}

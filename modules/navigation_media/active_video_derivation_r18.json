@@ -1,0 +1,95 @@
+{
+  "edits": [
+    {
+      "parent": "modules/navigation_media/UI_feature_r4.inc",
+      "parent_sha256": "cf9c5a67384ba77010e907039a07280b9bed20dc5094d80182ddaccd53c7eb28",
+      "child": "modules/navigation_media/UI_feature_C9_r18.inc",
+      "child_sha256": "c705643ccbef6871948382768081a0190d6a68876e4d457e1047fc92f8ebec29",
+      "replacements": [
+        [
+          " QImage videoLastImage;",
+          " QJsonObject videoActiveBinding;\n QImage videoLastImage;",
+          1
+        ],
+        [
+          "&&QFileInfo::exists(source+\"/navigation/route.json\")",
+          "&&QFileInfo::exists(scene.contains(\"complete_surface\")?scene[\"complete_surface\"].toObject()[\"bundle\"].toString()+\"/route.json\":source+\"/navigation/route.json\")",
+          1
+        ],
+        [
+          "   videoSources={};for(QString path:{scenePath,source+\"/navigation/route.json\",source+\"/segmentation/airway_mask.nii.gz\",root+\"/dfx/surface/release/manifest.json\"})videoSources[path]=videoHash(path);",
+          "   videoSources={};videoActiveBinding={};\n   if(scene.contains(\"complete_surface\"))videoActiveBinding=navigation_media::activeVideoBinding(root,scenePath,scene,videoSources,[this](QString path){return videoHash(path);});\n   else for(QString path:{scenePath,source+\"/navigation/route.json\",source+\"/segmentation/airway_mask.nii.gz\",root+\"/dfx/surface/release/manifest.json\"})videoSources[path]=videoHash(path);",
+          1
+        ],
+        [
+          "  if(first)plScope->start(source,request);else plScope->request(request);videoProgressClock.restart();",
+          "  if(first){if(!videoActiveBinding.isEmpty())plScope->startScene(videoActiveBinding[\"bundle\"].toString(),videoActiveBinding[\"revision\"].toString(),request);\n   else plScope->start(source,request);}else plScope->request(request);videoProgressClock.restart();",
+          1
+        ],
+        [
+          "  videoProgressClock.restart();videoLastMeta=meta;",
+          "  if(!videoActiveBinding.isEmpty()&&!navigation_media::activeVideoFrame(videoActiveBinding,meta)){videoEnd(u(\"\u89c6\u9891\u6536\u5230\u5176\u4ed6\u8868\u9762\u6216\u8def\u5f84\u7684\u5e27\"));return;}\n  videoProgressClock.restart();videoLastMeta=meta;",
+          1
+        ],
+        [
+          "    QJsonObject linkedProof;QImage overviewColor;",
+          "    QJsonObject videoHUD=videoActiveBinding.isEmpty()?(at<hud.size()?hud[at].toObject():QJsonObject{}):shown[\"hud\"].toObject();\n    QJsonObject linkedProof;QImage overviewColor;",
+          1
+        ],
+        [
+          "videoPaneSize,shown,at<hud.size()?hud[at].toObject():QJsonObject{},videoPlan->length)",
+          "videoPaneSize,shown,videoHUD,videoPlan->length)",
+          2
+        ],
+        [
+          "   {\"linked_overview_enabled\",videoLinked},{\"pane_output_size\",",
+          "   {\"active_scene_binding\",videoActiveBinding},{\"linked_overview_enabled\",videoLinked},{\"pane_output_size\",",
+          1
+        ],
+        [
+          "videoLinked?\"native_C6_and_linked_overview_FBOs_aspect_preserved\":\"native_C6_color_FBO_aspect_preserved\"",
+          "videoActiveBinding.isEmpty()?(videoLinked?\"native_C6_and_linked_overview_FBOs_aspect_preserved\":\"native_C6_color_FBO_aspect_preserved\"):(videoLinked?\"native_C9_and_linked_overview_FBOs_aspect_preserved\":\"native_C9_color_FBO_aspect_preserved\")",
+          1
+        ],
+        [
+          "{\"PL\",QJsonArray{\"C6 wall intersection\",\"target visibility\",\"outline\",\"depth-aware normals\"}}",
+          "{\"PL\",videoActiveBinding.isEmpty()?QJsonArray{\"C6 wall intersection\",\"target visibility\",\"outline\",\"depth-aware normals\"}:QJsonArray{\"C9 scalar wall intersection\",\"current target visibility\",\"outline\",\"scalar-gradient normals\"}}",
+          1
+        ],
+        [
+          "{\"physical_mouse_verified\",false}});",
+          "{\"physical_mouse_verified\",false},{\"active_scene_binding\",videoActiveBinding}});",
+          1
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r17.cpp",
+      "parent_sha256": "4ea50b1d16121c11e6d4c02622f9502f337012030e53059aec3db44cfcd8d290",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r18.cpp",
+      "child_sha256": "98cdb92022e398fc257dddb1153cfea90bcf3c26863040936803b09d5c114110",
+      "changes": [
+        [
+          "modules/navigation_media/UI_feature_r4.inc",
+          "modules/navigation_media/UI_feature_C9_r18.inc"
+        ],
+        [
+          "#include \"../../../../modules/navigation_media/encoder_UI_r3.hpp\"",
+          "#include \"../../../../modules/navigation_media/encoder_UI_r3.hpp\"\n#include \"../../../../modules/navigation_media/active_binding_r18.hpp\""
+        ],
+        [
+          "for(auto*b:{navButton,batchButton,videoButton,recoveryButton})",
+          "for(auto*b:{navButton,batchButton,recoveryButton})"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r17.py",
+      "parent_sha256": "0ed50fa3cdc976f5dfb3b0562c24116a6c966a636632a36c8a055eb8c3cdbb9b",
+      "child": "modules/surface_route/board_native_build_r18.py",
+      "child_sha256": "3b3c8a54fb513e6319ce6560adae61361f281f82cafb3ddd6bc964319a31330b",
+      "change": "versioned main-only build; reuse verified unchanged R17 renderer/transport objects"
+    }
+  ],
+  "new_bitstream": false
+}

@@ -1,0 +1,320 @@
+{
+  "status": "completed",
+  "loaded_bit_bin_sha256": "433fbe51e4ac7628ff6d18583573b2331e1dedcf95f04cbf654b3444cfc54df2",
+  "model_sha256": "7efb3b35fb2ffd0d49270be0e4cb7a42622ca5330ddbdd98ae22fb2422464865",
+  "layers": [
+    {
+      "layer": 0,
+      "input_shape": [
+        1,
+        5,
+        8,
+        11
+      ],
+      "weights_shape": [
+        16,
+        5,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 1,
+      "input_shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 2,
+      "input_shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 3,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 4,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 5,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 6,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        64,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 7,
+      "input_shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights_shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 8,
+      "input_shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        64,
+        1,
+        1
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 9,
+      "input_shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        64,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 10,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 11,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        1,
+        1
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 12,
+      "input_shape": [
+        1,
+        64,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        64,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 13,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 14,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 15,
+      "input_shape": [
+        1,
+        32,
+        8,
+        11
+      ],
+      "weights_shape": [
+        16,
+        32,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 16,
+      "input_shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    },
+    {
+      "layer": 17,
+      "input_shape": [
+        1,
+        16,
+        8,
+        11
+      ],
+      "weights_shape": [
+        3,
+        16,
+        1,
+        1
+      ],
+      "max_integer_error": 0,
+      "pl_requantization_exact": true
+    }
+  ],
+  "hardware_seconds": 0.005001499,
+  "pl_conv_calls": 36,
+  "accumulator_dtype": "int32",
+  "pl_requantization": true,
+  "pointwise_streaming": true,
+  "spatial_streaming": true,
+  "exact": true
+}

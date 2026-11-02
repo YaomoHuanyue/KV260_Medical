@@ -1,0 +1,232 @@
+{
+  "status": "D9_complete_XRT_bridge_and_original_control_memory_tests_derived_not_compiled",
+  "derivations": [
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/protocol.hpp",
+      "parent_SHA256": "24c5e633664e4e7b74906e6ece87090f3bc33afa2852bb2e0c904006af1aded0",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/protocol.hpp",
+      "generated_SHA256": "b24f3d7fc87a2a9349c9ffa0e9604bb19a62a0f0b7866830aff64dec81643aad",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 15
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/driver.hpp",
+      "parent_SHA256": "0bf058082fbf863cb2ea96f6021ca08fd9d24f32b608dc0e33ef0e4c1d54f283",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/driver.hpp",
+      "generated_SHA256": "25809f006bfc79f675e42ff919d8cf505551c4c3fcd948738c17f1260fbdc97e",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 4
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/graph_memory.hpp",
+      "parent_SHA256": "a8cdf9b7a888705f24d387f22e7baa342a04b5878b396a52bf9e0f65a081a9ed",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/graph_memory.hpp",
+      "generated_SHA256": "5d906e70fac8ae5f1a9be75060d54ea295e11db6c73c6cf5f634bd016bb4c95e",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 7
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/register_port.hpp",
+      "parent_SHA256": "19537262ec39890966a89336c13b13f702bebdd553004afc3b987ec872483b39",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/register_port.hpp",
+      "generated_SHA256": "9e8ba85764c14404d3d50e7ee33e5db5aa21e911e9271fd2a234202b551948ad",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 12
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        },
+        {
+          "before": "0xd800",
+          "after": "0xd900",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/xrt_memory.hpp",
+      "parent_SHA256": "af5c87d66553dab6a19fb9d33de34fb652e99039c164526d0a944d3c3000fa77",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/xrt_memory.hpp",
+      "generated_SHA256": "b135bf97e2d886a8bfc2cf0cdb18ebd8825558f7983c650e665dd8d227e56709",
+      "edits": [
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/test_control.cpp",
+      "parent_SHA256": "cb8bb9dcccfec18420f8edd2eeb89ec7c91515f7bb49593ba7f10f6510fc8ecb",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/test_control.cpp",
+      "generated_SHA256": "f7bfb063d1898a4a39e3580099a5da38ad9df6f405836220aa5d3583178169f9",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 1
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        },
+        {
+          "before": "0xd800",
+          "after": "0xd900",
+          "count": 2
+        },
+        {
+          "before": "0xc2u,0xd7u,0u",
+          "after": "0xc2u,0xd7u,0xd8u,0u",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/test_memory.cpp",
+      "parent_SHA256": "cc3b8b621d2fdfbf00cc130d73e81292d8ae63441f3e2f859959d1c333f4d182",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/test_memory.cpp",
+      "generated_SHA256": "a670f77a0c759c2e3e74d4132dd0dce4dd8acd485d92b14af5dafdf7f461232e",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 1
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/session.hpp",
+      "parent_SHA256": "14280a3f94eab34abf6c1f7f42c95ff5fc22ce3e186ddf4bbb8dad5d2770dae6",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/session.hpp",
+      "generated_SHA256": "c816662fa3f87d6eed7aa1ae0a76f80fe13d426f5516e765f6ad7e225f44121a",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 9
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        },
+        {
+          "before": "axis_load4_r1/host_D9_r1",
+          "after": "axis_tile1024_r1/host_D9_r1",
+          "count": 3
+        },
+        {
+          "before": "identity==0xd8)",
+          "after": "identity==0xd8||identity==0xd9)",
+          "count": 1
+        },
+        {
+          "before": "name==\"axis_smooth\"?0xd8",
+          "after": "name==\"axis_smooth\"?0xd9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/require.hpp",
+      "parent_SHA256": "832be0998bcb7e20dfc233aba5e153162fbb0821562654f26fb36247f49ea58e",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/require.hpp",
+      "generated_SHA256": "3243086f9acb8e6c070056e7659ea2f85bd1cdfe09c354ea4415ab4d016b242e",
+      "edits": [
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/file_io.hpp",
+      "parent_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/file_io.hpp",
+      "generated_SHA256": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+      "edits": []
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/bridge.cpp",
+      "parent_SHA256": "13043a46d4a808afee673585bc98566d9182fdac0d51fd45e853e92b978d6a3c",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/bridge.cpp",
+      "generated_SHA256": "f06f928505a0bed80547609c7bef1f53b633a940999d7a3557d60f396bfe6fd8",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 19
+        },
+        {
+          "before": "smooth_d8",
+          "after": "smooth_d9",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/build_on_board.py",
+      "parent_SHA256": "f4c2e8dc3dbb6ff9af656a6fca64f49507c5cc56a32f572eb18509da0bbf1b73",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/build_on_board.py",
+      "generated_SHA256": "42aea56e53e1c9152146efa058d420b49708c6c6bbefc9879372c9fbc974588c",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 19
+        }
+      ]
+    }
+  ],
+  "source_SHA256": "44c5b586688602eff24630abfaf9828e9e4fb0c28a0078ab2f7deea0c65ea051",
+  "original_control_and_memory_test_bodies_preserved_except_identity_and_labels": true,
+  "extra_old_D8_identity_rejection_case_added": true,
+  "algorithm_source_not_linked_in_XRT_bridge": true,
+  "no_firmware_or_release_created": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

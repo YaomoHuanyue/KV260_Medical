@@ -1,0 +1,73 @@
+{
+  "derivations": [
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/runtime.py",
+      "parent_SHA256": "6e9a4c46a68b60ce7575e55593e708ca3d4d242d08ec184e1875c1d0edc4ef87",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime.py",
+      "generated_SHA256": "e2f4fe7783f7271127713fd88748a0092250a5e520af05fb3a97639579e16b8c",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 24
+        },
+        {
+          "before": "        from .seal_release import verify",
+          "after": "        if not (HERE/'release_r1/manifest.json').is_file():\n            raise RuntimeError('D9 qualified release missing; no hardware access')\n        from .seal_release import verify",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/hardware_r1/test_runtime.py",
+      "parent_SHA256": "4cea6d3843d9fa708c23a691f85477610ec6626f746fcc122abf310dc9f55f8f",
+      "generated": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py",
+      "generated_SHA256": "79dbc60501a861421e5a3f554c8bdf71a7135f81d1e524918f2ffe3b828c4992",
+      "edits": [
+        {
+          "before": "D8",
+          "after": "D9",
+          "count": 13
+        },
+        {
+          "before": "axis_load4_r1.host_D9_r1.hardware_r1.runtime",
+          "after": "axis_tile1024_r1.host_D9_r1.hardware_r1.runtime",
+          "count": 1
+        },
+        {
+          "before": ".D9_host_stat",
+          "after": ".D8_host_stat",
+          "count": 4
+        },
+        {
+          "before": "HERE.parent/'build_Windows_r2/candidate.dll'",
+          "after": "HERE.parents[1]/'native_r1/build_Windows_r1/candidate.dll'",
+          "count": 1
+        },
+        {
+          "before": "HERE.parents[1]/'build_Windows/reference.dll'",
+          "after": "ROOT/'modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/build_Windows/reference.dll'",
+          "count": 1
+        },
+        {
+          "before": "HERE.parent/'arm_cross_r1/build_r1/candidate.so'",
+          "after": "HERE.parents[1]/'arm_native_r1/build_r1/candidate.so'",
+          "count": 1
+        },
+        {
+          "before": "HERE.parent/'arm_cross_r1/build_r1/reference.so'",
+          "after": "ROOT/'modules/reconstruction/smooth_pipeline_r2/axis_load4_r1/host_D8_r1/arm_cross_r1/build_r1/reference.so'",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_SHA256": "63469a510accd5b96e1bf217324e305ca1e2e826e345b635dc202ee15db7d8b9",
+  "all_original20_pre_native_refusals_and_full5_bank_oracle_checks_preserved": true,
+  "wrapper_has_no_native_algorithm_or_PS_fallback": true,
+  "native_adapter_only_in_test": true,
+  "existing_D9_native_candidate_legacy_stat_symbol_only": true,
+  "actual_release_verifier_still_requires_qualified_route_and_sealing": true,
+  "no_PL_or_firmware_access": true,
+  "whole_goal_completed": false
+}

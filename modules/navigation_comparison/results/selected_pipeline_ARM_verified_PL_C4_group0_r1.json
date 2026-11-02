@@ -1,0 +1,29 @@
+{
+  "status": "actual_selected_navigation_action_self_contained_result_and_frozen_C4_oracle_passed",
+  "provider": "verified_PL_C4",
+  "host": "ARM",
+  "source": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/runs/20261006_123452_51f02353",
+  "output": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/runs/selected_pipeline_ARM_verified_PL_C4_group0_r1",
+  "group": 0,
+  "candidate_id": 5,
+  "point_count": 1124,
+  "branch_cues": 3,
+  "complete_action_seconds": 10.94215921900468,
+  "route_audit_backend": "pl",
+  "original_comparison_and_centerline_files_copied_exact": true,
+  "all_route_camera_fields_match_actual_C4": true,
+  "existing_results_not_overwritten": true,
+  "rejected": [
+    "existing_output",
+    "unknown_candidate"
+  ],
+  "actual_Qt_application_verified": false,
+  "source_sha256": {
+    "selected_pipeline_r1.py": "f400660e466d74e18893e3b5879d66dd6aeacdac6ca541f863b2ee1e7175f707",
+    "selected_cpu_r1.py": "9865c0f45aab5e1a3f9eb50fb2fca5eaba7356aeacbecd1329162f6703500be1",
+    "test_selected_pipeline_r1.py": "89f0cea3e9d58604f0f0d799cbaa9dbaf1737a9dbe8ea60018923ef4dd241823",
+    "selected_output_r1.py": "5e9d7664bfe4deb548ba6791de33557595086a124b34b6169e02a1ce9d35610a"
+  },
+  "result_pipeline_sha256": "0b16a537906025df26abc26713c97cf533b73d055527fe61b0be733d88077881",
+  "result_binding_sha256": "cd08e798ad5a4360408047f99262e396f88ec429ae6b4b34eee2a8d7c7c23bfa"
+}

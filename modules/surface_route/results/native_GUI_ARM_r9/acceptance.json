@@ -1,0 +1,23 @@
+{
+  "status": "actual_HDMI_complete_scene_model_UI_passed_no_PL_access",
+  "UI_binary_sha256": "77dffc81d55aeb38c4064c62fd79f0f91f02a406b4a813cc1ed44439e398dedb",
+  "scene_sha256": "cd1774f3786eb8557bc417ad008fc0249141aee4e40430081ff75135824ab0b2",
+  "current_boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "static_firmware": "k26-starter-kits.bit.bin",
+  "PL_lock_free": null,
+  "UI_peak_RSS_MiB": 234.3359375,
+  "evidence_sha256": {
+    "model_2.png": "519d2ce0fda491a64c7112c030a69eab5bb52bca15cb5b057c31eba8c7d25435",
+    "complete_scene_UI.json": "c508045fb2f0890b7baad4a6245edaa97224594d413a37f3b2cbff9e1007d48e",
+    "model_1.png": "2b72c5dff81e150af19eee33e09e899e412fdee250def0f64dd0a52e4fc625ea",
+    "started.json": "3e9c33714b756859c6b2f6bde92f639e91c08a3d24bdb28615cdf17677383dc2",
+    "UI.log": "379de92b10917a9d0657298fdfa06a842553368182c5efc2182a13771434095d",
+    "model_0.png": "ab65f8dc702160f31418d3547f33f2d123b90412d2b315679619f9d566c4653e"
+  },
+  "physical_user_review": false,
+  "PL_access": false,
+  "new_bitstream": false,
+  "production_promoted": false
+}

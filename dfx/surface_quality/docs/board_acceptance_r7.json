@@ -1,0 +1,89 @@
+{
+  "schema": "kv260.surface_quality.numeric_board_acceptance.v1",
+  "status": "accepted_exact_and_faster_than_PS4",
+  "release_manifest_sha256": "81072e1b5e4e19913202b730c4d693227fa993beb4ae9df31086c78a5f63bb87",
+  "source_and_artifact_sha256": {
+    "record_board_r7.py": "bd99659218ffd97033d1c7c25b292d6ec77cab273eee11a3a2a64468b4e7958c",
+    "release/manifest.json": "81072e1b5e4e19913202b730c4d693227fa993beb4ae9df31086c78a5f63bb87",
+    "results/recovery_r1/ARM_board.json": "f782739256be2d163e4bd7528193a5296e8d8211c9b6e133cef36666da5ce4ba",
+    "results/recovery_r1/ARM_targets_board.json": "a2fecf221545b01781ac193f27c00fb0363c76747709b4eb5e9d7aa931839576",
+    "results/recovery_r1/UI_restore.json": "5d4ee98945924249c89e8034e78abec2560a6fdb2aa50dc7037dd2d5308c8ead",
+    "docs/route_r7.json": "07f0c170892d1e10b332ea916d56fc33dc72b9ee7314dfc32d946d3c8ab7240f",
+    "fixtures_targets_r1/manifest.json": "ef4b1ba682a55e5dfe0dd854b8ab2e1f10eabb60f431b50ab64013c513e5b764"
+  },
+  "boot_id": "1302627f-16ee-478d-983d-ae578ccd6882",
+  "standard_complete_scene_cases": 12,
+  "standard_full_resolution_frames": 9,
+  "actual_branch_Q5_Q6_frames": 6,
+  "branch_maximum_ray_steps": 1023,
+  "frame_dimensions": [
+    640,
+    363
+  ],
+  "exact_depth_normals_targets_contours": true,
+  "four_4096_byte_DMA_guards_and_input_readback_passed": true,
+  "full_static_1MiB_echo_and_C6_restore_passed": true,
+  "accepted_UI_restored_same_binary": {
+    "status": "accepted_HDMI_UI_restored_same_binary_after_C9_test",
+    "boot_id": "1302627f-16ee-478d-983d-ae578ccd6882",
+    "new_UI_default": false,
+    "UI_PID": 487671,
+    "binary_sha256": "f6ec0d8a1e0f247c1bd23e82aef3e334ec9c7dd2728ad2304b0477d07f8b22e1",
+    "same_scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_a39608295d774c238b9d98a06255d0b2/UI/scene.json",
+    "static_reloaded": false
+  },
+  "actual_branch_PS4_median_range_seconds": [
+    0.6271455630194396,
+    1.0676559779676609
+  ],
+  "actual_branch_PL_median_range_seconds": [
+    0.0586375460261479,
+    0.09719354199478403
+  ],
+  "actual_branch_PL_over_PS4_speedup_range": [
+    10.69529005766681,
+    10.994077420827715
+  ],
+  "test_process_peak_RSS_MiB": {
+    "standard": 211.12109375,
+    "actual_branch": 104.296875
+  },
+  "routed_resources": {
+    "system_top": {
+      "LUT": 46292,
+      "FF": 49672,
+      "DSP": 328,
+      "BRAM36": 121,
+      "BRAM18": 0,
+      "BRAM36_equivalent": 121.0,
+      "URAM": 64
+    },
+    "rp": {
+      "LUT": 32452,
+      "FF": 23790,
+      "DSP": 328,
+      "BRAM36": 121,
+      "BRAM18": 0,
+      "BRAM36_equivalent": 121.0,
+      "URAM": 64
+    }
+  },
+  "remaining_RP": {
+    "LUT": 55868,
+    "FF": 152850,
+    "DSP": 632,
+    "BRAM36_equivalent": 11.0,
+    "URAM": 0
+  },
+  "clock_MHz": 100,
+  "parallel_ray_lanes": 4,
+  "ray_loop_II": 1,
+  "ray_slot_pipeline_depth": 16,
+  "resident_bricks": 10240,
+  "native_scene_bricks": 9379,
+  "native_scene_pages": 96,
+  "implicit_downsampling": false,
+  "clinical_ground_truth_validated": false,
+  "production_UI_promoted": false,
+  "performance_scope": "Same-input warm640x363module frames; transfer/sync/guards included. Cold fields/scene loading and native UI FPS are separate."
+}

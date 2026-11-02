@@ -1,0 +1,22 @@
+{
+  "reader_reproduction": {
+    "old_conditional_ddr_reader": "RTL simulation did not complete first transaction by 200ms simulated time; stopped manually",
+    "board_handshake_status": "0xaaaaaaaa after first 8x11 Cin5 Cout8 K3 timeout",
+    "not_a_completed_board_validation": true
+  },
+  "fix": "Separate unconditional linear DDR reads from padding through a 64-word FIFO with DATAFLOW",
+  "native_full_pipeline_cases_passed": 61,
+  "reader_rtl_random_stall_cases_passed": 8,
+  "writer_rtl_random_stall_cases_passed": 5,
+  "conv_rtl_unchanged": true,
+  "board_verification": "passed: both models 18 layers exact; expanded full volume completed with exact reference masks",
+  "source_sha256": "d805172a7038016676ded5b20bb873e5f7067d120e2b4f7402e344cd0571231b",
+  "tb_sha256": "49a773f7527721ad02dfefaa756e2fe8871792174b1c7279430eb3e85c56a5df",
+  "reader_rtl_report": "Report time       : Mon Sep 28 19:46:30     2026.\nSolution          : hls.\nSimulation tool   : xsim.\n\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\n|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |\n+   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +\n|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\n|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|\n|   Verilog|      Pass|             31|            418|           2399|             55|            154|            358|                  3477|\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\n",
+  "source_guidance": "https://docs.amd.com/r/2020.2-English/ug1399-vitis-hls/Preconditions-and-Limitations-of-Burst-Transfer",
+  "board_evidence": [
+    "ct_pl/model/board_layer_validation.json",
+    "outputs/ct_accuracy_v2/pl_model/board_layer_validation.json",
+    "outputs/ct_accuracy_v2/board_performance.json"
+  ]
+}

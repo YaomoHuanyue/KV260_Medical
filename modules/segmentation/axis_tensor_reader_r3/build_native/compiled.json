@@ -1,0 +1,30 @@
+{
+  "native_library_SHA256": "13d397bb06d321835bbd80a0eb6643574d1a7a72e18318752ab05b256ff6cd7b",
+  "compiler_argv": [
+    "F:\\AMDDesignTools\\2025.2.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt\\bin\\g++.exe",
+    "-std=c++17",
+    "-O3",
+    "-shared",
+    "-DCT_NATIVE",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-Wno-unknown-pragmas",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\axis_tensor_reader_r3\\kernel.cpp",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\axis_tensor_reader_r3\\native_bridge.cpp",
+    "-o",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\axis_tensor_reader_r3\\build_native\\candidate_new.dll"
+  ],
+  "original_framing_parent_SHA256": "3437204a471fccfc3c3c9232daa7c7da4f1d44c52c5adde7f6ef3c393369db18",
+  "original_frame_code_byte_preserved_after_text_normalization": true,
+  "source_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/kernel.hpp": "c239ea0ca87397276e243568c23ed109bea8938c0981f252dc671db7dda36543",
+    "modules/segmentation/axis_tensor_reader_r3/kernel.cpp": "05c8434ed9f8e53321ffce73d1649db1b0a38fb8d0224d327e141e0e30473610",
+    "modules/segmentation/axis_tensor_reader_r3/native_bridge.cpp": "79ccda1f8e44b569544a15c1ae0d3f95da45c6efd62a62feb2699a2af442d0f3",
+    "modules/segmentation/axis_tensor_reader_r3/legacy_framing.hpp": "ef8fe4d145408646fdfed138500f31f1fe6363c9552a02d1ebfb8d31ba69f41c",
+    "modules/segmentation/axis_tensor_reader_r3/prepare_and_build.py": "6abcae6da898305cb66019de86515496d72763cf466afaaaced4dfc90c602fa9",
+    "dfx/medical/algorithms/segmentation/conv.cpp": "3437204a471fccfc3c3c9232daa7c7da4f1d44c52c5adde7f6ef3c393369db18"
+  },
+  "HLS_RTL_DFX_physical_and_board_tests_still_required": true,
+  "PL_accessed": false,
+  "whole_goal_completed": false
+}

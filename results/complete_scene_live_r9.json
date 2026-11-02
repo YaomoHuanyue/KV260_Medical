@@ -1,0 +1,15 @@
+{
+  "status": "R9_native_scene_and_HDMI_model_trial_completed_default_preserved",
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "PID": null,
+  "tested_formal_default_UI_running": false,
+  "medical_UI_or_frame_workers": [],
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "candidate_UI_binary_sha256": "77dffc81d55aeb38c4064c62fd79f0f91f02a406b4a813cc1ed44439e398dedb",
+  "static_firmware": "k26-starter-kits.bit.bin",
+  "medical_shell_marker_present": false,
+  "PL_access_this_milestone": false,
+  "new_static_or_partial_loaded": false
+}

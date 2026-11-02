@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "architecture": "aarch64",
+  "source_sha256": {
+    "compile_host.sh": "25dea6c46011519cde0718c41fa37a09f06325eb4bcb9a3bf7d07202988ea1b0",
+    "host/bridge.cpp": "9262ec7cab0f1865cfd42e979a36b6c6230359b6467a43f2045075b15c535e1f",
+    "host/runtime.hpp": "e84cc6a635577f554c8e5912e685a14061e25b7c8a410300573aa1680f93d028",
+    "host/reference.cpp": "9db40124b3b728f5b656d825707fea03b2c7743d3b4b7b294a10c706a46169d6",
+    "hls/algorithm.hpp": "8e196e02f679e89989db56fdc9ff86e985d800b0a68679dfcb7aa0fd08ef9f27"
+  },
+  "library_sha256": {
+    "host/libcomposite.so": "612db5c059396fa64f6ef5088633e849ded561bc2d3aaca615065ba1f26bc52b",
+    "host/libcomposite_reference.so": "c02852a5930dd1e2d3b6d0b9fcef88eacd66be64520a1e5b86dc3ae27a082c89"
+  }
+}

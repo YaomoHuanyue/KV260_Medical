@@ -1,0 +1,109 @@
+{
+  "schema": "kv260.surface_route.explicit_derivations.v1",
+  "algorithm_changes": false,
+  "derivations": [
+    {
+      "parent": "modules/surface_route/comparison_r11.py",
+      "parent_sha256": "29ae334141ec12080fd6d1d6e2196a3f3ef43cca71bfe60aa0026aeeea70aa5e",
+      "derived": "modules/surface_route/comparison_base_r15.py",
+      "derived_sha256": "fd253fd5c2af09d278fb11cbfe478fd5b9fad64151c7c80393f3cdfdda56557f",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.bundle_r8 import arrays, sha, canonical, digest, unpack_scene",
+          "new": "from modules.surface_route.bundle_r8 import arrays, canonical, digest, unpack_scene"
+        },
+        {
+          "old": "from modules.surface_route.bundle_reader_r9 import verify_bundle",
+          "new": "from modules.surface_route.verification_session_r15 import sha,verify_bundle"
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/comparison_r12.py",
+      "parent_sha256": "e5fb7d8c36d085d673ee91ef0fd5b3250a7f4a2e38a973bec04303884e26d410",
+      "derived": "modules/surface_route/comparison_r15.py",
+      "derived_sha256": "042dc4ef16d9aea6db6198d00cc214b8371636dcb19b36e91dd32ae120bc9603",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.comparison_r11 import Comparison as OriginalComparison",
+          "new": "from modules.surface_route.comparison_base_r15 import Comparison as OriginalComparison"
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/surface_actions_r13.py",
+      "parent_sha256": "8b98d978467176ce74b3b8823892aec4a7935ee96a4bc78265b425ac8e1f8e75",
+      "derived": "modules/surface_route/surface_actions_r15.py",
+      "derived_sha256": "25b1de0a23df2329cf8dd52cdeb55ea82917e657c72934e9b26bcd0779a06480",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.comparison_r12 import Comparison",
+          "new": "from modules.surface_route.comparison_r15 import Comparison"
+        },
+        {
+          "old": "from modules.surface_route.bundle_r8 import arrays,sha,write_json,build_bundle",
+          "new": "from modules.surface_route.bundle_r8 import arrays,write_json,build_bundle"
+        },
+        {
+          "old": "from modules.surface_route.bundle_reader_r9 import verify_bundle",
+          "new": "from modules.surface_route.verification_session_r15 import sha,verify_bundle"
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/ui_bridge_r9.py",
+      "parent_sha256": "0be5e8e52829a4d3b7bc8c714e2269c9a370009f3d0fddf50a9b4e65e36a1fcd",
+      "derived": "modules/surface_route/prepared_verifier_r15.py",
+      "derived_sha256": "5a01b9c7c41b56a69f64665bd52d1885fa71f8bf18fc4c35f02294418e4d18a2",
+      "extraction": "verify_prepared exact function; SHA and bundle imports only changed"
+    },
+    {
+      "parent": "modules/surface_route/active_actions_r14.py",
+      "parent_sha256": "c547e0c53b7a77012dac2344ac92b49136e44f309b8332254201bea859d6a3cc",
+      "derived": "modules/surface_route/active_actions_r15.py",
+      "derived_sha256": "86a0555b65e13651f771f18942d79ef62439d07eaac421d514108c96ea5ec989",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.bundle_r8 import sha,write_json,arrays",
+          "new": "from modules.surface_route.bundle_r8 import write_json,arrays"
+        },
+        {
+          "old": "from modules.surface_route.bundle_reader_r9 import verify_bundle",
+          "new": "from modules.surface_route.verification_session_r15 import sha,verify_bundle"
+        },
+        {
+          "old": "from modules.surface_route.ui_bridge_r9 import verify_prepared",
+          "new": "from modules.surface_route.prepared_verifier_r15 import verify_prepared"
+        },
+        {
+          "old": "from modules.surface_route.surface_actions_r13 import",
+          "new": "from modules.surface_route.surface_actions_r15 import"
+        }
+      ]
+    },
+    {
+      "parent": "modules/surface_route/active_backend_r14.py",
+      "parent_sha256": "647fae9253af94e5395d0db3c66eab6f0f8812aff2c24914becdb5655e47eb5b",
+      "derived": "modules/surface_route/active_backend_r15.py",
+      "derived_sha256": "4303338e7b371de5c6c75201ec845dae063d297446268c6c7594fe256ab6dc8b",
+      "replacements": [
+        {
+          "old": "from modules.surface_route.active_actions_r14 import",
+          "new": "from modules.surface_route.active_actions_r15 import"
+        },
+        {
+          "old": "from modules.surface_route.bundle_r8 import sha",
+          "new": "from modules.surface_route.verification_session_r15 import sha,VerificationSession"
+        },
+        {
+          "old": "    event('prepared',scene=str(path.resolve()),revision=scene['complete_surface']['revision'],PL_access=False)\n    event('completed',status='passed')",
+          "new": "    return path,scene"
+        },
+        {
+          "old": "    try:main()\n    except Exception as error:event('error',text=str(error));raise",
+          "new": "    try:\n        with VerificationSession() as session:\n            path,scene=main()\n        event('verification_reuse',**session.metrics())\n        event('prepared',scene=str(path.resolve()),revision=scene['complete_surface']['revision'],PL_access=False)\n        event('completed',status='passed')\n    except Exception as error:event('error',text=str(error));raise"
+        }
+      ]
+    }
+  ]
+}

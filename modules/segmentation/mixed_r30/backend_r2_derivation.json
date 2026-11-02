@@ -1,0 +1,19 @@
+{
+  "parent_SHA256": "50cc1491b6eb6593b733eb1c28c652ac56c7c8de1fb484dd3b37903bd139cdf9",
+  "literal_edits": [
+    [
+      "head=argparse.ArgumentParser(add_help=False);head.add_argument('action');head.add_argument('--mode');known,_=head.parse_known_args(rest)",
+      "head=argparse.ArgumentParser(add_help=False);head.add_argument('--mode');known,_=head.parse_known_args(rest)"
+    ],
+    [
+      "if known.action=='run' and known.mode=='segmentation':",
+      "if known.mode=='segmentation':"
+    ],
+    [
+      "q.add_argument('action');q.add_argument('--mode')",
+      "q.add_argument('action',choices=['run']);q.add_argument('--mode')"
+    ]
+  ],
+  "reverse_exact": true,
+  "only_argument_parsing_changed": true
+}

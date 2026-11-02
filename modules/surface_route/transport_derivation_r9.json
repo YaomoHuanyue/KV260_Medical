@@ -1,0 +1,16 @@
+{
+  "parents": {
+    "pl_scope.hpp": "09645b7e6ba63cccc9d1f6cc9cc148e36d9f31077fcf9a580d746746346d3dea",
+    "pl_scope.cpp": "37a9be4a1d1cb5057cf486fbe64471e2a6fde18370f36d6568cb5c8f7610a76f"
+  },
+  "outputs": {
+    "pl_scope_complete_r9.hpp": "d7340123b4139cb30c6efc6d37c35924a7971abf5422c3ae73da2ec6f03e105b",
+    "pl_scope_complete_r9.cpp": "41264806238a72785c9a3639d20691f99efe2ae5f07091da7b60287ee9cc7ff4"
+  },
+  "production_sources_unchanged": true,
+  "changes": [
+    "explicit C9 bundle/revision selection",
+    "strict ready/frame scalar and pose pairing",
+    "cooperative stop and one-frame/latest-pose transport preserved"
+  ]
+}

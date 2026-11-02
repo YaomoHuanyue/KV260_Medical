@@ -1,0 +1,43 @@
+{
+  "status": "actual_ARM_compact_smoothing_XRT_host_compiled_no_Session",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-mcpu=cortex-a53",
+    "-ffp-contract=off",
+    "-fPIC",
+    "-shared",
+    "-I/usr/include/xrt",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/smooth_speed/host_BRAM_r2634/bridge.cpp",
+    "-lxrt_coreutil",
+    "-pthread",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/dfx/smooth_speed/host_BRAM_r2634/build_ARM/libsmooth_BRAM_r2634.so"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 36.41608386702137,
+  "source_sha256": {
+    "dfx/smooth_speed/host_register_r2478/bridge.cpp": "37e406b198ec839e67de03106d423ae239c6ed62a2c50a576bc57ea15f7ab442",
+    "dfx/smooth_speed/host_BRAM_r2634/bridge.cpp": "b411b73507235970ad71e5d057c5f3cb939430d5c2bf5fccb991c8806a33a10d",
+    "dfx/smooth_speed/host_register_r2478/runtime.hpp": "48222d815f7b3b9d04fa732b4bbf9774102f2b7df826cc225e329f1af3c93a42",
+    "dfx/smooth_speed/host_BRAM_r2634/runtime.hpp": "7b727faa8e3dd6d862c00e483d4a123647b89988edd9e8e06e9a372e95672fd5",
+    "dfx/smooth_speed/host_register_r2478/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "dfx/smooth_speed/host_BRAM_r2634/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "dfx/smooth_speed/manual_bram_apply_r2585/mesh_smooth.hpp": "4a7b8d26efb87b08e388fff0f749545aa16f3098aa85c08592694af15bc1b212",
+    "dfx/smooth_speed/axi_profile_r312/host_snapshot_r354.hpp": "b95b248208e331e64cdc393ff6ca7b974c7ff24ed2fcb70f30eb3750be39e71e",
+    "tools/build_BRAM_smoothing_host_r2634.py": "e7f4742bbf0e8ecfa7a879478b53e42d69e33e94c313e4163539e740824537d1",
+    "dfx/smooth_speed/host_BRAM_r2634/derivation.json": "8078562276e9e1311bf8ae6c4d52f8a80b8f9c0493a7d28dabfd243bcf20f047"
+  },
+  "artifact_sha256": {
+    "dfx/smooth_speed/host_BRAM_r2634/build_ARM/compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dfx/smooth_speed/host_BRAM_r2634/build_ARM/compile.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dfx/smooth_speed/host_BRAM_r2634/build_ARM/libsmooth_BRAM_r2634.so": "a63f62aab8da21a3f6e57e8f8a3b22ea09057c942148fcfceb0095dd5718f35b"
+  },
+  "library_loaded": false,
+  "XRT_session_created": false,
+  "default_UI_or_firmware_changed": false,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

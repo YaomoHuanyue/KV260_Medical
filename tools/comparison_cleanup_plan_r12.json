@@ -1,0 +1,9 @@
+{
+  "archives_sha256": {
+    "comparison_sources_r11.zip": "50949d6a3566524b4645d65e934c62c2803eec286b6549e31205455137cc4471",
+    "comparison_sources_r12.zip": "9b6c9064da5ad6fd5ae499c8eac1e805a626b8ca4bffe1fad52cd5c16024c2ad",
+    "comparison_helpers_r12.zip": "125ced0e62e7e3023550adc76926c07bf678cab4f6a4b3e7910d6ce7d3a884b9",
+    "comparison_delivery_r12.zip": "7de4622ec54f798d404f17422993ba8f0c3a31d6bfbc88028f4a6b518047c3b7",
+    "comparison_progress_r12.zip": "b3ec05f90c0d517af6424b80fc01160e8b868932f6e4a9e4cb18141d85e664fd"
+  }
+}

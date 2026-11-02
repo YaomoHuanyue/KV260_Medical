@@ -1,0 +1,377 @@
+{
+    "actual_PL_frame": {
+        "arc_mm": 0,
+        "auto_align": true,
+        "branch_event": -1,
+        "camera_lps": [
+            6.855531692504883,
+            -26.973388671875,
+            -7.75
+        ],
+        "event": "frame",
+        "field": 0.7673269879789604,
+        "forward_lps": [
+            0.1844369840140155,
+            0.9790275875117707,
+            -0.08653312555718883
+        ],
+        "hardware_seconds": 0.057919229,
+        "height": 337,
+        "host_seconds": 0.066150011,
+        "interactive": false,
+        "manual_pitch_degrees": 0,
+        "manual_yaw_degrees": 0,
+        "normal_computation": "PL",
+        "normal_filter": "depth_aware_3x3",
+        "normal_frame_path": "/run/kv260-ui-runtime/pl_scope_417672.rgba.normal.rgba",
+        "path": "/run/kv260-ui-runtime/pl_scope_417672.rgba",
+        "pl_module": "surface",
+        "pose_source": "completed_PL_frame",
+        "ray00_index": [
+            -0.177337646484375,
+            0.263641357421875,
+            0.044342041015625
+        ],
+        "ray_origin_index": [
+            104,
+            11,
+            82
+        ],
+        "raydx_index": [
+            0.000946044921875,
+            -0.00018310546875,
+            0
+        ],
+        "raydy_index": [
+            -3.0517578125e-05,
+            -7.62939453125e-05,
+            -0.0002899169921875
+        ],
+        "requested_camera": {
+            "arc_mm": 0,
+            "auto_align": true,
+            "camera": [
+                6.855531692504883,
+                -26.973388671875,
+                -7.75
+            ],
+            "command": "frame",
+            "forward": [
+                0.18443699181079865,
+                0.9790276288986206,
+                -0.08653312921524048
+            ],
+            "height": 337,
+            "interactive": false,
+            "manual_pitch_degrees": 0,
+            "manual_yaw_degrees": 0,
+            "orientation_stabilization": "arc Gaussian 1.2mm and rotation-minimizing transport",
+            "sequence": 2,
+            "up": [
+                0.02362806163728237,
+                0.08360141515731812,
+                0.9962190985679626
+            ],
+            "width": 464
+        },
+        "right_lps": [
+            0.9825602851019989,
+            -0.18578425837198387,
+            -0.0077133314106614375
+        ],
+        "round_trip_ms": 76,
+        "sequence": 2,
+        "step_mm": 0.162099229744092,
+        "total_seconds": 0.07517683203332126,
+        "up_lps": [
+            0.02362805679891072,
+            0.08360138893615555,
+            0.9962191137996969
+        ],
+        "upload": {
+        },
+        "width": 464
+    },
+    "checks": [
+        {
+            "name": "actual_selected_identity",
+            "passed": true
+        },
+        {
+            "name": "complete_data_loaded",
+            "passed": true
+        },
+        {
+            "name": "original_path_not_replanned",
+            "passed": true
+        },
+        {
+            "name": "anatomical_branch_cues",
+            "passed": true
+        },
+        {
+            "name": "fresh_self_contained_result",
+            "passed": true
+        },
+        {
+            "name": "actual_PL_navigation_frame",
+            "passed": true
+        },
+        {
+            "name": "linked_selected_target_matches_route",
+            "passed": true
+        },
+        {
+            "name": "position_readout_matches_camera",
+            "passed": false
+        },
+        {
+            "name": "linked_reference_tracks_presented_PL_camera",
+            "passed": true
+        },
+        {
+            "name": "completed_frame_matches_requested_arc",
+            "passed": true
+        },
+        {
+            "name": "actual_GL_display",
+            "passed": true
+        }
+    ],
+    "physical_mouse_verified": false,
+    "report": {
+        "actual_UI_route_replaced": false,
+        "automatic_route_replanning": false,
+        "backend": "pl_route",
+        "bend_audit": "PL discrete geometry; PS prefix-query policy",
+        "bend_constraint_enabled": false,
+        "bend_constraint_passed": true,
+        "bend_prefix_queries": 0,
+        "branch_guidance": {
+            "coordinates": "LPS/mm",
+            "events": [
+            ],
+            "policy": "retained_route_selected_exit_only",
+            "revision": 1,
+            "route_id": "50c73f82c3503e4006394a23fdf07712e85d6977df306ecc442e07c47bdd6aaa",
+            "schema": "kv260.navigation.guidance.v3"
+        },
+        "branch_guidance_application_pending": false,
+        "branch_guidance_original_parent_ids_retained": true,
+        "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+        "centerline_input_sha256": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+        "closest_centerline_gap_mm": 69.76399275630278,
+        "curvature_definition": "reciprocal of discrete bend radius; turns <= 1e-6 rad omitted",
+        "final_target_gap_mm": 119.24607661055957,
+        "forward_window_mm": 10,
+        "guidance_adapter_source_sha256": "6c990ef5837daa535768c3713db83cad3e05f562c3a9d417f7a85fd0cb815131",
+        "internal_linear_scene_query": {
+            "closest_centerline_gap_mm": 0,
+            "kind": "manual_point_at_selected_polyline_end",
+            "requested_endpoint_id": 277,
+            "selected_endpoint_id": 65
+        },
+        "length_mm": 43.75259173174027,
+        "max_discrete_curvature_per_mm": 2.284760530596507,
+        "measured_minimum_bend_radius_mm": 0.4376826308965164,
+        "minimum_adjusted_radius_mm": 2.361852926799072,
+        "minimum_bend_radius_mm": 0,
+        "minimum_edt_radius_mm": 3.7229583263397217,
+        "pl_job": {
+            "dfx": true,
+            "dma_output_words": 8706,
+            "edge_cache_reused": false,
+            "hardware_seconds": 0.009832098,
+            "host_run_seconds": 0.010026951,
+            "kind": "actual_kv260",
+            "plan_adapter_total_seconds": 0.013156830973457545,
+            "scene_reloaded": false,
+            "status": 0,
+            "useful_output_bytes": 35264,
+            "useful_output_words": 551
+        },
+        "pl_scene": {
+            "bricks": 1197,
+            "field_precision": "original float32, no quantization",
+            "foreground_voxels": 30188,
+            "input_bytes": 404544,
+            "load": {
+                "dfx": true,
+                "dma_output_words": 8706,
+                "hardware_seconds": 0.000734157,
+                "host_run_seconds": 0.15794964,
+                "kind": "actual_kv260",
+                "scene_reloaded": false,
+                "status": 0
+            },
+            "pack_seconds": 0.04878212796756998,
+            "tile_entries": 38896
+        },
+        "planning_mode": "clearance_estimate",
+        "point_count": 270,
+        "ps_remaining": "target loading, prefix requery policy, report formatting and UI",
+        "quality_status": "experimental_geometry_only",
+        "reachable_centerline_points": 66,
+        "reason": "insufficient_route_clearance",
+        "renderer": "not_rendered_by_navigation_data_producer",
+        "requested_endpoint_id": 522,
+        "requested_endpoint_lps_mm": [
+            49.51179528236389,
+            19.491469144821167,
+            -135.25
+        ],
+        "requested_original_endpoint_id": 522,
+        "required_radius_mm": 2.3,
+        "resolution_margin_mm": 1.3611053995406497,
+        "route_audit": {
+            "backend": "pl",
+            "forward_window_mm": 10,
+            "minimum_bend_radius_mm": 0,
+            "protocol": 3,
+            "required_radius_mm": 2.3,
+            "resolution_margin_mm": 1.3611053995406497,
+            "route_sha256": "60f7df814d87d92acb4149a0aa34b57a598ceee0c9c45a8439a602f049f3ee71"
+        },
+        "safety_margin_mm": 0.3,
+        "schema": "kv260.navigation.route.v1",
+        "scope_diameter_mm": 4,
+        "selected_endpoint_id": null,
+        "selected_endpoint_identity": "dense point on audited original selected polyline",
+        "selected_guidance_source_sha256": {
+            "selected_guidance_r2.py": "11a80bab88d3361bbd8cff8e919adbc32eaf4fcef0c3fdd6459e70fe1deddf3b",
+            "selected_guidance_rules_r2.py": "62590040b8027f62dc60b5519402bf85c1e0290fadad2f598c4e05e360c62395",
+            "test_selected_guidance_r2.py": "4f3567f422bc1ffb56cd5495f454e47d303127545bbed5bd41e9b329b796f742"
+        },
+        "selected_output_source_sha256": "5e9d7664bfe4deb548ba6791de33557595086a124b34b6169e02a1ce9d35610a",
+        "selected_path_geometry": "original complete polyline; collinear clearance samples and verified prefix only",
+        "selected_path_linear_scene_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+        ],
+        "selection": {
+            "candidate_id": 2,
+            "centerline_id": "5ac60a3859cf131fbef6c88b333e97a843b85fe90da15e39f9a7185b7cd1c691",
+            "comparison_files_sha256": {
+                "whole_alternative_routes.json": "933b47300903148a01ac34a828e0ec32a6054d7574878e2b26727cd869c26d7c",
+                "whole_comparison_arrays.npz": "b451668b6dcbcea8738b0a4d15cbcdca688241db893a4b13f0c00a7cf4f31d43",
+                "whole_instrument_profiles.json": "ee082cdaa3a2e0c337eb27719a866b6032a9664108ec4058bfcfb9b007f46c54"
+            },
+            "group_index": 4,
+            "input_sha256": "4e54c0d61cf4c768db2ad61db33c77242fed226d9aa8b98f0e689e28b865af45",
+            "original_path_sha256": "a1ff8db30caa5dd1cf71f417741189b43890f7d85718264f028ce1795267b97f",
+            "original_raw_parent_chain_retained": true
+        },
+        "selection_adapter_source_sha256": {
+            "selected_path_r1.py": "de0b55fbdc3073a646b5792fe2534d9c0c64b1f7804f6b47f7146307cca0398c",
+            "selected_path_r2.py": "b644b46449f40c67648a7e47461b2768fdfc2176012feedc8e066382c6d8a43d"
+        },
+        "selection_audit_whole_API_seconds": 0.2646686569787562,
+        "smoothed_original_branch_matching": "exact raw parent IDs; monotonic lumen-bounded projection",
+        "smoothing_accepted": false,
+        "status": "limited_reach",
+        "target": {
+            "centroid_lps_mm": [
+                112.79043434882652,
+                26.971860516801172,
+                -97.83163265306123
+            ],
+            "index": 3,
+            "label_status": "segmentation candidate, not confirmed lesion",
+            "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+            "voxel_count": 245
+        },
+        "target_kind": "lesion_candidate",
+        "target_points_lps_mm": [
+        ],
+        "timing": {
+            "plan_and_camera_seconds": 0.29449992603622377
+        },
+        "total_centerline_points": 278,
+        "warnings": [
+            "Automatic root requires visual confirmation",
+            "Centerline and diameter estimates depend on segmentation and voxel spacing",
+            "9 voxel graph cycle edges removed for branch forest; inspect junction topology",
+            "Displayed route is the reachable approach only; requested endpoint was not reached",
+            "Route approaches the candidate inside the airway; it does not reach an external lesion"
+        ]
+    },
+    "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/99015001fe706f08ddebd84f/scene.json",
+    "scope_GL": {
+        "error": "",
+        "frames": 5,
+        "note": "paintGL CPU submission duration, not complete GPU frame latency",
+        "paint_submit_max_ms": 14.189662,
+        "paint_submit_median_ms": 0.185862,
+        "renderer": "Mali-400 MP",
+        "scope_cached_blits": 4,
+        "scope_shading_passes": 2,
+        "shader_linked": true,
+        "valid": true
+    },
+    "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/runs/selected_20261006_141509_708bbc68",
+    "status": "failed"
+}

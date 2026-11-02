@@ -1,0 +1,8 @@
+{
+  "parent": "guidance_r5.py",
+  "parent_sha256": "1ab1679f7cdbaf714548951071946e1847b546c6e947c6d5f005792f2b309289",
+  "output": "guidance_r13.py",
+  "output_sha256": "9a31039a09c29d56dfb4aa2654c57c7998b4e2a8d182803e64f6da2da5df1606",
+  "changed": "source_node_arcs only: exact retained selected-curve producer parameter and audited prefix",
+  "original_field_aperture_branch_ownership_target_mapping_and_cue_body_unchanged": true
+}

@@ -1,0 +1,55 @@
+{
+  "changes": [
+    {
+      "path": "hardware/rm/mc.tcl",
+      "old_SHA256": "394ea2f7b4257f0c785b37723f594b4a45589ff9059fd225ce45399d37eda39a",
+      "new_SHA256": "13918cc8c4da29dbaf3c280a3746761e99a079b8ea76cdf701699c83052235cb"
+    },
+    {
+      "path": "hardware/rm/ct.tcl",
+      "old_SHA256": "b699e45f6db1868fbc5ec2346d6bb746c14807123d01e5ae9ecb01e9e8687f7a",
+      "new_SHA256": "0707e4b2a5a2adde71dcb1af5a48abde1295a76105db08b7d84269520589eab0"
+    },
+    {
+      "path": "hardware/rm/hu32.tcl",
+      "old_SHA256": "0ed172829cc4561d589a662f5e0e58a69db71132077543c817e44a5c67603471",
+      "new_SHA256": "28041996df047b6e36d770c264186263eaca796da1e0e7975fae8e4a61791438"
+    },
+    {
+      "path": "hardware/rm/surface.tcl",
+      "old_SHA256": "a957e1ac9177a71ac8c2877c3d03ecb190b73ecedc66383d8fa3ccb58e978c74",
+      "new_SHA256": "54cabf183f2514e217d20b3ce171888e23c6b57938ce26b01ef677279bcfd6c7"
+    },
+    {
+      "path": "hardware/rm/smooth.tcl",
+      "old_SHA256": "df7231fbb9ca7b95bbc90a1a924feee76120506dc3c4bcb2c12df3147ca5a657",
+      "new_SHA256": "0cedd6d4d26f04fcffbc6eb83261e5b15cc4612f9d06b1c7c5ec48a1f3775df2"
+    },
+    {
+      "path": "hardware/rm/route.tcl",
+      "old_SHA256": "cbfd9fe5d850547337964065fad62146921c042fecd9688d9b2fd149afbf69f6",
+      "new_SHA256": "1c9ec4b24123ba71c9db982370b7e32bd5a089dcfc0d848f0cc9bc11bb7e3a78"
+    },
+    {
+      "path": "hardware/rm/edt.tcl",
+      "old_SHA256": "0c8dd1f043ed84bdf6b2f7a2f4f84b5c464c20e30346328911a232ee292d525b",
+      "new_SHA256": "38cc4287263a5223074f9f21d2bfc105e29070b8fc8cc7e0cee0bb269537e322"
+    },
+    {
+      "path": "hardware/rm/composite.tcl",
+      "old_SHA256": "eba6bd8a5908ce01e6a9e2dccd723ff0c90f320276bdb36dbd18ee63013d6a8b",
+      "new_SHA256": "7aee4e51fb7d35b861af58853886fb67072085ae508a8abaf9eed814f3ccded4"
+    },
+    {
+      "path": "hardware/rm/quality.tcl",
+      "old_SHA256": "946b71b0e12c6ea15167e14c7d708cb6f5b1c4cf8a5f894fcbc8831359208c4a",
+      "new_SHA256": "acb260d69602e43eaa755cc68e3a3553d99881c11db1224c44bd13a8852956cd"
+    },
+    {
+      "path": "hardware/static/create_project.tcl",
+      "old_SHA256": "6e467f11b79b6d359f58b0c8e8f80b2acbd87b71ec5956e265829c21da3270cb",
+      "new_SHA256": "ba176a7e65e6b2dc6c027df54ecc162061a2c9a8e85bc043b27dd4bd61071205"
+    }
+  ],
+  "scope": "Ignore Vivado PYTHONHOME/PYTHONPATH only in the external Python child; no global environment mutation"
+}

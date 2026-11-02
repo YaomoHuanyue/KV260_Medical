@@ -1,0 +1,90 @@
+{
+  "status": "passed_canonical_complete_medical_DFX_pipeline_PL_audit_HUD_and_geometry_camera_preserved",
+  "actual_HDMI": true,
+  "physical_controls_confirmation_pending": true,
+  "UI_binary_sha256": "fcbd8fd79a892e06b4bb7aa4486abd304e4de22cc424f3117c6cf209ee1f7d3a",
+  "PL_audit_samples": 1207,
+  "HUD_matches_independent_PS_oracle": true,
+  "protocol3_PS_recalculation_forbidden_and_passed": true,
+  "original_precision_and_route_camera_preserved": true,
+  "linked_camera_UI_preserved": true,
+  "pipeline": {
+    "schema": "kv260.ui.pipeline.v1",
+    "status": "passed",
+    "backend": "dfx_pl",
+    "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+    "input": "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+    "mode": "all",
+    "source_result": null,
+    "stages": [
+      {
+        "stage": "segmentation",
+        "wall_seconds": 43.772774376004236
+      },
+      {
+        "stage": "reconstruction",
+        "wall_seconds": 21.178004933026386
+      },
+      {
+        "stage": "navigation",
+        "wall_seconds": 12.552293583023129
+      }
+    ],
+    "total_wall_seconds": 77.50570004800102
+  },
+  "navigation_backend": {
+    "status": "completed",
+    "backend": "dfx_pl",
+    "edt_backend": "pl",
+    "route_backend": "pl",
+    "camera_backend": "pl",
+    "total_seconds": 9.86630942899501,
+    "route_status": "limited_reach",
+    "minimum_bend_radius_mm": 0.0,
+    "bend_audit_backend": "pl",
+    "forward_clearance_backend": "pl",
+    "rendering": false
+  },
+  "actual_UI_frames": {
+    "surface": 2,
+    "composite": 9
+  },
+  "peak_UI_rss_mib": 409.12109375,
+  "canonical_sources": {
+    "ui/features/analysis.py": "c4e58291dcf2066f42418e43d901c62851d10102666745b2dd15b86678bd3814",
+    "ui/features/navigation_task.py": "1b918207df974f2e58670d7116c0778d2a7c2d1d943f1db9b8e6f21f0e382a20"
+  },
+  "rollback": "ui/archive/20261004_route_metrics_r2",
+  "evidence_sha256": {
+    "ui/docs/route_canonical_r1/native/04_all_structures.png": "f9f97de4957359a3f921dff7a94cb43a6a1bae6c8f56343226fa949df996a63a",
+    "ui/docs/route_canonical_r1/native/05_scope_after_dfx.png": "8f71d5777cbd6df3ffe64bdfeefb643908b65d40a81aaf018e4d6b1792623dac",
+    "ui/docs/route_canonical_r1/native/02_model.png": "6c4b5bcabd19a2eeac8940cf8ce9268e739529270f9cdeb2bf8661b849aa778e",
+    "ui/docs/route_canonical_r1/native/01_slices.png": "4a6ac5661aed9844be14a61b3ff20d1d48047c0c11a350cffca073b78b382ddd",
+    "ui/docs/route_canonical_r1/native/04_all_structures_viewport.png": "4a3f1cbdcc234925edbe17ed3f41f13fdce0b8fab8895e879db682bec5b3b16c",
+    "ui/docs/route_canonical_r1/native/05_scope_after_dfx_viewport.png": "35ce00c257757d573ce7fe105c65aef8a7f4c8646e354c6a600dcfffbe82657b",
+    "ui/docs/route_canonical_r1/native/ui_acceptance.json": "3d87f409a49aba8d4fb75ee460773da8bd28d18df3ca99c2ae063014077ae043",
+    "ui/docs/route_canonical_r1/native/02_model_viewport.png": "1b65b7add9c9143f470a8aa6af77b2ceccd538efb88e1aabbccb1168dbbb1883",
+    "ui/docs/route_canonical_r1/native/final_viewport.png": "4a3f1cbdcc234925edbe17ed3f41f13fdce0b8fab8895e879db682bec5b3b16c",
+    "ui/docs/route_canonical_r1/native/final.png": "d2eb15ef76f20bb041c853159685f28109e3c0b8a9b83a582c552bcba0b738e6",
+    "ui/docs/route_canonical_r1/native/03_navigation_viewport.png": "35ce00c257757d573ce7fe105c65aef8a7f4c8646e354c6a600dcfffbe82657b",
+    "ui/docs/route_canonical_r1/native/03_navigation.png": "cdeb5ba1a50826e8dd7842efaa87405c8c95ed8680af2c7d074f842679de0376",
+    "ui/runs/20261004_151324_f601e259/pipeline.json": "40c3b3750f9fe9c44f06dc90a59b0907675ac76770485db96023193be6fc98f4",
+    "ui/cache/70d7a044123682a1205b73ac/scene.json": "33a2d2f46a98a1cbcb8233400bb49f6047a684ef98f350707e9cb497072f71f7",
+    "ui/runs/20261004_151324_f601e259/navigation/route.json": "6eee63af293ba457fdb96150352a95fa40b3e06c0fa7703c13dafadbca44c94c",
+    "ui/runs/20261004_151324_f601e259/navigation/dfx_report.json": "b65a4189f6ec8ac663abdc2a8e32366a44f0149690056e06e03f931100dd761d",
+    "ui/runs/20261004_151324_f601e259/navigation/route.npz": "52812cbcfffc953458131703dc3651168bb8ccabede1695a0c358dd27a6a6e23",
+    "ui/runs/20261004_151324_f601e259/navigation/camera.npz": "154637ca324d2c99d3fd9f654b29973dcb8fedc6c2ec4f9f6afdff0424504fa2",
+    "ui/runs/20261004_151324_f601e259/navigation/session.json": "723766c3e07bb0c864afcb52f033d0e627f3086fc1971b1fc3ddd5b4cbf8e33a",
+    "ui/docs/route_canonical_r1/before.json": "ca78894fa91a6970a8c32c475526e87544dc7458b33c17502734e3b904db42b2",
+    "ui/archive/20261004_route_metrics_r2/inventory.json": "2ad2895e076f611fd61232817dca8cf70ba22805e3160f35966ca6ed65d340d9",
+    "dfx/route_audit_speed/docs/board_acceptance_r14.json": "152ca603dccce0ab8140c413fad2f19da945389d2df9dd36705b28acfff7cb1e",
+    "ui/candidates/route_metrics_r2/docs/native_acceptance_r2.json": "7133ddf2b3c158e0964f73b473d1b104f96bb0d0ae15e796b9f712fb292bcac4",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/route.npz": "52812cbcfffc953458131703dc3651168bb8ccabede1695a0c358dd27a6a6e23",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/camera.npz": "154637ca324d2c99d3fd9f654b29973dcb8fedc6c2ec4f9f6afdff0424504fa2"
+  },
+  "source_sha256": {
+    "tools/collect_route_metrics_canonical_r1.py": "d7bf39899ada54a6d0e83265c5bb1c24114ec5e328cd786d0985980e7327692b",
+    "dfx/route_audit_speed/protocol.py": "7cfeeff15c8f6084f4ef9521b0ec6c3bf6f93f061b70dd2c7c622084f40c5163",
+    "dfx/route_audit_speed/checked_plan.py": "c60e8be2e6cc2cac25c4a8394c532160eb62ce5a9f3dc121074582032b1d0d16"
+  }
+}

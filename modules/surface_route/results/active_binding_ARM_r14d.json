@@ -1,0 +1,22 @@
+{
+  "status": "active_surface_comparison_target_constraints_and_display_integrity_passed",
+  "platform": "ARM",
+  "tests": [
+    "comparison_survives_new_route_revision_on_identical_C1_surface",
+    "changed_option_lesion",
+    "changed_option_margin",
+    "changed_option_minimum_bend",
+    "changed_option_diameter",
+    "changed_comparison_receipt",
+    "changed_displayed_Pareto_data",
+    "changed_active_scalar",
+    "another_C1_mesh",
+    "missing_original_case_proof"
+  ],
+  "source_sha256": {
+    "modules/surface_route/active_actions_r14.py": "c547e0c53b7a77012dac2344ac92b49136e44f309b8332254201bea859d6a3cc",
+    "modules/surface_route/test_active_binding_r14.py": "1a08090a0ca3fefe2fa25237a65adb34d572b4ec52fdd0c1d6d8ac97215d1024"
+  },
+  "PL_access": false,
+  "production_promoted": false
+}

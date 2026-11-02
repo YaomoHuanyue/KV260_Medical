@@ -1,0 +1,130 @@
+{
+  "generator_SHA256": "c858c5abd5ad9642977c553a7e51c77950fba5bd9814f3c033e6050a5a16db66",
+  "parent": "integrated_pooled_r2",
+  "files": [
+    {
+      "name": "benchmark_board.py",
+      "parent_SHA256": "5f598ed33775c3d01f09cb825d065e404197ce44ab3f6958785447503e0ace7b",
+      "SHA256": "b3c1a4a711b90d557e231a8b0b25b38bbb64cd89a68bb6b18613b24177a37063",
+      "edits": [
+        {
+          "before": "axis_mc_8_r2.integrated_pooled_r2",
+          "after": "axis_mc_8_r2.integrated_pooled_r3",
+          "count": 2
+        },
+        {
+          "before": "def expected_smooth(folder,info):",
+          "after": "def expected_smooth(folder,info,*,all_vertices_frozen=False):",
+          "count": 1
+        },
+        {
+          "before": "original_SciPy_max_error_mm=error,",
+          "after": "original_SciPy_max_error_mm=None if all_vertices_frozen else error,reference_max_error_mm=error,",
+          "count": 1
+        },
+        {
+          "before": "    reference,reference_info=smooth_mesh(points,faces,limit,iterations)\n    error=float(np.abs(reference-actual[:,:3]).max(initial=0))\n    assert error<=5e-5 and int(status[1])==reference_info['accepted_iterations']",
+          "after": "    if all_vertices_frozen:\n        # This fixture adds constraints absent from smooth_mesh's API. Its\n        # independent analytic answer is identity, with zero accepted steps.\n        assert np.all(inputs[3]==1)\n        np.testing.assert_array_equal(points,inputs[0].reshape(nv,4)[:,:3])\n        reference=points\n        reference_info=dict(accepted_iterations=0)\n        np.testing.assert_array_equal(actual,inputs[0].reshape(nv,4))\n    else:\n        reference,reference_info=smooth_mesh(points,faces,limit,iterations)\n    error=float(np.abs(reference-actual[:,:3]).max(initial=0))\n    assert error<=5e-5 and int(status[1])==reference_info['accepted_iterations']",
+          "count": 1
+        },
+        {
+          "before": "        points_SHA256=sha(folder/'points.f32'),report_words=list(map(int,status)))",
+          "after": "        original_SciPy_reference_used=not all_vertices_frozen,analytic_all_frozen_reference_used=all_vertices_frozen,\n        points_SHA256=sha(folder/'points.f32'),report_words=list(map(int,status)))",
+          "count": 1
+        },
+        {
+          "before": "HERE/'run_partial.py',MODULE/'host_pooled_r2/runtime.py',*switch_logs]",
+          "after": "HERE/'run_partial.py',HERE/'pool_checks.py',HERE/'derivation.json',MODULE/'host_pooled_r2/runtime.py',*switch_logs]",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "board_trial.py",
+      "parent_SHA256": "874112918d01add2bf12e5068821e05dd8b6f09b61abcf746658d0c5b4ceb223",
+      "SHA256": "414f21f486c365a19ef07ecb543739d19f661cd189dfc48b85c376bcd4cb2caf",
+      "edits": [
+        {
+          "before": "results/MC_AXIS8_FMA2_pooled_board_r2",
+          "after": "results/MC_AXIS8_FMA2_pooled_board_r3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "pool_checks.py",
+      "parent_SHA256": "b71611ea658c4f9c2c5389d22f0eb5bc45ee468993ad6482c5b8e9d134bb42eb",
+      "SHA256": "b3678c7eaf6d866ae9cdd4c554c45e5e452e21ac3d150c83d1f1c23794605527",
+      "edits": [
+        {
+          "before": "axis_mc_8_r2.integrated_pooled_r2",
+          "after": "axis_mc_8_r2.integrated_pooled_r3",
+          "count": 1
+        },
+        {
+          "before": "    reference(modified,changed)",
+          "after": "    changed_reference=reference(modified,changed,all_vertices_frozen=True)",
+          "count": 1
+        },
+        {
+          "before": "        grown_capacity_bytes=grown['pool_capacity_bytes'])",
+          "after": "        changed_data_reference=changed_reference,grown_capacity_bytes=grown['pool_capacity_bytes'])",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "reconstruction.py",
+      "parent_SHA256": "5d5464e7223311df89dd6410bd18e6d53c523cd850c4642ed8127af8bd842d3d",
+      "SHA256": "5d5464e7223311df89dd6410bd18e6d53c523cd850c4642ed8127af8bd842d3d",
+      "edits": []
+    },
+    {
+      "name": "run_partial.py",
+      "parent_SHA256": "2d86979d3ef4cac9ca58eb3759687893661ae8276255a640bfb2dcb649a1447c",
+      "SHA256": "81fb25be83539a28f92e679582ba7fcb1222d3d0eb6fb044c17f37912767c2d3",
+      "edits": [
+        {
+          "before": "axis_mc_8_r2.integrated_pooled_r2",
+          "after": "axis_mc_8_r2.integrated_pooled_r3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "run_reconstruction.py",
+      "parent_SHA256": "a46cf74776711d81a51a6bd51a70166b7b900cdbd3dc67fc22e7bc46c31a4279",
+      "SHA256": "dfed29d8f508421d2303560f3c3c5ded4688138e068f467c45ab644eff7bb6e0",
+      "edits": [
+        {
+          "before": "axis_mc_8_r2.integrated_pooled_r2",
+          "after": "axis_mc_8_r2.integrated_pooled_r3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "verify_board.py",
+      "parent_SHA256": "46691c20ab113374268575a459ce19d97992575873a865e8e847ff02ed94664c",
+      "SHA256": "3542f3bd24881e155ec626bc74de52941c29801df9e8bf4e9b10a2b45a40e641",
+      "edits": [
+        {
+          "before": "results/MC_AXIS8_FMA2_pooled_board_r2",
+          "after": "results/MC_AXIS8_FMA2_pooled_board_r3",
+          "count": 1
+        },
+        {
+          "before": "    assert pool['all_FMA_outputs_and16_words_exact'] and pool['all22_red_zones_retained']",
+          "after": "    assert pool['all_FMA_outputs_and16_words_exact'] and pool['all22_red_zones_retained']\n    changed=pool['changed_data_reference']\n    assert changed['analytic_all_frozen_reference_used'] and not changed['original_SciPy_reference_used']\n    assert changed['original_SciPy_max_error_mm'] is None and changed['reference_max_error_mm']==0\n    assert changed['report_words'][1]==0",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "failed_r2_retained": true,
+  "same_compiled_host_MC8_FMA2_and_all_offline_gates": true,
+  "correction": "All-frozen synthetic input compared with identical explicit constraints; normal cases keep original SciPy 5e-5 mm.",
+  "all16_FMA_report_words_and22_DMA_guards_unchanged": true,
+  "no_production_geometry_or_kernel_change": true,
+  "whole_goal_completed": false
+}

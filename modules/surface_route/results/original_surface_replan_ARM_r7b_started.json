@@ -1,0 +1,15 @@
+{
+  "status": "durable_PS_replan_started",
+  "PID": 3526,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/original_surface_replan_r7.py",
+    "--native",
+    "--output",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/original_surface_replan_ARM_r7b"
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "log": "modules/surface_route/results/original_surface_replan_ARM_r7b.log",
+  "source_sha256": "f29b21f1352c6f95a64dd49dc30312f5fa0b7fcf6ed6ae7b3ec807a3665f59cc",
+  "PL_access": false
+}

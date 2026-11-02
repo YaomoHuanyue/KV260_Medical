@@ -1,0 +1,2 @@
+{"status":"native_host_HLS_C_exact","numeric_and_lifecycle_checks":311,"refusals_before_DMA":13,"actual_HLS_C_convolution_writer_calls":84,"actual_fake_DFX_loads":29,"no_real_PL_or_XRT":true}
+{"status":"reader_host_actual_HLS_C_contract_exact","reader_full_numeric_lifetime_cases":128,"reader_refusals_before_DMA":31,"legacy311_checks13_refusals84_calls_preserved":true,"all_actual_HLS_C_pipeline_calls":726,"no_real_PL_or_XRT":true}

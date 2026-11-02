@@ -1,0 +1,11 @@
+{
+  "parent_sha256": "e3828fb974cf5db84db4972754f68014df068cd033e4190e7636518e7fa4f210",
+  "outputs_sha256": {
+    "ui/releases/feature_completion_r6/src/selected_application_r14.inc": "9394bf3cddfc4b48b66232fe2fb6dbda19dd4943f760874881625923b9353490",
+    "ui/releases/feature_completion_r6/comparison_dispatch_r14.inc": "7605eddcb14894bd58d0b36ea415de86e55c29fdaba17a7a5c8b8118887bcb16",
+    "ui/releases/feature_completion_r6/src/surface_comparison_dialog_r14.inc": "989da5293eaf9b242eed14c273d8f920d1dd16f3ffc1e3d862d6ba1bfe1bce1e",
+    "ui/releases/feature_completion_r6/src/main_complete_scene_r14.cpp": "0fe4dd7c8f6235f81b3ec856c45c0773efe42a0520e4fe20ff03b0579a423686"
+  },
+  "default_and_R10_sources_unchanged": true,
+  "current_surface_actions": true
+}

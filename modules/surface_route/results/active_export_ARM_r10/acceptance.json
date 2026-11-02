@@ -1,0 +1,28 @@
+{
+  "status": "ARM_active_export_kernels_and_full_own_CT_bundle_passed",
+  "full_export": {
+    "status": "active_complete_scene_export_exact_and_self_contained_passed",
+    "export": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/active_export_ARM_r10/export",
+    "report_sha256": "9f744201e1bb951f75199a7262320a43c4957c6ecd23559c5a8752844e1e51fe",
+    "active_revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+    "file_count": 53,
+    "elapsed_seconds": 84.02704811199965,
+    "triangles": 89553,
+    "displayed_vertices": 268659,
+    "compact_points": 44804,
+    "route_points": 891,
+    "independent_VTK_reader": false,
+    "every_triangle_normal_attribute_and_route_exact": true,
+    "wrong_CT_rejected_before_output": true,
+    "existing_export_preserved": true,
+    "masks_exact": true,
+    "original_analysis_explicitly_reference_only": true,
+    "PL_access": false
+  },
+  "kernel_readback_sha256": "067e6703e28d06e81bd6aa5999324cefc7f7cfae782bb917664261b0481d527a",
+  "source_closure_sha256": "1cf342ddf66f56467a36e2d16d29d61f33d0a61b96e3305432d433bea5f22b72",
+  "current_boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "PL_access": false,
+  "production_promoted": false,
+  "new_bitstream": false
+}

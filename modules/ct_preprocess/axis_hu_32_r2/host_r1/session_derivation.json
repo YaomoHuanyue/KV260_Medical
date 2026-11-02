@@ -1,0 +1,25 @@
+{
+  "qualified_parent_sources_SHA256": {
+    "modules/ct_preprocess/axis_hu_r2/host_r1/bridge.cpp": "7914450d0f8c07f2b59e35b86c216037dd41e118687562a66646de6499cb9f12",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/check_host.py": "0e55be97fd66c9dbfc204b26774e1d5a39d4e1998380d365d44605af4938c433",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/completion_queue.hpp": "d0eb316ad6e86170135aa790230589499eb8c0806cdd3e2ae250a4dd89b956bf",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/dma_completion.hpp": "94d2639b9a6f802a76337d66ded4feee84cd75178cf72f05ad8a53e74f035267",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/exports.map": "d8facca737bc93700041eb7304ac02b82ccfe35e372093da1b2c74611258a190",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/file_io.hpp": "12a12292bc4fe9a20d5f2e0ef27ecc1dd46d4832dd1251a48ec77d735e4a055d",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/pipeline.hpp": "b9d5d3584f11d0ba55fcfa083f5e203fd645c12bb14ef6095aeebf77b693868d",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/require.hpp": "1bd8cf07a82983461f1e9bbbaa2e57af371222d5efde91198af467faded1da3d",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/runtime.py": "a3415e6c6a2b0f4a29fea95fcbc575375a95bd49a1c2ad03bbd2b0d0f9502f63",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/session.hpp": "19e0239089c5235f1128565a054a6ea3d85a50f3a49056e42c623b81cf4bad88",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/test_original_queue.cpp": "8fe790600367defd852a66261cf1d6e51eb2df14a147f6cb0ac7ea5b95a1dccb",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/test_pipeline.cpp": "98ef176dc3b45d2be75a244c25dea8d8547bac535f97c05132bdd159e228eaad",
+    "modules/ct_preprocess/axis_hu_r2/host_r1/test_runtime.py": "cae7d267cc61a31d7a1d488634b0f6e46ff2572b17dbe78061f5d2459db1563e"
+  },
+  "changes": [
+    "Independent AXIS32 source/release/firmware names, same static D6 ABI",
+    "Input copy once and initialize only its padded tail",
+    "Omit overwritten output payload fill and TO_DEVICE sync; synchronize both canaries",
+    "Keep all guards, exact statuses, model checks, owner/alias checks, two-slot backpressure and drain-before-close"
+  ],
+  "PL_accessed": false,
+  "actual_speed_not_yet_measured": true
+}

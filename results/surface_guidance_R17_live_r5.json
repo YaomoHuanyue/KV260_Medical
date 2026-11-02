@@ -1,0 +1,13 @@
+{
+  "status": "R17_identity_and_default_C6_UI_verified_after_R5_C9_guidance_comparison",
+  "PID": 517617,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "restoration_receipt": "modules/surface_route/results/state_after_board_guidance_r5.json",
+  "restoration_receipt_sha256": "818fb04d1e54dc4f188c9855f34ea27c3ec4920a576cd40583c6904aee944ce2",
+  "new_geometry_or_guidance_default_promoted": false,
+  "static_shell_reloaded": false,
+  "ZOCL_unloaded": false
+}

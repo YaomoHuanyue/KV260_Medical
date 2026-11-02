@@ -1,0 +1,57 @@
+{
+  "UTC": "2026-10-21T16:32:17.440274+00:00",
+  "host": "win32",
+  "cases": [
+    {
+      "case": "normal_two_targets",
+      "passed": true
+    },
+    {
+      "case": "live_owner_refused",
+      "reason": "The original partial owner is still live"
+    },
+    {
+      "case": "actual_child_exit_after_first_atomic_copy",
+      "exit_code": 73,
+      "recovered": {
+        "pending": true,
+        "restored_targets": 1,
+        "original_owner_terminal": true,
+        "all_original_bytes_exact": true
+      }
+    },
+    {
+      "case": "changed_candidate_before_copy",
+      "reason": "Changed immutable partial asset: D:\\Xilinx_Project\\2026FPGA\\kv260_system\\results\\partial_file_transaction_Windows_20261022_r1\\bad_candidate\\candidate.bin"
+    },
+    {
+      "case": "foreign_target_before_begin_unchanged",
+      "reason": "Formal firmware does not match the accepted original"
+    },
+    {
+      "case": "foreign_target_refused_before_either_restore_copy",
+      "reason": "Unrecognized partial file during recovery: D:\\Xilinx_Project\\2026FPGA\\kv260_system\\results\\partial_file_transaction_Windows_20261022_r1\\foreign_restore\\firmware.bin"
+    },
+    {
+      "case": "different_ledger_targets_refused",
+      "reason": "Transaction belongs to another configuration"
+    },
+    {
+      "case": "restore_requires_only_exact_original_asset",
+      "passed": true
+    },
+    {
+      "case": "no_pending_ledger_no_change",
+      "passed": true
+    }
+  ],
+  "actual_process_exit_between_two_file_swaps_and_recovery_passed": true,
+  "original_source_and_new_candidate_hashes_checked_before_install": true,
+  "unrelated_bytes_and_live_owners_never_modified": true,
+  "no_actual_firmware_device_MMIO_XRT_or_board_power_loss_test": true,
+  "source_SHA256": {
+    "tools/test_partial_transaction_filesystem_20261022_r1.py": "cdc6b65355f089d2fa6d709e83e2ef6c825958c05951c13e0a1e5cd151357141",
+    "system/partial_transaction_r1.py": "ce12b1fcb018d1e636143734894d186f77978234866f958d64ef56bcafcf58c9"
+  },
+  "whole_goal_completed": false
+}

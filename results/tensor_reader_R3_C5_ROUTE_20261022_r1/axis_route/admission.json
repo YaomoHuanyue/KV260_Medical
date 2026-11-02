@@ -1,0 +1,138 @@
+{
+  "status": "C5_R7_full986_writer_whole_SYN_original139_pre_route_gates_admitted",
+  "offline_route_admitted": true,
+  "pending_before_start": [],
+  "actual_SYN_resources": {
+    "LUT": 78080,
+    "Logic_LUT": 70911,
+    "LUTRAM": 5890,
+    "SRL": 1279,
+    "FF": 100644,
+    "RAMB36": 100,
+    "RAMB18": 14,
+    "URAM": 0,
+    "DSP": 903
+  },
+  "baseline_SYN_resources": {
+    "LUT": 68728,
+    "Logic_LUT": 63748,
+    "LUTRAM": 3950,
+    "SRL": 1030,
+    "FF": 89869,
+    "RAMB36": 100,
+    "RAMB18": 14,
+    "URAM": 0,
+    "DSP": 842
+  },
+  "SYN_resource_delta": {
+    "LUT": 9352,
+    "Logic_LUT": 7163,
+    "LUTRAM": 1940,
+    "SRL": 249,
+    "FF": 10775,
+    "RAMB36": 0,
+    "RAMB18": 0,
+    "URAM": 0,
+    "DSP": 61
+  },
+  "frozen_RP_capacity": {
+    "LUT": 88320.0,
+    "FF": 176640.0,
+    "DSP": 960.0,
+    "URAM": 64.0,
+    "BRAM36_equivalent": 132.0
+  },
+  "remaining_RP_from_SYN_not_final_route": {
+    "LUT": 10240.0,
+    "FF": 75996.0,
+    "DSP": 57.0,
+    "URAM": 64.0,
+    "BRAM36_equivalent": 25.0
+  },
+  "candidate_DCP_archive": "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/current_candidate.zip",
+  "candidate_DCP_archive_SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+  "candidate_DCP_member": "b/rm_ct_synth.dcp",
+  "candidate_DCP_SHA256": "d5f996619d95a8e38d7b510b909b526a665898d63e26e3d75ef45c64fa7b587a",
+  "frozen_static_DCP_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "five_full_PR_reference_config_SHA256": {
+    "mc": "6293f9bb59c16f7144a275b5d50adbf35781c953977464f21ce6ae51696e9a14",
+    "smooth": "159fa568f3071736cb86a30ce6a72fac9eeaa34a24126fa75d7e05fa1c80611f",
+    "edt": "c576a61fc713695660a7c4b7abe6d37454c763bfbf565fa93d644b3d3d30ef49",
+    "route": "f20e2184a3ba57d870d5874252c21c4d06a11f73ce383017c7ec493ab3b74c1f",
+    "ct": "c2c8bd3fc9388ec7fac40412434f8d341753d7acfe927a97971bb75f55ee865c"
+  },
+  "original_100MHz_clock1830_boundary_bits_and_control8_ABI_preserved": true,
+  "future_inputs_must_stream_from_existing_archive_or_files_no_duplicate_local_DCP_extraction": true,
+  "only_necessary_partial_firmware_and_reports_retained_after_all_owned_bytes_collected": true,
+  "no_current_server_board_UI_or_release_changed": true,
+  "source_and_evidence_SHA256": {
+    "results/tensor_reader_R3_RTL_20261022_r1/axis_rtl/verified_PC.json": "8c4519520e186d8430845e1354f1ca1f0b5e91b133329474f827a5d33f5caa18",
+    "results/tensor_reader_R3_IP_R2_20261022_r1/axis_hls/verified_PC.json": "673a4a90f0625e721b7012054c29baab1d983d2faa964a66a83fbfc754ccff5b",
+    "dfx/medical/build/static_routed.dcp": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+    "dfx/medical/build/config_mc.dcp": "6293f9bb59c16f7144a275b5d50adbf35781c953977464f21ce6ae51696e9a14",
+    "dfx/medical/build/config_smooth.dcp": "159fa568f3071736cb86a30ce6a72fac9eeaa34a24126fa75d7e05fa1c80611f",
+    "dfx/medical/build/config_edt.dcp": "c576a61fc713695660a7c4b7abe6d37454c763bfbf565fa93d644b3d3d30ef49",
+    "dfx/medical/build/config_route.dcp": "f20e2184a3ba57d870d5874252c21c4d06a11f73ce383017c7ec493ab3b74c1f",
+    "dfx/medical/build/config_ct.dcp": "c2c8bd3fc9388ec7fac40412434f8d341753d7acfe927a97971bb75f55ee865c",
+    "results/CT_pool_full493_RTL_20261021_r7/axis_rtl/verified_Windows.json": "06e1a7a8a55c34ea30dffdbf47b2d9b8a247843d9d070db236f778a47b7c97a2",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_writer_IP_r7/gate.py": "7079971c75f1a1a12861b70fb6b6bd71e5d42735e1ca3979296a1e0d473af00b",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_SYN_r4/gate.py": "f850e0c16494e71f48b2ad9fb331984bde2c9c49b12db34332135a507ae7af50",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/frontend_full139_r1/output/verified.json": "476a4e7c8a9a1bbe55adffda853ba6e7f2b475991f241c7c8a1c57b4f59d3d58",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/preflight.py": "08ad7424617ccd95e8ea5d743961aaab8c9a5998076d3b30bbc0ad7eebf6385a",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/implement.tcl": "405ae13791754385513ad9a789dd275c49bed881e962ef3ae10de6033833c543",
+    "modules/reconstruction/mesh_topology_r1/axis_directed_portable_r3/dfx_static_adapter_route_r1/check_reports.py": "b10394a4c35e582880eea7c93013335c6068eca6dbe7eda351f013bbf21ff202",
+    "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/flow_RTL_r1/verify_collected.py": "3d81447e18aca6fe77deb71179cfea0369f0d1a3e43128849e7bc5eb010d8889",
+    "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/verified_Windows.json": "fbecde598d709935d6fe1d007c51762803c6363b89fd7d96333f5a4c7abd7f71",
+    "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/current_candidate.zip": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/paired_verified.json": "04d7df99e3932c8adbfde8a8c7d8f675bb8b4d89f83f17477f9e822964755f1d",
+    "dfx/medical/build/rp_capacity.rpt": "8634e1b4bb5c9bf823f195f996a9f6dcc26a19c0970538e37a55b9d8eefcf108",
+    "dfx/medical/build/rm_ct_synth_util.rpt": "8c5b650038f0a2ff7b71d683557d2563e6e7e448d678fa55747cf85196ced6b3",
+    "dfx/medical/build/rp_ports.json": "efc387572cab0bff968e5f8c02a235e32d792a1dca015abe45e6ee583e64c9c8"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "direct_payloads": {
+    "area_source.zip": {
+      "SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+      "workspace_path": "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/current_candidate.zip"
+    },
+    "static_source.dcp": {
+      "SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+      "workspace_path": "dfx/medical/build/static_routed.dcp"
+    },
+    "reference_mc_source.dcp": {
+      "SHA256": "6293f9bb59c16f7144a275b5d50adbf35781c953977464f21ce6ae51696e9a14",
+      "workspace_path": "dfx/medical/build/config_mc.dcp"
+    },
+    "reference_smooth_source.dcp": {
+      "SHA256": "159fa568f3071736cb86a30ce6a72fac9eeaa34a24126fa75d7e05fa1c80611f",
+      "workspace_path": "dfx/medical/build/config_smooth.dcp"
+    },
+    "reference_edt_source.dcp": {
+      "SHA256": "c576a61fc713695660a7c4b7abe6d37454c763bfbf565fa93d644b3d3d30ef49",
+      "workspace_path": "dfx/medical/build/config_edt.dcp"
+    },
+    "reference_route_source.dcp": {
+      "SHA256": "f20e2184a3ba57d870d5874252c21c4d06a11f73ce383017c7ec493ab3b74c1f",
+      "workspace_path": "dfx/medical/build/config_route.dcp"
+    },
+    "reference_ct_source.dcp": {
+      "SHA256": "c2c8bd3fc9388ec7fac40412434f8d341753d7acfe927a97971bb75f55ee865c",
+      "workspace_path": "dfx/medical/build/config_ct.dcp"
+    }
+  },
+  "runner_source_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/private.py": "9edc075eb62da70fbd7b54492fc5960947223322bd7f7b5dbdebf469e4208f1f",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/run.py": "25241d788423d9208e6cc7fefa4e7628d286eb6f085eb2096c71405a2504f86a",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/check_reports.py": "2554cfd1380fbf5a2cb3608651eb392bc204b5f17ac18a39dc025bbbb3ab9334",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/implement.tcl": "405ae13791754385513ad9a789dd275c49bed881e962ef3ae10de6033833c543",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/preflight.py": "08ad7424617ccd95e8ea5d743961aaab8c9a5998076d3b30bbc0ad7eebf6385a",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/collect.py": "53c1be487b130c6c5cd6e908969c3f02ddea83af9cb36edb106c74e8e6821a31",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/verify_collected.py": "c2d50ecc7aa5b61bc841f80c4446eeed5beae65eb8af9d13326bb9cc5b454b1d",
+    "modules/segmentation/axis_tensor_reader_r3/DFX_ROUTE_r1/source_derivation.json": "17cf4d9036e4f1a16bcf8ece7ad7c0206988486ae82d5c4cf0150c61401acf12",
+    "modules/reconstruction/mesh_topology_r1/axis_directed_portable_r3/dfx_static_adapter_route_r1/check_reports.py": "b10394a4c35e582880eea7c93013335c6068eca6dbe7eda351f013bbf21ff202",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_writer_IP_r7/gate.py": "7079971c75f1a1a12861b70fb6b6bd71e5d42735e1ca3979296a1e0d473af00b",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_SYN_r4/gate.py": "f850e0c16494e71f48b2ad9fb331984bde2c9c49b12db34332135a507ae7af50"
+  }
+}

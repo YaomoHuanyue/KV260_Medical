@@ -1,0 +1,93 @@
+{
+  "status": "original_PL_surfaces_independent_Windows_ARM_routes_cameras_and_guidance_match",
+  "cases": [
+    {
+      "label": "accepted_binary_high_bend_0p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "accepted_binary_high_bend_1p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "accepted_binary_high_bend_10p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "accepted_binary_ultra_bend_0p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "accepted_binary_ultra_bend_1p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "accepted_binary_ultra_bend_10p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_high_bend_0p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_high_bend_1p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_high_bend_10p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_ultra_bend_0p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_ultra_bend_1p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    },
+    {
+      "label": "network_probability_ultra_bend_10p0",
+      "all_route_audit_and_camera_arrays_match": true,
+      "all_scalar_target_labels_exact": true,
+      "selected_branches_and_refusals_match": true
+    }
+  ],
+  "mesh_indexing": {
+    "all_four_scalar_mesh_points_and_indices_byte_exact": true,
+    "six_unit_tests_each_platform": true,
+    "original_field_and_ordered_PL_triangles_unchanged": true,
+    "evidence_sha256": {
+      "Windows": "2c5a080c5f64168c8a9ff8b8ead55317eb56eae02713ee48772f31b52d042169",
+      "ARM": "087bd69940d6d88035db3e6b9cf80a935fed9e08e03896f74f0fd05b2adfad87"
+    }
+  },
+  "evidence_sha256": {
+    "Windows": "3b2ec33a30185e0e623e60962f2e874c5576a4996f4f24375f2cf36d13cf5611",
+    "ARM": "1bea71ec7a431f008e923b2979651dd00a103696679038c57eb6a01f68849861"
+  },
+  "source_sha256": "eee064f1bd9dc8ecc48113a76be5bb981fb672392886768b48e34e2c1620caf6",
+  "PL_access": false,
+  "production_promoted": false
+}

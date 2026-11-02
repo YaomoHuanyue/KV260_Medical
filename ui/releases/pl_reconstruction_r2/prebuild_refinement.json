@@ -1,0 +1,9 @@
+{
+  "no_candidate_compilation_or_PL_access_before_refinement": true,
+  "original_directory_edit_matched_two_commands": true,
+  "two_exact_command_edits_each_match_once": true,
+  "generated_dispatcher_unchanged": true,
+  "before_SHA256": "99119ef22f6ecf8d8958d12a95be4dda08e9ae9d6b2b6590e9494e45a6fd31b2",
+  "after_SHA256": "8e9e4f9ae907002ca58cc147809551e04baa26edc155225d4643b1108dd16807",
+  "tool_SHA256": "d8e9227641fc5acbfa0be2eac69b4a1f08dc4df2333713c1567d2dd708257a26"
+}

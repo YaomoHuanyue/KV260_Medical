@@ -1,0 +1,45 @@
+{
+  "status": "per_process_memory_observer_lifecycle_fixtures_passed_no_UI_PL",
+  "cases": [
+    {
+      "name": "expired_baseline_does_not_hide_live_candidate",
+      "baseline_samples": 0,
+      "candidate_samples": 1
+    },
+    {
+      "name": "zombie_baseline_skipped_candidate_retained",
+      "baseline_samples": 0,
+      "candidate_samples": 1
+    },
+    {
+      "name": "reused_baseline_PID_skipped_candidate_retained",
+      "baseline_samples": 0,
+      "candidate_samples": 1
+    },
+    {
+      "name": "partial_baseline_marker_does_not_hide_candidate",
+      "baseline_samples": 0,
+      "candidate_samples": 1
+    },
+    {
+      "name": "both_actual_live_ticks_sampled",
+      "baseline_samples": 1,
+      "candidate_samples": 1
+    },
+    {
+      "name": "baseline_exit_during_stat_read_candidate_still_sampled",
+      "baseline_samples": 0,
+      "candidate_samples": 1
+    },
+    {
+      "name": "missing_candidate_does_not_erase_baseline",
+      "baseline_samples": 1,
+      "candidate_samples": 0
+    }
+  ],
+  "original_baseline_disappearance_bug_reproduced": true,
+  "unchanged_peak_RSS_and_all_actual_full_output_gates_still_required": true,
+  "no_live_GUI_or_PL_or_network_access": true,
+  "source_SHA256": "6a2cda73a5179fb19f4ad5b62654dd67255c5870d045fdad24de665cb5e818dd",
+  "whole_goal_completed": false
+}

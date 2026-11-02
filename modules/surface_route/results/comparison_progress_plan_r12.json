@@ -1,0 +1,12 @@
+{
+  "files": {
+    "docs/FEATURE_COMPLETION_PROGRESS.json": {
+      "previous_sha256": "cde8df9700c20f87ba18465b321dc8be24ab907fcf75bb13f341f4f0b80fb65e",
+      "new_sha256": "342b6f97ca51f6376a5a1de89c41b348c7d01121d45afcf544f12c783dd91a16"
+    },
+    "dfx/smooth_speed/work_checkpoint.json": {
+      "previous_sha256": "4cc8cbcef1cb51ec94a84a2ffb43f3460ce247af13d6b93e7b46fae6d58dcf28",
+      "new_sha256": "bff361755a130f27231deeab95b8bf88fe2cd902a42159e08034e10535676390"
+    }
+  }
+}

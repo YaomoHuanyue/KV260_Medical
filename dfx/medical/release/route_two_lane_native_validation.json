@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "scene": {
+    "bricks": 1197,
+    "tile_entries": 38896,
+    "input_bytes": 446656,
+    "foreground_voxels": 30188,
+    "field_precision": "original float32, no quantization"
+  },
+  "cases": [
+    {
+      "target_points": 1,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 2,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 3,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 7,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 255,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 256,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 257,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 511,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    },
+    {
+      "target_points": 712,
+      "points": 1161,
+      "ids": 113,
+      "useful_words": 2339
+    }
+  ],
+  "precision": "float64 coordinates, original float32 field; unchanged"
+}

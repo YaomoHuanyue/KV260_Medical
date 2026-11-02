@@ -1,0 +1,117 @@
+{
+  "parent": "host_r1",
+  "files": [
+    {
+      "name": "bridge.cpp",
+      "parent_SHA256": "0237f4391d43697d20d6b31c6f1daf95549504c185ce834a2a3c9bc1d9a46480",
+      "candidate_SHA256": "411d8181cbd7f73737ca61472d6a5eceb73139ab93a8157c9b0623bbd6d6a3c7",
+      "literal_edits": [
+        {
+          "before": "#include <limits>",
+          "after": "#include <limits>\n#include <malloc.h>",
+          "occurrences": 1
+        },
+        {
+          "before": "struct Handle {",
+          "after": "struct SmoothWorkspace {\n    std::array<std::unique_ptr<xrt::bo>,11> buffers;\n    std::array<size_t,11> capacities{};\n    unsigned allocations=0,reuses=0;\n    size_t reserved_bytes() const {\n        size_t total=0;for(auto value:capacities)total+=value;return total;\n    }\n};\nstruct Handle {",
+          "occurrences": 1
+        },
+        {
+          "before": "    Session session;\n",
+          "after": "    Session session;\n    SmoothWorkspace smoothing;\n",
+          "occurrences": 1
+        },
+        {
+          "before": "        std::lock_guard<std::recursive_mutex> lock(h.session.operation_mutex);\n        const auto begin=Clock::now();",
+          "after": "        std::lock_guard<std::recursive_mutex> lock(h.session.operation_mutex);\n        // All previous calls are drained under the same operation mutex.\n        // Returning to MC releases the smoothing pool before new mask BOs.\n        h.smoothing=SmoothWorkspace{};\n        const auto begin=Clock::now();",
+          "occurrences": 1
+        },
+        {
+          "before": "        smooth_job_impl(h.session,input,out,metadata);return 0;",
+          "after": "        const auto heap_release_started=Clock::now();\n        if(!h.smoothing.buffers[0])::malloc_trim(0);\n        const double heap_release_seconds=seconds(heap_release_started);\n        smooth_job_impl(h.session,h.smoothing,input,out,metadata,heap_release_seconds);return 0;",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "session.hpp",
+      "parent_SHA256": "35d33e0e0eddbaaa0c1f204d576548fcbbd394da1437995afacb00ef49501a66",
+      "candidate_SHA256": "b15fdadc185759de9555233d870853f0ec7d7f6021fd20ec7ca7c86a104e7fc4",
+      "literal_edits": [
+        {
+          "before": "axis_mc_8_r2/host_r1",
+          "after": "axis_mc_8_r2/host_pooled_r2",
+          "occurrences": 2
+        },
+        {
+          "before": "KV260_MC8_D7_FMA2_OWNED_HOST_OFFLINE",
+          "after": "KV260_MC8_D7_FMA2_POOLED_HOST_OFFLINE",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "file_io.hpp",
+      "parent_SHA256": "a28c73960da06ac68d72246c7ae20774920e1ae74ce0522fabfa8af6d521953e",
+      "candidate_SHA256": "a28c73960da06ac68d72246c7ae20774920e1ae74ce0522fabfa8af6d521953e",
+      "literal_edits": []
+    },
+    {
+      "name": "require.hpp",
+      "parent_SHA256": "e165755b70bbb15c3b78da6cbf43c23cae9a682e76240fdb02941e379e6dfb7b",
+      "candidate_SHA256": "e165755b70bbb15c3b78da6cbf43c23cae9a682e76240fdb02941e379e6dfb7b",
+      "literal_edits": []
+    },
+    {
+      "name": "exports.map",
+      "parent_SHA256": "beed6cbac7d5c72409582a0ad2c7ba2a12a8c745132dd24dd6672bf45a44200e",
+      "candidate_SHA256": "beed6cbac7d5c72409582a0ad2c7ba2a12a8c745132dd24dd6672bf45a44200e",
+      "literal_edits": []
+    },
+    {
+      "name": "smooth_types.hpp",
+      "parent_SHA256": "46c42d31bce51959a5c0b961c16b1c242eb8aabf7e1ecf89c5bde83f2e3fc0d0",
+      "candidate_SHA256": "46c42d31bce51959a5c0b961c16b1c242eb8aabf7e1ecf89c5bde83f2e3fc0d0",
+      "literal_edits": []
+    },
+    {
+      "name": "runtime.py",
+      "parent_SHA256": "057a44603e56a86610e19ea10a8b142a4c8d75075f9e7f3158fab4b8b3a3a9eb",
+      "candidate_SHA256": "057a44603e56a86610e19ea10a8b142a4c8d75075f9e7f3158fab4b8b3a3a9eb",
+      "literal_edits": []
+    },
+    {
+      "name": "test_runtime.py",
+      "parent_SHA256": "83cb20f66f72f7e5a8b967d0426075efc609115cf9aa3a0b73d634b2c6fa5571",
+      "candidate_SHA256": "f40a4117e2e7259848df8a9e49d91cd51f9c129977126085ee5b922ecf2c6e60",
+      "literal_edits": [
+        {
+          "before": "axis_mc_8_r2.host_r1",
+          "after": "axis_mc_8_r2.host_pooled_r2",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "check_host_ARM.py",
+      "parent_SHA256": "8463e050f3c17c2c8c2d43c9ed98687e565a5fdc9118f9193e35547d3e255a59",
+      "candidate_SHA256": "8463e050f3c17c2c8c2d43c9ed98687e565a5fdc9118f9193e35547d3e255a59",
+      "literal_edits": []
+    }
+  ],
+  "template_SHA256": "91f8d06e06efdc3e01fd8f17dfb754c9d49572c2ea9c564f392a49ce5102eb94",
+  "generator_SHA256": "125c9fda0b2cc834a2a7f486dfea0de717a524e2dd3ce2371cb242b0bd22d110",
+  "current_MC8_and_FMA2_partial_bits_unchanged": true,
+  "changes": [
+    "Retain11 smoothing BOs within one reconstruction context and reuse for smaller layers",
+    "Read five inputs directly into cacheable BOs; no duplicate native input vectors",
+    "Return unused libc heap before the first smoothing allocation",
+    "Keep all original structural/finite checks,22 red zones and the same control ABI",
+    "Release smoothing pool before a new MC upload; retain operation mutex and DMA-active guard"
+  ],
+  "full_phase_timings_including_input_read_and_validation": true,
+  "no_new_PL_ports_or_test_logic": true,
+  "actual_new_host_DMA_test_pending": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

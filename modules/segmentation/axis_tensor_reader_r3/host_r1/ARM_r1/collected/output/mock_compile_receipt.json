@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/usr/bin/g++",
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-DCT_NATIVE",
+    "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/host_r1/mock",
+    "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock",
+    "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/dfx/medical/host_extended",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/host_r1/native_test.cpp",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/kernel.cpp",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/output/host_test"
+  ],
+  "exit_code": 0,
+  "seconds": 30.48087635601405
+}

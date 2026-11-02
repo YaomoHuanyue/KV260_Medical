@@ -1,0 +1,220 @@
+{
+  "status": "monitoring_only_revision_original_algorithm_outputs_strict_gates_and_UI_lifecycle_preserved",
+  "exact_qualified_generic_UI_functions": [
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "sha",
+      "function_SHA256": "653056d5b76b3c32f89d1fdeca1c8f186789bb5cc79a8458f164e03330448318",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "read",
+      "function_SHA256": "2a6ecefc39a3d66c7e1636ac0cc72af68c6695fb274e762e588a65fa7f7c8b2c",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "write",
+      "function_SHA256": "1cab4aa1ed1f26576b2786b65d0cb4da01731dbfae2e0c8134f66e686bb81554",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "unlocked",
+      "function_SHA256": "550cdc71d0dc73b07cfc7bf3409f41c867ef1d89adaff9d16e5f722db2f0e389",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "alive",
+      "function_SHA256": "89438db37e9805919e2629be97c6523ab81ea3fac13c2c106406ed00d3586e22",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/board_trial_r1.py",
+      "parent_SHA256": "a0bc738837d861c8d57ac66e6924dc520b27d96c5ea8fc82ec3020968b9fd42d",
+      "function": "restore",
+      "function_SHA256": "51497fe665d69335b5047ad390bf706619d512d300ecb9b0ddf50f6767f6c44d",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/restore_probability_r1/adapter.py",
+      "parent_SHA256": "666f94567b459381cdb8ceb584a691beb056f37d843705905d5614ce9e2c40ce",
+      "function": "bind_current_scene",
+      "function_SHA256": "7b9d59d48b0f2f2ee86924d1439ba8fcaac0f7ece0805a3fe686da74fbae8337",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/restore_probability_r1/adapter.py",
+      "parent_SHA256": "666f94567b459381cdb8ceb584a691beb056f37d843705905d5614ce9e2c40ce",
+      "function": "assert_current_scene",
+      "function_SHA256": "2a8eb4d311c9c025418852d8a1596ca6b64088b7a6ba2fc9a7f6b9d0029ab9c2",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/restore_probability_r3/adapter.py",
+      "parent_SHA256": "ec407be2b4d408cfb4ce2c6cd3f96fcf287a9a7d90ccdc443d62c21cfdff378c",
+      "function": "formal_launcher",
+      "function_SHA256": "a29d0b66c62e9341c2c1109a88304cabaff31dcf789652dccf2d231993281b7a",
+      "body_byte_exact": true
+    },
+    {
+      "parent": "modules/mask_evaluation/ui/actual_pl_r3/check_ARM.py",
+      "parent_SHA256": "baac1d40ba860c21329886530d19cbe7d7fa44cb466977a1f7a33bf44d9374e6",
+      "function": "review_identity",
+      "function_SHA256": "184c2a18d7c40aec973d475db76387fbb3d137feabcf03299b84a4970acf6eb1",
+      "body_byte_exact": true
+    }
+  ],
+  "original_restore_fixture_parent": "modules/reconstruction/smooth_pipeline_r2/axis_fma3_area_r14/host_R14_r1/hardware_r1/restore_probability_r3/test_ARM.py",
+  "original_restore_fixture_parent_SHA256": "375000427a4ad66d0f38c483657675607e5218ce938d8a75be508def5eb33e8e",
+  "original_restore_fixture_function_SHA256": "14705f4449d7f13cc76409260021de1ef4cf4c2fc3c4b811258ec7c12f5bde07",
+  "no_runtime_reconstruction_or_mask_evaluation_algorithm_dependency": true,
+  "cooperative_UI_drain_and_current_open_CT_capture_exact_restore_and_no_forced_DMA_cancel_retained": true,
+  "real_whole139_slice_HU32_C5_baseline_candidate5040_conv_full_output_pair_required": true,
+  "source_and_evidence_SHA256": {
+    "tools/prepare_CT_pair_monitor_r2_20261020.py": "45b22ea3935a7d7d9ddd3c6b6e30c668ac4fcef94b6bc9f7d988b1ca62b5635b",
+    "modules/segmentation/full_outputs_PL_pair_r1/source_derivation.json": "ed15d1db6c2062caaf2f7d2b0c3f665de4ba0448cc85f959b6201d248c9abb38",
+    "modules/segmentation/full_outputs_PL_pair_r1/review.py": "bbda26cc458ad666a0b3e63ba1830c000c0adee1a732c9812581d99036c92def",
+    "modules/segmentation/full_outputs_PL_pair_r1/runner.py": "0af1de387b90e36cd98fc24f3f5e33b38ccff9372f557fe0c8aa6954f472cebe",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/worker.py": "eec1f299c26818bafc75f363a96547672b90b42e5b1d4d907ab7a04257daf71d",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/controller.py": "86cf12b3d2f9bc3eff02e0bd52110b87b544dc14a79e7532600fe9d3acdda9d5",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/ui_restore.py": "98252d01bec7d86b2f4587aa4707095b0a9e7d1ee38796d6839c6129a7fba853",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/test_restore_fixture.py": "58c2dd8bc2ab5aa55c35eed40918adbbc469664b8a225afdab4218d871565c55",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/runner.py": "442c495d27a7d652d1245552e831ab1216c5e279822212ca7f48742b21e06e4e",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/test_monitor.py": "6a2cda73a5179fb19f4ad5b62654dd67255c5870d045fdad24de665cb5e818dd",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/original_monitor_function.py": "fba9db706eee39a00a55179693653da294c6033028df08feacd625c73486c35c",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/trial.py": "b2a499e353dee3f147649d0cb7736658b0ca71b2abeb8afa6e3b6cdc89f93f9e",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/review.py": "9c62af886427f704764f54f78a3bca58f017382f40184efbf7a9e32640c01e08",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/identity_sync.py": "e93d6d659a40edf05d1a9d82a41cdb3c99386bb73de29974bf72f3fb1b8700a7",
+    "tools/correct_CT_monitor_fixture_path_20261020.py": "8abb45babd2d7ceca45cb3ecc9114cedd2e7f96215d559a55eac13921642ec0d"
+  },
+  "actual_PL_trial_not_yet_run": true,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "monitor_revision_records": [
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/worker.py",
+      "parent_SHA256": "97d9cb73bd59b4f349101a5412d5f975a29a3dbb23f794bb30b90b8bb5beff25",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/worker.py",
+      "candidate_SHA256": "eec1f299c26818bafc75f363a96547672b90b42e5b1d4d907ab7a04257daf71d",
+      "literal_edits": [
+        {
+          "before": "CT_full_outputs_PL_pair_20261020_r1",
+          "after": "CT_full_outputs_PL_pair_monitor_20261020_r2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/controller.py",
+      "parent_SHA256": "bd92cd6cae922d9abc141260b22cf7bf3bc58256bdcb2ed5e50652463833b3d9",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/controller.py",
+      "candidate_SHA256": "86cf12b3d2f9bc3eff02e0bd52110b87b544dc14a79e7532600fe9d3acdda9d5",
+      "literal_edits": []
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/ui_restore.py",
+      "parent_SHA256": "e2e37f11f8f6d38c4fff33e2726829a3465c2b76a0f217450417e54f39fddfe2",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/ui_restore.py",
+      "candidate_SHA256": "98252d01bec7d86b2f4587aa4707095b0a9e7d1ee38796d6839c6129a7fba853",
+      "literal_edits": []
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/test_restore_fixture.py",
+      "parent_SHA256": "43ee0b48c1893d93bc12d715b18046aa1751eec40ce096ee25621666a38cb3b8",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/test_restore_fixture.py",
+      "candidate_SHA256": "58c2dd8bc2ab5aa55c35eed40918adbbc469664b8a225afdab4218d871565c55",
+      "literal_edits": []
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/identity_sync.py",
+      "parent_SHA256": "e46d6c22271039f851443a2d9845a56b336087e1f98645529c390887eef9e4a4",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/identity_sync.py",
+      "candidate_SHA256": "e93d6d659a40edf05d1a9d82a41cdb3c99386bb73de29974bf72f3fb1b8700a7",
+      "literal_edits": []
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/trial.py",
+      "parent_SHA256": "87400b3bffafdd191da29e7c99c113db539c0c3c6d9d486cd3c548de7c602d89",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/trial.py",
+      "candidate_SHA256": "b2a499e353dee3f147649d0cb7736658b0ca71b2abeb8afa6e3b6cdc89f93f9e",
+      "literal_edits": [
+        {
+          "before": "CT_full_outputs_PL_pair_20261020_r1",
+          "after": "CT_full_outputs_PL_pair_monitor_20261020_r2",
+          "count": 1
+        },
+        {
+          "before": "'test_restore_fixture.py','runner.py','source_derivation.json'",
+          "after": "'test_restore_fixture.py','test_monitor.py','original_monitor_function.py','runner.py','source_derivation.json'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/review.py",
+      "parent_SHA256": "bbda26cc458ad666a0b3e63ba1830c000c0adee1a732c9812581d99036c92def",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/review.py",
+      "candidate_SHA256": "9c62af886427f704764f54f78a3bca58f017382f40184efbf7a9e32640c01e08",
+      "literal_edits": [
+        {
+          "before": "CT_full_outputs_PL_pair_20261020_r1",
+          "after": "CT_full_outputs_PL_pair_monitor_20261020_r2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "parent": "modules/segmentation/full_outputs_PL_pair_r1/runner.py",
+      "parent_SHA256": "0af1de387b90e36cd98fc24f3f5e33b38ccff9372f557fe0c8aa6954f472cebe",
+      "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/runner.py",
+      "candidate_SHA256": "442c495d27a7d652d1245552e831ab1216c5e279822212ca7f48742b21e06e4e",
+      "literal_edits": [
+        {
+          "before": "                for mode in ('baseline','candidate'):\n                    marker=HERE/(mode+'_started.json')\n                    if not marker.exists():continue\n                    owner=json.loads(marker.read_text());proc=Path('/proc',str(owner['PID']))\n                    fields=(proc/'stat').read_text().rsplit(')',1)[1].split()\n                    if int(fields[19])!=owner['start_ticks'] or fields[0]=='Z':continue\n                    row=samples.setdefault(mode,dict(samples=0,minimum_MemAvailable_bytes=None,minimum_CmaFree_bytes=None))\n                    row['samples']+=1\n                    for source,target in (('MemAvailable','minimum_MemAvailable_bytes'),('CmaFree','minimum_CmaFree_bytes')):\n                        if source in memory:row[target]=memory[source] if row[target] is None else min(row[target],memory[source])\n",
+          "after": "                sample_processes(HERE,samples,memory)\n",
+          "count": 1
+        },
+        {
+          "before": "def main():\n",
+          "after": "def sample_processes(here,samples,memory,proc_root=Path('/proc')):\n    for mode in ('baseline','candidate'):\n        try:\n            marker=here/(mode+'_started.json')\n            if not marker.exists():continue\n            owner=json.loads(marker.read_text());proc=proc_root/str(owner['PID'])\n            fields=(proc/'stat').read_text().rsplit(')',1)[1].split()\n            if int(fields[19])!=owner['start_ticks'] or fields[0]=='Z':continue\n            row=samples.setdefault(mode,dict(samples=0,minimum_MemAvailable_bytes=None,minimum_CmaFree_bytes=None))\n            row['samples']+=1\n            for source,target in (('MemAvailable','minimum_MemAvailable_bytes'),('CmaFree','minimum_CmaFree_bytes')):\n                if source in memory:row[target]=memory[source] if row[target] is None else min(row[target],memory[source])\n        except (FileNotFoundError,ProcessLookupError,json.JSONDecodeError):\n            continue # An expired/partial earlier owner must never hide the later owner.\n\n\ndef main():\n",
+          "count": 1
+        },
+        {
+          "before": "(('restore_fixture','test_restore_fixture.py',[]),('preflight','worker.py',['preflight']),('controller','controller.py',[]))",
+          "after": "(('restore_fixture','test_restore_fixture.py',[]),('monitor_fixture','test_monitor.py',[]),('preflight','worker.py',['preflight']),('controller','controller.py',[]))",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "all_algorithm_preparation_model_threshold_precision_outputs_139_slices_5040_actual_conv_and_strict_memory_sampling_gate_unchanged": true,
+  "monitor_fixture_path_revision": {
+    "parent": "modules/segmentation/full_outputs_PL_pair_monitor_r2/test_monitor_windows_path_r1.py",
+    "parent_SHA256": "fe8357b99a1b298d6a341ed52cadbc1503417e89c2c65b263a1b6610b8015680",
+    "candidate": "modules/segmentation/full_outputs_PL_pair_monitor_r2/test_monitor.py",
+    "candidate_SHA256": "6a2cda73a5179fb19f4ad5b62654dd67255c5870d045fdad24de665cb5e818dd",
+    "literal_edits": [
+      {
+        "before": "return proc/str(p).removeprefix('/proc/').removeprefix('/proc') if str(p).startswith('/proc') else p",
+        "after": "return proc/p.as_posix().removeprefix('/proc/').removeprefix('/proc') if p.as_posix().startswith('/proc') else p",
+        "count": 1
+      },
+      {
+        "before": "        source=(HERE/'original_monitor_function.py').read_text()",
+        "after": "        assert fixture_path('/proc/meminfo')==proc/'meminfo' and fixture_path('/proc/202/stat')==proc/'202/stat'\n        assert fixture_path('/proc/meminfo').is_file() and fixture_path('/proc/202/stat').is_file()\n        source=(HERE/'original_monitor_function.py').read_text()",
+        "count": 1
+      }
+    ],
+    "original_PC_reproduction_incomplete_because_Windows_string_backslashes_preserved": true,
+    "new_fake_meminfo_and_live_candidate_stat_paths_explicitly_asserted": true,
+    "production_observer_and_all_original_algorithm_output_gates_unchanged": true
+  }
+}

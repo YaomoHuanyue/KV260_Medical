@@ -1,0 +1,19 @@
+{
+  "source_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/kernel.cpp": "05c8434ed9f8e53321ffce73d1649db1b0a38fb8d0224d327e141e0e30473610",
+    "modules/segmentation/axis_tensor_reader_r3/kernel.hpp": "c239ea0ca87397276e243568c23ed109bea8938c0981f252dc671db7dda36543",
+    "modules/segmentation/axis_tensor_reader_r3/legacy_framing.hpp": "ef8fe4d145408646fdfed138500f31f1fe6363c9552a02d1ebfb8d31ba69f41c",
+    "modules/segmentation/axis_tensor_reader_r3/native_verified.json": "a674b3bf1f7a70a9710f5bab52b16e53e3d2fcd0132bb9e63c045ac198ac5979",
+    "modules/segmentation/axis_tensor_reader_r3/build_native/compiled.json": "f6b41391c28a109cb8d70af0a69105a54e6bd52978977b1c14f5d5c6fa0b6e39",
+    "modules/segmentation/axis_tensor_reader_r3/HLS_r1/run.py": "3e96d5d5b58861453b8cdb0d6c736400a0c6047d5916eddb4e79ede841fe22d8",
+    "modules/segmentation/axis_tensor_reader_r3/HLS_r1/testbench.cpp": "a2cd1dc4f02b9a7583469b724c9904fcacf51805652336d113593604ff250e1c",
+    "modules/segmentation/axis_tensor_reader_r3/HLS_r1/test_model_tables.hpp": "f256e4d3d0a82b667845525367f647f42e1a382e376680c97830cb3b6f921937",
+    "modules/segmentation/axis_tensor_reader_r3/HLS_r1/collect.py": "f8be8d2bb6c954b74524582c310bfcdecc394710bfe8690719d19ec96ea41ce4",
+    "tools/start_tensor_reader_R3_HLS_20261022_r1.py": "64e8d3c8e2f491a4937cd33900b42b1c0327f3a82033a2c4e13f5be2968d1cbd",
+    "dfx/medical/algorithms/segmentation/stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf",
+    "dfx/navigation_profile/rtl_r74/job_limit_r74.py": "8e0d9c8d80b3bdda6ab54ba4265979a105931bf5f9f4ff29c9c42aa35dfe44a1"
+  },
+  "actual142_valid17_invalid_full_Csim_frames_required": true,
+  "full_three_actual_model_join_shapes_and_original_LUTs_required": true,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "kv260.B7.AXIS.board_runtime_binding.r1",
+  "identity": 183,
+  "ABI": 2,
+  "board_verified": true,
+  "own139_voxel_exact": true,
+  "C6_return_verified": true,
+  "performance_qualified": false,
+  "production_promoted": false,
+  "worker": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/airway_tree_cleanup/volume_axis_r4/host_r2/worker",
+  "worker_SHA256": "1652b97fba287963ca173008a9dfc7d427de31cc33082e435d4580719d4f64a1",
+  "enrollment": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/airway_tree_cleanup/volume_axis_r4/runtime_enrollment.json",
+  "enrollment_SHA256": "0474408ef6e4c8b02a05aa7f52a71d1f590dc3e814596db232bf41dc9f1c092f",
+  "partial_SHA256": "c5ef66ff1ca25e4420145da64c5310e0bac6f9b4d3eee56462ffa96dbb352a12",
+  "formal_UI_default_changed": false
+}

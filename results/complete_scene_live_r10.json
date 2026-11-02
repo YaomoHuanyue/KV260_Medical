@@ -1,0 +1,26 @@
+{
+  "status": "R10_C9_and_current_scene_export_trials_completed_default_preserved_no_UI_running",
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "tested_formal_default_UI_running": false,
+  "medical_UI_or_frame_workers": [],
+  "static_firmware": "dfx_medical.bin",
+  "medical_shell_marker_sha256": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "preserved_defaults_sha256": {
+    "ui/active_release.json": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+    "ui/run.sh": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+    "ui/releases/feature_completion_r6/build_xray_r2/medical_ui": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6"
+  },
+  "candidate_UI_sha256": "3369ef70b7a6942986112e72c8ba16eb43a3f78b0d8346e2feab56a78b49c114",
+  "PL_lock_free": true,
+  "PL_access_this_milestone": true,
+  "new_bitstream_generated": false,
+  "completed_supervisor_tags": [
+    "actual_C9_ARM_r10",
+    "native_C9_GUI_ARM_r10",
+    "native_build_ARM_r10",
+    "active_export_ARM_r10",
+    "native_build_ARM_r10b",
+    "active_export_ARM_r10b",
+    "native_export_GUI_ARM_r10"
+  ]
+}

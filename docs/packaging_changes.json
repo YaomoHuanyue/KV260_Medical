@@ -1,0 +1,184 @@
+{
+  "schema": "kv260.git.packaging.v1",
+  "algorithm_source_modified": false,
+  "firmware_modified": false,
+  "historical_proof_results_modified": false,
+  "changed_runtime_contracts": {
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/admission_template.json": {
+      "original_SHA256": "3e1768b20f97b20a8f8d714039642bd17dd45af4833510757afb3538bed25af1",
+      "export_SHA256": "80c780766b41af47d93e3bc4799d5e2809427233eed570578c2f067e3d5705b0"
+    },
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/stage_inputs.json": {
+      "original_SHA256": "a79d6430f1ede4751459784d4c5290d3e8d3e2165b240098c015449967f5dbb6",
+      "export_SHA256": "5c33993ff4eda5538d5554b4506d608341e5068f45b234664b09c8f12efc4dfb"
+    },
+    "ui/active_release.json": {
+      "original_SHA256": "a82946844314e853ec5d405929eb86383a9680cf2d55a1bbf7db880d7bea478e",
+      "export_SHA256": "963da4f347cc6efc1948f55f96bb7316002fa5dcb7dd281f50af043ee2361700"
+    },
+    "ui/v2/manifest.json": {
+      "original_SHA256": "c8f56ff3c244bcef78db91cfeb25c7d46d8cb8d6f4ff618b98e07476e176eec3",
+      "export_SHA256": "3c504385e3f5c65eebd1885ce281992e034611d551c5af3f5fcd8564f4680762"
+    },
+    "ui/v3/manifest.json": {
+      "original_SHA256": "a82946844314e853ec5d405929eb86383a9680cf2d55a1bbf7db880d7bea478e",
+      "export_SHA256": "963da4f347cc6efc1948f55f96bb7316002fa5dcb7dd281f50af043ee2361700"
+    },
+    "ui/releases/streaming_reader_r1/inputs.json": {
+      "original_SHA256": "dac26ca8719e128c336f8a59d5a656dd9c12a964a26cb5cc0f8642848929bed2",
+      "export_SHA256": "bc2b059fcbe8bfb22ceb37100804dd55a329f30cf73237f11df4704b3424f7d8"
+    },
+    "ui/releases/streaming_reader_r2/inputs.json": {
+      "original_SHA256": "1367f4b3369c74e4b2f970afec88027799bab5a07e0583c0480752b089714a60",
+      "export_SHA256": "8d87c79fecd82a27833065e5be223ee885009d5b926fb4bce6621e9c6d89f987"
+    },
+    "results/storage_cleanup_20261015/current_dependencies.json": {
+      "original_SHA256": "e19f121ae3300b6f773de3f63ca6dfb53c1ea9593ec8a0d9ac480493fd29e259",
+      "export_SHA256": "f71eaf349b82dd810c4b30cc73aabefe9b0dd5d023be2ea1568b2707369112dd"
+    },
+    "modules/segmentation/reader_burst/candidate_ui_selection.json": {
+      "original_SHA256": "76b614933504abb4ae946b978fc44ce15fa5dd44e727e99a5e5fc5bcd81a2a06",
+      "export_SHA256": "d42ee226089405639d232e46fa46e4db08da4b4e118a48ec9e145aa74daf9466"
+    },
+    "modules/segmentation/reader_burst/qualification_ui_selection.json": {
+      "original_SHA256": "4c9f16c6185f868a49ab17a3f1b1401769ecd1bd69a8ce282911d976b99d8f79",
+      "export_SHA256": "5b6186bdf8b5e806bebe2f4b243a38d3390aeff3d02d2ca1e12f9d1a39cdd447"
+    },
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/manifest.json": {
+      "original_SHA256": "917669a11f2ec80183b4e3b4493ddd09a49e08d2d3b84b9dc668fc33025dd0d0",
+      "export_SHA256": "26875f9341495089dff10db0f92b83895f4e6dba7635bc74ba4cc63f7309c76d"
+    },
+    "modules/segmentation/standalone_B7_r1/backend.py": {
+      "original_SHA256": "cc568a974720752c3406f628b718ef93ac49db88c5cf2105d6eae8be7b7df355",
+      "export_SHA256": "a03fd93e7d9b76fa59403d45f428e33e284d3ed63e56bc29ba6cf8d0722dc8e8"
+    },
+    "modules/segmentation/standalone_B7_r1/runtime_manifest.json": {
+      "original_SHA256": "5ab86612c8f2deba85d7cdf20091a043a14f9fb00af8becaa8c13df5a16fd9d8",
+      "export_SHA256": "63f1e9a8a34a136773ff3c5fb2289daa38a01a80d9cb6ce73fcc6a2600e2134f"
+    },
+    "modules/segmentation/mixed_r30/candidate.json": {
+      "original_SHA256": "1d5138e79c469cd6add911ce40b8c8b8c537d011ad679ed2e4238b441e862e1b",
+      "export_SHA256": "466a7844275d77cea6aac905842b0c782a3f87c32cf45673e6d35a2c11dd0c31"
+    },
+    "modules/segmentation/mixed_r30/candidate_r2.json": {
+      "original_SHA256": "5c0cb67ea0254ce382e80049cdda402b52ff63725d1c0b8b03928c199caa28fc",
+      "export_SHA256": "9c3bd298f5e94cd267dd1f5b7eae24b7fb293d2a8d386629aa982bf0735c1e82"
+    },
+    "modules/segmentation/reader_burst/admission.py": {
+      "original_SHA256": "c2d95042956e61fcb297c3fbd36eaea288d1e0855576d01fd24bbeb9771b88b7",
+      "export_SHA256": "082efc2dd351fd889127e611ef545fddf66e0c1019cf0e981b4c6fc85a6a4135"
+    },
+    "modules/segmentation/reader_burst/backend.py": {
+      "original_SHA256": "d25519f213e2f2785d2263f8bb9427c6ac39976c2d35cab9297f2a6c5922466e",
+      "export_SHA256": "e28e550afd8c054a9afa28043e955236d6b5d8294702c50e4c649410651db53f"
+    },
+    "modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/entry_inputs_r1.json": {
+      "original_SHA256": "d7ec077f3ce7e88dc95ff112949d19623a57a087f7320a71e130e01290f6f3fd",
+      "export_SHA256": "a617a82365da3e696124f5528dbe35ad660a4f55d039ac7e2061d58a6ff3d5b4"
+    }
+  },
+  "omitted_historical_inputs": [
+    {
+      "path": "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/current_candidate.zip",
+      "SHA256": "251ed201ec6f6bd4121cd5f59fce762d136e0c2669f3e0145c98792f4d24ec8c",
+      "bytes": 8517305,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/fixture.zip",
+      "SHA256": "c9229b2bbde33b402365f0b5f7949c78549f7f4505de484d5c0796c15a37de0d",
+      "bytes": 4266437,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "fixtures/own_ct/CT-chest.nrrd",
+      "SHA256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+      "bytes": 42189103,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/CT_full_outputs_PL_pair_monitor_20261020_r2/current_candidate.zip",
+      "SHA256": "661e981f1a8d18343c56d23b546983e9e540ca15a59c0033591682ab5ebb470a",
+      "bytes": 12474795,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/current_candidate.zip",
+      "SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+      "bytes": 50165185,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/tensor_reader_R3_C5_ROUTE_20261022_r1/axis_route/current_candidate.zip",
+      "SHA256": "aaecffeecc75ccafee6e17e8853802e5aa2f98a4347cf3d12492139ed364b68d",
+      "bytes": 8573205,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/current_candidate.zip",
+      "SHA256": "251ed201ec6f6bd4121cd5f59fce762d136e0c2669f3e0145c98792f4d24ec8c",
+      "bytes": 8517305,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "modules/segmentation/ct_pool_fusion_r1/producer_PS_baseline_r1/fixture.zip",
+      "SHA256": "c9229b2bbde33b402365f0b5f7949c78549f7f4505de484d5c0796c15a37de0d",
+      "bytes": 4266437,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "fixtures/own_ct/CT-chest.nrrd",
+      "SHA256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+      "bytes": 42189103,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/CT_full_outputs_PL_pair_monitor_20261020_r2/current_candidate.zip",
+      "SHA256": "661e981f1a8d18343c56d23b546983e9e540ca15a59c0033591682ab5ebb470a",
+      "bytes": 12474795,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/tensor_reader_R3_C5_SYN_20261022_r1/axis_hls/current_candidate.zip",
+      "SHA256": "131c5eb7ed3cb36b24a7ed21e30cf7cd1326bb045c47748671f4c7afb6198b1f",
+      "bytes": 50165185,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/tensor_reader_R3_C5_ROUTE_20261022_r1/axis_route/current_candidate.zip",
+      "SHA256": "aaecffeecc75ccafee6e17e8853802e5aa2f98a4347cf3d12492139ed364b68d",
+      "bytes": 8573205,
+      "role": "historical_qualification_input_not_runtime"
+    },
+    {
+      "path": "results/CT_full_outputs_PL_pair_monitor_20261020_r2/current_candidate.zip",
+      "SHA256": "661e981f1a8d18343c56d23b546983e9e540ca15a59c0033591682ab5ebb470a",
+      "bytes": 12474795,
+      "role": "historical_qualification_input_not_runtime"
+    }
+  ],
+  "verifier_literal_SHA_pins_rebound": true,
+  "source_change_scope": "Packaging manifests and literal verifier SHA pins only; no numerical or hardware algorithm change",
+  "current_dependency_index_trimmed": {
+    "original_entries": 33377,
+    "export_entries": 851
+  },
+  "removed_obsolete_GUI_executables": [
+    {
+      "path": "modules/image_import/availability_r1/build_ARM/medical_ui_availability",
+      "bytes": 1608328
+    },
+    {
+      "path": "modules/navigation_media/stream_export_r3/build_ARM/medical_ui_async_video",
+      "bytes": 1608128
+    },
+    {
+      "path": "modules/navigation_media/async_integrity_r1/build_ARM/medical_ui_async_video",
+      "bytes": 1605624
+    },
+    {
+      "path": "modules/view_assets_r1/c6_async_HU_spawn_r1/build_UI_ARM/medical_ui_async_HU",
+      "bytes": 1536096
+    }
+  ]
+}

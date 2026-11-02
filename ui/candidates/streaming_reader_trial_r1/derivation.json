@@ -1,0 +1,39 @@
+{
+  "parent": "ui/candidates/streaming_native_trial_r1/trial.py",
+  "parent_SHA256": "12701aa161447525a3e3046290b409991074f26e61444c81572cacb49f868415",
+  "trial_SHA256": "2b3f165048c2e2675d66156a9d15035b248bc42c925ef9a271a9460d5aeea18c",
+  "literal_edits": [
+    [
+      "from modules.segmentation.streaming_stage_r1.entry import recover_pending",
+      "from modules.segmentation.axis_tensor_reader_r3.streaming_r1.entry import recover_pending",
+      1
+    ],
+    [
+      "backend=ROOT/'ui/releases/streaming_functional_r1/backend.py'",
+      "backend=ROOT/'ui/releases/streaming_reader_r1/backend.py'",
+      1
+    ],
+    [
+      "ROOT/'ui/releases/streaming_functional_r1/runs'",
+      "ROOT/'ui/releases/streaming_reader_r1/runs'",
+      1
+    ],
+    [
+      "ROOT/'modules/segmentation/streaming_stage_r1/pending_transaction.json'",
+      "ROOT/'modules/segmentation/axis_tensor_reader_r3/streaming_r1/pending_transaction.json'",
+      2
+    ],
+    [
+      "seg['pl_conv_calls']==2520 and seg['pl_pool_calls']==420 and seg['no_PS_pool_fallback']",
+      "seg['pl_conv_calls']==2520 and seg['pl_pool_calls']==420 and seg['pl_reader_calls']==840 and seg['no_PS_pool_fallback']",
+      1
+    ],
+    [
+      "normal_path_without_qualification_probes=True",
+      "normal_path_without_qualification_probes=True,actual_R3_reader_840_calls_including_warmup=True",
+      1
+    ]
+  ],
+  "exact_reverse_verified": true,
+  "original_missing_input_source_cancel_full139_partial_probability_and_all_output_checks_preserved": true
+}

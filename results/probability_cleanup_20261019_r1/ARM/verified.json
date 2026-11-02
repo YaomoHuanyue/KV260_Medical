@@ -1,0 +1,81 @@
+{
+  "status": "probability_airway_policy_original_contracts_and_own_CT_exact",
+  "synthetic_cases": [
+    {
+      "name": "detached_island",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "diagonal_26_connectivity_and_threshold_equality",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "stable_equal_size_tie",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "empty",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "producer_mask_preserved",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": false,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "lung_probability_preserved",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    },
+    {
+      "name": "nodule_probability_preserved",
+      "all_effective_mask_voxels_exact": true,
+      "all_probability_bits_preserved": true,
+      "original_and_derived_input_contracts_passed": true
+    }
+  ],
+  "wrong_CT_rejected_without_output": true,
+  "own_CT_effective_mask_all_voxels_equal_existing_full_inference_mask": true,
+  "own_CT_original_probability_all_bits_preserved": true,
+  "own_CT_policy": {
+    "policy": "probability_threshold_then_largest_26_connected_airway",
+    "computation": "PS_existing_full_inference_component_policy",
+    "connectivity": 26,
+    "input_threshold": 0.5,
+    "raw_threshold_voxels": 39781,
+    "raw_threshold_uint8_array_SHA256": "67ac1ae360d20ba599a6b9529d10dd586b5c83099c68dec1700bff83dcf97fb9",
+    "kept_voxels": 30188,
+    "removed_voxels": 9593,
+    "input_components": 68,
+    "filtered_uint8_array_SHA256": "6c74bdeb0bd81454c74c8a0b347c79e5b3cd0875cd2b3102c6799ea90dc982c7",
+    "probability_file_SHA256": "40aecf4070c0a2ce27926a2268ccc81ac2bdede46677fd752159e3388bcce300",
+    "raw_probability_bits_preserved": true,
+    "no_added_voxels_or_bridges": true,
+    "geometry_unchanged": true,
+    "seconds": 1.0399474609876052,
+    "independent_clinical_accuracy_not_inferred": true
+  },
+  "own_CT_total_import_seconds": 15.809721331999754,
+  "computation": "PS_reference_policy_not_PL",
+  "source_and_evidence_SHA256": {
+    "modules/image_import/airway_probability_cleanup_r1/test_policy.py": "ba31269fecb43c7ef756e10fdfaca699a875bd7d45ed7bc443731acd9b69bd38",
+    "modules/image_import/airway_probability_cleanup_r1/importer.py": "622d25dab7f3dc95f32b3ed06d6d93e2ead72b584ffe3dc3aba738a4d4a07e42",
+    "modules/image_import/partial_r1/importer.py": "33c252548d7bc292fb40ef37bdd0b3084dcaad2becde4771572fbc41e074bb50",
+    "modules/image_import/partial_r1/contracts.py": "ca1050038a7e8a86f41e4149fcc11cd7c19d14455a48f5216b02fb7f53589816",
+    "modules/segmentation/airway/ct_geometry.py": "584a9cbaa1f313967fb17fed639d06eba38d3050818409c0ac28585e37208e0c"
+  },
+  "new_PL_qualification_and_actual_UI_integration_still_required": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

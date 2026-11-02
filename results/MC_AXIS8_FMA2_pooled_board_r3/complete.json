@@ -1,0 +1,11 @@
+{
+  "actual_D7_FMA2_combined_board_executed": true,
+  "correctness_passed": true,
+  "speed_gate_passed": false,
+  "exact_reviewed_case_restored": true,
+  "restored_UI_PID": 1230369,
+  "boot_and_static_unchanged": true,
+  "no_forced_kill_ZOCL_unload_network_change_or_auto_start": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

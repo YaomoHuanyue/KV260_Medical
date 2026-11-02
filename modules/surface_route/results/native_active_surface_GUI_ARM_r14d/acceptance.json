@@ -1,0 +1,779 @@
+{
+  "status": "actual_HDMI_current_surface_comparison_target_change_selected_C9_and_PS_PL_replay_passed",
+  "actual_UI": {
+    "UI_peak_RSS_MiB": 587.8828125,
+    "actual_PL_frame": {
+      "arc_mm": 66.93733978271484,
+      "branch_event": 0,
+      "camera_lps": [
+        6.32188081741333,
+        1.2635568380355835,
+        -62.7302360534668
+      ],
+      "event": "frame",
+      "field": 0.7673269879789604,
+      "forward_lps": [
+        0.036531321017231125,
+        0.4320120574699544,
+        -0.9011276517704431
+      ],
+      "height": 309,
+      "hud": {
+        "current_diameter_mm": 9.465153694152832,
+        "forward_adjusted_diameter_mm": 6.742942895071533,
+        "forward_minimum_bend_radius_mm": 3.4591034656786577,
+        "spare_radius_mm": 2.171471447535766,
+        "state": "clear"
+      },
+      "hud_point": 409,
+      "interactive": true,
+      "normal_backend": "PL_C9",
+      "normal_computation": "PL",
+      "normal_frame_path": "/run/kv260-ui-runtime/pl_scope_32191.rgba.normal.rgba",
+      "path": "/run/kv260-ui-runtime/pl_scope_32191.rgba",
+      "pl_module": "surface_quality",
+      "pose_source": "completed_PL_frame",
+      "ray00_index": [
+        -0.2225189208984375,
+        0.2406768798828125,
+        -0.1210784912109375
+      ],
+      "ray_origin_index": [
+        133.35101318359375,
+        160.53993225097656,
+        380.02635192871094
+      ],
+      "raydx_index": [
+        0.0010223388671875,
+        -4.57763671875e-05,
+        1.52587890625e-05
+      ],
+      "raydy_index": [
+        -3.0517578125e-05,
+        -0.00091552734375,
+        -0.0004425048828125
+      ],
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "requested_camera": {
+        "arc_mm": 66.93733978271484,
+        "auto_align": false,
+        "camera": [
+          6.32188081741333,
+          1.2635568380355835,
+          -62.7302360534668
+        ],
+        "command": "frame",
+        "forward": [
+          0.036531317979097366,
+          0.43201202154159546,
+          -0.9011275768280029
+        ],
+        "height": 309,
+        "interactive": true,
+        "manual_pitch_degrees": 2.200000047683716,
+        "manual_yaw_degrees": 7.699999809265137,
+        "orientation_stabilization": "arc Gaussian 1.2mm and rotation-minimizing transport",
+        "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+        "sequence": 3,
+        "up": [
+          0.034009866416454315,
+          0.9006696939468384,
+          0.43317124247550964
+        ],
+        "width": 464
+      },
+      "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+      "right_lps": [
+        0.9987536190018036,
+        -0.04647155124014191,
+        0.018209982321108865
+      ],
+      "round_trip_ms": 71,
+      "sequence": 3,
+      "step_mm": 0.15371050986027124,
+      "timing": {
+        "backend": "PL_C9_R7",
+        "four_4096_byte_DMA_guards_passed": true,
+        "hardware_seconds": 0.053112591,
+        "host_run_seconds": 0.054329834,
+        "input_and_tokens_checked": true,
+        "phases": {
+          "allocation_copy_guards": 0.000196462,
+          "guard_check_readback_copy": 0.000709307,
+          "hardware": 0.053112591,
+          "partial_select": 4.6e-06,
+          "sync_from": 0.000115282,
+          "sync_to": 0.000121582,
+          "validation": 8.72e-06
+        },
+        "production_accepted": true,
+        "total_seconds": 0.05459587600125815
+      },
+      "total_seconds": 0.06805497099776403,
+      "up_lps": [
+        0.034009867914125164,
+        0.9006697380982176,
+        0.43317127300705444
+      ],
+      "upload": {},
+      "width": 464
+    },
+    "automatic_pose": {
+      "arc_mm": 66.93733978271484,
+      "auto_align": true,
+      "camera": [
+        6.32188081741333,
+        1.2635568380355835,
+        -62.7302360534668
+      ],
+      "forward": [
+        -0.09893766045570374,
+        0.39976489543914795,
+        -0.9112625122070312
+      ],
+      "height": 309,
+      "interactive": false,
+      "manual_pitch_degrees": 0,
+      "manual_yaw_degrees": 0,
+      "orientation_stabilization": "arc Gaussian 1.2mm and rotation-minimizing transport",
+      "up": [
+        0.035387177020311356,
+        0.9165897965431213,
+        0.39825981855392456
+      ],
+      "width": 464
+    },
+    "checks": [
+      {
+        "name": "current_complete_scene_loaded",
+        "passed": true
+      },
+      {
+        "name": "current_surface_compare_enabled",
+        "passed": true
+      },
+      {
+        "name": "selected_another_target_with_actual_combo",
+        "passed": true
+      },
+      {
+        "name": "comparison_keeps_scalar_and_route_revision",
+        "passed": true
+      },
+      {
+        "name": "comparison_keeps_actual_navigation_path",
+        "passed": true
+      },
+      {
+        "name": "background_comparison_keeps_UI_heartbeat",
+        "passed": true
+      },
+      {
+        "name": "new_comparison_target_preserved_in_controls",
+        "passed": true
+      },
+      {
+        "name": "current_results_button_enabled",
+        "passed": true
+      },
+      {
+        "name": "preview_highlights_current_target",
+        "passed": true
+      },
+      {
+        "name": "five_current_surface_profiles",
+        "passed": true
+      },
+      {
+        "name": "complete_raw_cycles_preserved",
+        "passed": true
+      },
+      {
+        "name": "no_old_PL_audit_tab",
+        "passed": true
+      },
+      {
+        "name": "current_Pareto_rows_0",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_0",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_1",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_2",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_3",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_4",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_0_5",
+        "passed": true
+      },
+      {
+        "name": "current_Pareto_rows_1",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_0",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_1",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_2",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_3",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_4",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_5",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_6",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_1_7",
+        "passed": true
+      },
+      {
+        "name": "current_Pareto_rows_2",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_0",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_1",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_2",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_3",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_4",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_5",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_6",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_2_7",
+        "passed": true
+      },
+      {
+        "name": "current_Pareto_rows_3",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_3_0",
+        "passed": true
+      },
+      {
+        "name": "current_Pareto_rows_4",
+        "passed": true
+      },
+      {
+        "name": "complete_preview_4_0",
+        "passed": true
+      },
+      {
+        "name": "all_Pareto_paths_previewed",
+        "passed": true
+      },
+      {
+        "name": "actual_apply_button_enabled",
+        "passed": true
+      },
+      {
+        "name": "selected_group_and_candidate_applied",
+        "passed": true
+      },
+      {
+        "name": "fresh_route_revision_same_surface",
+        "passed": true
+      },
+      {
+        "name": "route_camera_HUD_columns_paired",
+        "passed": true
+      },
+      {
+        "name": "selected_curve_no_branch_substitution",
+        "passed": true
+      },
+      {
+        "name": "selected_route_targets_current_candidate",
+        "passed": true
+      },
+      {
+        "name": "nonempty_current_surface_branch_cues",
+        "passed": true
+      },
+      {
+        "name": "selected_route_actual_C9_frame",
+        "passed": true
+      },
+      {
+        "name": "reference_camera_tracks_presented_sequence",
+        "passed": true
+      },
+      {
+        "name": "manual_test_uses_alignment_checkbox",
+        "passed": true
+      },
+      {
+        "name": "manual_pose_differs_from_auto",
+        "passed": true
+      },
+      {
+        "name": "manual_route_actual_C9_frame",
+        "passed": true
+      },
+      {
+        "name": "reference_camera_tracks_presented_sequence",
+        "passed": true
+      },
+      {
+        "name": "completed_PL_pose_keeps_manual_direction",
+        "passed": true
+      },
+      {
+        "name": "selected_navigation_actual_GL",
+        "passed": true
+      }
+    ],
+    "complete_surface": {
+      "atomic_activation": true,
+      "automatic_quality_changes": false,
+      "bundle": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle",
+      "comparison": {
+        "options": {
+          "diameter": 1.8,
+          "lesion": 4,
+          "margin": 0.3,
+          "minimum_bend": 0
+        },
+        "receipt": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/comparison/comparison.json",
+        "receipt_sha256": "66ea2bb8d7abfb51c66acc5c901b14b6f193c365286faf1d7b2d3c9802269b6d"
+      },
+      "navigation_module": "surface_quality",
+      "new_field_comparisons_available": true,
+      "pending_operations": [
+        "active_quality_and_generic_new_case",
+        "active_batch_video_recovery_dispatch"
+      ],
+      "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+      "route_id": "f6b44475bb9eb21c6ccd5078fe9d6700b1a50283b2869876d055a3e4bc3de5ad",
+      "scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "schema": "kv260.ui.complete_surface.v1",
+      "source_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259"
+    },
+    "linked_reference": {
+      "arc_mm": 66.93733978271484,
+      "aspect": 1.5016181468963623,
+      "camera_lps": [
+        6.32188081741333,
+        1.2635568380355835,
+        -62.7302360534668
+      ],
+      "corners_lps": [
+        [
+          24.52324104309082,
+          17.307170867919922,
+          -70.9466552734375
+        ],
+        [
+          -10.000638961791992,
+          18.913551330566406,
+          -71.57612609863281
+        ],
+        [
+          -10.783538818359375,
+          -1.8196957111358643,
+          -81.54765319824219
+        ],
+        [
+          23.740339279174805,
+          -3.4260756969451904,
+          -80.91818237304688
+        ]
+      ],
+      "enabled": true,
+      "field": 0.7673270106315613,
+      "forward_lps": [
+        0.036531321704387665,
+        0.43201205134391785,
+        -0.9011276364326477
+      ],
+      "frustum_depth_mm": 15,
+      "pose_source": "presented_PL_frame",
+      "right_lps": [
+        0.9987536072731018,
+        -0.046471551060676575,
+        0.01820998266339302
+      ],
+      "sequence": 3,
+      "up_lps": [
+        0.034009866416454315,
+        0.9006697535514832,
+        0.43317127227783203
+      ],
+      "valid": true
+    },
+    "manual_pose": {
+      "arc_mm": 66.93733978271484,
+      "auto_align": false,
+      "camera": [
+        6.32188081741333,
+        1.2635568380355835,
+        -62.7302360534668
+      ],
+      "forward": [
+        0.036531317979097366,
+        0.43201202154159546,
+        -0.9011275768280029
+      ],
+      "height": 309,
+      "interactive": true,
+      "manual_pitch_degrees": 2.200000047683716,
+      "manual_yaw_degrees": 7.699999809265137,
+      "orientation_stabilization": "arc Gaussian 1.2mm and rotation-minimizing transport",
+      "up": [
+        0.034009866416454315,
+        0.9006696939468384,
+        0.43317124247550964
+      ],
+      "width": 464
+    },
+    "physical_mouse_verified": false,
+    "presented_frame": {
+      "arc_mm": 66.93733978271484,
+      "branch_event": 0,
+      "camera_lps": [
+        6.32188081741333,
+        1.2635568380355835,
+        -62.7302360534668
+      ],
+      "event": "frame",
+      "field": 0.7673269879789604,
+      "forward_lps": [
+        0.036531321017231125,
+        0.4320120574699544,
+        -0.9011276517704431
+      ],
+      "height": 309,
+      "hud": {
+        "current_diameter_mm": 9.465153694152832,
+        "forward_adjusted_diameter_mm": 6.742942895071533,
+        "forward_minimum_bend_radius_mm": 3.4591034656786577,
+        "spare_radius_mm": 2.171471447535766,
+        "state": "clear"
+      },
+      "hud_point": 409,
+      "interactive": true,
+      "normal_atlas": null,
+      "normal_backend": "PL_C9",
+      "normal_computation": "PL",
+      "normal_frame_path": "/run/kv260-ui-runtime/pl_scope_32191.rgba.normal.rgba",
+      "path": "/run/kv260-ui-runtime/pl_scope_32191.rgba",
+      "pl_module": "surface_quality",
+      "pose_source": "completed_PL_frame",
+      "ray00_index": [
+        -0.2225189208984375,
+        0.2406768798828125,
+        -0.1210784912109375
+      ],
+      "ray_origin_index": [
+        133.35101318359375,
+        160.53993225097656,
+        380.02635192871094
+      ],
+      "raydx_index": [
+        0.0010223388671875,
+        -4.57763671875e-05,
+        1.52587890625e-05
+      ],
+      "raydy_index": [
+        -3.0517578125e-05,
+        -0.00091552734375,
+        -0.0004425048828125
+      ],
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "requested_camera": {
+        "arc_mm": 66.93733978271484,
+        "auto_align": false,
+        "camera": [
+          6.32188081741333,
+          1.2635568380355835,
+          -62.7302360534668
+        ],
+        "command": "frame",
+        "forward": [
+          0.036531317979097366,
+          0.43201202154159546,
+          -0.9011275768280029
+        ],
+        "height": 309,
+        "interactive": true,
+        "manual_pitch_degrees": 2.200000047683716,
+        "manual_yaw_degrees": 7.699999809265137,
+        "orientation_stabilization": "arc Gaussian 1.2mm and rotation-minimizing transport",
+        "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+        "sequence": 3,
+        "up": [
+          0.034009866416454315,
+          0.9006696939468384,
+          0.43317124247550964
+        ],
+        "width": 464
+      },
+      "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+      "right_lps": [
+        0.9987536190018036,
+        -0.04647155124014191,
+        0.018209982321108865
+      ],
+      "round_trip_ms": 71,
+      "sequence": 3,
+      "step_mm": 0.15371050986027124,
+      "timing": {
+        "backend": "PL_C9_R7",
+        "four_4096_byte_DMA_guards_passed": true,
+        "hardware_seconds": 0.053112591,
+        "host_run_seconds": 0.054329834,
+        "input_and_tokens_checked": true,
+        "phases": {
+          "allocation_copy_guards": 0.000196462,
+          "guard_check_readback_copy": 0.000709307,
+          "hardware": 0.053112591,
+          "partial_select": 4.6e-06,
+          "sync_from": 0.000115282,
+          "sync_to": 0.000121582,
+          "validation": 8.72e-06
+        },
+        "production_accepted": true,
+        "total_seconds": 0.05459587600125815
+      },
+      "total_seconds": 0.06805497099776403,
+      "up_lps": [
+        0.034009867914125164,
+        0.9006697380982176,
+        0.43317127300705444
+      ],
+      "upload": {},
+      "width": 464
+    },
+    "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/UI/scene.json",
+    "scope_GL": {
+      "error": "",
+      "frames": 9,
+      "note": "paintGL CPU submission duration, not complete GPU frame latency",
+      "paint_submit_max_ms": 10.694577,
+      "paint_submit_median_ms": 0.157721,
+      "renderer": "Mali-400 MP",
+      "scope_cached_blits": 6,
+      "scope_shading_passes": 3,
+      "shader_linked": true,
+      "valid": true
+    },
+    "selection": {
+      "candidate_id": 0,
+      "comparison_files_sha256": {
+        "whole_alternative_routes.json": "8cb8e97e3ffb03c1a445dcc42a486742e5014c10d27f5fb05d84a6a92b0a58d8",
+        "whole_comparison_arrays.npz": "0298e0d92613abbe0ba7c674e05a953530bb1bfa7ce565d52c28a6a8588e48c0",
+        "whole_instrument_profiles.json": "ee461d74132049c54124d106129421fb786d56227b558383a3962d94a923ef17"
+      },
+      "group_index": 2,
+      "original_path_sha256": "71ca3c183a1a1b2aaeb58f1d4f792a3a79076e0ea1de97223178f2207d25f0dd",
+      "original_raw_parent_chain_retained": true,
+      "source_parameter_policy": "exact original resample/densify parameter retained through the original constrained smoothing",
+      "target": {
+        "centroid_lps_mm": [
+          99.21114504396036,
+          6.380896999330929,
+          -169.42487684729065
+        ],
+        "index": 4,
+        "label_status": "segmentation candidate, not confirmed lesion",
+        "mask_sha256": "68e0a0343ef75e658d0806e9b031f76c3cfad0295ea50250600853fb04e474ce",
+        "voxel_count": 203
+      }
+    },
+    "status": "passed_actual_Qt_active_comparison_selected_path_C9_manual_camera_and_linked_reference"
+  },
+  "replayed_actual_UI_frame": {
+    "width": 464,
+    "height": 309,
+    "sequence": 3,
+    "branch_event": 0,
+    "revision": "c7122530f210afa9e7ee9b958da38643462b85415dae0d299fcfa32517fca26d",
+    "all_depth_normal_target_outline_words_exact_PS1_PS4_actual_PL": true,
+    "actual_manual_UI_camera_replayed": true,
+    "PS4_median_seconds": 0.5745081559980463,
+    "PL_median_seconds": 0.05482239800039679,
+    "PL_over_PS4_speedup": 10.479442289151383,
+    "upload": {
+      "backend": "PL_C9_R7",
+      "hardware_seconds": 0.00096869,
+      "host_run_seconds": 0.166284273,
+      "total_seconds": 0.16664611699889065,
+      "phases": {
+        "validation": 0.005313073,
+        "allocation_copy_guards": 0.003074781,
+        "sync_to": 0.000174562,
+        "partial_select": 0.155159472,
+        "hardware": 0.00096869,
+        "sync_from": 0.000161042,
+        "guard_check_readback_copy": 0.001350743
+      },
+      "four_4096_byte_DMA_guards_passed": true,
+      "input_and_tokens_checked": true,
+      "production_accepted": true
+    },
+    "samples": [
+      {
+        "PS4_full_call_seconds": 0.5756471469976532,
+        "PL_full_API_seconds": 0.05726059199878364,
+        "PL_job": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.053179082,
+          "host_run_seconds": 0.056688617,
+          "total_seconds": 0.05697378999684588,
+          "phases": {
+            "validation": 8.73e-06,
+            "allocation_copy_guards": 0.002515365,
+            "sync_to": 0.000156272,
+            "partial_select": 7.94e-06,
+            "hardware": 0.053179082,
+            "sync_from": 8.4e-05,
+            "guard_check_readback_copy": 0.000676497
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        }
+      },
+      {
+        "PS4_full_call_seconds": 0.5744556760000705,
+        "PL_full_API_seconds": 0.05471740699795191,
+        "PL_job": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.053122411,
+          "host_run_seconds": 0.054191922,
+          "total_seconds": 0.05444448399794055,
+          "phases": {
+            "validation": 9.03e-06,
+            "allocation_copy_guards": 0.000179132,
+            "sync_to": 0.000117271,
+            "partial_select": 3.76e-06,
+            "hardware": 0.053122411,
+            "sync_from": 8.7141e-05,
+            "guard_check_readback_copy": 0.000615036
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        }
+      },
+      {
+        "PS4_full_call_seconds": 0.5745081559980463,
+        "PL_full_API_seconds": 0.05482239800039679,
+        "PL_job": {
+          "backend": "PL_C9_R7",
+          "hardware_seconds": 0.053178722,
+          "host_run_seconds": 0.054287203,
+          "total_seconds": 0.054537426000024425,
+          "phases": {
+            "validation": 9.031e-06,
+            "allocation_copy_guards": 0.000148451,
+            "sync_to": 0.000114741,
+            "partial_select": 3.44e-06,
+            "hardware": 0.053178722,
+            "sync_from": 8.5591e-05,
+            "guard_check_readback_copy": 0.000690376
+          },
+          "four_4096_byte_DMA_guards_passed": true,
+          "input_and_tokens_checked": true,
+          "production_accepted": true
+        }
+      }
+    ],
+    "PL_pixels_sha256": "84f1863e1893d9068409bd99f0175f9e1b5909494434e641d0f67ec5b3c92c62",
+    "full_static_1MiB_echo_and_C6_restore_passed": true
+  },
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "production_promoted": false,
+  "new_bitstream": false,
+  "source_closure_sha256": "0558d8c5a03b8bdc9c7ff3f3dafcf9e9ca915daf0b5c4d8bafb36017f59e479f",
+  "adapter_closure_sha256": "0558d8c5a03b8bdc9c7ff3f3dafcf9e9ca915daf0b5c4d8bafb36017f59e479f",
+  "UI_binary_sha256": "d50bb838729d1295b2d61c4315106bce4e5a3aeda0b36ea25473a52e5daa4267",
+  "test_source_sha256": "b21b9f253d9b78d8f6e6529ac543032ebbb5196ad6e269b0b00c88f73ed190ac",
+  "physical_user_review": false,
+  "evidence_sha256": {
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/replayed_actual_UI_PL.u64": "84f1863e1893d9068409bd99f0175f9e1b5909494434e641d0f67ec5b3c92c62",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/active_Pareto_preview.png": "2e46de805a67df64b83ec2892593d009f6d239d9cedaaac08b1a25aea0952a3e",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/active_selected_navigation_viewport.png": "47808cd2fed1878bbd0aaae1ad7ae60a571371288c6ebb10c98268fe8d6472c4",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/active_surface_UI.json": "83dd73c994278b4633390ba9477f50c3687c5339dff5d04d30772ccc6c5d5265",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/replayed_actual_UI_request.i32": "bb8b78f62543379b25d21f61e8201707551b54bc39b87d3e508493fd2cb529d3",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/ui_acceptance.json": "8f0cf4970b0a2cf98e768281b013f63c826833f81f6dedc4271de2ee99cfaab6",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/started.json": "94c1560452dc7020345688ce89a2df920d5248987305d63ec3d2a6035c47b9bb",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/active_profile_chart.png": "1ae370812ea6ed2b3eb02ea1bda30ea107814c017f11e322d8937f86c791f2f0",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/final_viewport.png": "c70c24b11abf6cda36d86e1a3fdbb8209e47659441306064c165334fd801e95c",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/UI.log": "f1fdf26f57213df6c6faa89d6d17fe3da85302a384d2f10b5a55f77d723df756",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/final.png": "ce53dcd14c863ab2c4f72e5b811fcd08da3f808aa3df82734f6f1ee29db0a4db",
+    "modules/surface_route/results/native_active_surface_GUI_ARM_r14d/active_selected_navigation.png": "f1ddadd02ffca53791044e6c8842aba78e593de1cc6e32d5053e14d167070a35",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/UI/scene.json": "9472a743c1b0b1f9cd6ad38124f99793c25f5831b4a15629132f7f3b3d069191",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/UI/prepared.json": "e9c76230e0a6df206f9ffcd7f66cd78c4763f61aca709f6b52d53c30db77506c",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/UI/airway.attributes": "f145f08c07ab8337010c7351ea7ad7dca0056e376d36f191d1bb6bca5e1e1a4f",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/scene_0.bin": "0ba1dd9e6fca4a0f20d189ff97b2ec697419276b002c013912842d23ca4bdcf8",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/scene_1.bin": "68bfbf7d69fd5f48e5cfce73054928387b38f434d22949f95c4677eeaebd7970",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/scene_2.bin": "1eea4e6e0e4c80814184b62b5afdd1169557e0392108faf8d541d9c34caea8fd",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/scene.json": "94545ee400d4072adfdf1b323ba930e3fa25659899f9447a7c3f784ca6735c73",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/camera.npz": "68c130ba03567be71b82711a60d752d78d90a09ad2659cb85c9050010f5804e5",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/route.json": "01a81b725743938fe8cf4aafd4c25c70e3e7fe08adb759c6b0982ff2448b84e6",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/mesh.npz": "9e9c06b4c2f2edb5f27f647510480f8e7037a35ae3f0f29ea1ce154bd9b5b0c1",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/route.npz": "354c41bde992e55a06e534b0a433ba53385d319928aa2b6aef6d284fdf2ab1f6",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/scene_-1.bin": "157647cb1b6f913a5bfe3082905d82288f2ba3ad40ea3c596e5e280efe07af92",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/hud.json": "9b4f6192be068bc3ab827991a38791cf2473e11907e8324bf61a954b1e5469ec",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/guidance.json": "50f144a706fafd93963a2b32ca9bd0d80351f838f4e4adfe341c886b1727b598",
+    "ui/cache/surface_action_e1c1bb6ec1f64d60acdb98b7d9ba1046/bundle/airway.vertices": "1fd494d54ad7e4bfa055d402726f52128c86145dbb125ffd13090a52dcd1cb7a",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/UI/scene.json": "745b03eb620e6bc0239796b3865dd5e8ce051d9583e4140be4bbeb8c0dd88021",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/UI/prepared.json": "aba7e462d280162174072ee930525bcde0f33b04be53175f2fabf9100a88ccb7",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/UI/airway.attributes": "f145f08c07ab8337010c7351ea7ad7dca0056e376d36f191d1bb6bca5e1e1a4f",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/comparison/whole_comparison_arrays.npz": "0298e0d92613abbe0ba7c674e05a953530bb1bfa7ce565d52c28a6a8588e48c0",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/comparison/whole_instrument_profiles.json": "ee461d74132049c54124d106129421fb786d56227b558383a3962d94a923ef17",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/comparison/comparison.json": "66ea2bb8d7abfb51c66acc5c901b14b6f193c365286faf1d7b2d3c9802269b6d",
+    "ui/cache/surface_action_177d3a2966814d679b267f9d3586f819/comparison/whole_alternative_routes.json": "8cb8e97e3ffb03c1a445dcc42a486742e5014c10d27f5fb05d84a6a92b0a58d8"
+  }
+}

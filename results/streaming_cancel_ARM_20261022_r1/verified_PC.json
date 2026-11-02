@@ -1,0 +1,193 @@
+{
+  "UTC": "2026-10-21T17:19:18.731740+00:00",
+  "status": "actual_live_PL_inference_cancel_drain_restore_and_next_D7_D9_task_verified",
+  "actual_request_slice": 2,
+  "actual_running_process": {
+    "PID": 322071,
+    "start_ticks": 29371488,
+    "argv": [
+      "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/segmentation/streaming_stage_r1/entry.py",
+      "--input",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+      "--output",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_173946_28660366/segmentation",
+      "--job-lock-fd",
+      "3"
+    ]
+  },
+  "original_full139_five_masks": {
+    "lung_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 4346675,
+      "raw_SHA256": "5f582f6d2d0b020d821e112ea5922a0b8c2d214a4fad67c9d580f4150b462719",
+      "all_voxels_read": true
+    },
+    "airway_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30188,
+      "raw_SHA256": "6c74bdeb0bd81454c74c8a0b347c79e5b3cd0875cd2b3102c6799ea90dc982c7",
+      "all_voxels_read": true
+    },
+    "nodule_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 2934,
+      "raw_SHA256": "91e7192dfdcc65508a6aa2d1c08b215e7e919d35e393ea3046ca068e8b80cca8",
+      "all_voxels_read": true
+    },
+    "airway_mask_network.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 39781,
+      "raw_SHA256": "67ac1ae360d20ba599a6b9529d10dd586b5c83099c68dec1700bff83dcf97fb9",
+      "all_voxels_read": true
+    },
+    "airway_mask_detail.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30224,
+      "raw_SHA256": "0e17a3e0f9e88bfe0a57ef4513c9f3446198f8d644b7ad3e02f10397d7052feb",
+      "all_voxels_read": true
+    }
+  },
+  "original_full_logits_exact": true,
+  "full_PL_conv_calls": 2520,
+  "full_PL_pool_calls": 420,
+  "later_reconstruction_and_navigation_not_started_after_cancellation": true,
+  "subsequent_real_PL_D7_D9_task_and_original_airway_mesh_exact": true,
+  "actual_DFX_records": [
+    {
+      "switch": "1",
+      "rm": "ct",
+      "partial_ms": "148.881",
+      "switch_ms": "156.176",
+      "static_transactions": "8745",
+      "sentinel_address": "1186988032"
+    },
+    {
+      "switch": "1",
+      "rm": "hu",
+      "partial_ms": "148.801",
+      "switch_ms": "156.382",
+      "static_transactions": "8740",
+      "sentinel_address": "1186988032"
+    },
+    {
+      "switch": "1",
+      "rm": "axis_mc",
+      "partial_ms": "148.688",
+      "switch_ms": "156.124",
+      "static_transactions": "8745",
+      "sentinel_address": "1186988032"
+    },
+    {
+      "switch": "1",
+      "rm": "axis_smooth",
+      "partial_ms": "149.122",
+      "switch_ms": "156.693",
+      "static_transactions": "8747",
+      "sentinel_address": "1186988032"
+    },
+    {
+      "switch": "2",
+      "rm": "smooth",
+      "partial_ms": "150.667",
+      "switch_ms": "158.136",
+      "static_transactions": "8769",
+      "sentinel_address": "1186988032"
+    }
+  ],
+  "current_cancel_granularity": "after_stage_completion_not_instant_or_DMA_abort",
+  "cases": [
+    {
+      "label": "cancel_inference",
+      "exit_code": 0,
+      "seconds": 180.77883833099622,
+      "events": [
+        {
+          "event": "started",
+          "output": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_173946_28660366",
+          "text": "\u51c6\u5907 DFX \u4efb\u52a1"
+        },
+        {
+          "event": "stage",
+          "stage": "segmentation",
+          "index": 0,
+          "count": 3,
+          "text": "\u6267\u884c segmentation"
+        },
+        {
+          "event": "stage_done",
+          "stage": "segmentation",
+          "seconds": 175.4422333560069
+        },
+        {
+          "event": "completed",
+          "output": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_173946_28660366",
+          "status": "stopped",
+          "seconds": 175.44385789200896
+        }
+      ],
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_173946_28660366"
+    },
+    {
+      "label": "partial_after_cancel",
+      "exit_code": 0,
+      "seconds": 16.825174277997576,
+      "events": [
+        {
+          "event": "started",
+          "output": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_174250_7cf59179",
+          "text": "\u51c6\u5907 DFX \u4efb\u52a1"
+        },
+        {
+          "event": "stage",
+          "stage": "reconstruction",
+          "index": 0,
+          "count": 1,
+          "text": "\u6267\u884c reconstruction"
+        },
+        {
+          "event": "stage_done",
+          "stage": "reconstruction",
+          "seconds": 8.76396388298599
+        },
+        {
+          "event": "completed",
+          "output": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_174250_7cf59179",
+          "status": "passed",
+          "seconds": 8.765466109034605
+        }
+      ],
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_functional_r1/runs/20261020_174250_7cf59179"
+    }
+  ],
+  "original_firmware_global_CSV_and_formal_UI_unchanged": true,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "source_and_evidence_SHA256": {
+    "tools/verify_streaming_cancel_ARM_20261022_r1.py": "56d8f290f58f8003e0612ba27be08654ee2dd048c7d49e54bdad421040e9cb4a",
+    "results/streaming_cancel_ARM_20261022_r1/current_candidate.zip": "1be6260c11ff496a098dddb164447f2f58d7f327eb357585cae3ea8f35214d46",
+    "results/streaming_cancel_ARM_20261022_r1/plan.json": "234536420ae896a045ba5c8d5cc3d7a34926defe13a6b31c4fe95494c18922e3",
+    "results/streaming_cancel_ARM_20261022_r1/stream_verified.json": "0cb553f15881e4f17adaea68c2128c9f3a14e91843cff78dd08f349f714d2208",
+    "results/streaming_cancel_ARM_20261022_r1/all_owned_inventory.json": "9b04f590bcec1abd17953cd2011d07e095a1f4c0df3ba8d32e871541f6bdd5f7"
+  }
+}

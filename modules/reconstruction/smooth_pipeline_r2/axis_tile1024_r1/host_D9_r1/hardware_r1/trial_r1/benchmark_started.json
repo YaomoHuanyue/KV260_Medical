@@ -1,0 +1,9 @@
+{
+  "PID": 20103,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+    "-B",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/benchmark_board_r1.py"
+  ],
+  "start_ticks": 1772032
+}

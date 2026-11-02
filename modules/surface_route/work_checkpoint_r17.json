@@ -1,0 +1,615 @@
+{
+  "status": "exact_native_PS_indexing_integrated_actual_Qt_C1_C9_quality_wait_reduced",
+  "goal_turn_classification": "progress",
+  "whole_goal_completed": false,
+  "production_promoted": false,
+  "sealed_parent_checkpoint": "modules/surface_route/work_checkpoint_r16.json",
+  "sealed_parent_checkpoint_sha256": "4aeba03e19f217742ef769c26e2554caeab6b1347d3a6ec8134b5c7ee436ae4f",
+  "report": "docs/ACTIVE_SURFACE_WAIT_R17.md",
+  "source_closure": "modules/surface_route/native_UI_source_closure_r17.json",
+  "source_closure_sha256": "af8227d9e81d2122823c46e4b23ac561b5b9dc8149bf3ecef767f989fe885292",
+  "UI_binary_sha256": "e2546fde3d864b3f5aeb4d7158410a334060e417138a93e51fc359de8d139a45",
+  "evidence_sha256": {
+    "modules/surface_quality/indexing_r17/results/unit_Windows_r17.json": "c9931fb3a7e1d8c66c8caf5135362c68bcc05e5416252064b50fabd14545978c",
+    "modules/surface_quality/indexing_r17/results/unit_ARM_r17.json": "c48f05eb5d498a16a8e65d05162e4accb8d70f34a9a9ceecbe2639ca084ef410",
+    "modules/surface_route/results/mesh_indexing_trial_ARM_r17/acceptance.json": "c81e6f241adebebce9476507946d26ef7451e548f6c5072f1984a90beca1b1cd",
+    "modules/surface_route/results/mesh_indexing_trial_Windows_r17/acceptance.json": "bfcced3bf93133b6d7c9c0b4223318f5919b1e831539b087a19fdbe7ef42d2f5",
+    "modules/surface_route/results/mesh_quality_recovery_ARM_r17c/acceptance.json": "a34cc1012c3d956d1fc89e20a0070a4f4969359322f4223cccf98923a3a97194",
+    "modules/surface_route/results/mesh_preparation_profile_ARM_r17/acceptance.json": "b682364c516bf8209414326bfbc21bc02992e355dab07767814f65c0478bdc3a"
+  },
+  "mesh_preparation_AB": [
+    {
+      "source": "accepted_binary",
+      "tier": "ultra",
+      "folder": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_be76a1b0bb594809b7d6d6241f98a17f",
+      "timings_seconds": {
+        "Python_R7": [
+          30.394092787999398
+        ],
+        "native_R17": [
+          1.311468246000004,
+          1.285515147003025,
+          1.294418435998523
+        ]
+      },
+      "Python_seconds": 30.394092787999398,
+      "native_seconds": 1.294418435998523,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "4179c926c552517d8d817a82abe0b65c5f390cfe20efec016cf94181a52a88b3",
+      "vertices": 45849,
+      "triangles": 91617,
+      "input_sha256": {
+        "ui/cache/surface_action_be76a1b0bb594809b7d6d6241f98a17f/field/field.npz": "2a30c57203945fba4bbbb22317d880ba28831fa37244ccdba5a5b59aa4d0fe93",
+        "ui/cache/surface_action_be76a1b0bb594809b7d6d6241f98a17f/extraction/vertices.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+        "ui/cache/surface_action_be76a1b0bb594809b7d6d6241f98a17f/bundle/mesh.npz": "b4498fac2442d91438d26d74fb2bb1497f330012a52050fd1243fe691272cbe2",
+        "ui/cache/surface_action_be76a1b0bb594809b7d6d6241f98a17f/bundle/scene.json": "4c668b7e0e3acd8b96a773b2691f7df06bf3d57c42415aae082308f254302073"
+      },
+      "speedup": 23.480886815825667,
+      "saved_seconds": 29.099674352000875
+    },
+    {
+      "source": "network_probability",
+      "tier": "high",
+      "folder": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_3b2005e71ece4a4597285f96605dd677",
+      "timings_seconds": {
+        "Python_R7": [
+          29.690913636000914,
+          29.580166856998403,
+          29.66678077400138
+        ],
+        "native_R17": [
+          1.2647216090008442,
+          1.2619100310002977,
+          1.26028663499892
+        ]
+      },
+      "Python_seconds": 29.66678077400138,
+      "native_seconds": 1.2619100310002977,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "36defbcb4403e244fd5346cf503b5a2da29cb2ef9113635c3ccdd7f2a8e8ac19",
+      "vertices": 44804,
+      "triangles": 89553,
+      "input_sha256": {
+        "ui/cache/surface_action_3b2005e71ece4a4597285f96605dd677/field/field.npz": "14949d26d8d297ed9dd35ffa964b6e90f81a4aef73a58475eabbd29a18c26040",
+        "ui/cache/surface_action_3b2005e71ece4a4597285f96605dd677/extraction/vertices.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+        "ui/cache/surface_action_3b2005e71ece4a4597285f96605dd677/bundle/mesh.npz": "9e9c06b4c2f2edb5f27f647510480f8e7037a35ae3f0f29ea1ce154bd9b5b0c1",
+        "ui/cache/surface_action_3b2005e71ece4a4597285f96605dd677/bundle/scene.json": "37b497388e8eba116b705f4a80da03f21ffa80727bc8b6cb9dfedbb9927ee5db"
+      },
+      "speedup": 23.509426223107962,
+      "saved_seconds": 28.404870743001084
+    },
+    {
+      "source": "accepted_binary",
+      "tier": "high",
+      "folder": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/quality_trial_ARM_r16/accepted_binary_high",
+      "timings_seconds": {
+        "Python_R7": [
+          30.066249228999368
+        ],
+        "native_R17": [
+          1.1982921950002492,
+          1.1948259500022687,
+          1.1966367889981484
+        ]
+      },
+      "Python_seconds": 30.066249228999368,
+      "native_seconds": 1.1966367889981484,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "c51ae74d31f6dc1da3625313002f1fe3c90bd860bd05c312a755774a4cf14a17",
+      "vertices": 45568,
+      "triangles": 91063,
+      "input_sha256": {
+        "modules/surface_route/results/quality_trial_ARM_r16/accepted_binary_high/field/field.npz": "15b0b5e8bdb45847d67abc4e2d597a195579c9ab8c0eb2a68cd9d80af0f076f0",
+        "modules/surface_route/results/quality_trial_ARM_r16/accepted_binary_high/extraction/vertices.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+        "modules/surface_route/results/quality_trial_ARM_r16/accepted_binary_high/bundle/mesh.npz": "bc4e32530edecf97cde1a48452a4ebb5ec523dc0b65fa3778839ec0ed105ee18",
+        "modules/surface_route/results/quality_trial_ARM_r16/accepted_binary_high/bundle/scene.json": "900520ea52b34da44b1180185d3ad3d0c757498aa468e2a32c27882e19314afa"
+      },
+      "speedup": 25.125626677558124,
+      "saved_seconds": 28.86961244000122
+    },
+    {
+      "source": "network_probability",
+      "tier": "ultra",
+      "folder": "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/quality_trial_ARM_r16/network_probability_ultra",
+      "timings_seconds": {
+        "Python_R7": [
+          29.859772243999032
+        ],
+        "native_R17": [
+          1.2519998919997306,
+          1.2516458979989693,
+          1.2495227480030735
+        ]
+      },
+      "Python_seconds": 29.859772243999032,
+      "native_seconds": 1.2516458979989693,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "cc804cc656499b9be33408fe024882756dea281ee4329539cae45fd91c13afe3",
+      "vertices": 45085,
+      "triangles": 90118,
+      "input_sha256": {
+        "modules/surface_route/results/quality_trial_ARM_r16/network_probability_ultra/field/field.npz": "7c1bc1f9acd0cbadd5d91e4d47249a3430c590a2079906cbb5427aaa50ca828d",
+        "modules/surface_route/results/quality_trial_ARM_r16/network_probability_ultra/extraction/vertices.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+        "modules/surface_route/results/quality_trial_ARM_r16/network_probability_ultra/bundle/mesh.npz": "308cacc1eaac3f11a689433a3be8872c403659ca7279db72051b2fde79457018",
+        "modules/surface_route/results/quality_trial_ARM_r16/network_probability_ultra/bundle/scene.json": "9549311150dcb1ba90d4d391b0edba676835a21f0419e020ae2e9429749b004a"
+      },
+      "speedup": 23.856405626972,
+      "saved_seconds": 28.608126346000063
+    }
+  ],
+  "Windows_mesh_preparation_AB": [
+    {
+      "source": "accepted_binary",
+      "tier": "ultra",
+      "folder": "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\cache\\surface_action_be76a1b0bb594809b7d6d6241f98a17f",
+      "timings_seconds": {
+        "Python_R7": [
+          2.3164359999937005
+        ],
+        "native_R17": [
+          0.12035740001010709,
+          0.11740610000560991,
+          0.12784490000922233
+        ]
+      },
+      "Python_seconds": 2.3164359999937005,
+      "native_seconds": 0.12035740001010709,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "4179c926c552517d8d817a82abe0b65c5f390cfe20efec016cf94181a52a88b3",
+      "vertices": 45849,
+      "triangles": 91617,
+      "input_sha256": {
+        "ui\\cache\\surface_action_be76a1b0bb594809b7d6d6241f98a17f\\field\\field.npz": "2a30c57203945fba4bbbb22317d880ba28831fa37244ccdba5a5b59aa4d0fe93",
+        "ui\\cache\\surface_action_be76a1b0bb594809b7d6d6241f98a17f\\extraction\\vertices.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+        "ui\\cache\\surface_action_be76a1b0bb594809b7d6d6241f98a17f\\bundle\\mesh.npz": "b4498fac2442d91438d26d74fb2bb1497f330012a52050fd1243fe691272cbe2",
+        "ui\\cache\\surface_action_be76a1b0bb594809b7d6d6241f98a17f\\bundle\\scene.json": "4c668b7e0e3acd8b96a773b2691f7df06bf3d57c42415aae082308f254302073"
+      },
+      "speedup": 19.246311400870876,
+      "saved_seconds": 2.1960785999835934
+    },
+    {
+      "source": "network_probability",
+      "tier": "high",
+      "folder": "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\ui\\cache\\surface_action_3b2005e71ece4a4597285f96605dd677",
+      "timings_seconds": {
+        "Python_R7": [
+          2.3375716999871656,
+          2.228585800010478,
+          2.3195286000263877
+        ],
+        "native_R17": [
+          0.12595290000899695,
+          0.12033179998979904,
+          0.13090099999681115
+        ]
+      },
+      "Python_seconds": 2.3195286000263877,
+      "native_seconds": 0.12595290000899695,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "36defbcb4403e244fd5346cf503b5a2da29cb2ef9113635c3ccdd7f2a8e8ac19",
+      "vertices": 44804,
+      "triangles": 89553,
+      "input_sha256": {
+        "ui\\cache\\surface_action_3b2005e71ece4a4597285f96605dd677\\field\\field.npz": "14949d26d8d297ed9dd35ffa964b6e90f81a4aef73a58475eabbd29a18c26040",
+        "ui\\cache\\surface_action_3b2005e71ece4a4597285f96605dd677\\extraction\\vertices.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+        "ui\\cache\\surface_action_3b2005e71ece4a4597285f96605dd677\\bundle\\mesh.npz": "9e9c06b4c2f2edb5f27f647510480f8e7037a35ae3f0f29ea1ce154bd9b5b0c1",
+        "ui\\cache\\surface_action_3b2005e71ece4a4597285f96605dd677\\bundle\\scene.json": "37b497388e8eba116b705f4a80da03f21ffa80727bc8b6cb9dfedbb9927ee5db"
+      },
+      "speedup": 18.415841158565634,
+      "saved_seconds": 2.1935757000173908
+    },
+    {
+      "source": "accepted_binary",
+      "tier": "high",
+      "folder": "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\surface_route\\results\\quality_trial_ARM_r16\\accepted_binary_high",
+      "timings_seconds": {
+        "Python_R7": [
+          2.382818699989002
+        ],
+        "native_R17": [
+          0.12099910000688396,
+          0.1240166999923531,
+          0.12313239998184144
+        ]
+      },
+      "Python_seconds": 2.382818699989002,
+      "native_seconds": 0.12313239998184144,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "c51ae74d31f6dc1da3625313002f1fe3c90bd860bd05c312a755774a4cf14a17",
+      "vertices": 45568,
+      "triangles": 91063,
+      "input_sha256": {
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\accepted_binary_high\\field\\field.npz": "15b0b5e8bdb45847d67abc4e2d597a195579c9ab8c0eb2a68cd9d80af0f076f0",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\accepted_binary_high\\extraction\\vertices.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\accepted_binary_high\\bundle\\mesh.npz": "bc4e32530edecf97cde1a48452a4ebb5ec523dc0b65fa3778839ec0ed105ee18",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\accepted_binary_high\\bundle\\scene.json": "900520ea52b34da44b1180185d3ad3d0c757498aa468e2a32c27882e19314afa"
+      },
+      "speedup": 19.351679170879482,
+      "saved_seconds": 2.2596863000071608
+    },
+    {
+      "source": "network_probability",
+      "tier": "ultra",
+      "folder": "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\surface_route\\results\\quality_trial_ARM_r16\\network_probability_ultra",
+      "timings_seconds": {
+        "Python_R7": [
+          2.4279762000078335
+        ],
+        "native_R17": [
+          0.16451519998372532,
+          0.16164810000918806,
+          0.1729891000140924
+        ]
+      },
+      "Python_seconds": 2.4279762000078335,
+      "native_seconds": 0.16451519998372532,
+      "ordered_points_faces_exact_saved_actual_C1_mesh": true,
+      "all_mesh_proof_keys_exact": true,
+      "points_faces_sha256": "cc804cc656499b9be33408fe024882756dea281ee4329539cae45fd91c13afe3",
+      "vertices": 45085,
+      "triangles": 90118,
+      "input_sha256": {
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\network_probability_ultra\\field\\field.npz": "7c1bc1f9acd0cbadd5d91e4d47249a3430c590a2079906cbb5427aaa50ca828d",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\network_probability_ultra\\extraction\\vertices.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\network_probability_ultra\\bundle\\mesh.npz": "308cacc1eaac3f11a689433a3be8872c403659ca7279db72051b2fde79457018",
+        "modules\\surface_route\\results\\quality_trial_ARM_r16\\network_probability_ultra\\bundle\\scene.json": "9549311150dcb1ba90d4d391b0edba676835a21f0419e020ae2e9429749b004a"
+      },
+      "speedup": 14.758370048773738,
+      "saved_seconds": 2.263461000024108
+    }
+  ],
+  "extra_sources_sha256": {
+    "tools/mesh_quality_recover_evidence_r17c.py": "8b1902054fdb58492772bd4e25db2f21bec90b831eb1adc93dca6257937fe993",
+    "tools/package_mesh_quality_evidence_r17.py": "747fb818907dafc9acbc276f3d310d1bb85742a7cac9dd31aa39d4fc4d9fe033",
+    "tools/mesh_quality_final_gate_r17.py": "9290b476dfa57b36d05aa41f7e7b732b19a32a8a439f875b39604947aab797ed",
+    "tools/cleanup_mesh_quality_transports_r17.py": "cc2d10d4dcc0211660d2e5499fa7f1622c532cf6d240182958f2e413a1b25586"
+  },
+  "actual_quality_actions": [
+    {
+      "source": "accepted_binary",
+      "tier": "ultra",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_ff2444ceaf364ee7be04be1a3029f99e/UI/scene.json",
+      "all_field_and_mesh_arrays_exact_parent": true,
+      "actual_fresh_C1_words_exact_parent": true,
+      "mesh_preparation_seconds": 1.3397732800003723,
+      "before_UI_seconds": 55.850655763999384,
+      "receipt_sha256": "42abbcb4ee4e4b604affd2c357deac73e8746e317039d5aa86ad8331a81b6da2",
+      "actual_UI_click_to_scene_seconds": 89.447
+    },
+    {
+      "source": "network_probability",
+      "tier": "high",
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_4ca3b2ced6b64698970a8292a9cff55e/UI/scene.json",
+      "all_field_and_mesh_arrays_exact_parent": true,
+      "actual_fresh_C1_words_exact_parent": true,
+      "mesh_preparation_seconds": 1.3843230550010048,
+      "before_UI_seconds": 113.75216402899969,
+      "receipt_sha256": "ebea5bbd9a3b78e37a1e423065861722ad3fc91c14bc6aa3dec80d2494631900",
+      "actual_UI_click_to_scene_seconds": 147.145
+    }
+  ],
+  "prior_UI_action_seconds": {
+    "binary_ultra": 126.988,
+    "probability_high": 180.345
+  },
+  "resolved_test_harness_issue": {
+    "status": "test_harness_startup_child_assumption_resolved",
+    "original_log_sha256": "393032b6236065bbb6757f2777d0a4b32734dfddab11e1e46a9521c3d584b35d",
+    "original_test": "tools/mesh_quality_UI_trial_r17b.py",
+    "original_test_sha256": "01c31cc5b32e1c06ea11da15d1c2c11453c0747de1521e183bca2fc4e066bf0e",
+    "reason": "review initial supported prepare child had not finished at three seconds; it subsequently exited normally",
+    "product_code_changed": false,
+    "product_quality_tests_reused": true,
+    "forced_termination": false
+  },
+  "full_UI_times_historical_comparison_not_interleaved_AB": true,
+  "actual_Qt_checks": 21,
+  "C9_PS_PL": [
+    {
+      "width": 464,
+      "height": 309,
+      "sequence": 1,
+      "branch_event": 0,
+      "revision": "d3fb662fc6eded8e9b2380d2f00f57b8c7883813b55a33e70697f29064229d42",
+      "all_depth_normal_target_outline_words_exact_PS1_PS4_actual_PL": true,
+      "actual_manual_UI_camera_replayed": true,
+      "PS4_median_seconds": 0.5824974060014938,
+      "PL_median_seconds": 0.055469373997766525,
+      "PL_over_PS4_speedup": 10.501243551530761,
+      "upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.00095233,
+        "host_run_seconds": 0.167137242,
+        "total_seconds": 0.1674787349984399,
+        "phases": {
+          "validation": 0.005348534,
+          "allocation_copy_guards": 0.00307585,
+          "sync_to": 0.000224292,
+          "partial_select": 0.155828198,
+          "hardware": 0.00095233,
+          "sync_from": 0.000147471,
+          "guard_check_readback_copy": 0.001468185
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "samples": [
+        {
+          "PS4_full_call_seconds": 0.5829325300001074,
+          "PL_full_API_seconds": 0.05752182599826483,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053788398,
+            "host_run_seconds": 0.056910569,
+            "total_seconds": 0.0572193120024167,
+            "phases": {
+              "validation": 8.38e-06,
+              "allocation_copy_guards": 0.002258863,
+              "sync_to": 0.000157301,
+              "partial_select": 8.121e-06,
+              "hardware": 0.053788398,
+              "sync_from": 8.2941e-05,
+              "guard_check_readback_copy": 0.000548305
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        },
+        {
+          "PS4_full_call_seconds": 0.5824974060014938,
+          "PL_full_API_seconds": 0.05541164399983245,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053812968,
+            "host_run_seconds": 0.054816749,
+            "total_seconds": 0.055106231000536354,
+            "phases": {
+              "validation": 8.37e-06,
+              "allocation_copy_guards": 0.000149572,
+              "sync_to": 0.000116951,
+              "partial_select": 3.37e-06,
+              "hardware": 0.053812968,
+              "sync_from": 8.4921e-05,
+              "guard_check_readback_copy": 0.000586846
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        },
+        {
+          "PS4_full_call_seconds": 0.5822485339995183,
+          "PL_full_API_seconds": 0.055469373997766525,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053793018,
+            "host_run_seconds": 0.054935419,
+            "total_seconds": 0.05521164200035855,
+            "phases": {
+              "validation": 8.71e-06,
+              "allocation_copy_guards": 0.000149361,
+              "sync_to": 0.000197862,
+              "partial_select": 4.621e-06,
+              "hardware": 0.053793018,
+              "sync_from": 0.000110711,
+              "guard_check_readback_copy": 0.000609456
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        }
+      ],
+      "PL_pixels_sha256": "9f35840283bb98cd7289cd8a91296c271efe0a4fce5ad0437f18739e284c6097",
+      "full_static_1MiB_echo_and_C6_restore_passed": true
+    },
+    {
+      "width": 464,
+      "height": 309,
+      "sequence": 2,
+      "branch_event": 0,
+      "revision": "6b12df5d770cc0e697825f8ca860452a1bd487ef6363262316c7941b524c9726",
+      "all_depth_normal_target_outline_words_exact_PS1_PS4_actual_PL": true,
+      "actual_manual_UI_camera_replayed": true,
+      "PS4_median_seconds": 0.5801210919998994,
+      "PL_median_seconds": 0.05527980300030322,
+      "PL_over_PS4_speedup": 10.494268440079594,
+      "upload": {
+        "backend": "PL_C9_R7",
+        "hardware_seconds": 0.000969259,
+        "host_run_seconds": 0.166764488,
+        "total_seconds": 0.1670506509981351,
+        "phases": {
+          "validation": 0.005299073,
+          "allocation_copy_guards": 0.003096111,
+          "sync_to": 0.000174821,
+          "partial_select": 0.155511795,
+          "hardware": 0.000969259,
+          "sync_from": 0.000130092,
+          "guard_check_readback_copy": 0.001504115
+        },
+        "four_4096_byte_DMA_guards_passed": true,
+        "input_and_tokens_checked": true,
+        "production_accepted": true
+      },
+      "samples": [
+        {
+          "PS4_full_call_seconds": 0.5799936410003284,
+          "PL_full_API_seconds": 0.057258542998170014,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053632387,
+            "host_run_seconds": 0.056683487,
+            "total_seconds": 0.05697345999942627,
+            "phases": {
+              "validation": 9.07e-06,
+              "allocation_copy_guards": 0.002152301,
+              "sync_to": 0.000155492,
+              "partial_select": 7.19e-06,
+              "hardware": 0.053632387,
+              "sync_from": 8.3381e-05,
+              "guard_check_readback_copy": 0.000585706
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        },
+        {
+          "PS4_full_call_seconds": 0.580464734997804,
+          "PL_full_API_seconds": 0.055250053002964705,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053689837,
+            "host_run_seconds": 0.054744027,
+            "total_seconds": 0.05499342000257457,
+            "phases": {
+              "validation": 8.94e-06,
+              "allocation_copy_guards": 0.000149331,
+              "sync_to": 0.000118311,
+              "partial_select": 3.57e-06,
+              "hardware": 0.053689837,
+              "sync_from": 8.3581e-05,
+              "guard_check_readback_copy": 0.000602376
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        },
+        {
+          "PS4_full_call_seconds": 0.5801210919998994,
+          "PL_full_API_seconds": 0.05527980300030322,
+          "PL_job": {
+            "backend": "PL_C9_R7",
+            "hardware_seconds": 0.053690157,
+            "host_run_seconds": 0.054719107,
+            "total_seconds": 0.0550008499994874,
+            "phases": {
+              "validation": 8.93e-06,
+              "allocation_copy_guards": 0.000148922,
+              "sync_to": 0.000116201,
+              "partial_select": 3.64e-06,
+              "hardware": 0.053690157,
+              "sync_from": 8.4811e-05,
+              "guard_check_readback_copy": 0.000612876
+            },
+            "four_4096_byte_DMA_guards_passed": true,
+            "input_and_tokens_checked": true,
+            "production_accepted": true
+          }
+        }
+      ],
+      "PL_pixels_sha256": "b59cc30a0d55f52a5b0c82c71efd4111edf49f12d91af07753dd87b3ecefea70",
+      "full_static_1MiB_echo_and_C6_restore_passed": true
+    }
+  ],
+  "navigation_screenshots_read_by_assistant": true,
+  "same_input_scope": "exact previously measured C1 words with old/new PS preparation; fresh actual C1 and C9 exercised by native UI",
+  "current_board_state": {
+    "status": "tested_R17_manual_review_running",
+    "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+    "UI": {
+      "PID": 46772,
+      "argv": [
+        "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/feature_completion_r6/build_complete_scene_r17/medical_ui",
+        "--root",
+        "/home/ubuntu/jupyter_notebooks/KV260_System",
+        "--input",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+        "--evidence",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/modules/surface_route/results/mesh_quality_recovery_ARM_r17c/review"
+      ],
+      "scene": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/cache/surface_action_4ca3b2ced6b64698970a8292a9cff55e/UI/scene.json",
+      "binary_sha256": "e2546fde3d864b3f5aeb4d7158410a334060e417138a93e51fc359de8d139a45",
+      "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+      "production_promoted": false,
+      "no_automatic_startup": true
+    },
+    "preserved_defaults_sha256": {
+      "ui/active_release.json": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+      "ui/run.sh": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+      "ui/releases/feature_completion_r6/build_xray_r2/medical_ui": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+      "dfx/composite/medical/exact_speed_r26/worker": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+      "ui/releases/feature_completion_r6/acceptance_physical_fast_opacity_r3.json": "823bd04f45e3c88f06deac7c57ff6c74c5f87faef0fb75332980469dda28e2b5",
+      "dfx/surface_quality/release/manifest.json": "19f03f956438dc20d8fb4565fe166bdf9d5bac4e7315cfbfedcc38e7019e88bc"
+    },
+    "medical_shell_marker_sha256": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192"
+  },
+  "physical_ordinary_opacity": "passed_user_confirmed",
+  "physical_new_quality_controls": false,
+  "resources": {
+    "C1_whole": {
+      "LUT": 20577,
+      "FF": 34872,
+      "DSP": 3,
+      "BRAM36_equivalent": 9.5,
+      "URAM": 8
+    },
+    "C1_RP": {
+      "LUT": 6737,
+      "FF": 8990,
+      "DSP": 3,
+      "BRAM36_equivalent": 9.5,
+      "URAM": 8
+    },
+    "C9": {
+      "system_top": {
+        "LUT": 46292,
+        "FF": 49672,
+        "DSP": 328,
+        "BRAM36": 121,
+        "BRAM18": 0,
+        "BRAM36_equivalent": 121.0,
+        "URAM": 64
+      },
+      "rp": {
+        "LUT": 32452,
+        "FF": 23790,
+        "DSP": 328,
+        "BRAM36": 121,
+        "BRAM18": 0,
+        "BRAM36_equivalent": 121.0,
+        "URAM": 64
+      }
+    },
+    "unchanged": true,
+    "C1_100_MHz_scan_II": 1,
+    "C9_100_MHz_lanes": 4,
+    "C9_pipeline_II": 1
+  },
+  "PS_PL_split": {
+    "PS": [
+      "scalar preparation",
+      "zero-edge interpolation and mesh indexing",
+      "actual-wall route review",
+      "camera/guidance and packet preparation",
+      "Qt controls"
+    ],
+    "PL": [
+      "C1 binary Marching Cubes topology",
+      "C9 scalar wall/normal/target/outline rendering"
+    ]
+  },
+  "whole_pipeline_memory_peak_measured": false,
+  "new_bitstream": false,
+  "static_shell_reload": false,
+  "driver_unload": false,
+  "autostart_created": false,
+  "remaining": [
+    "physical current-surface comparison and quality review",
+    "active-scene batch/video/recovery dispatch",
+    "quality first-load verification and packet preparation waiting time",
+    "remaining original Python visual controls"
+  ],
+  "improvement_scope": "only exact PS vertex-link preparation; no reduced sampling, triangles, checks or PL fallback"
+}

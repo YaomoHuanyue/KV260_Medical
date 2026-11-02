@@ -1,0 +1,6 @@
+{
+  "original_renderer_sha256": "20cfed5d8740311f7dfef246eb6941d80a9ad8f8d19aee1718a77c97b7e821c7",
+  "trace_prefix_exact_until_shading": true,
+  "trace_source_sha256": "d5f8375ee42fae65fa7c92be51b607c598bebc135c313f005232f0792704abfb",
+  "original_source": "kv260_mc\\optimized\\legacy_software\\airway\\fpga_volume_renderer.py"
+}

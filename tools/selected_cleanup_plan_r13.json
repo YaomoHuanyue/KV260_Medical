@@ -1,0 +1,10 @@
+{
+  "archives_sha256": {
+    "selected_payload_r13.zip": "25cc7eca3c9a37d237a6a3daa41be351f423b060851c8cf0c87a058f105c3c4c",
+    "selected_negative_payload_r13.zip": "ab399df4b25e2d11c5f57610da3892adc7c63756514f61f7a66921e41cecdb61",
+    "selected_board_evidence_r13.zip": "ceb1a98fe9f0cfaeefd48e22dec3933a9728e3e769f6eee82413a5c504544f72",
+    "selected_checkpoint_payload_r13.zip": "9c1f984f56b0a0496d1a85a5eba2c8c9cf879db86146f91b0f5635a048eb4765",
+    "selected_progress_r13.zip": "45bebd1b8d9a1a8fceaa036c3b5641139c385a369c843e1897a8f22431d53df6"
+  },
+  "payload_preserved": true
+}

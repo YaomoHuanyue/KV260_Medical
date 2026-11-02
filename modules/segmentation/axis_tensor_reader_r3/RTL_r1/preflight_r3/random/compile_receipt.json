@@ -1,0 +1,75 @@
+{
+  "PID": 29604,
+  "parent_PID": 41224,
+  "command": [
+    "F:\\AMDDesignTools\\2025.2.1\\Vivado\\bin\\xvlog.bat",
+    "--sv",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\axis_tensor_reader_r3\\RTL_r1\\preflight_r3\\random\\tb.sv",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\reconstruction\\mesh_topology_r1\\rank_cache_URAM_r9\\full_RTL_memory_init_r2\\hold.sv"
+  ],
+  "job_memory_limit_bytes": 2147483648,
+  "exact_created_process_handle_verified": true,
+  "assigned_before_execution": true,
+  "inherited_descendants_limited": true,
+  "original_processes_assigned": false,
+  "elapsed_time_abort": false,
+  "minimum_system_free_commit_bytes": 1610612736,
+  "preflight_memory": {
+    "free_commit_bytes": 28647870464,
+    "physical_available_bytes": 6860173312,
+    "commit_limit_bytes": 68464361472,
+    "commit_total_bytes": 39816491008
+  },
+  "actual_default_memory_API": true,
+  "exit_code": 0,
+  "elapsed_s": 0.8471780000254512,
+  "job_events": [
+    {
+      "message": 6,
+      "PID": 29604
+    },
+    {
+      "message": 6,
+      "PID": 10028
+    },
+    {
+      "message": 6,
+      "PID": 54632
+    },
+    {
+      "message": 7,
+      "PID": 54632
+    },
+    {
+      "message": 6,
+      "PID": 55488
+    },
+    {
+      "message": 7,
+      "PID": 55488
+    },
+    {
+      "message": 7,
+      "PID": 29604
+    },
+    {
+      "message": 7,
+      "PID": 10028
+    },
+    {
+      "message": 4,
+      "PID": null
+    }
+  ],
+  "job_memory_limit_rejection_observed": false,
+  "reported_peak_job_bytes": 81317888,
+  "reported_peak_process_bytes": 71909376,
+  "job_total_processes": 4,
+  "all_owned_processes_terminal": true,
+  "resource_failure": null,
+  "minimum_observed_free_commit_bytes": 28598538240,
+  "native_memory_observations": 15,
+  "configured_job_memory_limit_bytes": 2147483648,
+  "configured_limit_flags": 8704,
+  "configured_limit_verified": true
+}

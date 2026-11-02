@@ -1,0 +1,18 @@
+{
+  "source_SHA256": {
+    "modules/surface_route/pl_default_r1/actions.py": "b0da43a0a262064898696a0230eaf78f6138c67b6b769634735dc0ecbd05db62",
+    "modules/surface_route/pl_default_r1/active_actions.py": "248b96734459dd5a5bc067ade906719930f4af90682c4cc92815ed8d2d93b4ec",
+    "modules/surface_route/pl_default_r1/active_backend.py": "9323078a92214cfda70518b25fa7c77dbfc975b82a107a7335d57d6316bd0c51",
+    "modules/surface_route/pl_default_r1/admission.py": "39596ef56a0c1ab3e045d0c5764c9517c45f3e1458a4713d2df33840a252b08a",
+    "modules/surface_route/pl_default_r1/backend.py": "39d29830ffc9db488990026d70022dd53ac985b0aec051ba848e8c99f91e315f",
+    "modules/surface_route/surface_actions_r15.py": "25b1de0a23df2329cf8dd52cdeb55ea82917e657c72934e9b26bcd0779a06480",
+    "modules/surface_route/active_actions_r15.py": "86a0555b65e13651f771f18942d79ef62439d07eaac421d514108c96ea5ec989",
+    "modules/surface_route/active_backend_r20.py": "6c23c785daee551296ee50aac5056e1b2a611281ccaf180c8dc3f4554c932d7d",
+    "modules/navigation_replan/backend_r2265.py": "17ed183ff1f766c6cbdeb591d1d250df7ebe571fb541b35183fac0cf7d5984e9",
+    "modules/navigation_comparison/current_release_r1/runtime.py": "b70f3ffcbaeb474a08da0719ffb69b795c56767a12ef7b681fe1db71d4862927",
+    "modules/navigation_comparison/current_release_r1/runtime_inputs.json": "f4bcfd28dd508626f945f92e91be82ad5ebf1ed78fd7ea2eeef409d426028835"
+  },
+  "exact_original_geometry_all_nodes_full_outputs_and_candidate_rules_preserved": true,
+  "actual_PL_board_and_native_GUI_delta_tests_pending": true,
+  "formal_UI_unchanged": true
+}

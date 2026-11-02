@@ -1,0 +1,118 @@
+{
+  "edits": [
+    {
+      "parent": "ui/releases/feature_completion_r6/src/controls_focus_r3.inc",
+      "parent_sha256": "eec83f94b9936dec9867a1fd99fc7576e5f7fc2187660cb2020dc14dc9a74d52",
+      "child": "ui/releases/feature_completion_r6/src/controls_sync_r21.inc",
+      "child_sha256": "664a27633933f145c602989c49dc13eadd6e21c204cf9c7953a5c77a603a866e",
+      "changes": [
+        [
+          " QLabel*navigationPosition=nullptr;double navigationSpeedCurrent=2.;",
+          " QLabel*navigationPosition=nullptr;QCheckBox*navigationAlign=nullptr;double navigationSpeedCurrent=2.;\n // Update presentation from the continuous camera without sending a slider\n // change back into setCamera, which would snap to a sampled path position.\n void syncNavigationControlsFromCamera(){\n  if(!scope||!cameraSlider||!navigationPosition)return;\n  {QSignalBlocker blocked(cameraSlider);cameraSlider->setValue(scope->cameraForDistance(scope->distance()));}\n  navigationPosition->setText(QString(u(\"\u4f4d\u7f6e %1 / %2 mm\")).arg(scope->distance(),0,'f',1).arg(scope->totalDistance(),0,'f',1));\n  if(navigationAlign){QSignalBlocker blocked(navigationAlign);navigationAlign->setChecked(scope->scopeViewState()[\"auto_align\"].toBool());}\n }"
+        ],
+        [
+          "  QSignalBlocker blocked(cameraSlider);cameraSlider->setValue(scope->cameraForDistance(scope->distance()));\n  navigationPosition->setText(QString(u(\"\u4f4d\u7f6e %1 / %2 mm\")).arg(scope->distance(),0,'f',1)\n   .arg(scope->totalDistance(),0,'f',1));",
+          "  syncNavigationControlsFromCamera();"
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/active_recovery_UI_r20.inc",
+      "parent_sha256": "4e1aee003c6ea0453cc36b6761f3d66a2c6aefc92e25cab427b5d2e3bd84bf4e",
+      "child": "ui/releases/feature_completion_r6/src/active_recovery_UI_r21.inc",
+      "child_sha256": "be89b94667f20d882fad9f950f9738ad21abf611fb53404921b37b355b495cbd",
+      "changes": [
+        [
+          " QJsonArray activeRecoveryChecks;QTimer activeRecoveryTimer;",
+          " QJsonArray activeRecoveryChecks;QTimer activeRecoveryTimer;QJsonObject activeRecoveryBeforeControls;\n QJsonObject recoveryNavigationControls()const{\n  return {{\"slider_index\",cameraSlider->value()},{\"expected_slider_index\",scope->cameraForDistance(scope->distance())},\n   {\"position_label\",navigationPosition->text()},\n   {\"expected_position_label\",QString(u(\"\u4f4d\u7f6e %1 / %2 mm\")).arg(scope->distance(),0,'f',1).arg(scope->totalDistance(),0,'f',1)},\n   {\"align_checkbox\",navigationAlign->isChecked()},{\"camera_auto_align\",scope->scopeViewState()[\"auto_align\"]},\n   {\"continuous_distance_mm\",scope->distance()}};\n }\n void checkRecoveryControls(QString phase){auto c=recoveryNavigationControls();\n  recoveryCheck(phase+\"_slider_matches_actual_camera\",c[\"slider_index\"]==c[\"expected_slider_index\"]);\n  recoveryCheck(phase+\"_position_label_matches_actual_camera\",c[\"position_label\"]==c[\"expected_position_label\"]);\n  recoveryCheck(phase+\"_align_checkbox_matches_actual_camera\",c[\"align_checkbox\"]==c[\"camera_auto_align\"]);\n }"
+        ],
+        [
+          "{\"checks\",activeRecoveryChecks},{\"before_scene\",activeRecoveryBefore}",
+          "{\"checks\",activeRecoveryChecks},{\"before_controls\",activeRecoveryBeforeControls},{\"after_controls\",recoveryNavigationControls()},{\"before_scene\",activeRecoveryBefore}"
+        ],
+        [
+          "   lesionList->setCurrentIndex(index);dualCheck->setChecked(true);tabs->setCurrentIndex(2);scope->setDistance(std::min(35.f,scope->totalDistance()*.3f));\n   for(auto*c:findChildren<QCheckBox*>())if(c->text()==u(\"\u81ea\u52a8\u5bf9\u9f50\u8def\u5f84\")&&c->isChecked())QTest::mouseClick(c,Qt::LeftButton);",
+          "   lesionList->setCurrentIndex(index);dualCheck->setChecked(true);tabs->setCurrentIndex(2);\n   if(navigationAlign->isChecked())QTest::mouseClick(navigationAlign,Qt::LeftButton);\n   cameraSlider->setFocus();QTest::keyClick(cameraSlider,Qt::Key_Home);\n   int sliderTarget=qMin(cameraSlider->maximum()-1,qMax(1,scope->cameraForDistance(std::min(35.f,scope->totalDistance()*.3f))));\n   for(int i=0;i<sliderTarget;++i)QTest::keyClick(cameraSlider,Qt::Key_Right);\n   recoveryCheck(\"real_slider_keyboard_changed_camera\",cameraSlider->value()==sliderTarget&&scope->distance()>0);\n   double sliderDistance=scope->distance();navigationStep->setValue(1.37);QTest::mouseClick(navForward,Qt::LeftButton);\n   recoveryCheck(\"real_forward_button_preserves_continuous_distance\",std::abs(scope->distance()-(sliderDistance+1.37))<1.e-4);\n   checkRecoveryControls(\"before_action\");"
+        ],
+        [
+          "    if(activeRecoveryStage==1){activeRecoveryBeforeScope=scope->scopeViewState();activeRecoveryBeforeOverview=overview->overviewCamera();\n     activeRecoveryStage=2;QTest::mouseClick(recoveryButton,Qt::LeftButton);return;}",
+          "    if(activeRecoveryStage==1){activeRecoveryBeforeScope=scope->scopeViewState();activeRecoveryBeforeOverview=overview->overviewCamera();\n     activeRecoveryBeforeControls=recoveryNavigationControls();tabs->setCurrentIndex(0);\n     activeRecoveryStage=2;QTest::mouseClick(recoveryButton,Qt::LeftButton);return;}"
+        ],
+        [
+          "    activeRecoveryFrame=shown;recoveryCheck(",
+          "    checkRecoveryControls(\"restored_presented_frame\");capture(\"restored_navigation_controls\");\n    activeRecoveryFrame=shown;recoveryCheck("
+        ],
+        [
+          "  recoveryCheck(\"manual_camera_and_overview_restored\",",
+          "  checkRecoveryControls(\"after_action\");recoveryCheck(\"continuous_camera_and_controls_restored_exact\",recoveryNavigationControls()==activeRecoveryBeforeControls);\n  recoveryCheck(\"manual_camera_and_overview_restored\","
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r20.cpp",
+      "parent_sha256": "7689e22297f97224416a0325d8b8b6e4f8fe8a68d9166d9c0042b3279d8cc273",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r21.cpp",
+      "child_sha256": "4fe674173e8325d3031b66426538cc199638dd1a56937f09561c9c3bf3cfffef",
+      "changes": [
+        [
+          "controls_focus_r3.inc",
+          "controls_sync_r21.inc"
+        ],
+        [
+          "active_recovery_UI_r20.inc",
+          "active_recovery_UI_r21.inc"
+        ],
+        [
+          "auto*alignCheck=new QCheckBox",
+          "navigationAlign=new QCheckBox"
+        ],
+        [
+          "alignCheck->setChecked(true);navTools->addWidget(alignCheck);",
+          "navigationAlign->setChecked(true);navTools->addWidget(navigationAlign);"
+        ],
+        [
+          "connect(alignCheck,&QCheckBox::toggled,scope,",
+          "connect(navigationAlign,&QCheckBox::toggled,scope,"
+        ],
+        [
+          "scope->onCamera=[this](int i){cameraSlider->setValue(i);};",
+          "scope->onCamera=[this](int){syncNavigationControlsFromCamera();if(playing){playbackStart=scope->distance();playbackClock.restart();}};"
+        ],
+        [
+          "scope->onPoseChanged=[this]{if(plScope->active()&&!processing())",
+          "scope->onPoseChanged=[this]{syncNavigationControlsFromCamera();if(plScope->active()&&!processing())"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r20.py",
+      "parent_sha256": "96c988c80979d4f3b3f434aa6a92b1bbff86bcb264d9e0cdd3f55c67c5591fac",
+      "child": "modules/surface_route/board_native_build_r21.py",
+      "child_sha256": "ccdbba8a9268673d4dce4014d5a67e96bfd52c8165b7eaf47f10d3fe144f23fe",
+      "changes": [
+        [
+          "out=folder/'build_complete_scene_r20'",
+          "out=folder/'build_complete_scene_r21'"
+        ],
+        [
+          "parent=folder/'build_complete_scene_r19'",
+          "parent=folder/'build_complete_scene_r20'"
+        ],
+        [
+          "native_UI_source_closure_r20",
+          "native_UI_source_closure_r21"
+        ],
+        [
+          "main_complete_scene_r20",
+          "main_complete_scene_r21"
+        ],
+        [
+          "R20 native adapter",
+          "R21 native adapter"
+        ]
+      ]
+    }
+  ],
+  "new_bitstream": false,
+  "renderer_and_transport_objects_unchanged": true
+}

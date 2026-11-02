@@ -1,0 +1,86 @@
+{
+  "status": "all193_full_writer_native_fixtures_and_independent_NumPy_gold_verified_actual_RTL_pending",
+  "cases": 193,
+  "archive_SHA256": "5f0768568f673cb1d092820b07b86f4005369f2a1ce40cf5ae5f9fd11a5e9193",
+  "archive_bytes": 49152243,
+  "all_members_full_stream_SHA_verified": true,
+  "maximum512x512x64_full_top_and_all_original193_cases_retained": true,
+  "all193_original_case_digests_and_output_gold_NumPy_exact": true,
+  "two_original_invalid_primitive_channel_cases_explicit_top_control_reject_no_input": true,
+  "native_forward_transformation_does_not_claim_VENDOR_Csim_or_RTL_for28_new_top_calls": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r1/export_fixture.py": "7ac564019b25c56e7dde7fd905c452d131f5ff707ca3c7bd8096ed7d9b3e46fe",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r1/emit_fixture.hpp": "0d82d55d3f78cdf46b3fcc77422e1e8fa811a754dd271d8d609626ec740e6185",
+    "modules/segmentation/ct_pool_fusion_r1/tests_r4.cpp": "71a3e05798badada693c9d36b08c596cdfd10ca662f64be24a8cc2b02586b9cb",
+    "modules/segmentation/ct_pool_fusion_r1/vendor_testbench.cpp": "e2affd5e261c94cbfab5f101356d092f7f4a7851c7ffc7d71a8b28f64be7766c",
+    "modules/segmentation/ct_pool_fusion_r1/adapter_r5/writer_pool.cpp": "39f06455aa17c1a82428fc2760c20f8422c406d05e3bd98e79f92f8ad5d576e8",
+    "modules/segmentation/ct_pool_fusion_r1/shared_pipeline_r4.hpp": "2657425d5f3a52286a527ef0d6a085de3658502f954644d8dd82c34b99d076a4",
+    "modules/segmentation/ct_pool_fusion_r1/pool_stream.hpp": "ee5e78b9e3263fb8ff0e15f54ddb655b02e306c8da5dc3e166b352a0866dbcbe",
+    "modules/segmentation/ct_pool_fusion_r1/model_tables.hpp": "5143d6dbde4c0ef165e329e3d4aa60246d5ad69b9488a07424b4453b9bf8998b",
+    "modules/segmentation/ct_pool_fusion_r1/vendor_native_Windows_r5/verified.json": "628c5151e3a3fce923bcb177b84a2123e08cd29c7b9a5f3bd8db96eaa05b0f6a",
+    "modules/segmentation/ct_pl/conv.cpp": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+    "modules/segmentation/ct_pl/stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+  },
+  "library_SHA256": "0cd978563f81b060157644c6bae7c95c9f12127b399dde4f1c305e7fd5cf844b",
+  "compiler_argv": [
+    "F:\\AMDDesignTools\\2025.2.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt\\bin\\g++.exe",
+    "-std=c++17",
+    "-O2",
+    "-shared",
+    "-DCT_NATIVE",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-Wno-unknown-pragmas",
+    "-ID:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1",
+    "-ID:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r1",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\adapter_r5\\writer_pool.cpp",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r1\\cpp_export\\bridge.cpp",
+    "-o",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r1\\cpp_export\\export.dll"
+  ],
+  "source_derivations": [
+    {
+      "source": "modules/segmentation/ct_pool_fusion_r1/vendor_testbench.cpp",
+      "source_SHA256": "e2affd5e261c94cbfab5f101356d092f7f4a7851c7ffc7d71a8b28f64be7766c",
+      "target_SHA256": "a4188a41336ed3848b2538fde5b0d0c530e84f4a21e4b73fde1cdd1822cdd856",
+      "reversible_literal_edits": [
+        [
+          "extern \"C\" void ct_writer_pool(Stream<P256>&,W256*,uint32_t,uint32_t&,const W256*,uint32_t,uint32_t,uint32_t,uint32_t,W256*,const W256*,uint32_t);",
+          "extern \"C\" void ct_writer_pool(Stream<P256>&,W256*,uint32_t,uint32_t&,const W256*,uint32_t,uint32_t,uint32_t,uint32_t,W256*,const W256*,uint32_t);\n#include \"emit_fixture.hpp\""
+        ],
+        [
+          " result(name,status,digest);",
+          " emit_primitive_fixture(cases,name,h,w,c,count,source,table,valid,status,digest);\n result(name,status,digest);"
+        ],
+        [
+          " result(\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);",
+          " emit_writer_fixture(cases,\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),h,w,c,count,mode,fault,spec.scale_bits,spec.zero,parameters,table,acc,expected,small,status,digest,1);\n result(\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);"
+        ]
+      ]
+    },
+    {
+      "source": "modules/segmentation/ct_pool_fusion_r1/tests_r4.cpp",
+      "source_SHA256": "71a3e05798badada693c9d36b08c596cdfd10ca662f64be24a8cc2b02586b9cb",
+      "target_SHA256": "b696a4f2ad1a0ccc2808c4640bc9a92a71c94d90d7af5753d12f3b0545ff8245",
+      "reversible_literal_edits": [
+        [
+          "#include \"vendor_testbench.cpp\"",
+          "#include \"typed_vendor.cpp\""
+        ],
+        [
+          "int main(){",
+          "int all193_export_tests(){"
+        ],
+        [
+          " result(\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),status,digest);",
+          " emit_writer_fixture(cases,\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),0,0,channels,count,mode,0,float_bits(qscale),zero,parameters,parameters.data()+groups*2,acc,expected,std::vector<uint8_t>{},status,digest,2);\n result(\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),status,digest);"
+        ]
+      ]
+    }
+  ],
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

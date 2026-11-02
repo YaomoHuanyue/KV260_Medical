@@ -1,0 +1,11 @@
+{
+  "status": "source_bound_physical_curve_quality_C4_comparison_starting",
+  "UI_PID": 512246,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "wrapper_sha256": "d6e975a5361fb8848bdcf07c7b96886e3e279fd2b1585c5d0d4720f365b27b43",
+  "comparison_source_sha256": "b53b945b595889d7f831e666cb36fb34cf8c0e68e9103147c219d01ccac2da24",
+  "review_sha256": "1d60bf09a6a17263090bee190a50655d09f1e0e84e064ba00ac993006ae778ce"
+}

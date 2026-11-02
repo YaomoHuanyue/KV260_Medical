@@ -1,0 +1,76 @@
+{
+  "status": "eight_Windows_ARM_curves_cameras_selected_exits_and_targets_match_six_C9_packets_byte_exact",
+  "scenarios": [
+    {
+      "label": "Q5_bend_0p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f",
+      "ARM_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f"
+    },
+    {
+      "label": "Q5_bend_0p05",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f",
+      "ARM_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f"
+    },
+    {
+      "label": "Q5_bend_1p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+      "ARM_route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e"
+    },
+    {
+      "label": "Q5_bend_10p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "56167d809d8c52baf7fa2b74da417f4544396beef98659262566165be5ce2463",
+      "ARM_route_id": "56167d809d8c52baf7fa2b74da417f4544396beef98659262566165be5ce2463"
+    },
+    {
+      "label": "Q6_bend_0p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f",
+      "ARM_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f"
+    },
+    {
+      "label": "Q6_bend_0p05",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f",
+      "ARM_route_id": "6064148915f632cff9d6086e378cce540a40452205ab08d3a500e9c40f3b3f4f"
+    },
+    {
+      "label": "Q6_bend_1p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e",
+      "ARM_route_id": "09b6a283251dc0b18e0c8598e8b715584a5ab67ab9575802c5b460b867ab3d0e"
+    },
+    {
+      "label": "Q6_bend_10p0",
+      "all_geometric_camera_and_audit_arrays_equivalent": true,
+      "all_scalar_target_voxels_exact": true,
+      "all_selected_branch_decisions_equal": true,
+      "Windows_route_id": "56167d809d8c52baf7fa2b74da417f4544396beef98659262566165be5ce2463",
+      "ARM_route_id": "56167d809d8c52baf7fa2b74da417f4544396beef98659262566165be5ce2463"
+    }
+  ],
+  "source_sha256": "846b47925e97e4c3487ca35c584e5bc89c41a3e9ba381c75331e64a0ae7c5b1c",
+  "evidence_sha256": {
+    "Windows": "59ac017c72d1dec059e112a7e2996851abe7a1c7811b23149dd6a147293c4bcc",
+    "ARM": "1f17a385f7e753f25c8fa4178b1f1c24b41f2d13ec2737d60cd7a063c58859e7"
+  },
+  "PL_access": false,
+  "production_promoted": false
+}

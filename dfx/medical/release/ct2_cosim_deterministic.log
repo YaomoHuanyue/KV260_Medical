@@ -1,0 +1,1833 @@
+
+****** vitis-run v2025.2.1 (64-bit)
+  **** SW Build 6397637 on 2026-03-13-19:08:23
+  **** Start of session at: Fri Oct  2 20:18:43 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2025.2.1 6397637
+
+INFO: [HLS 200-2005] Using work_dir T:/build/hls_ct2 
+
+INFO: [HLS 200-2006] Changing directory to T:/build
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file T:/build/hls_ct2/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component 'T:/build/hls_ct2'.
+
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+
+INFO: [HLS 200-2174] Applying component config ini file ct2_cosim.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=T:/algorithms/segmentation/conv.cpp' from ct2_cosim.cfg(5)
+
+INFO: [HLS 200-10] Adding design file 'T:/algorithms/segmentation/conv.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.cflags=-std=c++14' from ct2_cosim.cfg(6)
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=T:/algorithms/segmentation/dualpixel_testbench.cpp' from ct2_cosim.cfg(12)
+
+INFO: [HLS 200-10] Adding test bench file 'T:/algorithms/segmentation/dualpixel_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.cflags=-std=c++14' from ct2_cosim.cfg(13)
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=ct_conv' from ct2_cosim.cfg(4)
+
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from ct2_cosim.cfg(3)
+
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+
+INFO: [HLS 200-1465] Applying config ini 'part=xck26-sfvc784-2LV-c' from ct2_cosim.cfg(1)
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from ct2_cosim.cfg(7)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'cosim.enable_dataflow_profiling=true' from ct2_cosim.cfg(14)
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=T:/build/hls_ct2/ip.zip' from ct2_cosim.cfg(10)
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ct2_cosim.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file T:/build/hls_ct2/vitis-comp.json
+
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+
+   Build using "F:/AMDDesignTools/2025.2.1/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_ct_conv.cpp
+   Compiling apatb_ct_conv_util.cpp
+   Compiling conv.cpp_pre.cpp.tb.cpp
+   Compiling dualpixel_testbench.cpp_pre.cpp.tb.cpp
+   Compiling apatb_ct_conv_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+
+PASS 8x16 ci=5 co=16 k=3
+
+PASS 8x16 ci=16 co=16 k=3
+
+PASS 8x16 ci=32 co=16 k=3
+
+PASS 8x16 ci=32 co=32 k=3
+
+PASS 3x5 ci=64 co=64 k=3
+
+PASS 3x7 ci=17 co=13 k=3
+
+PASS 3x7 ci=33 co=17 k=3
+
+PASS 1x1 ci=1 co=1 k=3
+
+PASS 2x512 ci=5 co=16 k=3
+
+PASS 2x5 ci=63 co=63 k=3
+
+PASS 7x1 ci=1 co=3 k=3
+
+PASS 1x7 ci=1 co=9 k=3
+
+PASS 5x2 ci=8 co=17 k=3
+
+PASS 1x3 ci=64 co=9 k=3
+
+PASS 1x2 ci=16 co=17 k=3
+
+PASS 3x1 ci=32 co=24 k=3
+
+PASS 8x16 ci=16 co=3 k=1
+
+PASS 8x16 ci=64 co=32 k=1
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2056
+
+INFO: [COSIM 212-333] Generating C post check test bench ...
+
+INFO: [COSIM 212-12] Generating RTL test bench ...
+
+DEBUG: find group with different end. AESL_inst_ct_conv.grp_point_pipeline_fu_286.point_pixels_U0.grp_point_pixels_Pipeline_point_wide_tail_fu_170
+
+find not read role field
+
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+
+INFO: [COSIM 212-323] Starting verilog simulation. 
+
+INFO: [COSIM 212-15] Starting XSIM ...
+
+
+
+T:\build\hls_ct2\hls\sim\verilog>set PATH= 
+
+
+
+T:\build\hls_ct2\hls\sim\verilog>call F:/AMDDesignTools/2025.2.1/Vivado/bin/xelab xil_defaultlib.apatb_ct_conv_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj ct_conv.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./ct_conv_subsystem  -s ct_conv  
+
+Vivado Simulator v2025.2.1
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Running: F:/AMDDesignTools/2025.2.1/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_ct_conv_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj ct_conv.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./ct_conv_subsystem -s ct_conv 
+
+Multi-threading is on. Using 30 slave threads.
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/glbl.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module glbl
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_idx0_monitor.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx0_monitor
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_idx1_monitor.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx1_monitor
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_idx6_monitor.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx6_monitor
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_idx7_monitor.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx7_monitor
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_kernel_monitor_top.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_kernel_monitor_top
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv.autotb.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module apatb_ct_conv_top
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_ama_addmuladd_8s_8s_2ns_1ns_8_4_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_ama_addmuladd_8s_8s_2ns_1ns_8_4_1_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_ama_addmuladd_8s_8s_2ns_1ns_8_4_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_am_addmul_10ns_2ns_10ns_20_4_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_am_addmul_10ns_2ns_10ns_20_4_1_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_am_addmul_10ns_2ns_10ns_20_4_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_byte256.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_byte256
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_byte64.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_byte64
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_cache_RAM_2P_BRAM_1R1W.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_cache_RAM_2P_BRAM_1R1W
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_control_s_axi.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_control_s_axi
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_ct_conv_Pipeline_VITIS_LOOP_349_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_ct_conv_Pipeline_VITIS_LOOP_349_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_fifo_w1024_d4_A.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w1024_d4_A
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w1024_d4_A_ram
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_fifo_w2304_d2_S.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w2304_d2_S
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w2304_d2_S_ShiftReg
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_fifo_w512_d16_A.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w512_d16_A
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w512_d16_A_ram
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_fifo_w7_d2_S.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w7_d2_S
+
+INFO: [VRFC 10-311] analyzing module ct_conv_fifo_w7_d2_S_ShiftReg
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_flow_control_loop_pipe_sequential_init
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mac_muladd_8s_8s_16s_17_4_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_16s_17_4_0_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_16s_17_4_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mac_muladd_8s_8s_17s_17_4_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_17s_17_4_0_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_17s_17_4_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mac_muladd_8s_8s_17s_18_4_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_17s_18_4_0_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_17s_18_4_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mac_muladd_8s_8s_18s_19_4_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_18s_19_4_0_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_18s_19_4_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mac_muladd_8s_8s_19s_20_4_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_19s_20_4_0_DSP48_0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mac_muladd_8s_8s_19s_20_4_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_memory_m_axi.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_load
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_read
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_burst_converter
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_burst_interleave
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_burst_sequential
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_reg_slice
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_fifo
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_srl
+
+INFO: [VRFC 10-311] analyzing module ct_conv_memory_m_axi_mem
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_10ns_10ns_19_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_10ns_10ns_19_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_18ns_9ns_25_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_18ns_9ns_25_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_19ns_4ns_22_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_19ns_4ns_22_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_19ns_4ns_23_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_19ns_4ns_23_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_19ns_6ns_23_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_19ns_6ns_23_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_20ns_4ns_22_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_20ns_4ns_22_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_32s_32s_32_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_32s_32s_32_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_4ns_2ns_6_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_4ns_2ns_6_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_6ns_3ns_9_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_6ns_3ns_9_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_8ns_4ns_11_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_8ns_4ns_11_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_8s_5ns_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_8s_5ns_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_8s_8s_16_1_0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_8s_8s_16_1_0
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_mul_8s_8s_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_mul_8s_8s_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_partselect_64ns_256ns_8ns_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_partselect_64ns_256ns_8ns_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_partselect_8ns_256ns_8ns_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_partselect_8ns_256ns_8ns_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_partselect_8ns_64ns_6ns_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_partselect_8ns_64ns_6ns_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_macs.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_macs
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_macs_Pipeline_VITIS_LOOP_118_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_macs_Pipeline_VITIS_LOOP_118_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pipeline.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pipeline
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pipeline_Block_entry_proc.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pipeline_Block_entry_proc
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pixels.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pixels
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pixels_Pipeline_point_wide_large.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pixels_Pipeline_point_wide_large
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pixels_Pipeline_point_wide_small.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pixels_Pipeline_point_wide_small
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_point_pixels_Pipeline_point_wide_tail.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_point_pixels_Pipeline_point_wide_tail
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_regslice_both.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_regslice_both
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_11_3_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_11_3_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_13_3_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_13_3_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_15_3_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_15_3_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_17_3_256_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_17_3_256_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_17_3_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_17_3_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_16_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_16_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_24_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_24_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_32_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_32_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_40_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_40_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_48_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_48_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_56_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_56_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_19_4_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_19_4_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_7_2_32_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_7_2_32_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_16_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_16_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_24_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_24_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_32_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_32_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_40_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_40_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_48_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_48_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_56_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_56_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_64_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_64_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_sparsemux_9_3_8_1_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_sparsemux_9_3_8_1_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_dot_0u_s.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_dot_0u_s
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_dot_1u_s.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_dot_1u_s
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_macs.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_macs
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_macs_Pipeline_2.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_macs_Pipeline_2
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_macs_Pipeline_spatial_compute.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_macs_Pipeline_spatial_compute
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_output.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_output
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_output_Pipeline_spatial_serialize.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_output_Pipeline_spatial_serialize
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_pipeline.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_pipeline
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_windows.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_windows
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_windows_Outline_1.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_windows_Outline_1
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_windows_Pipeline_2.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_windows_Pipeline_2
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_windows_Pipeline_spatial_window_input.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_windows_Pipeline_spatial_window_input
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_spatial_windows_Pipeline_spatial_window_input_line1_RAM_2P_BRAM_1R1W.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_spatial_windows_Pipeline_spatial_window_input_line1_RAM_2P_BRAM_1R1W
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_start_for_point_macs_U0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_point_macs_U0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_point_macs_U0_ShiftReg
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_start_for_spatial_macs_U0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_spatial_macs_U0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_spatial_macs_U0_ShiftReg
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_start_for_spatial_output_U0.v" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_spatial_output_U0
+
+INFO: [VRFC 10-311] analyzing module ct_conv_start_for_spatial_output_U0_ShiftReg
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/svr/svr_pkg.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/svr/svr_if.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/axivip/axi_pkg.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/axivip/axi_if.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/ct_conv_subsystem/ct_conv_subsystem_pkg.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "T:/build/hls_ct2/hls/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+
+INFO: [VRFC 10-311] analyzing module sv_module_top
+
+Starting static elaboration
+
+Pass Through NonSizing Optimizer
+
+Completed static elaboration
+
+Starting simulation data flow analysis
+
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+
+Completed simulation data flow analysis
+
+Time Resolution for simulation is 1ps
+
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+
+Compiling package uvm.uvm_pkg
+
+Compiling package std.std
+
+Compiling package xil_defaultlib.svr_pkg
+
+Compiling package xil_defaultlib.file_agent_pkg
+
+Compiling package xil_defaultlib.axi_pkg
+
+Compiling package xil_defaultlib.ct_conv_subsystem_pkg
+
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+
+Compiling module xil_defaultlib.ct_conv_cache_RAM_2P_BRAM_1R1W
+
+Compiling module xil_defaultlib.ct_conv_flow_control_loop_pipe_s...
+
+Compiling module xil_defaultlib.ct_conv_ct_conv_Pipeline_VITIS_L...
+
+Compiling module xil_defaultlib.ct_conv_spatial_windows_Pipeline...
+
+Compiling module xil_defaultlib.ct_conv_spatial_windows_Outline_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_windows_Pipeline...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_17_3_64_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_spatial_windows_Pipeline...
+
+Compiling module xil_defaultlib.ct_conv_mul_20ns_4ns_22_1_1(NUM_...
+
+Compiling module xil_defaultlib.ct_conv_mul_10ns_10ns_19_1_1(NUM...
+
+Compiling module xil_defaultlib.ct_conv_am_addmul_10ns_2ns_10ns_...
+
+Compiling module xil_defaultlib.ct_conv_am_addmul_10ns_2ns_10ns_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_windows
+
+Compiling module xil_defaultlib.ct_conv_spatial_macs_Pipeline_2
+
+Compiling module xil_defaultlib.ct_conv_partselect_8ns_256ns_8ns...
+
+Compiling module xil_defaultlib.ct_conv_byte256
+
+Compiling module xil_defaultlib.ct_conv_mul_8s_8s_16_1_0(NUM_STA...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_16s_17_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_16s_17_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_17s_17_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_17s_17_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_17s_18_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_17s_18_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_18s_19_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_18s_19_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_19s_20_...
+
+Compiling module xil_defaultlib.ct_conv_mac_muladd_8s_8s_19s_20_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_dot_0u_s
+
+Compiling module xil_defaultlib.ct_conv_spatial_dot_1u_s
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_7_2_32_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_8_1_1(din0...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_8_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_16_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_16_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_24_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_24_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_32_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_32_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_40_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_40_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_48_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_48_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_56_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_56_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_9_3_64_1_1(din...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_19_4_64_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_ama_addmuladd_8s_8s_2ns_...
+
+Compiling module xil_defaultlib.ct_conv_ama_addmuladd_8s_8s_2ns_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_macs_Pipeline_sp...
+
+Compiling module xil_defaultlib.ct_conv_mul_6ns_3ns_9_1_1(NUM_ST...
+
+Compiling module xil_defaultlib.ct_conv_mul_18ns_9ns_25_1_1(NUM_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_macs
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_17_3_256_1_1(d...
+
+Compiling module xil_defaultlib.ct_conv_spatial_output_Pipeline_...
+
+Compiling module xil_defaultlib.ct_conv_mul_19ns_4ns_22_1_1(NUM_...
+
+Compiling module xil_defaultlib.ct_conv_spatial_output
+
+Compiling module xil_defaultlib.ct_conv_fifo_w2304_d2_S_ShiftReg
+
+Compiling module xil_defaultlib.ct_conv_fifo_w2304_d2_S_default
+
+Compiling module xil_defaultlib.ct_conv_fifo_w1024_d4_A_ram(DEPT...
+
+Compiling module xil_defaultlib.ct_conv_fifo_w1024_d4_A_default
+
+Compiling module xil_defaultlib.ct_conv_start_for_spatial_macs_U...
+
+Compiling module xil_defaultlib.ct_conv_start_for_spatial_macs_U...
+
+Compiling module xil_defaultlib.ct_conv_start_for_spatial_output...
+
+Compiling module xil_defaultlib.ct_conv_start_for_spatial_output...
+
+Compiling module xil_defaultlib.ct_conv_spatial_pipeline
+
+Compiling module xil_defaultlib.ct_conv_point_pipeline_Block_ent...
+
+Compiling module xil_defaultlib.ct_conv_point_pixels_Pipeline_po...
+
+Compiling module xil_defaultlib.ct_conv_partselect_64ns_256ns_8n...
+
+Compiling module xil_defaultlib.ct_conv_point_pixels_Pipeline_po...
+
+Compiling module xil_defaultlib.ct_conv_point_pixels_Pipeline_po...
+
+Compiling module xil_defaultlib.ct_conv_mul_19ns_4ns_23_1_1(NUM_...
+
+Compiling module xil_defaultlib.ct_conv_point_pixels
+
+Compiling module xil_defaultlib.ct_conv_partselect_8ns_64ns_6ns_...
+
+Compiling module xil_defaultlib.ct_conv_byte64
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_15_3_64_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_13_3_64_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_sparsemux_11_3_64_1_1(di...
+
+Compiling module xil_defaultlib.ct_conv_point_macs_Pipeline_VITI...
+
+Compiling module xil_defaultlib.ct_conv_mul_4ns_2ns_6_1_1(NUM_ST...
+
+Compiling module xil_defaultlib.ct_conv_mul_19ns_6ns_23_1_1(NUM_...
+
+Compiling module xil_defaultlib.ct_conv_point_macs
+
+Compiling module xil_defaultlib.ct_conv_fifo_w7_d2_S_ShiftReg
+
+Compiling module xil_defaultlib.ct_conv_fifo_w7_d2_S_default
+
+Compiling module xil_defaultlib.ct_conv_fifo_w512_d16_A_ram(DEPT...
+
+Compiling module xil_defaultlib.ct_conv_fifo_w512_d16_A_default
+
+Compiling module xil_defaultlib.ct_conv_start_for_point_macs_U0_...
+
+Compiling module xil_defaultlib.ct_conv_start_for_point_macs_U0_...
+
+Compiling module xil_defaultlib.ct_conv_point_pipeline
+
+Compiling module xil_defaultlib.ct_conv_control_s_axi
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_srl(DATA_WI...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_fifo(DATA_W...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_mem(MEM_STY...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_fifo(MEM_ST...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_load(NUM_RE...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_reg_slice(D...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_burst_seque...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_reg_slice(D...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_srl(DATA_WI...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_fifo(DATA_W...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi_read(C_USER...
+
+Compiling module xil_defaultlib.ct_conv_memory_m_axi(C_M_AXI_ADD...
+
+Compiling module xil_defaultlib.ct_conv_mul_32s_32s_32_1_1(NUM_S...
+
+Compiling module xil_defaultlib.ct_conv_mul_8s_5ns_8_1_1(NUM_STA...
+
+Compiling module xil_defaultlib.ct_conv_mul_8s_8s_8_1_1(NUM_STAG...
+
+Compiling module xil_defaultlib.ct_conv_mul_8ns_4ns_11_1_1(NUM_S...
+
+Compiling module xil_defaultlib.ct_conv_regslice_both(DataWidth=...
+
+Compiling module xil_defaultlib.ct_conv_regslice_both(DataWidth=...
+
+Compiling module xil_defaultlib.ct_conv_regslice_both(DataWidth=...
+
+Compiling module xil_defaultlib.ct_conv
+
+Compiling module xil_defaultlib.misc_interface_default
+
+Compiling module xil_defaultlib.svr_if(DATA_WIDTH=321)
+
+Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=64,STRB_WIDTH=...
+
+Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=7,STRB_WIDTH=4...
+
+Compiling module xil_defaultlib.sv_module_top
+
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+
+Compiling module xil_defaultlib.AESL_deadlock_idx1_monitor
+
+Compiling module xil_defaultlib.AESL_deadlock_idx7_monitor
+
+Compiling module xil_defaultlib.AESL_deadlock_idx6_monitor
+
+Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
+
+Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
+
+Compiling module xil_defaultlib.df_fifo_intf_default
+
+Compiling module xil_defaultlib.df_process_intf_default
+
+Compiling module xil_defaultlib.nodf_module_intf_default
+
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=4)
+
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+
+Compiling module xil_defaultlib.dataflow_monitor_1
+
+Compiling module xil_defaultlib.apatb_ct_conv_top
+
+Compiling module xil_defaultlib.glbl
+
+Built simulation snapshot ct_conv
+
+
+
+****** xsim v2025.2.1 (64-bit)
+
+  **** SW Build 6403652 on Thu Mar 19 19:48:24 GMT 2026
+
+  **** IP Build 6403511 on Thu Mar 19 12:41:45 MDT 2026
+
+  **** SharedData Build 6403650 on Thu Mar 19 14:02:13 MDT 2026
+
+  **** Start of session at: Fri Oct  2 20:21:08 2026
+
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+source xsim.dir/ct_conv/xsim_script.tcl
+
+# xsim {ct_conv} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=ct_conv_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {ct_conv.tcl}
+
+Time resolution is 1 ps
+
+source ct_conv.tcl
+
+## run all
+
+UVM_INFO F:/AMDDesignTools/2025.2.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+
+----------------------------------------------------------------
+
+UVM-1.2
+
+(C) 2007-2014 Mentor Graphics Corporation
+
+(C) 2007-2014 Cadence Design Systems, Inc.
+
+(C) 2006-2014 Synopsys, Inc.
+
+(C) 2011-2013 Cypress Semiconductor Corp.
+
+(C) 2013-2014 NVIDIA Corporation
+
+----------------------------------------------------------------
+
+
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+
+
+  You are using a version of the UVM library that has been compiled
+
+  with `UVM_NO_DEPRECATED undefined.
+
+
+
+  You are using a version of the UVM library that has been compiled
+
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+
+
+UVM_INFO F:/AMDDesignTools/2025.2.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+
+UVM_INFO F:/AMDDesignTools/2025.2.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+
+--------------------------------------------------------------------------------------------------------------
+
+Name                                               Type                                Size  Value            
+
+--------------------------------------------------------------------------------------------------------------
+
+uvm_test_top                                       ct_conv_test_lib                    -     @374             
+
+  top_env                                          ct_conv_env                         -     @385             
+
+    axi_lite_control                               uvm_env                             -     @464             
+
+      item_rtr_port                                uvm_analysis_port                   -     @483             
+
+      item_wtr_port                                uvm_analysis_port                   -     @473             
+
+      master                                       uvm_agent                           -     @896             
+
+        ardrv                                      uvm_driver #(REQ,RSP)               -     @1571            
+
+          item_read_imp                            uvm_analysis_port                   -     @1600            
+
+          rsp_port                                 uvm_analysis_port                   -     @1590            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @1580            
+
+          m_num_sent                               integral                            32    'h0              
+
+        arsqr                                      axi_sequencer                       -     @1610            
+
+          rsp_export                               uvm_analysis_export                 -     @1619            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @1737            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        awdrv                                      uvm_driver #(REQ,RSP)               -     @1043            
+
+          item_read_imp                            uvm_analysis_port                   -     @1072            
+
+          rsp_port                                 uvm_analysis_port                   -     @1062            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @1052            
+
+          m_num_sent                               integral                            32    'h0              
+
+        awsqr                                      axi_sequencer                       -     @1082            
+
+          rsp_export                               uvm_analysis_export                 -     @1091            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @1209            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        bdrv                                       uvm_driver #(REQ,RSP)               -     @1395            
+
+          item_read_imp                            uvm_analysis_port                   -     @1424            
+
+          rsp_port                                 uvm_analysis_port                   -     @1414            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @1404            
+
+          m_num_sent                               integral                            32    'h0              
+
+        bsqr                                       axi_sequencer                       -     @1434            
+
+          rsp_export                               uvm_analysis_export                 -     @1443            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @1561            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        rdrv                                       uvm_driver #(REQ,RSP)               -     @1747            
+
+          item_read_imp                            uvm_analysis_port                   -     @1776            
+
+          rsp_port                                 uvm_analysis_port                   -     @1766            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @1756            
+
+          m_num_sent                               integral                            32    'h0              
+
+        rsqr                                       axi_sequencer                       -     @1786            
+
+          rsp_export                               uvm_analysis_export                 -     @1795            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @1913            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        wdrv                                       uvm_driver #(REQ,RSP)               -     @1219            
+
+          item_read_imp                            uvm_analysis_port                   -     @1248            
+
+          rsp_port                                 uvm_analysis_port                   -     @1238            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @1228            
+
+          m_num_sent                               integral                            32    'h0              
+
+        wsqr                                       axi_sequencer                       -     @1258            
+
+          rsp_export                               uvm_analysis_export                 -     @1267            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @1385            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+      monitor                                      uvm_monitor                         -     @718             
+
+        item_ar2r_port                             uvm_analysis_port                   -     @787             
+
+        item_ar_port                               uvm_analysis_port                   -     @757             
+
+        item_aw2b_port                             uvm_analysis_port                   -     @777             
+
+        item_aw_port                               uvm_analysis_port                   -     @727             
+
+        item_b_port                                uvm_analysis_port                   -     @747             
+
+        item_r_port                                uvm_analysis_port                   -     @767             
+
+        item_w_port                                uvm_analysis_port                   -     @737             
+
+        checks_enable                              integral                            1     'h1              
+
+        coverage_enable                            integral                            1     'h1              
+
+      state                                        axi_state                           -     @797             
+
+        ar2r_imp                                   uvm_analysis_imp_ar2r               -     @866             
+
+        ar_imp                                     uvm_analysis_imp_ar                 -     @836             
+
+        aw2b_imp                                   uvm_analysis_imp_aw2b               -     @856             
+
+        aw_imp                                     uvm_analysis_imp_aw                 -     @806             
+
+        b_imp                                      uvm_analysis_imp_b                  -     @826             
+
+        item_rtr_port                              uvm_analysis_port                   -     @886             
+
+        item_wtr_port                              uvm_analysis_port                   -     @876             
+
+        r_imp                                      uvm_analysis_imp_r                  -     @846             
+
+        w_imp                                      uvm_analysis_imp_w                  -     @816             
+
+        avg_rate                                   integral                            32    'h0              
+
+        exp_rate                                   integral                            32    'h0              
+
+        win_size                                   integral                            32    'h0              
+
+        bqnum_for_slaseq                           integral                            32    'h0              
+
+        rq_from_model_num                          integral                            32    'h0              
+
+      vsqr                                         axi_virtual_sequencer               -     @905             
+
+        rsp_export                                 uvm_analysis_export                 -     @914             
+
+        seq_item_export                            uvm_seq_item_pull_imp               -     @1032            
+
+        arbitration_queue                          array                               0     -                
+
+        lock_queue                                 array                               0     -                
+
+        num_last_reqs                              integral                            32    'd1              
+
+        num_last_rsps                              integral                            32    'd1              
+
+      cfg                                          axi_cfg                             -     @405             
+
+        has_checker                                integral                            1     'h1              
+
+        has_coverage                               integral                            1     'h1              
+
+        id_num                                     integral                            32    'h1              
+
+        reset_level                                reset_level_enum                    32    RESET_LEVEL_LOW  
+
+        drv_type                                   drv_type_enum                       32    MASTER           
+
+        write_latency_mode                         latency_mode_enum                   32    CHANNEL_FIRST    
+
+        read_latency_mode                          latency_mode_enum                   32    CHANNEL_FIRST    
+
+        clatency                                   axi_latency                         -     @462             
+
+          wr_latency                               integral                            32    'h0              
+
+          rd_latency                               integral                            32    'h0              
+
+    axi_master_memory                              uvm_env                             -     @433             
+
+      item_rtr_port                                uvm_analysis_port                   -     @452             
+
+      item_wtr_port                                uvm_analysis_port                   -     @442             
+
+      monitor                                      uvm_monitor                         -     @1996            
+
+        item_ar2r_port                             uvm_analysis_port                   -     @2065            
+
+        item_ar_port                               uvm_analysis_port                   -     @2035            
+
+        item_aw2b_port                             uvm_analysis_port                   -     @2055            
+
+        item_aw_port                               uvm_analysis_port                   -     @2005            
+
+        item_b_port                                uvm_analysis_port                   -     @2025            
+
+        item_r_port                                uvm_analysis_port                   -     @2045            
+
+        item_w_port                                uvm_analysis_port                   -     @2015            
+
+        checks_enable                              integral                            1     'h1              
+
+        coverage_enable                            integral                            1     'h1              
+
+      slave                                        uvm_agent                           -     @2174            
+
+        ardrv                                      uvm_driver #(REQ,RSP)               -     @2851            
+
+          item_read_imp                            uvm_analysis_port                   -     @2880            
+
+          rsp_port                                 uvm_analysis_port                   -     @2870            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @2860            
+
+          m_num_sent                               integral                            32    'h0              
+
+        arsqr                                      axi_sequencer                       -     @2890            
+
+          rsp_export                               uvm_analysis_export                 -     @2899            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @3017            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        awdrv                                      uvm_driver #(REQ,RSP)               -     @2323            
+
+          item_read_imp                            uvm_analysis_port                   -     @2352            
+
+          rsp_port                                 uvm_analysis_port                   -     @2342            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @2332            
+
+          m_num_sent                               integral                            32    'h0              
+
+        awsqr                                      axi_sequencer                       -     @2362            
+
+          rsp_export                               uvm_analysis_export                 -     @2371            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @2489            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        bdrv                                       uvm_driver #(REQ,RSP)               -     @2675            
+
+          item_read_imp                            uvm_analysis_port                   -     @2704            
+
+          rsp_port                                 uvm_analysis_port                   -     @2694            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @2684            
+
+          m_num_sent                               integral                            32    'h0              
+
+        bsqr                                       axi_sequencer                       -     @2714            
+
+          rsp_export                               uvm_analysis_export                 -     @2723            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @2841            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        rdrv                                       uvm_driver #(REQ,RSP)               -     @3027            
+
+          item_read_imp                            uvm_analysis_port                   -     @3056            
+
+          rsp_port                                 uvm_analysis_port                   -     @3046            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @3036            
+
+          m_num_sent                               integral                            32    'h0              
+
+        rsqr                                       axi_sequencer                       -     @3066            
+
+          rsp_export                               uvm_analysis_export                 -     @3075            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @3193            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+        wdrv                                       uvm_driver #(REQ,RSP)               -     @2499            
+
+          item_read_imp                            uvm_analysis_port                   -     @2528            
+
+          rsp_port                                 uvm_analysis_port                   -     @2518            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @2508            
+
+          m_num_sent                               integral                            32    'h0              
+
+        wsqr                                       axi_sequencer                       -     @2538            
+
+          rsp_export                               uvm_analysis_export                 -     @2547            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @2665            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+      state                                        axi_state                           -     @2075            
+
+        ar2r_imp                                   uvm_analysis_imp_ar2r               -     @2144            
+
+        ar_imp                                     uvm_analysis_imp_ar                 -     @2114            
+
+        aw2b_imp                                   uvm_analysis_imp_aw2b               -     @2134            
+
+        aw_imp                                     uvm_analysis_imp_aw                 -     @2084            
+
+        b_imp                                      uvm_analysis_imp_b                  -     @2104            
+
+        item_rtr_port                              uvm_analysis_port                   -     @2164            
+
+        item_wtr_port                              uvm_analysis_port                   -     @2154            
+
+        r_imp                                      uvm_analysis_imp_r                  -     @2124            
+
+        w_imp                                      uvm_analysis_imp_w                  -     @2094            
+
+        avg_rate                                   integral                            32    'h0              
+
+        exp_rate                                   integral                            32    'h0              
+
+        win_size                                   integral                            32    'h0              
+
+        bqnum_for_slaseq                           integral                            32    'h0              
+
+        rq_from_model_num                          integral                            32    'h0              
+
+      vsqr                                         axi_virtual_sequencer               -     @2183            
+
+        rsp_export                                 uvm_analysis_export                 -     @2192            
+
+        seq_item_export                            uvm_seq_item_pull_imp               -     @2310            
+
+        arbitration_queue                          array                               0     -                
+
+        lock_queue                                 array                               0     -                
+
+        num_last_reqs                              integral                            32    'd1              
+
+        num_last_rsps                              integral                            32    'd1              
+
+      cfg                                          axi_cfg                             -     @404             
+
+        has_checker                                integral                            1     'h1              
+
+        has_coverage                               integral                            1     'h1              
+
+        id_num                                     integral                            32    'h1              
+
+        reset_level                                reset_level_enum                    32    RESET_LEVEL_LOW  
+
+        drv_type                                   drv_type_enum                       32    SLAVE            
+
+        write_latency_mode                         latency_mode_enum                   32    TRANSACTION_FIRST
+
+        read_latency_mode                          latency_mode_enum                   32    TRANSACTION_FIRST
+
+        clatency                                   axi_latency                         -     @429             
+
+          wr_latency                               integral                            32    'h0              
+
+          rd_latency                               integral                            32    'h0              
+
+    ct_conv_virtual_sqr                            ct_conv_virtual_sequencer           -     @575             
+
+      rsp_export                                   uvm_analysis_export                 -     @584             
+
+      seq_item_export                              uvm_seq_item_pull_imp               -     @702             
+
+      arbitration_queue                            array                               0     -                
+
+      lock_queue                                   array                               0     -                
+
+      num_last_reqs                                integral                            32    'd1              
+
+      num_last_rsps                                integral                            32    'd1              
+
+    env_master_svr_pixels                          uvm_env                             -     @406             
+
+      m_agt                                        uvm_agent                           -     @3274            
+
+        drv                                        uvm_driver #(REQ,RSP)               -     @3422            
+
+          rsp_port                                 uvm_analysis_port                   -     @3441            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @3431            
+
+        mon                                        uvm_monitor                         -     @3451            
+
+          item_collect_port                        uvm_analysis_port                   -     @3462            
+
+        sqr                                        uvm_sequencer                       -     @3285            
+
+          rsp_export                               uvm_analysis_export                 -     @3294            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @3412            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+    env_slave_svr_sums                             uvm_env                             -     @419             
+
+      s_agt                                        uvm_agent                           -     @3480            
+
+        drv                                        uvm_driver #(REQ,RSP)               -     @3628            
+
+          rsp_port                                 uvm_analysis_port                   -     @3647            
+
+          seq_item_port                            uvm_seq_item_pull_port              -     @3637            
+
+        mon                                        uvm_monitor                         -     @3657            
+
+          item_collect_port                        uvm_analysis_port                   -     @3668            
+
+        sqr                                        uvm_sequencer                       -     @3491            
+
+          rsp_export                               uvm_analysis_export                 -     @3500            
+
+          seq_item_export                          uvm_seq_item_pull_imp               -     @3618            
+
+          arbitration_queue                        array                               0     -                
+
+          lock_queue                               array                               0     -                
+
+          num_last_reqs                            integral                            32    'd1              
+
+          num_last_rsps                            integral                            32    'd1              
+
+    refm                                           ct_conv_reference_model             -     @493             
+
+      trans_num_idx                                integral                            32    'h0              
+
+    subsys_mon                                     ct_conv_subsystem_monitor           -     @506             
+
+      control_rtr_imp                              uvm_analysis_imp_axi_rtr_control    -     @565             
+
+      control_wtr_imp                              uvm_analysis_imp_axi_wtr_control    -     @555             
+
+      memory_rtr_imp                               uvm_analysis_imp_axi_rtr_memory     -     @545             
+
+      memory_wtr_imp                               uvm_analysis_imp_axi_wtr_memory     -     @535             
+
+      scbd                                         ct_conv_scoreboard                  -     @3691            
+
+        refm                                       ct_conv_reference_model             -     @493             
+
+          trans_num_idx                            integral                            32    'h0              
+
+        file_rd_TVOUT_transaction_size             <unknown>                           -     @3701            
+
+          TV_FILE                                  string                              0     ""               
+
+          fp                                       integral                            32    'hxxxxxxxx       
+
+          TV_FILE_num                              integral                            32    'h0              
+
+          HEX_read                                 integral                            32    'h0              
+
+          DEC_read                                 integral                            32    'h0              
+
+          is_binary                                integral                            32    'h0              
+
+          TV_FILE_COMPARE                          string                              0     ""               
+
+          fp_compare                               integral                            32    'hxxxxxxxx       
+
+        TVOUT_transaction_size_queue               da(integral)                        0     -                
+
+        file_wr_port_sums_sums_TDATA               <unknown>                           -     @3702            
+
+          TV_FILE                                  string                              0     ""               
+
+          fp                                       integral                            32    'hxxxxxxxx       
+
+          file_open                                integral                            32    'h0              
+
+          write_file_done                          integral                            32    'h0              
+
+          write_section_done                       integral                            32    'h0              
+
+          TRANSACTION_NUM                          integral                            32    'h0              
+
+          transaction_num_idx                      integral                            32    'h0              
+
+          TRANSACTION_DEPTH                        integral                            32    'h0              
+
+          TRANSACTION_DEPTH_queue                  da(integral)                        0     -                
+
+          TRANSACTION_DEPTH_queue_for_depth_check  da(integral)                        0     -                
+
+          transaction_depth_idx                    integral                            32    'h0              
+
+          ap_done_num_idx                          integral                            32    'h0              
+
+          is_binary                                integral                            32    'h0              
+
+        write_file_done_sums_sums_TDATA            integral                            32    'h0              
+
+        write_section_done_sums_sums_TDATA         integral                            32    'h0              
+
+        file_wr_port_sums_sums_TKEEP               <unknown>                           -     @3703            
+
+          TV_FILE                                  string                              0     ""               
+
+          fp                                       integral                            32    'hxxxxxxxx       
+
+          file_open                                integral                            32    'h0              
+
+          write_file_done                          integral                            32    'h0              
+
+          write_section_done                       integral                            32    'h0              
+
+          TRANSACTION_NUM                          integral                            32    'h0              
+
+          transaction_num_idx                      integral                            32    'h0              
+
+          TRANSACTION_DEPTH                        integral                            32    'h0              
+
+          TRANSACTION_DEPTH_queue                  da(integral)                        0     -                
+
+          TRANSACTION_DEPTH_queue_for_depth_check  da(integral)                        0     -                
+
+          transaction_depth_idx                    integral                            32    'h0              
+
+          ap_done_num_idx                          integral                            32    'h0              
+
+          is_binary                                integral                            32    'h0              
+
+        write_file_done_sums_sums_TKEEP            integral                            32    'h0              
+
+        write_section_done_sums_sums_TKEEP         integral                            32    'h0              
+
+        file_wr_port_sums_sums_TSTRB               <unknown>                           -     @3704            
+
+          TV_FILE                                  string                              0     ""               
+
+          fp                                       integral                            32    'hxxxxxxxx       
+
+          file_open                                integral                            32    'h0              
+
+          write_file_done                          integral                            32    'h0              
+
+          write_section_done                       integral                            32    'h0              
+
+          TRANSACTION_NUM                          integral                            32    'h0              
+
+          transaction_num_idx                      integral                            32    'h0              
+
+          TRANSACTION_DEPTH                        integral                            32    'h0              
+
+          TRANSACTION_DEPTH_queue                  da(integral)                        0     -                
+
+          TRANSACTION_DEPTH_queue_for_depth_check  da(integral)                        0     -                
+
+          transaction_depth_idx                    integral                            32    'h0              
+
+          ap_done_num_idx                          integral                            32    'h0              
+
+          is_binary                                integral                            32    'h0              
+
+        write_file_done_sums_sums_TSTRB            integral                            32    'h0              
+
+        write_section_done_sums_sums_TSTRB         integral                            32    'h0              
+
+        file_wr_port_sums_sums_TLAST               <unknown>                           -     @3705            
+
+          TV_FILE                                  string                              0     ""               
+
+          fp                                       integral                            32    'hxxxxxxxx       
+
+          file_open                                integral                            32    'h0              
+
+          write_file_done                          integral                            32    'h0              
+
+          write_section_done                       integral                            32    'h0              
+
+          TRANSACTION_NUM                          integral                            32    'h0              
+
+          transaction_num_idx                      integral                            32    'h0              
+
+          TRANSACTION_DEPTH                        integral                            32    'h0              
+
+          TRANSACTION_DEPTH_queue                  da(integral)                        0     -                
+
+          TRANSACTION_DEPTH_queue_for_depth_check  da(integral)                        0     -                
+
+          transaction_depth_idx                    integral                            32    'h0              
+
+          ap_done_num_idx                          integral                            32    'h0              
+
+          is_binary                                integral                            32    'h0              
+
+        write_file_done_sums_sums_TLAST            integral                            32    'h0              
+
+        write_section_done_sums_sums_TLAST         integral                            32    'h0              
+
+      svr_master_pixels_imp                        uvm_analysis_imp_svr_master_pixels  -     @515             
+
+      svr_slave_sums_imp                           uvm_analysis_imp_svr_slave_sums     -     @525             
+
+    env_master_svr_pixels                          uvm_env                             -     @406             
+
+    env_slave_svr_sums                             uvm_env                             -     @419             
+
+    refm                                           ct_conv_reference_model             -     @493             
+
+    ct_conv_virtual_sqr                            ct_conv_virtual_sequencer           -     @575             
+
+    ct_conv_cfg                                    ct_conv_config                      -     @399             
+
+      port_pixels_cfg                              svr_config                          -     @400             
+
+        svr_type                                   svr_inst_type                       32    SVR_MASTER       
+
+        prt_type                                   svr_protocol_type                   32    AXIS             
+
+        is_active                                  svr_active_passive_enum             1     SVR_ACTIVE       
+
+        reset_level                                svr_reset_level_enum                1     RESET_LEVEL_LOW  
+
+        spec_cfg                                   svr_spec_cfg_enum                   32    NORMAL           
+
+        clatency                                   svr_latency                         -     @401             
+
+          transfer_latency                         integral                            32    'h0              
+
+      port_sums_cfg                                svr_config                          -     @402             
+
+        svr_type                                   svr_inst_type                       32    SVR_SLAVE        
+
+        prt_type                                   svr_protocol_type                   32    AXIS             
+
+        is_active                                  svr_active_passive_enum             1     SVR_ACTIVE       
+
+        reset_level                                svr_reset_level_enum                1     RESET_LEVEL_LOW  
+
+        spec_cfg                                   svr_spec_cfg_enum                   32    NORMAL           
+
+        clatency                                   svr_latency                         -     @403             
+
+          transfer_latency                         integral                            32    'h0              
+
+      memory_cfg                                   axi_cfg                             -     @404             
+
+        has_checker                                integral                            1     'h1              
+
+        has_coverage                               integral                            1     'h1              
+
+        id_num                                     integral                            32    'h1              
+
+        reset_level                                reset_level_enum                    32    RESET_LEVEL_LOW  
+
+        drv_type                                   drv_type_enum                       32    SLAVE            
+
+        write_latency_mode                         latency_mode_enum                   32    TRANSACTION_FIRST
+
+        read_latency_mode                          latency_mode_enum                   32    TRANSACTION_FIRST
+
+        clatency                                   axi_latency                         -     @429             
+
+          wr_latency                               integral                            32    'h0              
+
+          rd_latency                               integral                            32    'h0              
+
+      control_cfg                                  axi_cfg                             -     @405             
+
+        has_checker                                integral                            1     'h1              
+
+        has_coverage                               integral                            1     'h1              
+
+        id_num                                     integral                            32    'h1              
+
+        reset_level                                reset_level_enum                    32    RESET_LEVEL_LOW  
+
+        drv_type                                   drv_type_enum                       32    MASTER           
+
+        write_latency_mode                         latency_mode_enum                   32    CHANNEL_FIRST    
+
+        read_latency_mode                          latency_mode_enum                   32    CHANNEL_FIRST    
+
+        clatency                                   axi_latency                         -     @462             
+
+          wr_latency                               integral                            32    'h0              
+
+          rd_latency                               integral                            32    'h0              
+
+      check_ena                                    integral                            32    'h0              
+
+      cover_ena                                    integral                            32    'h0              
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+UVM_INFO F:/AMDDesignTools/2025.2.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+
+//
+
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// RTL Simulation : 0 / 18 [0.00%] @ "125000"
+
+// RTL Simulation : 1 / 18 [100.00%] @ "7325000"
+
+// RTL Simulation : 2 / 18 [100.00%] @ "15185000"
+
+// RTL Simulation : 3 / 18 [100.00%] @ "30325000"
+
+// RTL Simulation : 4 / 18 [100.00%] @ "58445000"
+
+// RTL Simulation : 5 / 18 [100.00%] @ "83575000"
+
+// RTL Simulation : 6 / 18 [100.00%] @ "87735000"
+
+// RTL Simulation : 7 / 18 [100.00%] @ "97785000"
+
+// RTL Simulation : 8 / 18 [100.00%] @ "99215000"
+
+// RTL Simulation : 9 / 18 [100.00%] @ "156645000"
+
+// RTL Simulation : 10 / 18 [100.00%] @ "177505000"
+
+// RTL Simulation : 11 / 18 [100.00%] @ "178935000"
+
+// RTL Simulation : 12 / 18 [100.00%] @ "180425000"
+
+// RTL Simulation : 13 / 18 [100.00%] @ "182655000"
+
+// RTL Simulation : 14 / 18 [100.00%] @ "188025000"
+
+// RTL Simulation : 15 / 18 [100.00%] @ "190415000"
+
+// RTL Simulation : 16 / 18 [100.00%] @ "194415000"
+
+// RTL Simulation : 17 / 18 [100.00%] @ "196305000"
+
+// RTL Simulation : 18 / 18 [100.00%] @ "207665000"
+
+////////////////////////////////////////////////////////////////////////////////////
+
+$finish called at time : 207795 ns : File "F:/AMDDesignTools/2025.2.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 269.348 ; gain = 0.000
+
+## quit
+
+INFO: xsimkernel Simulation Memory Usage: 249232 KB (Peak: 249232 KB), Simulation CPU Usage: 20030 ms
+
+INFO: [Common 17-206] Exiting xsim at Fri Oct  2 20:21:31 2026...
+
+INFO: [COSIM 212-316] Starting C post checking ...
+
+PASS 8x16 ci=5 co=16 k=3
+
+PASS 8x16 ci=16 co=16 k=3
+
+PASS 8x16 ci=32 co=16 k=3
+
+PASS 8x16 ci=32 co=32 k=3
+
+PASS 3x5 ci=64 co=64 k=3
+
+PASS 3x7 ci=17 co=13 k=3
+
+PASS 3x7 ci=33 co=17 k=3
+
+PASS 1x1 ci=1 co=1 k=3
+
+PASS 2x512 ci=5 co=16 k=3
+
+PASS 2x5 ci=63 co=63 k=3
+
+PASS 7x1 ci=1 co=3 k=3
+
+PASS 1x7 ci=1 co=9 k=3
+
+PASS 5x2 ci=8 co=17 k=3
+
+PASS 1x3 ci=64 co=9 k=3
+
+PASS 1x2 ci=16 co=17 k=3
+
+PASS 3x1 ci=32 co=24 k=3
+
+PASS 8x16 ci=16 co=3 k=1
+
+PASS 8x16 ci=64 co=32 k=1
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2056
+
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+
+INFO: [HLS 200-112] Total CPU user time: 22 seconds. Total CPU system time: 4 seconds. Total elapsed time: 165.127 seconds; peak allocated memory: 649.938 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 2m 49s

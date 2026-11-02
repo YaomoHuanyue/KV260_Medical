@@ -1,0 +1,383 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date              : Sun Oct  4 22:29:41 2026
+| Host              : NYANKO-YUE running 64-bit major release  (build 9200)
+| Command           : report_timing_summary -file D:/Xilinx_Project/2026FPGA/kv260_system/dfx/composite/build/timing.rpt
+| Design            : system_top
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.31 12-08-2025
+| Design State      : Routed
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      1.604        0.000                      0               136164        0.010        0.000                      0               136164        3.500        0.000                       0                 39639  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock     Waveform(ns)       Period(ns)      Frequency(MHz)
+-----     ------------       ----------      --------------
+clk_pl_0  {0.000 5.000}      10.000          100.000         
+clk_pl_1  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_pl_0            1.604        0.000                      0               136164        0.010        0.000                      0               136164        3.500        0.000                       0                 39639  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.604ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.010ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.604ns  (required time - arrival time)
+  Source:                 rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/planes_U/U_depth_composite_fifo_w128_d256_A_ram/mem_reg_1/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E2 clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pl_0 rise@10.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        8.003ns  (logic 3.629ns (45.345%)  route 4.374ns (54.655%))
+  Logic Levels:           16  (CARRY8=4 LUT3=1 LUT4=4 LUT5=2 LUT6=5)
+  Clock Path Skew:        -0.277ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.845ns = ( 12.845 - 10.000 ) 
+    Source Clock Delay      (SCD):    3.362ns
+    Clock Pessimism Removal (CPR):    0.239ns
+  Clock Uncertainty:      0.160ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.312ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      3.095ns (routing 1.584ns, distribution 1.511ns)
+  Clock Net Delay (Destination): 2.629ns (routing 1.450ns, distribution 1.179ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      PBlock               Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------------------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                                      
+    PS8_X0Y0             PS8                          0.000     0.000 r  static                              platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.229     0.229    static                              platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  static                              platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=40059, routed)       3.095     3.362    boundary                            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/planes_U/U_depth_composite_fifo_w128_d256_A_ram/ap_clk
+    RAMB36_X0Y12         RAMB36E2                                     r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/planes_U/U_depth_composite_fifo_w128_d256_A_ram/mem_reg_1/CLKARDCLK
+  -------------------------------------------------------------------    -------------------------------------------------------
+    RAMB36_X0Y12         RAMB36E2 (Prop_RAMB36E2_RAMB36_CLKARDCLK_DOUTBDOUT[21])
+                                                      1.197     4.559 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/planes_U/U_depth_composite_fifo_w128_d256_A_ram/mem_reg_1/DOUTBDOUT[21]
+                         net (fo=11, routed)          1.158     5.717    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/mem_reg[125]
+    SLICE_X46Y75         LUT6 (Prop_H6LUT_SLICEL_I0_O)
+                                                      0.188     5.905 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/select_ln10_78_reg_6527[0]_i_5/O
+                         net (fo=1, routed)           0.049     5.954    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/select_ln10_78_reg_6527[0]_i_5_n_0
+    SLICE_X46Y75         LUT4 (Prop_E6LUT_SLICEL_I1_O)
+                                                      0.138     6.092 f  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/select_ln10_78_reg_6527[0]_i_2/O
+                         net (fo=44, routed)          0.697     6.789    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/mem_reg_1_0
+    SLICE_X31Y73         LUT5 (Prop_B5LUT_SLICEM_I0_O)
+                                                      0.229     7.018 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/xor_ln10_16_reg_6519[0]_i_73/O
+                         net (fo=1, routed)           0.167     7.185    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_1_U/xor_ln10_16_reg_6519_reg[0]_i_3
+    SLICE_X31Y71         LUT6 (Prop_A6LUT_SLICEM_I1_O)
+                                                      0.189     7.374 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_1_U/xor_ln10_16_reg_6519[0]_i_27/O
+                         net (fo=1, routed)           0.017     7.391    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/xor_ln10_16_reg_6519_reg[0]_i_2_0[0]
+    SLICE_X31Y71         CARRY8 (Prop_CARRY8_SLICEM_S[0]_CO[7])
+                                                      0.281     7.672 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/xor_ln10_16_reg_6519_reg[0]_i_3/CO[7]
+                         net (fo=1, routed)           0.030     7.702    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/xor_ln10_16_reg_6519_reg[0]_i_3_n_0
+    SLICE_X31Y72         CARRY8 (Prop_CARRY8_SLICEM_CI_CO[3])
+                                                      0.082     7.784 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/xor_ln10_16_reg_6519_reg[0]_i_2/CO[3]
+                         net (fo=89, routed)          0.233     8.018    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/select_ln10_78_reg_6527_reg[0][0]
+    SLICE_X30Y72         LUT3 (Prop_D6LUT_SLICEL_I1_O)
+                                                      0.152     8.170 f  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/tile_3_U/f_valid_37_reg_6577[0]_i_35/O
+                         net (fo=30, routed)          0.281     8.451    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_19_0
+    SLICE_X31Y67         LUT6 (Prop_H6LUT_SLICEM_I0_O)
+                                                      0.154     8.605 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_90/O
+                         net (fo=1, routed)           0.153     8.758    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_90_n_0
+    SLICE_X30Y67         LUT6 (Prop_D6LUT_SLICEL_I0_O)
+                                                      0.081     8.839 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_75/O
+                         net (fo=1, routed)           0.158     8.997    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_75_n_0
+    SLICE_X29Y68         LUT4 (Prop_G6LUT_SLICEM_I0_O)
+                                                      0.137     9.134 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_21/O
+                         net (fo=1, routed)           0.021     9.155    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577[0]_i_21_n_0
+    SLICE_X29Y68         CARRY8 (Prop_CARRY8_SLICEM_S[6]_CO[7])
+                                                      0.175     9.330 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577_reg[0]_i_3/CO[7]
+                         net (fo=1, routed)           0.030     9.360    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577_reg[0]_i_3_n_0
+    SLICE_X29Y69         CARRY8 (Prop_CARRY8_SLICEM_CI_CO[3])
+                                                      0.082     9.442 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/f_valid_37_reg_6577_reg[0]_i_2/CO[3]
+                         net (fo=26, routed)          0.389     9.831    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_24_fu_1886_p2[0]
+    SLICE_X28Y74         LUT5 (Prop_D5LUT_SLICEM_I3_O)
+                                                      0.190    10.021 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_25_reg_6583[0]_i_29/O
+                         net (fo=3, routed)           0.501    10.522    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_25_reg_6583[0]_i_29_n_0
+    SLICE_X26Y70         LUT4 (Prop_G6LUT_SLICEL_I0_O)
+                                                      0.082    10.604 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588[0]_i_24/O
+                         net (fo=1, routed)           0.233    10.837    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588[0]_i_24_n_0
+    SLICE_X25Y67         LUT4 (Prop_A6LUT_SLICEM_I0_O)
+                                                      0.189    11.026 f  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588[0]_i_6/O
+                         net (fo=1, routed)           0.186    11.212    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588[0]_i_6_n_0
+    SLICE_X26Y67         LUT6 (Prop_H6LUT_SLICEL_I4_O)
+                                                      0.083    11.295 r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588[0]_i_1/O
+                         net (fo=1, routed)           0.070    11.365    reconfigurable                      rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_fu_1936_p2[0]
+    SLICE_X26Y67         FDRE                                         r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588_reg[0]/D
+  -------------------------------------------------------------------    -------------------------------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                     10.000    10.000 r                                      
+    PS8_X0Y0             PS8                          0.000    10.000 r  static                              platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.181    10.181    static                              platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035    10.216 r  static                              platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=40059, routed)       2.629    12.845    boundary                            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/ap_clk
+    SLICE_X26Y67         FDRE                                         r  reconfigurable pblock_rp            rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588_reg[0]/C
+                         clock pessimism              0.239    13.084                                            
+                         clock uncertainty           -0.160    12.924                                            
+    SLICE_X26Y67         FDRE (Setup_HFF_SLICEL_C_D)
+                                                      0.044    12.968    reconfigurable   pblock_rp              rp/algorithm/algorithm_composite_i/core/inst/grp_render_fu_133/sort_blend_U0/grp_sort_blend_Pipeline_VITIS_LOOP_32_4_fu_169/icmp_ln10_26_reg_6588_reg[0]
+  -------------------------------------------------------------------
+                         required time                         12.968                                            
+                         arrival time                         -11.365                                            
+  -------------------------------------------------------------------
+                         slack                                  1.604                                            
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.010ns  (arrival time - required time)
+  Source:                 platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.234ns  (logic 0.112ns (47.793%)  route 0.122ns (52.207%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.121ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    3.189ns
+    Source Clock Delay      (SCD):    2.837ns
+    Clock Pessimism Removal (CPR):    0.230ns
+  Clock Net Delay (Source):      2.621ns (routing 1.450ns, distribution 1.171ns)
+  Clock Net Delay (Destination): 2.922ns (routing 1.584ns, distribution 1.338ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.181     0.181    static         platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.035     0.216 r  static         platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=40059, routed)       2.621     2.837    static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/ap_clk
+    SLICE_X37Y32         FDRE                                         r  static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X37Y32         FDRE (Prop_HFF_SLICEM_C_Q)
+                                                      0.112     2.949 r  static         platform/system_ps_i/dfx_writer/inst/memory_m_axi_U/bus_write/wreq_throttle/local_BUS_WSTRB_reg[10]/Q
+                         net (fo=2, routed)           0.122     3.071    static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/D[523]
+    SLICE_X36Y31         FDRE                                         r  static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         platform/system_ps_i/ps/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.229     0.229    static         platform/system_ps_i/ps/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y80        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.038     0.267 r  static         platform/system_ps_i/ps/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y1 (CLOCK_ROOT)    net (fo=40059, routed)       2.922     3.189    static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/aclk
+    SLICE_X36Y31         FDRE                                         r  static         platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]/C
+                         clock pessimism             -0.230     2.958                     
+    SLICE_X36Y31         FDRE (Hold_HFF2_SLICEL_C_D)
+                                                      0.103     3.061    static           platform/system_ps_i/memory_bus/inst/s01_entry_pipeline/s01_mmu/inst/w_sreg/skid_buffer_reg[2059]
+  -------------------------------------------------------------------
+                         required time                         -3.061                     
+                         arrival time                           3.071                     
+  -------------------------------------------------------------------
+                         slack                                  0.010                     
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { platform/system_ps_i/ps/inst/PS8_i/PLCLK[0] }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PS8/MAXIGP2ACLK  n/a            3.000         10.000      7.000      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+Low Pulse Width   Slow    PS8/MAXIGP2ACLK  n/a            1.500         5.000       3.500      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+High Pulse Width  Slow    PS8/MAXIGP2ACLK  n/a            1.500         5.000       3.500      PS8_X0Y0  platform/system_ps_i/ps/inst/PS8_i/MAXIGP2ACLK
+
+
+

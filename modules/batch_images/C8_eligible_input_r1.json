@@ -1,0 +1,76 @@
+{
+  "schema": "kv260.batch_C8_verified_input.v1",
+  "geometry": {
+    "size_xyz": [
+      512,
+      512,
+      139
+    ],
+    "spacing_xyz": [
+      0.7617189884185793,
+      0.7617189884185793,
+      2.5
+    ],
+    "origin_lps_mm": [
+      -195.00000000000003,
+      -171.69999694824224,
+      -347.7500000000001
+    ],
+    "direction": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "masks_sha256": "575a81cbfd0439ae32171840eb91af4c2a527205f4cfe30600716dfa57783503",
+  "airway_mask_bit": 2,
+  "acceptance": "modules/batch_images/results_C8_r1/benchmark/acceptance.json",
+  "acceptance_sha256": "83178b203961a1797db9ff3f5e051e0442fed51dcb11b395eeabdeb7e8ce2c30",
+  "layers": {
+    "lung": {
+      "shape_zyx": [
+        139,
+        344,
+        482
+      ],
+      "crop_lo_zyx": [
+        0,
+        66,
+        0
+      ],
+      "quantized_sha256": "3c9e1a08aa87ba9287bbbd91812680b2a80a4d5ce234dec5070b89432c5b18da"
+    },
+    "airway": {
+      "shape_zyx": [
+        91,
+        180,
+        252
+      ],
+      "crop_lo_zyx": [
+        48,
+        157,
+        139
+      ],
+      "quantized_sha256": "e59ce7b5689c1b1e7d8bf034750f8f3041d75f9cc0f2d0ef94a6d373c3975cfc"
+    },
+    "lesion": {
+      "shape_zyx": [
+        81,
+        231,
+        309
+      ],
+      "crop_lo_zyx": [
+        44,
+        132,
+        117
+      ],
+      "quantized_sha256": "11adff3c3b81f5f3d5b91cba875bba713525a8386feeba44fe2c3f04de9f8900"
+    }
+  }
+}

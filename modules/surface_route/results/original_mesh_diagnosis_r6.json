@@ -1,0 +1,277 @@
+{
+  "status": "raw_PL_and_scalar_relocated_topology_failures_separated",
+  "cases": [
+    {
+      "name": "accepted_binary_high_ported",
+      "raw_PL_binary_topology": {
+        "triangles": 94660,
+        "boundary_edges": 72,
+        "nonmanifold_edges": 0,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 2,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "raw_PL_binary_region": {
+        "status": "passed",
+        "triangles": 94660,
+        "boundary_edges": 72,
+        "crop_openings": [
+          {
+            "vertices": 72,
+            "axis": 2,
+            "side": 1
+          }
+        ],
+        "winding_closure": "signed_crop_polygon_integral_only",
+        "real_mesh_changed": false,
+        "virtual_closures_used_for_wall_distance": false,
+        "self_intersection_or_clinical_validation": false,
+        "preparation_seconds": 2.862795822962653
+      },
+      "scalar_relocated_topology": {
+        "triangles": 91063,
+        "boundary_edges": 71,
+        "nonmanifold_edges": 1,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 4,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "original_zero_area_triangles_removed": 3597,
+      "bad_scalar_edge_examples": [
+        {
+          "edge_lps_mm": [
+            [
+              60.93753433227539,
+              12.448478698730469,
+              -146.25
+            ],
+            [
+              61.43753433227539,
+              12.753836631774902,
+              -146.53045654296875
+            ]
+          ],
+          "incident_faces": 4,
+          "scalar_samples_mm": [
+            -1.3907750551211961e-07,
+            0.14470567244549892
+          ]
+        }
+      ],
+      "existing_route_gate_preserved": true,
+      "mesh_repaired_or_accepted_here": false
+    },
+    {
+      "name": "accepted_binary_ultra_ported",
+      "raw_PL_binary_topology": {
+        "triangles": 93446,
+        "boundary_edges": 72,
+        "nonmanifold_edges": 0,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 2,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "raw_PL_binary_region": {
+        "status": "passed",
+        "triangles": 93446,
+        "boundary_edges": 72,
+        "crop_openings": [
+          {
+            "vertices": 72,
+            "axis": 2,
+            "side": 1
+          }
+        ],
+        "winding_closure": "signed_crop_polygon_integral_only",
+        "real_mesh_changed": false,
+        "virtual_closures_used_for_wall_distance": false,
+        "self_intersection_or_clinical_validation": false,
+        "preparation_seconds": 2.7328660329803824
+      },
+      "scalar_relocated_topology": {
+        "triangles": 91617,
+        "boundary_edges": 71,
+        "nonmanifold_edges": 1,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 4,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "original_zero_area_triangles_removed": 1829,
+      "bad_scalar_edge_examples": [
+        {
+          "edge_lps_mm": [
+            [
+              -41.33708572387695,
+              2.9901459217071533,
+              -123.5
+            ],
+            [
+              -41.06246566772461,
+              2.698479175567627,
+              -123.0
+            ]
+          ],
+          "incident_faces": 4,
+          "scalar_samples_mm": [
+            0.05886966920773199,
+            0.0
+          ]
+        }
+      ],
+      "existing_route_gate_preserved": true,
+      "mesh_repaired_or_accepted_here": false
+    },
+    {
+      "name": "network_probability_high_ported",
+      "raw_PL_binary_topology": {
+        "triangles": 93238,
+        "boundary_edges": 70,
+        "nonmanifold_edges": 0,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 2,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "raw_PL_binary_region": {
+        "status": "passed",
+        "triangles": 93238,
+        "boundary_edges": 70,
+        "crop_openings": [
+          {
+            "vertices": 70,
+            "axis": 2,
+            "side": 1
+          }
+        ],
+        "winding_closure": "signed_crop_polygon_integral_only",
+        "real_mesh_changed": false,
+        "virtual_closures_used_for_wall_distance": false,
+        "self_intersection_or_clinical_validation": false,
+        "preparation_seconds": 2.7144068779889494
+      },
+      "scalar_relocated_topology": {
+        "triangles": 89553,
+        "boundary_edges": 69,
+        "nonmanifold_edges": 1,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 4,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "original_zero_area_triangles_removed": 3685,
+      "bad_scalar_edge_examples": [
+        {
+          "edge_lps_mm": [
+            [
+              58.246124267578125,
+              59.91535568237305,
+              -201.25
+            ],
+            [
+              58.558624267578125,
+              60.108612060546875,
+              -200.75
+            ]
+          ],
+          "incident_faces": 4,
+          "scalar_samples_mm": [
+            0.0687273708725229,
+            2.0364894913132667e-06
+          ]
+        }
+      ],
+      "existing_route_gate_preserved": true,
+      "mesh_repaired_or_accepted_here": false
+    },
+    {
+      "name": "network_probability_ultra_ported",
+      "raw_PL_binary_topology": {
+        "triangles": 91770,
+        "boundary_edges": 70,
+        "nonmanifold_edges": 0,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 2,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "raw_PL_binary_region": {
+        "status": "passed",
+        "triangles": 91770,
+        "boundary_edges": 70,
+        "crop_openings": [
+          {
+            "vertices": 70,
+            "axis": 2,
+            "side": 1
+          }
+        ],
+        "winding_closure": "signed_crop_polygon_integral_only",
+        "real_mesh_changed": false,
+        "virtual_closures_used_for_wall_distance": false,
+        "self_intersection_or_clinical_validation": false,
+        "preparation_seconds": 2.6038626119843684
+      },
+      "scalar_relocated_topology": {
+        "triangles": 90118,
+        "boundary_edges": 70,
+        "nonmanifold_edges": 0,
+        "inconsistent_two_face_edges": 0,
+        "maximum_edge_incidence": 2,
+        "bad_edges_with_nonzero_orientation_balance": 0
+      },
+      "original_zero_area_triangles_removed": 1652,
+      "bad_scalar_edge_examples": [],
+      "existing_route_gate_preserved": true,
+      "mesh_repaired_or_accepted_here": false
+    }
+  ],
+  "input_sha256": {
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/acceptance.json": "5714958b78d7f8697ba46704d1601c306b749ed77f4c8edfd44b884451def3d1",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/vertices_0.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/report.json": "a14e75ff7e817ec2213f66e8f042b35d06b2b43ba4c13d363b13e2c8ab7f3705",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/session.json": "f34bcb7f5afe7bad10dabaa700be279d10da062f911a3a12c502b6dc3d6c39de",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/mesh.npz": "d8264521ecd8af7976db93e9a64645914cb9a3e86f960f3ad9eaba00e6761255",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/mask.u8": "6e6fbcb98d040bbd87ea5e5268855fcaaaf9bf2638a2537ba992cffc5b896e74",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/vertices_1.u64": "7c8e73dc31f04d0ba51a3a015e03189a5cd3f0bfc92a30265cfb4ba4ef4935a5",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/mc_1.json": "37f08698a95e21c8471d5065ff60a1f55e34293d5004cdaefd1b6db4c8aff074",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/dimensions.txt": "d7ad5f112e84cb9bd9b83dbd28ee0f5c6187191a8bdf27f4407b7e0bd419af83",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/mc_0.json": "7747613a55b4be150d36522d2d6cb2142e3e3115ed95295b7dc10e8e42fe6eb2",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_high_ported/renderer_field.npy": "c91ee698b41471383e14f39f337d5c2d96d3e05ea5f5c4807d7a872a872cff4b",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/vertices_0.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/report.json": "024ce064a4c698caaef7a3d328e4e05cb445fb08ee689e03db0248ba7189df65",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/session.json": "f34bcb7f5afe7bad10dabaa700be279d10da062f911a3a12c502b6dc3d6c39de",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/mesh.npz": "a03b2d7ead9254ed7bc9c0ef1b49ea9aeda8387e6198f8767e1a3ed164c1301c",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/mask.u8": "79e46b42f07355ed4f69923f85372ad064b4c72c7c923ee28e49424c51feb888",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/vertices_1.u64": "88e678daa01e08393283ecfa5e8cc4b3838292b11d6b907d2234a634d0e8fb78",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/mc_1.json": "bc246f58419d6d137471d0abc1b05d51635b53b1e83cad52c543119f7ffaaddd",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/dimensions.txt": "a0914f32e6e4e9f6b692e5c3b53d03d3fbc664509ae61c20a8132d40f3bbf7dc",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/mc_0.json": "3d74235e91a713b4f0a587c0fcc4a983a47c8ab56afbc8a89710b7ad6bdca439",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/accepted_binary_ultra_ported/renderer_field.npy": "9efe3ba47e7a22974b303f36e49c82d25d5ea9e838fed9016891ec8956ef0db7",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/vertices_0.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/report.json": "c808f43449f7d4b0f17b527dfab6f6bba8f042c7879cf5e40c8393f810e31858",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/session.json": "0ae69298f2876557a6e92844b7d731971df20f72ff3931dba3d766054e65d53b",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/mesh.npz": "5623154d025a7dc4d9e00edf1c15f2f7ebd9897d418ccc7569a65dcb6a19d405",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/mask.u8": "28fe8fdaa2c2e340bb9a4c7060ba1517fe65b639db58cd96d44daa0b4dea68fc",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/vertices_1.u64": "af61534ea41884fd07598d9661be21c81aac3beb10e6b89a3e763eebac30302d",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/mc_1.json": "8346c5b8b7effd1bad09b35b2d4a6fb4ecc2c562a4ee5d4b7f41de0fd89dfcea",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/dimensions.txt": "36c78cd27cfdb5689801ff0b8493eb0dbb8310e6979ff1548c66cd5b7c50666d",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/mc_0.json": "0326b22e48ebe244edee6fb74d1ad66267b0ced128db364061c93bda02fc6b03",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_high_ported/renderer_field.npy": "52c63c6eca13e41e707ff2e9acf717ecf3047c02e8f51ada8560fc242f9de80b",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/vertices_0.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/report.json": "6a9a40ca94e87bb9ef7f1c1f0253dea32421eb127d7ea5d6ea1ebfde583cb60b",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/session.json": "0ae69298f2876557a6e92844b7d731971df20f72ff3931dba3d766054e65d53b",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/mesh.npz": "308cacc1eaac3f11a689433a3be8872c403659ca7279db72051b2fde79457018",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/mask.u8": "0ad82be47582ad711e696efb79c1d45e7d440f8988b3cd003b0d0b1e68cb8864",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/vertices_1.u64": "bdeb8b11e0a25f4eb1799af392d468ccbb236d32d1175dc81b4e085ee25366e7",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/mc_1.json": "53b8e17c0761fceb6c365536e01bed78b5d505a93b461e116d9fdd21768c24fd",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/dimensions.txt": "d0ebbd4ec0d29b9406f12df13ecff1524e63940e924eb6dd48d1ec2f37735f7d",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/mc_0.json": "1e6ec9b129bb68708edebce0365ddff613e737588477685509a3d4b4651dc0a0",
+    "modules/surface_route/results/original_surface_mesh_ARM_r6/network_probability_ultra_ported/renderer_field.npy": "25dd87ce6322cc7758f3b5d1a6b69f4fc1f8d36ef405d44bd65e63e380ac21bd"
+  },
+  "source_sha256": {
+    "modules/surface_route/diagnose_original_mesh_r6.py": "42cf4ca676b0bfc1985efc50084cad9b2933f89778149381fff936e73a306b52",
+    "modules/surface_route/audit.py": "4a66f493db4dbcd3e85cc2a3bb0dbe335215b4abae95e9305ed0733d46ccb483",
+    "modules/reconstruction/fpga/mc_host.py": "0fdf1d03cae5d83da89d016939363bd581f1ac47875a3f1b15336c4481aedaa0",
+    "modules/surface_route/guidance_r5.py": "1ab1679f7cdbaf714548951071946e1847b546c6e947c6d5f005792f2b309289"
+  },
+  "PL_access": false,
+  "production_promoted": false,
+  "geometry_or_route_changed": false
+}

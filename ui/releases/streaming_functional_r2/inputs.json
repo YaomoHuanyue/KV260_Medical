@@ -1,0 +1,11 @@
+{
+  "source_SHA256": {
+    "ui/releases/streaming_functional_r1/backend.py": "425ab86e669a77ddc4fbbe541bd32499bde8d248a58dda0bc6400f7833e69feb",
+    "modules/view_assets_r1/nav_reuse_r1/reuse_r2.py": "772acfa75bcc4802ead644ca008f2e916a02972263d94cf10e574a7c785b002a",
+    "results/streaming_scene_ARM_20261022_r1/verified_PC.json": "2e9bf0619c9062bf16b3d7de0a8251b52f8cbcef04dfdca0cddc59d23a7a8895",
+    "results/streaming_backend_ARM_20261022_r1/verified_PC.json": "0f4a0414047ddf77b0cd23b0c4b92f7dc454f18cb2dfa0d3ba970560187de267",
+    "results/streaming_cancel_ARM_20261022_r1/verified_PC.json": "904f5ab135dad849b9e4adc09d29054514b2c83554be203885022f45b24b4cdf"
+  },
+  "change": "Bind the same qualified candidate catalogue in the exact preparation state AND the copied Reuse manifest globals",
+  "no_network_reconstruction_navigation_or_DFX_algorithm_change": true
+}

@@ -1,0 +1,64 @@
+{
+  "edits": [
+    {
+      "parent": "ui/releases/feature_completion_r6/src/active_recovery_UI_r21.inc",
+      "parent_sha256": "be89b94667f20d882fad9f950f9738ad21abf611fb53404921b37b355b495cbd",
+      "child": "ui/releases/feature_completion_r6/src/active_recovery_UI_r21a.inc",
+      "child_sha256": "a6a57d0387919790d4740c8c98e642bb10a234aeed593f5c2b4dc83256c818c4",
+      "changes": [
+        [
+          " void recoveryAdvance(){",
+          " void recoveryClickVisibleButton(int attempts=0){\n  if(processing()||!recoveryButton->isEnabled()){\n   if(attempts>=480){recoveryCheck(\"CT_page_recovery_button_ready_after_supported_drain\",false);finishActiveRecovery();return;}\n   QTimer::singleShot(100,this,[this,attempts]{recoveryClickVisibleButton(attempts+1);});return;\n  }\n  recoveryCheck(\"actual_visible_CT_page_recovery_button\",tabs->currentIndex()==0&&recoveryButton->isVisible());\n  if(failed){finishActiveRecovery();return;}QTest::mouseClick(recoveryButton,Qt::LeftButton);\n }\n void recoveryAdvance(){",
+          1
+        ],
+        [
+          "     activeRecoveryStage=2;QTest::mouseClick(recoveryButton,Qt::LeftButton);return;}",
+          "     activeRecoveryStage=2;QTimer::singleShot(100,this,[this]{recoveryClickVisibleButton();});return;}",
+          1
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r21.cpp",
+      "parent_sha256": "4fe674173e8325d3031b66426538cc199638dd1a56937f09561c9c3bf3cfffef",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r21a.cpp",
+      "child_sha256": "c7888af630e7e25cbb241b5386a5624a8f34077f6e6017611516cb7e92bd62eb",
+      "changes": [
+        [
+          "active_recovery_UI_r21.inc",
+          "active_recovery_UI_r21a.inc",
+          1
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r21.py",
+      "parent_sha256": "ccdbba8a9268673d4dce4014d5a67e96bfd52c8165b7eaf47f10d3fe144f23fe",
+      "child": "modules/surface_route/board_native_build_r21a.py",
+      "child_sha256": "a91b07eeb0b3c87b6aaff8aee4f9fe3d60e00254cd8c604c332df95d700fc51f",
+      "changes": [
+        [
+          "out=folder/'build_complete_scene_r21'",
+          "out=folder/'build_complete_scene_r21a'",
+          1
+        ],
+        [
+          "native_UI_source_closure_r21",
+          "native_UI_source_closure_r21a",
+          1
+        ],
+        [
+          "main_complete_scene_r21",
+          "main_complete_scene_r21a",
+          3
+        ],
+        [
+          "R21 native adapter",
+          "R21a native adapter",
+          1
+        ]
+      ]
+    }
+  ],
+  "new_bitstream": false
+}

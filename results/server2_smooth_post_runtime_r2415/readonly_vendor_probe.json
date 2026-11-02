@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/tps/mingw/10.0.0/win64.o/nt/bin/libstdc++-6.dll",
+      "exists": true,
+      "sha256": "676353b7116b380fba0f878eb87a72030c22050a2fd10b8fb87b66f926052e5f"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/tps/mingw/10.0.0/win64.o/nt/bin/libgcc_s_seh-1.dll",
+      "exists": true,
+      "sha256": "2c73c4d29815ab30dedd742058df08b35bff7bc83bf5ab1cb792601e0f229ff1"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/tps/mingw/10.0.0/win64.o/nt/bin/libwinpthread-1.dll",
+      "exists": true,
+      "sha256": "609089f045eda398f0af1592f240f446d5ec9e1edb0de755f334a385660e3d76"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/win64/lib/csim/libhlsm-GCC95-x64.dll",
+      "exists": true,
+      "sha256": "616c3462d42cd1e32e63af5b41b551d6d0d4f8fa3b7e055ee15b55f4c92ebfc7"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/win64/lib/csim/libhlsmc++-GCC95-x64.dll",
+      "exists": true,
+      "sha256": "2753430c7be5247e4670c7b9d18072fa4c6ab119a5304642232209e50dbca78a"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/win64/tools/fpo_v7_1/libIp_floating_point_v7_1_bitacc_cmodel.dll",
+      "exists": true,
+      "sha256": "64fd4bd63d0282f68fb8ad3af12b554e1cf15991ca4969ba4fe55b4e9ee45a62"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/win64/tools/fpo_v7_1/libgmp.dll",
+      "exists": true,
+      "sha256": "6eacc4642bdc714e80433757f25d0a502cac381f58ffc77ab2e748cda10f9044"
+    },
+    {
+      "path": "D:/AMDDesignTools/2025.2.1/win64/tools/fpo_v7_1/libmpfr.dll",
+      "exists": true,
+      "sha256": "296d4a61885652cffec89024f8be9611c0edea914337a991d2859e02ecadde1a"
+    }
+  ],
+  "expected_by_filename": {
+    "libstdc++-6.dll": "676353b7116b380fba0f878eb87a72030c22050a2fd10b8fb87b66f926052e5f",
+    "libgcc_s_seh-1.dll": "2c73c4d29815ab30dedd742058df08b35bff7bc83bf5ab1cb792601e0f229ff1",
+    "libwinpthread-1.dll": "609089f045eda398f0af1592f240f446d5ec9e1edb0de755f334a385660e3d76",
+    "libhlsm-GCC95-x64.dll": "616c3462d42cd1e32e63af5b41b551d6d0d4f8fa3b7e055ee15b55f4c92ebfc7",
+    "libhlsmc++-GCC95-x64.dll": "2753430c7be5247e4670c7b9d18072fa4c6ab119a5304642232209e50dbca78a",
+    "libIp_floating_point_v7_1_bitacc_cmodel.dll": "64fd4bd63d0282f68fb8ad3af12b554e1cf15991ca4969ba4fe55b4e9ee45a62",
+    "libgmp.dll": "6eacc4642bdc714e80433757f25d0a502cac381f58ffc77ab2e748cda10f9044",
+    "libmpfr.dll": "296d4a61885652cffec89024f8be9611c0edea914337a991d2859e02ecadde1a"
+  },
+  "prior_oversized_encoded_command_refused_locally_before_execution": true,
+  "server_files_not_modified": true
+}

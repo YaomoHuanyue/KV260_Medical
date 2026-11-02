@@ -1,0 +1,11 @@
+{
+  "archives_sha256": {
+    "actual_C9_source_r10.zip": "0ae147a8c33ace021f72ef13442eb5be6473439534ad3503ced0c34bc2dc0886",
+    "active_scene_export_source_r10.zip": "1f9d3e7a1843d2bff62a601afde693bb551bbcbfff765357955146ace4ecbcb5",
+    "active_scene_export_prerequisite_r10b.zip": "0d01de8c6da97196889c26417d88b6a4e578c1d404b5f66f2298f1d086138ecb",
+    "hardware_navigation_evidence_r10.zip": "3d930d95e8f846d4c9a4400a1cf76d34fa571dee9e2efccea0c0971132675918",
+    "active_scene_export_evidence_r10.zip": "3a9a127e0b1f18d6ffae48be73cd15081cf840392fa53cf022d01dfb3eed5b07",
+    "complete_scene_publication_r10.zip": "aca3e8558526f04f628efa7ebfcf8533a5ac67bbeae623f4b815abc15ea954b9",
+    "complete_scene_progress_r10.zip": "589e94990d65d17b7f002b21924b34228d36c5f4dbea5d6e99fb7ae9ba120621"
+  }
+}

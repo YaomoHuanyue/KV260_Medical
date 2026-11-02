@@ -1,0 +1,7 @@
+{
+  "device": "/dev/dri/card0",
+  "hwcursor": false,
+  "outputs": [
+    {"name": "DP1", "mode": "1024x768", "format": "argb8888"}
+  ]
+}

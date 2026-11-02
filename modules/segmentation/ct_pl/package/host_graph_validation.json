@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "model": "ct_pl/model",
+      "slice": 0,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "slice": 90,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    },
+    {
+      "model": "ct_pl/model",
+      "slice": 138,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "slice": 0,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "slice": 90,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    },
+    {
+      "model": "outputs/ct_accuracy_v2/pl_model",
+      "slice": 138,
+      "logits_exact": true,
+      "convolution_inputs_exact": 18,
+      "pool_fusions": 3,
+      "previous_release_inputs_exact": true,
+      "direct_masks_exact": true
+    }
+  ],
+  "loaded_bit_bin_sha256": "433fbe51e4ac7628ff6d18583573b2331e1dedcf95f04cbf654b3444cfc54df2"
+}

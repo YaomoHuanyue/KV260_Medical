@@ -1,0 +1,8 @@
+{
+  "status": "passed_user_confirmed",
+  "feature": "ordinary_lung_opacity_near_surface_depth_fix_R3",
+  "UI_release": "complete_feature_UI_with_correct_fast_lung_depth_and_canvas_alpha_r3",
+  "question": "未勾选精确透明，滑条最右端，再旋转和放大，近处肺表面是否完整、剖开条纹是否消失",
+  "user_answer": "表面完整，异常消失",
+  "R4_cache_physical_fps_not_separately_confirmed": true
+}

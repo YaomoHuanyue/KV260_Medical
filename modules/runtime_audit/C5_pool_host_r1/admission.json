@@ -1,0 +1,68 @@
+{
+  "schema": "kv260.ct_pool.unique_log_hardware_trial.v1",
+  "library_SHA256": "1f35b345df56a1a0e1dd29b8b6d9ad7bf7d1e22682f800c413bc85ad2ed9bf1f",
+  "writer_control_address_bits": 8,
+  "pool_shape_offset": 128,
+  "partial_SHA256": "ed7e735d6dab069e1dad3824219bfc97a871a49841b4b1ebc6b2e441cecfd9cc",
+  "static_SHA256": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "evidence": {
+    "RTL": {
+      "path": "results/CT_pool_full199_RTL_20261021_r6/axis_rtl/verified_Windows.json",
+      "SHA256": "68d0eb15153c32e2e68d3b4cf0808aaf159317f27ec56cb81a8b74180a44e754"
+    },
+    "SYN": {
+      "path": "results/CT_pool_C5_SYN_20261021_r3/axis_hls/verified_Windows.json",
+      "SHA256": "c90be94ff7a29f95d4b71085bac4c02032885538fabfb0aa910bb88a6e4216e8"
+    },
+    "ARM_host": {
+      "path": "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/paired_verified.json",
+      "SHA256": "04d7df99e3932c8adbfde8a8c7d8f675bb8b4d89f83f17477f9e822964755f1d"
+    },
+    "physical": {
+      "path": "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/verified_Windows.json",
+      "SHA256": "c7ce38ac0911dda05eb4d8c45e787c75b38c7dfd7dba9d75f714f6124cedbe0f"
+    }
+  },
+  "qualified_partial_archive": {
+    "path": "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/current_candidate.zip",
+    "member": "b/route/config_ct_pool_r1_pblock_rp_partial.bin",
+    "archive_SHA256": "251ed201ec6f6bd4121cd5f59fce762d136e0c2669f3e0145c98792f4d24ec8c",
+    "partial_SHA256": "ed7e735d6dab069e1dad3824219bfc97a871a49841b4b1ebc6b2e441cecfd9cc"
+  },
+  "source_and_evidence_SHA256": {
+    "results/CT_pool_full199_RTL_20261021_r6/axis_rtl/verified_Windows.json": "68d0eb15153c32e2e68d3b4cf0808aaf159317f27ec56cb81a8b74180a44e754",
+    "results/CT_pool_C5_SYN_20261021_r3/axis_hls/verified_Windows.json": "c90be94ff7a29f95d4b71085bac4c02032885538fabfb0aa910bb88a6e4216e8",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_native_r1/paired_verified.json": "04d7df99e3932c8adbfde8a8c7d8f675bb8b4d89f83f17477f9e822964755f1d",
+    "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/verified_Windows.json": "c7ce38ac0911dda05eb4d8c45e787c75b38c7dfd7dba9d75f714f6124cedbe0f",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM_collected_verified.json": "9ea6c1697c56c6e43bd3a61869347cab4ba902b55ab15455ad1b9b6513c731d6",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ARM/libct_pool_candidate.so": "c8c2f012e5dd45f381e365104e8b688a1631e43a00230dddd31c715942c6bd95",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/prepare.py": "c9ad81dd115e0f75fc384e502eae77ec0bdd9f46c957a0f4a1d98f625ef134a0",
+    "dfx/medical/host_extended/ct_bridge.cpp": "dd6b7f7f170f8237fd18d1c5ac16bda4eb134e6b71e79ff24aac2bbf5a319580",
+    "dfx/medical/host_extended/shared_session.hpp": "8f448ceb69244a55cdff91effcc0e5928135c57109802d2dfd180c5aa7b39ffc",
+    "dfx/medical/host_extended/runtime.hpp": "41a40a87e012e64e9e169ba2c148e4643e23eaff9477d5e078a17d3e207e86db",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/ct_pool_bridge.cpp": "3b84e18a1ea939ea38e34deed0dc6deb7c0f8a8c33c3bee6aea39b5ae020cd61",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/compile_ARM.py": "3884ee95a3646995c646937a8184421f4fe3b0dd9a5f323ddda44297ff180f10",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/derivation.json": "8d5ba4750a13e3b67fa6e05a3a427da9e2e9556a837bb9705de83a97e06a72f6",
+    "dfx/medical/host_extended/postprocess.hpp": "1c121affd52be624d985f40b4bae89e81f3c8d754f19c42b84fa1ecb41bede2c",
+    "dfx/medical/release/manifest.json": "ec51ff6cdf8077005a96c228f61e2d8ab2daa4f0c66f37865bd719c2f1eeefbc",
+    "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/current_candidate.zip": "251ed201ec6f6bd4121cd5f59fce762d136e0c2669f3e0145c98792f4d24ec8c"
+  },
+  "installed_firmware_and_idle_cooperative_PL_handoff_must_be_checked_before_ct_open": true,
+  "actual_full139_PL2502_inputs139_logits_and_strongest_PS1_PS4_endpoints_required": true,
+  "firmware_installed": false,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "UTC": "2026-10-21T00:16:07.848535+00:00",
+  "builder_source_SHA256": "98a39b059b5549ad7215e9f24ed2bcaf9887418d3a8a8df974d0e54ce74855f7",
+  "original_hardware_admission": {
+    "path": "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/hardware_trial_r1/admission.json",
+    "SHA256": "5877fe26fa8da25148f0f15df342e47159a08491e71e28f423ce17517fe02340"
+  },
+  "unique_log_host": {
+    "compile_proof": "modules/runtime_audit/C5_pool_host_r1/ARM_r3/owned_outputs/verified.json",
+    "compile_proof_SHA256": "2c7f5dcb3bc5258f5ebca75735f7f5de0daef64a1d042a6000bb663c338e6666",
+    "library": "modules/runtime_audit/C5_pool_host_r1/ARM_r3/owned_outputs/libct_pool_unique_log.so",
+    "library_SHA256": "1f35b345df56a1a0e1dd29b8b6d9ad7bf7d1e22682f800c413bc85ad2ed9bf1f"
+  }
+}

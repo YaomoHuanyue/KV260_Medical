@@ -1,0 +1,13 @@
+{
+  "status": "CF_host_compiled_and_missing_release_refused_default_HDMI_UI_unchanged",
+  "PID": 479916,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "UI_binary_sha256": "721965af8f2c1d2cd12fce6eff2922dbad5ad45ee38d030a14b9af3cf4fba445",
+  "default_descriptor_sha256": "6869b82376fe791e171ea449b1c995a0ee0e6fa495bc48a5002982af3acb03af",
+  "manual_entry_sha256": "48cc48fec2cd284e9a46b7622a5fff221e20de3398167a4b350c7a9c9c575711",
+  "host_build_sha256": "026798c465dbd89a9f681c77aa6e0de72d2b012dfc97a3555ef54aec0765df62",
+  "refusal_sha256": "d916c409fa78a41d8df25542bc753c5e26cace9062446606e17a6e7294c0655c",
+  "new_partial_loaded": false,
+  "UI_stopped": false,
+  "static_or_driver_changed": false
+}

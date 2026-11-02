@@ -1,0 +1,20 @@
+{
+  "status": "verified_R17_and_C6_restored_after_physical_curve_quality_C4_comparison",
+  "PID": 513978,
+  "previous_UI_PID": 512246,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "trial_exit_code": 0,
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "default_descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "composite_worker_sha256": "1b5a2149a624d53c740f972575800eed18934dd096ec1e5f311f81aea9a41b83",
+  "accepted_volume_lifecycle_and_C6_restore_passed": true,
+  "PL_lock_free_before_UI_launch": true,
+  "static_shell_reloaded": false,
+  "ZOCL_unloaded": false,
+  "forced_kill_or_reset": false,
+  "source_sha256": {
+    "with_curve_UI_restore_r4.py": "d6e975a5361fb8848bdcf07c7b96886e3e279fd2b1585c5d0d4720f365b27b43",
+    "compare_curve_board_r4.py": "b53b945b595889d7f831e666cb36fb34cf8c0e68e9103147c219d01ccac2da24"
+  }
+}

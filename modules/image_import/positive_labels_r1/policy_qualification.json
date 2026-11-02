@@ -1,0 +1,40 @@
+{
+  "schema": "kv260.positive_policy.algorithm_qualification.r32",
+  "actual_ARM_policy_and_contracts_passed": true,
+  "actual_Windows_policy_and_contracts_passed": true,
+  "tests_each": 38,
+  "groups": {
+    "FullPolicy": 6,
+    "PartialPolicy": 7,
+    "PositivePolicy": 7,
+    "ProbabilityPolicy": 9,
+    "DerivedContracts": 9
+  },
+  "source_SHA256": {
+    "modules/image_import/positive_labels_r1/importer.py": "20ecb399ac6844337c78394161873a44683e198a77cbf73cc1570fcf5c2a9453",
+    "modules/image_import/positive_labels_r1/policy.py": "33706e5025c5e65cb7256a910f6cb0f388418916c7ff4110cb4897b9f3c9eac4",
+    "modules/image_import/positive_labels_r1/contracts.py": "6dc90b0ba4cc7edc6adafae19d01d8a1b18f65f3629274b9d6aa666feaa79df0",
+    "modules/image_import/positive_labels_r1/reference/read_mask.py": "612d91f2fe9aaca6f2ccdd4964d60681abb04ff7af8b61eafda6e2d6419f6ab9",
+    "modules/image_import/positive_labels_r1/reference/provenance.json": "53b386723af9857e7e3ad6b5b43c4712d4e890aa1d9829d930dd0f003d589fe8",
+    "modules/image_import/positive_labels_r1/test_importer.py": "33c6f5a9e59bb6fe2188df8eda8199e53bea38b6687d9b952e86b05043c48264",
+    "modules/image_import/positive_labels_r1/test_policy_contracts_r32.py": "2cba6b129dca5b38c4ac0eb1f86f56b17cba49e509ae428183e48c145b69b0b4",
+    "modules/image_import/partial_r1/importer.py": "33c252548d7bc292fb40ef37bdd0b3084dcaad2becde4771572fbc41e074bb50",
+    "modules/image_import/partial_r1/contracts.py": "ca1050038a7e8a86f41e4149fcc11cd7c19d14455a48f5216b02fb7f53589816",
+    "modules/image_import/partial_r1/test_full_contract.py": "99cc9fb63864171d572a03b857dd34607aa7e28745f74fbf09169ee2fa7e3029",
+    "modules/image_import/partial_r1/test_partial_contract.py": "4680e91dc00a64f9280b518dc00bdd226f263179b8153e47e6c1d6378b5fb8fd",
+    "modules/segmentation/airway/ct_geometry.py": "584a9cbaa1f313967fb17fed639d06eba38d3050818409c0ac28585e37208e0c",
+    "tools/test_positive_policy_r32.py": "2e12cf4c238b04c1cb1d23dc4744ad2764a316325d67ee1e5d1a013121b346af"
+  },
+  "reports_SHA256": {
+    "results/positive_policy_r32/Windows_r4/verified.json": "e4b6698b7bad971b4801e6967a0b70eed955f6416cf13013cbf4d7a48f9d3fd6",
+    "results/positive_policy_r32/ARM/collected/result/verified.json": "604dde40163e82362d7bb6032b1204b13e334ff36de0946c74d127308bcec17e",
+    "results/positive_policy_r32/ARM/collected_verified.json": "03ad4ccab92b75cd90a8ecee2927a1a77bbdca9c14033309407ac83737a18171",
+    "results/positive_policy_r32/ARM/cleanup_verified.json": "27de0aca0decdffa22c76f45fc016b6b3560d222d9cef315ce3ca09ba292a052"
+  },
+  "runtime_scope": "Explicit conversion, existing probability-component policy and imported/derived contracts; not frontend qualification",
+  "frontend_dispatch_and_child_process_gate_pending": true,
+  "PL_chain_pending": true,
+  "GUI_verified": false,
+  "production_promoted": false,
+  "new_FPGA_build": false
+}

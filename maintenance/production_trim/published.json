@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "ELF_SHA256": "ce6534bd0bf7a21e725fcaf458bb82106e388fa672b2bc497cc2155fe948c921",
+  "manifest_SHA256": "c8f56ff3c244bcef78db91cfeb25c7d46d8cb8d6f4ff618b98e07476e176eec3",
+  "parent_manifest_SHA256": "2bd65fccf43b054cc091e5e34660b4169c426c0b156a60ce67856f3a1eed34d1",
+  "source_files": 32,
+  "default_case": "04_distal_multi_wall",
+  "default_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4",
+  "backend_firmware_unchanged": true,
+  "live_UI": {
+    "PID": 29100,
+    "ticks": 1089721,
+    "state": "S",
+    "exe": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/v2/bin/medical_ui",
+    "SHA256": "ce6534bd0bf7a21e725fcaf458bb82106e388fa672b2bc497cc2155fe948c921"
+  },
+  "physical_manual_acceptance": false,
+  "new_bitstream": false
+}

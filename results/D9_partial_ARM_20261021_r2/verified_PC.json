@@ -1,0 +1,875 @@
+{
+  "UTC": "2026-10-21T16:12:27.461580+00:00",
+  "actual7_partial_cases14_reconstruction_processes_independently_verified": true,
+  "complete139_grid_all_original_mesh_points_faces_normals_and_CSR_MC_inputs_exact": {
+    "lung_only": {
+      "selected": [
+        "lung"
+      ],
+      "unavailable": [
+        "airway",
+        "nodule"
+      ],
+      "meshes": {
+        "lung": {
+          "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                430918,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "6f1b0b32f4ba0931404af8a8e6990ac143577fa53f3d55007826bf352855e52b",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                860680,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "20f22ca625e82ba1bd880d26cae00af3695dd6c8ccdb2880153aa22440768b16",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                430918,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "4d831fd4f3d8fbd496a24e20c0d18dede1e486cbdf737016bb043d6edc13bca2",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 1,
+      "D9_graph_headers": 18
+    },
+    "airway_only": {
+      "selected": [
+        "airway"
+      ],
+      "unavailable": [
+        "lung",
+        "nodule"
+      ],
+      "meshes": {
+        "airway": {
+          "SHA256": "1d1c58881d57029dcf1d2b62ff211d545867241af7355e02015761641d530976",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "13249600e882bb4452fedfd109329f5b8c4cde6f65ae4ec146ffcf7eb9ddb8b7",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                46520,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "f1091119fbcc55d5fc06d1fbe2c9d5f6504e58ee7ca7328a9f5d9708a54aae4e",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "97337201b813a5b0fb2856997e9d2e9a7987bab442fc7f5f7bb24558df4a48fe",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 1,
+      "D9_graph_headers": 22
+    },
+    "nodule_only": {
+      "selected": [
+        "nodule"
+      ],
+      "unavailable": [
+        "lung",
+        "airway"
+      ],
+      "meshes": {
+        "nodule": {
+          "SHA256": "420173a3430d7bd2fb44066f0b43f457228e695625fe4a09c69f1b73e5c24163",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "a0ce3a67ac0dbc76093568538a42a1035bbd8fdf4c67e3112af88bc2d1ba7036",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                6996,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "8dc9547afe99ca4d41b59cf45733c382b8258ef4f8f9c12b951198707700d1f7",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "07e5e20e85a052a5095a8c8434f2d22d5ee4ee118256eccfca57b8d6059e7c8d",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 1,
+      "D9_graph_headers": 18
+    },
+    "airway_nodule": {
+      "selected": [
+        "airway",
+        "nodule"
+      ],
+      "unavailable": [
+        "lung"
+      ],
+      "meshes": {
+        "airway": {
+          "SHA256": "1d1c58881d57029dcf1d2b62ff211d545867241af7355e02015761641d530976",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "13249600e882bb4452fedfd109329f5b8c4cde6f65ae4ec146ffcf7eb9ddb8b7",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                46520,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "f1091119fbcc55d5fc06d1fbe2c9d5f6504e58ee7ca7328a9f5d9708a54aae4e",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "97337201b813a5b0fb2856997e9d2e9a7987bab442fc7f5f7bb24558df4a48fe",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        },
+        "nodule": {
+          "SHA256": "420173a3430d7bd2fb44066f0b43f457228e695625fe4a09c69f1b73e5c24163",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "a0ce3a67ac0dbc76093568538a42a1035bbd8fdf4c67e3112af88bc2d1ba7036",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                6996,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "8dc9547afe99ca4d41b59cf45733c382b8258ef4f8f9c12b951198707700d1f7",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "07e5e20e85a052a5095a8c8434f2d22d5ee4ee118256eccfca57b8d6059e7c8d",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 2,
+      "D9_graph_headers": 40
+    },
+    "airway_probability_only": {
+      "selected": [
+        "airway"
+      ],
+      "unavailable": [
+        "lung",
+        "nodule"
+      ],
+      "meshes": {
+        "airway": {
+          "SHA256": "1d1c58881d57029dcf1d2b62ff211d545867241af7355e02015761641d530976",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "13249600e882bb4452fedfd109329f5b8c4cde6f65ae4ec146ffcf7eb9ddb8b7",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                46520,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "f1091119fbcc55d5fc06d1fbe2c9d5f6504e58ee7ca7328a9f5d9708a54aae4e",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "97337201b813a5b0fb2856997e9d2e9a7987bab442fc7f5f7bb24558df4a48fe",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 1,
+      "D9_graph_headers": 22
+    },
+    "all_declared": {
+      "selected": [
+        "lung",
+        "airway",
+        "nodule"
+      ],
+      "unavailable": [],
+      "meshes": {
+        "lung": {
+          "SHA256": "023955f0b0f89f91a45274a7741079cbeb6c801ed03b668b32d60180c77627f6",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                430918,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "6f1b0b32f4ba0931404af8a8e6990ac143577fa53f3d55007826bf352855e52b",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                860680,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "20f22ca625e82ba1bd880d26cae00af3695dd6c8ccdb2880153aa22440768b16",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                430918,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "4d831fd4f3d8fbd496a24e20c0d18dede1e486cbdf737016bb043d6edc13bca2",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        },
+        "airway": {
+          "SHA256": "1d1c58881d57029dcf1d2b62ff211d545867241af7355e02015761641d530976",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "13249600e882bb4452fedfd109329f5b8c4cde6f65ae4ec146ffcf7eb9ddb8b7",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                46520,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "f1091119fbcc55d5fc06d1fbe2c9d5f6504e58ee7ca7328a9f5d9708a54aae4e",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                23280,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "97337201b813a5b0fb2856997e9d2e9a7987bab442fc7f5f7bb24558df4a48fe",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        },
+        "nodule": {
+          "SHA256": "420173a3430d7bd2fb44066f0b43f457228e695625fe4a09c69f1b73e5c24163",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "a0ce3a67ac0dbc76093568538a42a1035bbd8fdf4c67e3112af88bc2d1ba7036",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                6996,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "8dc9547afe99ca4d41b59cf45733c382b8258ef4f8f9c12b951198707700d1f7",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                3516,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "07e5e20e85a052a5095a8c8434f2d22d5ee4ee118256eccfca57b8d6059e7c8d",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": false
+        }
+      },
+      "D9_jobs": 3,
+      "D9_graph_headers": 58
+    },
+    "empty_airway": {
+      "selected": [
+        "airway"
+      ],
+      "unavailable": [
+        "lung",
+        "nodule"
+      ],
+      "meshes": {
+        "airway": {
+          "SHA256": "88764a122f5a65411680547de3fec6740e92fa6a012a408cddc9e855cec9781c",
+          "all_NPY_arrays": {
+            "points.npy": {
+              "shape": [
+                0,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "f12304587232b93be216cce0f81674635df2730385202e391e39cc9f8942d779",
+              "all_array_bytes_read": true
+            },
+            "faces.npy": {
+              "shape": [
+                0,
+                3
+              ],
+              "dtype": "<u4",
+              "SHA256": "56c900c28c5392cf8720b169c9c812f6d5f35f9d7ddb6353f9110198a0a11af3",
+              "all_array_bytes_read": true
+            },
+            "normals.npy": {
+              "shape": [
+                0,
+                3
+              ],
+              "dtype": "<f4",
+              "SHA256": "f12304587232b93be216cce0f81674635df2730385202e391e39cc9f8942d779",
+              "all_array_bytes_read": true
+            }
+          },
+          "empty": true
+        }
+      },
+      "D9_jobs": 0,
+      "D9_graph_headers": 0
+    }
+  },
+  "actual_D9_nonempty_structure_jobs": 9,
+  "actual_D9_AXIS_headers": 178,
+  "actual32_DFX_records_including_final_MC_echo_scope_restore": [
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316414.csv",
+      "SHA256": "14320e6efb1a43c36248bc260e1e394a68dbec1d669484c72ccbd67b04e81056",
+      "bytes": 110,
+      "PID": 316414,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "150.505",
+          "switch_ms": "157.949",
+          "static_transactions": "8550",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316291.csv",
+      "SHA256": "6767c6563c455959130e64d49f99b5667db6bf8887d9cfa3510c2bc4a18e3f0d",
+      "bytes": 110,
+      "PID": 316291,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "148.163",
+          "switch_ms": "155.649",
+          "static_transactions": "8480",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316308.csv",
+      "SHA256": "bde1e5063a82c50e9bfe6628c8c74a7c702968379a8dbcdefe0cb49a3dad2f0a",
+      "bytes": 151,
+      "PID": 316308,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.737",
+          "switch_ms": "155.009",
+          "static_transactions": "8500",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.431",
+          "switch_ms": "154.615",
+          "static_transactions": "8504",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316286.csv",
+      "SHA256": "a0a32a0a134e2817c06a74fb9ee33672dbb1bb5161e1934aa3cb570a27f4891a",
+      "bytes": 151,
+      "PID": 316286,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.727",
+          "switch_ms": "154.988",
+          "static_transactions": "8478",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.135",
+          "switch_ms": "154.336",
+          "static_transactions": "8480",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316408.csv",
+      "SHA256": "2623eefe222cdc0ce2e45345469ad9bc2fc66b53b8c5753889b72a66b0c7a3c9",
+      "bytes": 151,
+      "PID": 316408,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "149.784",
+          "switch_ms": "157.088",
+          "static_transactions": "8548",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.283",
+          "switch_ms": "154.566",
+          "static_transactions": "8550",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316272.csv",
+      "SHA256": "3add0139cac77c97354772968ce1bc6635fa9af1af89c5e88e8a67e9e5c643dd",
+      "bytes": 109,
+      "PID": 316272,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "148.37",
+          "switch_ms": "155.849",
+          "static_transactions": "8454",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316319.csv",
+      "SHA256": "3d89690ac3cf7a5cc2d03a8493da073ad07680a346bc3479107958e1056b3f3d",
+      "bytes": 110,
+      "PID": 316319,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.447",
+          "switch_ms": "155.235",
+          "static_transactions": "8504",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316224.csv",
+      "SHA256": "303ad3e2e34b523694e458763d9c309987a2654294c53e4e2565d610e57135cb",
+      "bytes": 110,
+      "PID": 316224,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.137",
+          "switch_ms": "154.444",
+          "static_transactions": "8432",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316211.csv",
+      "SHA256": "d53fb25e48bfc5ea81a843d43f6911337488936f577c7cc3b57bd107c6b54ad0",
+      "bytes": 151,
+      "PID": 316211,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "148.679",
+          "switch_ms": "155.948",
+          "static_transactions": "8430",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.327",
+          "switch_ms": "154.461",
+          "static_transactions": "8432",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_316263.csv",
+      "SHA256": "f29a7ed778ab690d3f9eae514b37318a2f3223cce35acdcf6e633dcaa9d3046b",
+      "bytes": 150,
+      "PID": 316263,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.114",
+          "switch_ms": "154.355",
+          "static_transactions": "8452",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.857",
+          "switch_ms": "155.08",
+          "static_transactions": "8454",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_316291.csv",
+      "SHA256": "e760efc2d45b97e1c544bf250ac93128aeee67f23c94219756159c2d2252f032",
+      "bytes": 155,
+      "PID": 316291,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "147.134",
+          "switch_ms": "154.609",
+          "static_transactions": "8482",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "147.549",
+          "switch_ms": "154.913",
+          "static_transactions": "8500",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_316319.csv",
+      "SHA256": "d84bb58943141527ed904dbba741a4e2d520dc9b7d72ec8a85ea548fa7894ee5",
+      "bytes": 155,
+      "PID": 316319,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "149.811",
+          "switch_ms": "157.645",
+          "static_transactions": "8508",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "153.831",
+          "switch_ms": "161.499",
+          "static_transactions": "8548",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_316414.csv",
+      "SHA256": "5120214e5bcb60585464b272cbb779438d575a90e49c97fe4206612967f4a874",
+      "bytes": 154,
+      "PID": 316414,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "151.35",
+          "switch_ms": "158.943",
+          "static_transactions": "8552",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "153.825",
+          "switch_ms": "161.253",
+          "static_transactions": "8574",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_316272.csv",
+      "SHA256": "050c8300a991bf950a14a8287ec2d7616ed78ec8289d86e6bc87eb6b3092d3b4",
+      "bytes": 153,
+      "PID": 316272,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "147.808",
+          "switch_ms": "155.396",
+          "static_transactions": "8456",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "148.053",
+          "switch_ms": "155.6",
+          "static_transactions": "8478",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_316224.csv",
+      "SHA256": "33cd81217b3e1e2a07baef06db999a54750cdc1f25f8f7c9fb28362f514731f6",
+      "bytes": 155,
+      "PID": 316224,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "149.624",
+          "switch_ms": "156.969",
+          "static_transactions": "8434",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "150.971",
+          "switch_ms": "158.209",
+          "static_transactions": "8452",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "dfx/edt_volume/results/switches_317231.csv",
+      "SHA256": "c25fcc07efa7502a73b33a73860321c1b70e54f27a3330f0438bae82a71a88c6",
+      "bytes": 143,
+      "PID": 317231,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "mc",
+          "partial_ms": "150.308",
+          "switch_ms": "157.77",
+          "static_transactions": "8644",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "scope",
+          "partial_ms": "147.18",
+          "switch_ms": "154.406",
+          "static_transactions": "8645",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_317180.csv",
+      "SHA256": "c37ce19a781b0cd0f85772b0eb0768a3b9b93380112b7409fcf71fda8e2b7c09",
+      "bytes": 151,
+      "PID": 317180,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.418",
+          "switch_ms": "154.686",
+          "static_transactions": "8574",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "146.201",
+          "switch_ms": "153.376",
+          "static_transactions": "8580",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_317216.csv",
+      "SHA256": "25eca0fdf6ec2552339c4912de34294d162e27018abeb2d842a092862a580c13",
+      "bytes": 68,
+      "PID": 317216,
+      "records": []
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_317194.csv",
+      "SHA256": "d94579b1083a22b14ff5cd05d5d0513b879f2f7c38bf1e2f49ecbba0bf0d79dc",
+      "bytes": 110,
+      "PID": 317194,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_mc",
+          "partial_ms": "147.443",
+          "switch_ms": "154.745",
+          "static_transactions": "8580",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    },
+    {
+      "path": "modules/reconstruction/axis_mc_8_r2/host_pooled_r2/results/switches_reconstruction_317222.csv",
+      "SHA256": "25eca0fdf6ec2552339c4912de34294d162e27018abeb2d842a092862a580c13",
+      "bytes": 68,
+      "PID": 317222,
+      "records": []
+    },
+    {
+      "path": "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/results/switches_D9_317194.csv",
+      "SHA256": "0fc7c740f8073696e882405c19c58e58257597b11f2008467aef05104f57be5b",
+      "bytes": 155,
+      "PID": 317194,
+      "records": [
+        {
+          "switch": "1",
+          "rm": "axis_smooth",
+          "partial_ms": "152.659",
+          "switch_ms": "160.196",
+          "static_transactions": "8586",
+          "sentinel_address": "1186988032"
+        },
+        {
+          "switch": "2",
+          "rm": "smooth",
+          "partial_ms": "149.441",
+          "switch_ms": "156.755",
+          "static_transactions": "8644",
+          "sentinel_address": "1186988032"
+        }
+      ]
+    }
+  ],
+  "probability_all_original_voxel_bits_dtype_and_grid_preserved_and_original_main_component_policy_retained": true,
+  "probability_header_geometry_original_atol_mm": 1e-06,
+  "probability_header_max_delta_mm": 1.1368683772161603e-13,
+  "empty_provided_structure_not_conflated_with_unprovided_structure": true,
+  "no_PS_smoothing_or_undeclared_structure_substitutes": true,
+  "formal_UI_unchanged_not_native_GUI_rollout_or_clinical_GT": true,
+  "original_first_trial_failure_preserved_five_completed_cases_not_reclassified_as_a_pass": true,
+  "only_owned_legacy_fixture_schema_converted_original_source_declarations_unchanged": true,
+  "source_and_evidence_SHA256": {
+    "tools/verify_D9_partial_ARM_20261021_r3.py": "e3a38d70822fcc7f23911c12efa1c6cd29b1adf27a3cd707cd11fa0663b0b4af",
+    "tools/verify_D9_partial_ARM_20261021_r1.py": "c86a7c306d24d2f6b5f98b0d434fa84094d6e279a067258f89331779b795d89d",
+    "results/CT_bounded_UI_pipeline_20261020_r2/current_candidate.zip": "15bd1abadb38a93dee701133f59392687cba35e607d21ffe2d086d7e50d9a096",
+    "results/D9_partial_ARM_20261021_r1/plan.json": "f268b4bb143ebc69e3bb7e93fee794847254b6df8a6aeb69083ee3df52960d11",
+    "results/D9_partial_ARM_20261021_r1/all_owned_inventory.json": "ed70fdc29a44b505ae594af4b3a06b1547ed9ae03c27f715ff951fc269566803",
+    "results/D9_partial_ARM_20261021_r1/stream_verified.json": "2c4bade7f6d6a2efc8316eae68ad02d42d674bd4335736f8e9bf906d2448a0ba",
+    "results/D9_partial_ARM_20261021_r1/current_candidate.zip": "0c5d7d64f8757176f2251f4b621dc18ce09d2c9368c416fe67375568d5ca52fb",
+    "results/D9_partial_ARM_20261021_r2/plan.json": "0a548f97a4f770d4c00e9914c778f912ee0aeb3aff75a5dcf0ffe4a82855f1f2",
+    "results/D9_partial_ARM_20261021_r2/all_owned_inventory.json": "f2bac600a4c35f27268cd3a9d14b90da5655b915e0c4c3350b5236f8a49eb6cf",
+    "results/D9_partial_ARM_20261021_r2/stream_verified.json": "8b65b3cbf14a2d5743bc2de32853382014e6b2467117949d966abc9d7646fe87",
+    "results/D9_partial_ARM_20261021_r2/current_candidate.zip": "68a2e6281fc8c497e273b7bf378aafeee82e1facd960762b39feaff21e5a4c96"
+  },
+  "whole_goal_completed": false,
+  "production_promoted": false
+}

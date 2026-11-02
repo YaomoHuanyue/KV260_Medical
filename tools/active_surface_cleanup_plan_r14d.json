@@ -1,0 +1,14 @@
+{
+  "archives_sha256": {
+    "active_surface_close_tools_r14b.zip": "a141e1e78df88620cbe990d797b8b4b7d92f8280e66016658df3facc08d09301",
+    "active_surface_evidence_r14d.zip": "b47aa9a34e9b5bd89f89afe648cfa34f150f561cef55c77c2a6f2393c2ce7972",
+    "active_surface_new_files_r14.zip": "49482d17b4a8b9d776fb94fa5122d6cc79c70be62f3e7190574c7f35da7a9323",
+    "active_surface_new_files_r14b.zip": "7ee3f72432a2d67fdac1008f6c91184ec384f090c8ae48c4165fe2706a964ac8",
+    "active_surface_new_files_r14c.zip": "52052c60410d693dc885b3949b8f177f5cfafe185322807539c55bd64178a47c",
+    "active_surface_new_files_r14d.zip": "36b6f38c8f6f003c7a5defe46b4f819608215cb5da391a2cd95c8930a986a572",
+    "active_surface_progress_r14d.zip": "d41e37987cc914c837cb735c81210cfb25e11ff90260eaaafbf7c05c7690efd6",
+    "active_surface_record_r14d.zip": "f83ecf092b38e898ecedf1cb1fb6fccdcd18e9eb0c304970c0d775f6051ad460"
+  },
+  "checkpoint_sha256": "82b283af4369d799402d8188eb5f30f6e3fda13ae817717e48e4df578dcddd91",
+  "preserve_all_sealed_sources_and_test_results": true
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "kv260.R3.native_system.functional.v1",
+  "source_SHA256": {
+    "ui/releases/streaming_reader_r1/backend.py": "a7b7a918133c82d1323234fec2793c838ba270c9a931b849237d34e2a0a44432",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py": "0c7f6e2026d0761519d31efcab7955414be1284625b83f96fe7ca63f78f03268",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/derivation.json": "f0c00a8e48f2f49529119747a87e23b4cdd0065714b0dc6a151219436869a760",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/admission_template.json": "80c780766b41af47d93e3bc4799d5e2809427233eed570578c2f067e3d5705b0",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/stage_inputs.json": "5c33993ff4eda5538d5554b4506d608341e5068f45b234664b09c8f12efc4dfb",
+    "ui/releases/streaming_functional_r1/dispatch.py": "209b4a82a2662aa8a3208db782c4223e16595f40f0b12cb445ebd58f27abcc35",
+    "ui/releases/streaming_functional_r1/backend.py": "425ab86e669a77ddc4fbbe541bd32499bde8d248a58dda0bc6400f7833e69feb",
+    "ui/releases/streaming_functional_r2/backend.py": "b8a757d1b6b58687c01928f26381f58fb0e3036d386ecbe60b9a96b85b63fbae",
+    "ui/releases/streaming_functional_r5/backend.py": "b483576a30c3461964a613ad21a4a2732a729a624669263cdd14504542e119fb",
+    "ui/releases/streaming_functional_r5/inputs.json": "2f24a706b9bd2685dbf396295ffa35971b56cba64faad382ab3a16def7a92db2",
+    "results/tensor_reader_R3_actual_ARM_20261022_r1/verified_PC.json": "4ceba9862924b045cb46f19c7ffb4fc0d41c2df115c15f8dc90c3bf14d087c5d",
+    "tools/prepare_R3_native_system_20261022_r1.py": "c429c68064429c11956ce56cff99b34bdff3cfe0b42fed7ab9eaebab9d33c42c",
+    "ui/candidates/streaming_reader_trial_r1/trial.py": "2b3f165048c2e2675d66156a9d15035b248bc42c925ef9a271a9460d5aeea18c",
+    "ui/candidates/streaming_reader_trial_r1/derivation.json": "f68f0f2b3a54085307ee5ce2415e046d7fb0f39523822efb11ff511fb355f11f",
+    "ui/candidates/streaming_native_trial_r1/trial.py": "12701aa161447525a3e3046290b409991074f26e61444c81572cacb49f868415"
+  },
+  "dispatcher": "ui/releases/streaming_functional_r1/dispatch.py",
+  "dispatcher_literal_edits": [
+    [
+      "str(ROOT/'modules/segmentation/streaming_stage_r1/entry.py')",
+      "str(ROOT/'modules/segmentation/axis_tensor_reader_r3/streaming_r1/entry.py')"
+    ],
+    [
+      "str(Path(__file__).parent/'navigation_task_r6.py')",
+      "str(ROOT/'modules/navigation_comparison/current_release_r1/task.py')"
+    ]
+  ],
+  "dispatcher_output_SHA256": "c97af32e8220498afebc1c59499a205b98021ca43e54f8567038ecbc5afa01d8",
+  "actual_new_system_and_native_GUI_execution_still_required": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

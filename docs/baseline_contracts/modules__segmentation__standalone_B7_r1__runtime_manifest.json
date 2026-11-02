@@ -1,0 +1,11 @@
+{
+  "schema": "kv260.standalone_B7.runtime.v1",
+  "silent_PS_fallback": false,
+  "PL_cleanup_mandatory": true,
+  "source_SHA256": {
+    "modules/segmentation/standalone_B7_r1/backend.py": "cc568a974720752c3406f628b718ef93ac49db88c5cf2105d6eae8be7b7df355",
+    "modules/airway_tree_cleanup/volume_axis_r4/system_pipeline_r1/manifest.json": "917669a11f2ec80183b4e3b4493ddd09a49e08d2d3b84b9dc668fc33025dd0d0"
+  },
+  "no_new_bit": true,
+  "performance_qualified": false
+}

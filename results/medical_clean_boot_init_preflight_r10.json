@@ -1,0 +1,20 @@
+{
+  "status": "all_preconditions_passed_before_static_mutation",
+  "before": {
+    "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+    "firmware": "k26-starter-kits.bit.bin",
+    "CUs": [],
+    "render_clients": [],
+    "UI": [],
+    "xclbin": "",
+    "overlays": [
+      "kv260-xrt-zocl",
+      "k26-starter-kits_image_1"
+    ],
+    "medical_marker": false
+  },
+  "platform_source_sha256": "392c9016006b1c7584faf98d932c489cf858819d7edfa14ed416c335bc74ce17",
+  "static_sha256": "a70ae87c8551b07ab4a586bbd04b0a22ed5f13a84931111bed1ad2d10b92a192",
+  "lock_created_for_fresh_boot": true,
+  "loader_sha256": "dc8bde0a25daeb24becc6d133c00c9b550b088d1d1e04cf29a5fd1b919833014"
+}

@@ -1,0 +1,136 @@
+{
+  "status": "actual_ARM_same_full_native_contract_and_real_XRT_library_compiled_not_loaded",
+  "PC_ARM_exact_rows": [
+    {
+      "status": "native_host_HLS_C_exact",
+      "numeric_and_lifecycle_checks": 311,
+      "refusals_before_DMA": 13,
+      "actual_HLS_C_convolution_writer_calls": 84,
+      "actual_fake_DFX_loads": 29,
+      "no_real_PL_or_XRT": true
+    },
+    {
+      "status": "reader_host_actual_HLS_C_contract_exact",
+      "reader_full_numeric_lifetime_cases": 128,
+      "reader_refusals_before_DMA": 31,
+      "legacy311_checks13_refusals84_calls_preserved": true,
+      "all_actual_HLS_C_pipeline_calls": 726,
+      "no_real_PL_or_XRT": true
+    }
+  ],
+  "all128_reader_cases31_refusals_and_original311_checks_preserved": true,
+  "all726_actual_HLS_C_pipeline_calls_on_ARM": true,
+  "actual_real_ARM_XRT_compile_link_and23_exports_verified": true,
+  "actual_unique_session_log_runtime_and_production_XRT_headers_verified": true,
+  "no_mock_header_in_real_XRT_compile": true,
+  "C_API_exports": [
+    "ct_add_weights",
+    "ct_close",
+    "ct_error",
+    "ct_execute",
+    "ct_execute_mapped",
+    "ct_execute_pool_mapped",
+    "ct_execute_quantized",
+    "ct_execute_reader_mapped",
+    "ct_last_phase",
+    "ct_last_seconds",
+    "ct_open",
+    "ct_output_acquire",
+    "ct_output_map",
+    "ct_output_mark_ps_written",
+    "ct_output_pool_bytes",
+    "ct_output_release",
+    "ct_pool_abi",
+    "ct_reader_abi",
+    "ct_set_activation_lut",
+    "ct_set_pool_lut",
+    "ct_set_reader_lut",
+    "ct_set_writer_quantization",
+    "ct_skipped_sync"
+  ],
+  "library_SHA256": "8c431fcaa56948635642aa3fb9016e65662005d04f3ff83f132be8bcd571bbbf",
+  "sources": {
+    "modules/segmentation/axis_tensor_reader_r3/host_r1/ct_tensor_bridge.cpp": "01e0dfd326eeff0eb507ad872233b8caa198063873bbbccb01a8b5dc926efd17",
+    "modules/segmentation/axis_tensor_reader_r3/host_r1/native_test.cpp": "2b4cf10f8742eedc38ae7854d70172c54c2d6d407e5413c8d3ac52c34292ce2a",
+    "modules/segmentation/axis_tensor_reader_r3/host_r1/legacy_contract.cpp": "65cf609d3c2c4894f29f3bdd1803438ed2313515d9a7e0d7a9344db3a37c951c",
+    "modules/segmentation/axis_tensor_reader_r3/host_r1/mock/shared_session.hpp": "836e4688da2d154129c783456ff82bd911ad94f73e355e5958d689c9a1453be3",
+    "modules/segmentation/axis_tensor_reader_r3/kernel.cpp": "05c8434ed9f8e53321ffce73d1649db1b0a38fb8d0224d327e141e0e30473610",
+    "modules/segmentation/axis_tensor_reader_r3/kernel.hpp": "c239ea0ca87397276e243568c23ed109bea8938c0981f252dc671db7dda36543",
+    "modules/segmentation/axis_tensor_reader_r3/legacy_framing.hpp": "ef8fe4d145408646fdfed138500f31f1fe6363c9552a02d1ebfb8d31ba69f41c",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/experimental/xrt_ip.h": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/sys/file.h": "d48f17c7e7f2305aa53b06b1a89b8b608e4dfc294c65e187bf235c0a0f8fad42",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_bo.h": "c2d45aca47ea75f21c7d5346f2d811e4d689a15d6e6dfd5c6f6520318fe53904",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_device.h": "f855d3b00d9c483b9619293f63b0997c5dab5320cbb9b3593d3d17f0a7958964",
+    "modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_xclbin.h": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201",
+    "modules/segmentation/ct_pool_fusion_r1/adapter_r7/writer_pool.cpp": "e8091f92c3ed197ff70401c51854ca8461cff08c010b0dbc653f1ddc38b033fc",
+    "modules/segmentation/ct_pool_fusion_r1/shared_pipeline_r7.hpp": "9fe22c778e919ca26caed86db9ccac7772d4f7e879a536c3352eee72be17c37f",
+    "modules/segmentation/ct_pool_fusion_r1/pool_stream.hpp": "ee5e78b9e3263fb8ff0e15f54ddb655b02e306c8da5dc3e166b352a0866dbcbe",
+    "modules/segmentation/ct_pl/conv.cpp": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+    "modules/segmentation/ct_pl/stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf",
+    "dfx/medical/algorithms/segmentation/stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf",
+    "dfx/medical/host_extended/postprocess.hpp": "1c121affd52be624d985f40b4bae89e81f3c8d754f19c42b84fa1ecb41bede2c",
+    "modules/runtime_audit/C5_pool_host_r1/shared_session.hpp": "dba5e30bcd3213a59e87a3137f4d8f9305717de3654f6dd8142861219235db3e",
+    "modules/runtime_audit/session_log_r1/runtime.hpp": "45ee85e8271acb9935dce1c83ec308bc3afbdadfbe79fb6acc40a9f6ea20adaf",
+    "modules/runtime_audit/session_log_r1/switch_log.hpp": "c9ac736976d0dbd5c0b9b213cc3e99c092f6437fa14c1d5ff77a345aec2ee6e8"
+  },
+  "receipts": {
+    "mock_compile": {
+      "argv": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "-DCT_NATIVE",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/host_r1/mock",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/dfx/medical/host_extended",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/host_r1/native_test.cpp",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/kernel.cpp",
+        "-o",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/output/host_test"
+      ],
+      "exit_code": 0,
+      "seconds": 30.48087635601405
+    },
+    "mock_run": {
+      "argv": [
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/output/host_test"
+      ],
+      "exit_code": 0,
+      "seconds": 2.9232468269765377
+    },
+    "XRT_compile": {
+      "argv": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-fno-fast-math",
+        "-fPIC",
+        "-shared",
+        "-pthread",
+        "-Wl,-z,defs",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/runtime_audit/C5_pool_host_r1",
+        "-I/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/dfx/medical/host_extended",
+        "-I/usr/include/xrt",
+        "-MD",
+        "-MF",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/output/dependencies.d",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/source/modules/segmentation/axis_tensor_reader_r3/host_r1/ct_tensor_bridge.cpp",
+        "-L/usr/lib/aarch64-linux-gnu",
+        "-lxrt_coreutil",
+        "-o",
+        "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340/output/libct_tensor_reader.so"
+      ],
+      "exit_code": 0,
+      "seconds": 40.6643318660208
+    }
+  },
+  "seconds": 74.23917916801292,
+  "peak_child_RSS_bytes": 352477184,
+  "no_CDLL_real_XRT_session_MMIO_DFX_firmware_or_GUI_access": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

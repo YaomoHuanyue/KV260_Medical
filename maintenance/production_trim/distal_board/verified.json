@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "case": "04_distal_multi_wall",
+  "targets": [
+    {
+      "target": 0,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064542_671f06a4",
+      "seconds": 61.26929986899995,
+      "source_diameter_mm": 4.308933258056641,
+      "PL_mesh_hit_rho": 1.4253526097007319
+    },
+    {
+      "target": 1,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064700_ab5b2ca9",
+      "seconds": 21.923724330999903,
+      "source_diameter_mm": 4.570313930511475,
+      "PL_mesh_hit_rho": 0.8869531965173632
+    },
+    {
+      "target": 2,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064723_6ebacb60",
+      "seconds": 23.398450611000044,
+      "source_diameter_mm": 6.093751907348633,
+      "PL_mesh_hit_rho": 0.9554340661019074
+    },
+    {
+      "target": 3,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064745_05d2dfbf",
+      "seconds": 24.70312412000021,
+      "source_diameter_mm": 4.308933258056641,
+      "PL_mesh_hit_rho": 1.015081377384245
+    },
+    {
+      "target": 4,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064810_76bcd95b",
+      "seconds": 23.68758738300039,
+      "source_diameter_mm": 4.308933258056641,
+      "PL_mesh_hit_rho": 1.204616572392374
+    },
+    {
+      "target": 5,
+      "passed": true,
+      "checks": {
+        "PL_EDT": true,
+        "PL_route": true,
+        "reachable": true,
+        "actual_PL_mesh_first_hit_is_target": true
+      },
+      "result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064834_7ed1bfba",
+      "seconds": 26.92355624799984,
+      "source_diameter_mm": 4.308933258056641,
+      "PL_mesh_hit_rho": 0.7716052776995733
+    }
+  ],
+  "reconstruction": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/releases/streaming_reader_r2/runs/20261031_064512_f2a9924a",
+  "MC_process_seconds": 30.384055357999387,
+  "MC_backend": "pl",
+  "smoothing_backend": "pl",
+  "input": "/home/ubuntu/jupyter_notebooks/KV260_System/datasets/virtual_wall_lesions/04_distal_multi_wall/CT-synthetic.nrrd",
+  "new_bitstream": false,
+  "model_inference_performed": false
+}

@@ -1,0 +1,125 @@
+{
+  "status": "passed_native_complete_medical_DFX_pipeline_PL_audit_HUD_C6_return_C7_cooperative_ownership",
+  "build": {
+    "status": "compiled_isolated_ARM_candidate_not_deployed",
+    "binary_sha256": "29c3155f02e60659c3a56b4995c442c44cd3b733079d09107bcf892aa729e534",
+    "source_sha256": {
+      "src/scope_reference.hpp": "5d1fb0c6234cab45d3970b3a4238abc324250794f513dd9aa4e2215c8604cdf2",
+      "src/pl_composite.cpp": "4815bbb89d2952ab5f337f3075703ea1f57bfb628bd6337766a3db89a4d9b47c",
+      "src/views.cpp": "892eec29f12d56ae0968a1eaf1f54cf4c36e6725b95a8514d7bf6d9e7ebdae6d",
+      "src/navigation_camera.hpp": "1f6dd1b9277e29985b6e6f6425f56b57ed6ebffdc2ed063dd805a4e3c054fd95",
+      "src/pl_composite.hpp": "cbff96c6da1281200334090162c47d4df82ed621abd5ea001eefbe25463e9ae4",
+      "src/pl_scope.cpp": "2500c9774c8e58e58699cdaed5c132d22c23b6386ff19a8b38942aa61c41b314",
+      "src/composite_test.inc": "fb40bf9c79da0a89085e7167b3c3d62930e1947d5d6f9f6cbfb8578212702d0a",
+      "src/pl_scope.hpp": "09645b7e6ba63cccc9d1f6cc9cc148e36d9f31077fcf9a580d746746346d3dea",
+      "src/main.cpp": "52d1a4686aa47815f9e14032f418c4eb30370f35b72419b09f54121915334a30",
+      "src/linked_camera_test.inc": "02c5ab6efa2f46590a4d7a375ae4427b3f63b3584f7125a48165fb0f8925bc93",
+      "src/composite_view.inc": "46f1ab0bdee57aaf7f8d9a2d16039c4d29ce472762b0f677987b7e464d6668c1",
+      "src/views.hpp": "2db29d8956684264942dbb35262eed484d9d8a5fed48da397832c6e915b9289d"
+    },
+    "camera_and_renderer_changed": false,
+    "base_UI_binary_sha256": "fcbd8fd79a892e06b4bb7aa4486abd304e4de22cc424f3117c6cf209ee1f7d3a"
+  },
+  "completion": {
+    "trial_terminal": true,
+    "trial_exit_code": 0,
+    "trial_passed": true,
+    "restored_ui_pid": 208149,
+    "restored_UI_alive": true,
+    "restored_UI_binary_sha256": "fcbd8fd79a892e06b4bb7aa4486abd304e4de22cc424f3117c6cf209ee1f7d3a",
+    "boot_id_before": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+    "boot_id_after": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+    "script_sha256": "e9dd747aba6ac94b25831d40e8b3086ebe69350c5ac334e78ff5e56f6068b1f7",
+    "candidate_binary_sha256": "29c3155f02e60659c3a56b4995c442c44cd3b733079d09107bcf892aa729e534",
+    "route_board_acceptance_sha256": "152ca603dccce0ab8140c413fad2f19da945389d2df9dd36705b28acfff7cb1e"
+  },
+  "original_CT_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+  "pipeline": {
+    "schema": "kv260.ui.pipeline.v1",
+    "status": "passed",
+    "backend": "dfx_pl",
+    "input_sha256": "4507b664690840abb6cb9af2d919377ffc4ef75b167cb6fd0f747befdb12e38e",
+    "input": "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+    "mode": "all",
+    "source_result": null,
+    "stages": [
+      {
+        "stage": "segmentation",
+        "wall_seconds": 43.301091618981445
+      },
+      {
+        "stage": "reconstruction",
+        "wall_seconds": 21.32284780201735
+      },
+      {
+        "stage": "navigation",
+        "wall_seconds": 12.246493773971451
+      }
+    ],
+    "total_wall_seconds": 76.87446545501007
+  },
+  "navigation_backend": {
+    "status": "completed",
+    "backend": "dfx_pl",
+    "edt_backend": "pl",
+    "route_backend": "pl",
+    "camera_backend": "pl",
+    "total_seconds": 9.513175826985389,
+    "route_status": "limited_reach",
+    "minimum_bend_radius_mm": 0.0,
+    "bend_audit_backend": "pl",
+    "forward_clearance_backend": "pl",
+    "rendering": false
+  },
+  "actual_HDMI": true,
+  "physical_mouse_verified": false,
+  "PL_audit_samples": 1207,
+  "HUD_matches_independent_PS_oracle": true,
+  "protocol3_PS_recalculation_forbidden_and_passed": true,
+  "camera_and_renderer_sources_unchanged": true,
+  "actual_UI_frames": {
+    "surface": 2,
+    "composite": 8
+  },
+  "dfx_UI_heartbeat_p95_ms": 52,
+  "dfx_UI_heartbeat_max_ms": 68,
+  "peak_UI_rss_mib": 409.29296875,
+  "accepted_UI_replaced": false,
+  "evidence_sha256": {
+    "ui/candidates/route_metrics_r2/docs/native_r2/04_all_structures.png": "7076d5df6219522ed6d645acf2ab844cd665abc82df3cd6276cf37359f610b8b",
+    "ui/candidates/route_metrics_r2/docs/native_r2/05_scope_after_dfx.png": "7c802d4a06a5d94091cab9946d45c39c7f211244343311c14fa25f05d8b065c4",
+    "ui/candidates/route_metrics_r2/docs/native_r2/02_model.png": "c29944e94387d0ad582437d6980a4399b309a9a5efce8fc1bca342e79ac6f65f",
+    "ui/candidates/route_metrics_r2/docs/native_r2/01_slices.png": "4e551464eaa7cf2d515d65764f8668881e1a87b12ae5454022c7790c9d883709",
+    "ui/candidates/route_metrics_r2/docs/native_r2/04_all_structures_viewport.png": "46d311b9aabbc653881297ee5d15d409e9f88f7baf9b1785c9f551aeb95271ef",
+    "ui/candidates/route_metrics_r2/docs/native_r2/05_scope_after_dfx_viewport.png": "35ce00c257757d573ce7fe105c65aef8a7f4c8646e354c6a600dcfffbe82657b",
+    "ui/candidates/route_metrics_r2/docs/native_r2/ui_acceptance.json": "69acb6fa6da2bd700cf0d2385c9e62737f89f5f2c456ea1b11245ec338b9f19c",
+    "ui/candidates/route_metrics_r2/docs/native_r2/02_model_viewport.png": "1b65b7add9c9143f470a8aa6af77b2ceccd538efb88e1aabbccb1168dbbb1883",
+    "ui/candidates/route_metrics_r2/docs/native_r2/final_viewport.png": "46d311b9aabbc653881297ee5d15d409e9f88f7baf9b1785c9f551aeb95271ef",
+    "ui/candidates/route_metrics_r2/docs/native_r2/final.png": "a109bcfd61f62bdb48226e381b29f651c4b04de3652c6eef8c95bf8b76dd7278",
+    "ui/candidates/route_metrics_r2/docs/native_r2/03_navigation_viewport.png": "35ce00c257757d573ce7fe105c65aef8a7f4c8646e354c6a600dcfffbe82657b",
+    "ui/candidates/route_metrics_r2/docs/native_r2/03_navigation.png": "18f13d028ac654f40c7f6d29bda09e0c0b8af3752dc43ca779aee15d6a0ecf70",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/pipeline.json": "f9857fffe92014c6cb52918b1c2627d6d6f0ef0b97252da0c8ad8d24894c6e26",
+    "ui/candidates/route_metrics_r2/cache/342c10f2a085b7293bafd343/scene.json": "b3d8b30f3a09427738ebf263fd5d3127632bc3da3a7dc37838f3411a2f59cc13",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/route.json": "7e4a4af49cb4058e055f36da2be676a9a186f3ab0318f1f2a30044e5ac7be87c",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/dfx_report.json": "a2d5b2b3192f9e73825b919d3700e6c35e3f1ef60396dc23ead265cc0b0068f7",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/route.npz": "52812cbcfffc953458131703dc3651168bb8ccabede1695a0c358dd27a6a6e23",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/camera.npz": "154637ca324d2c99d3fd9f654b29973dcb8fedc6c2ec4f9f6afdff0424504fa2",
+    "ui/candidates/route_metrics_r2/runs/20261004_150340_54111c86/navigation/session.json": "5180c52114eacf9be3f58e0c4f3420f76897073035f31bcfbe7c6f5ad2341bdf",
+    "ui/candidates/route_metrics_r2/origin.json": "93eb33958d70271b7c70431c3803c188b36e8341cf4c0efc521e5669bba61ecc",
+    "ui/candidates/route_metrics_r2/build/build.json": "f96ad1b5f9403eacfcac814307f30de78dfb730bc85c19a9e20133e0b5d7776a",
+    "ui/candidates/route_metrics_r2/build/medical_ui": "29c3155f02e60659c3a56b4995c442c44cd3b733079d09107bcf892aa729e534",
+    "ui/candidates/route_metrics_r2/docs/native_trial_r2.json": "d808dfe641a58f77b7b538703609aaf0be656c5bfdc24eb1e9639a05501843b5",
+    "ui/candidates/route_metrics_r2/docs/native_trial_r2.log": "0a19a4234b2d4455c9f45c49329ef337f442157c19be278f03479684e8c7e546",
+    "dfx/route_audit_speed/docs/board_acceptance_r14.json": "152ca603dccce0ab8140c413fad2f19da945389d2df9dd36705b28acfff7cb1e",
+    "tools/collect_route_metrics_ui_r2.py": "359cc245f334fd229085d46d649263a14f47819d3d6622e3c97f1aff4eac7bba",
+    "tools/run_route_metrics_ui_trial_r2.sh": "e9dd747aba6ac94b25831d40e8b3086ebe69350c5ac334e78ff5e56f6068b1f7",
+    "tools/launch_route_metrics_ui_trial_r2.sh": "bbf4488df0a71e1e5edfb81fe894fa1d226faffaa5d727d9a692c85e1f7a30a5"
+  },
+  "source_sha256": {
+    "ui/features/analysis.py": "a06aa8af6b1fa1a723b37f40ae48684c93983032b4ed54c65ede1d21f4032976",
+    "ui/candidates/route_metrics_r2/features/analysis.py": "196449dd0fc7fd6924994d045e10002ab814194320009a5ad703b239e5fcc36e",
+    "ui/candidates/route_metrics_r2/features/navigation_task.py": "2b2671b123eeb7207de12277fefdeca2dc4c43bb5e1e1778d3447c09eb484984",
+    "dfx/route_audit_speed/protocol.py": "7cfeeff15c8f6084f4ef9521b0ec6c3bf6f93f061b70dd2c7c622084f40c5163",
+    "dfx/route_audit_speed/checked_plan.py": "c60e8be2e6cc2cac25c4a8394c532160eb62ce5a9f3dc121074582032b1d0d16"
+  }
+}

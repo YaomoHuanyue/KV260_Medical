@@ -1,0 +1,169 @@
+{
+  "owner": {
+    "exact_board_root": "/home/ubuntu/jupyter_notebooks/KV260_System/results/owned_R3host_5f2498eb78a54021bda09e168ad88340",
+    "nonce": "14f45028800747d8b1c7a7bddd06640f"
+  },
+  "inventory": {
+    "worker.py": {
+      "bytes": 5260,
+      "SHA256": "bff1215bcf1ea9771857bf9cb134de263dad0fc8588948c7a402042a07377267"
+    },
+    "output/defined_symbols.txt": {
+      "bytes": 30680,
+      "SHA256": "afa3218783f6e0e06adaf9040352939781e95b975f3c4fe4ea490076da509f29"
+    },
+    "output/XRT_compile.log": {
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/XRT_compile_receipt.json": {
+      "bytes": 1080,
+      "SHA256": "59cd0d4156d7e0ba60ef609ef861ba811a94ae1dfeaa109f784aac7d80bd3d26"
+    },
+    "output/started.json": {
+      "bytes": 90,
+      "SHA256": "47e938a86bdbd835976874070ddf46b761412e7bcb5183c7a83db5bff778335b"
+    },
+    "output/host_test": {
+      "bytes": 157368,
+      "SHA256": "77e2f2b27e5bbe0055920b2f2438c38c9a089bfe0810defe0ed08cc4da41696e"
+    },
+    "output/verified.json": {
+      "bytes": 7581,
+      "SHA256": "a05af5c2021eb8945d74c6d305b611d32942e3af3bded77d85927621e57101b7"
+    },
+    "output/dependencies.d": {
+      "bytes": 19145,
+      "SHA256": "82a48938aee2e62460e89ce3bf16f23432061b83b8460c66ef14649ad0f3d70b"
+    },
+    "output/mock_compile.log": {
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/mock_run.log": {
+      "bytes": 434,
+      "SHA256": "e7eecd6697ac50744c7748690bdfceeb5cf18f2777d77dc8f29d577527a05456"
+    },
+    "output/libct_tensor_reader.so": {
+      "bytes": 322344,
+      "SHA256": "8c431fcaa56948635642aa3fb9016e65662005d04f3ff83f132be8bcd571bbbf"
+    },
+    "output/mock_run_receipt.json": {
+      "bytes": 191,
+      "SHA256": "5da31bbeefe7799f362b0bea7898775539602829608e85bfed6e603946de8eef"
+    },
+    "output/mock_compile_receipt.json": {
+      "bytes": 1141,
+      "SHA256": "f593c9344fd0fd92ced6be102d13f72a6921965b418813465f9a8a5b6920441d"
+    },
+    "terminal.json": {
+      "bytes": 1274,
+      "SHA256": "32325fa2a833a18ffae9240604a67954c76af7c7a7385e00f6ac78f4a66d21a1"
+    },
+    "owner.json": {
+      "bytes": 175,
+      "SHA256": "4a11003393b047567837267a15bc519d8cd21563f6fe62785bcbf33f29c36397"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source/modules/runtime_audit/C5_pool_host_r1/shared_session.hpp": {
+      "bytes": 1108,
+      "SHA256": "dba5e30bcd3213a59e87a3137f4d8f9305717de3654f6dd8142861219235db3e"
+    },
+    "source/modules/runtime_audit/session_log_r1/runtime.hpp": {
+      "bytes": 9457,
+      "SHA256": "45ee85e8271acb9935dce1c83ec308bc3afbdadfbe79fb6acc40a9f6ea20adaf"
+    },
+    "source/modules/runtime_audit/session_log_r1/switch_log.hpp": {
+      "bytes": 2080,
+      "SHA256": "c9ac736976d0dbd5c0b9b213cc3e99c092f6437fa14c1d5ff77a345aec2ee6e8"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/shared_pipeline_r7.hpp": {
+      "bytes": 5040,
+      "SHA256": "9fe22c778e919ca26caed86db9ccac7772d4f7e879a536c3352eee72be17c37f"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/adapter_r7/writer_pool.cpp": {
+      "bytes": 2327,
+      "SHA256": "e8091f92c3ed197ff70401c51854ca8461cff08c010b0dbc653f1ddc38b033fc"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/experimental/xrt_ip.h": {
+      "bytes": 13,
+      "SHA256": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/sys/file.h": {
+      "bytes": 68,
+      "SHA256": "d48f17c7e7f2305aa53b06b1a89b8b608e4dfc294c65e187bf235c0a0f8fad42"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_device.h": {
+      "bytes": 33,
+      "SHA256": "f855d3b00d9c483b9619293f63b0997c5dab5320cbb9b3593d3d17f0a7958964"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_xclbin.h": {
+      "bytes": 13,
+      "SHA256": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/host_dual_r1/mock/xrt/xrt_bo.h": {
+      "bytes": 1991,
+      "SHA256": "c2d45aca47ea75f21c7d5346f2d811e4d689a15d6e6dfd5c6f6520318fe53904"
+    },
+    "source/modules/segmentation/ct_pool_fusion_r1/pool_stream.hpp": {
+      "bytes": 2533,
+      "SHA256": "ee5e78b9e3263fb8ff0e15f54ddb655b02e306c8da5dc3e166b352a0866dbcbe"
+    },
+    "source/modules/segmentation/ct_pl/stream_types.hpp": {
+      "bytes": 2684,
+      "SHA256": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+    },
+    "source/modules/segmentation/ct_pl/conv.cpp": {
+      "bytes": 21545,
+      "SHA256": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/kernel.hpp": {
+      "bytes": 369,
+      "SHA256": "c239ea0ca87397276e243568c23ed109bea8938c0981f252dc671db7dda36543"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/host_r1/native_test.cpp": {
+      "bytes": 9967,
+      "SHA256": "2b4cf10f8742eedc38ae7854d70172c54c2d6d407e5413c8d3ac52c34292ce2a"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/host_r1/ct_tensor_bridge.cpp": {
+      "bytes": 25128,
+      "SHA256": "01e0dfd326eeff0eb507ad872233b8caa198063873bbbccb01a8b5dc926efd17"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/host_r1/legacy_contract.cpp": {
+      "bytes": 8417,
+      "SHA256": "65cf609d3c2c4894f29f3bdd1803438ed2313515d9a7e0d7a9344db3a37c951c"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/host_r1/mock/shared_session.hpp": {
+      "bytes": 1865,
+      "SHA256": "836e4688da2d154129c783456ff82bd911ad94f73e355e5958d689c9a1453be3"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/kernel.cpp": {
+      "bytes": 5848,
+      "SHA256": "05c8434ed9f8e53321ffce73d1649db1b0a38fb8d0224d327e141e0e30473610"
+    },
+    "source/modules/segmentation/axis_tensor_reader_r3/legacy_framing.hpp": {
+      "bytes": 1532,
+      "SHA256": "ef8fe4d145408646fdfed138500f31f1fe6363c9552a02d1ebfb8d31ba69f41c"
+    },
+    "source/dfx/medical/algorithms/segmentation/stream_types.hpp": {
+      "bytes": 2684,
+      "SHA256": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+    },
+    "source/dfx/medical/host_extended/postprocess.hpp": {
+      "bytes": 1514,
+      "SHA256": "1c121affd52be624d985f40b4bae89e81f3c8d754f19c42b84fa1ecb41bede2c"
+    },
+    "inputs.json": {
+      "bytes": 3709,
+      "SHA256": "9b31d02551e8269965c07dae1f4634e7c248b4e84d5398a250f06bd08db7daeb"
+    },
+    "stdout.log": {
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "all_uploaded_generated_bytes_verified": true
+}

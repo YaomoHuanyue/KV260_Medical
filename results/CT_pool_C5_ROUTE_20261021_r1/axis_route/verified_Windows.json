@@ -1,0 +1,92 @@
+{
+  "clock_MHz": 100,
+  "WNS_ns": 0.771,
+  "WHS_ns": 0.01,
+  "whole_resources": {
+    "LUT": 83290,
+    "FF": 118015,
+    "DSP": 851,
+    "BRAM36": 100,
+    "BRAM18": 14,
+    "URAM": 0
+  },
+  "RP_resources": {
+    "LUT": 69450,
+    "FF": 92133,
+    "DSP": 851,
+    "BRAM36": 100,
+    "BRAM18": 14,
+    "URAM": 0
+  },
+  "remaining_RP": {
+    "LUT": 18870,
+    "FF": 84507,
+    "DSP": 109,
+    "BRAM36_equivalent": 25.0,
+    "URAM": 64
+  },
+  "five_reference_full_PR": [
+    {
+      "reference": "mc",
+      "full_check_passed": true
+    },
+    {
+      "reference": "smooth",
+      "full_check_passed": true
+    },
+    {
+      "reference": "edt",
+      "full_check_passed": true
+    },
+    {
+      "reference": "route",
+      "full_check_passed": true
+    },
+    {
+      "reference": "ct",
+      "full_check_passed": true
+    }
+  ],
+  "schema": "kv260.ct_pool.C5.physical.v1",
+  "same_frozen_RP": true,
+  "routed_100MHz": true,
+  "all5_original_static_pr_verify_passed": true,
+  "status": "independent_actual_C5_100MHz_setup_hold_DRC_all5PR_and_partial_firmware_verified_not_board",
+  "candidate_DCP_SHA256": "3bb2d19df479dc605e891222d27b0609d84381f5d8d16b13cdacc27b6dfdb711",
+  "frozen_static_DCP_SHA256": "285f3d4a50af45cbea7f503f1f32789b0d84b55214163750a301267e2e72fcb9",
+  "artifact_SHA256": {
+    "config_ct_pool_r1.dcp": "b256baed28c0840f022b48fac57105312b85c5038eb4887d6694ded6a0e8b629",
+    "config_ct_pool_r1.bit": "27a0a2294c3cfb55ea6f0ed03621f6ebf0572484b86d6c3d05eb94b117895d7e",
+    "config_ct_pool_r1.bin": "894e7078879365165be924d2ed2dbf1b14d6fb417d8b9cdd6c567cf7624c8b89",
+    "config_ct_pool_r1_pblock_rp_partial.bit": "bdaa34d63f3d226d261bc4cc405419cabca5beeba79f15cc9b776beea9927d09",
+    "config_ct_pool_r1_pblock_rp_partial.bin": "ed7e735d6dab069e1dad3824219bfc97a871a49841b4b1ebc6b2e441cecfd9cc",
+    "timing_ct_pool_r1.rpt": "d67f8f2cb869e5bf2f504ee90976e7b890d97fbae7a1443e716b38fbbfcbce99",
+    "drc_ct_pool_r1.rpt": "8ad534b7a1e49cdc563119670ad2429988c28ec0e960720c11a684fa33dea08f",
+    "utilization_ct_pool_r1.rpt": "62fa4295e372a2317ad21a93c3d2dcde9f62233e8d22a580d09e1dd3760ca76f",
+    "capacity_ct_pool_r1.rpt": "a1862611ee35a562add0d8bd51a14b0e1a55f14d7ae87a7b446171c55fa348f5",
+    "pr_verify_ct_pool_r1_mc.log": "ded20b21993237d392e017cf4f2a41a65bcac3625c31f9b179b0579a33f142d0",
+    "pr_verify_ct_pool_r1_smooth.log": "e0d4b38b3b0466cf04cab202634e785ec27fa13226a3a4c9552b7f468a897fa8",
+    "pr_verify_ct_pool_r1_edt.log": "f98d24f785050cad0311ed0e97c050cebc955bd691d4f26d0ea1248a834673d2",
+    "pr_verify_ct_pool_r1_route.log": "0ed324645e0f854f1a7f441a94170f4d844f5791e0c299e341e678a474834c9c",
+    "pr_verify_ct_pool_r1_ct.log": "57e9577b9b5c7d1c0f5d74b5c8294dab688483e6f0496ccd10d766e1674d1332",
+    "OFFLINE_COMPLETE_ct_pool_r1.txt": "b512393b701300850d027d6f41cac6bf31722a7479ce115255e9a00c8343ff1d"
+  },
+  "partial_SHA256": "ed7e735d6dab069e1dad3824219bfc97a871a49841b4b1ebc6b2e441cecfd9cc",
+  "actual_route_seconds": 2551.8816692000255,
+  "actual_route_peak_job_bytes": 12934328320,
+  "archive_SHA256": "251ed201ec6f6bd4121cd5f59fce762d136e0c2669f3e0145c98792f4d24ec8c",
+  "all_owned_bytes_and_closed_logs_collected_exact_root_absent": true,
+  "full398_RTL_all8_resets_full139_model_and_ARM_host_prerequisites_preserved": true,
+  "actual_ARM_XRT_DMA_board_full139_strongest_PS1_PS4_and_integration_still_required": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/DFX_ROUTE_r1/verify_collected.py": "94df12023d1c18f5e500adcfa9ef290380872cefb87baff65c591a14a2baa771",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_ROUTE_r1/check_reports.py": "5a5114b35ba7aed38d2870474f1b625c31ad1c896dd1b651d4d03fb84ed7ca17",
+    "modules/segmentation/ct_pool_fusion_r1/DFX_ROUTE_r1/preflight.py": "2ba0bb18b9c41dfc9845fc629136b8a67ff92150076234e3f07ad8bdba266d57",
+    "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/stream_collection_verified.json": "6cc57901a75194feba80e24ca9d9dd5692008944f13b55ac389866d660a827c4",
+    "results/CT_pool_C5_ROUTE_20261021_r1/axis_route/cleanup_verified_stream.json": "d818a9cb2cef27f23aedd02a0db7b7f54baf248b671a84b9b4104489f93a00e9",
+    "results/CT_pool_full199_RTL_20261021_r6/axis_rtl/verified_Windows.json": "68d0eb15153c32e2e68d3b4cf0808aaf159317f27ec56cb81a8b74180a44e754"
+  },
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "compiled_headless_native_Qt_chart",
+  "exit_code": 0,
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "-fPIC",
+    "-mcpu=cortex-a53",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/report_export/chart.cpp",
+    "-DQT_WIDGETS_LIB",
+    "-I/usr/include/aarch64-linux-gnu/qt5/QtWidgets",
+    "-I/usr/include/aarch64-linux-gnu/qt5",
+    "-I/usr/include/aarch64-linux-gnu/qt5/QtCore",
+    "-DQT_GUI_LIB",
+    "-I/usr/include/aarch64-linux-gnu/qt5/QtGui",
+    "-DQT_CORE_LIB",
+    "-lQt5Widgets",
+    "-lQt5Gui",
+    "-lQt5Core",
+    "-o",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/modules/report_export/build/report_chart"
+  ],
+  "source_sha256": {
+    "modules/report_export/chart.cpp": "f1b21446b0ecbdabcac81c20b30e265fd8d6c9d1bdd72b99d648d04c74fe0161",
+    "modules/report_export/build_chart.py": "c1f3fbd4e0c40e8a5775c03f93ff3fa126689c2f60d920d2c06475fefd54f618",
+    "ui/releases/feature_completion_r6/reachability_chart.hpp": "8858d8ecb47d838437fd49f8534f3517a57a7129b799ca8ef0070f46e677aeaf"
+  },
+  "binary_sha256": "000f6bf739e5ec58fe5fbc8737050134f0c6b82ad4ebfae1a99176dcb9769698",
+  "stdout": "",
+  "stderr": "",
+  "no_new_Python_plotting_dependency": true,
+  "PL_accessed": false
+}

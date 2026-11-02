@@ -1,0 +1,24 @@
+{
+  "comment_text": null,
+  "core-metadata": {
+    "sha256": "6c2f0f6c092058c822482927b6a39dc99dae6178da88cc4ca3232c6f903ff861"
+  },
+  "digests": {
+    "blake2b_256": "f6b2fe8fbc4e80db34b9dd1209b2238b6348096cac17a61ba826f4ec5c4e0a48",
+    "md5": "5e5ed5d2254312d8a178b9ee9d030a3f",
+    "sha256": "64a50b972240f477c864a0d16dfc247e7f540b007ec4016b76cb8f112f62a66b"
+  },
+  "downloads": -1,
+  "filename": "vtk-9.7.1-cp312-cp312-win_amd64.whl",
+  "has_sig": false,
+  "md5_digest": "5e5ed5d2254312d8a178b9ee9d030a3f",
+  "packagetype": "bdist_wheel",
+  "python_version": "cp312",
+  "requires_python": null,
+  "size": 80426613,
+  "upload_time": "2026-09-28T09:51:26",
+  "upload_time_iso_8601": "2026-09-28T09:51:26.406473Z",
+  "url": "https://files.pythonhosted.org/packages/f6/b2/fe8fbc4e80db34b9dd1209b2238b6348096cac17a61ba826f4ec5c4e0a48/vtk-9.7.1-cp312-cp312-win_amd64.whl",
+  "yanked": false,
+  "yanked_reason": null
+}

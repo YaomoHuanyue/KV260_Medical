@@ -1,0 +1,31 @@
+[Unit]
+Description=KV260 medical V2 HDMI interface and accepted DFX platform
+After=local-fs.target kv260-xrt-device.service systemd-user-sessions.service
+Wants=kv260-xrt-device.service
+RequiresMountsFor=/home/ubuntu/jupyter_notebooks/KV260_System /lib/firmware
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=notify
+NotifyAccess=main
+User=root
+WorkingDirectory=/home/ubuntu/jupyter_notebooks/KV260_System
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python -B /home/ubuntu/jupyter_notebooks/KV260_System/system/autostart/manager.py
+RuntimeDirectory=kv260-medical-ui
+RuntimeDirectoryMode=0750
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=360
+TimeoutStopSec=600
+KillMode=mixed
+SendSIGKILL=no
+LimitCORE=0
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=kv260-medical-ui
+
+[Install]
+WantedBy=multi-user.target

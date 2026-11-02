@@ -1,0 +1,43 @@
+{
+  "status": "physical_curve_quality_invariants_and_wall_mask_shortcut_rejection_passed",
+  "platform": "linux",
+  "cases": [
+    {
+      "name": "exact_endpoints_step_and_LPS_rigid_transform_equivariance",
+      "status": "passed"
+    },
+    {
+      "name": "degenerate_nonfinite_step_and_no_silent_capacity_coarsening",
+      "status": "passed"
+    },
+    {
+      "name": "valid_corner_rounding_keeps_endpoints_geometry_and_regenerates_camera",
+      "status": "passed"
+    },
+    {
+      "name": "explicit_displacement_budget_never_relaxed_to_force_bend_success",
+      "status": "passed"
+    },
+    {
+      "name": "smooth_shortcut_through_source_mask_background_refused",
+      "status": "passed"
+    },
+    {
+      "name": "smooth_shortcut_through_actual_internal_wall_refused",
+      "status": "passed"
+    },
+    {
+      "name": "explicit_smoothing_off_honored",
+      "status": "passed"
+    }
+  ],
+  "source_sha256": {
+    "modules/surface_route/curve_quality_r4.py": "05ddecb558760fa4b58b1fa808841d4bfacb1b9174ba9d06dadebc146fc9c3ae",
+    "modules/surface_route/test_curve_quality_r4.py": "383124480648ffd4f5cf6fe5583b569fcc3a04193f49d34ad6bfcf23034a3e2c",
+    "modules/surface_route/bend_replan_r3.py": "c4be397cd1480f1a6d57cd7ae6febfc5b04bfe87707d853696772b3e7a6f061f",
+    "modules/surface_route/replan_r1.py": "afa88b5b0b904166abaf0b02de79c36db708d5c99a5b7e21d4e7cec6cddcfdfd",
+    "modules/surface_route/refine_r1.py": "ef31f7f36a2ac887723e967427b301e149aebe10833ea738c79b75402b9c0982",
+    "modules/surface_route/audit.py": "4a66f493db4dbcd3e85cc2a3bb0dbe335215b4abae95e9305ed0733d46ccb483"
+  },
+  "PL_access": false
+}

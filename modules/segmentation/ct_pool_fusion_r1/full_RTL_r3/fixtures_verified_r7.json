@@ -1,0 +1,97 @@
+{
+  "status": "all487_R7_full_top_native_and_NumPy_gold_exact_actual_RTL_pending",
+  "original_fixture_archive_SHA256": "5f0768568f673cb1d092820b07b86f4005369f2a1ce40cf5ae5f9fd11a5e9193",
+  "original193_all6_blobs_each_case_exact_original1158_digests": true,
+  "only294_new_cases_stored_no_original49MB_copy": true,
+  "cases": 487,
+  "archive_SHA256": "43ac7c24469d3fdc386e3221318ac1d608118a917f781e68ee922f23eded5adb",
+  "archive_bytes": 16090552,
+  "all_members_full_stream_SHA_verified": true,
+  "maximum512x512x64_full_top_and_all_original193_cases_retained": true,
+  "all193_original_case_digests_and_output_gold_NumPy_exact": true,
+  "two_original_invalid_primitive_channel_cases_explicit_top_control_reject_no_input": true,
+  "native_forward_transformation_does_not_claim_VENDOR_Csim_or_RTL_for28_new_top_calls": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r3/export_fixture.py": "581ec287e07da07829f3b24b3a1c0e6e51181f19bfc6055321490b8838cfa7dc",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r1/emit_fixture.hpp": "0d82d55d3f78cdf46b3fcc77422e1e8fa811a754dd271d8d609626ec740e6185",
+    "modules/segmentation/ct_pool_fusion_r1/tests_r7_chunks.cpp": "5dcb3471e171ddcfe6f1f40d2a7e2a8f33995c77f0e8515b44b1231eceaa9617",
+    "modules/segmentation/ct_pool_fusion_r1/vendor_testbench.cpp": "e2affd5e261c94cbfab5f101356d092f7f4a7851c7ffc7d71a8b28f64be7766c",
+    "modules/segmentation/ct_pool_fusion_r1/adapter_r7/writer_pool.cpp": "e8091f92c3ed197ff70401c51854ca8461cff08c010b0dbc653f1ddc38b033fc",
+    "modules/segmentation/ct_pool_fusion_r1/shared_pipeline_r7.hpp": "9fe22c778e919ca26caed86db9ccac7772d4f7e879a536c3352eee72be17c37f",
+    "modules/segmentation/ct_pool_fusion_r1/pool_stream.hpp": "ee5e78b9e3263fb8ff0e15f54ddb655b02e306c8da5dc3e166b352a0866dbcbe",
+    "modules/segmentation/ct_pool_fusion_r1/model_tables.hpp": "5143d6dbde4c0ef165e329e3d4aa60246d5ad69b9488a07424b4453b9bf8998b",
+    "modules/segmentation/ct_pool_fusion_r1/burst_writer_r7_boundaries_native_r1/verified.json": "32068bf381ef03a2dd779bf5e100a76c5e7de4acc2b576330709124c83fe740d",
+    "modules/segmentation/ct_pool_fusion_r1/full_RTL_r1/fixtures_verified_r1.json": "d0e6441b2a455ddeca4669983a7ee0a08106a38fc05127ff82b4cf37c4f65c2f",
+    "modules/segmentation/ct_pl/conv.cpp": "5abcf6c5401c1dcc68a80ff1ff85886d18cdcd96228b438f6666eb10da2892d7",
+    "modules/segmentation/ct_pl/stream_types.hpp": "327d093a79745f1b89e47538963c9c2d8248a06c27cadf4b7f3a0def4d336cbf"
+  },
+  "library_SHA256": "ba173acf61aeb08364f5e77b3f6391742670538703af6560d0be0c1fc4d3a96d",
+  "compiler_argv": [
+    "F:\\AMDDesignTools\\2025.2.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt\\bin\\g++.exe",
+    "-std=c++17",
+    "-O2",
+    "-shared",
+    "-DCT_NATIVE",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-Wno-unknown-pragmas",
+    "-ID:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1",
+    "-ID:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r3",
+    "-ID:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r1",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\adapter_r7\\writer_pool.cpp",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r3\\cpp_export\\bridge.cpp",
+    "-o",
+    "D:\\Xilinx_Project\\2026FPGA\\kv260_system\\modules\\segmentation\\ct_pool_fusion_r1\\full_RTL_r3\\cpp_export\\export.dll"
+  ],
+  "source_derivations": [
+    {
+      "source": "modules/segmentation/ct_pool_fusion_r1/vendor_testbench.cpp",
+      "source_SHA256": "e2affd5e261c94cbfab5f101356d092f7f4a7851c7ffc7d71a8b28f64be7766c",
+      "target_SHA256": "a4188a41336ed3848b2538fde5b0d0c530e84f4a21e4b73fde1cdd1822cdd856",
+      "reversible_literal_edits": [
+        [
+          "extern \"C\" void ct_writer_pool(Stream<P256>&,W256*,uint32_t,uint32_t&,const W256*,uint32_t,uint32_t,uint32_t,uint32_t,W256*,const W256*,uint32_t);",
+          "extern \"C\" void ct_writer_pool(Stream<P256>&,W256*,uint32_t,uint32_t&,const W256*,uint32_t,uint32_t,uint32_t,uint32_t,W256*,const W256*,uint32_t);\n#include \"emit_fixture.hpp\""
+        ],
+        [
+          " result(name,status,digest);",
+          " emit_primitive_fixture(cases,name,h,w,c,count,source,table,valid,status,digest);\n result(name,status,digest);"
+        ],
+        [
+          " result(\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);",
+          " emit_writer_fixture(cases,\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),h,w,c,count,mode,fault,spec.scale_bits,spec.zero,parameters,table,acc,expected,small,status,digest,1);\n result(\"writer_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);"
+        ]
+      ]
+    },
+    {
+      "source": "modules/segmentation/ct_pool_fusion_r1/tests_r7_chunks.cpp",
+      "source_SHA256": "5dcb3471e171ddcfe6f1f40d2a7e2a8f33995c77f0e8515b44b1231eceaa9617",
+      "target_SHA256": "db1e1246fc95aba4c72417fb7ef6f7c16570cc1342993bf168025f7d13001d7d",
+      "reversible_literal_edits": [
+        [
+          "#include \"vendor_testbench.cpp\"",
+          "#include \"typed_vendor.cpp\""
+        ],
+        [
+          "int main(){",
+          "int all487_export_tests(){"
+        ],
+        [
+          " result(\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),status,digest);",
+          " emit_writer_fixture(cases,\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),0,0,channels,count,mode,0,float_bits(qscale),zero,parameters,parameters.data()+groups*2,acc,expected,std::vector<uint8_t>{},status,digest,2);\n result(\"legacy_c\"+std::to_string(channels)+\"_n\"+std::to_string(count)+\"_mode\"+std::to_string(mode),status,digest);"
+        ]
+      ]
+    },
+    {
+      "source": "typed_tests.cpp_after_original_derivation",
+      "before": " result(\"chunk_h\"+std::to_string(h)+\"_w\"+std::to_string(w)+\"_c\"+std::to_string(c)+\"_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);",
+      "after": " emit_writer_fixture(cases,\"chunk_h\"+std::to_string(h)+\"_w\"+std::to_string(w)+\"_c\"+std::to_string(c)+\"_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),h,w,c,count,mode,fault,spec.scale_bits,spec.zero,parameters,table,acc,expected,small,status,digest,3);\n result(\"chunk_h\"+std::to_string(h)+\"_w\"+std::to_string(w)+\"_c\"+std::to_string(c)+\"_model\"+std::to_string(model)+\"_mode\"+std::to_string(mode)+\"_fault\"+std::to_string(fault),status,digest);",
+      "exact_reverse_verified": true
+    }
+  ],
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

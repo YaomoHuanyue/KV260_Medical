@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "default",
+      "points": 35,
+      "ids": 8,
+      "useful_words": 73
+    },
+    {
+      "name": "virtual",
+      "points": 35,
+      "ids": 8,
+      "useful_words": 73
+    },
+    {
+      "name": "unsmoothed",
+      "points": 35,
+      "ids": 8,
+      "useful_words": 73
+    },
+    {
+      "name": "blocked",
+      "points": 0,
+      "ids": 0,
+      "useful_words": 2
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "PID": 31811,
+  "argv": [
+    "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+    "-X",
+    "utf8",
+    "/home/ubuntu/jupyter_notebooks/KV260_System/tools/active_surface_trial_r14d.py"
+  ],
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "supervisor_sha256": "b1cfe0ca73157ed3f0c65870d93f6631f98f081d77de7ba77bec3dde11f5a998"
+}

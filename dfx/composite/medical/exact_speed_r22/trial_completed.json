@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "trials": [
+    "screen.py",
+    "accept.py",
+    "test_RAM_transport.py",
+    "test_scene_change.py"
+  ],
+  "original_UI_restored": true
+}

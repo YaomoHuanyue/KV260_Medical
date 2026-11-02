@@ -1,0 +1,15 @@
+{
+  "both_full159_harness_syntax_compilations_passed": true,
+  "source_SHA256": {
+    "tools/preflight_tensor_R3_RTL_20261022_r1.py": "7f69a7faed00086e65b08536347250fd35206a8f3e04a03b815b972edd994d0b",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/generate.py": "0b9b16b8af40a2100f71ae9666239587a5aad7ff01af9c4dc03c335227350d53",
+    "modules/segmentation/axis_tensor_reader_r3/RTL_r1/testbench.sv.in": "0fd0bde423d96c8bd52eb9643a4c29ac3b123d71446c922699d209f899c7f553",
+    "modules/reconstruction/mesh_topology_r1/rank_cache_URAM_r9/full_RTL_memory_init_r2/hold.sv": "5a47a1911f017a6baa71a2369ae030411dddfa272e0429f859883375e0dd5157"
+  },
+  "original142_valid17_invalid_all_actual_model_join_dimensions_retained": true,
+  "full165_frames_four_actual_resets_each_mode_required": true,
+  "syntax_only_not_actual_RTL": true,
+  "real_generated40RTL_backpressure_reset_and_all_full_model_outputs_still_required": true,
+  "PL_accessed": false,
+  "whole_goal_completed": false
+}

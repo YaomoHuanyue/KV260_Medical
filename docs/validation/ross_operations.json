@@ -1,0 +1,28 @@
+{
+  "schema": "kv260.git.ross.validation.v1",
+  "date": "2026-11-02",
+  "official_upstream": "https://github.com/Xilinx/ross-ai-assistant",
+  "upstream_commit": "2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de",
+  "skills": [
+    "vivado-revision-control 1.0.0",
+    "hls-run-flow 1.0.0"
+  ],
+  "actual_tool_version": "2025.2.1",
+  "MCP_session": "vivado-20261102-074313-11f74c37",
+  "actual_MCP_operations": [
+    "source hardware/static/create_project.tcl; full BD output generation",
+    "detect_project_flow; analyze_source_locations; export_all_sources",
+    "capture_project_settings; generate_build_script",
+    "source hardware/ross_export/Scripts/build.tcl; full output generation",
+    "source portable adapted build.tcl with KV260_CREATE_ONLY=1",
+    "verify_rebuild hardware/ross_export/Scripts/verification_manifest.tcl",
+    "get_files -all: case-insensitive project-source confinement check"
+  ],
+  "new_full_RM_synthesis_route_or_board_algorithm_verification": false,
+  "initial_failures": [
+    "capture settings: Scripts directory missing; created directory and reran successfully",
+    "HU Csim: HU_AXIS_LUT_FILE not supplied; deterministic synthetic test LUT added and all80 passed",
+    "Export source closure: missing indirect source/evidence paths and historical payload dependencies; packaging-only runtime maps and SHA constants rebound"
+  ],
+  "historical_proofs_are_not_new_Ross_results": true
+}

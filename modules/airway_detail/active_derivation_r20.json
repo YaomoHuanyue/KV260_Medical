@@ -1,0 +1,195 @@
+{
+  "edits": [
+    {
+      "parent": "modules/surface_route/active_backend_r17.py",
+      "parent_sha256": "468fed34fe1a4566df77e61947c0c4814ce727ec73cae905178b063eea51940c",
+      "child": "modules/surface_route/active_backend_r20.py",
+      "child_sha256": "6c23c785daee551296ee50aac5056e1b2a611281ccaf180c8dc3f4554c932d7d",
+      "changes": [
+        [
+          "from modules.surface_route.quality_validation_r16 import verify_active_scene",
+          "from modules.airway_detail.active_scene_r20 import verify_active_scene,produce as recover"
+        ],
+        [
+          "choices=['prepare','comparison','selected-path','quality']",
+          "choices=['prepare','comparison','selected-path','quality','airway-detail']"
+        ],
+        [
+          "        elif a.action=='comparison':",
+          "        elif a.action=='airway-detail':\n            path=recover(a.active_scene,output,a.lesion,event)\n        elif a.action=='comparison':"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/navigation_media/active_binding_r18b.hpp",
+      "parent_sha256": "8e4498ec044be6f53bbef4ab9b38ca226449783233143a535ed2689a77f0d0e0",
+      "child": "modules/navigation_media/active_binding_r20.hpp",
+      "child_sha256": "409c072949321c85aaa8e3a1c94c59c7d8a4bd9cf1882dae2ef26acee618ca80",
+      "changes": [
+        [
+          " pin(root+\"/dfx/surface_quality/release/manifest.json\");",
+          " auto recovery=scene[\"distal_recovery_binding\"].toObject();\n if(!recovery.isEmpty()){\n  pin(recovery[\"report\"].toString(),recovery[\"report_sha256\"].toString());\n  auto outputs=recovery[\"outputs_sha256\"].toObject();if(outputs.size()!=4)throw std::runtime_error(\"Invalid recovery review outputs\");\n  for(auto it=outputs.begin();it!=outputs.end();++it)pin(it.key(),it.value().toString());\n  auto review=scene[\"distal_recovery\"].toObject();auto inputs=review[\"inputs_sha256\"].toObject();\n  for(auto it=inputs.begin();it!=inputs.end();++it)pin(it.key(),it.value().toString());\n }\n pin(root+\"/dfx/surface_quality/release/manifest.json\");"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/batch_images/heatmap_current_r19.py",
+      "parent_sha256": "c40a45b7b8f5750260f7b15463bd4da0eda004d62040a835ca6aa02f054944dd",
+      "child": "modules/batch_images/heatmap_current_r20.py",
+      "child_sha256": "d3cfeae22c7d98224c1f0b31a308774bc92a8e55bb8714c0721d66f65093234a",
+      "changes": [
+        [
+          "from modules.surface_route.quality_validation_r16 import verify_active_scene",
+          "from modules.airway_detail.active_scene_r20 import verify_active_scene"
+        ],
+        [
+          "    eligible=(g==eligibility['geometry'] and mask_hash==eligibility['masks_sha256'])",
+          "    # The accepted original context used bits 0..4. New recovery layers occupy\n    # bits 5..7 and cannot change lung/lesion EDT eligibility.\n    context=hashlib.sha256()\n    for z in range(len(masks)):context.update(np.ascontiguousarray(masks[z]&31).tobytes())\n    context_hash=context.hexdigest()\n    eligible=(g==eligibility['geometry'] and context_hash==eligibility['masks_sha256'])"
+        ],
+        [
+          "active_revision=complete['revision'],active_field_sha256=SHA(field),",
+          "active_revision=complete['revision'],active_field_sha256=SHA(field),eligibility_context_low5_sha256=context_hash,"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/batch_images/finish_current_r19.py",
+      "parent_sha256": "c19ef11da22278a9008c48002da17896965dd8a28f5dfd5e51ef31c0079b741d",
+      "child": "modules/batch_images/finish_current_r20.py",
+      "child_sha256": "50d5927ba1efb1bb1eaeb8b586b3361595d8523e92b1a8ce7bd730c7461820d1",
+      "changes": [
+        [
+          "from heatmap_current_r19 import work_heatmap",
+          "from heatmap_current_r20 import work_heatmap"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/batch_images/UI_feature_current_r19.inc",
+      "parent_sha256": "3172e3a326f629aef142ad62d9e71661b00f904bf19f54d03c8d48e316749b21",
+      "child": "modules/batch_images/UI_feature_current_r20.inc",
+      "child_sha256": "f4fb5e9e8bdde0515fec05f9f10c875509c52d64eb7260e0871357b423021f51",
+      "changes": [
+        [
+          "modules/batch_images/finish_current_r19.py",
+          "modules/batch_images/finish_current_r20.py"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/export_scene_r10.py",
+      "parent_sha256": "024f249668b36a5f6df18d018e485b797cfe94c2ca076135ec1075d0b0a614c0",
+      "child": "modules/surface_route/export_scene_r20.py",
+      "child_sha256": "270c1f6838f7e7db125f4ec8acc2792487a6dd9096e8c8c80ce15c5c90abe1dd",
+      "changes": [
+        [
+          "from modules.surface_route.ui_bridge_r9 import verify_prepared, asset_path",
+          "from modules.surface_route.ui_bridge_r9 import asset_path\nfrom modules.airway_detail.active_scene_r20 import verify_active_scene\nfrom modules.airway_detail.export_review_r20 import append_export\ndef verify_prepared(path,root=ROOT):\n    if Path(root).resolve()!=ROOT:raise ValueError('Current project root required')\n    return verify_active_scene(path)"
+        ],
+        [
+          "        reference_start = perf_counter()",
+          "        recovery_export=append_export(scene,payload)\n        reference_start = perf_counter()"
+        ],
+        [
+          "            masks=inherited['masks'], original_source_files_sha256=source_files,",
+          "            masks=inherited['masks'], original_source_files_sha256=source_files,recovery_review=recovery_export,"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/export_backend_r10.py",
+      "parent_sha256": "61d24f1e4fdab678476ff6195be6f58cfdbbbbb18c6c278d5ce25f49b42f1112",
+      "child": "modules/surface_route/export_backend_r20.py",
+      "child_sha256": "f4bca348952ddb03d922f8e4510debf979c3ea202091244b34a5c6b10e340263",
+      "changes": [
+        [
+          "modules.surface_route.export_scene_r10",
+          "modules.surface_route.export_scene_r20"
+        ],
+        [
+          "from modules.surface_route.ui_bridge_r9 import verify_prepared",
+          "from modules.airway_detail.active_scene_r20 import verify_active_scene as verify_prepared"
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/active_surface_UI_r17.inc",
+      "parent_sha256": "b02315508d8e2fd38a5d345c631811618f4309c35cc2fdabb704d7b97320029f",
+      "child": "ui/releases/feature_completion_r6/src/active_surface_UI_r20.inc",
+      "child_sha256": "a48de16610d0f43b8101b1f808208311872a225c446fa7739d03bf2a3675027c",
+      "changes": [
+        [
+          "  play.stop();playing=false;",
+          "  if(action==\"airway-detail\")saveRecoveryView();\n  play.stop();playing=false;"
+        ],
+        [
+          "modules/surface_route/active_backend_r17.py",
+          "modules/surface_route/active_backend_r20.py"
+        ],
+        [
+          "   loadScene(pendingResult);record(",
+          "   loadScene(pendingResult);if(activeSurfaceAction==\"airway-detail\")restoreRecoveryView();record("
+        ],
+        [
+          "  if(qualityTesting)QTimer::singleShot",
+          "  if(activeRecoveryTesting)QTimer::singleShot(300,this,[this]{recoveryAdvance();});\n  else if(qualityTesting)QTimer::singleShot"
+        ],
+        [
+          "  message(action==\"quality\"?",
+          "  message(action==\"airway-detail\"?u(\"\u6b63\u5728\u5ba1\u6838\u5f53\u524d\u76ee\u6807\u7684\u7ec6\u652f\u6c14\u7ba1\uff1b\u6a21\u578b\u548c\u5bfc\u822a\u4fdd\u6301\u539f\u6837\"):action==\"quality\"?"
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r19.cpp",
+      "parent_sha256": "8b26ae172cfe81663a4881bafdb624c636d2581217a75de77effb99f80694704",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r20.cpp",
+      "child_sha256": "7689e22297f97224416a0325d8b8b6e4f8fe8a68d9166d9c0042b3279d8cc273",
+      "changes": [
+        [
+          "active_binding_r18b.hpp",
+          "active_binding_r20.hpp"
+        ],
+        [
+          "modules/batch_images/UI_feature_current_r19.inc",
+          "modules/batch_images/UI_feature_current_r20.inc"
+        ],
+        [
+          "#include \"active_surface_UI_r17.inc\"",
+          "#include \"active_recovery_UI_r20.inc\"\n#include \"active_surface_UI_r20.inc\""
+        ],
+        [
+          "modules/surface_route/active_backend_r17.py",
+          "modules/surface_route/active_backend_r20.py"
+        ],
+        [
+          "modules/surface_route/export_backend_r10.py",
+          "modules/surface_route/export_backend_r20.py"
+        ],
+        [
+          "for(auto*b:{navButton,recoveryButton})",
+          "for(auto*b:{navButton})"
+        ],
+        [
+          "  if(scene.contains(\"complete_surface\")&&mode==\"reconstruction\")",
+          "  if(scene.contains(\"complete_surface\")&&mode==\"airway-detail\"){startSurfaceAction(mode);return;}\n  if(scene.contains(\"complete_surface\")&&mode==\"reconstruction\")"
+        ],
+        [
+          "if(qualityTesting){QTimer::singleShot(300,this,[this]{qualityTestAdvance();});}else if(activeSurfaceTesting)",
+          "if(activeRecoveryTesting){QTimer::singleShot(300,this,[this]{recoveryAdvance();});}else if(qualityTesting){QTimer::singleShot(300,this,[this]{qualityTestAdvance();});}else if(activeSurfaceTesting)"
+        ],
+        [
+          "message(u(\"\u5df2\u5bfc\u51fa\u81f3 \")+result[\"path\"].toString());",
+          "message(u(\"\u5df2\u5bfc\u51fa\u81f3 \")+result[\"path\"].toString());if(activeRecoveryTesting){recoveryExported(result);return;}"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r19.py",
+      "parent_sha256": "9cfaa4e225c22b3e5dfdb683115be79111084907e0cae546f45214cb9b10884b",
+      "child": "modules/surface_route/board_native_build_r20.py",
+      "child_sha256": "96c988c80979d4f3b3f434aa6a92b1bbff86bcb264d9e0cdd3f55c67c5591fac"
+    }
+  ],
+  "new_bitstream": false
+}

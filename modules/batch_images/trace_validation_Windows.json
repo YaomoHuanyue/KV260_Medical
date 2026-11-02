@@ -1,0 +1,59 @@
+{
+  "status": "passed_all_steps_and_refinement_sample_counts_against_full_original_renderer",
+  "cases": [
+    {
+      "root_refinement_steps": 0,
+      "hit_count": 2304,
+      "sample_count": 9366,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 3,
+      "hit_count": 2304,
+      "sample_count": 9366,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 4,
+      "hit_count": 2304,
+      "sample_count": 9366,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 0,
+      "hit_count": 30,
+      "sample_count": 1196,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 3,
+      "hit_count": 30,
+      "sample_count": 1196,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 4,
+      "hit_count": 30,
+      "sample_count": 1196,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 0,
+      "hit_count": 0,
+      "sample_count": 0,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 3,
+      "hit_count": 0,
+      "sample_count": 0,
+      "all_steps_exact": true
+    },
+    {
+      "root_refinement_steps": 4,
+      "hit_count": 0,
+      "sample_count": 0,
+      "all_steps_exact": true
+    }
+  ]
+}

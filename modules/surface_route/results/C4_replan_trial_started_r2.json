@@ -1,0 +1,11 @@
+{
+  "status": "source_bound_new_surface_C4_comparison_starting",
+  "UI_PID": 508834,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "descriptor_sha256": "7bc2f8e3edf017449dd737728e9f8ff099dd6a46c2c0c03f1b0b4ac0920ebe06",
+  "manual_entry_sha256": "d30ecad6ab8db031c77e562429da3485994c2e2edfa502130f8196e420952532",
+  "UI_binary_sha256": "1e58f3b6e77147ee8048f6952c5c477c4f03922c8dfb80402435838977983ff6",
+  "wrapper_sha256": "0fd71767a969f1fc3a4e7bd882aa32bf1ea3ec2e6937ec0ae3fabcee600c062c",
+  "comparison_source_sha256": "2db0bfa1e1ca8b5cd06a69d8ff71e184fe0083f592678f241ea40a083350e8db",
+  "review_sha256": "3f617f9b47da4a85a2b11a795478f458d6d447cf6e7eee1ce6d1b58568214b0f"
+}

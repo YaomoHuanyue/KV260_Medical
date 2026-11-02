@@ -1,0 +1,185 @@
+{
+  "status": "passed_actual_ARM_CPU_packing_and_pre_PL_bounds_and_unpublished_gate",
+  "PL_access": false,
+  "display_process_changed": false,
+  "packing_cases": [
+    {
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        3,
+        5,
+        7
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        3,
+        5,
+        7
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        3,
+        5,
+        7
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        7,
+        8,
+        9
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        7,
+        8,
+        9
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        7,
+        8,
+        9
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        17,
+        19,
+        23
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        17,
+        19,
+        23
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        17,
+        19,
+        23
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "axis": 2
+    },
+    {
+      "shape": [
+        13,
+        16,
+        17
+      ],
+      "axis": 0
+    },
+    {
+      "shape": [
+        13,
+        16,
+        17
+      ],
+      "axis": 1
+    },
+    {
+      "shape": [
+        13,
+        16,
+        17
+      ],
+      "axis": 2
+    }
+  ],
+  "outer_guard_cases": 42,
+  "rejected_EDT_jobs": 5,
+  "unpublished_candidate_refused": true,
+  "boot_id": "e95c2c0b-2c3b-41cf-8127-c4ff6550935c",
+  "source_sha256": {
+    "dfx/route_audit_speed/navigation_session.py": "1fe74a9cf8be44dde9ca1e86a52e45aafbb7caff0124917207707a8195ecd63f",
+    "dfx/route_audit_speed/audit_runtime.py": "a2f8f6cda826fd299661ff4f2cc4eeafd61966fc7012aed1918582a5263f1252",
+    "modules/navigation/pl/runtime.py": "dd8c7f949d1c88f8a13ab5bbebad917127a75c1761d1450aad539d770279d0ba"
+  },
+  "packing_library_sha256": "ca5d4df2c4d4d3a83588afed4b8ddd0f4807b3c2a09fe993ba5fe5a921d0c9c4"
+}

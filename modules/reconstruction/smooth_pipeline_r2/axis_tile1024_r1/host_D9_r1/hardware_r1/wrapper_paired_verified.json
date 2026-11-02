@@ -1,0 +1,63 @@
+{
+  "status": "D9_actual_native_wrapper_full5_banks_and_original20_refusals_paired_Windows_ARM_no_PL",
+  "actual_native_D9_candidate_used_for_math": true,
+  "actual_XRT_C_API_transport_emulated_only_in_test": true,
+  "original20_negative_cases": [
+    "invalid_vertices_0",
+    "invalid_vertices_1000001",
+    "invalid_vertices_True",
+    "invalid_vertices_1.5",
+    "invalid_iterations_0",
+    "invalid_iterations_17",
+    "invalid_iterations_True",
+    "invalid_iterations_2.5",
+    "invalid_limit_-1",
+    "invalid_limit_inf",
+    "invalid_limit_nan",
+    "invalid_output_dtype_stride_or_size",
+    "invalid_output_dtype_stride_or_size",
+    "invalid_output_dtype_stride_or_size",
+    "readonly_output",
+    "input_output_alias",
+    "work_bank_alias",
+    "report_alias",
+    "wrong_owner_thread",
+    "closed_session"
+  ],
+  "actual_missing_release_refused_before_CDLL": true,
+  "ARM_receipt": {
+    "argv": [
+      "/home/ubuntu/jupyter_notebooks/KV260_System/.venv/bin/python",
+      "-B",
+      "/home/ubuntu/jupyter_notebooks/KV260_System/modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS ARM actual D9 native algorithm through production wrapper; 20 pre-native refusals\n",
+    "missing_release_exit_code": 0,
+    "missing_release_stdout": "PASS actual wrapper refuses missing qualified release before CDLL or XRT access\n",
+    "nice": 10
+  },
+  "newly_uploaded_source_files": [
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime.py",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/wrapper_derivation.json"
+  ],
+  "formal_UI_before_after": {
+    "PID": 5804,
+    "ticks": 264568,
+    "boot": "991daccc-f28f-4510-8bb7-0a998eefa2fe",
+    "ELF": "c384f6b71fe7f76e4ac4d0e681ac2832c8e6149653f84188f9eb9a48ed622378",
+    "identity_SHA256": "54d59dc396070b6690947b4f1d3844a8485bf0ea2be7cd11d52af221c7e3bdc5"
+  },
+  "source_and_evidence_SHA256": {
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/stage_wrapper.py": "4011af4a569abb712d92259ddc2e0f6ae18cdd7cc13ed30a99ecd012d73ccdf6",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime.py": "e2f4fe7783f7271127713fd88748a0092250a5e520af05fb3a97639579e16b8c",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/test_runtime.py": "79dbc60501a861421e5a3f554c8bdf71a7135f81d1e524918f2ffe3b828c4992",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/wrapper_derivation.json": "ecec5c38a59c2c55f851f7d6523f90465db72c82938802e0d38034271c605179",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime_wrapper_ARM_r1.json": "8e197493b846fe02b1f88f56ff0ad6d83b29d4808cff0b27aa656c977df2c6b7",
+    "modules/reconstruction/smooth_pipeline_r2/axis_tile1024_r1/host_D9_r1/hardware_r1/runtime_wrapper_Windows_r1.json": "34286f0d98b314bb4c0b1bce6fa8d3e17b1a14aa5557afeb2609d3c41f14c4e8"
+  },
+  "actual_D9_PL_route_PR_and_board_speed_still_required": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

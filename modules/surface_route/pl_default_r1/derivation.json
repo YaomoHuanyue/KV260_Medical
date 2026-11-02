@@ -1,0 +1,114 @@
+{
+  "actions": {
+    "parent": "modules/surface_route/surface_actions_r15.py",
+    "parent_SHA256": "25b1de0a23df2329cf8dd52cdeb55ea82917e657c72934e9b26bcd0779a06480",
+    "candidate_SHA256": "b0da43a0a262064898696a0230eaf78f6138c67b6b769634735dc0ecbd05db62",
+    "literal_edits": [
+      {
+        "before": "CPU control/preparation surrounds the accepted C9 renderer. R12 measured the\nexisting R4 profile accelerator slower than native PS, so profile solve uses PS4.\nNo bitstream load, PS Marching Cubes, source-scene mutation or UI promotion.",
+        "after": "PS geometry/control surrounds the qualified original CD AXIS512 profile core.\nThe complete filtered raw graph and all original candidate rules are preserved.\nPL is mandatory; explicit PS reference tests are separate. No UI promotion.",
+        "count": 1
+      },
+      {
+        "before": "ROOT=Path(__file__).resolve().parents[2]",
+        "after": "ROOT=Path(__file__).resolve().parents[3]",
+        "count": 1
+      },
+      {
+        "before": "from profile_session_r2 import ProfilePS",
+        "after": "from modules.navigation_comparison.current_release_r1.runtime import Session as ProfileSession,verify_current\nfrom modules.surface_route.pl_default_r1.admission import candidate_sources",
+        "count": 1
+      },
+      {
+        "before": "    closure=verify_sources();output=Path(output).resolve()",
+        "after": "    closure=verify_sources();candidate_closure=candidate_sources();verify_current();output=Path(output).resolve()",
+        "count": 1
+      },
+      {
+        "before": "    cpu=ProfilePS();start=perf_counter();values=solve_all(q,lambda g,d,m,w:cpu.solve(g,d,m,w,4)[1:]);solve=perf_counter()-start",
+        "after": "    start=perf_counter()\n    with ProfileSession() as profile:\n        values=solve_all(q,profile.solve)\n    solve=perf_counter()-start\n    if not profile.restored:raise RuntimeError('Profile session did not restore C6')\n    runtime=dict(identity=0xcd,provider='verified_PL_R1_current_release',silent_PS_fallback=False,\n        calls=profile.calls,full_one_MiB_echo_and_C6_restore_passed=profile.restored,\n        source_manifest_sha256=candidate_closure,\n        admission_sha256=sha(ROOT/'modules/navigation_comparison/current_release_r1/runtime_inputs.json'))",
+        "count": 1
+      },
+      {
+        "before": "        backend='optimized_PS4_native',selection_reason='R12 same-input actual R4 slower than strongest PS',",
+        "after": "        backend='verified_PL_R1_current_release',selection_reason='qualified_PL_default_required_no_silent_PS_fallback',\n        PL_runtime=runtime,",
+        "count": 1
+      },
+      {
+        "before": "        PL_access=False,new_bitstream=False,production_promoted=False)",
+        "after": "        PL_access=True,new_bitstream=False,production_promoted=False)",
+        "count": 1
+      },
+      {
+        "before": "    for name,expected in proof['files_sha256'].items():",
+        "after": "    if proof.get('backend')=='verified_PL_R1_current_release':\n        runtime=proof['PL_runtime'];candidate_closure=candidate_sources()\n        if (runtime['source_manifest_sha256']!=candidate_closure or runtime['identity']!=0xcd\n                or runtime['provider']!='verified_PL_R1_current_release' or runtime['silent_PS_fallback']\n                or not runtime['full_one_MiB_echo_and_C6_restore_passed'] or proof['PL_access'] is not True\n                or runtime['admission_sha256']!=sha(ROOT/'modules/navigation_comparison/current_release_r1/runtime_inputs.json')):\n            raise ValueError('Incomplete current PL comparison runtime receipt')\n        calls=runtime['calls']\n        if not calls or len(calls)%2 or any(c['status']!=0 or not c['all_four_full_4096_byte_DMA_guards_checked']\n                or c['operation']!=i%2 for i,c in enumerate(calls)):\n            raise ValueError('Incomplete full-guard PL scene/query calls')\n    for name,expected in proof['files_sha256'].items():",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "active_actions": {
+    "parent": "modules/surface_route/active_actions_r15.py",
+    "parent_SHA256": "86a0555b65e13651f771f18942d79ef62439d07eaac421d514108c96ea5ec989",
+    "candidate_SHA256": "248b96734459dd5a5bc067ade906719930f4af90682c4cc92815ed8d2d93b4ec",
+    "literal_edits": [
+      {
+        "before": "ROOT=Path(__file__).resolve().parents[2]",
+        "after": "ROOT=Path(__file__).resolve().parents[3]",
+        "count": 1
+      },
+      {
+        "before": "from modules.surface_route.surface_actions_r15 import Comparison,prepare_comparison,prepare_selected,verify_comparison,verify_sources",
+        "after": "from modules.surface_route.pl_default_r1.actions import Comparison,prepare_comparison,prepare_selected,verify_comparison,verify_sources",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "active_backend": {
+    "parent": "modules/surface_route/active_backend_r20.py",
+    "parent_SHA256": "6c23c785daee551296ee50aac5056e1b2a611281ccaf180c8dc3f4554c932d7d",
+    "candidate_SHA256": "9323078a92214cfda70518b25fa7c77dbfc975b82a107a7335d57d6316bd0c51",
+    "literal_edits": [
+      {
+        "before": "ROOT=Path(__file__).resolve().parents[2]",
+        "after": "ROOT=Path(__file__).resolve().parents[3]",
+        "count": 1
+      },
+      {
+        "before": "from modules.surface_route.active_actions_r15 import compare_action,selected_action",
+        "after": "from modules.surface_route.pl_default_r1.active_actions import compare_action,selected_action",
+        "count": 1
+      },
+      {
+        "before": "PL_access=('--source' in sys.argv)",
+        "after": "PL_access=('comparison' in sys.argv or '--source' in sys.argv)",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  },
+  "backend": {
+    "parent": "modules/navigation_replan/backend_r2265.py",
+    "parent_SHA256": "17ed183ff1f766c6cbdeb591d1d250df7ebe571fb541b35183fac0cf7d5984e9",
+    "candidate_SHA256": "39d29830ffc9db488990026d70022dd53ac985b0aec051ba848e8c99f91e315f",
+    "literal_edits": [
+      {
+        "before": "ROOT=Path(__file__).resolve().parents[2]",
+        "after": "ROOT=Path(__file__).resolve().parents[3]",
+        "count": 1
+      },
+      {
+        "before": "from modules.surface_route.active_backend_r20 import main as legacy",
+        "after": "from modules.surface_route.pl_default_r1.active_backend import main as legacy",
+        "count": 1
+      },
+      {
+        "before": "PL_access=('quality' in sys.argv and '--source' in sys.argv)",
+        "after": "PL_access=('comparison' in sys.argv or ('quality' in sys.argv and '--source' in sys.argv))",
+        "count": 1
+      }
+    ],
+    "exact_original_reverse_verified": true
+  }
+}

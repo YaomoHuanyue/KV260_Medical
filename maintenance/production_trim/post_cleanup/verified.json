@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "ELF_SHA256": "ce6534bd0bf7a21e725fcaf458bb82106e388fa672b2bc497cc2155fe948c921",
+  "original_CT_full_pipeline": true,
+  "original_CT_result": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261031_081640_e076e37c",
+  "real_C7_UI_after_retirement": true,
+  "composite_frames": 9,
+  "PL_tests": true,
+  "physical_manual_acceptance": false
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-fPIC",
+    "-shared",
+    "-pthread",
+    "-fopenmp",
+    "-I/usr/include/xrt",
+    "-I/home/ubuntu/kv260_git_check_20261102/dfx/medical/host_extended",
+    "/home/ubuntu/kv260_git_check_20261102/modules/segmentation/ct_pl/graph_ops.cpp",
+    "-lxrt_coreutil",
+    "-o",
+    "/home/ubuntu/kv260_git_check_20261102/build/native/modules__segmentation__ct_pl__build__libct_graph_ops/libct_graph_ops.so"
+  ],
+  "seconds": 4.638083717999507,
+  "released_library_overwritten": false,
+  "PL_access": false
+}

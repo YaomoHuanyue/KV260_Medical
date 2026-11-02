@@ -1,0 +1,90 @@
+{
+  "classification": "static_frozen_graph_inventory_joined_to_actual_full139_PL_proof_not_a_new_hardware_trial",
+  "graph_nodes": {
+    "Constant": 3,
+    "QuantizeLinear": 7,
+    "Conv": 15,
+    "ConvPool": 3,
+    "DequantizeLinear": 10,
+    "Relu": 6,
+    "Resize": 3,
+    "Concat": 3
+  },
+  "all18_convolutions_on_PL": true,
+  "three_pool_chains_on_PL": true,
+  "eight_writer_activation_chains_on_PL": true,
+  "six_reader_LUT_resize_concat_transforms_on_PL": true,
+  "reader_quantizer_targets": [
+    {
+      "quantize": "ct_context_QuantizeLinear",
+      "output": "ct_context_QuantizeLinear_Output",
+      "conv_id": 0
+    },
+    {
+      "quantize": "/up2/Resize_output_0_QuantizeLinear",
+      "output": "/up2/Resize_output_0_QuantizeLinear_Output",
+      "conv_id": 8
+    },
+    {
+      "quantize": "/up2/Concat_output_0_QuantizeLinear",
+      "output": "/up2/Concat_output_0_QuantizeLinear_Output",
+      "conv_id": 9
+    },
+    {
+      "quantize": "/up1/Resize_output_0_QuantizeLinear",
+      "output": "/up1/Resize_output_0_QuantizeLinear_Output",
+      "conv_id": 11
+    },
+    {
+      "quantize": "/up1/Concat_output_0_QuantizeLinear",
+      "output": "/up1/Concat_output_0_QuantizeLinear_Output",
+      "conv_id": 12
+    },
+    {
+      "quantize": "/up0/Resize_output_0_QuantizeLinear",
+      "output": "/up0/Resize_output_0_QuantizeLinear_Output",
+      "conv_id": 14
+    },
+    {
+      "quantize": "/up0/Concat_output_0_QuantizeLinear",
+      "output": "/up0/Concat_output_0_QuantizeLinear_Output",
+      "conv_id": 15
+    }
+  ],
+  "metadata_nodes_still_dispatched_on_PS": [
+    "DequantizeLinear scalar/type metadata",
+    "Deferred Relu clamp flag",
+    "Deferred Resize factor",
+    "Concatenated branch references"
+  ],
+  "metadata_dispatch_does_not_materialize_full_resize_concat_or_activation_tensors": true,
+  "first_context_quantizer_uses_already_D6_quantized_identity_input": true,
+  "PS_dense_work_remaining": [
+    "file decoding and geometry conversion",
+    "bounded five-plane context layout",
+    "final INT8-to-mask threshold",
+    "main airway connected component and sparse discarded-candidate audit",
+    "geometry restoration and output encoding"
+  ],
+  "inherited_ps_operators_string_in_R1_report_is_stale": true,
+  "reporting_cleanup_required_before_formal_promotion": true,
+  "actual_full139_reader_calls_with_one_warmup": 840,
+  "actual_full139_convolutions_with_one_warmup": 2520,
+  "actual_full139_pools_with_one_warmup": 420,
+  "all_operators_on_PL": false,
+  "whole_goal_completed": false,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/axis_tensor_reader_r3/operator_roles_r1/audit.py": "000507286a4f531c4d190f14eeb29b5d3de33754ed0ea14da8c8ac5b4b4cc2ef",
+    "modules/segmentation/outputs/ct_accuracy_v2/pl_model/graph.json": "038ecc73f6fe6805a64af153f31e222453d2bfe7d90a7cddf076862904329eb3",
+    "modules/segmentation/outputs/ct_accuracy_v2/pl_model/tensors.npz": "9c57169691fe8f961f71d595f2b0acfe03c9742de9e7c222e0d3a2dd9b6898ad",
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/build_native/candidate.dll": "ab216e5c6d3a506c58a396f9a664d31629eb2f5e88b5f5f00f51a8af7a22da0a",
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/build_native/compiled.json": "4e610e83918063e40cd6f4e280b00e4e4395328846f3007eed71695aac2bb5af",
+    "results/R3_native_system_ARM_20261022_r1/verified_PC.json": "1f3ba752779212675a4ee982f57cbc60989f3549b613cb5a1cef2ade3a5fb00f",
+    "modules/segmentation/axis_tensor_reader_r3/graph_r1/reader_graph.py": "393b177fed2e9065ec574651afede92dc1200ada03bf80e6a21980bc15de3c19",
+    "modules/segmentation/axis_tensor_reader_r3/streaming_r1/functional.py": "4c51f0dba1853c7f3e7c411d25be314d13bb935115c28ea01052cba89973b26f",
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/pool_graph.py": "402a290d7992b8f78a04aedc3dfb9471821f4a5faacb73fe2eed7890541a4ce2",
+    "modules/segmentation/ct_pl/fused_graph.py": "10aec95cc24c3320c962668031390e616da6d117e8902ac450a453f9d35f723f",
+    "modules/segmentation/ct_pl/stream_graph.py": "09696b4e8948db47577e83f3a88967c52c2e2812f81b384acf515391533f7c0e",
+    "modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py": "5b3a17b324a633d1ced514044555dfff8a47156d99f621f7490fff4c8ecfac2b"
+  }
+}

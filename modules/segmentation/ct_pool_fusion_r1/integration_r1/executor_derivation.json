@@ -1,0 +1,31 @@
+{
+  "original_executor": "modules/segmentation/ct_pl/quantized_runtime.py",
+  "original_executor_SHA256": "e19e1246ed8f9bd110d85bb603af1b9d77aef514b835d1390311fbd6a473769c",
+  "original_method_SHA256": "9038dc2fbf3e07d23721a2f9616bddd0d57d0de20d5b3a02c9839b022478625a",
+  "reversible_literal_edits": [
+    [
+      "elif op=='Conv':",
+      "elif op in ('Conv','ConvPool'):"
+    ],
+    [
+      "                    y=self.backend.conv_quantized(c['id'],qx,qw,self.arrays[c['bias']],scale,qs,qz)",
+      "                    if op=='ConvPool':\n                        y=self.backend.conv_quantized_pool(c['id'],qx,qw,self.arrays[c['bias']],scale,qs,qz)\n                    else:\n                        y=self.backend.conv_quantized(c['id'],qx,qw,self.arrays[c['bias']],scale,qs,qz)"
+    ],
+    [
+      "            assert len(n['outputs'])==1\n            env[n['outputs'][0]]=y",
+      "            if op=='ConvPool':\n                if len(n['outputs'])!=2 or not isinstance(y,tuple) or len(y)!=2:raise RuntimeError('Dual-output backend contract violated')\n                for name,value in zip(n['outputs'],y):env[name]=value\n            else:\n                assert len(n['outputs'])==1\n                env[n['outputs'][0]]=y"
+    ]
+  ],
+  "exact_reverse_verified": true,
+  "all_original_non_pool_operators_preserved": true,
+  "full_skip_and_pool_outputs_named_separately": true,
+  "no_PS_pool_fallback": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/prepare.py": "2db2043b7b01cb98bae2d2dd69073b9052faf00f1065055d05105a022cf47641",
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/pool_graph_head.py": "6231f026fafbf25bf4c9f153f75da40f6b9e2af7c7614c25384b4c4410380a46",
+    "modules/segmentation/ct_pool_fusion_r1/integration_r1/pool_graph.py": "402a290d7992b8f78a04aedc3dfb9471821f4a5faacb73fe2eed7890541a4ce2",
+    "modules/segmentation/ct_pl/quantized_runtime.py": "e19e1246ed8f9bd110d85bb603af1b9d77aef514b835d1390311fbd6a473769c"
+  },
+  "no_actual_PL_DFX_board_or_full139_pass_claim": true,
+  "whole_goal_completed": false
+}

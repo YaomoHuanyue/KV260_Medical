@@ -1,0 +1,20 @@
+{
+  "status": "selected_surface_identity_prefix_camera_and_guidance_tests_passed",
+  "platform": "linux",
+  "tests": [
+    "full_selected_polyline_actual_wall_review_camera_and_exact_raw_node_mapping",
+    "corrupt_noninteger_out_of_range_node_wrong_mesh_or_hidden_candidate_rejected",
+    "selected_daughter_full_reference_source_parameter_and_same_scalar_labels",
+    "audited_prefix_and_root_only_omit_unreached_exits_and_false_camera_motion",
+    "nonmonotone_parameters_false_reference_and_future_node_ids_rejected",
+    "selected_physical_mapping_invariant_under_rigid_LPS_camera_transform",
+    "raw_cycle_selected_edge_explicit_derived_forest_no_mask_or_node_change"
+  ],
+  "PL_access": false,
+  "production_promoted": false,
+  "source_sha256": {
+    "modules/surface_route/test_selected_r13.py": "b18a48828f105b22e3838e6be1e8344b3d579ce98697971c88e20fd698a80b59",
+    "modules/surface_route/selected_surface_r13.py": "bc4aaa639d416a709d56f2c3e370838143ff8c75409ddf07d26323ac10942283",
+    "modules/surface_route/guidance_r13.py": "9a31039a09c29d56dfb4aa2654c57c7998b4e2a8d182803e64f6da2da5df1606"
+  }
+}

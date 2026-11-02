@@ -1,0 +1,47 @@
+{
+  "status": "actual_HDMI_active_scene_export_button_passed",
+  "export": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/exports/20261007_090003_27e67e",
+  "export_report_sha256": "b85b153555cd1748b90f34421a93e12652b08b4cdfb22dc03303674155d72bcd",
+  "source_scene_sha256": "cd1774f3786eb8557bc417ad008fc0249141aee4e40430081ff75135824ab0b2",
+  "UI_binary_sha256": "3369ef70b7a6942986112e72c8ba16eb43a3f78b0d8346e2feab56a78b49c114",
+  "boot_id": "1a514573-6ced-40cc-9af9-9bff299848cb",
+  "UI_peak_RSS_MiB": 226.953125,
+  "heartbeat_ticks_during_export": 1758,
+  "actual_Qt_export": {
+    "UI_peak_RSS_MiB": 226.953125,
+    "detail": "完整模型、属性和原有导出包已生成",
+    "event": {
+      "active_revision": "667005926defb527833f105dd996e5be395dd166a7f676a9946701ff0555c5e9",
+      "active_route_id": "a4d0470f47ce7d595f5c63098e0acb9798601aa8e6396f62715f1230aba5d294",
+      "colored_surface_report": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/exports/20261007_090003_27e67e/surfaces/report.json",
+      "complete_report_seconds": 0.05322721199991065,
+      "complete_reports": "original_analysis/index.json",
+      "complete_reports_scope": "original_segmentation_grid_reference_only",
+      "event": "exported",
+      "files": 53,
+      "lesion_catalogue_state": "retained_candidates",
+      "minimum_candidate_volume_mm3": 14,
+      "path": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/exports/20261007_090003_27e67e",
+      "renderer_scalar_sha256": "d5658d85c7436cd38fc1d9afa0282e707bd08b2d5b89acc8d1cb4ca7e8c012f5",
+      "schema": "kv260.export.v6",
+      "surface_export_seconds": 0.9685924569994313
+    },
+    "heartbeat_ticks_during_export": 1758,
+    "input": "/home/ubuntu/jupyter_notebooks/KV260_System/fixtures/own_ct/CT-chest.nrrd",
+    "new_medical_PL_core_loaded": false,
+    "physical_mouse_verified": false,
+    "production_UI_replaced": false,
+    "source": "/home/ubuntu/jupyter_notebooks/KV260_System/ui/runs/20261004_151324_f601e259",
+    "status": "passed_actual_Qt_export_control_and_async_colored_bundle"
+  },
+  "physical_user_review": false,
+  "production_promoted": false,
+  "PL_access": false,
+  "new_bitstream": false,
+  "evidence_sha256": {
+    "export_complete.png": "5751694263f3f5874b8ffcfae13f6d350947f1a5d15c3371868a5239f9af7d40",
+    "export_UI.json": "8cdc36f308826fdbd21822c92ce0da022c76e0398cd47644150bd7d72d81f3c9",
+    "started.json": "df5c25d63dae3e02d6a6c8b232a689d9f1d193448f321dd874770034b2a0209e",
+    "UI.log": "379de92b10917a9d0657298fdfa06a842553368182c5efc2182a13771434095d"
+  }
+}

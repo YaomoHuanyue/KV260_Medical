@@ -1,0 +1,39 @@
+{
+  "status": "new_surface_native_bend_numeric_and_original_prefix_policy_tests_passed",
+  "platform": "linux",
+  "cases": [
+    {
+      "name": "original_independent_NumPy_bend_and_HUD_all_fields_18_cases_including_4096_capacity",
+      "status": "passed"
+    },
+    {
+      "name": "capacity_order_and_nonfinite_parameters_refused",
+      "status": "passed"
+    },
+    {
+      "name": "independent_known_80_percent_prefix_and_original_target_restoration",
+      "status": "passed"
+    },
+    {
+      "name": "zero_threshold_preserves_original_query",
+      "status": "passed"
+    },
+    {
+      "name": "eight_retry_bound_retained_and_unverified_result_refused",
+      "status": "passed"
+    },
+    {
+      "name": "audit_route_digest_tamper_refused",
+      "status": "passed"
+    }
+  ],
+  "source_sha256": {
+    "modules/surface_route/bend_replan_r3.py": "c4be397cd1480f1a6d57cd7ae6febfc5b04bfe87707d853696772b3e7a6f061f",
+    "modules/surface_route/test_bend_replan_r3.py": "71b73ff3eb8611d8d2e31a2aefbf02bfaf4e0aca27dc946fdab92e93da24b22c",
+    "dfx/route_audit_speed/checked_plan.py": "c60e8be2e6cc2cac25c4a8394c532160eb62ce5a9f3dc121074582032b1d0d16",
+    "dfx/route_audit_speed/protocol.py": "7cfeeff15c8f6084f4ef9521b0ec6c3bf6f93f061b70dd2c7c622084f40c5163",
+    "ui/features/analysis.py": "1a61969935b989e259778f89a248dccc29e715a0af3644c98dfebcc907a6521a"
+  },
+  "native_library_sha256": "0b763dc0fc69809fedbdc0f97471e584277583c8a62b3aff3e076f049411863a",
+  "PL_access": false
+}

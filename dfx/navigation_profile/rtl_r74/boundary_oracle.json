@@ -1,0 +1,19 @@
+{
+  "status": "additional_8705_results_all_bits_independent_original_Python_and_previous_R6_model_exact",
+  "source_and_evidence_sha256": {
+    "dfx/navigation_profile/rtl_r74/check_boundary_oracle.py": "6223d439b849ebe073d8b9a07efced1e00ade8fa68012b7637b108ec4497ad16",
+    "dfx/navigation_profile/rtl_r74/fixture_origin.json": "0171fc539f413e1f9719a54af23b0101109dd7ce304dd1e2a8f94d7f3afdb227",
+    "modules/navigation_comparison/fixtures/own_CT_full_raw_graph_Windows_r2.npz": "ef840acd28aee2b28bf7b4b8a9a1bdb9fd081d6a813237933ed462ee8fe404a7",
+    "modules/navigation_comparison/legacy_profile_r1.py": "06dd996d081b082f4eeb2b3ee6f42d312573c5d65d7b7ecd3faec833850be5d5",
+    "dfx/navigation_profile/edge_pack_r6/runtime.py": "fa31f5a029dc6c2280e0a24be6bde399eb858a3f96fed6a40b1bac62bc89e37e",
+    "dfx/navigation_profile/edge_pack_r6/hls/profile.cpp": "56c362a4032219d730b15dcd66c7f6715ab08eb9cbd991c428f8efa4b94ca64d",
+    "dfx/navigation_profile/edge_pack_r6/build/profile_native.dll": "36d9bff82459a669f33b20b736262889dd1aa03bb684eb299e4e736e0e6f1437"
+  },
+  "original_cases": 14,
+  "total_cases": 16,
+  "additional_results_checked": 8705,
+  "all_distance_parent_node_query_bits_checked": true,
+  "candidate_model_used_as_gold": false,
+  "PL_accessed": false,
+  "full_RTL_passed": false
+}

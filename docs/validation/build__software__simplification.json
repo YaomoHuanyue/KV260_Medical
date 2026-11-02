@@ -1,0 +1,17 @@
+{
+    "checks": {
+        "HU_airway_open_absent": true,
+        "PL_airway_cleanup_open_absent": true,
+        "PL_segmentation_only_absent": true,
+        "PL_transparency": true,
+        "PNG_and_MP4": true,
+        "automatic_preview": true,
+        "external_import": true,
+        "mask_evaluation_open_absent": true,
+        "overview_outline_glow_absent": true,
+        "three_pages": true
+    },
+    "new_bitstream": false,
+    "passed": true,
+    "retired_implementations_compiled": false
+}

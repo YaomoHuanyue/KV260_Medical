@@ -1,0 +1,10 @@
+{
+  "schema": "kv260.medical_autostart.v1",
+  "ui": "v3",
+  "input": "data/CT.nrrd",
+  "input_SHA256": "GENERATE_WITH_scripts_configure_case.py",
+  "result": null,
+  "missing_result": "open_CT_only",
+  "compute_on_boot": false,
+  "synthetic_demo": false
+}

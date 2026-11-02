@@ -1,0 +1,30 @@
+{
+  "status": "candidate_sources_only_not_built_run_or_formally_promoted",
+  "dispatcher": {
+    "parent": "ui/releases/pl_reconstruction_r2/dispatch.py",
+    "parent_SHA256": "fe539880874e0973c74e81bbe1a47808ceec63b7112481144914106127f99dd2",
+    "candidate_SHA256": "506f1111a4afbd912a505c38cee34e2d79cd5f0c71b1560fb82de42c1b62f716",
+    "literal_edits": [
+      {
+        "before": "'modules/ct_preprocess/axis_hu_32_r2/integrated_r1/run_segmentation.py'",
+        "after": "'modules/ct_preprocess/axis_hu_32_r2/bounded_volume_r3/entry_r1.py'"
+      }
+    ]
+  },
+  "main_UI": {
+    "parent": "ui/releases/probability_cleanup_r1/main.cpp",
+    "parent_SHA256": "ff9fb8169eaed760ea1e0c7ba39a8cb0968b068cfdcb2a952893f44a521cfcaa",
+    "candidate_SHA256": "16d0a632a81cdf33ecd6cb5850df82a35e9c17e9c6401250a5b4a503eaaa6c37",
+    "literal_edits": [
+      {
+        "before": "root+\"/ui/releases/pl_reconstruction_r2/backend.py\"",
+        "after": "root+\"/ui/releases/ct_bounded_outputs_r1/backend.py\"",
+        "count": 2
+      }
+    ]
+  },
+  "original_partial_import_probability_policy_model_presence_rendering_navigation_exports_locks_errors_and_stop_after_stage_preserved": true,
+  "input_qualification_manifest_intentionally_absent_until_complete_actual_gate": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,15 @@
+{
+  "original_navigation_source": "kv260_mc/optimized/legacy_software/bronchoscopy_navigation_v2.py",
+  "original_navigation_source_sha256": "820a0b98c1308d998d13d6c7c6d8904054980b588b65148cd9f86d370d05a5d2",
+  "original_chart_function_lines": [
+    250,
+    281
+  ],
+  "original_chart_function_sha256": "e80bdc9d5d0b6ab074cb968f11094e7b0249f821e03d41defe4856ef013c452c",
+  "original_row_filter": "reachable rows only",
+  "chart_renderer": "existing native ReachabilityChart; original data semantics, not a Matplotlib pixel-equivalence claim",
+  "native_chart_source_sha256": "8858d8ecb47d838437fd49f8534f3517a57a7129b799ca8ef0070f46e677aeaf",
+  "accepted_export_source_sha256": "a0eb98192d684e8e09f1407cdbba3b69392ab21ce9324d59ae1e995d8fa594fd",
+  "original_report_audit_sha256": "ec020b32ccea6d719a2468c1454be941439fe570f0b9d8078990d514945876fa",
+  "scope": "Complete profile/Pareto arrays, current selected-route audit, existing generation data and chart export. Formatting and copying run on PS; no medical algorithm or PL bitstream changes."
+}

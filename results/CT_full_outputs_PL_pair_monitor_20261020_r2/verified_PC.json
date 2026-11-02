@@ -1,0 +1,108 @@
+{
+  "status": "independent_PC_real_PL_full_ownCT139_slices5040_conv_complete_outputs_RSS_and_exact_case_restore_verified_not_promoted",
+  "full_own_CT_slices": 139,
+  "total_actual_PL_convolution_calls": 5040,
+  "actual_released_HU32_and_C5_kernels_all_outputs_same_input_model_precision_settings_verified": true,
+  "all_five_full_masks_decoded_entire_geometry_binary_voxels_and_raw_network_hashes_exact": {
+    "lung_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 4346675,
+      "raw_SHA256": "5f582f6d2d0b020d821e112ea5922a0b8c2d214a4fad67c9d580f4150b462719",
+      "all_voxels_binary": true
+    },
+    "airway_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30188,
+      "raw_SHA256": "6c74bdeb0bd81454c74c8a0b347c79e5b3cd0875cd2b3102c6799ea90dc982c7",
+      "all_voxels_binary": true
+    },
+    "nodule_mask.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 2934,
+      "raw_SHA256": "91e7192dfdcc65508a6aa2d1c08b215e7e919d35e393ea3046ca068e8b80cca8",
+      "all_voxels_binary": true
+    },
+    "airway_mask_network.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 39781,
+      "raw_SHA256": "67ac1ae360d20ba599a6b9529d10dd586b5c83099c68dec1700bff83dcf97fb9",
+      "all_voxels_binary": true
+    },
+    "airway_mask_detail.nii.gz": {
+      "shape_zyx": [
+        139,
+        512,
+        512
+      ],
+      "voxels": 30224,
+      "raw_SHA256": "0e17a3e0f9e88bfe0a57ef4513c9f3446198f8d644b7ad3e02f10397d7052feb",
+      "all_voxels_binary": true
+    }
+  },
+  "full139x512x512_int8_logit_threshold_recomputed_against_raw_mask": true,
+  "logits_metadata_preview_PNG_and_non_timing_audit_fields_exact": true,
+  "every_original_owned_archive_member_and_alias_stream_SHA_reverified": true,
+  "exact_completed_process_HU_logs_collected_and_removed_shared_log_only_observed": true,
+  "only_selected_compressed_masks_temporarily_extracted_then_removed": true,
+  "process_peak_RSS_bytes": {
+    "baseline": 914305024,
+    "candidate": 660512768,
+    "reduction": 253792256,
+    "reduction_fraction": 0.2775794175227019
+  },
+  "network_inference_seconds": {
+    "baseline": 24.77820573101053,
+    "candidate": 25.01749879401177
+  },
+  "worker_total_seconds": {
+    "baseline": 48.08416981698247,
+    "candidate": 59.24319587400532
+  },
+  "sampled_board_memory": {
+    "sample_period_seconds": 0.1,
+    "observations": {
+      "baseline": {
+        "samples": 499,
+        "minimum_MemAvailable_bytes": 2600697856,
+        "minimum_CmaFree_bytes": 421822464
+      },
+      "candidate": {
+        "samples": 607,
+        "minimum_MemAvailable_bytes": 2876805120,
+        "minimum_CmaFree_bytes": 421310464
+      }
+    },
+    "sampled_system_and_CMA_minima_not_instantaneous_peaks": true,
+    "process_exact_peak_RSS_is_in_each_complete_report": true
+  },
+  "exact_current_case_GUI_restore_and_reversible_PC_identity_sync_checked": true,
+  "clinical_GT_or_accuracy_improvement_or_new_kernel_speedup_not_claimed": true,
+  "source_and_evidence_SHA256": {
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/review.py": "9c62af886427f704764f54f78a3bca58f017382f40184efbf7a9e32640c01e08",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/trial.py": "b2a499e353dee3f147649d0cb7736658b0ca71b2abeb8afa6e3b6cdc89f93f9e",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/worker.py": "eec1f299c26818bafc75f363a96547672b90b42e5b1d4d907ab7a04257daf71d",
+    "modules/segmentation/full_outputs_PL_pair_monitor_r2/controller.py": "86cf12b3d2f9bc3eff02e0bd52110b87b544dc14a79e7532600fe9d3acdda9d5",
+    "results/CT_full_outputs_PL_pair_monitor_20261020_r2/stream_collection.json": "937e92ef6c5757a7712ab937cbe5f9f3bf4152c61c3fc4ab7eb713aed2ef34a4",
+    "results/CT_full_outputs_PL_pair_monitor_20261020_r2/cleanup_verified.json": "c011a8bffcea0452de1ef12a6bc1da2e3b8b4c17d0f37fd8b603df9b97fcaa07"
+  },
+  "archive_SHA256": "661e981f1a8d18343c56d23b546983e9e540ca15a59c0033591682ab5ebb470a",
+  "PL_accessed": true,
+  "production_promoted": false,
+  "whole_goal_completed": false
+}

@@ -1,0 +1,27 @@
+{
+  "actual_correctness_passed": true,
+  "release_manifest_SHA256": "0b07426ba30e46229acc70196f1cbd4ee6546195c8853a5b7bfb44b7b0b1b754",
+  "partial_SHA256": "f697cb89b597d444a4d84d32f59d4ec8beb30038065e2a8f3ba6d95e0816a32e",
+  "full_CT_voxels": 36438016,
+  "all34_frames_and24_complete_volume_comparisons_passed": true,
+  "default_module_backend": "DFX_PL_HU_AXIS_D6",
+  "no_PS_fallback": true,
+  "speed_gate_passed": false,
+  "fastest_PL": {
+    "seconds": 0.08696748001966625,
+    "backend": "PL_AXIS_chunk8388608"
+  },
+  "strongest_PS": {
+    "seconds": 0.06230499304365367,
+    "backend": "PS_native4"
+  },
+  "speed_gap_preserved_and_further_optimization_required": true,
+  "module_default_follows_user_PL_first_policy": true,
+  "current_HDMI_full_pipeline_has_not_yet_migrated_to_this_preprocessing_entry": true,
+  "proof_SHA256": {
+    "results/HU_AXIS32_board_r2/verified_Windows.json": "881d6b80dddc1f078dcf6400e0a82d760a2b80ecd74b299f03af850ab5da8a1d",
+    "results/HU_AXIS32_board_r2/verified_ARM.json": "3744a3b07ae3b74758d77eb3048d13e8a48e18fd6b88e08e54c5634a59ffd3e5",
+    "modules/ct_preprocess/axis_hu_32_r2/qualify_board_r2.py": "6c6fadaa1a1a3f5ba6623b607cf54c10556b910a31593c3642454489eeb128de"
+  },
+  "whole_goal_completed": false
+}

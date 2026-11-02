@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/qmldir</file>
+        <file>qml/Theme.qml</file>
+        <file>qml/Icon.qml</file>
+        <file>qml/Tip.qml</file>
+        <file>qml/IconButton.qml</file>
+        <file>qml/Btn.qml</file>
+        <file>qml/Seg.qml</file>
+        <file>qml/Toggle.qml</file>
+        <file>qml/Slide.qml</file>
+        <file>qml/Stepper.qml</file>
+        <file>qml/Tag.qml</file>
+        <file>qml/Pill.qml</file>
+        <file>qml/Section.qml</file>
+        <file>qml/Brand.qml</file>
+        <file>qml/Header.qml</file>
+        <file>qml/Rail.qml</file>
+        <file>qml/RailItem.qml</file>
+        <file>qml/Footer.qml</file>
+        <file>qml/CtTools.qml</file>
+        <file>qml/CtScrub.qml</file>
+        <file>qml/MeshTools.qml</file>
+        <file>qml/Inspector3D.qml</file>
+        <file>qml/NavPanel.qml</file>
+        <file>qml/Transport.qml</file>
+        <file>qml/Overlay.qml</file>
+        <file>qml/DemoCaption.qml</file>
+        <file>assets/tabler-icons.ttf</file>
+    </qresource>
+</RCC>

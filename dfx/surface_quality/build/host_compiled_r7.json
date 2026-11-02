@@ -1,0 +1,22 @@
+{
+  "status": "compiled_on_ARM_no_PL_access",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "architecture": "aarch64",
+  "source_sha256": {
+    "host/bridge.cpp": "877c484b5c95de323835572dccd3eacd323e1e632d1f8a9877c6877ed9deb104",
+    "host/file_io.hpp": "a28c73960da06ac68d72246c7ae20774920e1ae74ce0522fabfa8af6d521953e",
+    "host/packet_validator.hpp": "1c9290402ad62ad1356adb305d95adb22646c3fb4b721aadb28f9b07360d0138",
+    "host/provenance.json": "1c250dcd219fcd39b2b47b5526c020e30676ed2b29fd3df5ae0de1938f8861e6",
+    "host/reference.cpp": "9568fdeff133272249dca8ec1143c35a129d003a71c3fbe2058db9ba69a676cd",
+    "host/runtime.hpp": "a259287f9f1b0710bbe8809f0482656fb5b9d9c564b149cb4a11c38f974842a7",
+    "host/validator.cpp": "a53e456f6d69b70ac7f0c86bcde0ac027f85a74424b3bdd5b9df6ef0a621121e",
+    "compile_host.sh": "a29b9ab6ebcd1aa65fca6d3f529360043f0c04e09edd6fd566803f52f0c5a281"
+  },
+  "library_sha256": {
+    "libquality_bridge.so": "b0ccf23c31ff930b91e249029db2df5b2193f13c39c81ddfedf94c1fe397e526",
+    "libquality_reference.so": "4b66cfc3cf60c9508dfb5980b48f1ca2504d778017c914d22c41ad398068ae02",
+    "libquality_validator.so": "536dc8256dbcdd8512dcc9780257fec56a28792b5bdb3d8b9527f85b77d2654a"
+  },
+  "PL_accessed": false,
+  "firmware_installed": false
+}

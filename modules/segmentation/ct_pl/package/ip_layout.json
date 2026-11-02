@@ -1,0 +1,31 @@
+{
+  "ip_layout": {
+    "m_count": "3",
+    "m_ip_data": [
+      {
+        "m_type": "IP_KERNEL",
+        "m_ip_control": "AP_CTRL_NONE",
+        "m_int_enable": "0",
+        "m_interrupt_id": "0",
+        "m_base_address": "0x80000000",
+        "m_name": "ct_reader:ct_reader_0"
+      },
+      {
+        "m_type": "IP_KERNEL",
+        "m_ip_control": "AP_CTRL_NONE",
+        "m_int_enable": "0",
+        "m_interrupt_id": "0",
+        "m_base_address": "0x80010000",
+        "m_name": "ct_conv:ct_conv_0"
+      },
+      {
+        "m_type": "IP_KERNEL",
+        "m_ip_control": "AP_CTRL_NONE",
+        "m_int_enable": "0",
+        "m_interrupt_id": "0",
+        "m_base_address": "0x80020000",
+        "m_name": "ct_writer:ct_writer_0"
+      }
+    ]
+  }
+}

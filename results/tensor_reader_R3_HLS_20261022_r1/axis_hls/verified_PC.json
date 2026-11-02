@@ -1,0 +1,208 @@
+{
+  "status": "independent_actual_R3_full_AP159_HLS_all_RTL_and_actual_II_resources_verified",
+  "actual_CLI_Csim_exit0": true,
+  "actual_direct_AP_Csim_exit0": true,
+  "actual_HLS_exit0": true,
+  "actual142_valid17_invalid_full_frame_data_sidebands_padding_guards_exact": true,
+  "all142_native_outputs_SHA256_unchanged_from_original": true,
+  "actual_generated_members": 40,
+  "actual_generated_Verilog_modules": 40,
+  "all_generated_RTL_and_initializers_SHA256_read": true,
+  "actual_HLS_estimates": {
+    "BRAM_18K": 45,
+    "DSP": 53,
+    "FF": 12756,
+    "LUT": 17629,
+    "URAM": 0
+  },
+  "actual_estimated_clock_ns": 7.977,
+  "actual_transform_loop_II": 3,
+  "requested_II1_is_not_achieved_transform_II": true,
+  "all_actual_pipeline_reports": {
+    "h/tensor/hls/syn/report/load_tables_Pipeline_VITIS_LOOP_52_1_VITIS_LOOP_54_2_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_52_1_VITIS_LOOP_54_2"
+      }
+    ],
+    "h/tensor/hls/syn/report/read_words_Pipeline_VITIS_LOOP_3_1_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_3_1"
+      }
+    ],
+    "h/tensor/hls/syn/report/reader_packets_1_Pipeline_VITIS_LOOP_13_1_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_13_1"
+      }
+    ],
+    "h/tensor/hls/syn/report/reader_packets_1_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4"
+      }
+    ],
+    "h/tensor/hls/syn/report/reader_packets_Pipeline_VITIS_LOOP_13_1_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_13_1"
+      }
+    ],
+    "h/tensor/hls/syn/report/reader_packets_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4_csynth.xml": [
+      {
+        "actual_pipeline_II": 1,
+        "report_element": "VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4"
+      }
+    ],
+    "h/tensor/hls/syn/report/transform_words_Pipeline_VITIS_LOOP_23_1_csynth.xml": [
+      {
+        "actual_pipeline_II": 3,
+        "report_element": "VITIS_LOOP_23_1"
+      }
+    ]
+  },
+  "actual_HLS_hierarchy_estimates": {
+    "ct_tensor_reader_csynth.xml": {
+      "BRAM_18K": 45,
+      "DSP": 53,
+      "FF": 12756,
+      "LUT": 17629,
+      "URAM": 0
+    },
+    "load_tables_Pipeline_VITIS_LOOP_52_1_VITIS_LOOP_54_2_csynth.xml": {
+      "FF": 752,
+      "LUT": 581,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "load_tables_csynth.xml": {
+      "FF": 828,
+      "LUT": 816,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "read_words_Pipeline_VITIS_LOOP_3_1_csynth.xml": {
+      "FF": 291,
+      "LUT": 132,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "read_words_csynth.xml": {
+      "FF": 394,
+      "LUT": 397,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "reader_packets_1_Pipeline_VITIS_LOOP_13_1_csynth.xml": {
+      "FF": 57,
+      "LUT": 369,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "reader_packets_1_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4_csynth.xml": {
+      "FF": 872,
+      "LUT": 1247,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "reader_packets_1_csynth.xml": {
+      "DSP": 16,
+      "FF": 1632,
+      "LUT": 2125,
+      "BRAM_18K": 0,
+      "URAM": 0
+    },
+    "reader_packets_Pipeline_VITIS_LOOP_13_1_csynth.xml": {
+      "FF": 57,
+      "LUT": 369,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "reader_packets_Pipeline_VITIS_LOOP_22_2_VITIS_LOOP_22_3_VITIS_LOOP_22_4_csynth.xml": {
+      "FF": 1055,
+      "LUT": 1247,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "reader_packets_csynth.xml": {
+      "DSP": 16,
+      "FF": 1815,
+      "LUT": 2125,
+      "BRAM_18K": 0,
+      "URAM": 0
+    },
+    "reader_pipeline_Block_entry_proc_csynth.xml": {
+      "DSP": 6,
+      "FF": 64,
+      "LUT": 113,
+      "BRAM_18K": 0,
+      "URAM": 0
+    },
+    "reader_pipeline_csynth.xml": {
+      "BRAM_18K": 15,
+      "DSP": 22,
+      "FF": 2527,
+      "LUT": 2753,
+      "URAM": 0
+    },
+    "transform_words_Pipeline_VITIS_LOOP_23_1_csynth.xml": {
+      "DSP": 9,
+      "FF": 2419,
+      "LUT": 4876,
+      "BRAM_18K": 0,
+      "URAM": 0
+    },
+    "transform_words_csynth.xml": {
+      "DSP": 15,
+      "FF": 2903,
+      "LUT": 5258,
+      "BRAM_18K": 0,
+      "URAM": 0
+    },
+    "transformed_pipeline_csynth.xml": {
+      "BRAM_18K": 15,
+      "DSP": 31,
+      "FF": 6111,
+      "LUT": 9756,
+      "URAM": 0
+    },
+    "transformed_stream_Block_entry_proc_csynth.xml": {
+      "FF": 34,
+      "LUT": 59,
+      "BRAM_18K": 0,
+      "DSP": 0,
+      "URAM": 0
+    },
+    "transformed_stream_csynth.xml": {
+      "BRAM_18K": 15,
+      "DSP": 31,
+      "FF": 4826,
+      "LUT": 7588,
+      "URAM": 0
+    }
+  },
+  "current_C5_RP_fit_not_yet_qualified": true,
+  "whole_RM_area_and100MHz_route_5PR_RTL_backpressure_reset_ARM139_system_pending": true,
+  "all_owned_server_bytes_collected_and_exact_root_removed": true,
+  "PL_accessed": false,
+  "production_promoted": false,
+  "whole_goal_completed": false,
+  "source_and_evidence_SHA256": {
+    "tools/verify_tensor_reader_R3_HLS_20261022_r1.py": "bd418180b44dc27fc6d252a43c63c22c162a35e1eb2bc65a93081f901cd2319f",
+    "results/tensor_reader_R3_HLS_20261022_r1/axis_hls/current_candidate.zip": "58ca840387e7936a191d95b38f64d5912d0a596d200eea5502242294d039a7fa",
+    "results/tensor_reader_R3_HLS_20261022_r1/axis_hls/stream_collection_verified.json": "97b2e2a68d234285d0208b77ea487a47df8c5972e9da02ed3aee6404f3f2a8d8",
+    "results/tensor_reader_R3_HLS_20261022_r1/axis_hls/cleanup_verified_stream.json": "ba296a07b5095e0a3b1cd787b74b9bbec79717cf60c0b86a2994f728d8202201",
+    "modules/segmentation/axis_tensor_reader_r3/native_verified.json": "a674b3bf1f7a70a9710f5bab52b16e53e3d2fcd0132bb9e63c045ac198ac5979",
+    "modules/segmentation/axis_tensor_reader_r3/source_derivation.json": "755556bece2e068991146f7bf4676ac2167f79bd6fd3b10d6fc175b883370dc8",
+    "modules/segmentation/axis_tensor_reader_r3/kernel.cpp": "05c8434ed9f8e53321ffce73d1649db1b0a38fb8d0224d327e141e0e30473610"
+  }
+}

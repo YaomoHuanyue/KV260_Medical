@@ -1,0 +1,7 @@
+{
+  "real_model_layers": 18,
+  "slice": 90,
+  "max_abs_logit_difference_vs_ort": 0.43262481689453125,
+  "threshold_disagreement_fraction_vs_ort": 0.0,
+  "note": "Graph implements explicit INT32 accumulation and FP32 scales; optimized ORT may differ at quantization rounding boundaries."
+}

@@ -1,0 +1,10 @@
+{
+  "original": "D:\\Xilinx_Project\\2026FPGA\\kv260_mc\\optimized\\legacy_software\\clean_airway_tree.py",
+  "original_file_SHA256": "6d6c5668864e45af4511260202f303b4ecba0caab589ab658b4c0be0784193b0",
+  "original_line": 36,
+  "original_end_line": 41,
+  "function_body_SHA256": "83c174163a5717cf52afdbede86b954f525616ec90bf29917840fdb6d2ce4bb2",
+  "standalone_SHA256": "612d91f2fe9aaca6f2ccdd4964d60681abb04ff7af8b61eafda6e2d6419f6ab9",
+  "function_text_byte_exact": true,
+  "imports_only_added": true
+}

@@ -1,0 +1,123 @@
+{
+  "edits": [
+    {
+      "parent": "modules/batch_images/finish_r3.py",
+      "parent_sha256": "f698939738637e30f58a4af633f4ea27cd9307ce8127581d0c19ccd5f534afce",
+      "child": "modules/batch_images/finish_current_r19.py",
+      "child_sha256": "c19ef11da22278a9008c48002da17896965dd8a28f5dfd5e51ef31c0079b741d",
+      "changes": [
+        [
+          "from heatmap_C8_r2 import work_heatmap",
+          "from heatmap_current_r19 import work_heatmap"
+        ],
+        [
+          "['C6_endoscope_trace_target_outline_normals']",
+          "['C9_current_scalar_endoscope_trace_target_outline_normals']"
+        ],
+        [
+          "helper_source_sha256=SHA(Path(__file__)),diagnostic=diagnostic,",
+          "helper_source_sha256=SHA(Path(__file__)),diagnostic=diagnostic,active_scene_binding=request['active_scene_binding'],"
+        ],
+        [
+          "['C8_exact_verified_input_EDT']",
+          "['C8_verified_lung_lesion_EDT']"
+        ],
+        [
+          "original_adaptive_multivolume_debug_heatmap",
+          "original_adaptive_multivolume_steps_current_airway_field"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/batch_images/UI_feature_r4.inc",
+      "parent_sha256": "cc7ca60f9666a092d201bfb8492d9a37e998ce3e665ff075b41c35827ccc2a50",
+      "child": "modules/batch_images/UI_feature_current_r19.inc",
+      "child_sha256": "3172e3a326f629aef142ad62d9e71661b00f904bf19f54d03c8d48e316749b21",
+      "changes": [
+        [
+          "if(batchTestKind==\"no_route\"){",
+          "if(batchTestKind==\"no_route\"&&!scene.contains(\"complete_surface\")){"
+        ],
+        [
+          " QJsonObject batchSources;",
+          " QJsonObject batchActiveBinding;\n QJsonObject batchSources;"
+        ],
+        [
+          "  batchHasNavigation=scope->cameraCount()>0&&QFileInfo::exists(source+\"/navigation/route.json\");",
+          "  batchHasNavigation=scene.contains(\"complete_surface\")?(scope->cameraCount()>1&&scope->totalDistance()>0&&QFileInfo::exists(scene[\"complete_surface\"].toObject()[\"bundle\"].toString()+\"/route.json\")):(scope->cameraCount()>0&&QFileInfo::exists(source+\"/navigation/route.json\"));batchActiveBinding={};"
+        ],
+        [
+          "batchProgressClock.elapsed()>10000",
+          "batchProgressClock.elapsed()>60000"
+        ],
+        [
+          "\u7b49\u5f85 PL \u5b8c\u6210\u5e27\u8d85\u8fc7 10 \u79d2",
+          "\u7b49\u5f85 PL \u5b8c\u6210\u5e27\u8d85\u8fc7 60 \u79d2"
+        ],
+        [
+          "  batchThread=std::thread([this,paths]{QJsonObject hashes;QString error;try{for(auto p:paths)hashes[p]=videoHash(p);}catch(const std::exception&e){error=QString::fromUtf8(e.what());}",
+          "  auto savedScene=scene;QString savedScenePath=scenePath,savedRoot=root;\n  batchThread=std::thread([this,paths,savedScene,savedScenePath,savedRoot]{QJsonObject hashes,binding;QString error;\n   try{if(savedScene.contains(\"complete_surface\"))binding=navigation_media::activeVideoBinding(savedRoot,savedScenePath,savedScene,hashes,[this](QString path){return videoHash(path);});\n    else for(auto p:paths)hashes[p]=videoHash(p);}catch(const std::exception&e){error=QString::fromUtf8(e.what());}"
+        ],
+        [
+          "[this,hashes,error]{batchThread.join();batchSources=hashes;",
+          "[this,hashes,binding,error]{batchThread.join();batchSources=hashes;batchActiveBinding=binding;"
+        ],
+        [
+          "plScope->start(source,req);",
+          "if(!batchActiveBinding.isEmpty())plScope->startScene(batchActiveBinding[\"bundle\"].toString(),batchActiveBinding[\"revision\"].toString(),req);else plScope->start(source,req);"
+        ],
+        [
+          "if(batchRunning&&batchAwaiting){batchFrame=meta;",
+          "if(batchRunning&&batchAwaiting){if(!batchActiveBinding.isEmpty()&&!navigation_media::activeVideoFrame(batchActiveBinding,meta)){batchAwaiting=false;plScope->stop([this]{batchFinish(u(\"\u6279\u91cf\u622a\u56fe\u6536\u5230\u5176\u4ed6\u573a\u666f\u7684\u5e27\"));});return;}batchFrame=meta;"
+        ],
+        [
+          "Invalid C6 reference planes",
+          "Invalid complete endoscope reference planes"
+        ],
+        [
+          "QString(\"C6_depth_outline.rgba\")",
+          "QString(batchActiveBinding.isEmpty()?\"C6_depth_outline.rgba\":\"C9_depth_outline.rgba\")"
+        ],
+        [
+          "QString(\"C6_normals.rgba\")",
+          "QString(batchActiveBinding.isEmpty()?\"C6_normals.rgba\":\"C9_normals.rgba\")"
+        ],
+        [
+          "  QJsonObject request{{\"scene\",scenePath}",
+          "  QJsonObject request{{\"active_scene_binding\",batchActiveBinding},{\"scene\",scenePath}"
+        ],
+        [
+          "root+\"/modules/batch_images/finish_r3.py\"",
+          "(batchActiveBinding.isEmpty()?root+\"/modules/batch_images/finish_r3.py\":root+\"/modules/batch_images/finish_current_r19.py\")"
+        ],
+        [
+          "{\"one_writer_image_in_flight\",true}",
+          "{\"one_writer_image_in_flight\",true},{\"active_scene_binding\",batchActiveBinding}"
+        ]
+      ]
+    },
+    {
+      "parent": "ui/releases/feature_completion_r6/src/main_complete_scene_r18b.cpp",
+      "parent_sha256": "824ccdd4e8dba8b8c456bd516108f47d2243e830a243b8bd42dffe68261f6b94",
+      "child": "ui/releases/feature_completion_r6/src/main_complete_scene_r19.cpp",
+      "child_sha256": "8b26ae172cfe81663a4881bafdb624c636d2581217a75de77effb99f80694704",
+      "changes": [
+        [
+          "modules/batch_images/UI_feature_r4.inc",
+          "modules/batch_images/UI_feature_current_r19.inc"
+        ],
+        [
+          "for(auto*b:{navButton,batchButton,recoveryButton})",
+          "for(auto*b:{navButton,recoveryButton})"
+        ]
+      ]
+    },
+    {
+      "parent": "modules/surface_route/board_native_build_r18b.py",
+      "parent_sha256": "60bd9f90b8864f1163a7a18ff47163f407a34ff76eb111258296cac7c2302fbd",
+      "child": "modules/surface_route/board_native_build_r19.py",
+      "child_sha256": "9cfaa4e225c22b3e5dfdb683115be79111084907e0cae546f45214cb9b10884b"
+    }
+  ],
+  "new_bitstream": false
+}
