@@ -13,7 +13,10 @@
       "route"
     ],
     "top": "rm_medical",
-    "origin": "dfx/route_audit_speed/build_rm.tcl"
+    "origin": "dfx/route_audit_speed/build_rm.tcl",
+    "auxiliary_inputs": [
+      "dfx/medical/rtl/route_pad.v"
+    ]
   },
   "surface": {
     "create": "hardware/rm/surface.tcl",
