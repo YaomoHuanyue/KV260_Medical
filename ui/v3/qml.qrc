@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>qml/qmldir</file>
         <file>qml/Theme.qml</file>
+        <file>qml/NavHud.qml</file>
         <file>qml/Icon.qml</file>
         <file>qml/Tip.qml</file>
         <file>qml/IconButton.qml</file>

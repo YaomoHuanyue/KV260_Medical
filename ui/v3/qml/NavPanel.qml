@@ -7,6 +7,8 @@ Rectangle {
     function s(k) { var v = ui.s[k]; return v ? v : ({}) }
     readonly property var hud: ui.s.hud ? ui.s.hud : ({})
     readonly property string state: hud.state || ""
+    readonly property var nav: ui.s.navInfo ? ui.s.navInfo : ({})
+    readonly property var perf: ui.s.plPerf ? ui.s.plPerf : ({})
     function num(v, d) { return (v === undefined || v === null || isNaN(v)) ? "—" : Number(v).toFixed(d === undefined ? 2 : d) }
     Rectangle { width: 1; height: parent.height; color: Theme.line }
     Flickable {
@@ -46,8 +48,26 @@ Rectangle {
             Column {
                 width: parent.width; spacing: 6
                 Item { width: parent.width; height: 18
+                    Text { text: "路径进度"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
+                    Text { anchors.right: parent.right; text: root.num(root.nav.arc_mm, 0) + " / " + root.num(root.nav.total_mm, 0) + " mm · " + root.num((root.nav.progress || 0) * 100, 0) + "%"
+                           font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink } }
+                Rectangle { width: parent.width; height: 5; radius: 3; color: Theme.raised
+                    Rectangle { width: parent.width * Math.max(0, Math.min(1, root.nav.progress || 0)); height: parent.height; radius: 3; color: Theme.accent } }
+                Item { width: parent.width; height: 18
                     Text { text: "沿路径剩余"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
                     Text { anchors.right: parent.right; text: ui.s.remaining !== undefined ? root.num(ui.s.remaining, 1) + " mm" : "—"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink } }
+                Item { width: parent.width; height: 18; visible: root.nav.narrowest_diameter_mm !== undefined
+                    Text { text: "前方最窄处"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
+                    Text { anchors.right: parent.right; text: "Ø" + root.num(root.nav.narrowest_diameter_mm, 2) + " mm · " + root.num(root.nav.narrowest_ahead_mm, 0) + " mm 后"
+                           font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink } }
+                Item { width: parent.width; height: 18; visible: root.nav.target_distance_mm !== undefined
+                    Text { text: "目标"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
+                    Text { anchors.right: parent.right; text: "候选 #" + root.nav.target_index + (root.nav.target_volume_mm3 !== undefined ? " · " + root.num(root.nav.target_volume_mm3, 0) + " mm³" : "") + " · 距 " + root.num(root.nav.target_distance_mm, 1) + " mm"
+                           font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink } }
+                Item { width: parent.width; height: 18; visible: (root.perf.fps || 0) > 0
+                    Text { text: "PL · C6 渲染"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
+                    Text { anchors.right: parent.right; text: root.num(root.perf.fps, 1) + " 帧/秒 · 往返 " + root.num(root.perf.ms, 0) + " ms"
+                           font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.accent } }
                 Item { width: parent.width; height: 18
                     Text { text: "器械 / 每侧余量"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink2 }
                     Text { anchors.right: parent.right; text: root.num(root.s("diameter").value, 1) + " / " + root.num(root.s("margin").value, 1) + " mm"; font.family: Theme.font; font.pixelSize: Theme.fSmall; color: Theme.ink } }

@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7922,
-      "SHA256": "2c86b752f65e4a09965ee19074fdd41a8dd8bb6d0b57118f8ce8887d6d44f36d"
+      "bytes": 8144,
+      "SHA256": "c520140f1fd026232fbd4d15989a3f6f00ad0b91f5caca6389c07ef7a0b079de"
     },
     {
       "path": "accelerators/ct_reader/kernel.cpp",
@@ -9613,13 +9613,13 @@
     },
     {
       "path": "ui/v3/manifest.json",
-      "bytes": 28427,
-      "SHA256": "f154b43670e5b3336731410aeced232547bd739ee8e6c2560531770041e4c7c7"
+      "bytes": 28524,
+      "SHA256": "c77a29574fef668840fc2dcbdace54001dca1ddf5a72a66216a30afbfeed1de1"
     },
     {
       "path": "ui/v3/qml.qrc",
-      "bytes": 1042,
-      "SHA256": "2d038acee2647f57c63d858e0c1ee12862212fc6ef33e71a1823767fce629e3d"
+      "bytes": 1078,
+      "SHA256": "e084bd2c771d0b602986f8e7a0e15e3556ea2a174a3893676004bdd2a30ef0f9"
     },
     {
       "path": "ui/v3/qml/Brand.qml",
@@ -9677,9 +9677,14 @@
       "SHA256": "2f82e69512f21ce0a52760f3851c0cc75dfbdf61f68c20f7209997ef4e22fb39"
     },
     {
+      "path": "ui/v3/qml/NavHud.qml",
+      "bytes": 2456,
+      "SHA256": "2fa05940a200cf56daa62f88876087e1d2daf4c95797a2419472a7ff679f8796"
+    },
+    {
       "path": "ui/v3/qml/NavPanel.qml",
-      "bytes": 9034,
-      "SHA256": "bd64cda9b2fb7bfddaa5fa64efbf97eacd218eca598d6a09e340b61c57d2dcb6"
+      "bytes": 11508,
+      "SHA256": "2e71c7d366a6e70f169cf3dddcda9edcd31be580995ffe60489a8691f0e00f97"
     },
     {
       "path": "ui/v3/qml/Overlay.qml",
@@ -9878,8 +9883,8 @@
     },
     {
       "path": "ui/v3/src/include/v3_shell.inc",
-      "bytes": 35346,
-      "SHA256": "bae5f55ddc5ffa3da08ad30776f934d09ceaa3718b6c51ef9ed37a9239a4c671"
+      "bytes": 37261,
+      "SHA256": "9ce3455d0f6dd09cda91c484e52ef29be56495cf801fcd6a3a32c399043012d7"
     },
     {
       "path": "ui/v3/src/include/view_methods_r1.inc",
@@ -9888,13 +9893,13 @@
     },
     {
       "path": "ui/v3/src/include/views_attributes_r52.hpp",
-      "bytes": 9803,
-      "SHA256": "4034938214bd3ce8ff4257bb0bdfdadcaf670a11397908626766a8ef2a9b46f4"
+      "bytes": 11828,
+      "SHA256": "d886be98b5afab4ae4b816d841ac5215fed7371deb4d7e796f60346995d2abbd"
     },
     {
       "path": "ui/v3/src/main.cpp",
-      "bytes": 155402,
-      "SHA256": "54fa182328fcba27c6659d3640f2647a3f7e8045ae813d3abce28cbca404f5d2"
+      "bytes": 155449,
+      "SHA256": "63c052c4fa18627c63c7a8a94983621e7d1487790711265f726f33bcbaa9b18d"
     },
     {
       "path": "ui/v3/src/pl_composite.cpp",

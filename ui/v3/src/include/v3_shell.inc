@@ -6,7 +6,7 @@ QQmlEngine *qmlEngine=nullptr;
 QWidget *legacyHost=nullptr;
 QStackedWidget *stage=nullptr;
 QQuickWidget *headerQ=nullptr,*railQ=nullptr,*footerQ=nullptr,*inspectorQ=nullptr,*navPanelQ=nullptr,*transportQ=nullptr;
-QQuickWidget *ctToolsQ=nullptr,*ctScrubQ=nullptr,*meshToolsQ=nullptr,*overlayQ=nullptr;
+QQuickWidget *ctToolsQ=nullptr,*ctScrubQ=nullptr,*meshToolsQ=nullptr,*overlayQ=nullptr,*navHudQ=nullptr;
 QList<QPointer<QQuickWidget>> quickPanes;
 QList<QPointer<QWidget>> shellWatched;
 QStringList shellErrors;
@@ -97,9 +97,11 @@ void layoutOverlays(){
   overlayQ->setGeometry(rectOf(stage));overlayQ->setVisible(!drawerKey.isEmpty()||overlayQ->property("closing").toBool());
   {QRect st=rectOf(stage);
    if(demoTitleShown()){int w=qMin(760,st.width()-80);demoQ->setGeometry(st.left()+(st.width()-w)/2,st.top()+(st.height()-200)/2,w,200);}
+   else if(page==2&&scope->isVisible()){QRect r=rectOf(scope);int w=qMin(760,r.width()-28);demoQ->setGeometry(r.left()+(r.width()-w)/2,r.bottom()-66,w,52);}
    else{int w=qMin(760,st.width()-40);demoQ->setGeometry(st.left()+(st.width()-w)/2,st.bottom()-(page==2?150:118),w,52);}
    demoQ->setVisible(demoActive);}
-  for(auto*q:{ctToolsQ,ctScrubQ,meshToolsQ,overlayQ,demoQ})if(q->isVisible())q->raise();
+  {bool nav=page==2&&scope->isVisible()&&scope->cameraCount()>1;if(nav){QRect r=rectOf(scope);navHudQ->setGeometry(r.left()+12,r.top()+40,250,118);}navHudQ->setVisible(nav);}
+  for(auto*q:{ctToolsQ,ctScrubQ,meshToolsQ,navHudQ,overlayQ,demoQ})if(q->isVisible())q->raise();
  }
 void setDrawer(QString key){
   gamepadSuspend();
@@ -122,6 +124,21 @@ void shellNavChanged(){
   bridge->republish("camera");bridge->republish("align");
   bridge->set("hud",scope->hudCurrent().toVariantMap());
   bridge->set("remaining",qMax(0.,double(scope->totalDistance()-scope->distance())));
+  // 导航关键数据（分岔级数、下一分岔、进度、到目标距离、前方最窄处、目标信息）
+  auto target=scene["navigation"].toObject()["report"].toObject()["target"].toObject();auto c=target["centroid_lps_mm"].toArray();
+  bool hasTarget=c.size()==3;QVector3D t=hasTarget?QVector3D(float(c[0].toDouble()),float(c[1].toDouble()),float(c[2].toDouble())):QVector3D();
+  auto info=scope->navInfo(t,hasTarget);
+  if(hasTarget){int idx=target["index"].toInt(-1);info["target_index"]=idx;
+   for(auto v:scene["candidates"].toArray()){auto o=v.toObject();if(o["index"].toInt()==idx){info["target_volume_mm3"]=o["volume_mm3"].toDouble();break;}}}
+  bridge->set("navInfo",info.toVariantMap());
+ }
+// PL 镜头帧：最近 2 s 的实际呈现帧率与单帧往返时间
+QVector<qint64> plFrameTimes;
+void shellPlFrame(double roundTripMs){
+  if(!bridge||shellDead)return;qint64 now=beatClock.elapsed();plFrameTimes<<now;
+  while(!plFrameTimes.isEmpty()&&now-plFrameTimes.first()>2000)plFrameTimes.removeFirst();
+  double fps=plFrameTimes.size()>1?1000.*(plFrameTimes.size()-1)/qMax<qint64>(1,now-plFrameTimes.first()):0;
+  bridge->set("plPerf",QVariantMap{{"fps",fps},{"ms",roundTripMs},{"at",double(now)}});
  }
 // 场景载入：分岔刻度、结构状态、流程耗时
 void shellSceneLoaded(){
@@ -135,6 +152,7 @@ void publishStructure(){if(bridge&&!shellDead)bridge->set("structure",structureM
 void shellTick(){
   if(!bridge||shellDead)return;
   bridge->set("busy",processing());
+  {auto p=bridge->get("plPerf").toMap();if(p.value("fps").toDouble()>0&&beatClock.elapsed()-qint64(p.value("at").toDouble())>2500){p["fps"]=0.;bridge->set("plPerf",p);plFrameTimes.clear();}}
   if(pipelineRunning){int s=int((beatClock.elapsed()-pipelineStartMs)/1000);if(s!=lastPublishedSecond){lastPublishedSecond=s;
     for(auto&v:pipelineStages){auto m=v.toMap();if(m["key"]=="segmentation"&&m["state"]=="run"){m["detail"]=segmentationInfo?segmentationInfo->text():QString();v=m;}}
     publishPipeline();}}
@@ -162,7 +180,7 @@ void buildShell(QPushButton*resetScopeButton,QPushButton*fitButton,QPushButton*r
   bridge->addProgress("progress",progress);bridge->addText("log",log);
   // C++ 直接发布的值：先插入默认值，QML 绑定才能收到后续更新
   bridge->set("page",tabs->currentIndex());bridge->set("drawer",QString());bridge->set("busy",true);bridge->set("theme","dark");
-  bridge->set("hud",QVariantMap{});bridge->set("navMarks",QVariantList{});bridge->set("remaining",0.);bridge->set("structure",structureMode);
+  bridge->set("hud",QVariantMap{});bridge->set("navInfo",QVariantMap{});bridge->set("plPerf",QVariantMap{});bridge->set("navMarks",QVariantList{});bridge->set("remaining",0.);bridge->set("structure",structureMode);
   bridge->set("disclaimer",QString::fromUtf8("研究原型 · 非临床诊断"));
   bridge->set("demo",QVariantMap{{"active",false},{"step",0},{"total",demoTotal},{"text",QString()},{"title",QString()},{"subtitle",QString()},{"process",false}});
   resetPipeline("wait");publishPipeline();
@@ -194,6 +212,7 @@ void buildShell(QPushButton*resetScopeButton,QPushButton*fitButton,QPushButton*r
   ctToolsQ=pane("CtTools.qml",true);ctScrubQ=pane("CtScrub.qml",true);meshToolsQ=pane("MeshTools.qml",true);
   overlayQ=pane("Overlay.qml",true);overlayQ->hide();
   demoQ=pane("DemoCaption.qml",true);demoQ->hide();
+  navHudQ=pane("NavHud.qml",true);navHudQ->hide();
   auto*demoKey=new QShortcut(QKeySequence(Qt::Key_F5),this);connect(demoKey,&QShortcut::activated,this,[this]{demoStart();});
   auto*processKey=new QShortcut(QKeySequence(Qt::Key_F6),this);connect(processKey,&QShortcut::activated,this,[this]{demoProcessStart();});
   for(QWidget*w:{static_cast<QWidget*>(slices[0]),static_cast<QWidget*>(overview),static_cast<QWidget*>(scope),static_cast<QWidget*>(stage)})watchGeometry(w);
