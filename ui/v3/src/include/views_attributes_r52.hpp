@@ -6,6 +6,7 @@
 #include <QOpenGLShaderProgram>
 #include <QOpenGLFramebufferObject>
 #include <memory>
+#include <cmath>
 #include <functional>
 #include "navigation_camera.hpp"
 #include "gamepad_camera.hpp"
@@ -118,6 +119,28 @@ public:
  bool manualMotion(float millimeters,float yawDegrees,float pitchDegrees);
  float distance()const{return cameraDistance;}
  float totalDistance()const{return arcs.isEmpty()?0:arcs.last();}
+ // 导航关键数据：分岔级数、下一分岔距离与转向、路径进度、到目标距离、前方最窄处（全部取自已载入的路径/HUD/分岔事件，不新增计算后端）
+ QJsonObject navInfo(const QVector3D&target,bool hasTarget)const{
+  QJsonObject o;if(positions.isEmpty()||arcs.size()!=positions.size())return o;
+  int ci=qBound(0,cameraIndex,positions.size()-1);float cur=cameraDistance,total=arcs.last();
+  o["arc_mm"]=cur;o["total_mm"]=total;o["progress"]=total>0?double(qBound(0.f,cur/total,1.f)):0.;
+  int passed=0,events=0;double nextArc=-1;int nextId=-1;
+  for(auto v:cues){auto e=v.toObject();if(!e.contains("junction_arc_mm"))continue;++events;double ja=e["junction_arc_mm"].toDouble();
+   if(ja<=cur+0.05)++passed;else if(nextArc<0||ja<nextArc){nextArc=ja;nextId=e["id"].toInt();}}
+  o["junctions_passed"]=passed;o["junctions_total"]=events;
+  if(nextArc>=0){
+   int j=cameraForDistance(float(nextArc)),b=cameraForDistance(float(qMin(double(total),nextArc+10.)));
+   QVector3D f=forwards[j].normalized(),u=ups[j].normalized(),r=QVector3D::crossProduct(f,u).normalized(),d=(positions[b]-positions[j]);
+   QString dir=u8"直行";double angle=0;
+   if(d.length()>1e-3){d.normalize();double lat=QVector3D::dotProduct(d,r),ver=QVector3D::dotProduct(d,u),al=QVector3D::dotProduct(d,f);
+    angle=qRadiansToDegrees(std::atan2(std::sqrt(lat*lat+ver*ver),al));
+    if(angle>=12)dir=std::abs(lat)>=std::abs(ver)?(lat>0?u8"向右":u8"向左"):(ver>0?u8"向上":u8"向下");}
+   o["next_junction_mm"]=nextArc-cur;o["next_direction"]=dir;o["next_angle_deg"]=angle;o["next_junction_id"]=nextId;}
+  if(hasTarget)o["target_distance_mm"]=double((positions[ci]-target).length());
+  double minD=-1,minArc=0;
+  for(int i=ci;i<hud.size()&&i<arcs.size();++i){double v=hud[i].toObject()["current_diameter_mm"].toDouble(-1);if(v>0&&(minD<0||v<minD)){minD=v;minArc=arcs[i];}}
+  if(minD>0){o["narrowest_diameter_mm"]=minD;o["narrowest_ahead_mm"]=minArc-cur;}
+  return o;}
  void resetView();void turn(float degrees){yaw+=degrees;refresh();notifyPose(false);}
  bool fitVisible();bool restoreOverviewCamera(const QJsonObject&);
  QJsonObject overviewCamera()const;
